@@ -9,6 +9,36 @@
 
 - **Valores:**
 
+En WeHaveAnIdea, nos dedicamos a adherirnos a un conjunto de valores esenciales que moldean nuestra cultura organizacional y definen nuestro enfoque como equipo. Estos principios fundamentales no solo representan nuestra identidad, sino que también guían nuestras acciones y decisiones diarias. En este sentido, nosotros creemos firmemente en:
+
+1. Accesibilidad: Creemos en la importancia de hacer que la información y los recursos profesionales de alta calidad sean accesibles para una amplia audiencia. Nuestra plataforma está diseñada para ser inclusiva y accesible, brindando a todos los usuarios, independientemente de su ubicación o situación, las herramientas necesarias para su desarrollo profesional.
+
+2. Adaptabilidad: Nuestra plataforma se adapta a una variedad de campos profesionales y áreas de estudio, ofreciendo rutas personalizadas que se ajustan a las circunstancias y objetivos individuales de cada usuario. Esta flexibilidad asegura que podamos atender a una amplia gama de necesidades profesionales y académicas.
+
+3. Conectividad: Facilitamos la conexión con oportunidades educativas, profesionales y de desarrollo, ampliando la red de contactos y recursos disponibles para nuestros usuarios. Nuestra plataforma actúa como un puente entre los usuarios y las oportunidades que pueden impulsar su crecimiento profesional.
+
+4. Desarrollo Continuo: Facilitamos el desarrollo y la mejora continua de habilidades y conocimientos, adaptándonos a los cambios en el mercado laboral y en las tendencias de la industria. Nuestra plataforma proporciona acceso a recursos educativos y oportunidades de formación que apoyan el crecimiento profesional a lo largo de toda la carrera y/o especialización de un usuario.
+
+5. Empoderamiento: Nuestro objetivo es empoderar a los usuarios al proporcionarles las herramientas, conocimientos y recursos necesarios para gestionar y potenciar su vida profesional. Les ofrecemos el apoyo necesario para tomar decisiones informadas y asumir el control de su trayectoria profesional.
+
+6. Eficiencia: Nos esforzamos por optimizar el proceso de planificación profesional para ayudar a los usuarios a tomar decisiones informadas y estratégicas sobre su futuro. Nuestra plataforma proporciona análisis precisos y recomendaciones basadas en datos que permiten a los usuarios avanzar de manera eficiente y efectiva en sus trayectorias profesionales.
+
+7. Ética: Valoramos profundamente la ética en el manejo de datos y el uso de inteligencia artificial. Nos comprometemos a proteger la privacidad y la seguridad de los datos de nuestros usuarios, asegurándonos de que todas las prácticas sean transparentes, responsables y conformes a las regulaciones vigentes. La ética es fundamental en el diseño y la implementación de nuestras soluciones tecnológicas para garantizar un impacto positivo y equitativo en el desarrollo profesional de nuestros usuarios.
+
+8. Futuro: Nos enfocamos en preparar a los usuarios para el futuro del trabajo al anticipar tendencias y cambios en el mercado laboral. Nuestra plataforma ofrece soluciones proactivas para ayudar a los usuarios a adaptarse y prosperar en un entorno laboral en constante evolución.
+
+9. Integridad: Garantizamos la integridad y precisión de la información proporcionada mediante el uso de datos y algoritmos confiables. Nos comprometemos a ofrecer recomendaciones basadas en información precisa y actualizada para apoyar las decisiones profesionales de nuestros usuarios.
+
+10. Innovación: La empresa se distingue por su capacidad para ofrecer soluciones innovadoras en la planificación de la carrera profesional. Aprovechamos las últimas tecnologías en inteligencia artificial para crear herramientas avanzadas que permiten a los usuarios trazar rutas de carrera efectivas y adaptadas a sus necesidades. Nuestro enfoque en la innovación impulsa la evolución constante de nuestros servicios, asegurando que siempre estemos a la vanguardia en el apoyo al desarrollo profesional.
+
+11. Interactividad: Proporcionamos una plataforma interactiva que permite a los usuarios recibir recomendaciones personalizadas, feedback y actualizaciones en tiempo real sobre su progreso profesional. La interactividad mejora la experiencia del usuario y facilita una mayor participación en su propio desarrollo profesional.
+    
+12. Orientación Profesional: Ofrecemos un conjunto integral de herramientas y recursos diseñados para guiar a los usuarios en el desarrollo y la gestión de su carrera profesional. Desde asesoramiento sobre elecciones educativas, cualidades, y hasta estrategias de avance en la carrera. Nuestros recursos están diseñados para ayudar a los usuarios a alcanzar sus objetivos y maximizar su potencial.
+
+13. Personalización: Nuestra plataforma proporciona una experiencia altamente personalizada al adaptar los consejos y rutas de carrera y/o especialización a las características, intereses y aspiraciones individuales de cada usuario. Utilizamos algoritmos sofisticados para analizar el perfil de cada usuario y ofrecer recomendaciones y estrategias específicas que se alineen con sus metas únicas.
+
+14. Transparencia: Mantenemos un compromiso con la transparencia al ofrecer información clara y accesible sobre oportunidades de carrera, requisitos y caminos posibles. Los usuarios pueden confiar en que recibirán información completa y honesta para tomar decisiones bien fundamentadas.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 #### Pescorán Angulo, Juan Fabritzzio - U20221C936 - Ingeniería de Software
@@ -17,6 +47,7 @@
 
 Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptitudes ayudan a que el trabajo en equipo sea más eficiente y efectivo, creando química entre los compañeros de trabajo. Mis conocimientos en C++, C#, Java, JavaScript, MongoDB, DDD, entre otros, serán de gran ayuda para cumplir con todas las pautas dentro del trabajo final de este curso.
 
+---
 
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
