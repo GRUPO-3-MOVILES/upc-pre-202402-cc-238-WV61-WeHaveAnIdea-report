@@ -3,9 +3,14 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+
 - **Misión:**
 
+Nuestra misión es ofrecer una aplicación móvil innovadora para el mercado peruano que empodere a los individuos en la planificación y gestión de sus carreras profesionales. Utilizando herramientas personalizadas basadas en inteligencia artificial, facilitamos el acceso a recursos y oportunidades diseñados para maximizar el potencial y fomentar un desarrollo continuo y efectivo.
+
 - **Visión:**
+
+Aspiramos a ser líderes en la integración e implementación de soluciones tecnológicas avanzadas en Sudamérica para la planificación profesional de las personas. Nuestro objetivo es proporcionar una orientación constante y altamente personalizada, apoyando a los usuarios en la consecución de sus metas profesionales y en la adaptación a las tendencias cambiantes del mercado laboral.
 
 - **Valores:**
 
@@ -43,7 +48,7 @@ En WeHaveAnIdea, nos dedicamos a adherirnos a un conjunto de valores esenciales 
 
 #### Pescorán Angulo, Juan Fabritzzio - U20221C936 - Ingeniería de Software
 
-<img src="/assets/img/capitulo-I/profiles/juan-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/juan-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="250">
 
 Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptitudes ayudan a que el trabajo en equipo sea más eficiente y efectivo, creando química entre los compañeros de trabajo. Mis conocimientos en C++, C#, Java, JavaScript, MongoDB, DDD, entre otros, serán de gran ayuda para cumplir con todas las pautas dentro del trabajo final de este curso.
 
@@ -51,7 +56,7 @@ Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptit
 
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
-<img src="/assets/img/capitulo-I/profiles/flavio-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/flavio-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="270">
 
 Acerca de mí: Me considero una persona meticulosa y profundamente dedicada, con un firme compromiso hacia la mejora continua en todas las áreas de mi trabajo. Mi enfoque detallista y preciso me permite avanzar de manera eficiente y ágil en los proyectos, con especial énfasis en la documentación, la identificación de errores y la detección de oportunidades de mejora. Siempre estoy dispuesto a apoyar a mis compañeros en todo lo que sea necesario y me esfuerzo constantemente por entregar productos de la más alta calidad.
 
@@ -69,7 +74,7 @@ Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias 
 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
 
-<img src="/assets/img/capitulo-I/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="180">
 
 Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis características me permiten tener un gran impacto en el trabajo en equipo debido a que siempre busco que todos los integrantes entiendan los objetivos a alcanzar y aprendamos juntos durante el desarrollo del proyecto. Por otro lado, tengo conocimientos en C++, HTML, CSS, git bash, MsSql, MongoDB, diseño y aplicaciones web, los cuáles serán beneficiosos para cumplir con el Student Outcome y criterios de evaluación del curso.
 
