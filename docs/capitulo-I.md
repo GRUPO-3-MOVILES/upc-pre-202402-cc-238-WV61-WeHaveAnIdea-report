@@ -32,6 +32,8 @@ Además, cuento con un amplio conocimiento en diversos entornos y modelos de pro
 
 <img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="200">
 
+Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona altamente responsable, organizada, puntual y empática. Mi capacidad de adaptación a entornos cambiantes y habilidad para trabajar colaborativamente en equipo son aspectos destacados de mi perfil. Tengo conocimientos en Python, C++, HTML, CSS, Javascript, MySQL, MongoDB y SQLite.
+
 ---
 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
