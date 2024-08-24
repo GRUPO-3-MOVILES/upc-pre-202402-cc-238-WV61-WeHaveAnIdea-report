@@ -20,25 +20,23 @@ Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptit
 
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
-<img src="/assets/img/Flavio.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/flavio-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="200">
+
+Acerca de mí: Me considero una persona meticulosa y profundamente dedicada, con un firme compromiso hacia la mejora continua en todas las áreas de mi trabajo. Mi enfoque detallista y preciso me permite avanzar de manera eficiente y ágil en los proyectos, con especial énfasis en la documentación, la identificación de errores y la detección de oportunidades de mejora. Siempre estoy dispuesto a apoyar a mis compañeros en todo lo que sea necesario y me esfuerzo constantemente por entregar productos de la más alta calidad.
+
+Además, cuento con un amplio conocimiento en diversos entornos y modelos de programación, incluyendo JavaScript, Python, HTML, CSS, MySQL, MongoDB, Flutter, y GitHub, entre otros. Estas competencias no solo son valiosas para el resultado del curso, sino que también aseguran un desarrollo favorable y multidisciplinario a lo largo del proyecto.
 
 ---
 
 #### Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 - Ingeniería de Software
 
-<img src="/assets/img/Aldhair.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="200">
 
 ---
 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
 
-<img src="/assets/img/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="200">
-
-Nombre completo: Lucio Heli Yen Cerna
-
-Código de estudiante: U202213143
-
-Carrera: Ingeniería de Software
+<img src="/assets/img/capitulo-I/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="200">
 
 Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis características me permiten tener un gran impacto en el trabajo en equipo debido a que siempre busco que todos los integrantes entiendan los objetivos a alcanzar y aprendamos juntos durante el desarrollo del proyecto. Por otro lado, tengo conocimientos en C++, HTML, CSS, git bash, MsSql, MongoDB, diseño y aplicaciones web, los cuáles serán beneficiosos para cumplir con el Student Outcome y criterios de evaluación del curso.
 
