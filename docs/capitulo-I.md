@@ -13,9 +13,10 @@
 
 #### Pescorán Angulo, Juan Fabritzzio - U20221C936 - Ingeniería de Software
 
-<img src="/assets/img/Juan.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/juan-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="200">
 
----
+Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptitudes ayudan a que el trabajo en equipo sea más eficiente y efectivo, creando química entre los compañeros de trabajo. Mis conocimientos en C++, C#, Java, JavaScript, MongoDB, DDD, entre otros, serán de gran ayuda para cumplir con todas las pautas dentro del trabajo final de este curso.
+
 
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
