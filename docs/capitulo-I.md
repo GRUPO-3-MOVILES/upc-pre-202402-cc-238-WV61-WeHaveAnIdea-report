@@ -31,8 +31,15 @@
 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
 
-<img src="/assets/img/Lucio.png" alt="Yen Cerna, Lucio Heli" width="200" height="200">
+<img src="/assets/img/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="200">
 
+Nombre completo: Lucio Heli Yen Cerna
+
+Código de estudiante: U202213143
+
+Carrera: Ingeniería de Software
+
+Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis características me permiten tener un gran impacto en el trabajo en equipo debido a que siempre busco que todos los integrantes entiendan los objetivos a alcanzar y aprendamos juntos durante el desarrollo del proyecto. Por otro lado, tengo conocimientos en C++, HTML, CSS, git bash, MsSql, MongoDB, diseño y aplicaciones web, los cuáles serán beneficiosos para cumplir con el Student Outcome y criterios de evaluación del curso.
 
 ## 1.2. Solution Profile
 
