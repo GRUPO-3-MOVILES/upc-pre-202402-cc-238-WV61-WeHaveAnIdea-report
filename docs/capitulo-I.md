@@ -2,15 +2,23 @@
 
 ## 1.1. Startup Profile
 
+Según el Informe Anual de LinkedIn Learning (2024), más del 45% de los profesionales experimentan una sensación de abrumo debido a la vasta cantidad de cursos y certificaciones disponibles en línea. Esta sobrecarga de opciones conduce con frecuencia a una parálisis en la toma de decisiones, lo que resulta en la inacción frente al desarrollo de habilidades críticas. A esta situación se suma que un 65% de estos profesionales enfrentan dificultades para identificar con precisión cuáles son las competencias demandadas por las empresas y organizaciones a las que aspiran, complicando aún más su avance profesional.
+ 
+De manera complementaria, un estudio de la Society for Human Resource Management (2022) reveló que entre 2021 y 2022, el 45% de los empleados en sectores tecnológicos informaron no contar con una orientación clara sobre cómo progresar en sus carreras. Esta falta de guía contribuye a un conformismo profesional que estanca su desarrollo, aumentando el riesgo de que sus habilidades queden obsoletas en un entorno laboral que evoluciona rápidamente. Además, solo un 65% de las empresas ofrecen programas de asesoramiento y modelos de capacitación efectivos, lo que subraya una deficiencia crítica en el apoyo al crecimiento continuo de sus empleados. Este fenómeno se ha identificado como un obstáculo significativo para el desarrollo profesional en un mercado laboral cada vez más competitivo y dinámico.
+
+En respuesta a estos desafíos, un equipo compuesto por estudiantes de la Universidad Peruana de Ciencias Aplicadas ha establecido WeHaveAnIdea, una startup innovadora dedicada al desarrollo de soluciones tecnológicas diseñadas para abordar las problemáticas actuales del desarrollo profesional. Nuestra misión se centra en empoderar a los profesionales peruanos mediante herramientas avanzadas basadas en inteligencia artificial que no solo faciliten la toma de decisiones informadas en su trayectoria profesional, sino que también ofrezcan un asesoramiento personalizado. Este enfoque está orientado a guiar de manera efectiva el desarrollo de habilidades y la especialización en áreas clave que alinean con las demandas actuales.
+
+En nuestro firme compromiso con la excelencia y la innovación, hemos desarrollado y patentado Roademics, una aplicación móvil revolucionaria que transforma la manera en que los profesionales planifican y gestionan su vida profesional. Roademics se distingue por ofrecer un enfoque altamente personalizado en el desarrollo laboral, utilizando inteligencia artificial para crear hojas de ruta detalladas que incluyen un asesor virtual. Esta herramienta no solo proporciona recomendaciones precisas sobre cursos, certificaciones, y oportunidades laborales, sino que también asegura que estas sugerencias estén en perfecta sintonía con las metas individuales y las habilidades de cada usuario, garantizando así un crecimiento continuo.
+
 ### 1.1.1. Descripción de la Startup
 
 - **Misión:**
 
-Nuestra misión es ofrecer una aplicación móvil innovadora para el mercado peruano que empodere a los individuos en la planificación y gestión de sus carreras profesionales. Utilizando herramientas personalizadas basadas en inteligencia artificial, facilitamos el acceso a recursos y oportunidades diseñados para maximizar el potencial y fomentar un desarrollo continuo y efectivo.
+Nuestra misión es revolucionar el desarrollo profesional en Perú y más allá, mediante la creación de herramientas tecnológicas basadas en inteligencia artificial que faciliten la toma de decisiones informadas, guiando a los usuarios en la construcción de trayectorias laborales exitosas. Nos comprometemos a ofrecer un asesoramiento personalizado y accesible, que impulse la adquisición de habilidades y especializaciones relevantes, garantizando un crecimiento profesional continuo y sostenible.
 
 - **Visión:**
 
-Aspiramos a ser líderes en la integración e implementación de soluciones tecnológicas avanzadas en Sudamérica para la planificación profesional de las personas. Nuestro objetivo es proporcionar una orientación constante y altamente personalizada, apoyando a los usuarios en la consecución de sus metas profesionales y en la adaptación a las tendencias cambiantes del mercado laboral.
+Aspiramos a ser la plataforma líder en el empoderamiento profesional en América Latina, ofreciendo soluciones tecnológicas avanzadas que permitan a cada individuo alcanzar su máximo potencial a través de un asesoramiento personalizado e innovador, adaptado a las necesidades dinámicas del mercado laboral global que se presenta en la actualidad, junto a las metas y objetivos que plantea cada individuo con sus atributos y cualidades.
 
 - **Valores:**
 
@@ -66,7 +74,7 @@ Además, cuento con un amplio conocimiento en diversos entornos y modelos de pro
 
 #### Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 - Ingeniería de Software
 
-<img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="200">
+<img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="250">
 
 Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona altamente responsable, organizada, puntual y empática. Mi capacidad de adaptación a entornos cambiantes y habilidad para trabajar colaborativamente en equipo son aspectos destacados de mi perfil. Tengo conocimientos en Python, C++, HTML, CSS, Javascript, MySQL, MongoDB y SQLite.
 
@@ -80,27 +88,29 @@ Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis característi
 
 ## 1.2. Solution Profile
 
+En WeHaveAnIdea, nos dedicamos a proporcionar soluciones innovadoras y de alta calidad que permitan a nuestros usuarios alcanzar un mayor nivel de seguridad, precisión y confianza en la planificación y gestión de sus carreras profesionales y/o vidas laborales. Con este propósito en mente, hemos desarrollado con meticulosidad nuestra aplicación insignia: Roademics.
+
+Roademics es una plataforma integral que ofrece un enfoque exhaustivo para el desarrollo y la orientación profesional. Su interfaz intuitiva y fácil de usar, complementada con un modelo de asesoramiento basado en inteligencia artificial, permite a los usuarios explorar mapas de rutas de carrera personalizadas. Estas rutas están diseñadas para adaptarse a sus intereses, cualidades y objetivos, presentando gráficos interactivos que ilustran las principales opciones de mejora disponibles. Además, Roademics proporciona recomendaciones detalladas sobre los cursos y temas que deberían estudiarse o desarrollarse para avanzar en su trayectoria profesional, promoviendo la mejora continua.
+
+El asesor de la plataforma también sugiere oportunidades de empleo y presenta hojas de ruta de diversas empresas, indicando las habilidades que buscan. De esta forma, el asesor de inteligencia artificial puede compararlos y buscar las mejores opciones para el usuario. Esto no solo permite a los usuarios alinear sus competencias con los requisitos del mercado laboral, sino que también les da la oportunidad de obtener oportunidades de empleos en lugares en donde no se les ocurrio investigar en primer lugar. 
+
+Mediante un proceso de mejora continua, Roademics asegura que los usuarios no solo cumplan con sus objetivos, sino que también continúen perfeccionando sus habilidades. Así, podrán destacarse en el mercado y experimentar un notable desarrollo profesional, incluso después de haber alcanzado sus metas iniciales.
+
 **Características Principales:**
 
 ### 1.2.1 Antecedentes y problemática
 
-En el actual entorno laboral, donde los cambios tecnológicos y las exigencias del mercado evolucionan a un ritmo acelerado, es crucial que los profesionales mantengan una actitud de aprendizaje continuo para no quedar rezagados. 
+El desarrollo profesional continuo es un objetivo crucial para una amplia gama de individuos, desde estudiantes hasta profesionales en activo, que buscan mejorar constantemente sus habilidades en función de las demandas actuales del mercado y de sus propias cualidades, deseos y metas personales. Sin embargo, existen barreras significativas que dificultan el avance efectivo en sus carreras y especializaciones. Estas barreras pueden provocar una parálisis total, ya sea de manera voluntaria o involuntaria, impidiendo no solo el cumplimiento de sus principales objetivos, sino también llevando a la obsolescencia en el entorno laboral, falta de satisfacción por una carrera profesional o incluso problemas psicológicos, como el síndrome de desgaste profesional (Evans et al., 2021).
 
-Sin embargo, una tendencia común observada en muchos trabajadores es el conformismo profesional, especialmente después de haber alcanzado un nivel de estabilidad en sus carreras. Esta complacencia puede llevar a la obsolescencia de habilidades, lo que a su vez disminuye la competitividad y limita las oportunidades de crecimiento profesional.
+Esta problemática puede manifestarse de diversas maneras y por una variedad de razones, dependiendo del contexto específico. Sin embargo, se basa en una serie de factores clave que muchas empresas e instituciones educativas reconocen, pero no logran abordar de manera efectiva. Según la Society for Human Resource Management (2022), un 35% de las empresas en América reportan que carecen de acceso a asesoramiento y contenido de entrenamiento laboral adecuado y personalizado para sus empleados, lo que resulta en una falta de claridad sobre las oportunidades de mejora disponibles. Además, Neill (2022) señala que aproximadamente el 45% de los estudiantes no sienten que sus instituciones educativas les ofrezcan un asesoramiento adecuado o materiales de orientación sobre su futura carrera profesional, ni sobre los mejores caminos a seguir en función de sus metas y características personales.
 
-Las características principales de la aplicación son las siguientes:
+Sumado a la falta de asesoramiento y de información adecuada, también enfrentamos la saturación de información. Según Coursera (2024), alrededor del 45% de sus usuarios informan que, aunque los cursos ofrecidos son de alta calidad y les proporcionan nuevas habilidades y conocimientos, no están seguros de si estas habilidades son las más adecuadas para sus futuros profesionales. Según el reporte proporcionado por LinkedIn (2024), uno de cada cinco usuarios admite haber tomado un curso en línea y presentar las certificaciones que se les fueron otorgadas, sin saber si eso les será útil para conseguir un trabajo en la empresa que más desean.
 
-- Evaluación Continua de Habilidades: La aplicación ofrecerá herramientas para evaluar las habilidades actuales de los profesionales, identificando áreas de mejora y recomendando cursos y recursos específicos para cerrar esas brechas.
+Finalmente, otro aspecto crucial de esta problemática es el conformismo, en el cual los individuos pueden adaptarse rápidamente a una posición y luego cesar en el esfuerzo por mejorar continuamente sus habilidades. Esto puede ocurrir porque se sienten cómodos en su posición actual o creen que ya han alcanzado sus objetivos. Este fenómeno es particularmente notorio entre empleados que ya están establecidos en una empresa, lo cual puede llevar a que estos se vuelvan prescindibles y las organizaciones busquen opciones más eficientes. Entre 2021 y 2023, se reportó una disminución del 5% en la conformidad de los empleados en diversas organizaciones americanas; sin embargo, se considera que esta reducción no es suficiente, y que es necesario erradicar la conformidad para mejorar el rendimiento general, el avance continuo y, en consecuencia, el éxito en proyectos empresariales dentro de equipos multidisciplinarios (Abofol et al., 2023).
 
+Cabe mencionar que Holland et al. (2020) también identifican el conformismo en estudiantes universitarios de distintas áreas, revelando un estudio que indica que uno de cada cinco estudiantes no busca mejorar sus habilidades y conocimientos con cursos o material educativo adicionales a los proporcionados por los cursos de su malla curricular.
 
-- Planificación Personalizada de Carrera: Basado en las evaluaciones, la aplicación proporcionará planes de desarrollo personalizados que alineen el aprendizaje continuo con los objetivos profesionales individuales, incentivando el crecimiento constante.
-
-
-- Acceso a Recursos Relevantes y Actualizados: Ofrecerá un catálogo de recursos educativos y cursos que estén alineados con las últimas tendencias del mercado y las necesidades específicas de cada usuario, facilitando el acceso a formación continua de alta relevancia.
-
-Con estas características, la aplicación tiene como visión romper el ciclo de conformismo, cerrar las brechas educativas, y fomentar una cultura de aprendizaje continuo, asegurando que los profesionales se mantengan competitivos y preparados para los desafíos futuros.
-
-Para analizar los antecedentes y la problemática a la que nuestro proyecto se afronta, vamos a utilizar el modelo práctico de las 5Ws y 2Hs, con el fin de idear un sistema más estructurado y que se centre en las causas del problema principalmente.
+Frente a esta problemática presentada, realizaremos un análisis exhaustivo utilizando el modelo práctico de las 5Ws y 2Hs, con el objetivo de desarrollar un sistema más estructurado que aborde principalmente las causas del problema.
 
 ###### Tabla 1.
 
