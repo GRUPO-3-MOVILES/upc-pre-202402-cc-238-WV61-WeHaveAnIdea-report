@@ -84,7 +84,21 @@ Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis característi
 
 ### 1.2.1 Antecedentes y problemática
 
-<Párrafos>
+En el actual entorno laboral, donde los cambios tecnológicos y las exigencias del mercado evolucionan a un ritmo acelerado, es crucial que los profesionales mantengan una actitud de aprendizaje continuo para no quedar rezagados. 
+
+Sin embargo, una tendencia común observada en muchos trabajadores es el conformismo profesional, especialmente después de haber alcanzado un nivel de estabilidad en sus carreras. Esta complacencia puede llevar a la obsolescencia de habilidades, lo que a su vez disminuye la competitividad y limita las oportunidades de crecimiento profesional.
+
+Las características principales de la aplicación son las siguientes:
+
+- Evaluación Continua de Habilidades: La aplicación ofrecerá herramientas para evaluar las habilidades actuales de los profesionales, identificando áreas de mejora y recomendando cursos y recursos específicos para cerrar esas brechas.
+
+
+- Planificación Personalizada de Carrera: Basado en las evaluaciones, la aplicación proporcionará planes de desarrollo personalizados que alineen el aprendizaje continuo con los objetivos profesionales individuales, incentivando el crecimiento constante.
+
+
+- Acceso a Recursos Relevantes y Actualizados: Ofrecerá un catálogo de recursos educativos y cursos que estén alineados con las últimas tendencias del mercado y las necesidades específicas de cada usuario, facilitando el acceso a formación continua de alta relevancia.
+
+Con estas características, la aplicación tiene como visión romper el ciclo de conformismo, cerrar las brechas educativas, y fomentar una cultura de aprendizaje continuo, asegurando que los profesionales se mantengan competitivos y preparados para los desafíos futuros.
 
 Para analizar los antecedentes y la problemática a la que nuestro proyecto se afronta, vamos a utilizar el modelo práctico de las 5Ws y 2Hs, con el fin de idear un sistema más estructurado y que se centre en las causas del problema principalmente.
 
@@ -92,15 +106,15 @@ Para analizar los antecedentes y la problemática a la que nuestro proyecto se a
 
 *Presentación del modelo de las preguntas 5Ws y 2Hs con la que se analizaron los antecedentes y la problemática que abarca nuestro proyecto.*
 
-| 5W's y 2H's | Pregunta | Descripción |
-|-------------|----------|-------------|
-| What?       | ¿Cuál es el problema? |  |
-| When?       | ¿Cuándo sucede el problema? | |
-| Where?      | ¿Dónde surge el problema? | |
-| Who?        | ¿Quiénes están involucrados? | |
-| Why?        | ¿Cuál es la causa del problema? | |
-| How?        | ¿Cómo llegó la persona a esta situación? | |
-| How Much?   | ¿Cuánto dinero se pierde por este problema? | |
+| 5W's y 2H's | Pregunta                                    | Descripción |
+|-------------|---------------------------------------------|-------------|
+| What?       | ¿Cuál es el problema?                       |             |
+| When?       | ¿Cuándo sucede el problema?                 |             |
+| Where?      | ¿Dónde surge el problema?                   |             |
+| Who?        | ¿Quiénes están involucrados?                |             |
+| Why?        | ¿Cuál es la causa del problema?             |             |
+| How?        | ¿Cómo llegó la persona a esta situación?    |             |
+| How Much?   | ¿Cuánto dinero se pierde por este problema? |             |
 
 ### 1.2.2. Lean UX Process
 
