@@ -116,15 +116,15 @@ Frente a esta problemática presentada, realizaremos un análisis exhaustivo uti
 
 *Presentación del modelo de las preguntas 5Ws y 2Hs con la que se analizaron los antecedentes y la problemática que abarca nuestro proyecto.*
 
-| 5W's y 2H's | Pregunta | Descripción |
-|-------------|----------|-------------|
-| What?       | ¿Cuál es el problema? |  |
-| When?       | ¿Cuándo sucede el problema? | |
-| Where?      | ¿Dónde surge el problema? | |
-| Who?        | ¿Quiénes están involucrados? | |
-| Why?        | ¿Cuál es la causa del problema? | |
-| How?        | ¿Cómo llegó la persona a esta situación? | |
-| How Much?   | ¿Cuánto dinero se pierde por este problema? | |
+| 5W's y 2H's | Pregunta                                    | Descripción                                                                                                                                                                                                                                                    |
+|-------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What?       | ¿Cuál es el problema?                       | El conformismo profesional, o la complacencia en el desarrollo profesional, pues es lo que lleva a los trabajadores a no actualizar sus habilidades y conocimientos (causando brechas educativas).                                                             |
+| When?       | ¿Cuándo sucede el problema?                 | El problema se manifiesta cuando los profesionales alcanzan una estabilidad laboral y dejan de buscar activamente nuevas oportunidades de aprendizaje y crecimiento, lo que suele ocurrir a lo largo de su carrera profesional.                                |
+| Where?      | ¿Dónde surge el problema?                   | El problema surge en el entorno laboral de los profesionales, especialmente en sectores donde la actualización constante de habilidades y conocimientos es crucial para mantenerse competitivo y relevante.                                                    |
+| Who?        | ¿Quiénes están involucrados?                | Profesionales activos en el mercado laboral que han alcanzado una estabilidad en sus carreras, pero que corren el riesgo de estancarse debido a la falta de actualización de sus habilidades y conocimientos.                                                  |
+| Why?        | ¿Cuál es la causa del problema?             | La falta de calidad en los estudios y la ausencia de asesoramiento laboral personalizado, lo que dificulta la planificación estratégica de la carrera.                                                                                                         |
+| How?        | ¿Cómo llegó la persona a esta situación?    | La persona llega a esta situación al priorizar la estabilidad sobre el aprendizaje continuo, descuidando la necesidad de actualizar sus habilidades y conocimientos en un entorno laboral que cambia rápidamente.                                              |
+| How Much?   | ¿Cuánto dinero se pierde por este problema? | Aunque el impacto financiero exacto varía, el problema puede resultar en la obsolescencia de habilidades, lo que podría llevar a oportunidades perdidas, disminución de ingresos o incluso la pérdida de empleo, afectando tanto a individuos como a empresas. |
 
 ### 1.2.2. Lean UX Process
 
@@ -140,35 +140,54 @@ Hemos observado que el factor negativo que afecta los ... (Este problema causa m
 
 #### 1.2.2.2. Lean UX Assumptions
 
-- **User Outcomes:** 
+- **User Assumptions:** 
 
 1. ¿Quién es el usuario?
+
+Interesados en potenciar su desarrollo profesional. Incluimos tanto a profesionales activos como a estudiantes que buscan mejorar sus habilidades y avanzar en sus carreras.
+
+Y profesionales de recursos humanos, reclutadores y empresarios interesados en identificar y reclutar talento capacitado.
  
 2. ¿Dónde encaja nuestro producto en su trabajo o vida?
 
+Nnuestro producto encaja como una herramienta esencial en la rutina de desarrollo profesional y también una fuente confiable para identificar candidatos cualificados y comprometidos con su desarrollo, facilitando procesos de reclutamiento más efectivos y alineados con las necesidades del mercado.
+
 3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+
+Un posible problema es que los usuarios pueden no percibir inmediatamente el valor de la personalización de los "roadmaps". Esto se puede abordar con un proceso de onboarding interactivo que muestre ejemplos prácticos de cómo estas guías han beneficiado a otros usuarios en situaciones similares.
+
+Otro desafío podría ser asegurar que los perfiles de los candidatos en la plataforma reflejen con precisión su compromiso y habilidades actualizadas. Esto se resolverá implementando sistemas de validación de competencias y ofreciendo herramientas que permitan a los reclutadores filtrar candidatos según su progreso en los "roadmaps".
 
 4. ¿Cuándo y cómo es usado nuestro producto?
 
+Los usuarios utilizan la aplicación durante momentos clave de su desarrollo profesional, como cuando planean avanzar en su carrera, cambiar de industria, o simplemente mantenerse al día con las tendencias del mercado. La aplicación se convierte en su aliado constante para revisar y ajustar sus metas, acceder a cursos recomendados, y medir su progreso.
+
+Por otro lado, los reclutadores y empresarios utilizan la aplicación principalmente durante sus procesos de selección de personal. Utilizan la plataforma para evaluar a los candidatos según su formación y desarrollo continuo, ayudándoles a encontrar talento que esté alineado con las necesidades cambiantes de su organización.
+
 5. ¿Qué características son importantes? 
+
+La creación de "roadmaps" personalizados, acceso a recursos educativos recomendados, seguimiento del progreso y notificaciones motivacionales son características clave para estos usuarios. La capacidad de ajustar sus planes en función de su desarrollo y las tendencias del mercado usando IA.
+
+Enfocandonos en el otro segmento, herramientas para filtrar candidatos según su progreso y habilidades, acceso a perfiles validados y la capacidad de interactuar con potenciales empleados para comprender mejor su compromiso con el desarrollo profesional son esenciales para este segmento.
 
 6. ¿Cómo debe verse nuestra aplicación y cómo debe comportarse?
 
-- **Business Outcomes:**
+La aplicación debe presentar una interfaz moderna, profesional y fácil de usar que transmita confianza y credibilidad. Debe comportarse de manera fluida, permitiendo una navegación sencilla y una experiencia de usuario intuitiva.
 
-1. Creemos que ... 
+- **Business Assumptions:**
 
-2. Creemos que ...
+1. **Creemos que nuestro segmento objetivo necesita** una plataforma que ofrezca orientación personalizada a través de pasos instructivos claros, con el fin de guiar a los usuarios en su desarrollo profesional y educativo, adaptado a sus necesidades individuales. 
 
-3. Creemos que ...
+2. **Creemos que el valor más importante en nuestra app** será la creación de "roadmaps" personalizados, que servirán como guías detalladas para que los usuarios adquieran conocimientos y habilidades en áreas específicas que les beneficiarán en su desarrollo profesional a largo plazo.
 
-4. Creemos que ...
+3. **Creemos que podemos lograr sostenibilidad mediante** un modelo de negocio freemium, ofreciendo una gama de características básicas de forma gratuita y una lista de funciones premium adicionales para aquellos usuarios que deseen mejorar su experiencia y obtener un mayor valor de nuestra plataforma.
 
-5. Creemos que ...
+4. **Creemos que nuestra competencia principal en el mercado serán** plataformas como LinkedIn, GlasDoor y Roadmap.sh, puesto que desarrollan aspectos similares en el desarrollo profionasl, laboral y educativo
 
-6. Creemos que ...
+5. **Creemos que nuestro mayor riesgo será** que los usuarios no vean un valor inmediato en la personalización de "roadmaps" y en la orientación continua, lo que podría resultar en una baja retención de usuarios.
 
-...
+6. **Creemos que podemos adquirir la mayoría de nuestros usuarios a través de** estrategias de marketing digital enfocadas en profesionales activos, incluyendo campañas en LinkedIn, asociaciones con instituciones educativas, y colaboraciones con empresas que buscan fomentar el desarrollo continuo de sus empleados.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
