@@ -90,12 +90,21 @@ Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis característi
 
 En WeHaveAnIdea, nos dedicamos a proporcionar soluciones innovadoras y de alta calidad que permitan a nuestros usuarios alcanzar un mayor nivel de seguridad, precisión y confianza en la planificación y gestión de sus carreras profesionales y/o vidas laborales. Con este propósito en mente, hemos desarrollado con meticulosidad nuestra aplicación insignia: Roademics.
 
-Roademics es una plataforma integral que ofrece un enfoque exhaustivo para el desarrollo y la orientación profesional. Su interfaz intuitiva y fácil de usar, complementada con un modelo de asesoramiento basado en inteligencia artificial, permite a los usuarios planificar su futuro a través de map de rutas de carrera personalizadas. Estas rutas están diseñadas para adaptarse a sus intereses, cualidades y objetivos, presentando gráficos interactivos que ilustran las principales opciones de mejora disponibles. Además, Roademics proporciona recomendaciones detalladas sobre los cursos y habilidades que deberían estudiarse o desarrollarse para avanzar en su trayectoria profesional, promoviendo la mejora continua de cada aspecto necesario.
+Roademics es una plataforma integral que ofrece un enfoque exhaustivo para el desarrollo y la orientación profesional. Su interfaz intuitiva y fácil de usar, complementada con un modelo de asesoramiento basado en inteligencia artificial, permite a los usuarios planificar su futuro a través de un mapa de ruta de carrera personalizadas. Estas rutas están diseñadas para adaptarse a sus intereses, cualidades y objetivos, presentando gráficos interactivos que ilustran las principales opciones de mejora disponibles de la carrera que estudia o ejerce el usuario. Además, Roademics proporciona recomendaciones detalladas sobre los cursos y habilidades que deberían estudiarse o desarrollarse para avanzar en su trayectoria profesional, promoviendo la mejora continua de cada aspecto necesario.
 
-Mediante un proceso de mejora continua, Roademics asegura que los usuarios no solo cumplan con sus objetivos, sino que también continúen perfeccionando sus habilidades. Así, podrán destacarse en el mercado y experimentar un notable desarrollo profesional y satisfacción, incluso después de haber alcanzado sus metas iniciales.
+Adicionalmente, la plataforma fomenta el networking entre usuarios al permitir que estos ingresen al mapa de ruta de otro usuario de interés y poder inspirarse en la construcción de su propio éxito. De la misma manera, el perfil empresarial permitirá a las organizaciones/startups construir sus mapas de ruta de los perfiles profesionales que están buscando contratar y buscar a los usuarios que encajen con las características deseadas.
+
+Sin duda, esta aplicación ofrece una gran cantidad de herramientas gratuitas que están alineadas con las aplicaciones más modernas en la actualidad lo que mejora la experiencia del usuario, no obstante, también ofrece una serie de funcionalidades premium que le darán una experiencia más eficiente y beneficiosa al usuario logrando ser una persona destaca en la plataforma entre los usuarios y empresas que deseen buscar talento humano. Mediante un proceso de mejora continua, Roademics asegura que los usuarios no solo cumplan con sus objetivos, sino que también continúen perfeccionando sus habilidades. Así, podrán destacarse en el mercado y experimentar un notable desarrollo profesional y satisfacción, incluso después de haber alcanzado sus metas iniciales.
 
 **Características Principales:**
 
+- Generador de mapas de ruta de perfil profesional con inteligencia artificial.
+- Opción de visualizar los mapas de ruta de otros usuarios.
+- Red empresarial.
+- Modelo de suscripción Freemium.
+- Perfiles corporativos.
+- Medidor de progreso.
+  
 ### 1.2.1 Antecedentes y problemática
 
 El desarrollo profesional continuo es un objetivo crucial para una amplia gama de individuos, desde estudiantes hasta profesionales en activo, que buscan mejorar constantemente sus habilidades en función de las demandas actuales del mercado y de sus propias cualidades, deseos y metas personales. Sin embargo, existen barreras significativas que dificultan el avance efectivo en sus carreras y especializaciones. Estas barreras pueden provocar una parálisis total, ya sea de manera voluntaria o involuntaria, impidiendo no solo el cumplimiento de sus principales objetivos, sino también llevando a la obsolescencia en el entorno laboral, falta de satisfacción por una carrera profesional o incluso problemas psicológicos, como el síndrome de desgaste profesional (Evans et al., 2021).
