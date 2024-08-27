@@ -199,7 +199,7 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 
 ---
 
-**Student Outcome**
+### **Student Outcome**
 
 En la carrera de Ingeniería de Software, el logro del curso contribuye a alcanzar el **ABET – EAC - Student Outcome 7**.
 
@@ -253,3 +253,97 @@ En la siguiente sección se describen las acciones realizadas y enunciados de co
         </td>
     </tr>
 </table>
+
+--- 
+
+### Smart Goals 
+
+En la siguiente sección, se describen los objetivos smart por parte del grupo: 
+
+<table>
+        <tbody>
+            <tr>
+              <th rowspan="4"></th> 
+                <td rowspan="4"></td>
+                <td>Nombre del Estudiante</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Descripción del objetivo</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fecha de inicio</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fecha de cumplimiento esperada</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+              <th rowspan="5">Metodología Smart</th> 
+                <td>S<br>Specific<br> Específico</td>
+                <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>M<br>Measurable<br> Medible</td>
+                <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>A<br>Ambitious<br>Ambicioso</td>
+                <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>R<br>Relevant<br>Relevante</td>
+                <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>T<br>Time-bound<br>Tiempo Límite</td>
+                <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
