@@ -128,15 +128,15 @@ Frente a esta problemática presentada, realizaremos un análisis exhaustivo uti
 
 *Presentación del modelo de las preguntas 5Ws y 2Hs con la que se analizaron los antecedentes y la problemática que abarca nuestro proyecto.*
 
-| 5W's y 2H's | Pregunta                                    | Descripción                                                                                                                                                                                                                                                    |
-|-------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| What?       |  ¿Cuál es el problema?                      | El conformismo profesional, o la complacencia en el desarrollo profesional, pues es lo que lleva a los trabajadores a no actualizar sus habilidades y conocimientos (causando brechas educativas)           |
-| Why?        | ¿Por qué sucede el problema?              | La falta de calidad en los estudios y la ausencia de asesoramiento laboral personalizado, lo que dificulta la planificación estratégica de la carrera.  |
-| Who?        | ¿Quiénes son los involucrados? |Profesionales activos en el mercado laboral que han alcanzado una estabilidad en sus carreras, pero que corren el riesgo de estancarse debido a la falta de actualización de sus habilidades y conocimientos. |   |
-| When?       | ¿Cuándo surge el problema?                 | El problema se manifiesta cuando los profesionales alcanzan una estabilidad laboral y dejan de buscar activamente nuevas oportunidades de aprendizaje y crecimiento, lo que suele ocurrir a lo largo de su carrera profesional.                                |
-| Where?      | ¿Dónde surge el problema?  | El problema surge en el entorno laboral de los profesionales, especialmente en sectores donde la actualización constante de habilidades y conocimientos es crucial para mantenerse competitivo y relevante.|
-| How?        | ¿Cómo llegó a suceder?     | La persona llega a esta situación al priorizar la estabilidad sobre el aprendizaje continuo, descuidando la necesidad de actualizar sus habilidades y conocimientos en un entorno laboral que cambia rápidamente. |                                             |
-| How Much?   | ¿Cuánto costará el problema?  | Aunque el impacto financiero exacto varía, el problema puede resultar en la obsolescencia de habilidades, lo que podría llevar a oportunidades perdidas, disminución de ingresos o incluso la pérdida de empleo, afectando tanto a individuos como a empresas. |
+| 5W's y 2H's | Pregunta                       | Descripción                                                                                                                                                                                                                                                    |
+|-------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What?       | ¿Cuál es el problema?          | El conformismo profesional, o la complacencia en el desarrollo profesional, pues es lo que lleva a los trabajadores a no actualizar sus habilidades y conocimientos (causando brechas educativas)                                                              |
+| Why?        | ¿Por qué sucede el problema?   | La falta de calidad en los estudios y la ausencia de asesoramiento laboral personalizado, lo que dificulta la planificación estratégica de la carrera.                                                                                                         |
+| Who?        | ¿Quiénes son los involucrados? | Profesionales activos en el mercado laboral que han alcanzado una estabilidad en sus carreras, pero que corren el riesgo de estancarse debido a la falta de actualización de sus habilidades y conocimientos.                                                  |   |
+| When?       | ¿Cuándo surge el problema?     | El problema se manifiesta cuando los profesionales alcanzan una estabilidad laboral y dejan de buscar activamente nuevas oportunidades de aprendizaje y crecimiento, lo que suele ocurrir a lo largo de su carrera profesional.                                |
+| Where?      | ¿Dónde surge el problema?      | El problema surge en el entorno laboral de los profesionales, especialmente en sectores donde la actualización constante de habilidades y conocimientos es crucial para mantenerse competitivo y relevante.                                                    |
+| How?        | ¿Cómo llegó a suceder?         | La persona llega a esta situación al priorizar la estabilidad sobre el aprendizaje continuo, descuidando la necesidad de actualizar sus habilidades y conocimientos en un entorno laboral que cambia rápidamente.                                              |                                             |
+| How Much?   | ¿Cuánto costará el problema?   | Aunque el impacto financiero exacto varía, el problema puede resultar en la obsolescencia de habilidades, lo que podría llevar a oportunidades perdidas, disminución de ingresos o incluso la pérdida de empleo, afectando tanto a individuos como a empresas. |
 
 ### 1.2.2. Lean UX Process
 
@@ -144,11 +144,9 @@ Según Gothelf y Seiden (2021), el Lean UX Process es, como tal, una propia evol
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-<Definición del área ha trabajar>
+Hemos observado que el factor negativo que afecta los avances en el desarrollo profesional es **el conformismo profesional y la falta de acceso a asesoramiento personalizado y relevante** para la planificación de carrera. Este problema causa malestar en la población profesional, ya que **muchos individuos se sienten estancados en sus roles actuales y no ven un camino claro hacia el crecimiento**. Además, la **sobrecarga de información y la falta de claridad sobre las habilidades y competencias demandadas** por el mercado laboral contribuyen a la parálisis en la toma de decisiones y a la inacción en la búsqueda de oportunidades de mejora.
 
-Hemos observado que el factor negativo que afecta los ... (Este problema causa malestar en la población por ...) (Este problema puede resultar en ...)
-
-¿De qué manera se puede ... ?
+Habiendo definido ya el problema, nos hacemos la siguiente pregunta: "¿De qué manera se puede proporcionar a los profesionales las herramientas y recursos adecuados para planificar y gestionar sus carreras de manera más efectiva, evitando así el estancamiento y promoviendo un crecimiento continuo y estratégico?"
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -200,40 +198,43 @@ La aplicación debe presentar una interfaz moderna, profesional y fácil de usar
 
 6. **Creemos que podemos adquirir la mayoría de nuestros usuarios a través de** estrategias de marketing digital enfocadas en profesionales activos, incluyendo campañas en LinkedIn, asociaciones con instituciones educativas, y colaboraciones con empresas que buscan fomentar el desarrollo continuo de sus empleados.
 
-
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - **Hypothesis 1**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito.
-    
-    Cuando observamos un ...
+Creemos que al proporcionar un proceso de onboarding interactivo que destaque casos de éxito de usuarios similares, lograremos que los nuevos usuarios perciban el valor de los "roadmaps" personalizados desde el primer uso.
+
+Sabremos que hemos tenido éxito cuando observemos un aumento en la tasa de retención de nuevos usuarios durante el primer mes, con al menos un 25% de los usuarios completando su primer "roadmap" dentro de las primeras dos semanas de uso.
 
 - **Hypothesis 2**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito
-    
-    Cuando veamos un ...
-    
+**Creemos que** al implementar sistemas de validación de competencias y ofrecer herramientas para filtrar candidatos según su progreso en los "roadmaps", los reclutadores verán un valor agregado en la plataforma, lo que aumentará su uso durante los procesos de selección.
+
+**Sabremos que hemos tenido éxito cuando** veamos un incremento en el número de reclutadores activos utilizando la plataforma para seleccionar candidatos, con un aumento del 20% en las interacciones entre reclutadores y candidatos dentro de los primeros tres meses.
+
 - **Hypothesis 3**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito 
-    
-    Cuando el número de ... 
-    
+**Creemos que** al ofrecer funcionalidades premium que permitan a los usuarios ajustar sus "roadmaps" de manera dinámica según su progreso y las tendencias del mercado, incentivaremos la conversión de usuarios gratuitos a suscriptores premium.
+
+**Sabremos que hemos tenido éxito cuando** el número de conversiones a cuentas premium aumente en un 15% durante los primeros seis meses después de lanzar estas funcionalidades.
+
 - **Hypothesis 4**
 
-    Creemos que ... 
-    
-    Sabremos que hemos tenido éxito
-    
-    Cuando incremente un ...
+**Creemos que** al crear alianzas con instituciones educativas para ofrecer "roadmaps" alineados con programas académicos, facilitaremos que los estudiantes vean la plataforma como un complemento indispensable para su formación.
+
+**Sabremos que hemos tenido éxito cuando** incremente en un 25% el número de estudiantes registrados en la plataforma, con un incremento en el uso diario de la aplicación por parte de este segmento durante los primeros tres meses.
+
+- **Hypothesis 5**
+
+**Creemos que** al integrar herramientas de networking que permitan a los usuarios conectarse con otros profesionales y reclutadores, aumentaremos el valor percibido de la plataforma y la retención de usuarios.
+
+**Sabremos que hemos tenido éxito cuando** el número de conexiones y mensajes entre usuarios y reclutadores aumente en un 30% durante los primeros seis meses de implementación de esta funcionalidad.
+
+- **Hypothesis 6**
+
+**Creemos que** al enfocarnos en estrategias de marketing digital dirigidas a profesionales activos y colaboraciones con empresas e instituciones educativas, podremos adquirir una base sólida de usuarios que valoren el desarrollo profesional continuo.
+
+**Sabremos que hemos tenido éxito cuando** incremente un 30% el número de usuarios registrados provenientes de campañas de LinkedIn y colaboraciones, dentro de los primeros cuatro meses de implementación de la estrategia.
 
 #### 1.2.2.4. Lean UX Canvas
 
