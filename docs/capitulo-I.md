@@ -137,18 +137,16 @@ Frente a esta problemática presentada, realizaremos un análisis exhaustivo uti
 | Where?      | ¿Dónde surge el problema?           | El problema es global y afecta tanto a economías desarrolladas como emergentes. En entornos educativos, el problema es particularmente agudo en regiones donde las instituciones no están equipadas para proporcionar asesoramiento adecuado, como en partes de América Latina y África. En el ámbito laboral, afecta tanto a grandes corporaciones como a pequeñas y medianas empresas, especialmente en sectores en rápida evolución como la tecnología y las finanzas. Un Reporte de Mercer (2023) indica que en América Latina, solo el 30% de los trabajadores recibe formación continua, lo que contribuye a una brecha de habilidades cada vez mayor. En plataformas de aprendizaje en línea, la saturación de información es un problema que afecta a usuarios de todo el mundo, con un 45% de los usuarios de Coursera informando que no están seguros de si las habilidades adquiridas son las más relevantes para sus carreras (Coursera, 2024). |
 | How?        | ¿Cómo llega a afectar este problema a las personas? | Las consecuencias de este problema son profundas y multifacéticas. A nivel individual, la falta de desarrollo profesional continuo puede llevar a la obsolescencia laboral, lo que a su vez reduce la empleabilidad y la satisfacción laboral. Según un reporte de Mercer (2023), el 34% de los empleados en América Latina siente que sus empleadores no les brindan las herramientas necesarias para mantenerse actualizados, lo que incrementa la insatisfacción y el burnout. A nivel organizacional, la falta de actualización de habilidades impacta negativamente en la productividad, la innovación y la competitividad. Empresas con empleados cuyas habilidades están desactualizadas experimentan un aumento en los costos operativos y una disminución en la capacidad de respuesta a las demandas del mercado. A nivel social, la falta de desarrollo continuo contribuye a la desigualdad económica y limita la movilidad social, perpetuando ciclos de pobreza y exclusión. |
 | How Much?   | ¿Cuánto dinero pierden las personas por este problema? | Las pérdidas económicas asociadas con la falta de desarrollo profesional son significativas. A nivel individual, la obsolescencia de habilidades puede resultar en una reducción de ingresos, con estudios que muestran que los trabajadores cuyas habilidades se quedan obsoletas pueden experimentar una reducción de hasta el 30% en su salario anual (McKinsey, 2022). A nivel empresarial, según la Society for Human Resource Management (2022), la falta de desarrollo adecuado puede costar a las empresas hasta $1,500 por empleado en pérdida de productividad y costos de reemplazo. A nivel macroeconómico, la falta de inversión en el desarrollo continuo puede costar a las economías miles de millones en términos de crecimiento perdido y aumento del desempleo estructural. |
-
+9
 ### 1.2.2. Lean UX Process
 
 Según Gothelf y Seiden (2021), el Lean UX Process es, como tal, una propia evolución dada por los crecimientos y transformaciones de conceptos e ideas en el diseño de productos y servicios, sistemas de iteración y la colaboración eficaz. Este sistema toma las herramientas y metodologías principales de los diseñadores y lo combina con un sistema Agile de desarrollo de Software. De esta forma, provee un modelo que maximiza el entendimiento mutuo, evita el aislamiento y amplifica la participación de todas las partes relacionadas con el proyecto, especialmente la del cliente.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-<Definición del área ha trabajar>
+Hemos observado que el factor negativo que afecta los avances en el desarrollo profesional es **el conformismo profesional y la falta de acceso a asesoramiento personalizado y relevante** para la planificación de carrera. Este problema causa malestar en la población profesional, ya que **muchos individuos se sienten estancados en sus roles actuales y no ven un camino claro hacia el crecimiento**. Además, la **sobrecarga de información y la falta de claridad sobre las habilidades y competencias demandadas** por el mercado laboral contribuyen a la parálisis en la toma de decisiones y a la inacción en la búsqueda de oportunidades de mejora.
 
-Hemos observado que el factor negativo que afecta los ... (Este problema causa malestar en la población por ...) (Este problema puede resultar en ...)
-
-¿De qué manera se puede ... ?
+Habiendo definido ya el problema, nos hacemos la siguiente pregunta: "¿De qué manera se puede proporcionar a los profesionales las herramientas y recursos adecuados para planificar y gestionar sus carreras de manera más efectiva, evitando así el estancamiento y promoviendo un crecimiento continuo y estratégico?"
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -200,40 +198,43 @@ La aplicación debe presentar una interfaz moderna, profesional y fácil de usar
 
 6. **Creemos que podemos adquirir la mayoría de nuestros usuarios a través de** estrategias de marketing digital enfocadas en profesionales activos, incluyendo campañas en LinkedIn, asociaciones con instituciones educativas, y colaboraciones con empresas que buscan fomentar el desarrollo continuo de sus empleados.
 
-
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - **Hypothesis 1**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito.
-    
-    Cuando observamos un ...
+Creemos que al proporcionar un proceso de onboarding interactivo que destaque casos de éxito de usuarios similares, lograremos que los nuevos usuarios perciban el valor de los "roadmaps" personalizados desde el primer uso.
+
+Sabremos que hemos tenido éxito cuando observemos un aumento en la tasa de retención de nuevos usuarios durante el primer mes, con al menos un 25% de los usuarios completando su primer "roadmap" dentro de las primeras dos semanas de uso.
 
 - **Hypothesis 2**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito
-    
-    Cuando veamos un ...
-    
+**Creemos que** al implementar sistemas de validación de competencias y ofrecer herramientas para filtrar candidatos según su progreso en los "roadmaps", los reclutadores verán un valor agregado en la plataforma, lo que aumentará su uso durante los procesos de selección.
+
+**Sabremos que hemos tenido éxito cuando** veamos un incremento en el número de reclutadores activos utilizando la plataforma para seleccionar candidatos, con un aumento del 20% en las interacciones entre reclutadores y candidatos dentro de los primeros tres meses.
+
 - **Hypothesis 3**
 
-    Creemos que ...
-    
-    Sabremos que hemos tenido éxito 
-    
-    Cuando el número de ... 
-    
+**Creemos que** al ofrecer funcionalidades premium que permitan a los usuarios ajustar sus "roadmaps" de manera dinámica según su progreso y las tendencias del mercado, incentivaremos la conversión de usuarios gratuitos a suscriptores premium.
+
+**Sabremos que hemos tenido éxito cuando** el número de conversiones a cuentas premium aumente en un 15% durante los primeros seis meses después de lanzar estas funcionalidades.
+
 - **Hypothesis 4**
 
-    Creemos que ... 
-    
-    Sabremos que hemos tenido éxito
-    
-    Cuando incremente un ...
+**Creemos que** al crear alianzas con instituciones educativas para ofrecer "roadmaps" alineados con programas académicos, facilitaremos que los estudiantes vean la plataforma como un complemento indispensable para su formación.
+
+**Sabremos que hemos tenido éxito cuando** incremente en un 25% el número de estudiantes registrados en la plataforma, con un incremento en el uso diario de la aplicación por parte de este segmento durante los primeros tres meses.
+
+- **Hypothesis 5**
+
+**Creemos que** al integrar herramientas de networking que permitan a los usuarios conectarse con otros profesionales y reclutadores, aumentaremos el valor percibido de la plataforma y la retención de usuarios.
+
+**Sabremos que hemos tenido éxito cuando** el número de conexiones y mensajes entre usuarios y reclutadores aumente en un 30% durante los primeros seis meses de implementación de esta funcionalidad.
+
+- **Hypothesis 6**
+
+**Creemos que** al enfocarnos en estrategias de marketing digital dirigidas a profesionales activos y colaboraciones con empresas e instituciones educativas, podremos adquirir una base sólida de usuarios que valoren el desarrollo profesional continuo.
+
+**Sabremos que hemos tenido éxito cuando** incremente un 30% el número de usuarios registrados provenientes de campañas de LinkedIn y colaboraciones, dentro de los primeros cuatro meses de implementación de la estrategia.
 
 #### 1.2.2.4. Lean UX Canvas
 
