@@ -303,12 +303,35 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 2. ¿Cuantos años tienes?
 3. ¿A qué te dedicas?
 
-**Segmento 1: :**
+**Segmento 1: : Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap**
+
+1. ¿Te sientes satisfecho con tu perfil profesional?
+2. ¿Aspiras a aprender más sobre tu especilización? ¿Por qué? En caso sea así, ¿Sabes como hacerlo o planearlo? 
+3. ¿Cómo te afecta la rápida evolución de las industrias y tecnologías a la planificación de carreras a largo plazo?
+4. ¿En qué medida la presión por obtener certificaciones y nuevas habilidades afecta el equilibrio entre tu vida laboral y personal?
+5. ¿
+6. ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día?
+7. ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?
+8. ¿
+9. ¿
+10. ¿
 
 ...
 
-**Segmento 2: :**
+**Segmento 2: : Empresas y Reclutadores en busca de personal capacitado.**
 
+1. ¿Cómo funciona el proceso de contratación en la empresa?
+2. ¿Que medios utiliza para anunciar un puesto de trabajo?
+3. ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?
+4. Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?
+5. ¿Que medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?
+6. ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?
+7. ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado ?
+8. ¿Cuando un trabajador solicita un ascenso, con que criterios lo evaluan?
+9. ¿Cual es tu posición sobre las personas conformistas respecto a su educación?
+10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?
+11. ¿Que medio utiliza la empresa para promocionarse para futuros candidatos?
+12. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
 ...
    
 ### 2.2.2. Registro de entrevistas.
