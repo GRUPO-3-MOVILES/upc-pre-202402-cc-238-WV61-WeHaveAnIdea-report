@@ -285,22 +285,22 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 2. ¿Cuantos años tienes?
 3. ¿A qué te dedicas?
 
-**Segmento 1: : Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap**
+**Segmento 1: : Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap**
 
-1. ¿Te sientes satisfecho con tu perfil profesional?
-2. ¿Aspiras a aprender más sobre tu especilización? ¿Por qué? En caso sea así, ¿Sabes como hacerlo o planearlo? 
-3. ¿Cómo te afecta la rápida evolución de las industrias y tecnologías a la planificación de carreras a largo plazo?
-4. ¿En qué medida la presión por obtener certificaciones y nuevas habilidades afecta el equilibrio entre tu vida laboral y personal?
-5. ¿
+1. ¿Te sientes satisfecho con tu perfil académico?
+2. ¿Aspiras a aprender más sobre tu especilización? 
+3. ¿Cómo planearías o que acciones realizarías para planear tu ruta de aprendizaje sobre tu trayectoria académica?
+4. ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?
+5. ¿Qué métodos utilizas para encontrar material o certificaciones que te permitan potenciarte?
 6. ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día?
-7. ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?
-8. ¿
-9. ¿
-10. ¿
+7. ¿Utilizas redes sociales para publicar actualizaciones de tus logros académicos?
+8. ¿Qué medios o redes utilizas para informarte sobre puestos de trabajos?
+9. ¿Qué es lo primero que deseas observar a la hora de querer informarte sobre una vacante laboral?
+10. ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que deseen en los postulantes? 
 
 ...
 
-**Segmento 2: : Empresas y Reclutadores en busca de personal capacitado.**
+**Segmento 2: : Empresas y Reclutadores en busca de personal capacitado**
 
 1. ¿Cómo funciona el proceso de contratación en la empresa?
 2. ¿Que medios utiliza para anunciar un puesto de trabajo?
@@ -314,11 +314,11 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?
 11. ¿Que medio utiliza la empresa para promocionarse para futuros candidatos?
 12. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
-...
+
    
 ### 2.2.2. Registro de entrevistas.
 
-#### Segmento 1: ...
+#### Segmento 1: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap
 
 **Entrevista N°1:**
 
@@ -374,7 +374,7 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
   
 ---
 
-#### Segmento 2: Anunciantes que deseen publicar una propiedad en venta o alquiler.
+#### Segmento 2: Empresas y Reclutadores en busca de personal capacitado
 
 **Entrevista N°4:**
 
