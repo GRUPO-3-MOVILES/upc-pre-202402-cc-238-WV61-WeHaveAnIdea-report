@@ -480,10 +480,12 @@ Un user persona es una representación semi-ficticia de un usuario ideal basada 
 El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los distintos segmentos de usuarios en el contexto de nuestra aplicación Roademics, la cual se centra en ofrecer soluciones tecnológicas para el desarrollo profesional continuo de los usuarios. Estos user personas actúan como representaciones ficticias pero realistas de los usuarios con los que interactuamos en el ámbito empresarial. Al desarrollar perfiles detallados de los usuarios potenciales, podemos identificar de manera más efectiva sus intereses y problemas específicos, lo que permite diseñar funcionalidades y experiencias que se ajusten de manera precisa a sus demandas. 
 
 ###### Figura 10.
-*User Persona del primer segmento objetivo: .*
+*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap.*
+<img src="/assets/img/needfinding/UserPersona-Segmento1.png">
 
 ###### Figura 11.
-*User Persona del segundo segmento objetivo: .*
+*User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado.*
+<img src="/assets/img/needfinding/UserPersona-Segmento2.png">
 
 ### 2.3.2. User Task Matrix.
 
@@ -494,17 +496,28 @@ Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores p
 ###### Tabla 3.
 *User Task Matrix para el primer User Persona.*
 
-| Tarea | Descripción | Frecuencia (1-5) | Importancia (1-5) |
-|-------|-------------|------------------|-------------------|                    
-| | | | |
+| Tareas |Frecuencia    |Importancia    |
+|--------|--------------|---------------|
+|Investigar opciones de formación y cursos para mejorar habilidades.    |Always    |High|
+|Mapear su carrera profesional para identificar las habilidades necesarias.    |Always    |High|
+|Conectar con profesionales experimentados mediante redes sociales para mentoría y networking.    |Often    |Medium|
+|Buscar y aplicar a oportunidades laborales que se alineen con sus objetivos profesionales.    |Often    |High|
+|Evaluar su progreso y ajustar su roadmap de carrera.    |Sometimes    |High|
+|Participar en eventos y conferencias de su industria para mantenerse actualizado.    |Sometimes    |Medium|
+|Revisar y actualizar su perfil en plataformas profesionales.    |Sometimes    |Medium|
 
 ###### Tabla 4.
 *User Task Matrix para el segundo User Persona.*
 
-| Tarea | Descripción | Frecuencia (1-5) | Importancia (1-5) |
-|-------|-------------|------------------|-------------------|                    
-| | | | |
-
+| Tareas |Frecuencia    |Importancia    |
+|--------|--------------|---------------|
+|Definir perfiles de puestos clave y las habilidades necesarias.    |Always    |High|
+|Publicar ofertas de trabajo en plataformas adecuadas.    |Often    |High|
+|Realizar entrevistas y evaluaciones para seleccionar candidatos.    |Often    |High|
+|Desarrollar planes de capacitación para mejorar habilidades de los empleados.    |Often    |Medium|
+|Evaluar y ajustar estrategias de retención de talento.    |Sometimes    |High|
+|Realizar revisiones de desempeño y proponer planes de desarrollo individual.    |Sometimes    |Medium|
+|Colaborar con departamentos para alinear necesidades de talento con objetivos organizacionales.    |Sometimes    |Medium|
 
 ### 2.3.3 User Journey Mapping
 
@@ -514,9 +527,11 @@ El proceso de creación de un Journey Map implica la identificación y el mapeo 
 
 ###### Figura 12.
 *User Journey Mapping del primer User Persona.*
+<img src="/assets/img/needfinding/JourneyMapping-Segmento1.png">
 
 ###### Figura 13.
 *User Journey Mapping del segundo User Persona.*
+<img src="/assets/img/needfinding/JourneyMapping-Segmento2.png">
 
 ### 2.3.4 Empathy Mapping
 
@@ -524,9 +539,11 @@ El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de
 
 ###### Figura 14.
 *User Empathy Mapping del primer User Persona.*
+<img src="/assets/img/needfinding/EmpathyMap-Segmento1.png">
 
 ###### Figura 15.
 *User Empathy Mapping del segundo User Persona.*
+<img src="/assets/img/needfinding/EmpathyMap-Segmento2.png">
 
 ### 2.3.5 As-is Scenario Mapping
 
