@@ -287,18 +287,18 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 ###### Figura 2.
 *Imagen de presentación de la primera entrevista realizada.*
 
-<img src="/assets/img/entrevistas/entrevista-segmento1.png" alt="Entrevista Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/interview-segment1-lizano.png" alt="Entrevista Segmento 1" width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: 
-- Edad: 
-- Distrito: 
-- Link: 
-- Inicio de la entrevista:
-- Duración: 
-- Entrevistador:
-  
----
+- Nombre completo del entrevistado: Coll Cardenas, Fernando Lizano 
+- Edad: 19 años
+- Distrito: Punta Hermosa
+- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
+- Duración: 7 minutos y 3 segundos
+- Entrevistador: Pescoran Angulo, Juan Fabritzzio
+
+Nota:
 
 **Entrevista N°2:**
 
@@ -308,15 +308,15 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 <img src="/assets/img/entrevistas/Entrevista2-Segmento1.png" alt="Entrevista 2 Segmento 1" width="400" height="200">
 
 **Datos principales:**
-- Nombre completo del entrevistado: 
-- Edad: 
-- Distrito: 
-- Link:
-- Inicio de la entrevista: 
-- Duración: 
-- Entrevistador:
+- Nombre completo del entrevistado: Jeremías Evangelista Pescorán
+- Edad: 24 años
+- Distrito: San Juan de Miraflores
+- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
+- Duración: 7 minutos y 33 segundos
+- Entrevistador: Pescoran Angulo, Juan Fabritzzio
   
----
+Nota:
 
 **Entrevista N°3:**
 
