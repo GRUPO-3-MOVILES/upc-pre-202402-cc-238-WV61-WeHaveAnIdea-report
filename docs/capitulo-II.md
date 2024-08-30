@@ -387,14 +387,14 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 <img src="/assets/img/entrevistas/entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
 
 **Datos principales:**
-- Nombre completo del entrevistado: 
-- Edad: 
-- Distrito:
-- Link: 
-- Inicio de la entrevista: 
-- Duración: 
-- Entrevistador:
-  
+- Nombre completo del entrevistado: Ximena Vilchez Paredes
+- Edad: 22
+- Distrito: Chorrillos
+- Link: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EWm0xNl3QBVHvJNcCJPjZjsBQdiu3tylQ7EwoyLJcHZ9Kg?e=ey6qll&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:01
+- Duración: 11:19
+- Entrevistador: Aldhair Valenzuela
+- Nota: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
 ---
 
 ### 2.2.3. Análisis de entrevistas.
@@ -481,11 +481,11 @@ El proceso de creación de user personas es esencial para comprender las necesid
 
 ###### Figura 10.
 *User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap.*
-<img src="/assets/img/needfinding/UserPersona-Segmento1.png">
+<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento1.png">
 
 ###### Figura 11.
 *User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado.*
-<img src="/assets/img/needfinding/UserPersona-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento2.png">
 
 ### 2.3.2. User Task Matrix.
 
@@ -527,11 +527,11 @@ El proceso de creación de un Journey Map implica la identificación y el mapeo 
 
 ###### Figura 12.
 *User Journey Mapping del primer User Persona.*
-<img src="/assets/img/needfinding/JourneyMapping-Segmento1.png">
+<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento1.png">
 
 ###### Figura 13.
 *User Journey Mapping del segundo User Persona.*
-<img src="/assets/img/needfinding/JourneyMapping-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento2.png">
 
 ### 2.3.4 Empathy Mapping
 
@@ -539,11 +539,11 @@ El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de
 
 ###### Figura 14.
 *User Empathy Mapping del primer User Persona.*
-<img src="/assets/img/needfinding/EmpathyMap-Segmento1.png">
+<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento1.png">
 
 ###### Figura 15.
 *User Empathy Mapping del segundo User Persona.*
-<img src="/assets/img/needfinding/EmpathyMap-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento2.png">
 
 ### 2.3.5 As-is Scenario Mapping
 
