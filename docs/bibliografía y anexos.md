@@ -14,11 +14,15 @@ Fuller, J., Raman, M., Sage-Gavin, E. & Hines, K. (2021). *HIDDEN WORKERS: UNTAP
 
 Gallup. (2024. 27 de junio). *State of the Global Workplace Report*. https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx
 
+Gothelf, J. & Seiden, J. (2021). Lean UX, 3rd Edition. O’Railly Media, Inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+
 Guevara, M. (2015). La carrera profesional desde la perspectiva del estudiante universitario. *Sapienza Organizacional*, *2*(4), 105-118. https://www.redalyc.org/articulo.oa?id=553056600005
 
 Holland, C., Westwood, C. & Hanif, H. (2020). Underestimating the Relationship Between Academic Advising and Attainment: A Case Study in Practice. *Frontiers in Education*, *5*, 127-134. https://doi.org/10.3389/feduc.2020.00145
 
 LinkedIn. (2024, 22 de febrero). *Workplace Learning Report 2024*. https://learning.linkedin.com/resources/workplace-learning-report 
+
+Kingsnorth, S. (2019). Digital Marketing Strategy: An Integrated Approach to Online Marketing, 2nd Edition. Kogan Page.
 
 McKinsey & Company. (2022). *The future of work: Reskilling and upskilling the workforce*. McKinsey Global Institute. https://www.mckinsey.com/featured-insights/future-of-work
 
