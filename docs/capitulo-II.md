@@ -399,7 +399,9 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 
 ### 2.2.3. Análisis de entrevistas.
 
-A modo de análisis de la información recopilada mediante las entrevistas, se desarrolló un Google Forms con el objetivo de representar datos estadísticos y como herramienta de interpretación.
+Como parte del análisis de la información recopilada a través de las entrevistas, se diseñó un formulario en Google Forms con el propósito de representar los datos estadísticos de manera sistemática y servir como herramienta de interpretación. Este formulario permite organizar y visualizar los datos de forma clara y estructurada, facilitando la identificación de patrones y tendencias emergentes. 
+
+Al utilizar Google Forms, se puede recoger y analizar la información de manera eficiente, lo que proporciona una base sólida para la toma de decisiones y la elaboración de conclusiones basadas en evidencias. Esta herramienta no solo simplifica el proceso de recopilación de datos, sino que también optimiza el análisis al permitir la generación automática de gráficos y resúmenes estadísticos que enriquecen la interpretación de los resultados obtenidos.
 
 **Segmento 1: :** 
 
@@ -451,7 +453,7 @@ A modo de análisis de la información recopilada mediante las entrevistas, se d
 
 <img src="/assets/img/entrevistas/Analisis-segmento2-h.png" alt="Analisis entrevista segmento 2" width="600" height="270">
 
-Luego, recopilamos para cada pregunta de las entrevistas cuales las respuestas que varios tuvieron en común.
+A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
 
 **Segmento 1:** 
 
@@ -473,13 +475,9 @@ Para reconocer las demandas de los usuarios, empleamos diversos enfoques. Primer
 
 ### 2.3.1. User Personas.
 
-El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los diferentes segmentos de usuarios en el contexto de nuestra aplicación SportEase, que se enfoca en brindar soluciones tecnológicas a academias deportivas. Estos user personas sirven como representaciones ficticias pero realistas de los usuarios reales con los que interactuamos en el ámbito empresarial.
+Un user persona es una representación semi-ficticia de un usuario ideal basada en datos reales y en investigaciones sobre el comportamiento, necesidades y motivaciones de los usuarios. Los user personas son herramientas fundamentales en el diseño de productos y servicios, ya que permiten a los equipos de desarrollo y diseño comprender de manera más profunda a sus usuarios objetivo. Cada user persona se crea a partir de la recopilación y análisis de datos demográficos, psicográficos y de comportamiento, proporcionando un perfil detallado que incluye características como objetivos, frustraciones, necesidades y preferencias.
 
-Las entrevistas realizadas con ...
-
-Asimismo las entrevistas realizadas con ...
-
-Estos hallazgos del análisis de entrevistas nos brindan una comprensión profunda de las necesidades y expectativas de nuestros clientes empresariales en el sector de ... . Esto nos permite diseñar soluciones centradas en el usuario que aborden estos desafíos de manera efectiva y agreguen valor a sus operaciones comerciales.
+El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los distintos segmentos de usuarios en el contexto de nuestra aplicación Roademics, la cual se centra en ofrecer soluciones tecnológicas para el desarrollo profesional continuo de los usuarios. Estos user personas actúan como representaciones ficticias pero realistas de los usuarios con los que interactuamos en el ámbito empresarial. Al desarrollar perfiles detallados de los usuarios potenciales, podemos identificar de manera más efectiva sus intereses y problemas específicos, lo que permite diseñar funcionalidades y experiencias que se ajusten de manera precisa a sus demandas. 
 
 ###### Figura 10.
 *User Persona del primer segmento objetivo: .*
@@ -489,7 +487,9 @@ Estos hallazgos del análisis de entrevistas nos brindan una comprensión profun
 
 ### 2.3.2. User Task Matrix.
 
-Una Matriz de Tareas de Usuario es una herramienta utilizada en el diseño de experiencia de usuario (UX) y desarrollo de productos para organizar y visualizar las tareas que los usuarios realizan en un sistema o plataforma. Esta matriz ayuda a identificar las diversas acciones que los usuarios llevarán a cabo en el producto, así como la frecuencia y la importancia de cada una de estas tareas (Patnaik, 2017).
+Una Matriz de Tareas de Usuario es una herramienta esencial en el diseño de experiencia de usuario (UX) y en el desarrollo de productos, utilizada para organizar y visualizar de manera estructurada las tareas que los usuarios realizan dentro de un sistema o plataforma. Esta matriz no solo permite identificar y categorizar las diversas acciones que los usuarios deben llevar a cabo en el producto, sino que también ofrece una visión clara de la frecuencia con la que se realizan estas tareas, así como de la importancia relativa de cada una de ellas en el contexto de la experiencia global del usuario.
+
+Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores pueden obtener una comprensión más profunda de las interacciones clave que los usuarios tienen con el producto, lo que facilita la identificación de áreas críticas que requieren mayor atención o mejora. Como señala Patnaik (2017), el uso de esta matriz permite al equipo de diseño crear productos más intuitivos y eficaces, que se alineen mejor con las necesidades y expectativas de los usuarios, optimizando así la experiencia de uso y la satisfacción del cliente.
 
 ###### Tabla 3.
 *User Task Matrix para el primer User Persona.*
@@ -508,7 +508,9 @@ Una Matriz de Tareas de Usuario es una herramienta utilizada en el diseño de ex
 
 ### 2.3.3 User Journey Mapping
 
-Según Patnaik (2017), un Mapeo de Viaje es una técnica utilizada en el diseño de experiencia de usuario (UX) para visualizar y comprender la experiencia que tiene un usuario al interactuar con un producto o servicio a lo largo del tiempo. El proceso de creación de un Journey Map implica mapear los diferentes puntos de contacto entre el usuario y el producto o servicio, desde el inicio hasta la finalización de su interacción. Esto puede incluir todas las etapas del viaje del usuario, desde el descubrimiento inicial del producto hasta la compra, el uso continuo y el soporte posterior a la venta.
+Según Patnaik (2017), el Mapeo de Viaje es una técnica fundamental en el diseño de experiencia de usuario (UX) que permite visualizar y comprender de manera detallada la experiencia que un usuario atraviesa al interactuar con un producto o servicio a lo largo del tiempo. Esta técnica ofrece una representación clara de las diversas etapas y puntos de contacto que conforman la totalidad del recorrido del usuario, desde el momento en que se produce el primer contacto con el producto o servicio, hasta la fase de postventa y soporte continuo.
+
+El proceso de creación de un Journey Map implica la identificación y el mapeo de cada interacción entre el usuario y el producto o servicio, capturando todos los momentos clave de este recorrido. Esto incluye desde el descubrimiento inicial del producto, la evaluación de sus características, la toma de decisiones para la compra, el uso regular del producto o servicio, hasta las interacciones que pueden surgir después de la venta, como el servicio al cliente o soporte técnico. 
 
 ###### Figura 12.
 *User Journey Mapping del primer User Persona.*
@@ -518,7 +520,7 @@ Según Patnaik (2017), un Mapeo de Viaje es una técnica utilizada en el diseño
 
 ### 2.3.4 Empathy Mapping
 
-Un Mapeo de Empatía es una herramienta utilizada en el diseño de experiencia de usuario (UX) y el desarrollo de productos para comprender mejor las necesidades, deseos, emociones y comportamientos de los usuarios. El objetivo principal del Empathy Mapping es fomentar la empatía entre los miembros del equipo de diseño y los usuarios finales del producto o servicio (Patnaik, 2017).
+El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017).
 
 ###### Figura 14.
 *User Empathy Mapping del primer User Persona.*
@@ -528,9 +530,9 @@ Un Mapeo de Empatía es una herramienta utilizada en el diseño de experiencia d
 
 ### 2.3.5 As-is Scenario Mapping
 
-Un "As-is Scenario Mapping" es una técnica utilizada en el diseño de experiencia de usuario (UX) y el análisis de procesos para comprender y visualizar cómo funciona actualmente un sistema, producto o servicio. El término "as-is" significa "como es", lo que indica que este tipo de mapeo se enfoca en documentar y comprender el estado actual de un proceso o experiencia.
+El "As-is Scenario Mapping" es una técnica ampliamente empleada en el diseño de experiencia de usuario (UX) y en el análisis de procesos, cuyo propósito es comprender y visualizar cómo opera actualmente un sistema, producto o servicio. El término "as-is" se refiere a la condición "tal como es", lo que denota que esta metodología se centra en documentar y analizar el estado actual de un proceso o experiencia.
 
-El As-is Scenario Mapping implica la creación de un mapa visual que representa todas las etapas y acciones involucradas en un proceso o experiencia tal como se desarrollan actualmente. Esto puede incluir todas las interacciones, pasos, decisiones y puntos de contacto que ocurren durante el proceso.
+Como señala Harmon (2019), el As-is Scenario Mapping implica la elaboración de un mapa visual detallado que representa todas las etapas y acciones que forman parte de un proceso o experiencia en su estado actual. Este mapeo incluye todas las interacciones, pasos, decisiones y puntos de contacto que tienen lugar a lo largo del proceso, proporcionando una visión integral y precisa de cómo funciona realmente el sistema o servicio en cuestión. Esta herramienta resulta esencial para identificar áreas de mejora y para el diseño de futuras iteraciones del sistema o servicio, alineadas con las necesidades y expectativas de los usuarios.
 
 ###### Figura 14.
 *As-is Scenario Mapping del primer User Persona.*
@@ -540,11 +542,15 @@ El As-is Scenario Mapping implica la creación de un mapa visual que representa 
 
 ## 2.4. Requirements specification.
 
+Las Requirements Specification, o Especificaciones de Requisitos, son documentos de vital importancia en el proceso de desarrollo de sistemas y software, ya que proporcionan una descripción detallada de las funcionalidades, características y limitaciones que un producto o sistema debe cumplir. Estos documentos no solo definen lo que un sistema debe hacer, sino también cómo debe comportarse en diferentes escenarios y bajo distintas condiciones operativas, incluyendo cualquier restricción técnica relevante.
+
+Según Sommerville (2020), las especificaciones de requisitos cumplen un doble propósito: por un lado, ofrecen una guía técnica detallada para los desarrolladores sobre cómo construir el sistema, y por otro, proporcionan una referencia que puede ser utilizada para validar y verificar que el sistema final cumple con las expectativas establecidas. Además, este documento es crucial para la planificación y gestión del proyecto, ya que permite identificar y mitigar posibles riesgos, definir criterios de aceptación y establecer un marco para la toma de decisiones durante todo el ciclo de vida del desarrollo.
+
 ### 2.4.1. To-Be Scenario Mapping.
 
-Un "To-Be Scenario Mapping" es una técnica utilizada en el diseño de experiencia de usuario (UX) y el análisis de procesos para visualizar y diseñar cómo debería ser un proceso o experiencia en el futuro deseado. El término "to-be" significa "será", lo que indica que este tipo de mapeo se enfoca en representar cómo debería funcionar un proceso o experiencia una vez que se hayan realizado mejoras o cambios.
+El "To-Be Scenario Mapping" es una técnica clave en el diseño de experiencia de usuario (UX) y en el análisis de procesos, utilizada para visualizar y planificar cómo debería estructurarse un proceso o experiencia en un futuro ideal. El término "to-be" se refiere a lo que "será", lo que implica que esta técnica se centra en la representación de cómo debería funcionar un proceso o experiencia después de la implementación de mejoras o cambios estratégicos.
 
-El To-Be Scenario Mapping implica la creación de un mapa visual que representa las etapas y acciones deseadas en un proceso o experiencia. Este mapa describe cómo deberían ser las interacciones, pasos, decisiones y puntos de contacto en el proceso futuro.
+Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un mapa visual que ilustra las etapas y acciones deseadas en un proceso o experiencia futura. Este mapa detalla cómo deberían configurarse las interacciones, los pasos, las decisiones y los puntos de contacto en el proceso, con el fin de alcanzar un estado optimizado y alineado con los objetivos estratégicos. Esta herramienta es esencial para guiar el desarrollo de soluciones que mejoren la eficiencia, la efectividad y la satisfacción del usuario, asegurando que las transformaciones realizadas sean coherentes con la visión y metas a largo plazo.
 
 ###### Figura 16. 
 *To-be Scenario Mapping del primer User Persona.*
