@@ -144,7 +144,10 @@ Según Gothelf y Seiden (2021), el Lean UX Process es, como tal, una propia evol
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Hemos observado que el factor negativo que afecta los avances en el desarrollo profesional es **el conformismo profesional y la falta de acceso a asesoramiento personalizado y relevante** para la planificación de carrera. Este problema causa malestar en la población profesional, ya que **muchos individuos se sienten estancados en sus roles actuales y no ven un camino claro hacia el crecimiento**. Además, la **sobrecarga de información y la falta de claridad sobre las habilidades y competencias demandadas** por el mercado laboral contribuyen a la parálisis en la toma de decisiones y a la inacción en la búsqueda de oportunidades de mejora.
+
+El desarrollo profesional continuo se refiere al proceso mediante el cual los profesionales adquieren, mantienen y mejoran continuamente sus habilidades, conocimientos y competencias a lo largo de su carrera. Este desarrollo es esencial para adaptarse a los cambios en la industria, mantenerse al día con las nuevas tecnologías y prácticas, y garantizar que se pueda seguir ofreciendo un servicio o un trabajo de alta calidad.
+
+Hemos observado que el factor negativo que afecta los avances en el desarrollo profesional es **el conformismo profesional y la falta de acceso a asesoramiento personalizado y relevante** para la planificación de carrera. Este problema causa malestar, ya que **muchos individuos se sienten estancados en sus roles actuales y no ven un camino claro hacia el crecimiento**. Además, la **sobrecarga de información y la falta de claridad sobre las habilidades y competencias demandadas** por el mercado laboral contribuyen a la parálisis en la toma de decisiones y a la inacción en la búsqueda de oportunidades de mejora.
 
 Habiendo definido ya el problema, nos hacemos la siguiente pregunta: "¿De qué manera se puede proporcionar a los profesionales las herramientas y recursos adecuados para planificar y gestionar sus carreras de manera más efectiva, evitando así el estancamiento y promoviendo un crecimiento continuo y estratégico?"
 
@@ -184,6 +187,17 @@ Enfocandonos en el otro segmento, herramientas para filtrar candidatos según su
 
 La aplicación debe presentar una interfaz moderna, profesional y fácil de usar que transmita confianza y credibilidad. Debe comportarse de manera fluida, permitiendo una navegación sencilla y una experiencia de usuario intuitiva.
 
+- **User Outcomes**
+
+1. Tener una herramienta moderna, simple y didáctica que les sea de gran utilidad.
+
+2. Satisfacción personal al observar un avance.
+
+3. Conexión con empresas del mismo rubro que cuenten con propuestas laborales de interés.
+
+4. Mayor agilidad en procesos de búsqueda de candidatos para un puesto laboral.
+
+
 - **Business Assumptions:**
 
 1. **Creemos que nuestro segmento objetivo necesita** una plataforma que ofrezca orientación personalizada a través de pasos instructivos claros, con el fin de guiar a los usuarios en su desarrollo profesional y educativo, adaptado a sus necesidades individuales. 
@@ -197,6 +211,18 @@ La aplicación debe presentar una interfaz moderna, profesional y fácil de usar
 5. **Creemos que nuestro mayor riesgo será** que los usuarios no vean un valor inmediato en la personalización de "roadmaps" y en la orientación continua, lo que podría resultar en una baja retención de usuarios.
 
 6. **Creemos que podemos adquirir la mayoría de nuestros usuarios a través de** estrategias de marketing digital enfocadas en profesionales activos, incluyendo campañas en LinkedIn, asociaciones con instituciones educativas, y colaboraciones con empresas que buscan fomentar el desarrollo continuo de sus empleados.
+
+- **Business Outcomes**
+
+1. Modelo de negocio sostenible y demandado
+
+2. Posicionamiento como una aplicación novedosa y moderna
+
+3. Crecimiento en un 60% de nuevos usuarios
+
+4. Incremento del 70% de retención de usuarios
+
+5. Incremento del 50% de usuarios premium
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -239,9 +265,9 @@ Sabremos que hemos tenido éxito cuando observemos un aumento en la tasa de rete
 #### 1.2.2.4. Lean UX Canvas
 
 ###### Figura 1.
-*Presentación del modelo de las preguntas 5Ws y 2Hs con la que se analizaron los antecedentes y la problemática que abarca nuestro proyecto.*
+*Presentación del Lean UX Canvas.*
 
-<img src="/assets/img/Lean UX Canvas.png" alt="Lean UX Canvas de (app)" width="1400" height="1450">
+<img src="/assets/img/capitulo-I/Lean UX/Lean UX Canvas WeHaveAnIdea.jpg" alt="Lean UX Canvas de Roadmics">
 
 ---
 
@@ -253,7 +279,7 @@ El proceso de segmentación del mercado consiste en identificar y dividir el mer
 
 En relación con las secciones y la problemática abordada en nuestro proyecto, después de un análisis exhaustivo, hemos logrado identificar los siguientes segmentos objetivos:
 
-**Segmento 1: Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap**
+**Segmento 1: Profesionales formados y en desarrollo que deseen potenciarse planificando su futuro**
 
 Este segmento abarca tanto a profesionales en activo que buscan avanzar en su carrera como a estudiantes y recién graduados que desean comenzar a planificar su trayectoria laboral. Los profesionales en desarrollo, generalmente de entre 20 y 50 años, poseen experiencia variada y una educación superior, lo que les permite adaptarse a nuevas oportunidades y desafíos en sus campos (Guevara, 2015). Están motivados por la mejora continua, buscando adquirir nuevas habilidades, certificaciones, y experiencias que les permitan ascender en sus carreras. Estos profesionales suelen estar enfocados en el crecimiento personal y profesional, utilizando herramientas que les ayuden a mapear su progreso y a establecer metas claras para el futuro.
 
