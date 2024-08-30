@@ -346,14 +346,14 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 <img src="/assets/img/entrevistas/entrevista-segmento2.png" alt="Entrevista Segmento 2" width="400" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado:
-- Edad: 
-- Distrito: 
-- Link:
-- Inicio de la entrevista: 
-- Duración: 
-- Entrevistador:
-  
+- Nombre completo del entrevistado: Rosa Castro
+- Edad: 32
+- Distrito: Ate
+- Link: [Entrevita](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:01 
+- Duración: 10:56
+- Entrevistador: Lucio Yen
+- Nota: Rosa Castro es administradora y coordinadora de Mastercol. Ella menciona que el proceso de contratación. 
 ---
 
 **Entrevista N°5:**
@@ -365,14 +365,14 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 
 **Datos principales:**
-- Nombre completo del entrevistado: 
-- Edad: 
-- Distrito: 
-- Link: 
-- Inicio de la entrevista: 
-- Duración:
-- Entrevistador:
-  
+- Nombre completo del entrevistado: Jennifer Villanueva
+- Edad: 40
+- Distrito: Ate
+- Link: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:02
+- Duración: 10:42
+- Entrevistador: Lucio Yen
+- Nota: 
 ---
 
 **Entrevista N°6:**
