@@ -1,6 +1,6 @@
 ![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
 
-Universidad Peruana de Ciencias Aplicadas
+**Universidad Peruana de Ciencias Aplicadas**
 
 Aplicaciones para Dispositivos Móviles (CC238)
 
@@ -12,13 +12,7 @@ Informe del Trabajo Final
 
 Integrantes:
 
-Pescorán Angulo, Juan Fabritzzio - U20221C936
-
-Trigueros Chumacero, Flavio Eduardo - U202210190
-
-Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572
-
-Yen Cerna, Lucio Heli - U202213143
+Pescorán Angulo, Juan Fabritzzio - U20221C936 <br> Trigueros Chumacero, Flavio Eduardo - U202210190 <br> Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 <br> Yen Cerna, Lucio Heli - U202213143
 
 
 Sede de Villa, Agosto de 2024
@@ -50,9 +44,12 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 
 **Team Collaboration Insights**
 
-<img src="/assets/img/Contributions for Main.png" alt="Contributions for Main">
-<img src="/assets/img/Individual Contributions for Main - 1.png" alt="Individual Contributions for Main - 1">
-<img src="/assets/img/Individual Contributions for Main - 2.png" alt="Individual Contributions for Main - 2">
+Durante esta primera entrega para la TB1, nuestro equipo se centró en el desarrollo colaborativo del reporte principal y en el exhaustivo proceso de investigación y planeación, en el cual cada miembro aportó con sus habilidades y conocimientos especializados. Esta colaboración se evidencia en los numerosos commits registrados en nuestro repositorio, respaldados por capturas de pantalla adjuntas que aseguran una documentación minuciosa. Nuestro equipo se reunió tanto de manera presencial como virtual para asignar tareas y discutir en detalle la estrategia de desarrollo del proyecto. Estas reuniones fueron esenciales para clarificar las responsabilidades individuales y garantizar un desempeño óptimo.
+
+Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a una sección específica del informe, lo que facilitó un avance ágil y el cumplimiento de los plazos establecidos. Asimismo, programamos sesiones regulares de brainstorming y resolución de problemas, donde se compartieron ideas y se abordaron de manera conjunta cualquier duda o dificultad que surgiera durante el desarrollo. Estas reuniones resultaron fundamentales para superar obstáculos de manera efectiva y asegurar un progreso sostenido.
+
+<img src="/assets/img/contributions-for-main-tb1.png" alt="Contributions for Main - TB1">
+<img src="/assets/img/individial-contributions-for-main-tb1.png" alt="Individual Contributions for Main - TB1">
 
 ---
 
@@ -75,23 +72,23 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 2. **Capítulo II: Needfinding**
  
    - 2.1. Competidores
-     - 2.1.1. Análisis Competitivo
-     - 2.1.2. Estrategias y tácticas frente a competidores
-       2.2. Entrevistas
-     - 2.2.1. Diseño de entrevistas
-     - 2.2.2. Registro de entrevistas
-     - 2.2.3. Análisis de entrevistas
+        - 2.1.1. Análisis Competitivo
+        - 2.1.2. Estrategias y tácticas frente a competidores
+   - 2.2. Entrevistas
+        - 2.2.1. Diseño de entrevistas
+        - 2.2.2. Registro de entrevistas
+        - 2.2.3. Análisis de entrevistas
    - 2.3. Needfinding
-     - 2.3.1. User Personas
-     - 2.3.2. User Task Matrix
-     - 2.3.3. User Journey Mapping
-     - 2.3.4. Empathy Mapping
-     - 2.3.5. As-is Scenario Mapping
+        - 2.3.1. User Personas
+        - 2.3.2. User Task Matrix
+        - 2.3.3. User Journey Mapping
+        - 2.3.4. Empathy Mapping
+        - 2.3.5. As-is Scenario Mapping
     - 2.4. Requirements specification
         - 2.4.1. To-Be Scenario Mapping
         - 2.4.2. User Stories
-      - 2.4.3. Impact Mapping
-      - 2.4.4. Product Backlog
+        - 2.4.3. Impact Mapping
+        - 2.4.4. Product Backlog
 
 3. **Capítulo III: Architecture**
    
@@ -208,8 +205,7 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 
 En la carrera de Ingeniería de Software, el logro del curso contribuye a alcanzar el **ABET – EAC - Student Outcome 7**.
 
-“La capacidad de adquirir y aplicar nuevos conocimientos según sea
-necesario, utilizando estrategias deaprendizaje apropiadas. ”
+“La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias deaprendizaje apropiadas. ”
 
 En la siguiente sección se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro mencionado.
 
@@ -224,17 +220,21 @@ En la siguiente sección se describen las acciones realizadas y enunciados de co
         <td>
             <p>
                 <strong>Pescorán Angulo, Juan Fabritzzio - TB1:</strong>
-                <br><br>
+                <br>Para esta primera entrega del informe de trabajo, me enfoqué en desarrollar las secciones principales del análisis AS-IS y TO-BE, así como en la elaboración de los mapas de impacto y varias hipótesis dentro del modelo Lean UX para analizar a profundidad la problemática que afrontara nuestro proyecto. Durante este proceso, me propuse actualizar los métodos que había utilizado previamente, incorporando las tecnologías más avanzadas y relevantes disponibles en el mercado del software. Este enfoque no solo mejoró la calidad del análisis y la precisión de las hipótesis, sino que también garantizó que el proyecto estuviera alineado con las mejores prácticas y herramientas actuales de la industria.<br><br>
                 <strong>Trigueros Chumacero, Flavio Eduardo - TB1:</strong>
-                <br><br>
+                <br>A lo largo del desarrollo de esta primera entrega, he explorado numerosos artículos, libros y nuevas tendencias en el mercado del software con el objetivo de actualizar mis conceptos y conocimientos esenciales para el desarrollo profesional, así como para impulsar la innovación en los resultados de este proyecto. Esta investigación me permitió identificar métricas más precisas para realizar un análisis competitivo exhaustivo, diseñar estrategias agresivas para competir en el mercado, y establecer un modelo sólido de antecedentes y problemáticas. Asimismo, pude definir las características clave que debe tener nuestra aplicación para abordar eficazmente estos desafíos<br><br>
                 <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB1:</strong>
-                <br><br>
-                <strong>Yen Cerna, Lucio Heli - TB1:</strong>   
+                <br>A lo largo de esta entrega, tuve la oportunidad de informarme sobre varias actualizaciones recientes en los conceptos que debí desarrollar en el informe, particularmente en lo referente a la segmentación de mercado exitosa, así como a la definición de User Personas, junto con sus correspondientes User Task Matrix y Empathy Maps. Estos conceptos los apliqué de manera directa para identificar nuevas oportunidades de innovación y mejorar la precisión en el desarrollo del proyecto. La incorporación de estas herramientas permitió un enfoque más estratégico y alineado con las últimas tendencias, lo que resultó en un análisis más riguroso y una ejecución más efectiva del proyecto.<br><br>
+                <strong>Yen Cerna, Lucio Heli - TB1:</strong>
+                <br>Durante el desarrollo de esta TB1, tuve la oportunidad de profundizar en nuevos conceptos relacionados con el diseño Lean UX de una aplicación, así como en la forma de vincularlo directamente con las historias de usuario que se desarrollarán en el proyecto. Este enfoque permitió una alineación más efectiva entre el diseño y las necesidades del usuario final. Además, actualicé varios conceptos clave sobre el desarrollo y la conducción de entrevistas, incorporando las metodologías más modernas y demandadas por el mercado actual. Estos conocimientos resultan esenciales para garantizar que las entrevistas sean estructuradas de manera eficaz, reflejando las expectativas y tendencias actuales en la industria.
             </p>
         </td>
         <td>
             <p>
                 <strong>TB1: </strong>
+              <br>Para esta primera entrega del proyecto, denominada TB1, nos hemos enfocado en incorporar las últimas tendencias del mercado y del desarrollo profesional en los informes y en la documentación asociada. Hemos buscado implementar nuevas métricas, estrategias y tácticas para abordar la problemática del proyecto, así como para integrar de manera efectiva las historias de usuario junto con una segmentación de mercado detallada. Nuestro objetivo es establecer bases sólidas desde el principio para minimizar imperfecciones que puedan surgir en etapas posteriores y afectar el desarrollo continuo, lo cual podría consumir tiempo valioso.
+
+Creemos firmemente que el desarrollo continuo y la investigación son fundamentales para mantenernos actualizados con las nuevas tendencias, innovaciones y propuestas en el campo. Esta actitud nos permite analizar, plantear e integrar las mejores prácticas y modelos en nuestros proyectos, contribuyendo a evitar la obsolescencia y a fomentar un avance constante. En última instancia, buscamos no solo mantener la relevancia, sino también avanzar continuamente, siempre aspirando a la excelencia.<br>
             </p>
         </td>
     </tr>
@@ -243,17 +243,21 @@ En la siguiente sección se describen las acciones realizadas y enunciados de co
         <td>
             <p>
                 <strong>Pescorán Angulo, Juan Fabritzzio - TB1:</strong>
-                <br><br>
+                <br>Durante todo el proceso de este proyecto, he reconocido con claridad la importancia del aprendizaje continuo en cada uno de los proyectos que realizo a lo largo de mi carrera universitaria. La aplicación del modelo AS-IS y TO-BE, junto con los mapas de impacto, se ha revelado como un componente esencial para identificar con precisión los aspectos que deben mejorarse en nuestros segmentos objetivo a través del diseño de la aplicación. Además, este enfoque me permitió distinguir claramente cómo nuestras propuestas se diferencian de las soluciones actuales en el mercado. Esta experiencia subraya la necesidad de mantenerse actualizado y de adoptar un enfoque estratégico en cada etapa del desarrollo de proyectos. <br><br>
                 <strong>Trigueros Chumacero, Flavio Eduardo - TB1:</strong>
-                <br><br>
+                <br>Durante el desarrollo del proyecto, he reconocido claramente la necesidad del aprendizaje continuo en mi crecimiento profesional, ya que el mundo del software es altamente dinámico y requiere la adquisición de nuevas habilidades de manera constante, a veces incluso cada mes. En el ámbito del análisis competitivo, es crucial buscar y aplicar nuevas métricas para identificar y desarrollar estrategias que permitan destacarse en el mercado. Del mismo modo, en el desarrollo de antecedentes y problemáticas, es fundamental estar al tanto de los problemas y tendencias actuales para relacionar y detectar desafíos cada vez más graves y en expansión. Esta actitud proactiva de actualización y adaptación es esencial para mantenerse relevante y competitivo en un entorno en constante evolución.<br><br>
                 <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB1:</strong>
-                <br><br>
+                <br>Reconocí la necesidad del aprendizaje continuo en todo momento, esforzándome por identificar nuevas oportunidades para ampliar mis conocimientos en las áreas abordadas dentro del proyecto. En particular, me concentré en el desarrollo de User Personas, buscando la manera más precisa de elaborarlas para definir de manera integral y clara nuestros segmentos de mercado. Este enfoque me permitió centralizar la información y asegurar que la segmentación fuera coherente y alineada con los objetivos estratégicos del proyecto, lo que refuerza mi compromiso con el aprendizaje constante como un pilar fundamental en mi crecimiento profesional<br><br>
                 <strong>Yen Cerna, Lucio Heli - TB1:</strong>   
+                <br>Durante el proceso de investigación y diseño de los diagramas de Lean UX, así como en la organización de las entrevistas para el desarrollo de los user personas definidos para nuestra aplicación, he llegado a reconocer la gran importancia y relevancia de estos aspectos para mi futuro profesional. En particular, estos elementos resultan cruciales en el análisis detallado de las problemáticas y en la adquisición de información valiosa proveniente de los segmentos objetivo que hemos planteado. La experiencia adquirida en estos campos no solo enriquece mi comprensión del diseño centrado en el usuario, sino que también fortalece mis competencias en la resolución de problemas y la toma de decisiones informadas, habilidades esenciales para mi desarrollo profesional.
             </p>
         </td>
         <td>
             <p>
                 <strong>TB1: </strong>
+              <br>Como grupo de trabajo, reconocemos la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo exitoso de proyectos para cada uno de sus integrantes. Esta necesidad es particularmente evidente en el ámbito del software, donde el mercado evoluciona a una velocidad acelerada y exige la adquisición continua de nuevos conocimientos y habilidades. En relación con los temas abordados en esta entrega, entendemos la importancia de profundizar en los modelos Lean UX, el desarrollo de User Stories y las características propuestas en el Solution Profile. Nuestro objetivo es promover una mejora continua y aprovechar herramientas más avanzadas que superen las prácticas clásicas que empleábamos anteriormente.
+
+Apreciamos que la mejora continua es esencial tanto para el éxito de este proyecto como para nuestro crecimiento profesional en áreas clave. Estas incluyen la documentación, la definición del problema y la solución, el análisis de competidores, la definición de entrevistas, la segmentación de mercado, el uso de modelos Lean UX, el modelado de diagramas y User Personas, y la definición de historias de usuario. Este enfoque proactivo nos permitirá no solo mantenernos actualizados, sino también alcanzar un alto nivel de eficiencia y efectividad en nuestros proyectos.<br>
             </p>
         </td>
     </tr>
