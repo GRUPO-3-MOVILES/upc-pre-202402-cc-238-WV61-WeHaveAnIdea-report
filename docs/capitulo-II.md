@@ -290,7 +290,7 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 <img src="/assets/img/capitulo-2/interviews/interview-segment1-lizano.png" alt="Entrevista Segmento 1" width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: Coll Cardenas, Fernando Lizano 
+- Nombre completo del entrevistado: Coll Cardenas, Fernando Lizano
 - Edad: 19 años
 - Distrito: Punta Hermosa
 - Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -300,12 +300,14 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 Nota:
 
+Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
+
 **Entrevista N°2:**
 
 ###### Figura 3.
 *Imagen de presentación de la segunda entrevista realizada.*
 
-<img src="/assets/img/entrevistas/Entrevista2-Segmento1.png" alt="Entrevista 2 Segmento 1" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/interview-segment1-evangelista.png" alt="Entrevista 2 Segmento 1" width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Jeremías Evangelista Pescorán
@@ -315,8 +317,10 @@ Nota:
 - Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
 - Duración: 7 minutos y 33 segundos
 - Entrevistador: Pescoran Angulo, Juan Fabritzzio
-  
+
 Nota:
+
+Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 **Entrevista N°3:**
 
