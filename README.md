@@ -1,4 +1,5 @@
 ![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+
 Universidad Peruana de Ciencias Aplicadas
 
 Aplicaciones para Dispositivos Móviles (CC238)
@@ -10,9 +11,13 @@ Docente: Jorge Luis Mayta Guillermo
 Informe del Trabajo Final
 
 Integrantes:
+
 Pescorán Angulo, Juan Fabritzzio - U20221C936
+
 Trigueros Chumacero, Flavio Eduardo - U202210190
+
 Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572
+
 Yen Cerna, Lucio Heli - U202213143
 
 
@@ -266,84 +271,72 @@ En la siguiente sección, se describen los objetivos smart por parte del grupo:
               <th rowspan="4"></th> 
                 <td rowspan="4"></td>
                 <td>Nombre del Estudiante</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Pescorán Angulo, Juan Fabritzzio</td>
+                <td>Trigueros Chumacero, Flavio Eduardo</td>
+                <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+                <td>Yen Cerna, Lucio Heli</td>
             </tr>
             <tr>
                 <td>Descripción del objetivo</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Desarrollar y completar el Impact Mapping, los Escenarios AS-IS y TO-BE, y el Lean UX Hypothesis and Problem Statement en un plazo de 1 semana, asegurando una redacción clara y precisa de cómo la situación actual cambiará con la implementación de la aplicación, con un enfoque en identificar y planificar mejoras que optimicen el impacto del proyecto en al menos un 30% en comparación con los métodos actuales, según métricas de impacto y mejora.</td>
+                <td>Desarrollar y completar el Problem Statement con Antecedentes y Problemáticas, el Análisis Competitivo y las Estrategias ante Competidores en un plazo de 1 semana, asegurando una redacción clara y precisa del problema, un análisis exhaustivo de los competidores y el desarrollo de estrategias efectivas para abordar las debilidades detectadas, con el objetivo de mejorar la posición de la plataforma en el mercado en al menos un 30% según las métricas de posicionamiento competitivo.</td>
+                <td>Desarrollar y finalizar el diseño de las User Personas, Task Matrix y Empathy Mappings para el proyecto dentro de un plazo de 1 semana, asegurando que cada modelo refleje con precisión al menos el 90% de los segmentos de mercado identificados, lo cual permitirá una alineación estratégica con las necesidades del usuario final</td>
+                <td>Desarrollar y completar el Solution Profile, el Lean UX Canvas y el Product Backlog para el proyecto dentro de un plazo de 1 semana, asegurando que cada documento refleje una alineación estratégica de las funcionalidades del programa con las necesidades del usuario y las mejores prácticas de diseño UX, con un enfoque en mejorar la usabilidad del producto en al menos un 50% según las métricas de usabilidad estándar.</td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>25/08/24</td>
+                <td>24/08/24</td>
+                <td>25/08/24</td>
+                <td>23/08/24</td>
             </tr>
             <tr>
                 <td>Fecha de cumplimiento esperada</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>30/08/24</td>
+                <td>30/08/24</td>
+                <td>30/08/24</td>
+                <td>30/08/24</td>
             </tr>
             <tr>
               <th rowspan="5">Metodología Smart</th> 
                 <td>S<br>Specific<br> Específico</td>
                 <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Redactar el Impact Mapping para identificar cómo la implementación de la aplicación afectará a los diferentes stakeholders, crear los Escenarios AS-IS y TO-BE para mostrar la situación actual y el estado futuro con la aplicación, y desarrollar el Lean UX Hypothesis and Problem Statement para guiar el diseño basado en hipótesis y problemas identificados.</td>
+                <td>Redactar el Problem Statement detallando claramente el problema y sus antecedentes, realizar un Análisis Competitivo para identificar las principales debilidades de los competidores y desarrollar Estrategias Ante Competidores para aprovechar estas debilidades y mejorar la posición de la plataforma en el mercado.</td>
+                <td>Diseñar y desarrollar las User Personas, Task Matrix y Empathy Mappings que representen los diferentes segmentos de mercado identificados, asegurando que cada uno de estos elementos capture de manera precisa las características, comportamientos y necesidades de los usuarios.</td>
+                <td>Elaborar el Solution Profile, el Lean UX Canvas y el Product Backlog, detallando cómo las funcionalidades del programa mejorarán la experiencia del usuario y cumplirán con los objetivos del proyecto.</td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
                 <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>El éxito se medirá por la claridad y precisión de los documentos, con el Impact Mapping identificando al menos 4 áreas clave de impacto, los Escenarios AS-IS y TO-BE mostrando al menos 5 mejoras significativas, y el Lean UX Hypothesis and Problem Statement abarcando al menos 3 hipótesis clave y problemas específicos. La aplicación debe demostrar un incremento en la optimización del proceso en un 30% en comparación con el estado actual, basado en métricas de eficiencia.</td>
+                <td>El éxito se medirá por la claridad y precisión del Problem Statement, la identificación de al menos 5 debilidades clave en los competidores en el Análisis Competitivo, y el desarrollo de al menos 3 estrategias efectivas basadas en estas debilidades. Se espera que estas estrategias contribuyan a una mejora del 30% en las métricas de posicionamiento competitivo de la plataforma.</td>
+                <td>El éxito del objetivo se medirá mediante la precisión y relevancia de los modelos diseñados. Al menos el 90% de los segmentos de mercado identificados deben estar representados en las User Personas, y estas deben ser validadas con un mínimo de 5 puntos de coincidencia entre los Task Matrix y los Empathy Mappings.</td>
+                <td>El éxito se medirá por la capacidad de los documentos para alinear las funcionalidades con las necesidades del usuario, reflejado en un aumento del 50% en las métricas de usabilidad en pruebas internas, y en la inclusión de al menos 20 historias de usuario bien definidas en el Product Backlog.</td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
                 <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>El objetivo no solo incluye completar estos documentos en una semana, sino también realizar un análisis profundo y avanzado para anticipar y planificar mejoras significativas que superen los estándares del sector en términos de impacto y optimización, alcanzando un incremento del 30% en la eficiencia y efectividad de los procesos.</td>
+                <td>El objetivo no solo implica completar estos documentos en una semana, sino también superar los estándares de análisis competitivo y estrategia del sector, utilizando enfoques innovadores para identificar y explotar las debilidades de los competidores, con el fin de lograr una mejora significativa en la posición de la plataforma.</td>
+                <td>Este objetivo desafía a la propia segmentación y análisis de mercado para que no representen valores esperados como un 75& u 80%, sino directamente un 90% al realizar un análisis profundo y casi exacto, sobre todo tomando en cuenta como nuestros segmentos planteados pueden llegar a ser bastante generales. Esto supera lo esperado por la industria.</td>
+                <td>El objetivo no solo busca completar los documentos en una semana, sino también innovar en la definición de funcionalidades y en el mapeo de cómo estas mejoran la experiencia del usuario, superando los benchmarks actuales de usabilidad (25%) en el sector en un 50%. Asimismo, se busca entregar más historias de usuario de las necesarias, entregando 20 cuando se planteaban 10 en un inicio.</td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
                 <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Tener un Impact Mapping detallado, escenarios claros AS-IS y TO-BE, y un Lean UX Hypothesis and Problem Statement bien formulado es crucial para entender cómo la aplicación mejorará la situación actual y planificar su implementación de manera efectiva, impactando positivamente el rendimiento del proyecto en un 30% según métricas de mejora.</td>
+                <td>Un análisis exhaustivo del problema, junto con un análisis competitivo y estrategias bien formuladas, es fundamental para posicionar la plataforma de manera efectiva en el mercado y superar a la competencia, lo que puede incrementar la cuota de mercado en un 20% según estudios de competencia.</td>
+                <td>Diseñar User Personas precisas y detalladas es esencial para garantizar que el producto final se alinee con las expectativas y necesidades del mercado objetivo, aumentando la probabilidad de éxito del proyecto en todo aspecto general.</td>
+                <td>La creación de un Solution Profile, Lean UX Canvas y Product Backlog bien definidos es crucial para asegurar que el desarrollo del producto esté enfocado en resolver problemas reales de los usuarios y optimizar su experiencia, lo cual puede aumentar la adopción del producto en al menos un 30% según estudios de mercado.</td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
                 <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones diarias para asegurar que cada documento sea claro, preciso y alineado con los objetivos del proyecto, permitiendo ajustes según los resultados del análisis y las necesidades emergentes.</td>
+                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones diarias para asegurar la calidad y precisión de cada parte del trabajo, y ajustes en las estrategias según los hallazgos del análisis competitivo.</td>
+                <td>El objetivo debe completarse en 1 semana, con revisiones diarias para asegurar que cada parte del proceso avance según lo planeado y que se realicen los ajustes necesarios a lo largo de la semana.</td>
+                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones intermedias diarias para garantizar que cada documento se desarrolle de acuerdo con los estándares y se realicen ajustes según sea necesario.</td>
             </tr>
         </tbody>
     </table>
