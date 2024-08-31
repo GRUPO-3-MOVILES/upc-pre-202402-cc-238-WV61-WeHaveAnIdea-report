@@ -571,81 +571,46 @@ Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un m
 
 ### 2.4.2. User Stories.
 
+En esta sección, procederemos a realizar un análisis exhaustivo de cada una de las historias de usuario asignadas a lo largo de todo el ciclo de vida del proyecto. Nuestro objetivo primordial es asegurar la plena satisfacción de nuestros segmentos de mercado, mediante una comprensión profunda de sus necesidades y expectativas, así como la posterior adecuación de nuestras soluciones a estos requerimientos. Para alcanzar este fin, se especificarán detalladamente los requisitos definidos, junto con el conjunto de User Stories y Epics identificados como elementos clave para el éxito del proyecto. Es crucial destacar que cada User Story estará acompañada de sus correspondientes criterios de aceptación, lo que garantizará una comprensión precisa y compartida de los objetivos a lograr.
+
+Iniciaremos este proceso de presentación con una definición clara y contextualizada de los Epics en el marco de nuestro proyecto. Los Epics son grandes contenedores que agrupan conjuntos de funcionalidades o características más amplias del producto, actuando como estructuras fundamentales sobre las cuales se edificará la experiencia del usuario y se alcanzarán los objetivos del proyecto, siguiendo métricas previamente establecidas de manera organizada y controlada (Sommerville, 2020).
+
+Por lo tanto, presentaremos inicialmente nuestro modelo de Epics, el cual servirá como una guía y un marco de referencia integral para comprender tanto la naturaleza como el alcance de las historias de usuario que se abordarán a continuación. Este enfoque garantiza que se obtenga una visión completa y coherente de los diversos tipos de historias de usuario, así como de sus respectivas divisiones y definiciones, facilitando así una evaluación más precisa y una comprensión más profunda del proyecto en su conjunto.
+
 ##### Tabla 2.
 Tabla de épicas establecidas para las historias de usuarios.
 
-<table border="1" style="text-align: left;">
-	<tbody>
-		<tr>
-			<td colspan="1">Código</td>
-            <td colspan="1">Título</td>
-            <td colspan="1">Epic</td>
-		</tr>
-		<tr>
-            <td colspan="1">EP001</td>
-            <td colspan="1">Registro</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma<strong> quiero</strong> acceder a una interfaz de registro <strong>para</strong> crear y personalizar una cuenta nueva 
-</td>
-		</tr>
-        <tr>
-            <td colspan="1">EP002</td>
-            <td colspan="1">Autenticación de usuario</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> iniciar sesión y gestionar la seguridad de la cuenta <strong>para </strong>utilizar la plataforma y que no hayan vulnerabilidades de seguridad 
-            </td>
-		</tr>
-        <tr>
-            <td colspan="1">EP003</td>
-            <td colspan="1">Perfil</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> gestionar mi perfil <strong>para</strong> mantener mi información actualizada, realizar ajustes de mi cuenta y gestionar mi contenido</td>
-		</tr>
-        <tr>
-            <td colspan="1">EP004</td>
-            <td colspan="1">Roadmap</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> crear/generar un mapa de ruta <strong>para</strong> planificar mi vida profesional con las funcionalidades disponibles
-            </td>
-		</tr>
-        <tr>
-            <td colspan="1">EP005</td>
-            <td colspan="1">Network</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> navegar por el contenido de otras cuentas <strong>para</strong> contactarme con el usuario o visualizar su contenido.
-            </td>
-		</tr>
-        <tr>
-            <td colspan="1">EP006</td>
-            <td colspan="1">Membresía</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> informarme o adquirir el plan de suscripción de la aplicación<strong>para</strong> conocer las funcionalidades extras que brinda esta membresía y analizar si vale la pena mantenerme suscrito. 
-            </td>
-		</tr>
-				</tr>
-        <tr>
-            <td colspan="1">EP007</td>
-            <td colspan="1">Seguridad</td>
-            <td colspan="1">
-            <strong>Como</strong> desarrollador de la plataforma <strong>quiero</strong> mantener la seguridad de la aplicación <strong>para</strong> no exponer datos sensibles.
-            </td>
-		</tr>
-			</tr>
-        <tr>
-            <td colspan="1">EP008</td>
-            <td colspan="1">Términos y Condicioones</td>
-            <td colspan="1">
-            <strong>Como</strong> stakeholder de la plataforma <strong>quiero</strong>  informarme sobre los términos y condiciones<strong> para</strong> informarme sobre el reglamento y ética de la aplicación</td>
-		</tr>
-				</tr>
-        <tr>
-            <td colspan="1">EP009</td>
-            <td colspan="1">Landing Page</td>
-            <td colspan="1">
-            <strong>Como</strong> stakeholder de la plataforma <strong>quiero</strong> visualizar la interfaz del landing page<strong> para</strong> explorar sus diferentes secciones y funcionalidades
-		</tr>
-	</tbody>
-</table>
+<table border="1" style="text-align: left;"> 
+	<tbody> 
+		<tr> 
+			<td><strong>Código</strong></td> 
+			<td><strong>Título</strong></td> 
+			<td><strong>Epic</strong></td> 
+		</tr> 
+		<tr> <td>EP001</td> 
+			<td>Registro</td> 
+			<td><strong>Como</strong> usuario de la plataforma, <strong>deseo</strong> acceder a una interfaz de registro intuitiva y fácil de usar <strong>para</strong> crear y personalizar una cuenta nueva que refleje mis preferencias, garantizando una experiencia de usuario óptima desde el inicio.</td> </tr> 
+		<tr> <td>EP002</td>
+			<td>Autenticación de usuario</td> 
+			<td><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> contar con un sistema robusto de inicio de sesión y gestión de seguridad de la cuenta <strong>para</strong> asegurar el acceso sin vulnerabilidades, protegiendo mi información personal y confidencial en todo momento.</td> </tr> 
+		<tr> <td>EP003</td> 
+			<td>Perfil</td> <td><strong>Como</strong> usuario de la plataforma, <strong>busco</strong> tener la capacidad de gestionar mi perfil de manera integral <strong>para</strong> mantener mi información actualizada, realizar ajustes necesarios en mi cuenta, y administrar mi contenido, asegurando que mi presencia en la plataforma sea coherente y personalizada.</td> </tr> 
+		<tr> <td>EP004</td> 
+			<td>Roadmap</td> <td><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> contar con la posibilidad de crear y generar mapas de ruta personalizados <strong>para</strong> planificar mi desarrollo profesional de manera estratégica, aprovechando todas las funcionalidades disponibles que me ayuden a alcanzar mis metas a corto y largo plazo.</td> </tr> 
+		<tr> <td>EP005</td> 
+			<td>Networking</td> <td><strong>Como</strong> usuario de la plataforma, <strong>deseo</strong> explorar el contenido y perfiles de otros usuarios <strong>para</strong> establecer contactos profesionales, interactuar con sus contenidos, y potenciar mi red de contactos de manera significativa.</td> </tr> 
+		<tr> <td>EP006</td> 
+			<td>Membresía</td> <td><strong>Como</strong> usuario de la plataforma, <strong>me interesa</strong> acceder a información detallada sobre los planes de suscripción disponibles <strong>para</strong> evaluar las funcionalidades adicionales que ofrece la membresía y tomar una decisión informada sobre si vale la pena mantener o adquirir la suscripción premium.</td> </tr> 
+		<tr> <td>EP007</td> 
+			<td>Seguridad</td> <td><strong>Como</strong> desarrollador de la plataforma, <strong>necesito</strong> implementar y mantener medidas avanzadas de seguridad <strong>para</strong> proteger los datos sensibles de los usuarios, asegurando que la plataforma cumpla con los más altos estándares de protección de información y prevención de vulnerabilidades.</td> </tr> 
+		<tr> <td>EP008</td> 
+			<td>Términos y Condiciones</td> <td><strong>Como</strong> stakeholder de la plataforma, <strong>deseo</strong> estar completamente informado sobre los términos y condiciones de uso <strong>para</strong> comprender las políticas, normativas, y la ética que rige el funcionamiento de la aplicación, asegurando que mis derechos y responsabilidades están claramente definidos.</td> </tr> 
+		<tr> <td>EP009</td> 
+			<td>Landing Page</td> <td><strong>Como</strong> stakeholder de la plataforma, <strong>quiero</strong> explorar la interfaz de la página de inicio <strong>para</strong> evaluar sus diferentes secciones y funcionalidades, asegurando que proporciona una experiencia de usuario atractiva y alineada con los objetivos estratégicos del proyecto.</td> </tr> </tbody> </table>
+
+En la siguiente sección, procederemos a presentar un análisis exhaustivo y detallado de todas las historias de usuario que se han establecido en el marco del proyecto Roademics. Estas historias han sido meticulosamente diseñadas con la intención de alcanzar el más alto nivel de satisfacción entre nuestros clientes, asegurando que se cumplan de manera efectiva todos los objetivos delineados durante el proceso de planificación estratégica. Es fundamental subrayar que cada historia de usuario se clasificará de acuerdo con la sección correspondiente de la arquitectura de software en la que se implementará, facilitando así una integración fluida y coherente en el sistema global.
+
+De acuerdo con Sommerville (2020), una historia de usuario es una técnica esencial en el desarrollo de software, utilizada para describir una funcionalidad o característica desde la perspectiva del usuario final. En cada historia, se captura la identidad del usuario, la acción que necesita realizar y la razón por la cual esa acción es necesaria. Esta descripción concisa y centrada en el usuario no solo proporciona una guía clara para el equipo de desarrollo durante el diseño y la construcción del producto, sino que también asegura que se mantengan siempre en el centro de atención las necesidades y expectativas del usuario final. Al seguir este enfoque, garantizamos que cada componente desarrollado responda de manera efectiva a las demandas del usuario, contribuyendo al éxito global del proyecto.
 
 ###### Tabla 3.
 *Tabla de las historias de usuarios establecidas.*
@@ -661,9 +626,7 @@ Tabla de épicas establecidas para las historias de usuarios.
 		</tr>
 		<tr>
             <td colspan="1">US001</td>
-            <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
-            </td>
+            <td colspan="1">Registro de usuarios estudiantes en la plataforma</td>
             <td colspan="1">
             <strong>Como</strong> usuario estudiante <strong>quiero
             </strong> crearme una cuenta <strong>para</strong> poder acceder a la aplicación y sus funciones.	
@@ -1006,3 +969,13 @@ Tabla de épicas establecidas para las historias de usuarios.
 <img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento2.png">
 
 ### 2.4.4. Product Backlog.
+
+En esta sección del proyecto, procederemos a esquematizar y completar el Product Backlog, un componente esencial en la gestión ágil de proyectos de desarrollo de software. El Product Backlog se constituye como una lista dinámica y priorizada que engloba todas las funcionalidades, mejoras, y requisitos necesarios para el desarrollo del producto. Esta lista se organiza en función del valor que cada elemento aporta al negocio, convirtiéndose así en una herramienta clave para guiar el trabajo del equipo de desarrollo a lo largo de las diferentes fases del proyecto.
+
+El Product Backlog no solo se limita a historias de usuario, sino que también incluye tareas técnicas y otras actividades críticas para el desarrollo del producto. La estructuración de este backlog sigue una lógica clara y meticulosa: en primer lugar, se priorizan las historias relacionadas con la experiencia del usuario en la Landing Page, seguidas de las funcionalidades esenciales de la aplicación móvil, y finalmente, se abordan las historias técnicas necesarias para el desarrollo del sistema en su totalidad. Este enfoque garantiza que cada acción realizada por el equipo esté alineada con las prioridades del proyecto y las expectativas de los usuarios (Sommerville, 2020).
+
+En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
+
+| #Orden    | User Story Id  | Titulo                                                  | Descripcion               | Story Points (1/2/3/5/8)   |
+|-----------|----------------|---------------------------------------------------------|---------------------------|----------------------------|
+|     1     |      US01      |            |                    |                      |
