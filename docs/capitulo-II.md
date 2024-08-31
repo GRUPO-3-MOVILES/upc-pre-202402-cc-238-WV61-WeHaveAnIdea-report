@@ -664,216 +664,60 @@ Tabla de épicas establecidas para las historias de usuarios.
             <td colspan="1">
             Registro de usuarios estudiantes en la plataforma
             </td>
-            <td colspan="1">
-            <strong>Como</strong> usuario estudiante <strong>quiero
-            </strong> crearme una cuenta <strong>para</strong> poder acceder a la aplicación y sus funciones.	
-            </td>
+            <td colspan="1"><strong>Como</strong> un usuario registrado de Roademics, <strong>quiero</strong> crear un mapa de ruta profesional personalizado utilizando las herramientas proporcionadas por la aplicación, <strong>para</strong> recibir un plan de desarrollo detallado que me ayude a alcanzar mis metas profesionales y mejorar mis habilidades.</td>
             <td colspan="5">
-            <strong>E01: Registro Exitoso</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema verifique los datos colocados por el usuario estudiante
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que su cuenta ha sido registrada exitosamente.
-            <br><br>
-            <strong>E02: Registro Fallido por datos inválidos</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema detecte que los datos colocados por el usuario estudiante son incorrectos
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por los datos inválidos.
-            <br><br>
-            <strong>E03: Registro fallido por datos incompletos</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene solo algunas partes del formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema detecte que el formulario de registro esté incompleto
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por no llenar el formulario completamente.
-            <br>
+            <strong>E01: Creación mediante Prompts con AI</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de creación de mapas de ruta <strong>y</strong> ha ingresado sus metas profesionales, intereses y habilidades actuales a través de una serie de prompts guiados por inteligencia artificial, <strong>cuando</strong> el usuario confirme los datos ingresados <strong>y</strong> solicite la generación del mapa de ruta, <strong>entonces</strong> el sistema debe procesar la información utilizando el algoritmo de inteligencia artificial para generar un mapa de ruta personalizado que incluya hitos clave, recomendaciones de desarrollo y sugerencias específicas para alcanzar las metas establecidas.
+            <strong>E02: Creación Manual del Árbol de Ruta</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha elegido la opción de crear un mapa de ruta de forma manual utilizando herramientas proporcionadas por Roademics, <strong>cuando</strong> el usuario utilice las herramientas de diseño y edición disponibles para agregar y organizar hitos, objetivos y actividades dentro del mapa de ruta, <strong>entonces</strong> el sistema debe permitir al usuario construir y personalizar el árbol de ruta de manera intuitiva, con opciones para arrastrar y soltar elementos, editar detalles y establecer relaciones entre los distintos componentes del mapa. El usuario debe poder guardar, visualizar y modificar el mapa de ruta creado en cualquier momento.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
         <tr>
             <td colspan="1">US002</td>
-            <td colspan="1">Registro de instituciones educativas en la plataforma</td>
+            <td colspan="1">Edición de un Mapa de Ruta</td>
             <td colspan="1">
-            <strong>Como</strong> usuario encargado de una institución educativa <strong>quiero</strong> crearme una cuenta <strong>para</strong> poder acceder a la aplicación y sus funciones.
+            <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder editar y actualizar mi mapa de ruta existente, <strong>para</strong> ajustar las recomendaciones y los hitos clave de acuerdo con los nuevos logros, cambios en mis metas o evolución en mis habilidades, asegurando que mi plan de desarrollo siempre refleje mi situación actual y mis objetivos profesionales actualizados.
             </td>
             <td colspan="5">
-             <strong>E01: Registro Exitoso</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema verifique los datos colocados por el usuario estudiante
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que su cuenta ha sido registrada exitosamente.
+             <strong>E01: Edición mediante Prompts de IA</strong>
+	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de edición de un mapa de ruta <strong>y</strong> ha solicitado realizar cambios mediante la interacción con una serie de prompts guiados por inteligencia artificial, <strong>cuando</strong> el usuario ingrese los nuevos detalles sobre sus logros recientes, cambios en sus metas profesionales y actualizaciones en sus habilidades a través de los prompts proporcionados, <strong>entonces</strong> el sistema debe procesar la información actualizada utilizando el algoritmo de inteligencia artificial para ajustar el mapa de ruta en consecuencia. El mapa de ruta revisado debe reflejar los nuevos hitos y recomendaciones, y el usuario debe recibir una vista previa interactiva de los cambios realizados, permitiéndole revisar, ajustar y confirmar la actualización antes de finalizar el proceso. <br><br>
             <br><br>
-            <strong>E02: Registro Fallido por datos inválidos</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema detecte que los datos colocados por el usuario estudiante son incorrectos
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por los datos inválidos.
-            <br><br>
-            <strong>E03: Registro fallido por datos incompletos</strong>
-            <br>
-            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
-            <br>
-            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
-            <br>
-            <strong>Cuando</strong> el sistema muestre el formulario de registro 
-            <br>
-            <strong>Y</strong> el usuario estudiante llene solo algunas partes del formulario con sus datos
-            <br>
-            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
-            <br>
-            <strong>Y</strong> el sistema detecte que el formulario de registro esté incompleto
-            <br>
-            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por no llenar el formulario completamente.
-            <br>
+            <strong>E02: Edición Manual del Mapa de Ruta</strong>	
+	    <br><br><strong>Dado que</strong> el usuario ha optado por editar el mapa de ruta existente de forma manual utilizando las herramientas de diseño disponibles en Roademics, <strong>cuando</strong> el usuario acceda a la interfaz de edición y utilice las herramientas para modificar, agregar o eliminar hitos, objetivos y actividades dentro del mapa de ruta, <strong>entonces</strong> el sistema debe permitir al usuario realizar estos ajustes de manera intuitiva mediante opciones de arrastrar y soltar, edición directa y reorganización de los elementos del mapa. El usuario debe poder guardar los cambios realizados, visualizar el mapa actualizado en tiempo real y recibir notificaciones sobre la finalización de la edición, asegurando que todos los ajustes sean aplicados correctamente y reflejados en la versión final del mapa de ruta.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 	        </tr>
-        	<tr>
+	<tr>
             <td colspan="1">US003</td>
-<td colspan="1">Inicio de sesión de usuarios en la plataforma</td>
-<td colspan="1">
-<strong>Como </strong> usuario<strong> quiero</strong> iniciar sesión en mi cuenta <strong>para</strong> utilizar los videojuegos de estudio.
-</td>
-<td colspan="5">
-<strong>E01: Inicio de sesión exitoso</strong>
-<br>
-<strong>Dado que</strong> el usuario se encuentra en la plataforma
-<br>
-<strong>Y</strong> el usuario selecciona la opción iniciar sesión
-<br>
-<strong>Cuando</strong> el usuario ingrese su correo y contraseña en el formulario
-<br>
-<strong>Y</strong> el usuario seleccione la opción iniciar sesión
-<br>
-<strong>Entonces</strong> el sistema verifica que los datos existen dentro de la base de datos
-<strong>Y</strong> el sistema muestra la interfaz inicial de la plataforma.
-<br><br>
-<strong>E02: Inicio de sesión fallido por credenciales incorrectas o inexistentes</strong> 
-<br>
-<strong>Dado que</strong> el usuario se encuentra en la plataforma
-<br>
-<strong>Y</strong> el usuario selecciona la opción iniciar sesión
-<br>
-<strong>Cuando</strong> el usuario ingrese su correo y contraseña en el formulario
-<br>
-<strong>Y</strong> el usuario seleccione la opción iniciar sesión
-<br>
-<strong>Entonces</strong> el sistema detecta que los datos no existen dentro de la base de datos
-<strong>Y</strong> el sistema muestra un mensaje indicando que las credenciales son incorrectas o inexistentes.
-<br><br>
-<strong>E03: Inicio de sesión fallido por campos vacíos</strong>
-<br>
-<strong>Dado que</strong> el usuario se encuentra en la plataforma
-<br>
-<strong>Y</strong> el usuario selecciona la opción iniciar sesión
-<br>
-<strong>Cuando</strong> el usuario deja los campos de correo y contraseña vacíos
-<br>
-<strong>Y</strong> el usuario seleccione la opción iniciar sesión
-<br>
-<strong>Entonces</strong> el sistema muestra un mensaje indicando que los campos son obligatorios.
-<br><br>
-<strong>E04: Inicio de sesión fallido por correo electrónico inválido</strong>
-<br>
-<strong>Dado que</strong> el usuario se encuentra en la plataforma
-<br>
-<strong>Y</strong> el usuario selecciona la opción iniciar sesión
-<br>
-<strong>Cuando</strong> el usuario ingresa un correo electrónico inválido en el formulario
-<br>
-<strong>Y</strong> el usuario seleccione la opción iniciar sesión
-<br>
-<strong>Entonces</strong> el sistema muestra un mensaje indicando que el correo electrónico es inválido.
-<br><br>
-<strong>E05: Inicio de sesión fallido por contraseña inválida</strong>
-<br>
-<strong>Dado que</strong> el usuario se encuentra en la plataforma
-<br>
-<strong>Y</strong> el usuario selecciona la opción iniciar sesión
-<br>
-<strong>Cuando</strong> el usuario ingresa una contraseña inválida en el formulario
-<br>
-<strong>Y</strong> el usuario seleccione la opción iniciar sesión
-<br>
-<strong>Entonces</strong> el sistema muestra un mensaje indicando que la contraseña es inválida.
-<br>
-</td>
-<td colspan="1">EP001</td>
-</tr>
-        <tr>
-            <td colspan="1">US004</td>
-            <td colspan="1">Recuperación de contraseña para usuarios registrados</td>
-            <td colspan="1"><strong>Como</strong> usuario registrado,<strong> quiero</strong> poder restablecer mi contraseña utilizando mi dirección de correo electrónico asociada a mi cuenta,<strong> para</strong> poder recuperar el acceso a mi cuenta en caso de olvidar mi contraseña.</td>
-            <td colspan="5"><strong> E01: Recuperación de contraseña exitosa con gmail</strong>
-            Dado que el usuario olvida su contraseña
-            Y el usuario quiere ingresar a su cuenta
-            Cuando el usuario seleccione la opción recuperar contraseña
-            Y el sistema envía un código al correo del usuario
-            Y el usuario coloca el código en el formulario
-            Y el sistema detecta que el código es incorrecto
-            Entonces el sistema muestra el mensaje que se ha podido recuperar la contraseña.
-            <br><br>
-            E02: Recuperación de contraseña fallida 
-            Dado que el usuario olvida su contraseña
-            Y el usuario quiere ingresar a su cuenta
-            Cuando el usuario seleccione la opción recuperar contraseña
-            Y el sistema envía un código al correo del usuario
-            Y el usuario coloca el código en el formulario
-            Y el sistema detecta que el código es incorrecto
-            Entonces el sistema muestra el mensaje que no se ha podido recuperar la contraseña.
+            <td colspan="1">Eliminación de un Mapa de Ruta</td>
+            <td colspan="1">
+	    <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder eliminar un mapa de ruta específico o varios mapas de ruta en una sola operación, <strong>para</strong> gestionar de manera efectiva mis planes de desarrollo y eliminar aquellos que ya no son relevantes o necesarios, asegurando que mi perfil y recursos se mantengan organizados y actualizados.
             </td>
-            <td colspan="1">EP001</td>
-		</tr>
+            <td colspan="5">
+             <strong>E01: Eliminación de un Mapa de Ruta Específico</strong>
+	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de eliminación <strong>y</strong> ha seleccionado un mapa de ruta específico que desea eliminar, <strong>cuando</strong> el usuario confirme la eliminación mediante el proceso de confirmación de eliminación, <strong>entonces</strong> el sistema debe eliminar permanentemente el mapa de ruta seleccionado de la cuenta del usuario. El usuario debe recibir una notificación de confirmación de eliminación y una advertencia previa que detalle que la acción es irreversible. Además, el mapa de ruta eliminado debe ser retirado de la vista del usuario y de cualquier informe o historial relacionado con los mapas de ruta.
+            <br><br>
+            <strong>E02: Eliminación de Varios Mapas de Ruta en una Sola Operación</strong>	
+	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de eliminación múltiple <strong>y<strong> ha seleccionado varios mapas de ruta para eliminar en una sola operación, <strong>cuando</strong> el usuario confirme la eliminación de estos mapas mediante el proceso de confirmación de eliminación múltiple, <strong>entonces</strong> el sistema debe eliminar permanentemente todos los mapas de ruta seleccionados de la cuenta del usuario. El usuario debe recibir una notificación de confirmación de eliminación y una advertencia previa que indique que la acción es irreversible y afectará a todos los mapas seleccionados. El sistema debe actualizar la interfaz del usuario para reflejar la eliminación de los mapas de ruta y asegurar que todos los datos asociados sean removidos de manera correcta y completa.
+            </td>
+            <td colspan="1">EP004</td>
+	        </tr>
+	<tr>
+            <td colspan="1">US004</td>
+            <td colspan="1">Compartir un Mapa de Ruta</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder compartir este mapa de ruta con otros usuarios, <strong>para</strong> recibir retroalimentación, colaborar con colegas o inspirar a otros profesionales con mi trayectoria y plan de desarrollo.
+            </td>
+            <td colspan="5">
+             <strong>E01: Compartir Mapa de Ruta Individualmente</strong>
+	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de compartir <strong>y</strong> ha seleccionado un mapa de ruta específico que desea compartir, <strong>cuando</strong> el usuario elija la opción de compartir e ingrese la dirección de correo electrónico o el nombre de usuario del destinatario, <strong>entonces</strong> el sistema debe enviar una invitación de compartición al destinatario con un enlace al mapa de ruta. El destinatario debe recibir una notificación y poder acceder al mapa de ruta compartido mediante el enlace proporcionado. Además, el usuario debe recibir una confirmación de que el mapa de ruta ha sido compartido exitosamente, y el sistema debe registrar la actividad en el historial de comparticiones del usuario.<br><br>
+            <br><br>
+            <strong>E02: Compartir Mapa de Ruta en Redes Sociales</strong>	
+	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de compartir <strong>y</strong> ha optado por la opción de compartir el mapa de ruta en redes sociales, <strong>cuando</strong> el usuario seleccione las redes sociales a través de las cuales desea compartir el mapa y confirme la acción, <strong>entonces</strong> el sistema debe generar un enlace de compartición que el usuario pueda publicar en sus perfiles de redes sociales. El enlace debe permitir a los usuarios de las redes sociales acceder al mapa de ruta compartido y visualizarlo en un formato adecuado para la red social. Además, el usuario debe recibir una notificación de confirmación de que la compartición en redes sociales ha sido exitosa, y el sistema debe registrar la actividad de compartición en el historial del usuario. <br><br>
+            </td>
+            <td colspan="1">EP004</td>
+	        </tr>
         <tr>
             <td colspan="1">US005</td>
             <td colspan="1">Modificación de cuenta</td>
