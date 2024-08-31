@@ -993,4 +993,16 @@ Tabla de épicas establecidas para las historias de usuarios.
 
 ### 2.4.3. Impact Mapping.
 
+*Impact Mapping del primer User Persona.*
+
+###### Figura 18.
+
+<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento1.png">
+
+*Impact Mapping del primer User Persona.*
+
+###### Figura 19.
+
+<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento2.png">
+
 ### 2.4.4. Product Backlog.
