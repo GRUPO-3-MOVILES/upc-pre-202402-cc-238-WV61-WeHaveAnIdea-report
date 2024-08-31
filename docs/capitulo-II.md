@@ -723,7 +723,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             Y el usuario seleccione cancelar
             Entonces el sistema cierra la sesión de cuenta dentro de ese dispositivo.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
         <tr>
             <td colspan="1">US007</td>
@@ -742,7 +742,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             Y el usuario selecciona cancelar
             Entonces el sistema no elimina la cuenta
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
        <tr>
     <td colspan="1">US008</td>
@@ -763,43 +763,8 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     </td>
     <td colspan="1">EP002</td>
 </tr>
-        <tr>
-    <td colspan="1">US009</td>
-    <td colspan="1">Visualización de carrusel de videojuegos</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario, <strong>quiero</strong> poder visualizar un carrusel de videojuegos en la plataforma, <strong>para</strong> descubrir fácilmente los juegos destacados y populares.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
-        <strong>Cuando</strong> la página principal se carga correctamente, <br>
-        <strong>Entonces</strong> debe aparecer un carrusel de videojuegos en la sección destacada. <br><br>
-        <strong>E02: Dado que</strong> el usuario hace clic en un juego del carrusel, <br>
-        <strong>Cuando</strong> selecciona un juego específico, <br>
-        <strong>Entonces</strong> debe ser redirigido a la página de detalles de ese juego. <br><br>
-        <strong>E03: Dado que</strong> el usuario interactúa con el carrusel, <br>
-        <strong>Cuando</strong> desliza hacia la izquierda o derecha, <br>
-        <strong>Entonces</strong> debe navegar entre los diferentes juegos del carrusel.
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
-       <tr>
-    <td colspan="1">US010</td>
-    <td colspan="1">Visualización de información relevante en componentes</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario, <strong>quiero</strong> poder ver información relevante presentada en los componentes de la plataforma, <strong>para</strong> saber rápidamente qué información se encuentra en cada componente y acceder a la información que necesito de manera eficiente.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
-        <strong>Cuando</strong> la página principal se carga correctamente, <br>
-        <strong>Entonces</strong> debe mostrarse información relevante en los componentes específicos de la interfaz. <br><br>
-        <strong>E02: Dado que</strong> el usuario navega por la plataforma, <br>
-        <strong>Cuando</strong> interactúa con diferentes secciones, <br>
-        <strong>Entonces</strong> debe encontrar componentes con información relevante que indiquen la acción que ejecutará. <br>
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
 <tr>
-    <td colspan="1">US011</td>
+    <td colspan="1">US009</td>
     <td colspan="1">Inicio de sesión de usuario en la plataforma</td>
     <td colspan="1">
         <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión en la plataforma utilizando mi correo electrónico y contraseña, <strong>para</strong> acceder de manera segura a mi cuenta y a todas las funcionalidades disponibles.
@@ -821,7 +786,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     <td colspan="1">EP002</td>
 </tr>
 <tr>
-<td colspan="1">US012</td>
+<td colspan="1">US010</td>
     <td colspan="1">Inicio de sesión con cuentas externas</td>
     <td colspan="1">
         <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión utilizando mi cuenta de Google o LinkedIn, <strong>para</strong> acceder rápidamente a la plataforma sin necesidad de recordar otra contraseña.
@@ -844,7 +809,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     <td colspan="1">EP002</td>
 </tr>
 <tr>
-<td colspan="1">US013</td>
+<td colspan="1">US011</td>
     <td colspan="1">Recuperación de contraseña</td>
     <td colspan="1">
         <strong>Como</strong> usuario registrado, <strong>quiero</strong> poder recuperar mi contraseña en caso de olvidarla, <strong>para</strong> asegurarme de que siempre puedo acceder a mi cuenta sin problemas.
@@ -864,7 +829,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 </tr>
 
   <tr>
-<td colspan="1">US014</td>
+<td colspan="1">US012</td>
     <td colspan="1">Registrar una cuenta de nuevo usuario</td>
     <td colspan="1">
         Como nuevo usuario, quiero poder registrar una cuenta utilizando mi correo electrónico y una contraseña segura para poder acceder a la plataforma y personalizar mi perfil.
@@ -873,11 +838,11 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
         <strong>E01: Dado que</strong> el nuevo usuario ha accedido a la página de registro, cuando el usuario ingresa su correo electrónico y una contraseña segura en los campos correspondientes, entonces el sistema debe verificar que el correo electrónico no esté registrado previamente y que la contraseña cumpla con los requisitos de seguridad (longitud mínima, uso de caracteres especiales, etc.).
 <br>
     </td>
-    <td colspan="1">EP003</td>
+    <td colspan="1">EP001</td>
 </tr>
 
 <tr>
-<td colspan="1">US015</td>
+<td colspan="1">US013</td>
     <td colspan="1">Formulario de registro inicial
 </td>
     <td colspan="1">
@@ -888,11 +853,11 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 
 <br>
     </td>
-    <td colspan="1">EP003</td>
+    <td colspan="1">EP001</td>
 </tr>
 
 <tr>
-<td colspan="1">US016</td>
+<td colspan="1">US014</td>
     <td colspan="1">Definir tipo de usuario al momento de registrar cuenta</td>
     <td colspan="1">
         Como usuario, quiero poder seleccionar el tipo de usuario que mejor se adapte a mis necesidades (Estudiante, Profesional, Empresa, etc.) durante el registro, para recibir una experiencia personalizada en la plataforma.
@@ -902,7 +867,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 según el tipo de usuario seleccionado y debe guardar esta información para personalizar la experiencia del usuario en la plataforma.
 <br>
     </td>
-    <td colspan="1">EP003</td>
+    <td colspan="1">EP001</td>
 </tr>
 </table>
 
