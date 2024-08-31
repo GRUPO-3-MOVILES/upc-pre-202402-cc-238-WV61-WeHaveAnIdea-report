@@ -650,6 +650,346 @@ Tabla de épicas establecidas para las historias de usuarios.
 ###### Tabla 3.
 *Tabla de las historias de usuarios establecidas.*
 
+<table  style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1">ID de Historia de Usuario</td>
+            <td colspan="1">Título</td>
+            <td colspan="1">Descripción</td>
+            <td colspan="5">Criterios de Aceptación con Escenarios</td>
+            <td colspan="1">ID de Épica</td>
+		</tr>
+		<tr>
+            <td colspan="1">US001</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1">
+            <strong>Como</strong> usuario estudiante <strong>quiero
+            </strong> crearme una cuenta <strong>para</strong> poder acceder a la aplicación y sus funciones.	
+            </td>
+            <td colspan="5">
+            <strong>E01: Registro Exitoso</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema verifique los datos colocados por el usuario estudiante
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que su cuenta ha sido registrada exitosamente.
+            <br><br>
+            <strong>E02: Registro Fallido por datos inválidos</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema detecte que los datos colocados por el usuario estudiante son incorrectos
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por los datos inválidos.
+            <br><br>
+            <strong>E03: Registro fallido por datos incompletos</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene solo algunas partes del formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema detecte que el formulario de registro esté incompleto
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por no llenar el formulario completamente.
+            <br>
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+        <tr>
+            <td colspan="1">US002</td>
+            <td colspan="1">Registro de instituciones educativas en la plataforma</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario encargado de una institución educativa <strong>quiero</strong> crearme una cuenta <strong>para</strong> poder acceder a la aplicación y sus funciones.
+            </td>
+            <td colspan="5">
+             <strong>E01: Registro Exitoso</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema verifique los datos colocados por el usuario estudiante
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que su cuenta ha sido registrada exitosamente.
+            <br><br>
+            <strong>E02: Registro Fallido por datos inválidos</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene todo el formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema detecte que los datos colocados por el usuario estudiante son incorrectos
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por los datos inválidos.
+            <br><br>
+            <strong>E03: Registro fallido por datos incompletos</strong>
+            <br>
+            <strong>Dado que</strong> el usuario estudiante ingresa por primera vez a la aplicación
+            <br>
+            <strong>Y</strong> el usuario estudiante selecciona la opción de registro
+            <br>
+            <strong>Cuando</strong> el sistema muestre el formulario de registro 
+            <br>
+            <strong>Y</strong> el usuario estudiante llene solo algunas partes del formulario con sus datos
+            <br>
+            <strong>Y</strong> el usuario estudiante seleccione la opción "registrar cuenta"
+            <br>
+            <strong>Y</strong> el sistema detecte que el formulario de registro esté incompleto
+            <br>
+            <strong>Entonces</strong> el sistema muestra un mensaje informando que no se ha podido registrar la cuenta por no llenar el formulario completamente.
+            <br>
+            </td>
+            <td colspan="1">EP001</td>
+	        </tr>
+        	<tr>
+            <td colspan="1">US003</td>
+<td colspan="1">Inicio de sesión de usuarios en la plataforma</td>
+<td colspan="1">
+<strong>Como </strong> usuario<strong> quiero</strong> iniciar sesión en mi cuenta <strong>para</strong> utilizar los videojuegos de estudio.
+</td>
+<td colspan="5">
+<strong>E01: Inicio de sesión exitoso</strong>
+<br>
+<strong>Dado que</strong> el usuario se encuentra en la plataforma
+<br>
+<strong>Y</strong> el usuario selecciona la opción iniciar sesión
+<br>
+<strong>Cuando</strong> el usuario ingrese su correo y contraseña en el formulario
+<br>
+<strong>Y</strong> el usuario seleccione la opción iniciar sesión
+<br>
+<strong>Entonces</strong> el sistema verifica que los datos existen dentro de la base de datos
+<strong>Y</strong> el sistema muestra la interfaz inicial de la plataforma.
+<br><br>
+<strong>E02: Inicio de sesión fallido por credenciales incorrectas o inexistentes</strong> 
+<br>
+<strong>Dado que</strong> el usuario se encuentra en la plataforma
+<br>
+<strong>Y</strong> el usuario selecciona la opción iniciar sesión
+<br>
+<strong>Cuando</strong> el usuario ingrese su correo y contraseña en el formulario
+<br>
+<strong>Y</strong> el usuario seleccione la opción iniciar sesión
+<br>
+<strong>Entonces</strong> el sistema detecta que los datos no existen dentro de la base de datos
+<strong>Y</strong> el sistema muestra un mensaje indicando que las credenciales son incorrectas o inexistentes.
+<br><br>
+<strong>E03: Inicio de sesión fallido por campos vacíos</strong>
+<br>
+<strong>Dado que</strong> el usuario se encuentra en la plataforma
+<br>
+<strong>Y</strong> el usuario selecciona la opción iniciar sesión
+<br>
+<strong>Cuando</strong> el usuario deja los campos de correo y contraseña vacíos
+<br>
+<strong>Y</strong> el usuario seleccione la opción iniciar sesión
+<br>
+<strong>Entonces</strong> el sistema muestra un mensaje indicando que los campos son obligatorios.
+<br><br>
+<strong>E04: Inicio de sesión fallido por correo electrónico inválido</strong>
+<br>
+<strong>Dado que</strong> el usuario se encuentra en la plataforma
+<br>
+<strong>Y</strong> el usuario selecciona la opción iniciar sesión
+<br>
+<strong>Cuando</strong> el usuario ingresa un correo electrónico inválido en el formulario
+<br>
+<strong>Y</strong> el usuario seleccione la opción iniciar sesión
+<br>
+<strong>Entonces</strong> el sistema muestra un mensaje indicando que el correo electrónico es inválido.
+<br><br>
+<strong>E05: Inicio de sesión fallido por contraseña inválida</strong>
+<br>
+<strong>Dado que</strong> el usuario se encuentra en la plataforma
+<br>
+<strong>Y</strong> el usuario selecciona la opción iniciar sesión
+<br>
+<strong>Cuando</strong> el usuario ingresa una contraseña inválida en el formulario
+<br>
+<strong>Y</strong> el usuario seleccione la opción iniciar sesión
+<br>
+<strong>Entonces</strong> el sistema muestra un mensaje indicando que la contraseña es inválida.
+<br>
+</td>
+<td colspan="1">EP001</td>
+</tr>
+        <tr>
+            <td colspan="1">US004</td>
+            <td colspan="1">Recuperación de contraseña para usuarios registrados</td>
+            <td colspan="1"><strong>Como</strong> usuario registrado,<strong> quiero</strong> poder restablecer mi contraseña utilizando mi dirección de correo electrónico asociada a mi cuenta,<strong> para</strong> poder recuperar el acceso a mi cuenta en caso de olvidar mi contraseña.</td>
+            <td colspan="5"><strong> E01: Recuperación de contraseña exitosa con gmail</strong>
+            Dado que el usuario olvida su contraseña
+            Y el usuario quiere ingresar a su cuenta
+            Cuando el usuario seleccione la opción recuperar contraseña
+            Y el sistema envía un código al correo del usuario
+            Y el usuario coloca el código en el formulario
+            Y el sistema detecta que el código es incorrecto
+            Entonces el sistema muestra el mensaje que se ha podido recuperar la contraseña.
+            <br><br>
+            E02: Recuperación de contraseña fallida 
+            Dado que el usuario olvida su contraseña
+            Y el usuario quiere ingresar a su cuenta
+            Cuando el usuario seleccione la opción recuperar contraseña
+            Y el sistema envía un código al correo del usuario
+            Y el usuario coloca el código en el formulario
+            Y el sistema detecta que el código es incorrecto
+            Entonces el sistema muestra el mensaje que no se ha podido recuperar la contraseña.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+        <tr>
+            <td colspan="1">US005</td>
+            <td colspan="1">Modificación de cuenta</td>
+            <td colspan="1">Como usuario registrado, quiero poder actualizar mi información personal para garantizar que mi perfil esté siempre completo y actualizado.</td>
+            <td colspan="5">E01: Modificación exitosa de cuenta
+            Dado que el usuario ve la información de su cuenta desactualizada
+            Y el usuario quiere actualizar la información de su cuenta
+            Cuando el usuario seleccione la opción de editar perfil
+            Y el usuario cambia datos en su perfil 
+            Y el usuario selecciona la opción guardar cambios
+            Entonces el sistema muestra los datos actualizados de la cuenta del usuario.
+            E02: Modificación fallida
+            Dado que el usuario ve la información de su cuenta desactualizada
+            Y el usuario quiere actualizar la información de su cuenta
+            Cuando el usuario seleccione la opción de editar perfil
+            Y el usuario cambia datos en su perfil 
+            Y el usuario olvida seleccionar la opción guardar cambios
+            Entonces el sistema muestra la cuenta sin datos actualizados.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+        <tr>
+            <td colspan="1">US006</td>
+            <td colspan="1">Cierre de sesión de cuenta</td>
+            <td colspan="1">Como usuario registrado, quiero poder cerrar sesión en mi cuenta con un solo clic desde cualquier página de la plataforma, para poder proteger mi privacidad y seguridad cuando haya terminado de utilizar el servicio.</td>
+            <td colspan="5">E01: Cierre de sesión exitosa
+            Dado que el usuario termina de utilizar los servicios del aplicación
+            Y el usuario quiere cerrar sesión en el dispositivo que está usando
+            Cuando el usuario seleccione la opción cerrar sesión 
+            Y el sistema muestre una advertencia de cierre de sesión
+            Y el usuario seleccione aceptar 
+            Entonces el sistema cierra la sesión de cuenta dentro de ese dispositivo.
+            E02: Cierre de sesión fallida
+            Dado que el usuario termina de utilizar los servicios del aplicación
+            Y el usuario quiere cerrar sesión en el dispositivo que está usando
+            Cuando el usuario seleccione la opción cerrar sesión 
+            Y el sistema muestre una advertencia de cierre de sesión
+            Y el usuario seleccione cancelar
+            Entonces el sistema cierra la sesión de cuenta dentro de ese dispositivo.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+        <tr>
+            <td colspan="1">US007</td>
+            <td colspan="1">Eliminación de cuenta</td>
+            <td colspan="1">Como usuario registrado, quiero tener la opción de eliminar permanentemente mi cuenta desde la configuración de mi perfil para tener control sobre mis datos personales y mi participación en la plataforma.</td>
+            <td colspan="5">E01: Eliminación de cuenta exitosa
+            Dado que el usuario quiere eliminar su cuenta
+            Cuando el usuario seleccione eliminar cuenta desde el apartado de configuración
+            Y el sistema muestra una advertencia de que la cuenta se eliminará para siempre
+            Y el usuario selecciona aceptar
+            Entonces el sistema elimina la cuenta
+            E02: Eliminación de cuenta fallida
+            Dado que el usuario quiere eliminar su cuenta
+            Cuando el usuario seleccione eliminar cuenta desde el apartado de configuración
+            Y el sistema muestra una advertencia de que la cuenta se eliminará para siempre
+            Y el usuario selecciona cancelar
+            Entonces el sistema no elimina la cuenta
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+       <tr>
+    <td colspan="1">US008</td>
+    <td colspan="1">Implementación del menú principal</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario, <strong>quiero</strong> tener un menú principal claramente visible y funcional cuando accedo a la plataforma, <strong>para</strong> poder acceder fácilmente a las diferentes secciones y funcionalidades de la aplicación.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
+        <strong>Cuando</strong> la aplicación se carga correctamente, <br>
+        <strong>Entonces</strong> el menú principal debe estar visible en la pantalla principal. <br><br>
+        <strong>E02: Dado que</strong> el usuario selecciona una opción del menú, <br>
+        <strong>Cuando</strong> hace clic en la opción deseada, <br>
+        <strong>Entonces</strong> debe ser redirigido a la sección correspondiente de la aplicación. <br><br>
+        <strong>E03: Dado que</strong> el usuario intenta acceder a una sección protegida sin haber iniciado sesión, <br>
+        <strong>Cuando</strong> hace clic en la opción del menú correspondiente, <br>
+        <strong>Entonces</strong> debe ser redirigido a la pantalla de inicio de sesión.
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
+        <tr>
+    <td colspan="1">US009</td>
+    <td colspan="1">Visualización de carrusel de videojuegos</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario, <strong>quiero</strong> poder visualizar un carrusel de videojuegos en la plataforma, <strong>para</strong> descubrir fácilmente los juegos destacados y populares.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
+        <strong>Cuando</strong> la página principal se carga correctamente, <br>
+        <strong>Entonces</strong> debe aparecer un carrusel de videojuegos en la sección destacada. <br><br>
+        <strong>E02: Dado que</strong> el usuario hace clic en un juego del carrusel, <br>
+        <strong>Cuando</strong> selecciona un juego específico, <br>
+        <strong>Entonces</strong> debe ser redirigido a la página de detalles de ese juego. <br><br>
+        <strong>E03: Dado que</strong> el usuario interactúa con el carrusel, <br>
+        <strong>Cuando</strong> desliza hacia la izquierda o derecha, <br>
+        <strong>Entonces</strong> debe navegar entre los diferentes juegos del carrusel.
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
+       <tr>
+    <td colspan="1">US010</td>
+    <td colspan="1">Visualización de información relevante en componentes</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario, <strong>quiero</strong> poder ver información relevante presentada en los componentes de la plataforma, <strong>para</strong> saber rápidamente qué información se encuentra en cada componente y acceder a la información que necesito de manera eficiente.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
+        <strong>Cuando</strong> la página principal se carga correctamente, <br>
+        <strong>Entonces</strong> debe mostrarse información relevante en los componentes específicos de la interfaz. <br><br>
+        <strong>E02: Dado que</strong> el usuario navega por la plataforma, <br>
+        <strong>Cuando</strong> interactúa con diferentes secciones, <br>
+        <strong>Entonces</strong> debe encontrar componentes con información relevante que indiquen la acción que ejecutará. <br>
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
+</table>
 
 ### 2.4.3. Impact Mapping.
 
