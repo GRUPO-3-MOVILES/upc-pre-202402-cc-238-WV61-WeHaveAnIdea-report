@@ -571,6 +571,86 @@ Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un m
 
 ### 2.4.2. User Stories.
 
+##### Tabla 2.
+Tabla de épicas establecidas para las historias de usuarios.
+
+<table border="1" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1">Código</td>
+            <td colspan="1">Título</td>
+            <td colspan="1">Epic</td>
+		</tr>
+		<tr>
+            <td colspan="1">EP001</td>
+            <td colspan="1">Registro</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma<strong> quiero</strong> acceder a una interfaz de registro <strong>para</strong> crear y personalizar una cuenta nueva 
+</td>
+		</tr>
+        <tr>
+            <td colspan="1">EP002</td>
+            <td colspan="1">Autenticación de usuario</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> iniciar sesión y gestionar la seguridad de la cuenta <strong>para </strong>utilizar la plataforma y que no hayan vulnerabilidades de seguridad 
+            </td>
+		</tr>
+        <tr>
+            <td colspan="1">EP003</td>
+            <td colspan="1">Perfil</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> gestionar mi perfil <strong>para</strong> mantener mi información actualizada, realizar ajustes de mi cuenta y gestionar mi contenido</td>
+		</tr>
+        <tr>
+            <td colspan="1">EP004</td>
+            <td colspan="1">Roadmap</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> crear/generar un mapa de ruta <strong>para</strong> planificar mi vida profesional con las funcionalidades disponibles
+            </td>
+		</tr>
+        <tr>
+            <td colspan="1">EP005</td>
+            <td colspan="1">Network</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> navegar por el contenido de otras cuentas <strong>para</strong> contactarme con el usuario o visualizar su contenido.
+            </td>
+		</tr>
+        <tr>
+            <td colspan="1">EP006</td>
+            <td colspan="1">Membresía</td>
+            <td colspan="1">
+            <strong>Como</strong> usuario de la plataforma <strong>quiero</strong> informarme o adquirir el plan de suscripción de la aplicación<strong>para</strong> conocer las funcionalidades extras que brinda esta membresía y analizar si vale la pena mantenerme suscrito. 
+            </td>
+		</tr>
+				</tr>
+        <tr>
+            <td colspan="1">EP007</td>
+            <td colspan="1">Seguridad</td>
+            <td colspan="1">
+            <strong>Como</strong> desarrollador de la plataforma <strong>quiero</strong> mantener la seguridad de la aplicación <strong>para</strong> no exponer datos sensibles.
+            </td>
+		</tr>
+			</tr>
+        <tr>
+            <td colspan="1">EP008</td>
+            <td colspan="1">Términos y Condicioones</td>
+            <td colspan="1">
+            <strong>Como</strong> stakeholder de la plataforma <strong>quiero</strong>  informarme sobre los términos y condiciones<strong> para</strong> informarme sobre el reglamento y ética de la aplicación</td>
+		</tr>
+				</tr>
+        <tr>
+            <td colspan="1">EP009</td>
+            <td colspan="1">Landing Page</td>
+            <td colspan="1">
+            <strong>Como</strong> stakeholder de la plataforma <strong>quiero</strong> visualizar la interfaz del landing page<strong> para</strong> explorar sus diferentes secciones y funcionalidades
+		</tr>
+	</tbody>
+</table>
+
+###### Tabla 3.
+*Tabla de las historias de usuarios establecidas.*
+
+
 ### 2.4.3. Impact Mapping.
 
 ### 2.4.4. Product Backlog.
