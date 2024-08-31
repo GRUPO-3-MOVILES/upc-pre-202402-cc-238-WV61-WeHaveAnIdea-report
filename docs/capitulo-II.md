@@ -466,7 +466,7 @@ Un user persona es una representación semi-ficticia de un usuario ideal basada 
 El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los distintos segmentos de usuarios en el contexto de nuestra aplicación Roademics, la cual se centra en ofrecer soluciones tecnológicas para el desarrollo profesional continuo de los usuarios. Estos user personas actúan como representaciones ficticias pero realistas de los usuarios con los que interactuamos en el ámbito empresarial. Al desarrollar perfiles detallados de los usuarios potenciales, podemos identificar de manera más efectiva sus intereses y problemas específicos, lo que permite diseñar funcionalidades y experiencias que se ajusten de manera precisa a sus demandas. 
 
 ###### Figura 10.
-*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visulizar su propio roadmap.*
+*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap.*
 <img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento1.png">
 
 ###### Figura 11.
@@ -540,8 +540,12 @@ Como señala Harmon (2019), el As-is Scenario Mapping implica la elaboración de
 ###### Figura 14.
 *As-is Scenario Mapping del primer User Persona.*
 
+<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento1.jpg">
+
 ###### Figura 15. 
 *As-is Scenario Mapping del segundo User Persona.*
+
+<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento2.jpg">
 
 ## 2.4. Requirements specification.
 
@@ -558,8 +562,12 @@ Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un m
 ###### Figura 16. 
 *To-be Scenario Mapping del primer User Persona.*
 
+<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento1.jpg">
+
 ###### Figura 17. 
 *To-be Scenario Mapping del segundo User Persona.*
+
+<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento2.jpg">
 
 ### 2.4.2. User Stories.
 
