@@ -559,6 +559,15 @@ El "To-Be Scenario Mapping" es una técnica clave en el diseño de experiencia d
 
 Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un mapa visual que ilustra las etapas y acciones deseadas en un proceso o experiencia futura. Este mapa detalla cómo deberían configurarse las interacciones, los pasos, las decisiones y los puntos de contacto en el proceso, con el fin de alcanzar un estado optimizado y alineado con los objetivos estratégicos. Esta herramienta es esencial para guiar el desarrollo de soluciones que mejoren la eficiencia, la efectividad y la satisfacción del usuario, asegurando que las transformaciones realizadas sean coherentes con la visión y metas a largo plazo.
 
+###### Figura 16. 
+*To-be Scenario Mapping del primer User Persona.*
+
+<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento1.jpg">
+
+###### Figura 17. 
+*To-be Scenario Mapping del segundo User Persona.*
+
+<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento2.jpg">
 
 ### 2.4.2. User Stories.
 
