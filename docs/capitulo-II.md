@@ -952,6 +952,70 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     </td>
     <td colspan="1">EP002</td>
 </tr>
+<tr>
+    <td colspan="1">US011</td>
+    <td colspan="1">Inicio de sesión de usuario en la plataforma</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión en la plataforma utilizando mi correo electrónico y contraseña, <strong>para</strong> acceder de manera segura a mi cuenta y a todas las funcionalidades disponibles.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario registrado se encuentra en la plataforma, <br>
+        <strong>Y</strong> selecciona la opción "Iniciar sesión", <br>
+        <strong>Cuando</strong> el usuario ingresa su correo y contraseña correctos en el formulario <br>
+        <strong>Y</strong> selecciona la opción "Iniciar sesión" <br>
+        <strong>Entonces</strong> el sistema verifica los datos y muestra la interfaz inicial de la plataforma. <br><br>
+        <strong>E02: Dado que</strong> el usuario registrado intenta iniciar sesión, <br>
+        <strong>Y</strong> selecciona la opción "Iniciar sesión", <br>
+        <strong>Cuando</strong> ingresa credenciales incorrectas. <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que las credenciales son incorrectas. <br><br>
+        <strong>E03: Dado que</strong> el usuario registrado intenta iniciar sesión, <br>
+        <strong>Cuando</strong> deja los campos de correo o contraseña vacíos, <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que los campos son obligatorios. <br>
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
+<tr>
+<td colspan="1">US012</td>
+    <td colspan="1">Inicio de sesión con cuentas externas</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión utilizando mi cuenta de Google o LinkedIn, <strong>para</strong> acceder rápidamente a la plataforma sin necesidad de recordar otra contraseña.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> que el usuario registrado se encuentra en la pantalla de inicio de sesión, <br>
+        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
+        <strong>Cuando</strong> el usuario es redirigido a la pantalla de autenticación externa <br>
+        <strong>Y</strong> el usuario autoriza el acceso <br>
+        <strong>Entonces</strong> el sistema verifica la autenticación y muestra la interfaz inicial de la plataforma. <br><br>
+        <strong>E02: Dado que</strong> el usuario registrado intenta iniciar sesión con una cuenta externa, <br>
+        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
+        <strong>Cuando</strong> el proceso de autenticación externa falla <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo iniciar sesión debido a un error en la autenticación externa. <br><br>
+        <strong>E03: Dado que</strong> el usuario registrado intenta iniciar sesión con una cuenta externa, <br>
+        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
+        <strong>Cuando</strong> el proceso de autenticación externa falla <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo iniciar sesión debido a un error en la autenticación externa. <br>
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
+<tr>
+<td colspan="1">US013</td>
+    <td colspan="1">Recuperación de contraseña</td>
+    <td colspan="1">
+        <strong>Como</strong> usuario registrado, <strong>quiero</strong> poder recuperar mi contraseña en caso de olvidarla, <strong>para</strong> asegurarme de que siempre puedo acceder a mi cuenta sin problemas.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario registrado olvida su contraseña, <br>
+        <strong>Y</strong> selecciona la opción "Recuperar contraseña", <br>
+        <strong>Cuando</strong> el usuario ingresa su correo asociado a la cuenta <br>
+        <strong>Y</strong> el sistema envía un enlace de recuperación al correo <br>
+        <strong>Entonces</strong> el usuario puede crear una nueva contraseña al seguir el enlace. <br><br>
+        <strong>E02: Dado que</strong> el usuario registrado olvida su contraseña, <br>
+        <strong>Y</strong> selecciona la opción "Recuperar contraseña", <br>
+        <strong>Cuando</strong> ingresa un correo no registrado o incorrecto. <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo recuperar la contraseña debido a un error en la verificación del correo. <br><br>
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
 </table>
 
 ### 2.4.3. Impact Mapping.
