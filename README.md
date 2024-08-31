@@ -267,7 +267,9 @@ Apreciamos que la mejora continua es esencial tanto para el éxito de este proye
 
 ### Smart Goals 
 
-En la siguiente sección, se describen los objetivos smart por parte del grupo: 
+En la siguiente sección, se procederá a detallar de manera exhaustiva los objetivos SMART formulados por el equipo de trabajo. Estos objetivos han sido cuidadosamente diseñados para garantizar un enfoque estratégico y medible en el cumplimiento de las metas del proyecto. Además, se enmarcan en un contexto que favorece la coherencia, precisión y alineación con los resultados esperados, asegurando que cada miembro del grupo contribuya de manera efectiva al éxito global del desarrollo de la aplicación.
+
+Primer grupo de objetivos SMART: 
 
 <table>
         <tbody>
@@ -282,65 +284,143 @@ En la siguiente sección, se describen los objetivos smart por parte del grupo:
             </tr>
             <tr>
                 <td>Descripción del objetivo</td>
-                <td>Desarrollar y completar el Impact Mapping, los Escenarios AS-IS y TO-BE, y el Lean UX Hypothesis and Problem Statement en un plazo de 1 semana, asegurando una redacción clara y precisa de cómo la situación actual cambiará con la implementación de la aplicación, con un enfoque en identificar y planificar mejoras que optimicen el impacto del proyecto en al menos un 30% en comparación con los métodos actuales, según métricas de impacto y mejora.</td>
-                <td>Desarrollar y completar el Problem Statement con Antecedentes y Problemáticas, el Análisis Competitivo y las Estrategias ante Competidores en un plazo de 1 semana, asegurando una redacción clara y precisa del problema, un análisis exhaustivo de los competidores y el desarrollo de estrategias efectivas para abordar las debilidades detectadas, con el objetivo de mejorar la posición de la plataforma en el mercado en al menos un 30% según las métricas de posicionamiento competitivo.</td>
-                <td>Desarrollar y finalizar el diseño de las User Personas, Task Matrix y Empathy Mappings para el proyecto dentro de un plazo de 1 semana, asegurando que cada modelo refleje con precisión al menos el 90% de los segmentos de mercado identificados, lo cual permitirá una alineación estratégica con las necesidades del usuario final</td>
-                <td>Desarrollar y completar el Solution Profile, el Lean UX Canvas y el Product Backlog para el proyecto dentro de un plazo de 1 semana, asegurando que cada documento refleje una alineación estratégica de las funcionalidades del programa con las necesidades del usuario y las mejores prácticas de diseño UX, con un enfoque en mejorar la usabilidad del producto en al menos un 50% según las métricas de usabilidad estándar.</td>
+                <td>Desarrollar e implementar 40 User Stories detalladas y entendibles para Roademics, asegurando que cada una aborde necesidades específicas del usuario y se traduzca en funcionalidades programables con una tasa de aceptación del 95% durante las pruebas de usuario en 3 meses, con un enfoque en diseño atractivo y usabilidad.</td>
+                <td>Desarrollar una documentación técnica completa y detallada para Roademics que incluya gráficos de organización del proyecto y asegure el cumplimiento con las normativas impuestas por grandes compañías como Google y Microsoft, logrando una revisión sin errores en el 100% de los aspectos revisados, y obtener una validación de cumplimiento en auditorías de normativa antes de la demo principal en 3 meses.</td>
+                <td>Implementar e integrar 10 funcionalidades clave de los roadmaps de Roademics, asegurando que cada una se comunique eficazmente con plataformas externas y sistemas de inteligencia artificial, con una tasa de éxito del 98% en pruebas de integración y funcionalidad antes de la demo principal en 3 meses. </td>
+                <td>Desarrollar y validar un prototipo de interfaz de usuario (UI) y experiencia de usuario (UX) para Roademics, incorporando un sistema de inteligencia artificial que analice y prediga las necesidades de los usuarios en su propio desarrollo competitivo y profesional con un 90% de precisión, según las métricas de usabilidad y feedback de usuarios en pruebas de aceptación, para la presentación de la demo principal en 3 meses.</td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
-                <td>25/08/24</td>
-                <td>24/08/24</td>
-                <td>25/08/24</td>
-                <td>23/08/24</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
             </tr>
             <tr>
                 <td>Fecha de cumplimiento esperada</td>
-                <td>30/08/24</td>
-                <td>30/08/24</td>
-                <td>30/08/24</td>
-                <td>30/08/24</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
             </tr>
             <tr>
               <th rowspan="5">Metodología Smart</th> 
                 <td>S<br>Specific<br> Específico</td>
                 <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
-                <td>Redactar el Impact Mapping para identificar cómo la implementación de la aplicación afectará a los diferentes stakeholders, crear los Escenarios AS-IS y TO-BE para mostrar la situación actual y el estado futuro con la aplicación, y desarrollar el Lean UX Hypothesis and Problem Statement para guiar el diseño basado en hipótesis y problemas identificados.</td>
-                <td>Redactar el Problem Statement detallando claramente el problema y sus antecedentes, realizar un Análisis Competitivo para identificar las principales debilidades de los competidores y desarrollar Estrategias Ante Competidores para aprovechar estas debilidades y mejorar la posición de la plataforma en el mercado.</td>
-                <td>Diseñar y desarrollar las User Personas, Task Matrix y Empathy Mappings que representen los diferentes segmentos de mercado identificados, asegurando que cada uno de estos elementos capture de manera precisa las características, comportamientos y necesidades de los usuarios.</td>
-                <td>Elaborar el Solution Profile, el Lean UX Canvas y el Product Backlog, detallando cómo las funcionalidades del programa mejorarán la experiencia del usuario y cumplirán con los objetivos del proyecto.</td>
+                <td>Redactar y desarrollar a profundidad 40 User Stories detalladas y comprensibles que cubran las necesidades del usuario y se traduzcan en funcionalidades programables que presenten una alta tasa de aceptación después de las pruebas de usuario.</td>
+                <td>Desarrollar y redactar documentación técnica profunda y completa, además de realizar gráficos de organización para los aspectos técnicos e implementar normativas propias y reglas que cumplan con las normativas de Google y Microsoft.</td>
+                <td>Desarrollar e integrar adecuadamente 10 funcionalidades clave del sistema de roadmaps de Roademics, incluyendo la comunicación con plataformas externas y sistemas de Inteligencia Artificial.</td>
+                <td>Desarrollar y validar un prototipo de UI/UX con un sistema o servicio de Inteligencia Artificial para análisis y predicción de necesidades de los usuarios en su desarrollo profesional usando roadmaps.</td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
                 <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
-                <td>El éxito se medirá por la claridad y precisión de los documentos, con el Impact Mapping identificando al menos 4 áreas clave de impacto, los Escenarios AS-IS y TO-BE mostrando al menos 5 mejoras significativas, y el Lean UX Hypothesis and Problem Statement abarcando al menos 3 hipótesis clave y problemas específicos. La aplicación debe demostrar un incremento en la optimización del proceso en un 30% en comparación con el estado actual, basado en métricas de eficiencia.</td>
-                <td>El éxito se medirá por la claridad y precisión del Problem Statement, la identificación de al menos 5 debilidades clave en los competidores en el Análisis Competitivo, y el desarrollo de al menos 3 estrategias efectivas basadas en estas debilidades. Se espera que estas estrategias contribuyan a una mejora del 30% en las métricas de posicionamiento competitivo de la plataforma.</td>
-                <td>El éxito del objetivo se medirá mediante la precisión y relevancia de los modelos diseñados. Al menos el 90% de los segmentos de mercado identificados deben estar representados en las User Personas, y estas deben ser validadas con un mínimo de 5 puntos de coincidencia entre los Task Matrix y los Empathy Mappings.</td>
-                <td>El éxito se medirá por la capacidad de los documentos para alinear las funcionalidades con las necesidades del usuario, reflejado en un aumento del 50% en las métricas de usabilidad en pruebas internas, y en la inclusión de al menos 20 historias de usuario bien definidas en el Product Backlog.</td>
+                <td>El éxito se medirá por las tasas de aceptación que se obtendrán tras la realización de las pruebas de usuario antes de la salida de la demo de Roademics para su presentación. Para este caso, se buscar lograr una tasa de aceptación del 95% en pruebas de usuario.</td>
+                <td>El éxito de este objetivo se medirá mediante una revisión profunda de redacción de los documentos con aspectos técnicos y normativas para Roademics. Ante esto, se espera llegar a una revisión sin errores en el 100% de los aspectos y validación en auditorías de normativa.</td>
+                <td>El logro para este objetivo se medirá mediante una tasa de éxito en las pruebas de integración y funcionalidad con los servicios externos y los sistemas de Inteligencia Artificial. En este caso, se espera alcanzar una tasa de éxito del 98% en pruebas de integración y funcionalidad.</td>
+                <td>El éxito del objetivo se medirá mediante la precisión de las necesidades y recomendaciones en el desarrollo profesional que ofrece la IA. Al menos se debe obtener un 90% de precisión en la predicción de necesidades según las métricas de usabilidad y feedback.</td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
                 <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
-                <td>El objetivo no solo incluye completar estos documentos en una semana, sino también realizar un análisis profundo y avanzado para anticipar y planificar mejoras significativas que superen los estándares del sector en términos de impacto y optimización, alcanzando un incremento del 30% en la eficiencia y efectividad de los procesos.</td>
-                <td>El objetivo no solo implica completar estos documentos en una semana, sino también superar los estándares de análisis competitivo y estrategia del sector, utilizando enfoques innovadores para identificar y explotar las debilidades de los competidores, con el fin de lograr una mejora significativa en la posición de la plataforma.</td>
-                <td>Este objetivo desafía a la propia segmentación y análisis de mercado para que no representen valores esperados como un 75& u 80%, sino directamente un 90% al realizar un análisis profundo y casi exacto, sobre todo tomando en cuenta como nuestros segmentos planteados pueden llegar a ser bastante generales. Esto supera lo esperado por la industria.</td>
-                <td>El objetivo no solo busca completar los documentos en una semana, sino también innovar en la definición de funcionalidades y en el mapeo de cómo estas mejoran la experiencia del usuario, superando los benchmarks actuales de usabilidad (25%) en el sector en un 50%. Asimismo, se busca entregar más historias de usuario de las necesarias, entregando 20 cuando se planteaban 10 en un inicio.</td>
+                <td>El objetivo no solo implica completar los User Stories de forma suficiente y genérica, para luego desarrollarlos según lo indicado en los documentos e informes sin aplicar mejoras. Para este objetivo, se busca directamente superar la tasa de aceptación promedio del 85% para User Stories en aplicaciones móviles en general.</td>
+                <td>En la actualidad, muchas empresas de software presentan varias fallas en sus productos y tecnologías debido a que carecen de una documentación especializada y profunda. En este caso, en los últimos años, se ha resaltado que la media de cumplimiento técnico y normativo en la documentación es de un 90%. Ante esto, buscar llegar a un 100%, lo que sería una documentación sin errores de ningún tipo, es algo muy ambicioso.</td>
+                <td>En la mayoría de proyectos basados en aplicaciones móviles, se presenta un estándar de éxito de integraciones funcionales del 90%, lo que, aunque muchas veces llega a ser suficiente, no es lo mejor, puesto que aún pueden presentarse errores. Teniendo en cuenta que grandes empresas y compañías comparten ese estándar de 90%, llegar a un 95% se puede considerar como ambicioso.</td>
+                <td>El objetivo no solo busca crear y desarrollar un prototipo funcional en unos meses, sino también innovar en la definición de funcionalidades y en buscar una precisión mucho más alta que la del promedio. Para esto, se busca superar la precisión del 75% que es el promedio en sistemas de IA similares para aplicaciones que se centren en ámbitos móviles.</td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
                 <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
-                <td>Tener un Impact Mapping detallado, escenarios claros AS-IS y TO-BE, y un Lean UX Hypothesis and Problem Statement bien formulado es crucial para entender cómo la aplicación mejorará la situación actual y planificar su implementación de manera efectiva, impactando positivamente el rendimiento del proyecto en un 30% según métricas de mejora.</td>
-                <td>Un análisis exhaustivo del problema, junto con un análisis competitivo y estrategias bien formuladas, es fundamental para posicionar la plataforma de manera efectiva en el mercado y superar a la competencia, lo que puede incrementar la cuota de mercado en un 20% según estudios de competencia.</td>
-                <td>Diseñar User Personas precisas y detalladas es esencial para garantizar que el producto final se alinee con las expectativas y necesidades del mercado objetivo, aumentando la probabilidad de éxito del proyecto en todo aspecto general.</td>
-                <td>La creación de un Solution Profile, Lean UX Canvas y Product Backlog bien definidos es crucial para asegurar que el desarrollo del producto esté enfocado en resolver problemas reales de los usuarios y optimizar su experiencia, lo cual puede aumentar la adopción del producto en al menos un 30% según estudios de mercado.</td>
+                <td>Es una parte crucial de todo proyecto de software tener User Stories adecuadas en todos los aspectos tecnológicos necesarios para asegurar que todas las funcionalidades que necesiten los usuarios se cumplan de la forma más óptima.</td>
+                <td>De forma incondicional, la documentación de un proyecto de software debe estar presente y no debe presentar errores de ningún tipo. La documentación es el aspecto en el que se basa todo el equipo y en donde se pueden guiar con respecto a normativas, requerimientos, requisitos, etc. La documentación es algo demasiado relevante y un proyecto de software siempre depende de esta.</td>
+                <td>La integración de sistemas dentro de la propia lógica de una aplicación es algo muy importante en varios aspectos generales y específicos. Sin una integración correcta, muchas funcionalidades podrían no funcionar. Ante esto, es necesario no solo integrar los sistemas y servicios con nuestra aplicación, sino también hacerlo de forma óptima.</td>
+                <td>La integración y desarrollo del prototipo mencionado es relevante en todo sentido al ser la base principal del aplicativo de Roademics junto a sus funcionalidades. Integrar los aspectos de UX/UI brindara éxito a la solución que esperamos siguiendo nuestro caso de estudio.</td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
                 <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
-                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones diarias para asegurar que cada documento sea claro, preciso y alineado con los objetivos del proyecto, permitiendo ajustes según los resultados del análisis y las necesidades emergentes.</td>
-                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones diarias para asegurar la calidad y precisión de cada parte del trabajo, y ajustes en las estrategias según los hallazgos del análisis competitivo.</td>
-                <td>El objetivo debe completarse en 1 semana, con revisiones diarias para asegurar que cada parte del proceso avance según lo planeado y que se realicen los ajustes necesarios a lo largo de la semana.</td>
-                <td>El objetivo debe completarse en un plazo de 1 semana, con revisiones intermedias diarias para garantizar que cada documento se desarrolle de acuerdo con los estándares y se realicen ajustes según sea necesario.</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales para asegurar la calidad y precisión de cada historia de usuario, además de ajustes en las redacciones y especificaciones según los cambios de ideas dados por los usuarios.</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones diarias para asegurar la calidad y precisión de cada aspecto referente a la documentación, además de ajustes en las normativas y en la propia redacción.</td>
+                <td>El objetivo debe completarse en 3 meses, con revisiones semanales para asegurar que cada parte del proceso de integración avance de forma continua y adecuada, sin afectar al resto de la aplicación.</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones intermedias semanales para garantizar que el prototipo se desarrolle de acuerdo con los estándares y se realicen ajustes según sea necesario.</td>
+            </tr>
+        </tbody>
+    </table>
+
+**Segundo grupo de objetivos SMART:**
+
+<table>
+        <tbody>
+            <tr>
+              <th rowspan="4"></th> 
+                <td rowspan="4"></td>
+                <td>Nombre del Estudiante</td>
+                <td>Pescorán Angulo, Juan Fabritzzio</td>
+                <td>Trigueros Chumacero, Flavio Eduardo</td>
+                <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+                <td>Yen Cerna, Lucio Heli</td>
+            </tr>
+            <tr>
+                <td>Descripción del objetivo</td>
+                <td>Desarrollar e implementar medidas de seguridad y privacidad avanzadas en el aplicativo móvil de Roademics, logrando cumplir con el estándar de seguridad OWASP Mobile Top 10 y obteniendo un 99% de conformidad en auditorías de seguridad realizadas antes de la demo principal en 3 meses.</td>
+                <td>Organizar y gestionar los sprints del proyecto Roademics utilizando el modelo Scrum, logrando una implementación eficiente que permita una finalización de tareas en un 95% dentro del tiempo estimado y una mejora continua en la gestión de proyectos según las métricas de Scrum, con un informe de progreso completo para la demo principal en 3 meses.</td>
+                <td>Desarrollar e implementar un sistema de gestión de perfiles que permita la personalización avanzada y el manejo eficiente de perfiles de usuarios en Roademics, asegurando una tasa de satisfacción del 90% en pruebas de usabilidad y una integración sin fallos con la inteligencia artificial antes de la demo principal en 3 meses.</td>
+                <td>Diseñar un diagrama de clases detallado y una diagramación de base de datos para Roademics que aseguren una integración eficiente entre componentes de UI, backend e inteligencia artificial, con una cobertura del 95% de las funcionalidades del sistema y una documentación técnica exhaustiva que permita la implementación sin contratiempos, para la demo principal en 3 meses.</td>
+            </tr>
+            <tr>
+                <td>Fecha de inicio</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
+                <td>28/08/24</td>
+            </tr>
+            <tr>
+                <td>Fecha de cumplimiento esperada</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
+                <td>28/11/24</td>
+            </tr>
+            <tr>
+              <th rowspan="5">Metodología Smart</th> 
+                <td>S<br>Specific<br> Específico</td>
+                <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
+                <td>Implementar de forma adecuada, avanzada y precisa todas las medidas de seguridad y privacidad que cumplan con el estándar OWASP Mobile Top 10. Esto va para todas las medidas que se encuentren dentro del estándar junto a todas las recomendaciones y buenas prácticas que indican.</td>
+                <td>Implementar y gestionar todos los sprints del proyecto de programación usando Scrum, asegurando la finalización de tareas en un 95% dentro del tiempo estimado ya planteado por el propio equipo de trabajo y organización de Roademics.</td>
+                <td>Desarrollar e implementar un sistema de gestión de perfiles con personalización avanzada para cada uno de los usuarios de Roademics, respetando las limitaciones según membresías. Asimismo, se espera integrar las funcionalidades de Inteligencia Artificial de forma adecuada para cada usuario.</td>
+                <td>Elaborar el diagrama de clases propio de Roademics, junto a la diagramación de su base de datos para su correcta implementación. Ambos gráficos deben estar exhaustivamente documentados, evitando la ambigüedad y la complejidad en todo momento.</td>
+            </tr>
+            <tr>
+                <td>M<br>Measurable<br> Medible</td>
+                <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
+                <td>El éxito se medirá por la conformidad que brinden las auditorías que se realizarán en las partes finales antes de la demo del proyecto, en las cuales se busca una alta conformidad en todo momento. Para este caso, es necesario obtener un 99% de conformidad en auditorías de seguridad.</td>
+                <td>Para alcanzar el éxito en este caso, es obligatorio revisar el total de tareas e historias de usuario completadas para la demo de Roademics en 3 meses. Con el fin de verificar si se consigue el éxito en este caso, es necesario que se hayan completado un 95% de las tareas e historias de usuario planteadas por el equipo de trabajo de Roademics.</td>
+                <td>Para alcanzar el logro planteado, es necesario medir las tasas de satisfacción para todas las pruebas de usabilidad que se aplicaran en la gestión de perfiles de Roademics. Para este caso, se espera obtener una tasa de satisfacción del 90% en pruebas de usabilidad.</td>
+                <td>El éxito se medirá por la cobertura de las funcionalidades dadas en el sistema que se encuentren entrelazadas o se basen en el modelado de los gráficos realizados, además de que su implementación sea adecuada y óptima. En este caso se espera una cobertura del 95% de las funcionalidades del sistema con documentación técnica clara.</td>
+            </tr>
+            <tr>
+                <td>A<br>Ambitious<br>Ambicioso</td>
+                <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
+                <td>El propio objetivo busca superar el estándar de conformidad del 90% en auditorías de seguridad móvil presentado por OWASP Mobile Security, meta la cual es demasiado ambiciosa ya que plantea superar a varias empresas líderes en la industria de las aplicaciones para dispositivos móviles en aspectos de privacidad de datos y seguridad.</td>
+                <td>Se sabe, mediante datos presentados por las organizaciones a cargo de las normativas Scrum y otras empresas que se especializan en el uso de Scrum en sus proyectos, que el promedio de efectividad de los grupos que usan Scrum en sus proyectos de programación es de 80%, terminando con un 20% de tareas que no consiguieron terminarse. Tomando en cuenta la medida del proyecto y el como solo se tienen 4 meses para el desarrollo completo, buscar un 95% de tareas completadas es algo ambicioso.</td>
+                <td>En la actualidad se presenta una alta insatisfacción en el desarrollo y gestión de perfiles para los usuarios en muchas aplicaciones para dispositivos móviles, sobre todo en redes sociales. Ante esta satisfacción estándar de un 75%, buscar un 90% puede llegar a ser muy ambicioso. </td>
+                <td>El objetivo no solo busca una cobertura suficiente de las funcionalidades de la aplicación móvil con documentación técnica y diagramas precisos, sino que también trata de asegurar una integración eficiente superior a la media del 80% en proyectos similares basados en inteligencia artificial.</td>
+            </tr>
+            <tr>
+                <td>R<br>Relevant<br>Relevante</td>
+                <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
+                <td>Es obligatorio que toda aplicación de software presente unas medidas de seguridad adecuadas en todo momento. La autenticación y la autorización son aspectos que deben encontrarse muy bien controlados, sobre todo en aplicaciones que buscan un gran público y que podrían presentar incluso intercambio de información entre distintos usuarios.</td>
+                <td>Este aspecto es relevante en todos los puntos, puesto que es necesario que toda aplicación consiga completar todas sus tareas e historias de usuario antes de ser lanzada al mercado. Es necesario que se pueda completar todas las funcionalidades para así conseguir la mejor respuesta posible por parte de los usuarios.</td>
+                <td>Un perfil de usuario es algo básico que casi todas las aplicaciones necesitan tener si es que requieren de los datos privados del usuario, como su nombre, edad, gustos, etc. Para el tipo de aplicación que es Roademics, buscar una mejor usabilidad en las funcionalidades de gestión de perfil es algo relevante y hasta necesario.</td>
+                <td>Implementar una cobertura casi completa de todas las funcionalidades bajo documentación técnicas y diagramas precisos es esencial para el desarrollo del producto final. De está forma nos aseguramos que cada aspecto funcione adecuadamente, este organizado y presente una lógica clara.</td>
+            </tr>
+            <tr>
+                <td>T<br>Time-bound<br>Tiempo Límite</td>
+                <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales de seguridad para asegurar que cada funcionalidad se encuentre bien aplicada y con disponibilidad completa.</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, puesto que esta es la fecha en la que se completará todo el proyecto de Roademics. Los propios sprints deben tener revisiones semanales para comprobar que se encuentran bien organizados incluso después de su primer planteamiento.</td>
+                <td>El objetivo debe completarse en 3 meses, con revisiones según las pruebas de usabilidad que se realicen en el trabajo para verificar que el avance es adecuado.</td>
+                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones intermedias diarias para garantizar que cada funcionalidad se desarrolle de acuerdo con los estándares técnicos y se realicen ajustes según sea necesario.</td>
             </tr>
         </tbody>
     </table>
