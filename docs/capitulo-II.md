@@ -862,6 +862,48 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     </td>
     <td colspan="1">EP002</td>
 </tr>
+
+  <tr>
+<td colspan="1">US014</td>
+    <td colspan="1">Registrar una cuenta de nuevo usuario</td>
+    <td colspan="1">
+        Como nuevo usuario, quiero poder registrar una cuenta utilizando mi correo electrónico y una contraseña segura para poder acceder a la plataforma y personalizar mi perfil.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el nuevo usuario ha accedido a la página de registro, cuando el usuario ingresa su correo electrónico y una contraseña segura en los campos correspondientes, entonces el sistema debe verificar que el correo electrónico no esté registrado previamente y que la contraseña cumpla con los requisitos de seguridad (longitud mínima, uso de caracteres especiales, etc.).
+<br>
+    </td>
+    <td colspan="1">EP003</td>
+</tr>
+
+<tr>
+<td colspan="1">US015</td>
+    <td colspan="1">Formulario de registro inicial
+</td>
+    <td colspan="1">
+        Como usuario, quiero un formulario de registro sencillo y claro que me permita introducir fácilmente la información necesaria para crear mi cuenta.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong> el usuario accede a la página de registro, cuando el usuario completa el formulario de registro con la información requerida (nombre, correo electrónico, contraseña, etc.), entonces el sistema debe validar los campos en tiempo real y mostrar mensajes de error claros si falta información o no es válida.
+
+<br>
+    </td>
+    <td colspan="1">EP003</td>
+</tr>
+
+<tr>
+<td colspan="1">US016</td>
+    <td colspan="1">Definir tipo de usuario al momento de registrar cuenta</td>
+    <td colspan="1">
+        Como usuario, quiero poder seleccionar el tipo de usuario que mejor se adapte a mis necesidades (Estudiante, Profesional, Empresa, etc.) durante el registro, para recibir una experiencia personalizada en la plataforma.
+    </td>
+    <td colspan="5">
+        <strong>E01: Dado que</strong>  el usuario está en el proceso de registro, cuando selecciona el tipo de usuario (Estudiante, Profesional, Empresa, etc.) de una lista de opciones disponibles, entonces el sistema debe mostrar campos de registro adicionales o personalizados 
+según el tipo de usuario seleccionado y debe guardar esta información para personalizar la experiencia del usuario en la plataforma.
+<br>
+    </td>
+    <td colspan="1">EP003</td>
+</tr>
 </table>
 
 ### 2.4.3. Impact Mapping.
