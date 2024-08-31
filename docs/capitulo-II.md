@@ -274,8 +274,7 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 8. ¿Cuando un trabajador solicita un ascenso, con que criterios lo evaluan?
 9. ¿Cual es tu posición sobre las personas conformistas respecto a su educación?
 10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?
-11. ¿Que medio utiliza la empresa para promocionarse para futuros candidatos?
-12. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
+11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
 
    
 ### 2.2.2. Registro de entrevistas.
@@ -322,22 +321,6 @@ Nota:
 
 Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
-**Entrevista N°3:**
-
-###### Figura 4.
-*Imagen de presentación de la tercera entrevista realizada.*
-
-<img src="/assets/img/entrevistas/entrevista3-segmento1.png" alt="Entrevista3 Segmento 1" width="400" height="200">
-
-**Datos principales:**
-- Nombre completo del entrevistado: 
-- Edad: 
-- Distrito: 
-- Link: 
-- Inicio de la entrevista: 
-- Duración: 
-- Entrevistador:
-  
 ---
 
 #### Segmento 2: Empresas y Reclutadores en busca de personal capacitado
@@ -347,7 +330,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 ###### Figura 5.
 *Imagen de presentación de la cuarta entrevista realizada.*
 
-<img src="/assets/img/entrevistas/entrevista-segmento2.png" alt="Entrevista Segmento 2" width="400" height="300">
+<img src="/assets/img/capitulo-2//interviews/Entrevista1-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Rosa Castro
@@ -357,7 +340,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 - Inicio de la entrevista: 0:01 
 - Duración: 10:56
 - Entrevistador: Lucio Yen
-- Nota: Rosa Castro es administradora y coordinadora de Mastercol. Ella menciona que el proceso de contratación. 
+- Nota: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
 ---
 
 **Entrevista N°5:**
@@ -365,7 +348,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 ###### Figura 6.
 *Imagen de presentación de la quinta entrevista realizada.*
 
-<img src="/assets/img/entrevistas/Entrevista2-Segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2//interviews/Entrevista2-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
 
 
 **Datos principales:**
@@ -376,7 +359,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 - Inicio de la entrevista: 0:02
 - Duración: 10:42
 - Entrevistador: Lucio Yen
-- Nota: 
+- Nota: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
 ---
 
 **Entrevista N°6:**
@@ -384,7 +367,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 ###### Figura 7.
 *Imagen de presentación de la sexta entrevista realizada.*
 
-<img src="/assets/img/entrevistas/entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/Entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Ximena Vilchez Paredes
@@ -408,28 +391,16 @@ Al utilizar Google Forms, se puede recoger y analizar la información de manera 
 ###### Figura 8.
 *Conjunto de datos analizados de las entrevistas para el primer segmento objetivo.*
 
-<img src="/assets/img/entrevistas/Analisis-segmento1-a.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-b.png" alt="Analisis entrevista segmento 1" width="600" height="220">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-c.png" alt="Analisis entrevista segmento 1" width="600" height="220">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-d.png" alt="Analisis entrevista segmento 1" width="600" height="220">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-e.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-f.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-g.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-h.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento-i.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-j.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento1-k.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-1.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-2.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-3.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-4.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-5.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-6.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-7.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-8.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-9.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-10.png" alt="Analisis entrevista segmento 1" width="600" height="270">
 ---
 
 **Segmento 2: :**
@@ -437,21 +408,17 @@ Al utilizar Google Forms, se puede recoger y analizar la información de manera 
 ###### Figura 9.
 *Conjunto de datos analizados de las entrevistas para el segundo segmento objetivo.*
 
-<img src="/assets/img/entrevistas/Analisis-segmento2-a.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-b.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-c.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-d.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-e.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-f.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-g.png" alt="Analisis entrevista segmento 2" width="600" height="270">
-
-<img src="/assets/img/entrevistas/Analisis-segmento2-h.png" alt="Analisis entrevista segmento 2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-1.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-2.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-3.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-4.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-5.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-6.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-7.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-8.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-9.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-10.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-11.png" alt="Analisis entrevista segmento2" width="600" height="270">
 
 A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
 
@@ -459,13 +426,32 @@ A continuación, recopilamos las respuestas comunes a cada pregunta de las entre
 
 | Preguntas | Respuestas |
 |-----------|------------|
-| | | 
+|1. ¿Te sientes satisfecho con tu perfil académico? | 50% Si, 50% No | 
+|2. ¿Aspiras a aprender más sobre tu especilización?  | Si| 
+|3. ¿Cómo planearías o que acciones realizarías para planear tu ruta de aprendizaje sobre tu trayectoria académica? |Investigo Cursos | 
+|4. ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional? |Son gran ayuda para el desarrollo de una especialización | 
+|5. ¿Qué métodos utilizas para encontrar material o certificaciones que te permitan potenciarte? |Navego dpor internet, usando plataformas como Youtube, Reddit, Linkedln | 
+|6. ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día? |Bajas expectativas: Uso una red de contactos para informarme, Grandes expectativas: Uso una red de contactos para informarme| 
+|7. ¿Utilizas redes sociales para publicar actualizaciones de tus logros académicos? |Si, uso plataformas como LinkedIn, Slack, Twitter (X), etc | 
+|8. ¿Qué medios o redes utilizas para informarte sobre puestos de trabajos? | Linkedln y Computrabajo | 
+|9. ¿Qué es lo primero que deseas observar a la hora de querer informarte sobre una vacante laboral? |50% Salarios, 50% Requisitos del puesto | 
+|10. ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que deseen en los postulantes?  |Mucho, aprecio demasiado la transparencia con los requisitos delpuesto.  | 
 
 **Segmento 2:** 
 
 | Preguntas | Respuestas |
 |-----------|------------|
-| | |
+|1. ¿Cómo funciona el proceso de contratación en la empresa? |Entrevistas virtuales |
+|2. ¿Que medios utiliza para anunciar un puesto de trabajo? |66,7% Linkedln y Boomerang | 
+|3. ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área? |Actitud y Habilidades Blandas | 
+|4. Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes? |Referencias Laborales y Redes sociales | 
+|5. ¿Que medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados? |LinkedLn | 
+|6. ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores? |Si, hacemos seguimiento continuo del aprendizaje de nuestros trabajadores | 
+|7. ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado? |Lo tenemos en cuenta, es vital | 
+|8. ¿Cuando un trabajador solicita un ascenso, con que criterios lo evaluan? |Aprendizaje | 
+|9. ¿Cual es tu posición sobre las personas conformistas respecto a su educación? |Las personas conformistas respecto a su educación suelen limitar su crecimiento profesional y personal. No debería existir un profesional que deje de aprender. Si tienen los recursos para seguir, es indispensable | 
+|10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación? |Daños, Infligir las normas y mal rendimiento | 
+|11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil? |Me sería de mucha utilidad | 
 
 ## 2.3. Needfinding.
 
