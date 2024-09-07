@@ -367,7 +367,7 @@ Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analist
 ###### Figura 7.
 *Imagen de presentación de la sexta entrevista realizada.*
 
-<img src="/assets/img/capitulo-2/interviews/Entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Ximena Vilchez Paredes
