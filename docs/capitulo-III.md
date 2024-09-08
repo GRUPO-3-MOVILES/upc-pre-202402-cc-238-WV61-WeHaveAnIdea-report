@@ -1,6 +1,6 @@
 # Capítulo 3: Arquitectura
 
-## 3.1. Product design.
+## 3.1. Product Design.
 
 ### 3.1.1. Style Guidelines.
 
@@ -9,6 +9,19 @@ En esta sección, presentamos el plan detallado de diseño, estilos y estéticas
 Es fundamental comprender que el diseño coherente y estandarizado no solo mejora la estética de una página web, sino que también incrementa la funcionalidad y usabilidad. Estas guías de estilo son esenciales para mantener la uniformidad en la presentación visual y asegurar que cada página o actividad móvil del proyecto ofrezca una experiencia homogénea y profesional. Según Zeldman (2024), una guía de estilo no solo define la apariencia y el comportamiento de los elementos en una interfaz, sino que también establece un marco de trabajo que facilita la colaboración entre los equipos de diseño y desarrollo, asegurando consistencia y eficiencia en la ejecución del proyecto.
 
 #### 3.1.1.1. General Style Guidelines.
+
+
+**Tono de Comunicación y Lenguaje Aplicado:**
+
+De acuerdo con Smith y Zook (2022), el tono de comunicación es un componente crucial en el diseño de las páginas, pestañas o apartados de una aplicación. Este tono no solo influye en las percepciones emocionales de los clientes respecto a los textos y elementos gráficos, sino que también contribuye a la formación de una identidad distintiva para la empresa o el producto. Un tono cuidadosamente diseñado puede infundir en los usuarios un sentido de pertenencia y conexión con la marca, mientras que el uso de un lenguaje claro y accesible optimiza la visibilidad en los motores de búsqueda, que valoran el contenido de alta calidad con palabras clave y contextos relevantes.
+
+Considerando el perfil de los segmentos objetivos a los que nos dirigimos, es preferible adoptar un tono y estilo de lenguaje que sea respetuoso y amigable, manteniendo siempre la formalidad adecuada, dada la naturaleza del entorno empresarial y las funcionalidades presentadas, las cuales proveen una mejora al desarrollo profesional. Este enfoque permitirá transmitir seguridad y confianza a los usuarios, facilitando su concentración en el contenido a lo largo de las diversas secciones de la aplicación móvil.
+
+En las secciones dedicadas a las funcionalidades de la aplicación, así como a nuestra misión, visión y valores, se recomienda emplear un tono entusiasta. Este enfoque ayudará a destacar las ventajas y beneficios de nuestra oferta, generando una conexión más positiva con los usuarios y con la mejoría de su futura integración y desarrollo en el mundo laboral. En contraste, los estilos más serios y formales deben ser reservados para los aspectos críticos donde el usuario ya presentara una conexión más directa con las empresas y organizaciones a las que quiere postular, además de la presentación de sus cualidades, atributos, certificaciones, etc.
+
+Este equilibrio entre tono entusiasta y formalidad asegura una comunicación efectiva que no solo atrae y retiene a los usuarios, sino que también mantiene una imagen profesional y confiable en todos los aspectos de la aplicación.
+
+**Branding e Icono:**
 
 En esta sección se presentarán las General Style Guidelines, un conjunto integral de directrices diseñadas para asegurar la coherencia y la calidad visual en todo el proyecto. Se detallará la paleta de colores seleccionada, incluyendo las capas y combinaciones específicas para diferentes contextos de la interfaz, así como las tipografías que se utilizarán para garantizar legibilidad y estética en todos los medios. También se proporcionará información sobre el uso correcto de los logotipos, la iconografía elegida, el modelo de imágenes que se aplicará, y el tipo de lenguaje recomendado para mantener una comunicación clara y efectiva. Estas guías son esenciales para crear una experiencia de usuario unificada y profesional, facilitando así la cohesión en cada aspecto visual y textual del proyecto.
 
