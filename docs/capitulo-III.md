@@ -10,25 +10,46 @@ Es fundamental comprender que el diseño coherente y estandarizado no solo mejor
 
 #### 3.1.1.1. General Style Guidelines.
 
-
-**Tono de Comunicación y Lenguaje Aplicado:**
-
-De acuerdo con Smith y Zook (2022), el tono de comunicación es un componente crucial en el diseño de las páginas, pestañas o apartados de una aplicación. Este tono no solo influye en las percepciones emocionales de los clientes respecto a los textos y elementos gráficos, sino que también contribuye a la formación de una identidad distintiva para la empresa o el producto. Un tono cuidadosamente diseñado puede infundir en los usuarios un sentido de pertenencia y conexión con la marca, mientras que el uso de un lenguaje claro y accesible optimiza la visibilidad en los motores de búsqueda, que valoran el contenido de alta calidad con palabras clave y contextos relevantes.
-
-Considerando el perfil de los segmentos objetivos a los que nos dirigimos, es preferible adoptar un tono y estilo de lenguaje que sea respetuoso y amigable, manteniendo siempre la formalidad adecuada, dada la naturaleza del entorno empresarial y las funcionalidades presentadas, las cuales proveen una mejora al desarrollo profesional. Este enfoque permitirá transmitir seguridad y confianza a los usuarios, facilitando su concentración en el contenido a lo largo de las diversas secciones de la aplicación móvil.
-
-En las secciones dedicadas a las funcionalidades de la aplicación, así como a nuestra misión, visión y valores, se recomienda emplear un tono entusiasta. Este enfoque ayudará a destacar las ventajas y beneficios de nuestra oferta, generando una conexión más positiva con los usuarios y con la mejoría de su futura integración y desarrollo en el mundo laboral. En contraste, los estilos más serios y formales deben ser reservados para los aspectos críticos donde el usuario ya presentara una conexión más directa con las empresas y organizaciones a las que quiere postular, además de la presentación de sus cualidades, atributos, certificaciones, etc.
-
-Este equilibrio entre tono entusiasta y formalidad asegura una comunicación efectiva que no solo atrae y retiene a los usuarios, sino que también mantiene una imagen profesional y confiable en todos los aspectos de la aplicación.
-
-**Branding e Icono:**
-
-En esta sección se presentarán las General Style Guidelines, un conjunto integral de directrices diseñadas para asegurar la coherencia y la calidad visual en todo el proyecto. Se detallará la paleta de colores seleccionada, incluyendo las capas y combinaciones específicas para diferentes contextos de la interfaz, así como las tipografías que se utilizarán para garantizar legibilidad y estética en todos los medios. También se proporcionará información sobre el uso correcto de los logotipos, la iconografía elegida, el modelo de imágenes que se aplicará, y el tipo de lenguaje recomendado para mantener una comunicación clara y efectiva. Estas guías son esenciales para crear una experiencia de usuario unificada y profesional, facilitando así la cohesión en cada aspecto visual y textual del proyecto.
-
 **Colores:**
 
-El color es un componente esencial y destacado en los modelos de diseño de interfaces de usuario, desempeñando un papel crucial en la creación de una experiencia visual impactante. Según Westland y Maggio (2021), la selección cuidadosa de colores para el logotipo y el material de marketing de una empresa puede contribuir significativamente a la construcción de una identidad visual distintiva y fácilmente reconocible. Esta identidad no solo facilita que los consumidores identifiquen y recuerden la marca, sino que también permite que la empresa evoque emociones en su segmento de mercado de manera profunda y subjetiva. Además, en un entorno de mercado altamente competitivo, los colores se convierten en una herramienta vital para que una marca se destaque y se diferencie de sus competidores. Un esquema de colores único o inusual no solo captura la atención de los consumidores, sino que también hace que la marca sea más memorable y presente en la mente del consumidor (Wang et al., 2018).
+El color es un componente esencial y destacado en los modelos de diseño de interfaces de usuario, desempeñando un papel crucial en la creación de una experiencia visual impactante. Según Saraswati y Giantari (2022), la selección cuidadosa de colores para el logotipo y el material de marketing de una empresa puede contribuir significativamente a la construcción de una identidad visual distintiva y fácilmente reconocible. Esta identidad no solo facilita que los consumidores identifiquen y recuerden la marca, sino que también permite que la empresa evoque emociones en su segmento de mercado de manera profunda y subjetiva. Además, en un entorno de mercado altamente competitivo, los colores se convierten en una herramienta vital para que una marca se destaque y se diferencie de sus competidores. Un esquema de colores único o inusual no solo captura la atención de los consumidores, sino que también hace que la marca sea más memorable y presente en la mente del consumidor (Wang et al., 2018).
 
+Para Roademics, hemos seleccionado una paleta de colores que combina de manera armónica tonalidades cercanas al negro, blanco y turquesa, buscando crear un equilibrio visual entre modernidad y profesionalismo. Este esquema de colores no solo realza la estética de la plataforma, sino que también refleja los valores fundamentales de la misma: innovación, confiabilidad y un enfoque constante hacia el progreso. El diseño cromático se basa en cinco colores principales, cuidadosamente seleccionados para establecer una identidad visual sólida y coherente. Adicionalmente, se ha desarrollado una paleta complementaria de colores análogos, que permite flexibilidad y dinamismo en la personalización de los diferentes elementos de la interfaz. Esta paleta expandida incluirá entre seis y nueve colores por conjunto, destacando el color primario de referencia, junto con su nombre y código hexadecimal correspondiente.
+
+Con esta estructura, no solo garantizamos un diseño visual atractivo y profesional, sino que también promovemos una experiencia de usuario coherente y adaptable a diferentes contextos de uso. Los colores principales seleccionados son los siguientes:
+
+- **Negro Rico (#06151E):** El Negro Rico es un tono profundo y elegante que evoca estabilidad, autoridad y profesionalismo. En Roademics, su uso refuerza el compromiso de la plataforma con la confiabilidad y la solidez, alineándose con la naturaleza seria del desarrollo profesional que se busca fomentar. Este color oscuro no solo establece una base visual sólida, sino que también transmite una sensación de modernidad y sobriedad, elementos clave para generar confianza entre los usuarios. Desde una perspectiva psicológica, el Negro Rico inspira seguridad, lo que favorece la percepción de una plataforma confiable y estructurada (Westland & Maggio, 2023). Además, su baja emisión de luz azul y menor contraste, en comparación con colores como el blanco o el negro puro, contribuye a reducir la fatiga visual, mejorando la legibilidad y el confort para los usuarios que interactúan con la aplicación.
+
+###### Figura 19.
+*Presentación de la paleta designada para el color Negro Rico.*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/black.png">
+
+- **Verde Medianoche (#133F4A) y Verde Mirto (#22797A):** Ambos tonos de verde, Verde Medianoche y Verde Mirto, evocan una sensación de calma, crecimiento y equilibrio, aspectos esenciales en la propuesta de valor de Roademics. Mientras que el Verde Medianoche se inclina hacia una representación más sobria y discreta, el Verde Mirto agrega una capa de frescura y vitalidad, alineándose con la idea de progreso y avance continuo en la carrera profesional. Estos tonos transmiten serenidad y confianza, cualidades fundamentales para una plataforma que busca guiar a los usuarios en la toma de decisiones clave sobre su futuro laboral. Estos colores complementan al Negro Rico al suavizar la paleta, ofreciendo una transición fluida entre tonos oscuros y claros (Westland & Maggio, 2023).
+
+###### Figura 20.
+*Presentación de la paleta designada para el color Verde Medianoche.*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/midnight-green.png">
+
+###### Figura 21.
+*Presentación de la paleta designada para el color Verde Mirto.*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/myrtle-green.png">
+
+- **Turquesa (#40E0D0):** El Turquesa es un color que representa creatividad, claridad y comunicación, valores esenciales para la experiencia de usuario en Roademics. Según lo aclarado por Westland Y Maggio (2023), este tono vivo, asociado con la innovación, esfuerzo y la frescura, ayuda a que la aplicación sea percibida como moderna y dinámica, reflejando su enfoque en la inteligencia artificial y el networking. El Turquesa también fomenta una sensación de apertura y accesibilidad, lo que es clave para una plataforma que busca empoderar a los usuarios para que naveguen por sus rutas profesionales con facilidad y confianza. El Turquesa actúa como un color destacado en la paleta, ofreciendo un equilibrio visual entre los tonos oscuros y neutros. En una aplicación, se suele utilizar para destacar elementos interactivos como botones principales, iconos de acción o elementos gráficos dinámicos.
+
+###### Figura 22.
+*Presentación de la paleta designada para el color Turquesa.*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/turquoise.png">
+
+- **Cian Fluorescente (#6FFFE9):** El Cian Fluorescente es un tono vibrante y enérgico que simboliza el pensamiento futurista y la innovación tecnológica, lo que lo hace especialmente adecuado para nuestra aplicación. Este color está asociado con la modernidad y la eficiencia, valores clave que queremos proyectar en nuestro enfoque hacia el desarrollo profesional. El Cian Fluorescente también tiene una cualidad llamativa que lo convierte en un color ideal para áreas donde es crucial captar la atención del usuario rápidamente, como notificaciones o recomendaciones urgentes (Westland & Maggio, 2023). Este color funciona en perfecta armonía con el Turquesa y los verdes, creando un contraste atractivo y sofisticado que equilibra los tonos más oscuros del Negro Rico. 
+
+###### Figura 22.
+*Presentación de la paleta designada para el color Cian Fluorescente.*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/cyan.png">
 
 **Tipografía:**
 
@@ -111,6 +132,19 @@ Arial es apreciada por su claridad y simplicidad, atributos que la convierten en
 *Presentación de modelos de grosor para el tipo de letra Arial.*
 
 <img src="/assets/img/capitulo-3/style-guidelines/typography/arial.png">
+
+**Tono de Comunicación y Lenguaje Aplicado:**
+
+De acuerdo con Smith y Zook (2022), el tono de comunicación es un componente crucial en el diseño de las páginas, pestañas o apartados de una aplicación. Este tono no solo influye en las percepciones emocionales de los clientes respecto a los textos y elementos gráficos, sino que también contribuye a la formación de una identidad distintiva para la empresa o el producto. Un tono cuidadosamente diseñado puede infundir en los usuarios un sentido de pertenencia y conexión con la marca, mientras que el uso de un lenguaje claro y accesible optimiza la visibilidad en los motores de búsqueda, que valoran el contenido de alta calidad con palabras clave y contextos relevantes.
+
+Considerando el perfil de los segmentos objetivos a los que nos dirigimos, es preferible adoptar un tono y estilo de lenguaje que sea respetuoso y amigable, manteniendo siempre la formalidad adecuada, dada la naturaleza del entorno empresarial y las funcionalidades presentadas, las cuales proveen una mejora al desarrollo profesional. Este enfoque permitirá transmitir seguridad y confianza a los usuarios, facilitando su concentración en el contenido a lo largo de las diversas secciones de la aplicación móvil.
+
+En las secciones dedicadas a las funcionalidades de la aplicación, así como a nuestra misión, visión y valores, se recomienda emplear un tono entusiasta. Este enfoque ayudará a destacar las ventajas y beneficios de nuestra oferta, generando una conexión más positiva con los usuarios y con la mejoría de su futura integración y desarrollo en el mundo laboral. En contraste, los estilos más serios y formales deben ser reservados para los aspectos críticos donde el usuario ya presentara una conexión más directa con las empresas y organizaciones a las que quiere postular, además de la presentación de sus cualidades, atributos, certificaciones, etc.
+
+Este equilibrio entre tono entusiasta y formalidad asegura una comunicación efectiva que no solo atrae y retiene a los usuarios, sino que también mantiene una imagen profesional y confiable en todos los aspectos de la aplicación.
+
+**Branding e Icono:**
+
 
 ### 3.1.2. Information Architecture.
 
