@@ -114,15 +114,110 @@ Arial es apreciada por su claridad y simplicidad, atributos que la convierten en
 
 ### 3.1.2. Information Architecture.
 
+En esta sección del proyecto, nuestro equipo presentará las decisiones y justificaciones relacionadas con la organización del contenido en las experiencias web y móvil, que abarcan tanto la Landing Page como la aplicación móvil en desarrollo. Estas propuestas estarán enfocadas en garantizar que los visitantes y usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto, encontrando lo que necesitan sin dificultad. Además, se incluirán las decisiones sobre los Organization Systems, Labelin Systems, Navigation Systems y Searching Systems.
+
 #### 3.1.2.1. Organization Systems.
+
+Según Bass, Clements y Kazman (2003) en "Software Architecture in Practice", el sistema de organización en la arquitectura de software se refiere a la forma en que los componentes estructurales de un sistema —como módulos, capas y subsistemas— se organizan para cumplir con los requisitos del sistema. Estos sistemas permiten manejar la complejidad de grandes aplicaciones, facilitando la comprensión, el desarrollo y el mantenimiento del software. La correcta organización de estos elementos contribuye a mejorar la escalabilidad, la cohesión y la eficiencia general del sistema.
+
+El objetivo principal del modelo de los *Organization Systems* en *Roadmecis* es construir una estructura visual coherente y eficiente para el contenido, facilitando una navegación intuitiva y un acceso fluido a la información. En *Roadmecis*, se implementará un sistema de organización que se basa en la segmentación del contenido en módulos y en el uso de jerarquías claras y funcionales. Esto permitirá que los usuarios naveguen de manera eficiente a través de la aplicación, encontrando rápidamente la información sobre sus habilidades y certificados. Al desarrollar estos elementos, aseguraremos una experiencia de usuario optimizada y fluida.
+
+**Inicio**: En la página de inicio de Roadmecis, priorizaremos la exposición de las funciones clave de la plataforma de forma inmediata, asegurándonos de que los usuarios puedan verlas al primer vistazo. Las principales funcionalidades, como la creación de mapas de ruta profesional y la visualización de habilidades, estarán visibles en la parte superior. Otras características menos frecuentes, como configuraciones adicionales o estadísticas avanzadas, estarán en un apartado accesible mediante un botón específico. Este enfoque sigue un diseño estructurado que permite a los usuarios identificar rápidamente sus áreas de interés, facilitando su experiencia en la plataforma. Además, se destacarán ejemplos de mapas de ruta populares y perfiles corporativos destacados en la página de inicio, para inspirar a los usuarios y brindarles acceso directo a los contenidos más relevantes.
+
+**Generador de Mapas de Ruta**: Esta sección será el núcleo de Roadmecis, donde los usuarios podrán crear, visualizar y editar sus mapas de ruta profesional. El diseño mostrará un esquema visual de fácil comprensión, en formato de gráfico, con las habilidades, certificaciones y experiencias laborales agregadas por el usuario. El usuario podrá ordenar la visualización de los elementos en el mapa según criterios como fecha, tipo de habilidad o relevancia para sus objetivos. Para una experiencia más personalizada, el generador permitirá al usuario recibir recomendaciones automáticas de habilidades o certificaciones basadas en su progreso y tendencias del mercado. También se integrará un botón destacado de "Sugerir nuevas habilidades", donde el usuario podrá recibir sugerencias basadas en inteligencia artificial para mejorar su trayectoria profesional.
+
+**Perfil de Usuario**: La sección de perfil proporcionará al usuario acceso a toda la información personal y profesional almacenada en la aplicación. Aquí se podrán visualizar los mapas de ruta creados, la información de contacto, las habilidades destacadas, así como certificaciones obtenidas. Además, se implementará la funcionalidad de edición de perfil, con un botón claramente identificado como “Editar”, que permitirá al usuario actualizar su información en cualquier momento. En esta área, también se incluirán opciones para compartir su perfil y roadmap con empresas o reclutadores interesados, lo que permitirá una conexión directa con oportunidades laborales.
+
+**Perfil de Empresa**: El perfil de empresa en Roadmecis será una sección clave para las organizaciones que buscan talento. Las empresas podrán visualizar los mapas de ruta de los candidatos potenciales y acceder a sus perfiles, lo que les permitirá evaluar sus habilidades y certificaciones. En esta sección, se destacarán las vacantes abiertas y los criterios específicos que las empresas buscan en un empleado. También se mostrarán las métricas relacionadas con el perfil de la empresa, como cuántos usuarios han interactuado con sus vacantes o qué tan populares son sus publicaciones dentro de la plataforma. Para fomentar una relación de confianza y transparencia, el perfil corporativo incluirá detalles como la antigüedad de la empresa en la plataforma, sus logros y los principales contactos de recursos humanos.
 
 #### 3.1.2.2. Labelling Systems.
 
+Un Labelling Systems en el contexto de Roadmecis se refiere a la metodología empleada para asignar etiquetas o nombres a los elementos clave dentro de la aplicación, con el fin de mejorar la navegación y la claridad del contenido. Estas etiquetas son esenciales para identificar y categorizar componentes, como habilidades, certificaciones, mapas de ruta y perfiles de usuarios o empresas.
+
+Al igual que lo expresado por Bass, Clements y Kazman (2003) en *Software Architecture in Practice*, el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
+
+###### Tabla 12. 
+*Seguimiento de Labelling Systems integrados dentro del proyecto de Roadmecis.*
+| **Etiqueta**      | **Descripción**                                                                                                              |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Agregar habilidad**   | Permite al usuario incluir una nueva habilidad a su mapa de ruta profesional. Esta opción es esencial para el crecimiento continuo del usuario en la plataforma. |
+| **Mis mapas**      | Da acceso al usuario a todos los mapas de ruta que ha creado, organizados según el progreso, relevancia o fecha de actualización. |
+| **Buscar usuario**  | Facilita la búsqueda de otros usuarios dentro de la plataforma, permitiendo la conexión y la visualización de sus trayectorias profesionales.|
+| **Perfil corporativo** | Brinda a las empresas la posibilidad de gestionar su perfil, incluyendo la publicación de vacantes, la visualización de candidatos y la interacción con ellos.       |
+| **Progreso**       | Muestra al usuario el nivel de avance en su plan de desarrollo profesional, basado en las habilidades adquiridas y las certificaciones completadas.           |
+| **Compartir perfil**  | Permite a los usuarios compartir su perfil profesional o mapa de ruta con empresas, facilitando el acceso directo a su información laboral.|
+| **Ajustes**        | Opción que permite modificar el perfil, mapas de ruta o preferencias del usuario, manteniendo siempre la información actualizada según las necesidades del usuario. |
+
 #### 3.1.2.3. SEO Tags and Meta Tags.
+
+Según Martin (2017), los "SEO tags" y las "meta tags" son elementos cruciales en la optimización de motores de búsqueda (SEO) para cualquier sitio web. Estas etiquetas, integradas en el código HTML, proporcionan información valiosa sobre el contenido de cada página a los motores de búsqueda y otros servicios en línea, ayudando así a mejorar la visibilidad y el posicionamiento en los resultados de búsqueda.
+
+Para Roadmecis, la implementación de SEO tags y meta tags debe adaptarse a las diferentes páginas del sitio, cada una con un propósito específico. A continuación, se detallan las etiquetas recomendadas para varias secciones clave de Roadmecis:
+
+**Página de Inicio**
+- **Title Tag**: "Roadmecis: Optimiza tu carrera profesional con mapas personalizados | Roadmecis"
+- **Meta Description Tag**: "Descubre cómo Roadmecis puede ayudarte a crear mapas de ruta de carrera profesional y conectar con oportunidades laborales de forma eficiente."
+- **Meta Keyword Tag**: "mapas de ruta profesional, optimización de carrera, desarrollo profesional, inteligencia artificial, Roadmecis"
+- **Author**: name="copyright" content="Roadmecis"
+
+**Perfil del Usuario**
+- **Title Tag**: "Perfil de Usuario en Roadmecis | Roadmecis"
+- **Meta Description Tag**: "Accede a tu perfil en Roadmecis para gestionar tus habilidades, certificados y visualizar tu roadmap profesional."
+- **Meta Keyword Tag**: "perfil de usuario, habilidades, certificados, roadmap profesional, Roadmecis"
+- **Author**: name="copyright" content="Roadmecis"
+
+**Generador de Mapas de Ruta**
+- **Title Tag**: "Generador de Mapas de Ruta Profesional | Roadmecis"
+- **Meta Description Tag**: "Utiliza el generador de mapas de ruta de Roadmecis para crear un plan de carrera personalizado y avanzar en tu desarrollo profesional."
+- **Meta Keyword Tag**: "generador de mapas, ruta profesional, desarrollo de carrera, inteligencia artificial, Roadmecis"
+- **Author**: name="copyright" content="Roadmecis"
+
+**Sección de Empresas**
+- **Title Tag**: "Conecta con Talento: Empresas en Roadmecis | Roadmecis"
+- **Meta Description Tag**: "Empresas pueden visualizar mapas de carrera y seleccionar candidatos ideales con Roadmecis. Optimiza tu reclutamiento hoy."
+- **Meta Keyword Tag**: "empresas, reclutamiento, mapas de carrera, selección de personal, Roadmecis"
+- **Author**: name="copyright" content="Roadmecis"
+
+**Suscripción y Membresía**
+- **Title Tag**: "Opciones de Suscripción y Membresía en Roadmecis | Roadmecis"
+- **Meta Description Tag**: "Explora nuestras opciones de suscripción y membresía para obtener acceso completo a las herramientas y funciones premium de Roadmecis."
+- **Meta Keyword Tag**: "suscripción, membresía, acceso premium, herramientas profesionales, Roadmecis"
+- **Author**: name="copyright" content="Roadmecis"
 
 #### 3.1.2.4. Searching Systems.
 
+Un **Searching Systems** es un conjunto de componentes y algoritmos diseñados para permitir a los usuarios encontrar información específica dentro de una aplicación o sistema de software de manera rápida y eficiente. Según Fowler (2018), un sistema de búsqueda efectivo debe procesar consultas de búsqueda ingresadas por el usuario y recuperar resultados relevantes que coincidan con esos criterios. Esto puede incluir técnicas como la indexación de datos, la tokenización, el filtrado, la ponderación de términos, la búsqueda semántica y la clasificación de resultados.
+
+Para Roadmecis, la implementación de un sistema de búsqueda eficiente es esencial para proporcionar una experiencia de usuario fluida y eficaz. A continuación, se detallan los componentes clave y funcionalidades de búsqueda recomendadas para Roadmecis:
+
+1. **Barra de Navegación**:
+   La barra de navegación en Roadmecis servirá como el punto principal de interacción para los usuarios, permitiéndoles acceder rápidamente a diversas funcionalidades y secciones de la aplicación. Basado en los principios de Fowler (2018), esta barra debe adaptarse al contexto del usuario y proporcionar enlaces a secciones clave como "Perfil de Usuario", "Generador de Mapas", "Empresas", y "Suscripción". La inclusión de estos enlaces prominentes facilita la navegación y mejora la accesibilidad a las funciones más importantes de la aplicación.
+
+2. **Enlaces Contextuales**:
+   Dentro de cada sección de Roadmecis, se presentarán botones descriptivos y llamativos que ayudarán a los usuarios a encontrar la información que buscan. Por ejemplo, en la sección de "Generador de Mapas de Ruta", un botón etiquetado como "Más Información" permitirá a los usuarios explorar detalles adicionales sobre cómo crear y gestionar sus mapas de ruta. Estos botones estarán estratégicamente ubicados para garantizar una navegación intuitiva y eficiente, respondiendo rápidamente a las necesidades de los usuarios.
+
+3. **Navegación Jerárquica**:
+   Siguiendo el patrón de diseño 'F', Roadmecis organizará las funciones y opciones de manera jerárquica. Las funciones más solicitadas, como la creación de mapas de carrera y la visualización de oportunidades laborales, se destacarán en la parte superior, mientras que las opciones menos frecuentes estarán en ubicaciones secundarias pero accesibles. Esta disposición asegura que los usuarios puedan acceder fácilmente a las funciones más importantes mientras exploran otras características según sus necesidades.
+
+4. **Sección Inferior**:
+   En la parte inferior de las páginas de Roadmecis, se incluirán opciones de navegación adicionales como "Contáctanos", "Acerca de Nosotros" y "Soporte", proporcionando a los usuarios acceso rápido a información importante y recursos de ayuda. Esta sección complementa la barra de navegación principal y permite a los usuarios explorar aspectos clave de la aplicación, promoviendo una experiencia de usuario completa y satisfactoria.
+
 #### 3.1.2.5. Navigation Systems.
+
+Los **Navigation Systems** son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Martin (2017), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
+
+Para Roadmecis, un navigation system eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
+
+###### Tabla 13. 
+**Seguimiento de Navigation Systems integrados dentro del proyecto de Roadmecis**
+
+| **Etiqueta**  | **Descripción** |
+|---------------|------------------|
+| **Inicio**    | Al hacer clic en este enlace, los usuarios serán llevados a la página principal de Roadmecis. Esta página sirve como punto de partida, ofreciendo una presentación dinámica de las características clave de la aplicación, así como opciones para explorar funciones y servicios. Facilita a los usuarios familiarizarse con la interfaz y comenzar su experiencia de manera intuitiva. |
+| **Perfil**    | Este enlace proporciona acceso directo al perfil del usuario. Dependiendo del contexto, puede llevar al perfil propio o al de otro usuario. El perfil permite a los usuarios gestionar su información, revisar sus logros, habilidades y certificados, y mantenerse al tanto de sus interacciones y conexiones profesionales. También ayuda a establecer credibilidad mostrando detalles relevantes como reseñas y experiencia. |
+| **Planificación de Carrera**| Al hacer clic en este enlace, los usuarios serán dirigidos a una herramienta que permite planificar su trayectoria profesional. Aquí podrán visualizar y gestionar su roadmap de carrera, establecer metas, y obtener recomendaciones personalizadas basadas en sus habilidades y objetivos profesionales. Esta herramienta ofrece una vista clara y detallada del camino a seguir para alcanzar sus metas, facilitando la planificación y el progreso en su carrera. |
+| **Publicaciones**| Este enlace lleva a los usuarios a la sección de publicaciones de Roadmecis, donde pueden explorar oportunidades profesionales y actualizaciones relevantes. Aquí, los usuarios pueden filtrar y buscar publicaciones según sus intereses, visualizar detalles como descripciones de oportunidades y acceder a información adicional sobre empresas y vacantes. Facilita la búsqueda de oportunidades y la toma de decisiones informadas. |
+| **Sobre nosotros**| Al hacer clic en este enlace, los usuarios serán dirigidos a la página de información sobre Roadmecis. Aquí, los usuarios pueden conocer la historia de la empresa, su misión, visión y valores, así como obtener una visión general de las características de la aplicación. Esta página está diseñada para fortalecer la confianza y la transparencia, promoviendo una relación sólida con los usuarios y fomentando su participación. |
 
 ### 3.1.3. Landing Page UI Design.
 
