@@ -151,7 +151,7 @@ Al igual que lo expresado por Bass, Clements y Kazman (2003) en *Software Archit
 
 Según Martin (2017), los "SEO tags" y las "meta tags" son elementos cruciales en la optimización de motores de búsqueda (SEO) para cualquier sitio web. Estas etiquetas, integradas en el código HTML, proporcionan información valiosa sobre el contenido de cada página a los motores de búsqueda y otros servicios en línea, ayudando así a mejorar la visibilidad y el posicionamiento en los resultados de búsqueda.
 
-Para Roadmecis, la implementación de SEO tags y meta tags debe adaptarse a las diferentes páginas del sitio, cada una con un propósito específico. A continuación, se detallan las etiquetas recomendadas para varias secciones clave de Roademics:
+Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las diferentes páginas del sitio, cada una con un propósito específico. A continuación, se detallan las etiquetas recomendadas para varias secciones clave de Roademics:
 
 **Página de Inicio**
 - **Title Tag**: "Roademics: Optimiza tu carrera profesional con mapas personalizados | Roademics"
@@ -196,17 +196,14 @@ Para **Roademics**, estos componentes de búsqueda son esenciales para proporcio
    La búsqueda estará siempre visible en la parte superior de la pantalla o accesible mediante un ícono de lupa. En la sección de "Generador de Mapas de Ruta", un botón flotante "Más" ofrecerá opciones adicionales sin necesidad de salir de la pantalla principal, mejorando la fluidez y la interacción táctil.
 
 3. **Navegación Táctil Jerárquica**:
-   El diseño táctil debe seguir patrones como el 'F', con funciones esenciales como la creación de mapas de carrera y visualización de oportunidades destacadas en la parte superior o de fácil acceso mediante gestos. Las funciones menos usadas estarán en menús secundarios, pero fácilmente accesibles con deslizamientos o toques.
-
-4. **Sección Inferior Fija**:
-   En la app móvil, la navegación adicional (como "Contáctanos", "Acerca de Nosotros" y "Soporte") estará en una barra fija en la parte inferior de la pantalla, para no interrumpir la experiencia de navegación principal. Esto permite un acceso rápido y sin desplazamientos innecesarios.
+   El diseño táctil debe seguir principios de usabilidad móviles, como el uso de zonas táctiles de fácil acceso, priorizando las funciones esenciales, como la creación de mapas de carrera y la visualización de oportunidades destacadas en áreas superiores o accesibles rápidamente mediante gestos intuitivos. Las funciones secundarias estarán ubicadas en menús colapsables o accesibles mediante deslizamientos laterales, garantizando una experiencia fluida y organizada.
 
 
 #### 3.1.2.5. Navigation Systems.
 
 Los **Navigation Systems** son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Martin (2017), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
 
-Para Roadmecis, un navigation system móvil eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
+Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
 
 ###### Tabla 13. 
 **Seguimiento de Navigation Systems integrados dentro del proyecto de Roademics**
