@@ -160,7 +160,7 @@ Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las 
 - **Author**: name="copyright" content="Roademics"
 
 **Perfil del Usuario**
-- **Title Tag**: "Perfil de Usuario en Roadmecis | Roademics"
+- **Title Tag**: "Perfil de Usuario en Roademics | Roademics"
 - **Meta Description Tag**: "Accede a tu perfil en Roademics para gestionar tus habilidades, certificados y visualizar tu roadmap profesional."
 - **Meta Keyword Tag**: "perfil de usuario, habilidades, certificados, roadmap profesional, Roademics"
 - **Author**: name="copyright" content="Roademics"
@@ -172,7 +172,7 @@ Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las 
 - **Author**: name="copyright" content="Roademics"
 
 **Sección de Empresas**
-- **Title Tag**: "Conecta con Talento: Empresas en Roadmecis | Roademics"
+- **Title Tag**: "Conecta con Talento: Empresas en Roademics | Roademics"
 - **Meta Description Tag**: "Empresas pueden visualizar mapas de carrera y seleccionar candidatos ideales con Roademics. Optimiza tu reclutamiento hoy."
 - **Meta Keyword Tag**: "empresas, reclutamiento, mapas de carrera, selección de personal, Roademics"
 - **Author**: name="copyright" content="Roademics"
