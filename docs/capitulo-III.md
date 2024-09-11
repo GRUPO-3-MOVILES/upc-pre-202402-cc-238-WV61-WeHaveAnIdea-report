@@ -148,15 +148,108 @@ Este equilibrio entre tono entusiasta y formalidad asegura una comunicación efe
 
 ### 3.1.2. Information Architecture.
 
+En esta sección del proyecto, nuestro equipo presentará las decisiones y justificaciones relacionadas con la organización del contenido en las experiencias web y móvil, que abarcan tanto la Landing Page como la aplicación móvil en desarrollo. Estas propuestas estarán enfocadas en garantizar que los visitantes y usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto, encontrando lo que necesitan sin dificultad. Además, se incluirán las decisiones sobre los Organization Systems, Labelin Systems, Navigation Systems y Searching Systems.
+
 #### 3.1.2.1. Organization Systems.
+
+Según Bass, Clements y Kazman (2003) en "Software Architecture in Practice", el sistema de organización en la arquitectura de software se refiere a la forma en que los componentes estructurales de un sistema —como módulos, capas y subsistemas— se organizan para cumplir con los requisitos del sistema. Estos sistemas permiten manejar la complejidad de grandes aplicaciones, facilitando la comprensión, el desarrollo y el mantenimiento del software. La correcta organización de estos elementos contribuye a mejorar la escalabilidad, la cohesión y la eficiencia general del sistema.
+
+El objetivo principal del modelo de los *Organization Systems* en *Roademics* es construir una estructura visual coherente y eficiente para el contenido, facilitando una navegación intuitiva y un acceso fluido a la información. En *Roademics*, se implementará un sistema de organización que se basa en la segmentación del contenido en módulos y en el uso de jerarquías claras y funcionales. Esto permitirá que los usuarios naveguen de manera eficiente a través de la aplicación, encontrando rápidamente la información sobre sus habilidades y certificados. Al desarrollar estos elementos, aseguraremos una experiencia de usuario optimizada y fluida.
+
+**Inicio**: En la página de inicio de Roademics, priorizaremos la exposición de las funciones clave de la plataforma de forma inmediata, asegurándonos de que los usuarios puedan verlas al primer vistazo. Las principales funcionalidades, como la creación de mapas de ruta profesional y la visualización de habilidades, estarán visibles en la parte superior. Otras características menos frecuentes, como configuraciones adicionales o estadísticas avanzadas, estarán en un apartado accesible mediante un botón específico. Este enfoque sigue un diseño estructurado que permite a los usuarios identificar rápidamente sus áreas de interés, facilitando su experiencia en la plataforma. Además, se destacarán ejemplos de mapas de ruta populares y perfiles corporativos destacados en la página de inicio, para inspirar a los usuarios y brindarles acceso directo a los contenidos más relevantes.
+
+**Generador de Mapas de Ruta**: Esta sección será el núcleo de Roademics, donde los usuarios podrán crear, visualizar y editar sus mapas de ruta profesional. El diseño mostrará un esquema visual de fácil comprensión, en formato de gráfico, con las habilidades, certificaciones y experiencias laborales agregadas por el usuario. El usuario podrá ordenar la visualización de los elementos en el mapa según criterios como fecha, tipo de habilidad o relevancia para sus objetivos. Para una experiencia más personalizada, el generador permitirá al usuario recibir recomendaciones automáticas de habilidades o certificaciones basadas en su progreso y tendencias del mercado. También se integrará un botón destacado de "Sugerir nuevas habilidades", donde el usuario podrá recibir sugerencias basadas en inteligencia artificial para mejorar su trayectoria profesional.
+
+**Perfil de Usuario**: La sección de perfil proporcionará al usuario acceso a toda la información personal y profesional almacenada en la aplicación. Aquí se podrán visualizar los mapas de ruta creados, la información de contacto, las habilidades destacadas, así como certificaciones obtenidas. Además, se implementará la funcionalidad de edición de perfil, con un botón claramente identificado como “Editar”, que permitirá al usuario actualizar su información en cualquier momento. En esta área, también se incluirán opciones para compartir su perfil y roadmap con empresas o reclutadores interesados, lo que permitirá una conexión directa con oportunidades laborales.
+
+**Perfil de Empresa**: El perfil de empresa en Roademics será una sección clave para las organizaciones que buscan talento. Las empresas podrán visualizar los mapas de ruta de los candidatos potenciales y acceder a sus perfiles, lo que les permitirá evaluar sus habilidades y certificaciones. En esta sección, se destacarán las vacantes abiertas y los criterios específicos que las empresas buscan en un empleado. También se mostrarán las métricas relacionadas con el perfil de la empresa, como cuántos usuarios han interactuado con sus vacantes o qué tan populares son sus publicaciones dentro de la plataforma. Para fomentar una relación de confianza y transparencia, el perfil corporativo incluirá detalles como la antigüedad de la empresa en la plataforma, sus logros y los principales contactos de recursos humanos.
 
 #### 3.1.2.2. Labelling Systems.
 
+Un Labelling Systems en el contexto de Roademics se refiere a la metodología empleada para asignar etiquetas o nombres a los elementos clave dentro de la aplicación, con el fin de mejorar la navegación y la claridad del contenido. Estas etiquetas son esenciales para identificar y categorizar componentes, como habilidades, certificaciones, mapas de ruta y perfiles de usuarios o empresas.
+
+Al igual que lo expresado por Bass, Clements y Kazman (2003) en *Software Architecture in Practice*, el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
+
+###### Tabla 12. 
+*Seguimiento de Labelling Systems integrados dentro del proyecto de Roadmecis.*
+| **Etiqueta**      | **Descripción**                                                                                                              |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Agregar habilidad**   | Permite al usuario incluir una nueva habilidad a su mapa de ruta profesional. Esta opción es esencial para el crecimiento continuo del usuario en la plataforma. |
+| **Mis mapas**      | Da acceso al usuario a todos los mapas de ruta que ha creado, organizados según el progreso, relevancia o fecha de actualización. |
+| **Buscar usuario**  | Facilita la búsqueda de otros usuarios dentro de la plataforma, permitiendo la conexión y la visualización de sus trayectorias profesionales.|
+| **Progreso**       | Muestra al usuario el nivel de avance en su plan de desarrollo profesional, basado en las habilidades adquiridas y las certificaciones completadas.           |
+| **Compartir perfil**  | Permite a los usuarios compartir su perfil profesional o mapa de ruta con empresas, facilitando el acceso directo a su información laboral.|
+| **Ajustes**        | Opción que permite modificar el perfil, mapas de ruta o preferencias del usuario, manteniendo siempre la información actualizada según las necesidades del usuario. |
+
 #### 3.1.2.3. SEO Tags and Meta Tags.
+
+Según Martin (2017), los "SEO tags" y las "meta tags" son elementos cruciales en la optimización de motores de búsqueda (SEO) para cualquier sitio web. Estas etiquetas, integradas en el código HTML, proporcionan información valiosa sobre el contenido de cada página a los motores de búsqueda y otros servicios en línea, ayudando así a mejorar la visibilidad y el posicionamiento en los resultados de búsqueda.
+
+Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las diferentes páginas del sitio, cada una con un propósito específico. A continuación, se detallan las etiquetas recomendadas para varias secciones clave de Roademics:
+
+**Página de Inicio**
+- **Title Tag**: "Roademics: Optimiza tu carrera profesional con mapas personalizados | Roademics"
+- **Meta Description Tag**: "Descubre cómo Roademics puede ayudarte a crear mapas de ruta de carrera profesional y conectar con oportunidades laborales de forma eficiente."
+- **Meta Keyword Tag**: "mapas de ruta profesional, optimización de carrera, desarrollo profesional, inteligencia artificial, Roademics"
+- **Author**: name="copyright" content="Roademics"
+
+**Perfil del Usuario**
+- **Title Tag**: "Perfil de Usuario en Roademics | Roademics"
+- **Meta Description Tag**: "Accede a tu perfil en Roademics para gestionar tus habilidades, certificados y visualizar tu roadmap profesional."
+- **Meta Keyword Tag**: "perfil de usuario, habilidades, certificados, roadmap profesional, Roademics"
+- **Author**: name="copyright" content="Roademics"
+
+**Generador de Mapas de Ruta**
+- **Title Tag**: "Generador de Mapas de Ruta Profesional | Roademics"
+- **Meta Description Tag**: "Utiliza el generador de mapas de ruta de Roademics para crear un plan de carrera personalizado y avanzar en tu desarrollo profesional."
+- **Meta Keyword Tag**: "generador de mapas, ruta profesional, desarrollo de carrera, inteligencia artificial, Roademics"
+- **Author**: name="copyright" content="Roademics"
+
+**Sección de Empresas**
+- **Title Tag**: "Conecta con Talento: Empresas en Roademics | Roademics"
+- **Meta Description Tag**: "Empresas pueden visualizar mapas de carrera y seleccionar candidatos ideales con Roademics. Optimiza tu reclutamiento hoy."
+- **Meta Keyword Tag**: "empresas, reclutamiento, mapas de carrera, selección de personal, Roademics"
+- **Author**: name="copyright" content="Roademics"
+
+**Suscripción y Membresía**
+- **Title Tag**: "Opciones de Suscripción y Membresía en Roademics | Roademics"
+- **Meta Description Tag**: "Explora nuestras opciones de suscripción y membresía para obtener acceso completo a las herramientas y funciones premium de Roademics."
+- **Meta Keyword Tag**: "suscripción, membresía, acceso premium, herramientas profesionales, Roademics"
+- **Author**: name="copyright" content="Roademics"
 
 #### 3.1.2.4. Searching Systems.
 
+Un **Searching System** en una aplicación móvil sigue los mismos principios de eficiencia y precisión que en una app web, pero con énfasis en la accesibilidad y la facilidad de uso en pantallas más pequeñas. Según Fowler (2018), el sistema debe procesar consultas rápidamente, optimizado para gestos y entradas táctiles, recuperando resultados relevantes. Las técnicas como la búsqueda semántica, la clasificación y la sugerencia de resultados son clave en este entorno.
+
+Para **Roademics**, estos componentes de búsqueda son esenciales para proporcionar una experiencia fluida en la app móvil:
+
+1. **Barra de Navegación Adaptada**:
+   En la versión móvil, la barra de navegación será accesible desde un menú desplegable o un ícono tipo "hamburguesa", optimizando el espacio en pantalla. Los enlaces principales como "Perfil de Usuario", "Generador de Mapas", "Empresas", y "Suscripción" se mostrarán en la parte superior o inferior, dependiendo del diseño de la aplicación. Esto asegura que los usuarios puedan moverse fácilmente por la app sin sobrecargar la interfaz.
+
+2. **Búsqueda Contextual en Pantalla**:
+   La búsqueda estará siempre visible en la parte superior de la pantalla o accesible mediante un ícono de lupa. En la sección de "Generador de Mapas de Ruta", un botón flotante "Más" ofrecerá opciones adicionales sin necesidad de salir de la pantalla principal, mejorando la fluidez y la interacción táctil.
+
+3. **Navegación Táctil Jerárquica**:
+   El diseño táctil debe seguir principios de usabilidad móviles, como el uso de zonas táctiles de fácil acceso, priorizando las funciones esenciales, como la creación de mapas de carrera y la visualización de oportunidades destacadas en áreas superiores o accesibles rápidamente mediante gestos intuitivos. Las funciones secundarias estarán ubicadas en menús colapsables o accesibles mediante deslizamientos laterales, garantizando una experiencia fluida y organizada.
+
+
 #### 3.1.2.5. Navigation Systems.
+
+Los **Navigation Systems** son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Martin (2017), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
+
+Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
+
+###### Tabla 13. 
+**Seguimiento de Navigation Systems integrados dentro del proyecto de Roademics**
+
+| **Etiqueta**  | **Descripción** |
+|---------------|------------------|
+| **Inicio**    | Este botón llevará a los usuarios a la pantalla principal de Roademics, donde podrán acceder de manera rápida a una visión general de su progreso y actividades recientes. Aquí podrán ver sus conexiones, mapas de ruta sugeridos, oportunidades laborales relevantes y notificaciones. Esta pantalla actuará como el punto de partida diario para los usuarios. |
+| **Perfil**    | Este botón llevará al perfil personal del usuario, donde podrá gestionar su información, agregar o editar habilidades y certificados, y visualizar sus mapas de ruta. También podrán ver sus logros, conexiones y comentarios recibidos de otros usuarios. El perfil se convierte en un espacio personal y profesional que reflejará su crecimiento dentro de la plataforma. |
+| **Mapas de Ruta** | En esta sección, los usuarios podrán generar, editar y visualizar sus mapas de ruta profesionales. Tendrán acceso a herramientas para personalizar su recorrido, agregar nuevos hitos, y explorar mapas de otros usuarios o empresas que pueden inspirar su propio camino. Esta es una de las funcionalidades principales de Roademics, centrada en el desarrollo profesional. |
+| **Oportunidades** | Aquí, los usuarios encontrarán una lista curada de oportunidades laborales y de desarrollo profesional. Estas estarán filtradas según las habilidades y experiencia del usuario, lo que permitirá que vean las mejores opciones para continuar su progreso en su carrera. Se incluirán oportunidades de empleo, cursos de formación y certificaciones recomendadas. |
+| **Notificaciones** | En esta pestaña, los usuarios podrán recibir alertas personalizadas sobre nuevas oportunidades, comentarios en sus mapas de ruta, conexiones profesionales y más. Esto permitirá a los usuarios mantenerse actualizados con la actividad relevante dentro de la plataforma. |
+
 
 ### 3.1.3. Landing Page UI Design.
 
