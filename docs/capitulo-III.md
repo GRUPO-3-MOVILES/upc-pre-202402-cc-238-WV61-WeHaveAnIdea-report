@@ -250,22 +250,87 @@ Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una e
 | **Oportunidades** | Aquí, los usuarios encontrarán una lista curada de oportunidades laborales y de desarrollo profesional. Estas estarán filtradas según las habilidades y experiencia del usuario, lo que permitirá que vean las mejores opciones para continuar su progreso en su carrera. Se incluirán oportunidades de empleo, cursos de formación y certificaciones recomendadas. |
 | **Notificaciones** | En esta pestaña, los usuarios podrán recibir alertas personalizadas sobre nuevas oportunidades, comentarios en sus mapas de ruta, conexiones profesionales y más. Esto permitirá a los usuarios mantenerse actualizados con la actividad relevante dentro de la plataforma. |
 
-
 ### 3.1.3. Landing Page UI Design.
+
+En esta sección, nuestro equipo presentará y explicará en detalle la propuesta y el modelo de la interfaz de usuario (UI) diseñado para la Landing Page de Roademics. Se abordarán los aspectos clave del diseño, justificando las decisiones tomadas en términos de estética, funcionalidad y experiencia del usuario.
 
 #### 3.1.3.1. Landing Page Wireframe.
 
+Según Tidwell et al. (2020), los wireframes, como representaciones visuales simplificadas, desempeñan un papel crucial en el proceso de diseño y planificación de interfaces de usuario para sitios web y aplicaciones. Estos esquemas ofrecen una visión estructurada de los elementos clave, enfocándose en la disposición de la información, la funcionalidad y la experiencia del usuario. Al proporcionar una vista preliminar de la interfaz, permiten a los diseñadores y desarrolladores visualizar y comunicar eficazmente la estructura y el flujo de la aplicación o sitio web.
+
+En el caso de la Landing Page de Roademics, se ha optado por un diseño intuitivo que abarca varias secciones estratégicamente distribuidas para captar la atención del usuario y ofrecer una experiencia atractiva y coherente. La página de inicio actúa como el punto de entrada principal, ofreciendo una visión general clara de las funcionalidades y servicios que ofrece Roademics. También se incluye una sección con información detallada sobre la empresa, diseñada para proporcionar a los usuarios una comprensión más profunda de la marca y sus valores.
+
+Además, el diseño incorpora opciones de suscripción para usuarios interesados en recibir mejoras en las funcionalidades básicas de Roademics. Asimismo, para generar confianza y credibilidad, se han integrado testimonios de clientes satisfechos, y se ha añadido un formulario de contacto que facilita la comunicación directa con el equipo de Roademics. Este enfoque garantiza una navegación clara y una interacción efectiva con los usuarios, mejorando tanto la funcionalidad como la usabilidad de la página.
+
+**(Imagenes aqui)**
+
+En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page, cada característica principal está representada de forma visual y detallada. El objetivo es proporcionar a los lectores una visión integral y profunda, permitiéndoles realizar un análisis exhaustivo de cada elemento. Para facilitar este proceso, se ha incluido un enlace al desarrollo de los wireframes en la plataforma de diseño Figma. Este enlace brinda a los lectores la oportunidad de explorar interactivamente cada aspecto del diseño y acceder a información adicional en caso de ser necesario, enriqueciendo la comprensión de las decisiones de diseño tomadas:
+
+**(Enlace)**
+
 #### 3.1.3.2. Landing Page Mock-up.
+
+Según Tidwell et al. (2020), los mock-ups, al igual que los wireframes, desempeñan un papel crucial en la planificación y diseño de interfaces de usuario para páginas web y aplicaciones. Sin embargo, a diferencia de los wireframes, que se centran en la estructura y funcionalidad, los mock-ups ofrecen una representación más detallada y visualmente elaborada, incorporando colores, tipografía, imágenes y otros aspectos visuales esenciales. Estos modelos permiten a los diseñadores y desarrolladores visualizar no solo la disposición de los elementos clave, sino también experimentar con el diseño estético y los detalles gráficos.
+
+En el caso específico de la landing page de Roademics, se ha optado por la utilización de mock-ups para crear un entorno visualmente atractivo y coherente. Estos mock-ups incluyen diversas secciones diseñadas para captar la atención del usuario y proporcionar una experiencia estética y funcionalmente refinada. Entre las características destacadas se encuentra la página de inicio, que actúa como la puerta principal de acceso, ofreciendo una visión general de las funcionalidades y servicios de Roademics con un enfoque más elaborado en los elementos visuales.
+
+**(Imagenes aqui)**
+
+En este conjunto de mockups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
+
+**(Enlace)**
 
 ### 3.1.4. Mobile Applications UX/UI Design.
 
+En esta sección, nos adentraremos en los aspectos más detallados de la propuesta visual y de interacción para la aplicación móvil que forma parte integral de la experiencia del usuario en nuestros productos digitales. Analizaremos a fondo las distintas secciones internas de esta aplicación junto a cada una de sus actividades, desglosando tanto su diseño como sus funcionalidades clave. A través de esta exploración detallada, buscamos proporcionar una comprensión más profunda y exhaustiva de cómo los usuarios interactúan con nuestro producto en el entorno móvil, destacando la fluidez, la intuitividad y la eficiencia de cada una de las interfaces que ofrecemos.
+
 #### 3.1.4.1. Mobile Applications Wireframes.
+
+En esta sección, presentaremos los wireframes esquematizados de la Aplicación Móvil principal de Roademics, detallando todas las características clave, así como la organización y división de las distintas pestañas. En el contexto específico de esta aplicación móvil, nuestro equipo ha optado por un diseño intuitivo que se distingue por su interfaz atractiva y funcional, diseñada para captar la atención de los usuarios y brindarles una sensación constante de seguridad y confianza.
+
+Hemos adoptado un enfoque basado en la estructuración clara de las páginas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...) . Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para garantizar una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
+
+**(Imagenes aqui)**:
+
+En este conjunto de wireframes de la aplicación móvil de Roademics, cada una de las funcionalidades clave se representa de manera esquemática y detallada. El objetivo es proporcionar a los usuarios una visión clara y comprensiva del diseño, facilitando un análisis profundo de cada componente de la interfaz. Para una mejor comprensión, se ha incluido un enlace directo a los wireframes en Figma, donde se puede interactuar con el diseño y obtener información adicional cuando sea necesario:
+
+**(Enlace)**
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams.
 
+Esta sección presenta la propuesta de Wireflows seleccionada y determinada por nuestro equipo de trabajo. Para cada objetivo del usuario, se ha diseñado un Wireflow específico, teniendo en cuenta los User Persona asociados a la aplicación incluida en el alcance del proyecto. Es fundamental recordar que cualquier cambio reflejado en una pantalla (Wireframe) como resultado de la interacción dentro de un flujo, requiere la inclusión de un paso adicional que represente el nuevo estado mediante un Wireframe actualizado.
+
+Cada diagrama de Wireflow incluye una descripción clara del objetivo del usuario (User Goal) correspondiente, acompañado de una explicación detallada del flujo. Esto proporciona una visión completa y precisa de cómo los usuarios interactúan con la aplicación y cómo se desarrollan las distintas etapas del proceso, mejorando la comprensión del diseño y su funcionalidad. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre estados, lo cual facilita la comprensión del flujo completo de interacción (Katz & Singh, 2019).
+
+**(Imagenes aqui)**:
+
+Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes con diagramas de flujo, mostrando no solo el diseño estructural de cada pantalla, sino también el recorrido y las interacciones del usuario dentro de la aplicación. Al ser una herramienta clave para planificar la experiencia de usuario, los Wireflow Diagrams permiten identificar posibles mejoras en la navegación y asegurar que los flujos sean coherentes y eficientes. Se brindara el enlace de los Wireflow diseñados para los lectores:
+
+**(Enlace)**
+
 #### 3.1.4.3. Mobile Applications Mock-ups.
 
+En esta sección, presentaremos los Mock-Ups detallados de la Aplicación Móvil principal de Roademics, destacando todas las características clave, así como la disposición y organización de las diversas pestañas. En el contexto específico de esta aplicación móvil, nuestro equipo ha optado por un diseño visualmente intuitivo, caracterizado por una interfaz atractiva y funcional, pensada para captar la atención de los usuarios y proporcionarles una sensación continua de seguridad y confianza.
+
+Hemos seguido un enfoque basado en la estructuración clara de las pantallas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...). Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para ofrecer una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
+
+**(Imagenes aqui)**:
+
+Los mockups de la aplicación móvil de Roademics proporcionan una representación visual detallada de la interfaz final. Cada pantalla está diseñada con el objetivo de ofrecer una experiencia de usuario intuitiva y atractiva, enfocándose en la claridad y el acceso rápido a las principales funcionalidades. Se incluye un enlace a los mockups en Figma para que los interesados puedan explorar cada pantalla y realizar ajustes o sugerencias interactivamente:
+
+**(Enlace)**
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams.
+
+Esta sección presenta la propuesta de User Flows seleccionada y definida por nuestro equipo de desarrollo. Para cada objetivo específico del usuario, se ha creado un User Flow detallado, teniendo en cuenta los perfiles de usuario (User Persona) asociados a la aplicación abarcada por el proyecto. Es crucial destacar que cualquier cambio que se produzca en la navegación o en las pantallas como consecuencia de la interacción del usuario dentro de un flujo, debe representarse mediante un paso adicional que refleje el nuevo estado de la interfaz.
+
+Cada User Flow incluye una descripción clara del objetivo del usuario correspondiente, junto con una explicación detallada de los pasos involucrados en el flujo. Esto proporciona una visión integral y precisa de cómo los usuarios navegan por la aplicación y de cómo avanzan a lo largo de las diferentes etapas del proceso, facilitando la comprensión tanto del diseño como de su funcionamiento. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre las distintas fases del flujo, lo que simplifica la comprensión del proceso completo de interacción (Katz & Singh, 2019).
+
+**(Imagenes aqui)**:
+
+Los User Flow Diagrams de la aplicación Roademics describen de manera detallada los caminos que los usuarios seguirán al interactuar con la aplicación. Estos diagramas destacan los puntos de decisión y las rutas posibles, proporcionando una visión clara de cómo los usuarios logran sus objetivos dentro de la plataforma. Proporcionaremos en enlace para todos los interesados en el modelo en el que se enfocó Roademics durante todo el proceso:
+
+**(Enlace)**
 
 #### 3.1.4.5. Mobile Applications Prototyping.
 
@@ -273,18 +338,52 @@ Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una e
 
 ### 3.2.1. Domain-Driven Software Architecture.
 
+De acuerdo con Brown (2023), el modelo C4 para la diagramación y esquematización de la arquitectura de software ofrece un enfoque estructurado y escalable que facilita la descripción clara de sus secciones y componentes. Al dividir la arquitectura en cuatro niveles —Contexto, Contenedores, Componentes y Código—, permite una comprensión más accesible tanto para técnicos como para partes interesadas sin experiencia técnica. Esta estructura promueve una comunicación más fluida y efectiva entre los equipos de desarrollo y las partes involucradas, optimizando el proceso colaborativo y resultando en un desarrollo más eficiente y en una arquitectura de software más robusta y mantenible.
+
 #### 3.2.1.1. Software Architecture Context Level Diagram.
+
+El diagrama de contexto, el nivel más alto de abstracción en el modelo C4, proporciona una vista general del sistema y su entorno externo, ilustrando las interacciones de alto nivel entre el sistema y los actores externos. Este diagrama ofrece una representación clara de cómo el sistema se relaciona con sus usuarios, agentes externos y otros componentes ajenos al sistema.
+
+En el caso de una aplicación web inmobiliaria, el diagrama de contexto muestra de manera detallada las interacciones entre los usuarios finales, los agentes inmobiliarios y la plataforma. Además, destaca las conexiones críticas entre la aplicación y diversas API y servicios externos, esenciales para habilitar las funcionalidades clave que la plataforma debe ofrecer a los usuarios. Estas integraciones son fundamentales para garantizar una experiencia fluida y robusta, respondiendo a las necesidades dinámicas del mercado inmobiliario.
 
 #### 3.2.1.2. Software Architecture Container Level Diagram.
 
+El diagrama de contenedores ofrece una representación visual detallada de la arquitectura interna de un sistema de software, mostrando los principales contenedores (como aplicaciones, bases de datos o servicios) y cómo estos se comunican para cumplir con los objetivos del sistema. Es una herramienta esencial para facilitar la comprensión de la estructura y las interacciones internas, permitiendo a los miembros del equipo técnico y otras partes interesadas colaborar de manera más eficiente.
+
+En el caso del sistema integrado de Roademics, este diagrama desglosa la arquitectura, revelando las conexiones entre los distintos puntos de desarrollo, así como las interacciones con sistemas externos adyacentes. A través del BackEnd, se establecen conexiones directas con la base de datos, la cual gestiona y almacena la información crítica para el funcionamiento eficiente del sistema. Este enfoque detallado permite una visión clara de cómo cada componente colabora para brindar una experiencia fluida y coherente, asegurando que todas las partes del sistema trabajen en conjunto de manera efectiva.
+
 #### 3.2.1.3. Software Architecture Components Diagram.
+
+El diagrama de componentes profundiza aún más en la arquitectura de un sistema, desglosando cada contenedor en sus componentes individuales. Este nivel de análisis permite una representación clara y detallada de la organización interna, así como de la comunicación entre estos componentes dentro de cada contenedor, facilitando una comprensión precisa de cómo interactúan y se interrelacionan para cumplir las funciones del sistema.
+
+En el contexto de Roademics, el diagrama de componentes destaca los elementos clave del backend, con especial énfasis en el controlador principal, que actúa como el núcleo organizador. Este controlador es responsable de coordinar y orquestar las operaciones internas, gestionando los flujos de datos y asegurando la interacción eficiente con componentes especializados, tales como aquellos que manejan la interacción con APIs externas y las conexiones a la base de datos. Al ilustrar estas interacciones, se obtiene una visión detallada de cómo los diferentes componentes colaboran para mantener la integridad y funcionalidad del sistema.
+
+La utilidad del diagrama de componentes se extiende más allá del simple entendimiento de la arquitectura. Al proporcionar una visualización clara de cómo se gestionan los datos dentro de la aplicación móvil, este diagrama resulta invaluable no solo para los desarrolladores, sino también para los equipos de mantenimiento y actualización del sistema. Al descomponer cada elemento en sus componentes individuales y mapear sus interacciones, el diagrama optimiza el proceso de diseño y desarrollo, facilitando un mantenimiento efectivo y minimizando la complejidad durante el ciclo de vida del software.
 
 ### 3.2.2. Software Object-Oriented Design.
 
+Freeman y Robson (2021) describen el diseño de software orientado a objetos (POO) como un enfoque que organiza el software en torno a objetos que representan entidades del mundo real o conceptos abstractos. Cada objeto está compuesto por atributos que definen su estado y métodos que especifican su comportamiento, lo que permite una estructura modular y clara. Este paradigma de diseño pone un fuerte énfasis en la modularidad, reutilización y extensibilidad del código, dividiendo el sistema en unidades independientes que interactúan entre sí para realizar tareas específicas.
+
+Este enfoque no solo facilita la comunicación efectiva entre componentes, sino que también permite una mayor flexibilidad en la construcción y evolución del sistema de software. Este enfoque no solo proporciona una arquitectura más ordenada y mantenible, sino que también mejora la eficiencia en el desarrollo de software al facilitar la adaptación y crecimiento del sistema con el tiempo.
+
 #### 3.2.2.1. Class Diagrams.
+
+El diagrama de clases es una representación visual esencial en el modelado de sistemas orientados a objetos, desempeñando un papel fundamental en la comprensión de la estructura estática del software. Este diagrama permite a los desarrolladores y a las partes interesadas visualizar las clases del sistema, sus atributos, métodos y las relaciones que existen entre ellas, facilitando la comunicación y planificación en el proceso de diseño y desarrollo de software.
+
+Este diagrama es ampliamente utilizado en múltiples fases del ciclo de vida del software, incluyendo la visualización de la arquitectura del sistema, la documentación técnica y la comunicación entre los miembros del equipo de desarrollo. Al emplear notaciones estándar de UML (Unified Modeling Language) y herramientas de modelado, el diagrama de clases proporciona una representación clara, precisa y coherente de la estructura del sistema, mejorando tanto el diseño como la implementación del software (Freeman & Robson, 2021).
 
 #### 3.2.2.2. Class Dictionary.
 
+Un diccionario de clases es una herramienta fundamental en el desarrollo de software, utilizada para documentar y organizar de manera sistemática la información sobre las clases que componen un sistema. Este diccionario actúa como un repositorio central de detalles, proporcionando una descripción exhaustiva de cada clase, sus atributos, métodos, relaciones con otras clases, y cualquier otro aspecto relevante que facilite la comprensión y mantenimiento del sistema.
+
 #### 3.2.2.3. Database Design.
 
+El diseño de base de datos es un proceso esencial para la estructuración y organización de los datos en un sistema de software, con el objetivo de satisfacer los requisitos funcionales y no funcionales de dicho sistema. Este proceso implica la toma de decisiones cruciales sobre cómo se almacenarán, gestionarán y accederán los datos, para asegurar que la base de datos sea eficiente, íntegra y segura.
+
+Durante la fase de diseño, se especifican los tipos de datos a almacenar y las relaciones entre las diferentes entidades o tablas, garantizando la correcta representación de los datos y su interconexión. Además, se implementan restricciones de integridad que aseguran la coherencia y precisión de los datos almacenados, evitando inconsistencias. Asimismo, se toman en cuenta factores como el rendimiento, la escalabilidad y la capacidad de recuperación de la base de datos para asegurar su funcionamiento óptimo a largo plazo. En resumen, el proceso de diseño de bases de datos no solo establece la base estructural del sistema, sino que también optimiza su operatividad y capacidad de expansión, convirtiéndose en un componente crítico en el desarrollo de software eficiente y robusto (Freeman & Robson, 2021).
+
 #### 3.2.2.4. Database Diagram.
+
+Los diagramas de bases de datos son representaciones visuales que permiten ilustrar la estructura y las relaciones entre los elementos de una base de datos dentro de un sistema de software. A través de ellos, se muestra de manera gráfica cómo se organizan las tablas, las columnas y las relaciones entre las entidades, facilitando así una comprensión clara de la arquitectura subyacente.
+
+Estas representaciones son herramientas valiosas tanto para el diseño inicial como para la documentación y el mantenimiento continuo del sistema. Permiten que los equipos de desarrollo y las partes interesadas visualicen la estructura de los datos, asegurando una mejor comunicación y coordinación durante todo el ciclo de vida del proyecto. Los diagramas de bases de datos son especialmente útiles para identificar interdependencias y garantizar que el diseño cumpla con los requisitos de integridad y rendimiento, lo que contribuye a la optimización y escalabilidad del sistema.
