@@ -382,8 +382,436 @@ El diseño de base de datos es un proceso esencial para la estructuración y org
 
 Durante la fase de diseño, se especifican los tipos de datos a almacenar y las relaciones entre las diferentes entidades o tablas, garantizando la correcta representación de los datos y su interconexión. Además, se implementan restricciones de integridad que aseguran la coherencia y precisión de los datos almacenados, evitando inconsistencias. Asimismo, se toman en cuenta factores como el rendimiento, la escalabilidad y la capacidad de recuperación de la base de datos para asegurar su funcionamiento óptimo a largo plazo. En resumen, el proceso de diseño de bases de datos no solo establece la base estructural del sistema, sino que también optimiza su operatividad y capacidad de expansión, convirtiéndose en un componente crítico en el desarrollo de software eficiente y robusto (Freeman & Robson, 2021).
 
+
 #### 3.2.2.4. Database Diagram.
 
 Los diagramas de bases de datos son representaciones visuales que permiten ilustrar la estructura y las relaciones entre los elementos de una base de datos dentro de un sistema de software. A través de ellos, se muestra de manera gráfica cómo se organizan las tablas, las columnas y las relaciones entre las entidades, facilitando así una comprensión clara de la arquitectura subyacente.
 
 Estas representaciones son herramientas valiosas tanto para el diseño inicial como para la documentación y el mantenimiento continuo del sistema. Permiten que los equipos de desarrollo y las partes interesadas visualicen la estructura de los datos, asegurando una mejor comunicación y coordinación durante todo el ciclo de vida del proyecto. Los diagramas de bases de datos son especialmente útiles para identificar interdependencias y garantizar que el diseño cumpla con los requisitos de integridad y rendimiento, lo que contribuye a la optimización y escalabilidad del sistema.
+
+Para el desarrollo del diseño del software orientado a objetos, decidimos utilizar una base de datos no relacional. Por ende, se utilizó colecciones y se relacionó según fue conveniente en el siguiente diagrama: 
+
+<img src="/assets/img/capitulo-3/Software-Object-Oriented-Design/NoSQL_Database_Roademics.png">
+
+##### Users
+
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de un usuario</td>
+        </tr>
+         <tr>
+            <td>username</td>
+            <td>string</td>
+            <td>nombre de usuario</td>
+        </tr>
+         <tr>
+            <td>email</td>
+            <td>string</td>
+            <td>correo de usuario</td>
+        </tr>
+         <tr>
+            <td>userType</td>
+            <td>enum</td>
+            <td>tipos de usuario disponibles</td>
+        </tr>
+         <tr>
+            <td>connections</td>
+            <td>object array</td>
+            <td>lista de conexiones de usuario</td>
+        </tr>
+         <tr>
+            <td>conversations</td>
+            <td>objectid array</td>
+            <td>lista de IDs de conversaciones del usuario</td>
+        </tr>
+         <tr>
+            <td>membership</td>
+            <td>objectId</td>
+            <td>TIpo de membresía del usuario</td>
+        </tr>
+         <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación del usuario</td>
+        </tr>
+         <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de datos del usuario</td>
+        </tr>
+ </table>
+
+  ##### Memberships
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de una membresía</td>
+        </tr>
+        <tr>
+            <td>type</td>
+            <td>enum</td>
+            <td>Lista de membresías disponibles</td>
+        </tr>
+        <tr>
+            <td>price</td>
+            <td>double</td>
+            <td>Precio de la membresía</td>
+        </tr>
+        <tr>
+            <td>feature</td>
+            <td>string array</td>
+            <td>Arreglo de funcionalidades según membresía</td>
+        </tr>
+ </table>
+
+ ##### Roadmaps
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>ownerId</td>
+            <td>objectId</td>
+            <td>Identificador único del autor del mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>string</td>
+            <td>Titulo/nombre del mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>isAiRecommended</td>
+            <td>bool</td>
+            <td>Booleano que determina si el mapa de ruta es generado con IA o no</td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>string</td>
+            <td>Descripción opcional del mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>nodes</td>
+            <td>object array</td>
+            <td>Arreglo de objetos que contiene la información de cada nodo</td>
+        </tr>
+        <tr>
+            <td>edges</td>
+            <td>object array</td>
+            <td>Arreglo de objetos que contiene la información de conexiónes de cada nodo</td>
+        </tr>
+        <tr>
+            <td>visibility</td>
+            <td>enum</td>
+            <td>Enumerador tipos de visibilidad disponible (público / privado)</td>
+        </tr>
+        <tr>
+            <td>AI_recommendations</td>
+            <td>objectId</td>
+            <td>Identificador único de recomendaciones de IA para el mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>AI_interactions</td>
+            <td>objectId</td>
+            <td>Identificador único de las interacciones de IA para generar el mapa de ruta</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de mapa de ruta</td>
+        </tr>
+                <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de mapa de ruta</td>
+        </tr>
+ </table>
+
+ ##### AI interactions
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identficador único de interacciones generadas en chat con IA</td>
+        </tr>
+        <tr>
+            <td>userId</td>
+            <td>objectId</td>
+            <td>Identficador único de usuario que interactua con IA</td>
+        </tr>
+        <tr>
+            <td>messages</td>
+            <td>object array</td>
+            <td>Arreglo de objetos de mensajes que generaran el roadmap con IA</td>
+        </tr>
+        <tr>
+            <td>suggestedRoadmap</td>
+            <td>objectId</td>
+            <td>Identificador único de Mapas generados con IA</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de interacciones con IA</td>
+        </tr>
+                <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de interacción con IA</td>
+        </tr>
+ </table>
+
+ ##### AI recommendations
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identficador único de recomendaciones generadas por IA</td>
+        </tr>
+        <tr>
+            <td>userId</td>
+            <td>objectId</td>
+            <td>Identficador único de usuario que utliza las recomendaciones con IA</td>
+        </tr>
+        <tr>
+            <td>generatedFor</td>
+            <td>objectId</td>
+            <td>Identficador único del roadmap donde se genera la recomendación</td>
+        </tr>
+        <tr>
+            <td>suggestions</td>
+            <td>object array</td>
+            <td>Arreglo de objetos del contenido de recomendaciones</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de recomendación</td>
+        </tr>
+ </table>
+
+  ##### Posts
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_Id</td>
+            <td>objectId</td>
+            <td>Identificador único de publicación</td>
+        </tr>
+         <tr>
+            <td>usedId</td>
+            <td>objectId</td>
+            <td>Identificador único de creador de publicación</td>
+        </tr>
+        <tr>
+            <td>body</td>
+            <td>string</td>
+            <td>Contenido de la publicación</td>
+        </tr>
+        <tr>
+            <td>media</td>
+            <td>object array</td>
+            <td>Inserción de contenido muntimedia</td>
+        </tr>
+        <tr>
+            <td>visibility</td>
+            <td>enum</td>
+            <td>Condición de visiblidad (público / privado)</td>
+        </tr>
+        <tr>
+            <td>reactions</td>
+            <td>object array</td>
+            <td>arreglo de objetos de reacciones de la publicacion</td>
+        </tr>
+        <tr>
+            <td>comments</td>
+            <td>object array</td>
+            <td>arreglo de objetos de comentarios de la publicacion</td>
+        </tr>
+        <tr>
+            <td>tags</td>
+            <td>string array</td>
+            <td>categoría / etiquetas de la publicación</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de la publicación</td>
+        </tr>
+        <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de la publicación</td>
+        </tr>
+ </table>
+
+ ##### Connections
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de conexiones</td>
+        </tr>
+        <tr>
+            <td>userId</td>
+            <td>objectId</td>
+            <td>Identificador único de usuarios que mandan conexión</td>
+        </tr>
+        <tr>
+            <td>connectedUserId</td>
+            <td>objectId</td>
+            <td>Identificador único de usuarios que reciben conexión</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>enum</td>
+            <td>Lista de estados disponibles (pending / accepted / dismissed) </td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de la conexión</td>
+        </tr>
+        <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de la contexión</td>
+        </tr>
+ </table>
+
+  ##### Conversations
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de una conversación</td>
+        </tr>
+        <tr>
+            <td>participants</td>
+            <td>objectId array</td>
+            <td>Arreglo de participantes de la conversación</td>
+        </tr>
+        <tr>
+            <td>lastMessage</td>
+            <td>string</td>
+            <td>Último mensaje registrado</td>
+        </tr>
+        <tr>
+            <td>unreadCount</td>
+            <td>object</td>
+            <td>Objeto que cuenta los mensajes sin leer por conversación</td>
+        </tr>
+        <tr>
+            <td>messages</td>
+            <td>objectId array</td>
+            <td>Arreglo de mensajes por conversación</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de conversación</td>
+        </tr>
+        <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de conversación</td>
+        </tr>
+ </table>
+
+  ##### Messages
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de mensajes</td>
+        </tr>
+                <tr>
+            <td>senderId</td>
+            <td>objectId</td>
+            <td>Identificador único de usuario que manda el mensaje</td>
+        </tr>
+        <tr>
+            <td>receiverId</td>
+            <td>objectId</td>
+            <td>Identificador único de usuario que recibe el mensaje</td>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>string</td>
+            <td>Contenido de mensaje</td>
+        </tr>
+        <tr>
+            <td>media</td>
+            <td>object array</td>
+            <td>Inserción de contenido multimedia</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>enum</td>
+            <td>Lista de estados disponibles</td>
+        </tr>
+        <tr>
+            <td>conversationId</td>
+            <td>objectId</td>
+            <td>Identificador único de la conversación donde pertenecen los mensajes</td>
+        </tr>
+        <tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación de mensaje</td>
+        </tr>
+        <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de mensaje</td>
+        </tr>
+ </table>
