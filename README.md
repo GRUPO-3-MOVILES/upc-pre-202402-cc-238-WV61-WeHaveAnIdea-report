@@ -48,8 +48,8 @@ Durante esta primera entrega para la TB1, nuestro equipo se centró en el desarr
 
 Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a una sección específica del informe, lo que facilitó un avance ágil y el cumplimiento de los plazos establecidos. Asimismo, programamos sesiones regulares de brainstorming y resolución de problemas, donde se compartieron ideas y se abordaron de manera conjunta cualquier duda o dificultad que surgiera durante el desarrollo. Estas reuniones resultaron fundamentales para superar obstáculos de manera efectiva y asegurar un progreso sostenido.
 
-<img src="/assets/img/contributions-for-main-tb1.png" alt="Contributions for Main - TB1">
-<img src="/assets/img/individial-contributions-for-main-tb1.png" alt="Individual Contributions for Main - TB1">
+<img src="/assets/img/Insights-TB1.png" alt="Contributions for Main - TB1">
+
 
 ---
 
