@@ -299,25 +299,193 @@ Java:
 - Asegurar la aplicación mediante autenticación y autorización utilizando los mecanismos de seguridad integrados de Spring Security.
 - Implementar pruebas unitarias y de integración utilizando el soporte de pruebas de Spring Boot para asegurar la calidad del código y la funcionalidad de la aplicación.
 
-
 ### 4.1.4. Software Deployment Configuration.
+
+
 
 ## 4.2. Software Development & Implementation.
 
 ### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning 1.
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 3 de requerimientos.
 
-#### 4.2.1.2. Sprint Backlog 1.
+#### 5.2.2.1 Sprint Planning 1.
 
-#### 4.2.1.3. Development Evidence for Sprint Review.
+En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 1. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
 
-#### 4.2.1.4. Testing Suite Evidence for Sprint Review.
+(Falta Cambios)
 
-#### 4.2.1.5. Execution Evidence for Sprint Review.
+###### Tabla 23
+*Tabla del planeamiento a profundidad del Sprint 2*
+<table>
+        <tr>
+            <td colspan="1">Sprint #</td>
+            <td colspan="1">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2024-09-07</td>
+        </tr>
+          <tr>
+            <td>Time</td>
+            <td>18:01</td>
+        </tr>
+            <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+            <tr>
+            <td>Prepared by</td>
+            <td>Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Sprint 1 - 1 Review Summary</td>
+            <td>Después de un realizar todos los procedimientos establecidos para la identificación de objetivos y áreas de retroalimentación, hemos podido concluir la reunión del sprint 1 con éxito en términos de avance en los productos de software y en la colaboración general del equipo. El proceso de mejora con la retroalimentación y la programación de varias secciones nuevas en la Aplicación Web significó un gran proceso de mejora para la construcción y realización del sprint, además de reforzar el compromiso de nuestro equipo y la mejora exponencial de las actividades indicadas.</td> 
+        </tr>
+            <tr>
+            <td>Sprint 1 – 1 Retrospective Summary</td>
+            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño de la Landing Page.</td>
+        </tr>
+            <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+              <tr>
+            <td>Sprint 1 Goal</td>
+            <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 1 con todas las historias de usuario y otros materiales necesarios.</td>
+        </tr>
+              <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>Con el equipo para este sprint 1 decidimos aceptar X (No dos digitos) Story Points</td>
+        </tr>
+              <tr>
+            <td>Sum of Story Points</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es XX</td>
+        </tr>
+    </table>
 
-#### 4.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.2 Sprint Backlog 2.
 
-#### 4.2.1.7. Software Deployment Evidence for Sprint Review.
+En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. Hemos separado toda la construcción del FrontEnd en un total de quince (15) historias de usuario, donde cada integrante del grupo hizo al menos dos. Gracias a este proceso, para el final del Sprint Backlog 2, hemos conseguido tener un modelo de FrontEnd estable, accesible y manipulable para toda nuestra aplicación web.
 
-#### 4.2.1.8. Team Collaboration Insights during Sprint.
+###### Tabla XX
+*Tabla principal del planeamiento del Sprint Backlog 1*
+<table>
+        <tr>
+            <td colspan="2">Sprint #</td>
+            <td colspan="6">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Descripcion</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status (To-do / In / Process / ToReview / Done)</td>
+        </tr>
+        <tr>
+            <td>USXx</td>
+            <td>Implementar algo</td>
+            <td>T01</td>
+            <td>Apartado algo</td>
+            <td>Como Quiero Para.</td>
+            <td>Tiempo</td>
+            <td>Persona</td>
+            <td>Done</td>
+        </tr>
+    </table>
+
+Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: https://app.clickup.com/9013153284/v/l/6-901302611184-1
+
+###### Figura XX
+*Presentación de la tabla de actividades designada para el Sprint 1 en ClickUp.*
+<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 2 En ClickUp">
+
+#### 5.2.2.3 Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
+
+###### Tabla XX
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+| Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
+|------------|-------|----------|---------------|--------------------|-------------------|
+|upc-pre-202401--si730-WS52-SmartTech-FrontEnd|Develop|d3f5583|feat(ALL): initial commit|Se agrega el contenido inicial del proyecto.| 23/04/24|
+|upc-pre-202401--si730-WS52-SmartTech-FrontEnd|Develop|5e5de2d|Rename README.md.txt to README.md|Se agrega el archivo readme del proyecto.| 23/04/24|
+
+#### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
+
+En esta sección presentaremos la evidencia detallada de las pruebas rigurosas realizadas durante el sprint. Para garantizar la calidad y funcionalidad del producto, hemos empleado la metodología Gherkin para definir escenarios de prueba claros y concisos. Cada uno de estos escenarios se ha registrado meticulosamente en commits específicos en nuestro repositorio de código, lo que proporciona un registro completo y transparente de nuestro proceso de prueba.
+
+###### Tabla 26
+*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
+| Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
+|-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
+| upc-pre-202401--si730-WS52-SmarTech-AcceptanceTests | feat(.features): added More User Stories - Ruben - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 2 de Propertunity | 30/04/24 |
+
+#### 5.2.2.5 Execution Evidence for Sprint Review. 
+
+El equipo ha logrado implementar ...
+
+(Evidencias)
+
+###### Figura XX
+*Muestra con evidencia de la sección de perfil de propiedades de la aplicación web*
+<img src="/assets/img/Evidencia-Propiedades-WebApp.png" alt="Evidencia Propiedades en la Aplicación Web">
+
+Además de la implementación de estas características y funcionalidades, el equipo se esforzó por proporcionar una explicación clara y detallada del progreso alcanzado durante el sprint. Se creó un vídeo de presentación y descripción que destaca cómo se lograron los objetivos del sprint 2, y se agregaron todas las descripciones necesarias con respecto a los commits y branches implementados y programados. El enlace del vídeo, publicado en Microsoft Stream, es el siguiente: 
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
+
+En esta sección, presentamos la relación de Endpoints documentados con OpenAPI, que están directamente vinculados con el alcance del Sprint. Iniciamos con una breve introducción que resume los logros alcanzados en relación con la Documentación de Web Services durante este período de desarrollo. A continuación, proporcionamos una tabla detallada que enumera cada Endpoint, junto con las acciones implementadas y los enlaces correspondientes a la documentación desplegada o la URL local en Sprints anteriores al despliegue de Web Services.
+
+El siguiente enlace proporcionará acceso al modelo de DBJson utilizado como una representación simulada de API antes de la integración y construcción de una API completa y final para Propertunity. Este enlace está ubicado dentro de nuestra plataforma FrontEnd y sirve como punto de referencia crucial durante el proceso de desarrollo y prueba.
+
+Al hacer clic en este enlace, los desarrolladores y miembros del equipo pueden acceder al modelo de datos completo en formato JSON, que representa de manera precisa la estructura y la organización de los datos utilizados en nuestra aplicación. Este modelo de DBJson sirve como un punto de partida fundamental para comprender la lógica subyacente de nuestra aplicación y cómo interactúa con la base de datos: https://github.com/SmarTech-Propertunity/upc-pre-202401--si730-WS52-SmarTech-FrontEnd/blob/main/server/db.json
+
+En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo el verbo HTTP (GET, POST, PUT, DELETE, PATCH), la sintaxis de llamada, la especificación de posibles parámetros y se incluye un ejemplo junto con una explicación del response correspondiente. Además de la tabla, se presentan capturas de pantalla que ilustran la interacción con la documentación elaborada, utilizando datos de muestra para demostrar cómo se utiliza cada Endpoint. En este caso, vamos a dar una explicación completa de 3 clases con respecto a todo el modelo del DBJson para poder dar una idea completa y, a la vez, no abrumar al lector con grandes cúmulos de información base en un modelo CRUD:
+
+###### Tabla 27
+*Tabla del modelo de escritura para el EndPoint con respecto a ... .*
+| Método | Descripción | Ejemplo de llamada | Parámetros | Respuesta |
+|--------|-------------|---------------------|------------|-----------|
+| GET    | Obtener todos los usuarios | GET /usuarios | Ninguno | Lista de usuarios en formato JSON con detalles como nombre, correo, fecha de registro, etc. |
+
+###### Tabla 28
+*Tabla del modelo de escritura para el EndPoint respectivo a ... .*
+| Método | Descripción | Ejemplo de llamada | Parámetros | Respuesta |
+|--------|-------------|---------------------|------------|-----------|
+| GET    | Obtener todas las propiedades | GET /propiedades | Ninguno | Lista de todas las propiedades disponibles en formato JSON, con detalles como título, descripción, precio, ubicación, etc. |
+
+###### Figura 86
+*Muestra con evidencia de llamada al Endpoint.*
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+
+Dentro del Sprint 1, no se realizo ningún despliegue. (Mejorar)
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1 de la sección Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del propio BackEnd de la aplicación móvil de Roademics, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
+
+Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas y discutir la estrategia de desarrollo del proyecto. Estas reuniones fueron cruciales para clarificar nuestras responsabilidades individuales y asegurar un desempeño óptimo. Para maximizar la eficiencia, decidimos asignar a cada miembro del equipo una sección específica del BackEnd para desarrollar, lo que nos permitió avanzar rápidamente y cumplir con los plazos establecidos.
+
+Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd del Web Application.
+
+###### Figura 88
+*Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 1 de Software Development & Implementation.*
+
+<img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
+<img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
