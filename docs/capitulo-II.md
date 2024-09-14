@@ -627,248 +627,1080 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US001</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Registro de cuenta en la plataforma
             </td>
-            <td colspan="1"><strong>Como</strong> un usuario registrado de Roademics, <strong>quiero</strong> crear un mapa de ruta profesional personalizado utilizando las herramientas proporcionadas por la aplicación, <strong>para</strong> recibir un plan de desarrollo detallado que me ayude a alcanzar mis metas profesionales y mejorar mis habilidades.</td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
-            <strong>E01: Creación mediante Prompts con AI</strong>
-	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de creación de mapas de ruta <strong>y</strong> ha ingresado sus metas profesionales, intereses y habilidades actuales a través de una serie de prompts guiados por inteligencia artificial, <strong>cuando</strong> el usuario confirme los datos ingresados <strong>y</strong> solicite la generación del mapa de ruta, <strong>entonces</strong> el sistema debe procesar la información utilizando el algoritmo de inteligencia artificial para generar un mapa de ruta personalizado que incluya hitos clave, recomendaciones de desarrollo y sugerencias específicas para alcanzar las metas establecidas.
-            <strong>E02: Creación Manual del Árbol de Ruta</strong>
-	    <br><br><strong>Dado que</strong> el usuario ha elegido la opción de crear un mapa de ruta de forma manual utilizando herramientas proporcionadas por Roademics, <strong>cuando</strong> el usuario utilice las herramientas de diseño y edición disponibles para agregar y organizar hitos, objetivos y actividades dentro del mapa de ruta, <strong>entonces</strong> el sistema debe permitir al usuario construir y personalizar el árbol de ruta de manera intuitiva, con opciones para arrastrar y soltar elementos, editar detalles y establecer relaciones entre los distintos componentes del mapa. El usuario debe poder guardar, visualizar y modificar el mapa de ruta creado en cualquier momento.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-        <tr>
-            <td colspan="1">US002</td>
-            <td colspan="1">Edición de un Mapa de Ruta</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder editar y actualizar mi mapa de ruta existente, <strong>para</strong> ajustar las recomendaciones y los hitos clave de acuerdo con los nuevos logros, cambios en mis metas o evolución en mis habilidades, asegurando que mi plan de desarrollo siempre refleje mi situación actual y mis objetivos profesionales actualizados.
-            </td>
-            <td colspan="5">
-             <strong>E01: Edición mediante Prompts de IA</strong>
-	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de edición de un mapa de ruta <strong>y</strong> ha solicitado realizar cambios mediante la interacción con una serie de prompts guiados por inteligencia artificial, <strong>cuando</strong> el usuario ingrese los nuevos detalles sobre sus logros recientes, cambios en sus metas profesionales y actualizaciones en sus habilidades a través de los prompts proporcionados, <strong>entonces</strong> el sistema debe procesar la información actualizada utilizando el algoritmo de inteligencia artificial para ajustar el mapa de ruta en consecuencia. El mapa de ruta revisado debe reflejar los nuevos hitos y recomendaciones, y el usuario debe recibir una vista previa interactiva de los cambios realizados, permitiéndole revisar, ajustar y confirmar la actualización antes de finalizar el proceso. <br><br>
-            <br><br>
-            <strong>E02: Edición Manual del Mapa de Ruta</strong>	
-	    <br><br><strong>Dado que</strong> el usuario ha optado por editar el mapa de ruta existente de forma manual utilizando las herramientas de diseño disponibles en Roademics, <strong>cuando</strong> el usuario acceda a la interfaz de edición y utilice las herramientas para modificar, agregar o eliminar hitos, objetivos y actividades dentro del mapa de ruta, <strong>entonces</strong> el sistema debe permitir al usuario realizar estos ajustes de manera intuitiva mediante opciones de arrastrar y soltar, edición directa y reorganización de los elementos del mapa. El usuario debe poder guardar los cambios realizados, visualizar el mapa actualizado en tiempo real y recibir notificaciones sobre la finalización de la edición, asegurando que todos los ajustes sean aplicados correctamente y reflejados en la versión final del mapa de ruta.
-            </td>
-            <td colspan="1">EP004</td>
-	        </tr>
-	<tr>
-            <td colspan="1">US003</td>
-            <td colspan="1">Eliminación de un Mapa de Ruta</td>
-            <td colspan="1">
-	    <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder eliminar un mapa de ruta específico o varios mapas de ruta en una sola operación, <strong>para</strong> gestionar de manera efectiva mis planes de desarrollo y eliminar aquellos que ya no son relevantes o necesarios, asegurando que mi perfil y recursos se mantengan organizados y actualizados.
-            </td>
-            <td colspan="5">
-             <strong>E01: Eliminación de un Mapa de Ruta Específico</strong>
-	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de eliminación <strong>y</strong> ha seleccionado un mapa de ruta específico que desea eliminar, <strong>cuando</strong> el usuario confirme la eliminación mediante el proceso de confirmación de eliminación, <strong>entonces</strong> el sistema debe eliminar permanentemente el mapa de ruta seleccionado de la cuenta del usuario. El usuario debe recibir una notificación de confirmación de eliminación y una advertencia previa que detalle que la acción es irreversible. Además, el mapa de ruta eliminado debe ser retirado de la vista del usuario y de cualquier informe o historial relacionado con los mapas de ruta.
-            <br><br>
-            <strong>E02: Eliminación de Varios Mapas de Ruta en una Sola Operación</strong>	
-	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de eliminación múltiple <strong>y<strong> ha seleccionado varios mapas de ruta para eliminar en una sola operación, <strong>cuando</strong> el usuario confirme la eliminación de estos mapas mediante el proceso de confirmación de eliminación múltiple, <strong>entonces</strong> el sistema debe eliminar permanentemente todos los mapas de ruta seleccionados de la cuenta del usuario. El usuario debe recibir una notificación de confirmación de eliminación y una advertencia previa que indique que la acción es irreversible y afectará a todos los mapas seleccionados. El sistema debe actualizar la interfaz del usuario para reflejar la eliminación de los mapas de ruta y asegurar que todos los datos asociados sean removidos de manera correcta y completa.
-            </td>
-            <td colspan="1">EP004</td>
-	        </tr>
-	<tr>
-            <td colspan="1">US004</td>
-            <td colspan="1">Compartir un Mapa de Ruta</td>
-            <td colspan="1">
-            <strong>Como</strong> usuario de Roademics, <strong>quiero</strong> poder compartir este mapa de ruta con otros usuarios, <strong>para</strong> recibir retroalimentación, colaborar con colegas o inspirar a otros profesionales con mi trayectoria y plan de desarrollo.
-            </td>
-            <td colspan="5">
-             <strong>E01: Compartir Mapa de Ruta Individualmente</strong>
-	     <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de compartir <strong>y</strong> ha seleccionado un mapa de ruta específico que desea compartir, <strong>cuando</strong> el usuario elija la opción de compartir e ingrese la dirección de correo electrónico o el nombre de usuario del destinatario, <strong>entonces</strong> el sistema debe enviar una invitación de compartición al destinatario con un enlace al mapa de ruta. El destinatario debe recibir una notificación y poder acceder al mapa de ruta compartido mediante el enlace proporcionado. Además, el usuario debe recibir una confirmación de que el mapa de ruta ha sido compartido exitosamente, y el sistema debe registrar la actividad en el historial de comparticiones del usuario.<br><br>
-            <br><br>
-            <strong>E02: Compartir Mapa de Ruta en Redes Sociales</strong>	
-	    <br><br><strong>Dado que</strong> el usuario ha accedido a la funcionalidad de compartir <strong>y</strong> ha optado por la opción de compartir el mapa de ruta en redes sociales, <strong>cuando</strong> el usuario seleccione las redes sociales a través de las cuales desea compartir el mapa y confirme la acción, <strong>entonces</strong> el sistema debe generar un enlace de compartición que el usuario pueda publicar en sus perfiles de redes sociales. El enlace debe permitir a los usuarios de las redes sociales acceder al mapa de ruta compartido y visualizarlo en un formato adecuado para la red social. Además, el usuario debe recibir una notificación de confirmación de que la compartición en redes sociales ha sido exitosa, y el sistema debe registrar la actividad de compartición en el historial del usuario. <br><br>
-            </td>
-            <td colspan="1">EP004</td>
-	        </tr>
-        <tr>
-            <td colspan="1">US005</td>
-            <td colspan="1">Modificación de cuenta</td>
-            <td colspan="1">Como usuario registrado, quiero poder actualizar mi información personal para garantizar que mi perfil esté siempre completo y actualizado.</td>
-            <td colspan="5">E01: Modificación exitosa de cuenta
-            Dado que el usuario ve la información de su cuenta desactualizada
-            Y el usuario quiere actualizar la información de su cuenta
-            Cuando el usuario seleccione la opción de editar perfil
-            Y el usuario cambia datos en su perfil 
-            Y el usuario selecciona la opción guardar cambios
-            Entonces el sistema muestra los datos actualizados de la cuenta del usuario.
-            E02: Modificación fallida
-            Dado que el usuario ve la información de su cuenta desactualizada
-            Y el usuario quiere actualizar la información de su cuenta
-            Cuando el usuario seleccione la opción de editar perfil
-            Y el usuario cambia datos en su perfil 
-            Y el usuario olvida seleccionar la opción guardar cambios
-            Entonces el sistema muestra la cuenta sin datos actualizados.
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
             </td>
             <td colspan="1">EP001</td>
 		</tr>
-        <tr>
-            <td colspan="1">US006</td>
-            <td colspan="1">Cierre de sesión de cuenta</td>
-            <td colspan="1">Como usuario registrado, quiero poder cerrar sesión en mi cuenta con un solo clic desde cualquier página de la plataforma, para poder proteger mi privacidad y seguridad cuando haya terminado de utilizar el servicio.</td>
-            <td colspan="5">E01: Cierre de sesión exitosa
-            Dado que el usuario termina de utilizar los servicios del aplicación
-            Y el usuario quiere cerrar sesión en el dispositivo que está usando
-            Cuando el usuario seleccione la opción cerrar sesión 
-            Y el sistema muestre una advertencia de cierre de sesión
-            Y el usuario seleccione aceptar 
-            Entonces el sistema cierra la sesión de cuenta dentro de ese dispositivo.
-            E02: Cierre de sesión fallida
-            Dado que el usuario termina de utilizar los servicios del aplicación
-            Y el usuario quiere cerrar sesión en el dispositivo que está usando
-            Cuando el usuario seleccione la opción cerrar sesión 
-            Y el sistema muestre una advertencia de cierre de sesión
-            Y el usuario seleccione cancelar
-            Entonces el sistema cierra la sesión de cuenta dentro de ese dispositivo.
+		<tr>
+            <td colspan="1">TS002</td>
+            <td colspan="1">
+            Integrar un sistema de registro con Firebase Authentication
             </td>
-            <td colspan="1">EP003</td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
 		</tr>
-        <tr>
+		<tr>
+            <td colspan="1">TS003</td>
+            <td colspan="1">
+            Implementación de validaciones de credenciales
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS004</td>
+            <td colspan="1">
+            Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US005</td>
+            <td colspan="1">
+            Inicio de sesión con cuenta de la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS006</td>
+            <td colspan="1">
+            Integración de sistema de autenticación con Firebase Authentication
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
             <td colspan="1">US007</td>
-            <td colspan="1">Eliminación de cuenta</td>
-            <td colspan="1">Como usuario registrado, quiero tener la opción de eliminar permanentemente mi cuenta desde la configuración de mi perfil para tener control sobre mis datos personales y mi participación en la plataforma.</td>
-            <td colspan="5">E01: Eliminación de cuenta exitosa
-            Dado que el usuario quiere eliminar su cuenta
-            Cuando el usuario seleccione eliminar cuenta desde el apartado de configuración
-            Y el sistema muestra una advertencia de que la cuenta se eliminará para siempre
-            Y el usuario selecciona aceptar
-            Entonces el sistema elimina la cuenta
-            E02: Eliminación de cuenta fallida
-            Dado que el usuario quiere eliminar su cuenta
-            Cuando el usuario seleccione eliminar cuenta desde el apartado de configuración
-            Y el sistema muestra una advertencia de que la cuenta se eliminará para siempre
-            Y el usuario selecciona cancelar
-            Entonces el sistema no elimina la cuenta
+            <td colspan="1">
+            Recuperación de contraseña
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS008</td>
+            <td colspan="1">
+            implementar un sistema de autenticación segura en el backend</td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS009</td>
+            <td colspan="1">
+            Integración de un flujo de recuperación de contraseña
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS010</td>
+            <td colspan="1">
+            Almacenamiento de contraseñas utilizando técnicas de hash y salting
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS011</td>
+            <td colspan="1">
+            Implementación de autenticación de dos factores (2FA)
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">US012</td>
+            <td colspan="1">
+            Interacción con información personal
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
             </td>
             <td colspan="1">EP003</td>
 		</tr>
-       <tr>
-    <td colspan="1">US008</td>
-    <td colspan="1">Implementación del menú principal</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario, <strong>quiero</strong> tener un menú principal claramente visible y funcional cuando accedo a la plataforma, <strong>para</strong> poder acceder fácilmente a las diferentes secciones y funcionalidades de la aplicación.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario accede a la plataforma, <br>
-        <strong>Cuando</strong> la aplicación se carga correctamente, <br>
-        <strong>Entonces</strong> el menú principal debe estar visible en la pantalla principal. <br><br>
-        <strong>E02: Dado que</strong> el usuario selecciona una opción del menú, <br>
-        <strong>Cuando</strong> hace clic en la opción deseada, <br>
-        <strong>Entonces</strong> debe ser redirigido a la sección correspondiente de la aplicación. <br><br>
-        <strong>E03: Dado que</strong> el usuario intenta acceder a una sección protegida sin haber iniciado sesión, <br>
-        <strong>Cuando</strong> hace clic en la opción del menú correspondiente, <br>
-        <strong>Entonces</strong> debe ser redirigido a la pantalla de inicio de sesión.
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
-<tr>
-    <td colspan="1">US009</td>
-    <td colspan="1">Inicio de sesión de usuario en la plataforma</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión en la plataforma utilizando mi correo electrónico y contraseña, <strong>para</strong> acceder de manera segura a mi cuenta y a todas las funcionalidades disponibles.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario registrado se encuentra en la plataforma, <br>
-        <strong>Y</strong> selecciona la opción "Iniciar sesión", <br>
-        <strong>Cuando</strong> el usuario ingresa su correo y contraseña correctos en el formulario <br>
-        <strong>Y</strong> selecciona la opción "Iniciar sesión" <br>
-        <strong>Entonces</strong> el sistema verifica los datos y muestra la interfaz inicial de la plataforma. <br><br>
-        <strong>E02: Dado que</strong> el usuario registrado intenta iniciar sesión, <br>
-        <strong>Y</strong> selecciona la opción "Iniciar sesión", <br>
-        <strong>Cuando</strong> ingresa credenciales incorrectas. <br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que las credenciales son incorrectas. <br><br>
-        <strong>E03: Dado que</strong> el usuario registrado intenta iniciar sesión, <br>
-        <strong>Cuando</strong> deja los campos de correo o contraseña vacíos, <br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que los campos son obligatorios. <br>
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
-<tr>
-<td colspan="1">US010</td>
-    <td colspan="1">Inicio de sesión con cuentas externas</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión utilizando mi cuenta de Google o LinkedIn, <strong>para</strong> acceder rápidamente a la plataforma sin necesidad de recordar otra contraseña.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> que el usuario registrado se encuentra en la pantalla de inicio de sesión, <br>
-        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
-        <strong>Cuando</strong> el usuario es redirigido a la pantalla de autenticación externa <br>
-        <strong>Y</strong> el usuario autoriza el acceso <br>
-        <strong>Entonces</strong> el sistema verifica la autenticación y muestra la interfaz inicial de la plataforma. <br><br>
-        <strong>E02: Dado que</strong> el usuario registrado intenta iniciar sesión con una cuenta externa, <br>
-        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
-        <strong>Cuando</strong> el proceso de autenticación externa falla <br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo iniciar sesión debido a un error en la autenticación externa. <br><br>
-        <strong>E03: Dado que</strong> el usuario registrado intenta iniciar sesión con una cuenta externa, <br>
-        <strong>Y</strong> selecciona la opción de iniciar sesión con Google o LinkedIn, <br>
-        <strong>Cuando</strong> el proceso de autenticación externa falla <br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo iniciar sesión debido a un error en la autenticación externa. <br>
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
-<tr>
-<td colspan="1">US011</td>
-    <td colspan="1">Recuperación de contraseña</td>
-    <td colspan="1">
-        <strong>Como</strong> usuario registrado, <strong>quiero</strong> poder recuperar mi contraseña en caso de olvidarla, <strong>para</strong> asegurarme de que siempre puedo acceder a mi cuenta sin problemas.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario registrado olvida su contraseña, <br>
-        <strong>Y</strong> selecciona la opción "Recuperar contraseña", <br>
-        <strong>Cuando</strong> el usuario ingresa su correo asociado a la cuenta <br>
-        <strong>Y</strong> el sistema envía un enlace de recuperación al correo <br>
-        <strong>Entonces</strong> el usuario puede crear una nueva contraseña al seguir el enlace. <br><br>
-        <strong>E02: Dado que</strong> el usuario registrado olvida su contraseña, <br>
-        <strong>Y</strong> selecciona la opción "Recuperar contraseña", <br>
-        <strong>Cuando</strong> ingresa un correo no registrado o incorrecto. <br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no se pudo recuperar la contraseña debido a un error en la verificación del correo. <br><br>
-    </td>
-    <td colspan="1">EP002</td>
-</tr>
-
-  <tr>
-<td colspan="1">US012</td>
-    <td colspan="1">Registrar una cuenta de nuevo usuario</td>
-    <td colspan="1">
-        Como nuevo usuario, quiero poder registrar una cuenta utilizando mi correo electrónico y una contraseña segura para poder acceder a la plataforma y personalizar mi perfil.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el nuevo usuario ha accedido a la página de registro, cuando el usuario ingresa su correo electrónico y una contraseña segura en los campos correspondientes, entonces el sistema debe verificar que el correo electrónico no esté registrado previamente y que la contraseña cumpla con los requisitos de seguridad (longitud mínima, uso de caracteres especiales, etc.).
-<br>
-    </td>
-    <td colspan="1">EP001</td>
-</tr>
-
-<tr>
-<td colspan="1">US013</td>
-    <td colspan="1">Formulario de registro inicial
-</td>
-    <td colspan="1">
-        Como usuario, quiero un formulario de registro sencillo y claro que me permita introducir fácilmente la información necesaria para crear mi cuenta.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong> el usuario accede a la página de registro, cuando el usuario completa el formulario de registro con la información requerida (nombre, correo electrónico, contraseña, etc.), entonces el sistema debe validar los campos en tiempo real y mostrar mensajes de error claros si falta información o no es válida.
-
-<br>
-    </td>
-    <td colspan="1">EP001</td>
-</tr>
-
-<tr>
-<td colspan="1">US014</td>
-    <td colspan="1">Definir tipo de usuario al momento de registrar cuenta</td>
-    <td colspan="1">
-        Como usuario, quiero poder seleccionar el tipo de usuario que mejor se adapte a mis necesidades (Estudiante, Profesional, Empresa, etc.) durante el registro, para recibir una experiencia personalizada en la plataforma.
-    </td>
-    <td colspan="5">
-        <strong>E01: Dado que</strong>  el usuario está en el proceso de registro, cuando selecciona el tipo de usuario (Estudiante, Profesional, Empresa, etc.) de una lista de opciones disponibles, entonces el sistema debe mostrar campos de registro adicionales o personalizados 
-según el tipo de usuario seleccionado y debe guardar esta información para personalizar la experiencia del usuario en la plataforma.
-<br>
-    </td>
-    <td colspan="1">EP001</td>
-</tr>
+		<tr>
+            <td colspan="1">US013</td>
+            <td colspan="1">
+            Agregar foto de perfil
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US014</td>
+            <td colspan="1">
+            Gestión de biografía
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US015</td>
+            <td colspan="1">
+            Eliminación de cuenta
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US016</td>
+            <td colspan="1">
+            Sección de cambio de contraseña
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS017</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS018</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS019</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS020</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS021</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US022</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US023</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US024</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US025</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US026</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US027</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US028</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US029</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US030</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US031</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US032</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US033</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US034</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS035</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS036</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS037</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS038</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS039</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US040</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US041</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US042</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US043</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US044</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS045</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS046</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS047</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS048</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS049</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US050</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US051</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US052</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US053</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US054</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS055</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS056</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS057</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS058</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS059</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US060</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US061</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS062</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS063</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US064</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US065</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US066</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS067</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS068</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS069</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US070</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US071</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US072</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US073</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US074</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">US075</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS076</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS077</td>
+            <td colspan="1">
+            Registro de usuarios estudiantes en la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
 </table>
 
 ### 2.4.3. Impact Mapping.
