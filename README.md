@@ -221,12 +221,20 @@ En la siguiente sección se describen las acciones realizadas y enunciados de co
             <p>
                 <strong>Pescorán Angulo, Juan Fabritzzio - TB1:</strong>
                 <br>Para esta primera entrega del informe de trabajo, me enfoqué en desarrollar las secciones principales del análisis AS-IS y TO-BE, así como en la elaboración de los mapas de impacto y varias hipótesis dentro del modelo Lean UX para analizar a profundidad la problemática que afrontara nuestro proyecto. Durante este proceso, me propuse actualizar los métodos que había utilizado previamente, incorporando las tecnologías más avanzadas y relevantes disponibles en el mercado del software. Este enfoque no solo mejoró la calidad del análisis y la precisión de las hipótesis, sino que también garantizó que el proyecto estuviera alineado con las mejores prácticas y herramientas actuales de la industria.<br><br>
+                <strong>Pescorán Angulo, Juan Fabritzzio - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Trigueros Chumacero, Flavio Eduardo - TB1:</strong>
                 <br>A lo largo del desarrollo de esta primera entrega, he explorado numerosos artículos, libros y nuevas tendencias en el mercado del software con el objetivo de actualizar mis conceptos y conocimientos esenciales para el desarrollo profesional, así como para impulsar la innovación en los resultados de este proyecto. Esta investigación me permitió identificar métricas más precisas para realizar un análisis competitivo exhaustivo, diseñar estrategias agresivas para competir en el mercado, y establecer un modelo sólido de antecedentes y problemáticas. Asimismo, pude definir las características clave que debe tener nuestra aplicación para abordar eficazmente estos desafíos<br><br>
+                <strong>Trigueros Chumacero, Flavio Eduardo - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB1:</strong>
                 <br>A lo largo de esta entrega, tuve la oportunidad de informarme sobre varias actualizaciones recientes en los conceptos que debí desarrollar en el informe, particularmente en lo referente a la segmentación de mercado exitosa, así como a la definición de User Personas, junto con sus correspondientes User Task Matrix y Empathy Maps. Estos conceptos los apliqué de manera directa para identificar nuevas oportunidades de innovación y mejorar la precisión en el desarrollo del proyecto. La incorporación de estas herramientas permitió un enfoque más estratégico y alineado con las últimas tendencias, lo que resultó en un análisis más riguroso y una ejecución más efectiva del proyecto.<br><br>
+                <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Yen Cerna, Lucio Heli - TB1:</strong>
-                <br>Durante el desarrollo de esta TB1, tuve la oportunidad de profundizar en nuevos conceptos relacionados con el diseño Lean UX de una aplicación, así como en la forma de vincularlo directamente con las historias de usuario que se desarrollarán en el proyecto. Este enfoque permitió una alineación más efectiva entre el diseño y las necesidades del usuario final. Además, actualicé varios conceptos clave sobre el desarrollo y la conducción de entrevistas, incorporando las metodologías más modernas y demandadas por el mercado actual. Estos conocimientos resultan esenciales para garantizar que las entrevistas sean estructuradas de manera eficaz, reflejando las expectativas y tendencias actuales en la industria.
+                <br>Durante el desarrollo de esta TB1, tuve la oportunidad de profundizar en nuevos conceptos relacionados con el diseño Lean UX de una aplicación, así como en la forma de vincularlo directamente con las historias de usuario que se desarrollarán en el proyecto. Este enfoque permitió una alineación más efectiva entre el diseño y las necesidades del usuario final. Además, actualicé varios conceptos clave sobre el desarrollo y la conducción de entrevistas, incorporando las metodologías más modernas y demandadas por el mercado actual. Estos conocimientos resultan esenciales para garantizar que las entrevistas sean estructuradas de manera eficaz, reflejando las expectativas y tendencias actuales en la industria.<br><br>
+                <strong>Yen Cerna, Lucio Heli - TB2: </strong> 
+                <br> Durante esta TB2, exploré las posibilidades de integrar inteligencia artificial en aplicaciones móviles utilizando el modelo Gemini. Aprendí a aprovechar las capacidades de procesamiento de lenguaje natural de Gemini para crear interfaces de usuario más conversacionales e inteligentes. Además, investigué sobre las últimas tendencias en desarrollo de software, como el uso de bases de datos NoSQL y las mejores prácticas de diseño de interfaces de usuario. Estos conocimientos me permitieron vislumbrar el futuro del desarrollo de software y cómo la inteligencia artificial está transformando la forma en que creamos aplicaciones.
             </p>
         </td>
         <td>
@@ -234,7 +242,9 @@ En la siguiente sección se describen las acciones realizadas y enunciados de co
                 <strong>TB1: </strong>
               <br>Para esta primera entrega del proyecto, denominada TB1, nos hemos enfocado en incorporar las últimas tendencias del mercado y del desarrollo profesional en los informes y en la documentación asociada. Hemos buscado implementar nuevas métricas, estrategias y tácticas para abordar la problemática del proyecto, así como para integrar de manera efectiva las historias de usuario junto con una segmentación de mercado detallada. Nuestro objetivo es establecer bases sólidas desde el principio para minimizar imperfecciones que puedan surgir en etapas posteriores y afectar el desarrollo continuo, lo cual podría consumir tiempo valioso.
 
-Creemos firmemente que el desarrollo continuo y la investigación son fundamentales para mantenernos actualizados con las nuevas tendencias, innovaciones y propuestas en el campo. Esta actitud nos permite analizar, plantear e integrar las mejores prácticas y modelos en nuestros proyectos, contribuyendo a evitar la obsolescencia y a fomentar un avance constante. En última instancia, buscamos no solo mantener la relevancia, sino también avanzar continuamente, siempre aspirando a la excelencia.<br>
+Creemos firmemente que el desarrollo continuo y la investigación son fundamentales para mantenernos actualizados con las nuevas tendencias, innovaciones y propuestas en el campo. Esta actitud nos permite analizar, plantear e integrar las mejores prácticas y modelos en nuestros proyectos, contribuyendo a evitar la obsolescencia y a fomentar un avance constante. En última instancia, buscamos no solo mantener la relevancia, sino también avanzar continuamente, siempre aspirando a la excelencia.<br><br>
+              <strong>TB2: </strong>
+              <br>
             </p>
         </td>
     </tr>
@@ -244,12 +254,20 @@ Creemos firmemente que el desarrollo continuo y la investigación son fundamenta
             <p>
                 <strong>Pescorán Angulo, Juan Fabritzzio - TB1:</strong>
                 <br>Durante todo el proceso de este proyecto, he reconocido con claridad la importancia del aprendizaje continuo en cada uno de los proyectos que realizo a lo largo de mi carrera universitaria. La aplicación del modelo AS-IS y TO-BE, junto con los mapas de impacto, se ha revelado como un componente esencial para identificar con precisión los aspectos que deben mejorarse en nuestros segmentos objetivo a través del diseño de la aplicación. Además, este enfoque me permitió distinguir claramente cómo nuestras propuestas se diferencian de las soluciones actuales en el mercado. Esta experiencia subraya la necesidad de mantenerse actualizado y de adoptar un enfoque estratégico en cada etapa del desarrollo de proyectos. <br><br>
+                <strong>Pescorán Angulo, Juan Fabritzzio - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Trigueros Chumacero, Flavio Eduardo - TB1:</strong>
                 <br>Durante el desarrollo del proyecto, he reconocido claramente la necesidad del aprendizaje continuo en mi crecimiento profesional, ya que el mundo del software es altamente dinámico y requiere la adquisición de nuevas habilidades de manera constante, a veces incluso cada mes. En el ámbito del análisis competitivo, es crucial buscar y aplicar nuevas métricas para identificar y desarrollar estrategias que permitan destacarse en el mercado. Del mismo modo, en el desarrollo de antecedentes y problemáticas, es fundamental estar al tanto de los problemas y tendencias actuales para relacionar y detectar desafíos cada vez más graves y en expansión. Esta actitud proactiva de actualización y adaptación es esencial para mantenerse relevante y competitivo en un entorno en constante evolución.<br><br>
+                <strong>Trigueros Chumacero, Flavio Eduardo - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB1:</strong>
                 <br>Reconocí la necesidad del aprendizaje continuo en todo momento, esforzándome por identificar nuevas oportunidades para ampliar mis conocimientos en las áreas abordadas dentro del proyecto. En particular, me concentré en el desarrollo de User Personas, buscando la manera más precisa de elaborarlas para definir de manera integral y clara nuestros segmentos de mercado. Este enfoque me permitió centralizar la información y asegurar que la segmentación fuera coherente y alineada con los objetivos estratégicos del proyecto, lo que refuerza mi compromiso con el aprendizaje constante como un pilar fundamental en mi crecimiento profesional<br><br>
+                <strong>Valenzuela Huillcaya, Aldhair Johan Juan - TB2:</strong>
+                <br>PON TU STUDENT<br><br>
                 <strong>Yen Cerna, Lucio Heli - TB1:</strong>   
-                <br>Durante el proceso de investigación y diseño de los diagramas de Lean UX, así como en la organización de las entrevistas para el desarrollo de los user personas definidos para nuestra aplicación, he llegado a reconocer la gran importancia y relevancia de estos aspectos para mi futuro profesional. En particular, estos elementos resultan cruciales en el análisis detallado de las problemáticas y en la adquisición de información valiosa proveniente de los segmentos objetivo que hemos planteado. La experiencia adquirida en estos campos no solo enriquece mi comprensión del diseño centrado en el usuario, sino que también fortalece mis competencias en la resolución de problemas y la toma de decisiones informadas, habilidades esenciales para mi desarrollo profesional.
+                <br>Durante el proceso de investigación y diseño de los diagramas de Lean UX, así como en la organización de las entrevistas para el desarrollo de los user personas definidos para nuestra aplicación, he llegado a reconocer la gran importancia y relevancia de estos aspectos para mi futuro profesional. En particular, estos elementos resultan cruciales en el análisis detallado de las problemáticas y en la adquisición de información valiosa proveniente de los segmentos objetivo que hemos planteado. La experiencia adquirida en estos campos no solo enriquece mi comprensión del diseño centrado en el usuario, sino que también fortalece mis competencias en la resolución de problemas y la toma de decisiones informadas, habilidades esenciales para mi desarrollo profesional. <br><br>
+                <strong>Yen Cerna, Lucio Heli - TB2: </strong> 
+                <br> Durante esta TB2, exploré el desarrollo de aplicaciones móviles utilizando Flutter y Firebase, y reconocí la importancia de mantenerme actualizado en un campo tan dinámico. La rápida evolución de tecnologías como la inteligencia artificial y la creciente demanda de experiencias de usuario personalizadas hacen que el aprendizaje continuo sea fundamental para cualquier desarrollador. Este proyecto me ha motivado a seguir investigando nuevas herramientas y metodologías, y a participar en comunidades de desarrolladores para compartir conocimientos y aprender de otros profesionales.
             </p>
         </td>
         <td>
@@ -257,7 +275,9 @@ Creemos firmemente que el desarrollo continuo y la investigación son fundamenta
                 <strong>TB1: </strong>
               <br>Como grupo de trabajo, reconocemos la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo exitoso de proyectos para cada uno de sus integrantes. Esta necesidad es particularmente evidente en el ámbito del software, donde el mercado evoluciona a una velocidad acelerada y exige la adquisición continua de nuevos conocimientos y habilidades. En relación con los temas abordados en esta entrega, entendemos la importancia de profundizar en los modelos Lean UX, el desarrollo de User Stories y las características propuestas en el Solution Profile. Nuestro objetivo es promover una mejora continua y aprovechar herramientas más avanzadas que superen las prácticas clásicas que empleábamos anteriormente.
 
-Apreciamos que la mejora continua es esencial tanto para el éxito de este proyecto como para nuestro crecimiento profesional en áreas clave. Estas incluyen la documentación, la definición del problema y la solución, el análisis de competidores, la definición de entrevistas, la segmentación de mercado, el uso de modelos Lean UX, el modelado de diagramas y User Personas, y la definición de historias de usuario. Este enfoque proactivo nos permitirá no solo mantenernos actualizados, sino también alcanzar un alto nivel de eficiencia y efectividad en nuestros proyectos.<br>
+Apreciamos que la mejora continua es esencial tanto para el éxito de este proyecto como para nuestro crecimiento profesional en áreas clave. Estas incluyen la documentación, la definición del problema y la solución, el análisis de competidores, la definición de entrevistas, la segmentación de mercado, el uso de modelos Lean UX, el modelado de diagramas y User Personas, y la definición de historias de usuario. Este enfoque proactivo nos permitirá no solo mantenernos actualizados, sino también alcanzar un alto nivel de eficiencia y efectividad en nuestros proyectos.<br><br>
+              <strong>TB2: </strong>
+              <br>
             </p>
         </td>
     </tr>
@@ -287,7 +307,7 @@ Primer grupo de objetivos SMART:
                 <td>Desarrollar e implementar 40 User Stories detalladas y entendibles para Roademics, asegurando que cada una aborde necesidades específicas del usuario y se traduzca en funcionalidades programables con una tasa de aceptación del 95% durante las pruebas de usuario en 3 meses, con un enfoque en diseño atractivo y usabilidad.</td>
                 <td>Desarrollar una documentación técnica completa y detallada para Roademics que incluya gráficos de organización del proyecto y asegure el cumplimiento con las normativas impuestas por grandes compañías como Google y Microsoft, logrando una revisión sin errores en el 100% de los aspectos revisados, y obtener una validación de cumplimiento en auditorías de normativa antes de la demo principal en 3 meses.</td>
                 <td>Implementar e integrar 10 funcionalidades clave de los roadmaps de Roademics, asegurando que cada una se comunique eficazmente con plataformas externas y sistemas de inteligencia artificial, con una tasa de éxito del 98% en pruebas de integración y funcionalidad antes de la demo principal en 3 meses. </td>
-                <td>Desarrollar y validar un prototipo de interfaz de usuario (UI) y experiencia de usuario (UX) para Roademics, incorporando un sistema de inteligencia artificial que analice y prediga las necesidades de los usuarios en su propio desarrollo competitivo y profesional con un 90% de precisión, según las métricas de usabilidad y feedback de usuarios en pruebas de aceptación, para la presentación de la demo principal en 3 meses.</td>
+                <td> </td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
@@ -310,7 +330,7 @@ Primer grupo de objetivos SMART:
                 <td>Redactar y desarrollar a profundidad 40 User Stories detalladas y comprensibles que cubran las necesidades del usuario y se traduzcan en funcionalidades programables que presenten una alta tasa de aceptación después de las pruebas de usuario.</td>
                 <td>Desarrollar y redactar documentación técnica profunda y completa, además de realizar gráficos de organización para los aspectos técnicos e implementar normativas propias y reglas que cumplan con las normativas de Google y Microsoft.</td>
                 <td>Desarrollar e integrar adecuadamente 10 funcionalidades clave del sistema de roadmaps de Roademics, incluyendo la comunicación con plataformas externas y sistemas de Inteligencia Artificial.</td>
-                <td>Desarrollar y validar un prototipo de UI/UX con un sistema o servicio de Inteligencia Artificial para análisis y predicción de necesidades de los usuarios en su desarrollo profesional usando roadmaps.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
@@ -318,7 +338,7 @@ Primer grupo de objetivos SMART:
                 <td>El éxito se medirá por las tasas de aceptación que se obtendrán tras la realización de las pruebas de usuario antes de la salida de la demo de Roademics para su presentación. Para este caso, se buscar lograr una tasa de aceptación del 95% en pruebas de usuario.</td>
                 <td>El éxito de este objetivo se medirá mediante una revisión profunda de redacción de los documentos con aspectos técnicos y normativas para Roademics. Ante esto, se espera llegar a una revisión sin errores en el 100% de los aspectos y validación en auditorías de normativa.</td>
                 <td>El logro para este objetivo se medirá mediante una tasa de éxito en las pruebas de integración y funcionalidad con los servicios externos y los sistemas de Inteligencia Artificial. En este caso, se espera alcanzar una tasa de éxito del 98% en pruebas de integración y funcionalidad.</td>
-                <td>El éxito del objetivo se medirá mediante la precisión de las necesidades y recomendaciones en el desarrollo profesional que ofrece la IA. Al menos se debe obtener un 90% de precisión en la predicción de necesidades según las métricas de usabilidad y feedback.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
@@ -326,7 +346,7 @@ Primer grupo de objetivos SMART:
                 <td>El objetivo no solo implica completar los User Stories de forma suficiente y genérica, para luego desarrollarlos según lo indicado en los documentos e informes sin aplicar mejoras. Para este objetivo, se busca directamente superar la tasa de aceptación promedio del 85% para User Stories en aplicaciones móviles en general.</td>
                 <td>En la actualidad, muchas empresas de software presentan varias fallas en sus productos y tecnologías debido a que carecen de una documentación especializada y profunda. En este caso, en los últimos años, se ha resaltado que la media de cumplimiento técnico y normativo en la documentación es de un 90%. Ante esto, buscar llegar a un 100%, lo que sería una documentación sin errores de ningún tipo, es algo muy ambicioso.</td>
                 <td>En la mayoría de proyectos basados en aplicaciones móviles, se presenta un estándar de éxito de integraciones funcionales del 90%, lo que, aunque muchas veces llega a ser suficiente, no es lo mejor, puesto que aún pueden presentarse errores. Teniendo en cuenta que grandes empresas y compañías comparten ese estándar de 90%, llegar a un 95% se puede considerar como ambicioso.</td>
-                <td>El objetivo no solo busca crear y desarrollar un prototipo funcional en unos meses, sino también innovar en la definición de funcionalidades y en buscar una precisión mucho más alta que la del promedio. Para esto, se busca superar la precisión del 75% que es el promedio en sistemas de IA similares para aplicaciones que se centren en ámbitos móviles.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
@@ -334,7 +354,7 @@ Primer grupo de objetivos SMART:
                 <td>Es una parte crucial de todo proyecto de software tener User Stories adecuadas en todos los aspectos tecnológicos necesarios para asegurar que todas las funcionalidades que necesiten los usuarios se cumplan de la forma más óptima.</td>
                 <td>De forma incondicional, la documentación de un proyecto de software debe estar presente y no debe presentar errores de ningún tipo. La documentación es el aspecto en el que se basa todo el equipo y en donde se pueden guiar con respecto a normativas, requerimientos, requisitos, etc. La documentación es algo demasiado relevante y un proyecto de software siempre depende de esta.</td>
                 <td>La integración de sistemas dentro de la propia lógica de una aplicación es algo muy importante en varios aspectos generales y específicos. Sin una integración correcta, muchas funcionalidades podrían no funcionar. Ante esto, es necesario no solo integrar los sistemas y servicios con nuestra aplicación, sino también hacerlo de forma óptima.</td>
-                <td>La integración y desarrollo del prototipo mencionado es relevante en todo sentido al ser la base principal del aplicativo de Roademics junto a sus funcionalidades. Integrar los aspectos de UX/UI brindara éxito a la solución que esperamos siguiendo nuestro caso de estudio.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
@@ -342,7 +362,7 @@ Primer grupo de objetivos SMART:
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales para asegurar la calidad y precisión de cada historia de usuario, además de ajustes en las redacciones y especificaciones según los cambios de ideas dados por los usuarios.</td>
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones diarias para asegurar la calidad y precisión de cada aspecto referente a la documentación, además de ajustes en las normativas y en la propia redacción.</td>
                 <td>El objetivo debe completarse en 3 meses, con revisiones semanales para asegurar que cada parte del proceso de integración avance de forma continua y adecuada, sin afectar al resto de la aplicación.</td>
-                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones intermedias semanales para garantizar que el prototipo se desarrolle de acuerdo con los estándares y se realicen ajustes según sea necesario.</td>
+                <td></td>
             </tr>
         </tbody>
     </table>
@@ -365,7 +385,7 @@ Primer grupo de objetivos SMART:
                 <td>Desarrollar e implementar medidas de seguridad y privacidad avanzadas en el aplicativo móvil de Roademics, logrando cumplir con el estándar de seguridad OWASP Mobile Top 10 y obteniendo un 99% de conformidad en auditorías de seguridad realizadas antes de la demo principal en 3 meses.</td>
                 <td>Organizar y gestionar los sprints del proyecto Roademics utilizando el modelo Scrum, logrando una implementación eficiente que permita una finalización de tareas en un 95% dentro del tiempo estimado y una mejora continua en la gestión de proyectos según las métricas de Scrum, con un informe de progreso completo para la demo principal en 3 meses.</td>
                 <td>Desarrollar e implementar un sistema de gestión de perfiles que permita la personalización avanzada y el manejo eficiente de perfiles de usuarios en Roademics, asegurando una tasa de satisfacción del 90% en pruebas de usabilidad y una integración sin fallos con la inteligencia artificial antes de la demo principal en 3 meses.</td>
-                <td>Diseñar un diagrama de clases detallado y una diagramación de base de datos para Roademics que aseguren una integración eficiente entre componentes de UI, backend e inteligencia artificial, con una cobertura del 95% de las funcionalidades del sistema y una documentación técnica exhaustiva que permita la implementación sin contratiempos, para la demo principal en 3 meses.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
@@ -388,7 +408,7 @@ Primer grupo de objetivos SMART:
                 <td>Implementar de forma adecuada, avanzada y precisa todas las medidas de seguridad y privacidad que cumplan con el estándar OWASP Mobile Top 10. Esto va para todas las medidas que se encuentren dentro del estándar junto a todas las recomendaciones y buenas prácticas que indican.</td>
                 <td>Implementar y gestionar todos los sprints del proyecto de programación usando Scrum, asegurando la finalización de tareas en un 95% dentro del tiempo estimado ya planteado por el propio equipo de trabajo y organización de Roademics.</td>
                 <td>Desarrollar e implementar un sistema de gestión de perfiles con personalización avanzada para cada uno de los usuarios de Roademics, respetando las limitaciones según membresías. Asimismo, se espera integrar las funcionalidades de Inteligencia Artificial de forma adecuada para cada usuario.</td>
-                <td>Elaborar el diagrama de clases propio de Roademics, junto a la diagramación de su base de datos para su correcta implementación. Ambos gráficos deben estar exhaustivamente documentados, evitando la ambigüedad y la complejidad en todo momento.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
@@ -396,7 +416,7 @@ Primer grupo de objetivos SMART:
                 <td>El éxito se medirá por la conformidad que brinden las auditorías que se realizarán en las partes finales antes de la demo del proyecto, en las cuales se busca una alta conformidad en todo momento. Para este caso, es necesario obtener un 99% de conformidad en auditorías de seguridad.</td>
                 <td>Para alcanzar el éxito en este caso, es obligatorio revisar el total de tareas e historias de usuario completadas para la demo de Roademics en 3 meses. Con el fin de verificar si se consigue el éxito en este caso, es necesario que se hayan completado un 95% de las tareas e historias de usuario planteadas por el equipo de trabajo de Roademics.</td>
                 <td>Para alcanzar el logro planteado, es necesario medir las tasas de satisfacción para todas las pruebas de usabilidad que se aplicaran en la gestión de perfiles de Roademics. Para este caso, se espera obtener una tasa de satisfacción del 90% en pruebas de usabilidad.</td>
-                <td>El éxito se medirá por la cobertura de las funcionalidades dadas en el sistema que se encuentren entrelazadas o se basen en el modelado de los gráficos realizados, además de que su implementación sea adecuada y óptima. En este caso se espera una cobertura del 95% de las funcionalidades del sistema con documentación técnica clara.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
@@ -404,7 +424,7 @@ Primer grupo de objetivos SMART:
                 <td>El propio objetivo busca superar el estándar de conformidad del 90% en auditorías de seguridad móvil presentado por OWASP Mobile Security, meta la cual es demasiado ambiciosa ya que plantea superar a varias empresas líderes en la industria de las aplicaciones para dispositivos móviles en aspectos de privacidad de datos y seguridad.</td>
                 <td>Se sabe, mediante datos presentados por las organizaciones a cargo de las normativas Scrum y otras empresas que se especializan en el uso de Scrum en sus proyectos, que el promedio de efectividad de los grupos que usan Scrum en sus proyectos de programación es de 80%, terminando con un 20% de tareas que no consiguieron terminarse. Tomando en cuenta la medida del proyecto y el como solo se tienen 4 meses para el desarrollo completo, buscar un 95% de tareas completadas es algo ambicioso.</td>
                 <td>En la actualidad se presenta una alta insatisfacción en el desarrollo y gestión de perfiles para los usuarios en muchas aplicaciones para dispositivos móviles, sobre todo en redes sociales. Ante esta satisfacción estándar de un 75%, buscar un 90% puede llegar a ser muy ambicioso. </td>
-                <td>El objetivo no solo busca una cobertura suficiente de las funcionalidades de la aplicación móvil con documentación técnica y diagramas precisos, sino que también trata de asegurar una integración eficiente superior a la media del 80% en proyectos similares basados en inteligencia artificial.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
@@ -412,7 +432,7 @@ Primer grupo de objetivos SMART:
                 <td>Es obligatorio que toda aplicación de software presente unas medidas de seguridad adecuadas en todo momento. La autenticación y la autorización son aspectos que deben encontrarse muy bien controlados, sobre todo en aplicaciones que buscan un gran público y que podrían presentar incluso intercambio de información entre distintos usuarios.</td>
                 <td>Este aspecto es relevante en todos los puntos, puesto que es necesario que toda aplicación consiga completar todas sus tareas e historias de usuario antes de ser lanzada al mercado. Es necesario que se pueda completar todas las funcionalidades para así conseguir la mejor respuesta posible por parte de los usuarios.</td>
                 <td>Un perfil de usuario es algo básico que casi todas las aplicaciones necesitan tener si es que requieren de los datos privados del usuario, como su nombre, edad, gustos, etc. Para el tipo de aplicación que es Roademics, buscar una mejor usabilidad en las funcionalidades de gestión de perfil es algo relevante y hasta necesario.</td>
-                <td>Implementar una cobertura casi completa de todas las funcionalidades bajo documentación técnicas y diagramas precisos es esencial para el desarrollo del producto final. De está forma nos aseguramos que cada aspecto funcione adecuadamente, este organizado y presente una lógica clara.</td>
+                <td></td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
@@ -420,7 +440,7 @@ Primer grupo de objetivos SMART:
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales de seguridad para asegurar que cada funcionalidad se encuentre bien aplicada y con disponibilidad completa.</td>
                 <td>El objetivo debe completarse en un plazo de 3 meses, puesto que esta es la fecha en la que se completará todo el proyecto de Roademics. Los propios sprints deben tener revisiones semanales para comprobar que se encuentran bien organizados incluso después de su primer planteamiento.</td>
                 <td>El objetivo debe completarse en 3 meses, con revisiones según las pruebas de usabilidad que se realicen en el trabajo para verificar que el avance es adecuado.</td>
-                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones intermedias diarias para garantizar que cada funcionalidad se desarrolle de acuerdo con los estándares técnicos y se realicen ajustes según sea necesario.</td>
+                <td></td>
             </tr>
         </tbody>
     </table>
