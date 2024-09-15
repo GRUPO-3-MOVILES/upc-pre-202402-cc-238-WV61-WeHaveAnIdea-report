@@ -850,7 +850,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS017</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Módulo de ajuste de usuario
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -864,7 +864,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS018</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Formulario de edición de perfil
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -878,7 +878,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS019</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Funcionalidad para gestión de fotos de perfil
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -892,7 +892,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS020</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Funcionalidad de edición de perfil esté conectada a una API backend
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -904,9 +904,9 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS021</td>
+            <td colspan="1">US021</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Creación de roadmap académico básico
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -920,7 +920,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US022</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Generación de roadmap con IA
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -934,7 +934,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US023</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Acceso a plantillas avanzadas y sugerencias de IA
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -948,7 +948,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US024</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Edición de roadmaps básicos
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -962,7 +962,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US025</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Acceso a herramienta de edición avanzada para usuarios Premium
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -976,7 +976,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US026</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Elimicación de roadmaps que no se requieren
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -990,7 +990,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US027</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1004,7 +1004,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US028</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1018,7 +1018,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US029</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1032,7 +1032,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US030</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder exportar mi roadmaps en formato como PDF o PNG (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1046,7 +1046,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US031</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder crear los "pasos" (nodo) de mi roadmap
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1060,7 +1060,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US032</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Cracion de roadmaps con grafos más complejos (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1074,7 +1074,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US033</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1088,7 +1088,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US034</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Guardar versiones de mi roadmap
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1102,7 +1102,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS035</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Creación de una estructura de datos en grafo para representar los roadmaps
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1116,7 +1116,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS036</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Optimización de la craación, edición de nodos y conexiones en el grafo
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1130,7 +1130,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS037</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de una interfaz visual interactiva para la manipulación del grafo
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1144,7 +1144,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS038</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1158,7 +1158,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS039</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1172,7 +1172,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US040</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1186,7 +1186,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US041</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder chatear directamente con otros usuarios y empresas
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1200,7 +1200,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US042</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1214,7 +1214,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US043</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder ver quien ha aceptado mi solicitud de conexión y quien la ha ignorado o rechazado
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1228,7 +1228,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US044</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder recibir informes avanzados sobre la actividad de mi perfil (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1242,7 +1242,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS045</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visulice su perfil o roadmap
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1256,7 +1256,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS046</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Asegurar la integración del sistema de mensajes directos
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1270,7 +1270,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS047</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de un sistema de control de conexiones
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1284,7 +1284,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS048</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Diseñar un sistema para reportar y bloquear usuarios
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1298,7 +1298,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS049</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1312,7 +1312,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US050</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder suscribirme de manera fácil a una membresía premium
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1326,7 +1326,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US051</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Gestionar mi suscripción desde mi perfil
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1340,7 +1340,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US052</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir una notificación antes de que mi membresía se renueve automáticamente
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1354,7 +1354,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US053</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Acceso a un periodo de prueba
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1368,7 +1368,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US054</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir soporte prioritario y asistencia personalizada (Usuario Premium)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1382,7 +1382,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS055</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de un sistema de control de acceso basado en roles
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1396,7 +1396,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS056</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1410,7 +1410,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS057</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Diferenciar claramente la UI/UX para usuarios gratuitos y premium
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1424,7 +1424,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS058</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1438,7 +1438,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS059</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Asegurar que los datos de pago y la información sensible estén encriptados
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1452,7 +1452,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US060</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Recibir una notifiación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1466,7 +1466,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US061</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Poder revisar el historial de inicios de sesión recientes
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1480,7 +1480,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS062</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1494,7 +1494,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS063</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de un sistema de control de sesiones activas
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1508,7 +1508,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US064</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Leer y aceptar Términos y condiciones
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1522,7 +1522,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US065</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Revisar Términos y condiciones actualizados
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1536,7 +1536,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US066</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Accesibilidad a Términos y condiciones
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1550,7 +1550,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS067</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de módulos de Términos y condiciones
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1564,7 +1564,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS068</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Integración de un sistema de versiones para los Términos y condiciones
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1578,7 +1578,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS069</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1592,7 +1592,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US070</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1606,7 +1606,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US071</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Visualizar contenido de Landing Page
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1620,7 +1620,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US072</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Formulario de contacto
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1634,7 +1634,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US073</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Implementación de footer
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1648,7 +1648,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US074</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Responsive Landing Page
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1662,7 +1662,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US075</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Facil navegación en el diseño de la Landing Page
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1676,7 +1676,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS076</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Deploy a Github Pages
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
@@ -1690,7 +1690,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS077</td>
             <td colspan="1">
-            Registro de usuarios estudiantes en la plataforma
+            Integración de un sistema de seguimiento de métrica
             </td>
             <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
             <td colspan="5">
