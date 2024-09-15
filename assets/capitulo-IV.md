@@ -148,16 +148,16 @@ Report: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnId
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
 
-###### Tabla 16
+###### Tabla 23
 
 *Modelo de integrantes del equipo dentro de la página de organización de Github*
 
 |**Nombre de Usuario**|**Imagen de Perfil**|**Nombre del Integrante del Equipo**|
 | ----- | ------ | ----- |
-|  |  |
-| FlavioTrigueros |  | Trigueros Chumacero, Flavio Eduardo - U202210190 |
-| AldhaValenzuelaH |  | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
-| LucioY250 |  | Yen Cerna, Lucio Heli - U202213143 |
+| JuanPescoran | <img src="/assets/img/capitulo-4/profiles/Juan-github.PNG" alt="Pescorán Angulo, Juan Fabritzzio">| Pescorán Angulo, Juan Fabritzzio - U20221C936 |
+| FlavioTrigueros | <img src="/assets/img/capitulo-4/profiles/Flavio-github.PNG" alt="Trigueros Chumacero, Flavio Eduardo"> | Trigueros Chumacero, Flavio Eduardo - U202210190 |
+| AldhaValenzuelaH | <img src="/assets/img/capitulo-4/profiles/Aldhair-github.PNG" alt="Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
+| LucioY250 | <img src="/assets/img/capitulo-4/profiles/Lucio-github.PNG" alt="Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
 
 
 **GitFlow Workflow**:
@@ -171,7 +171,7 @@ En esta sección, describiremos cómo se aplicará GitFlow en nuestro proyecto. 
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
-###### Tabla 17
+###### Tabla 24
 
 *Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github*
 | Nombre | Descripción |
@@ -197,7 +197,7 @@ Formato de Commit:
 En este formato, branch debe indicar la rama en la que se han realizado los cambios propuestos para la nueva característica. Si los cambios se efectúan en una rama específica de un capítulo, simplemente se utilizará "chapter-xx" para mantener la descripción del commit o pull request breve.
 La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio realizado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
 
-###### Tabla 
+###### Tabla 25
 *Modelo de escritura de verbos para todos los commits realizados en el proyecto de Github*
 
 | Verbo | Traducción | Uso en el proyecto de programación |
