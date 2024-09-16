@@ -309,10 +309,10 @@ Primer grupo de objetivos SMART:
             </tr>
             <tr>
                 <td>Descripción del objetivo</td>
-                <td>Desarrollar e implementar 40 User Stories detalladas y entendibles para Roademics, asegurando que cada una aborde necesidades específicas del usuario y se traduzca en funcionalidades programables con una tasa de aceptación del 95% durante las pruebas de usuario en 3 meses, con un enfoque en diseño atractivo y usabilidad.</td>
-                <td>Desarrollar una documentación técnica completa y detallada para Roademics que incluya gráficos de organización del proyecto y asegure el cumplimiento con las normativas impuestas por grandes compañías como Google y Microsoft, logrando una revisión sin errores en el 100% de los aspectos revisados, y obtener una validación de cumplimiento en auditorías de normativa antes de la demo principal en 3 meses.</td>
+                <td>En 4 meses, quiero mejorar mi fluidez en alemán participando activamente en las clases de conversación de la universidad y completando las lecciones del libro de alemán que nos proporcionan. Además, reforzaré mi aprendizaje utilizando videos de YouTube sobre gramática y comprensión oral.</td>
+                <td>En los próximos 5 meses, quiero mejorar mi fluidez en inglés practicando conversación con un compañero de intercambio lingüístico de la universidad dos veces por semana. También completaré las unidades del libro asignado y practicaré vocabulario con la aplicación Duolingo. Al final de este período, me presentaré al examen Cambridge First Certificate (FCE) para obtener una certificación de nivel intermedio-alto.</td>
                 <td>En un plazo de 4 meses, quiero adquirir un conocimiento sólido en el desarrollo de aplicaciones móviles tanto en Kotlin como en Flutter, completando un curso estructurado de al menos 5 semanas para cada tecnología. Además, desarrollaré una aplicación móvil completamente funcional en cada plataforma que incluya características clave como autenticación de usuario e integración con una base de datos. Al finalizar, tendré la capacidad de aplicar estos conocimientos en proyectos reales, entendiendo las diferencias y ventajas de cada lenguaje. </td>
-                <td> </td>
+                <td> En un plazo de 6 meses, quiero mejorar mi fluidez en chino utilizando el libro de texto de la universidad y reforzando mi aprendizaje con podcasts y videos en chino una vez por semana. Además, participaré en sesiones de conversación organizadas por mi universidad. </td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
@@ -332,43 +332,43 @@ Primer grupo de objetivos SMART:
               <th rowspan="5">Metodología Smart</th> 
                 <td>S<br>Specific<br> Específico</td>
                 <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
-                <td>Redactar y desarrollar a profundidad 40 User Stories detalladas y comprensibles que cubran las necesidades del usuario y se traduzcan en funcionalidades programables que presenten una alta tasa de aceptación después de las pruebas de usuario.</td>
-                <td>Desarrollar y redactar documentación técnica profunda y completa, además de realizar gráficos de organización para los aspectos técnicos e implementar normativas propias y reglas que cumplan con las normativas de Google y Microsoft.</td>
+                <td>Mejorar la fluidez en alemán mediante clases universitarias, uso del libro y videos de YouTube.</td>
+                <td>Mejorar la fluidez en inglés mediante intercambio lingüístico y el uso de una aplicación de vocabulario.</td>
                 <td>El objetivo es aprender y dominar el desarrollo de aplicaciones móviles utilizando dos tecnologías clave: Kotlin y Flutter. Esto implica la adquisición de conocimientos tanto teóricos como prácticos, aplicados en el desarrollo de dos aplicaciones móviles funcionales. Cada aplicación incluirá autenticación de usuario e integración con bases de datos, habilidades esenciales para proyectos móviles profesionales.</td>
-                <td></td>
+                <td>Mejorar la fluidez en chino mediante el uso del libro de texto, podcasts, y videos.</td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
                 <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
-                <td>El éxito se medirá por las tasas de aceptación que se obtendrán tras la realización de las pruebas de usuario antes de la salida de la demo de Roademics para su presentación. Para este caso, se buscar lograr una tasa de aceptación del 95% en pruebas de usuario.</td>
-                <td>El éxito de este objetivo se medirá mediante una revisión profunda de redacción de los documentos con aspectos técnicos y normativas para Roademics. Ante esto, se espera llegar a una revisión sin errores en el 100% de los aspectos y validación en auditorías de normativa.</td>
+                <td>Completar un libro de alemán, practicar con videos ver series de alemán nativo para poder aprender mejor.</td>
+                <td> Completar las unidades del libro y la práctica con Duolingo, y aprobar el examen FCE.</td>
                 <td>El progreso se medirá a través de dos métricas clave:
 - Completar al menos 5 semanas de estudio para cada plataforma (10 semanas en total).
 - Desarrollar dos aplicaciones funcionales, una en Kotlin y otra en Flutter, que incluyan autenticación de usuario e integración con bases de datos. Estas métricas permiten medir no solo el tiempo dedicado, sino también los entregables finales, asegurando que el conocimiento no solo sea teórico sino también práctico. </td>
-                <td></td>
+                <td>Completar las actividades de escucha brindadas por diferentes medios chinos y aprobar un examen de certificación.</td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
                 <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
-                <td>El objetivo no solo implica completar los User Stories de forma suficiente y genérica, para luego desarrollarlos según lo indicado en los documentos e informes sin aplicar mejoras. Para este objetivo, se busca directamente superar la tasa de aceptación promedio del 85% para User Stories en aplicaciones móviles en general.</td>
-                <td>En la actualidad, muchas empresas de software presentan varias fallas en sus productos y tecnologías debido a que carecen de una documentación especializada y profunda. En este caso, en los últimos años, se ha resaltado que la media de cumplimiento técnico y normativo en la documentación es de un 90%. Ante esto, buscar llegar a un 100%, lo que sería una documentación sin errores de ningún tipo, es algo muy ambicioso.</td>
+                <td>Es alcanzable con una combinación de clases y estudio autónomo.</td>
+                <td>Alcanzable dedicando tiempo semanal al intercambio y estudio adicional.</td>
                 <td>El objetivo es retador, ya que requiere no solo adquirir conocimientos básicos, sino también desarrollar aplicaciones completas con características esenciales, lo cual implica el uso de documentación avanzada, integración de servicios, y habilidades de resolución de problemas. Este desafío va más allá de las funciones tradicionales de solo seguir un curso, ya que demanda un enfoque estratégico para aplicar esos conocimientos en proyectos reales, fortaleciendo la habilidad de elegir la tecnología más adecuada según las necesidades del proyecto.</td>
-                <td></td>
+                <td>Alcanzable mediante la dedicación semanal y las actividades de refuerzo.</td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
                 <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
-                <td>Es una parte crucial de todo proyecto de software tener User Stories adecuadas en todos los aspectos tecnológicos necesarios para asegurar que todas las funcionalidades que necesiten los usuarios se cumplan de la forma más óptima.</td>
-                <td>De forma incondicional, la documentación de un proyecto de software debe estar presente y no debe presentar errores de ningún tipo. La documentación es el aspecto en el que se basa todo el equipo y en donde se pueden guiar con respecto a normativas, requerimientos, requisitos, etc. La documentación es algo demasiado relevante y un proyecto de software siempre depende de esta.</td>
+                <td>Este objetivo está alineado con la necesidad de obtener una certificación que demuestre competencia en inglés para oportunidades profesionales.</td>
+                <td>Es relevante para avanzar en el aprendizaje del idioma y obtener una certificación reconocida internacionalmente.</td>
                 <td>Este objetivo está alineado con los objetivos estratégicos del desarrollo profesional en el área de tecnología móvil, dado que tanto Kotlin como Flutter son tecnologías altamente demandadas en el mercado laboral actual. Además, se relaciona directamente con el objetivo de Laureate Perú de formar profesionales capacitados y competitivos en tecnología. </td>
-                <td></td>
+                <td>Relevante para obtener una certificación de chino que apoye metas profesionales y académicas.</td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
                 <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales para asegurar la calidad y precisión de cada historia de usuario, además de ajustes en las redacciones y especificaciones según los cambios de ideas dados por los usuarios.</td>
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones diarias para asegurar la calidad y precisión de cada aspecto referente a la documentación, además de ajustes en las normativas y en la propia redacción.</td>
-                <td>El objetivo tiene un plazo claro de 4 meses, lo que implica que debe cumplirse a más tardar en [fecha límite específica]. Este plazo cubre tanto el período de estudio (10 semanas) como el tiempo necesario para el desarrollo y la implementación de las aplicaciones, asegurando que el objetivo sea realizable dentro del marco de tiempo establecido.</td>
+                <td>ElEl plazo es de 6 meses para prepararse y aprobar el examen internacional de chino.</td>
                 <td></td>
             </tr>
         </tbody>
