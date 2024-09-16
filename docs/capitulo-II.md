@@ -629,12 +629,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Registro de cuenta en la plataforma
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> nuevo usuario, <strong>quiero</strong> registrarme en la plataforma creando una cuenta <strong>para</strong> poder acceder a la aplicación </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> soy un usuario nuevo, <strong>cuando</strong> ingreso todos los campos requeridos y acepto los términos y condiciones <strong>entonces</strong> se debe crear la cuenta y mostrar un mensaje de confirmación de registro exitoso.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse, <strong>cuando</strong> ingresa un correo electrónico que ya está asociado a una cuenta existente, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que el correo ya está en uso y no permitir la creación de la cuenta.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -643,12 +643,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Integrar un sistema de registro con Firebase Authentication
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario nuevo desea registrarse <strong>cuando</strong> proporciona su correo electrónico y contraseña válidos a través de la aplicación usando Firebase Authentication, <strong>entonces</strong> el sistema debe crear la cuenta en Firebase y vincularla con los datos del usuario en la plataforma.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse con un correo electrónico ya existente en Firebase, <strong>cuando</strong> el sistema detecta que la dirección de correo electrónico está duplicada, <strong>entonces</strong> se debe mostrar un mensaje de error indicando que el correo ya está asociado a una cuenta existente y no se debe permitir el registro.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -657,12 +657,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Implementación de validaciones de credenciales
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ingresa su correo electrónico para registrarse, <strong>cuando</strong> el correo electrónico no tiene un formato válido <strong>entonces</strong>el sistema debe mostrar un mensaje de error indicando que el formato del correo es incorrecto y no proceder con el registro. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está creando una cuenta, <strong>cuando</strong>  ingresa una contraseña que no cumple con los requisitos de seguridad <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando los requisitos de contraseña que no se cumplen y no permitir la creación de la cuenta.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -671,12 +671,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> los datos del usuario están siendo transmitidos durante algún proceso en la aplicación <strong>cuando</strong> el usuario envía su información a través de la plataforma, <strong>entonces</strong> los datos deben estar protegidos mediante protocolos de encriptación como HTTPS/TLS, asegurando que la información sea inaccesible por terceros durante la transmisión.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> los datos del usuario están almacenados en la base de datos, <strong>cuando</strong>  se guarda la información sensible del usuario<strong>entonces</strong> estos datos deben estar encriptados en reposo utilizando algoritmos de cifrado seguros.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -685,12 +685,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Inicio de sesión con cuenta de la plataforma
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación <strong>quiero</strong> iniciar sesión en la plataforma utilizando mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario tiene una cuenta registrada, <strong>cuando</strong> ingresa correctamente su correo electrónico y contraseña en la página de inicio de sesión, <strong>entonces</strong> el sistema debe autenticar al usuario y redirigirlo al dashboard principal de su cuenta.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión, <strong>cuando</strong> ingresa una contraseña o correo electrónico incorrecto, <strong>entonces</strong> el sistema no le permite acceder a su cuenta y debe mostrar un mensaje de error, junto con opciones para recuperar o restablecer la contraseña.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -699,12 +699,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Integración de sistema de autenticación con Firebase Authentication
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario registrado intenta iniciar sesión, <strong>cuando</strong> ingresa su correo electrónico y contraseña correctos a través de la aplicación, <strong>entonces</strong> el sistema debe autenticar al usuario correctamente y permitirle acceder a su cuenta en la aplicación.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión con una contraseña incorrecta, <strong>cuando</strong>  Firebase Authentication verifica las credenciales y detecta el error, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que las credenciales son incorrectas y no permitir el acceso.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -713,12 +713,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recuperación de contraseña
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado <strong>quiero</strong> tener la opción de recuperar mi contraseña, <strong>para</strong> poder restablecer mi acceso a la plataforma.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha olvidado su contraseña, <strong>cuando</strong> selecciona la opción "Recuperar contraseña" y proporciona su correo electrónico registrado, <strong>entonces</strong> el sistema debe enviar un enlace seguro de restablecimiento de contraseña al correo proporcionado.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario recibe el enlace de restablecimiento de contraseña, <strong>cuando</strong> hace clic en el enlace y proporciona una nueva contraseña que cumpla con los requisitos de seguridad, <strong>entonces</strong> el sistema debe actualizar la contraseña y permitirle iniciar sesión con la nueva credencial.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -726,12 +726,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">TS008</td>
             <td colspan="1">
             implementar un sistema de autenticación segura en el backend</td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está intentando acceder a una funcionalidad restringida, <strong>cuando</strong> el usuario envía un token de autenticación válido (JWT) en la solicitud, <strong>entonces</strong> el sistema debe verificar la validez del token y permitir el acceso solo si el token es válido y no ha expirado.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta acceder a una funcionalidad restringida sin un token de autenticación o con un token inválido, <strong>cuando</strong> el sistema recibe la solicitud, <strong>entonces</strong> el sistema debe rechazar la solicitud y devolver un código de error con un mensaje indicando que se requiere autenticación.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -740,12 +740,14 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Integración de un flujo de recuperación de contraseña
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar un flujo de recuperación de contraseña, <strong>para</strong> permitir a los usuarios restablecer sus contraseñas de manera segura en caso de olvido. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha olvidado su contraseña y solicita una recuperación, <strong>cuando</strong> el usuario ingresa su correo electrónico en el formulario de recuperación y envía la solicitud, <strong>entonces</strong> el sistema debe generar un enlace seguro de restablecimiento de contraseña y enviarlo al correo electrónico proporcionado.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario recibe el enlace de restablecimiento de contraseña, <strong>cuando</strong>  el usuario hace clic en el enlace y proporciona una nueva contraseña que cumpla con los requisitos de seguridad, <strong>entonces</strong> el sistema debe validar la nueva contraseña, actualizarla en la base de datos y permitir al usuario iniciar sesión con la nueva contraseña.<br><br>
+	    <strong>E03: </strong>
+	    <br><br><strong>Dado que</strong> el enlace de restablecimiento de contraseña ha expirado o es inválido, <strong>cuando</strong> un usuario intenta usar un enlace expirado o inválido para restablecer su contraseña, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que el enlace no es válido o ha expirado.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -754,12 +756,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Almacenamiento de contraseñas utilizando técnicas de hash y salting
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> almacenar las contraseñas de los usuarios utilizando técnicas de hash y salting, <strong>para</strong> asegurar que las contraseñas se mantengan seguras y sean resistentes a ataques. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario se registra en la plataforma o cambia su contraseña, <strong>cuando</strong> el sistema recibe la contraseña en texto plano, <strong>entonces</strong> el sistema debe aplicar un algoritmo de hash seguro junto con un salt único para la contraseña y almacenarlo en la base de datos.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión, <strong>cuando</strong> el sistema recibe la contraseña ingresada, <strong>entonces</strong> el sistema debe aplicar el mismo algoritmo de hash y usar el salt asociado para verificar la contraseña contra el hash almacenado en la base de datos.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -768,12 +770,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Implementación de autenticación de dos factores (2FA)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar autenticación de dos factores (2FA), <strong>para</strong> añadir una capa adicional de seguridad al proceso de autenticación de usuarios y proteger mejor sus cuentas.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> que un usuario ha habilitado la autenticación de dos factores en su cuenta, <strong>cuando</strong> el usuario intente iniciar sesión con su correo electrónico y contraseña válidos, <strong>entonces</strong> el sistema debe solicitar un segundo factor de autenticación antes de permitir el acceso a la cuenta.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> que un usuario recibe un código de autenticación en su dispositivo móvil o aplicación de autenticación, <strong>cuando</strong> el usuario ingresa el código en el formulario de autenticación de dos factores, <strong>entonces</strong> el sistema debe verificar la validez del código y permitir el acceso solo si el código es correcto y no ha expirado.
             </td>
             <td colspan="1">EP002</td>
 		</tr>
@@ -782,12 +784,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Interacción con información personal
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> gestionar y actualizar mi información personal en la plataforma, <strong>para</strong> asegurar que mis datos estén actualizados y reflejen correctamente mi situación actual. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y realiza cambios en su información personal  <strong>entonces</strong> el sistema debe actualizar los datos en la base de datos y mostrar un mensaje de confirmación de que los cambios se han guardado exitosamente.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha actualizado su dirección de correo electrónico, <strong>cuando</strong> el sistema guarda el nuevo correo electrónico, <strong>entonces</strong> el sistema debe enviar un correo de confirmación al nuevo correo electrónico para verificar la validez de la dirección
             </td>
             <td colspan="1">EP003</td>
 		</tr>
@@ -796,12 +798,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Agregar foto de perfil
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> agregar o actualizar mi foto de perfil en la plataforma, <strong>para</strong> </td> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente.
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y selecciona la opción para agregar o actualizar su foto de perfil, <strong>entonces</strong> el sistema debe permitir al usuario cargar una imagen desde su dispositivo y guardar la nueva foto de perfil.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario carga una imagen que excede el tamaño máximo permitido o no está en un formato aceptado, <strong>cuando</strong> el sistema detecta el problema, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando el problema con la imagen y no permitir la carga de la imagen hasta que se corrija el problema.
             </td>
             <td colspan="1">EP003</td>
 		</tr>
@@ -810,12 +812,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Gestión de biografía
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> que un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y elige la opción para agregar o editar su biografía, <strong>entonces</strong> el sistema debe permitir al usuario ingresar o modificar el texto de la biografía y guardar los cambios, mostrando una vista previa del texto antes de la confirmación.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario decide eliminar su biografía, <strong>cuando</strong> el usuario selecciona la opción para eliminar la biografía y confirma la acción, <strong>entonces</strong> el sistema debe eliminar la biografía del perfil del usuario y mostrar un mensaje de confirmación indicando que la biografía ha sido eliminada.
             </td>
             <td colspan="1">EP003</td>
 		</tr>
@@ -824,12 +826,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Eliminación de cuenta
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder eliminar mi cuenta de la plataforma, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la opción de eliminar su cuenta y confirma la solicitud, <strong>entonces</strong> el sistema debe iniciar un proceso de eliminación y enviar un correo de confirmación al usuario para verificar la solicitud.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha confirmado la solicitud de eliminación a través del correo de confirmación, <strong>cuando</strong> el sistema recibe la confirmación, <strong>entonces</strong> el sistema debe eliminar todos los datos personales asociados a la cuenta de manera segura y permanente.
             </td>
             <td colspan="1">EP003</td>
 		</tr>
@@ -838,12 +840,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Sección de cambio de contraseña
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura en mi cuenta.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma y accede a la sección de cambio de contraseña, <strong>cuando</strong> el usuario ingresa su contraseña actual, una nueva contraseña que cumpla con los requisitos de seguridad y confirma la nueva contraseña, <strong>entonces</strong> el sistema debe verificar que la contraseña actual es correcta, validar que la nueva contraseña cumple con los requisitos de seguridad, actualizar la contraseña en la base de datos y mostrar un mensaje de confirmación de que el cambio ha sido exitoso. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ingresa una nueva contraseña que no cumple con los requisitos de seguridad <strong>cuando</strong> el sistema detecta que la nueva contraseña no cumple con los requisitos, <strong>entonces</strong> el sistema debe mostrar un mensaje de error detallando los requisitos que no se cumplen y no permitir el cambio de contraseña hasta que se corrija el problema.
             </td>
             <td colspan="1">EP003</td>
 		</tr>
@@ -852,12 +854,13 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Módulo de ajuste de usuario
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> acceder a un módulo detallado de ajustes de usuario, <strong>para</strong> personalizar completamente mis preferencias y gestionar con facilidad los aspectos más importantes de mi cuenta. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está plenamente autenticado en la plataforma, <strong>cuando</strong> accede al módulo de ajustes de usuario, <strong>entonces</strong> el sistema debe mostrar de manera clara y organizada todas las opciones de personalización.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario modifica cualquiera de sus preferencias dentro del módulo de ajustes,
+cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema recibe las actualizaciones, <strong>entonces</strong> el sistema debe guardar los cambios instantáneamente, de manera rápida y eficiente
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -866,12 +869,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Formulario de edición de perfil
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede al formulario de edición de perfil, <strong>entonces</strong> el sistema debe mostrar un formulario con campos editables para la información personal del usuario. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario realiza cambios en el formulario de edición de perfil, <strong>cuando</strong> el usuario envía el formulario con los datos actualizados, <strong>entonces</strong> el sistema debe validar la información ingresada, guardar los cambios en la base de datos y mostrar un mensaje de confirmación de que la actualización fue exitosa.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -880,12 +883,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Funcionalidad para gestión de fotos de perfil
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder gestionar mi foto de perfil, <strong>para</strong> personalizar mi perfil con una nueva imagen y actualizarla cuando lo desee. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de gestión de foto de perfil y selecciona la opción para agregar o actualizar su foto, <strong>entonces</strong> el sistema debe permitir al usuario cargar una nueva imagen desde su dispositivo y permitir al usuario guardar la nueva foto de perfil. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha cargado una foto de perfil, <strong>cuando</strong> el sistema recibe la imagen, <strong>entonces</strong> el sistema debe realizar validaciones básicas, y si la imagen cumple con los requisitos, actualizar la foto de perfil en la base de datos y mostrar un mensaje de confirmación indicando que la actualización fue exitosa.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -894,12 +897,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Funcionalidad de edición de perfil esté conectada a una API backend
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que la funcionalidad de edición de perfil esté conectada a una API backend, <strong>para</strong> asegurar que los cambios realizados en mi perfil se sincronicen correctamente con el servidor y se reflejen en la base de datos. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede al formulario de edición de perfil, <strong>cuando</strong> el usuario realiza cambios en su información personal y envía el formulario,<strong>entonces</strong> el sistema debe hacer una llamada a la API backend con los datos actualizados, recibir una respuesta que confirme que los cambios se han guardado correctamente en la base de datos, y mostrar un mensaje de confirmación al usuario. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario envía el formulario de edición de perfil con datos incorrectos o incompletos, <strong>cuando</strong> la API backend procesa la solicitud, <strong>entonces</strong> el sistema debe recibir un mensaje de error detallado desde la API
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -908,12 +911,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Creación de roadmap académico básico
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario interesado en planificar su trayectoria profesional, <strong>quiero</strong> crear un roadmap académico básico en la plataforma,<strong>para</strong> visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> que un usuario está autenticado y accede a la sección de creación de roadmap académico, <strong>cuando</strong> el usuario ingresa la información básica necesaria para crear un roadmap <strong>entonces</strong> el sistema debe permitir al usuario guardar esta información en un formato estructurado, generar una visualización básica del roadmap y mostrar un mensaje de confirmación de que el roadmap se ha creado exitosamente. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha creado un roadmap académico básico, <strong>cuando</strong> el usuario visualiza el roadmap en la plataforma, <strong>entonces</strong> el sistema debe permitir al usuario ver el roadmap en un formato claro y estructurado
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -922,12 +925,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Generación de roadmap con IA
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional, <strong>quiero</strong> que la plataforma genere un roadmap profesional utilizando inteligencia artificial, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y ha ingresado sus metas profesionales y educativas en la plataforma, <strong>cuando</strong>  el usuario solicita la generación de un roadmap utilizando IA, <strong>entonces</strong> el sistema debe procesar la información proporcionada, aplicar algoritmos de inteligencia artificial para generar un roadmap profesional personalizado y mostrar la recomendación al usuario. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha recibido un roadmap generado por IA, <strong>cuando</strong> el usuario revisa el roadmap y decide realizar ajustes <strong>entonces</strong> el sistema debe permitir al usuario editar el roadmap generado, actualizar las recomendaciones según los cambios realizados y guardar una versión final del roadmap.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -936,12 +939,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Acceso a plantillas avanzadas y sugerencias de IA
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario que desea mejorar su planificación profesional, <strong>quiero</strong> tener acceso a plantillas avanzadas y recibir sugerencias de inteligencia artificial, <strong>para</strong> facilitar la creación de un roadmap profesional detallado y personalizado que se ajuste a mis necesidades y objetivos específicos.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> que un usuario está autenticado en la plataforma y accede a la sección de creación de roadmap, <strong>cuando</strong> el usuario solicita plantillas avanzadas, <strong>entonces</strong> el sistema debe mostrar una lista de plantillas predefinidas y avanzadas que el usuario puede elegir <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha seleccionado una plantilla avanzada y está creando un roadmap profesional, <strong>cuando</strong> el usuario ingresa información sobre sus metas y preferencias, <strong>entonces</strong> el sistema debe utilizar inteligencia artificial para analizar la información proporcionada, ofrecer sugerencias personalizadas para completar el roadmap.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -950,12 +953,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Edición de roadmaps básicos
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario que ha creado un roadmap básico, <strong>quiero</strong> poder editar el roadmap, <strong>para</strong> actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y ha creado un roadmap básico, <strong>cuando</strong> el usuario accede a la opción de edición del roadmap, <strong>entonces</strong> el sistema debe permitir al usuario modificar los detalles del roadmap, reflejar los cambios en una vista previa actualizada y guardar los ajustes realizados. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha realizado cambios en su roadmap básico, <strong>cuando</strong> el sistema valida y guarda la información actualizada, <strong>entonces</strong> el sistema debe realizar las validaciones necesarias, mostrando un mensaje de confirmación que indique que la edición fue exitosa.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -964,12 +967,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Acceso a herramienta de edición avanzada para usuarios Premium
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> tener acceso a una herramienta de edición avanzada, <strong>para</strong> aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium, <strong>cuando</strong> el usuario accede a la sección de edición de roadmap, <strong>entonces</strong> el sistema debe mostrar la opción de utilizar la herramienta de edición avanzada, proporcionando funcionalidades adicionales que no están disponibles para usuarios no Premium.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario Premium accede a la herramienta de edición avanzada, <strong>cuando</strong> el sistema detecta que el usuario no tiene una suscripción válida o ha intentado acceder a funciones premium sin los permisos adecuados, <strong>entonces</strong> el sistema debe mostrar un mensaje de error o una notificación indicando que la suscripción Premium es necesaria para utilizar la herramienta de edición avanzada 
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -978,12 +981,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Elimicación de roadmaps que no se requieren
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado y libre de información obsoleta o innecesaria. </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su lista de roadmaps, <strong>cuando</strong> el usuario selecciona un roadmap que desea eliminar y confirma la acción, <strong>entonces</strong> el sistema debe eliminar el roadmap seleccionado de la base de datos, actualizar la lista de roadmaps del usuario y mostrar un mensaje de confirmación indicando que la eliminación se ha realizado exitosamente. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario ha eliminado un roadmap, <strong>cuando</strong> el usuario intenta acceder al roadmap eliminado, <strong>entonces</strong> el sistema debe mostrar un mensaje indicando que el roadmap ya no está disponible y redirigir al usuario a la página de lista de roadmaps o a otra sección relevante.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -992,12 +995,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, <strong>para</strong> </td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a la sección de gestión de roadmaps, <strong>cuando</strong> el usuario consulta la información sobre la cantidad de roadmaps que puede gestionar, <strong>entonces</strong> el sistema debe mostrar claramente la limitación de roadmaps permitidos en la interfaz del usuario, incluyendo el número total permitido y cuántos roadmaps están actualmente en uso. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está intentando crear un nuevo roadmap y ha alcanzado el límite de roadmaps permitidos por su plan o suscripción, <strong>cuando</strong> el usuario intenta agregar un nuevo roadmap, <strong>entonces</strong> el sistema debe mostrar un mensaje informativo indicando que el límite de roadmaps ha sido alcanzado.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1006,12 +1009,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación (Usuario Premium)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> crear roadmaps personalizados ilimitados y compartirlos con otros usuarios de la aplicación, <strong>para</strong> tener la flexibilidad de diseñar múltiples roadmaps según mis necesidades y colaborar con otros usuarios al compartir mis planes.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a la sección de creación de roadmaps, <strong>cuando</strong> el usuario crea un nuevo roadmap personalizado, <strong>entonces</strong> el sistema debe permitir al usuario crear tantos roadmaps personalizados como desee sin restricciones de cantidad. <br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap personalizado, <strong>cuando</strong> el usuario decide compartir el roadmap con otros usuarios de la aplicación, <strong>entonces</strong> el sistema debe proporcionar opciones para compartir el roadmap, asegurar que los destinatarios reciban una notificación sobre el acceso compartido
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1020,12 +1023,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> recibir análisis avanzados sobre mi propio roadmap, <strong>para</strong> obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente.</td>
             <td colspan="5">
             <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a su roadmap, <strong>cuando</strong> el usuario solicita un análisis avanzado del roadmap, <strong>entonces</strong> el sistema debe procesar la información del roadmap utilizando algoritmos de análisis avanzados, generar un reporte detallado que incluya insights sobre progreso, áreas de mejora, y recomendaciones personalizadas, y presentar el análisis en un formato accesible y comprensible para el usuario.<br><br>
             <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+	    <br><br><strong>Dado que</strong> un usuario Premium ha recibido un análisis avanzado de su roadmap, <strong>cuando</strong>  el usuario revisa el reporte, <strong>entonces</strong> el sistema debe permitir al usuario interactuar con los datos del análisis, ofrecer sugerencias adicionales para optimizar el roadmap basadas en el análisis.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1034,12 +1037,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder exportar mi roadmaps en formato como PDF o PNG (Usuario Premium)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> poder exportar mis roadmaps en formatos como PDF o PNG, <strong>para</strong> tener la opción de guardar, compartir o imprimir mis roadmaps en un formato que sea fácilmente accesible y presentable. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Opción de exportación</strong>
+	    <br><br><strong>Dado que</strong> que un usuario está autenticado como usuario Premium y accede a su roadmap, <strong>cuando</strong> el usuario selecciona la opción de exportar el roadmap, <strong>entonces</strong> el sistema debe ofrecer opciones para exportar el roadmap en los formatos disponibles (PDF o PNG), permitir al usuario seleccionar el formato deseado, y generar el archivo en el formato elegido.<br><br>
+            <strong>E02: Integridad del archivo exportado</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium ha exportado un roadmap en formato PDF o PNG, <strong>cuando</strong>  el usuario descarga y abre el archivo exportado, <strong>entonces</strong> el archivo debe reflejar con precisión el diseño y el contenido del roadmap tal como se visualiza en la plataforma.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1048,26 +1051,26 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder crear los "pasos" (nodo) de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder crear los "pasos" (nodo) de mi roadmap, <strong>para</strong> estructurar y definir claramente las etapas y acciones necesarias para alcanzar mis objetivos profesionales.</td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Creación de nuevos pasos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su roadmap, <strong>cuando</strong> el usuario selecciona la opción para añadir un nuevo paso (nodo) al roadmap, <strong>entonces</strong> el sistema debe permitir al usuario ingresar detalles del nuevo paso, agregar el paso al roadmap en la posición deseada, y mostrar el nuevo paso en la vista del roadmap con la información ingresada.<br><br>
+            <strong>E02: Eliminación de pasos</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea eliminar un paso (nodo) del roadmap, <strong>cuando</strong> el usuario selecciona el paso y confirma la opción de eliminar, <strong>entonces</strong> el sistema debe eliminar el paso del roadmap, actualizar la vista del roadmap para reflejar la eliminación, y mostrar un mensaje de confirmación indicando que el paso ha sido eliminado exitosamente.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
             <td colspan="1">US032</td>
             <td colspan="1">
-            Cracion de roadmaps con grafos más complejos (Usuario Premium)
+            Creacion de roadmaps con grafos más complejos (Usuario Premium)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> crear roadmaps con grafos más complejos, <strong>para</strong> tener la capacidad de diseñar roadmaps con múltiples niveles, relaciones entre pasos y una estructura más detallada </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Creación de grafos complejos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a la herramienta de creación de roadmaps,<strong>cuando</strong> el usuario selecciona la opción para crear un roadmap con un grafo complejo, <strong>entonces</strong> el sistema debe permitir al usuario añadir múltiples niveles de nodos, establecer relaciones entre los nodos, y personalizar el diseño del grafo.<br><br>
+            <strong>E02: Modificación de grafos complejos</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap con un grafo complejo, <strong>cuando</strong> el usuario desea modificar el grafo <strong>entonces</strong> el sistema debe permitir al usuario realizar los cambios necesarios, actualizar el grafo en tiempo real para reflejar las modificaciones.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1076,12 +1079,13 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap y tomar las medidas necesarias para actualizar o ajustar mi plan.
+	    </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Notificación de obsolescencia de nodo</strong>
+	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario se vuelve obsoleto <strong>cuando</strong> el sistema detecta que el nodo ha sido marcado como obsoleto, <strong>entonces</strong> el sistema debe enviar una notificación al usuario informando que el nodo es obsoleto, proporcionando detalles sobre la obsolescencia. <br><br>
+            <strong>E02: Notificación de disponibilidad de nodo</strong>
+	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario ya no está disponible <strong>cuando</strong> el sistema detecta que el nodo ya no está disponible, <strong>entonces</strong> el sistema debe enviar una notificación al usuario indicando que el nodo ya no está disponible.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1090,12 +1094,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Guardar versiones de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> guardar versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Guardar una nueva versión</strong>
+	    <br><br><strong>Dado que</strong> un usuario está trabajando en un roadmap y realiza cambios significativos, <strong>cuando</strong> el usuario selecciona la opción para guardar una nueva versión del roadmap, <strong>entonces</strong> el sistema debe guardar una copia de la versión actual del roadmap con un identificador único y una marca de tiempo, y permitir al usuario acceder a la lista de versiones guardadas desde el historial del roadmap. <br><br>
+            <strong>E02: Acceder a versiones anteriores</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea revisar o restaurar una versión anterior de su roadmap, <strong>cuando</strong> el usuario accede al historial de versiones y selecciona una versión anterior para visualizar o restaurar,  <strong>entonces</strong> el sistema debe mostrar el roadmap en el estado en que se encontraba en esa versión específica, y permitir al usuario restaurar esa versión como la versión actual si así lo desea.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1104,26 +1108,28 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Creación de una estructura de datos en grafo para representar los roadmaps
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Definición de nodos y aristas</strong>
+	    <br><br><strong>Dado que</strong> se está creando una estructura de datos en grafo para un roadmap, <strong>cuando</strong> se definen los nodos (pasos) y aristas (relaciones) del grafo, <strong>entonces</strong> el sistema debe permitir la definición de nodos con atributos como nombre, descripción, fecha límite, y prioridad, y establecer aristas que representen las relaciones entre nodos.<br><br>
+            <strong>E02: Persistencia de datos del grafo</strong>
+	    <br><br><strong>Dado que</strong> un usuario crea y actualiza un roadmap utilizando la estructura de datos en grafo,  <strong>cuando</strong> se guardan los cambios en el roadmap, <strong>entonces</strong> el sistema debe almacenar la estructura del grafo en una base de datos de manera eficiente, asegurando que los nodos, aristas y sus atributos se persistan correctamente y puedan ser recuperados y manipulados en futuras sesiones.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
             <td colspan="1">TS036</td>
             <td colspan="1">
-            Optimización de la craación, edición de nodos y conexiones en el grafo
+            Optimización de la creación, edición de nodos y conexiones en el grafo
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Optimización de la creación de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está creando nuevos nodos en el grafo, <strong>cuando</strong> el usuario agrega un nodo al grafo, <strong>entonces</strong> el sistema debe permitir la creación de nodos de manera rápida, con una interfaz intuitiva que minimice el tiempo de entrada de datos, y mostrar el nuevo nodo en el grafo sin retrasos significativos, asegurando que se integren de manera eficiente en la estructura existente.<br><br>
+            <strong>E02: Optimización de la edición de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está editando atributos de un nodo en el grafo, <strong>cuando</strong> el usuario realiza cambios en los atributos del nodo <strong>entonces</strong> el sistema debe actualizar los atributos del nodo en tiempo real, reflejando los cambios de manera inmediata en el grafo sin afectar el rendimiento.
+	    <strong>E03: Optimización de la conexión de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está creando o editando conexiones entre nodos en el grafo, <strong>cuando</strong>  el usuario agrega o ajusta una conexión entre nodos, <strong>entonces</strong> el sistema debe optimizar el proceso para minimizar la latencia y el tiempo de respuesta, asegurando que las conexiones se actualicen de manera fluida en el grafo y que el usuario pueda ver los cambios sin demoras significativas.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1132,26 +1138,26 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Implementación de una interfaz visual interactiva para la manipulación del grafo
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Interfaz para la creación y edición de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está en la interfaz visual del grafo, <strong>cuando</strong> el usuario desea crear o editar nodos, <strong>entonces</strong> la interfaz debe proporcionar herramientas interactivas que permitan al usuario añadir nuevos nodos<br><br>
+            <strong>E02: Visualización y navegación del grafo</strong>
+	    <br><br><strong>Dado que</strong> un usuario está trabajando con un grafo complejo en la interfaz visual, <strong>cuando</strong> el usuario necesita visualizar diferentes partes del grafo o navegar por el mismo,  <strong>entonces</strong> la interfaz debe proporcionar funcionalidades como zoom, desplazamiento y agrupación de nodos para facilitar la visualización de grandes grafos.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
             <td colspan="1">TS038</td>
             <td colspan="1">
-            asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.
+            Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Sugerencias automáticas de nuevos nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está trabajando en un roadmap y ha proporcionado datos relevantes <strong>cuando</strong> el sistema procesa estos datos utilizando algoritmos de IA, <strong>entonces</strong> el sistema debe generar y mostrar sugerencias automáticas para nuevos nodos que podrían ser relevantes para el roadmap. <br><br>
+            <strong>E02: Sugerencias automáticas de conexiones entre nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha creado o editado nodos en su roadmap, <strong>cuando</strong> el sistema analiza la estructura actual del grafo y los datos del usuario, <strong>entonces</strong> el sistema debe utilizar algoritmos de IA para sugerir nuevas conexiones entre nodos existentes, incluyendo recomendaciones sobre cómo estas conexiones pueden mejorar la estructura del roadmap
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1160,12 +1166,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Detección de ciclos en el grafo</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha creado o modificado el grafo de su roadmap, <strong>cuando</strong> el sistema analiza la estructura del grafo, <strong>entonces</strong> el sistema debe detectar cualquier ciclo en el grafo y notificar al usuario sobre la existencia de estos ciclos. <br><br>
+            <strong>E02: Detección de dependencias erróneas</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha establecido conexiones entre nodos en el grafo, <strong>cuando</strong> el sistema revisa las dependencias entre nodos, <strong>entonces</strong> el sistema debe identificar cualquier dependencia errónea, notificar al usuario sobre estas dependencias incorrectas, y ofrecer recomendaciones para corregirlas o ajustar la estructura del grafo.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1174,12 +1180,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y la visibilidad de mis datos. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Notificación de visualización de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el perfil de otro usuario, <strong>cuando</strong> la visualización del perfil se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo perfil ha sido visualizado, informándole que su perfil ha sido visto <br><br>
+            <strong>E02: Notificación de visualización de roadmap académico</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap académico de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, informándole que su roadmap ha sido visto
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1188,12 +1194,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder chatear directamente con otros usuarios y empresas
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder chatear directamente con otros usuarios y empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin salir de la aplicación. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Chat entre usuarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario quiere comunicarse con otro usuario dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación desde la interfaz de chat, <strong>entonces</strong> el sistema debe permitir la comunicación en tiempo real entre ambos usuarios, mostrando los mensajes enviados y recibidos de manera inmediata y asegurando que las conversaciones se mantengan organizadas y accesibles en el historial de chat. <br><br>
+            <strong>E02: Chat entre usuarios y empresas</strong>
+	    <br><br><strong>Dado que</strong> un usuario quiere comunicarse con una empresa dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación con la empresa desde la interfaz de chat, <strong>entonces</strong> el sistema debe permitir la comunicación en tiempo real entre el usuario y la empresa, mostrando los mensajes enviados y recibidos de manera inmediata
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1202,12 +1208,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas en la plataforma, y asegurar un entorno respetuoso y libre de contenido no permitido. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Reportar perfiles inapropiados</strong>
+	    <br><br><strong>Dado que</strong> que un usuario encuentra un perfil que considera inapropiado o que viola las políticas de la plataforma, <strong>cuando</strong> el usuario utiliza la opción de reporte desde la interfaz del perfil, <strong>entonces</strong> el sistema debe permitir al usuario enviar un reporte detallado sobre el perfil en cuestión, incluyendo la razón del reporte y cualquier evidencia relevante, y confirmar la recepción del reporte al usuario. <br><br>
+            <strong>E02: Revisión de reportes</strong>
+	    <br><br><strong>Dado que</strong> un perfil ha sido reportado por un usuario, <strong>cuando</strong> el reporte es recibido por el equipo de moderación, <strong>entonces</strong> el sistema debe permitir al equipo de moderación revisar el reporte y el perfil asociado, tomar las acciones necesarias basadas en las políticas de la plataforma, y notificar al usuario que realizó el reporte sobre el estado y resultado de su solicitud
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1216,12 +1222,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder ver quien ha aceptado mi solicitud de conexión y quien la ha ignorado o rechazado
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Visualización de solicitudes aceptadas</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha enviado solicitudes de conexión a otros usuarios, <strong>cuando</strong> uno de los destinatarios acepta la solicitud de conexión, <strong>entonces</strong> el sistema debe notificar al usuario que su solicitud ha sido aceptada, y mostrar el estado actualizado en la lista de solicitudes de conexión. <br><br>
+            <strong>E02: Visualización de solicitudes ignoradas o rechazadas</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha enviado solicitudes de conexión a otros usuarios, <strong>cuando</strong>  uno de los destinatarios ignora o rechaza la solicitud de conexión, <strong>entonces</strong> el sistema debe notificar al usuario sobre el estado de la solicitud, indicando que ha sido ignorada o rechazada, y actualizar la lista de solicitudes para reflejar el nuevo estado.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1230,12 +1236,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder recibir informes avanzados sobre la actividad de mi perfil (Usuario Premium)
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Informe de actividad de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium solicita un informe sobre la actividad de su perfil, <strong>cuando</strong> el sistema genera el informe, <strong>entonces</strong> el sistema debe proporcionar un informe detallado que incluya métricas avanzadas como número de visitas, interacciones recibidas, conexiones realizadas, y otras estadísticas relevantes, presentadas en un formato accesible. <br><br>
+            <strong>E02: Informe de rendimiento de contenido</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido,  <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1244,12 +1250,12 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visulice su perfil o roadmap
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Notificación de visualización de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el perfil de otro usuario, <strong>cuando</strong> la visualización del perfil se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo perfil ha sido visualizado, indicando la fecha y la hora de la visualización. <br><br>
+            <strong>E02: Notificación de visualización de roadmap</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, incluyendo información sobre la fecha y la hora de la visualización, y ofreciendo opciones para gestionar la notificación, como ver detalles sobre quién ha visualizado el roadmap o ajustar la configuración de notificaciones. 
             </td>
             <td colspan="1">EP001</td>
 		</tr>
@@ -1258,449 +1264,481 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Asegurar la integración del sistema de mensajes directos
             </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> asegurar la integración del sistema de mensajes directos, <strong>para</strong> garantizar que las funcionalidades de mensajería entre usuarios y empresas funcionen correctamente y de manera fluida dentro de la aplicación, mejorando la comunicación y la interacción entre los usuarios. </td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
+            <strong>E01: Integración de mensajes directos entre usuarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario envía un mensaje directo a otro usuario, <strong>cuando</strong> el mensaje es enviado, <strong>entonces</strong> el sistema debe asegurar que el mensaje se entregue de manera inmediata al destinatario y que ambos usuarios puedan ver el mensaje en su historial de chat, sin errores en la recepción o en la visualización de los mensajes. <br><br>
+            <strong>E02: Integración de mensajes directos entre usuarios y empresas</strong>
+	    <br><br><strong>Dado que</strong> un usuario envía un mensaje directo a una empresa, <strong>cuando</strong> el mensaje es enviado, <strong>entonces</strong> el sistema debe asegurar que el mensaje se entregue correctamente al destinatario en la empresa y que ambos puedan visualizar el mensaje en su historial de chat, garantizando que la comunicación sea clara y que no haya fallos en la entrega de mensajes.
             </td>
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS047</td>
-            <td colspan="1">
-            Implementación de un sistema de control de conexiones
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
+    		<td colspan="1">TS047</td>
+    		<td colspan="1">
+    Implementación de un sistema de control de conexiones
+    		</td>
+    		<td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
+    		<td colspan="5">
+    <strong>E01: Control de solicitudes de conexión</strong>
+    <br><br><strong>Dado que</strong> un usuario ha enviado una solicitud de conexión a otro usuario, <strong>cuando</strong> el destinatario recibe la solicitud, <strong>entonces</strong> el sistema debe permitir al destinatario aceptar, rechazar o ignorar la solicitud, y registrar el estado de la solicitud en el sistema para el seguimiento adecuado.
+    <br><br>
+    <strong>E02: Gestión de conexiones existentes</strong>
+    <br><br><strong>Dado que</strong> un usuario tiene conexiones establecidas con otros usuarios, <strong>cuando</strong> el usuario quiere gestionar estas conexiones, <strong>entonces</strong> el sistema debe permitir al usuario ver, modificar o eliminar las conexiones existentes, asegurando que el proceso sea intuitivo y que los cambios se reflejen inmediatamente en el sistema.
+    		</td>
+    		<td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS048</td>
-            <td colspan="1">
-            Diseñar un sistema para reportar y bloquear usuarios
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS048</td>
+    <td colspan="1">
+    Diseñar un sistema para reportar y bloquear usuarios
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> diseñar un sistema para reportar y bloquear usuarios, <strong>para</strong> mantener un entorno seguro y libre de comportamiento inapropiado o no deseado, y poder gestionar mi experiencia en la plataforma de manera efectiva.</td>
+    <td colspan="5">
+    <strong>E01: Reportar usuarios</strong>
+    <br><br><strong>Dado que</strong> un usuario encuentra a otro usuario que considera que está violando las políticas de la plataforma, <strong>cuando</strong> el usuario utiliza la opción de reporte desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe permitir al usuario enviar un reporte detallado sobre el comportamiento del usuario, incluyendo la razón del reporte y cualquier evidencia relevante, y confirmar la recepción del reporte para su revisión por el equipo de moderación.
+    <br><br>
+    <strong>E02: Bloquear usuarios</strong>
+    <br><br><strong>Dado que</strong> un usuario desea evitar interacciones con otro usuario, <strong>cuando</strong> el usuario utiliza la opción de bloqueo desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe impedir que el usuario bloqueado pueda enviar mensajes o ver el perfil del usuario que ha realizado el bloqueo, y actualizar la lista de usuarios bloqueados del usuario para reflejar el nuevo estado.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS049</td>
-            <td colspan="1">
-            Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS049</td>
+    <td colspan="1">
+    Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
+    </td>
+    <td colspan="1"><strong>Como</strong> empresa, <strong>quiero</strong> diseñar una API que permita realizar búsquedas en perfiles privados de usuarios Premium, <strong>para</strong> acceder a información relevante de candidatos potenciales y mejorar el proceso de selección y reclutamiento en la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Búsqueda de perfiles privados</strong>
+    <br><br><strong>Dado que</strong> una empresa tiene acceso a la API de búsqueda, <strong>cuando</strong> la empresa realiza una búsqueda en perfiles privados de usuarios Premium, <strong>entonces</strong> la API debe permitir a la empresa consultar criterios específicos (como habilidades, experiencia y ubicación) y obtener resultados que coincidan con estos criterios, respetando las configuraciones de privacidad y permisos de los usuarios.
+    <br><br>
+    <strong>E02: Visualización de resultados de búsqueda</strong>
+    <br><br><strong>Dado que</strong> una empresa ha realizado una búsqueda a través de la API, <strong>cuando</strong> se generan los resultados de búsqueda, <strong>entonces</strong> la API debe proporcionar una lista de perfiles que coinciden con los criterios de búsqueda, incluyendo información relevante y accesible de acuerdo con las configuraciones de privacidad, y permitir a la empresa interactuar con los resultados de manera controlada.
+    </td>
+    <td colspan="1">EP002</td>
+</tr>
 		<tr>
-            <td colspan="1">US050</td>
-            <td colspan="1">
-            Poder suscribirme de manera fácil a una membresía premium
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS050</td>
+    <td colspan="1">
+    Poder suscribirme de manera fácil a una membresía premium
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder suscribirme de manera fácil a una membresía premium, <strong>para</strong> acceder a todas las funcionalidades exclusivas de la plataforma sin complicaciones, y mejorar mi experiencia de usuario.</td>
+    <td colspan="5">
+    <strong>E01: Proceso de suscripción simplificado</strong>
+    <br><br><strong>Dado que</strong> un usuario desea suscribirse a una membresía premium, <strong>cuando</strong> el usuario inicia el proceso de suscripción, <strong>entonces</strong> el sistema debe proporcionar un flujo de suscripción simplificado que permita completar la suscripción con unos pocos pasos claros, incluyendo la selección del plan, el ingreso de detalles de pago y la confirmación de la suscripción, garantizando que el proceso sea intuitivo y eficiente.
+    <br><br>
+    <strong>E02: Confirmación y acceso inmediato</strong>
+    <br><br><strong>Dado que</strong> un usuario ha completado el proceso de suscripción a una membresía premium, <strong>cuando</strong> la transacción se haya procesado correctamente, <strong>entonces</strong> el sistema debe enviar una confirmación de suscripción al usuario y activar inmediatamente todas las funcionalidades y beneficios de la membresía premium en la cuenta del usuario, asegurando que el acceso a los recursos premium sea inmediato y sin interrupciones.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US051</td>
-            <td colspan="1">
-            Gestionar mi suscripción desde mi perfil
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS051</td>
+    <td colspan="1">
+    Gestionar mi suscripción desde mi perfil
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> gestionar mi suscripción desde mi perfil, <strong>para</strong> tener la capacidad de revisar, actualizar o cancelar mi suscripción de manera sencilla y conveniente, según mis necesidades y preferencias.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de detalles de suscripción</strong>
+    <br><br><strong>Dado que</strong> un usuario premium accede a su perfil, <strong>cuando</strong> el usuario navega a la sección de suscripción, <strong>entonces</strong> el sistema debe mostrar claramente los detalles de la suscripción actual, incluyendo el plan activo, la fecha de renovación, y los métodos de pago asociados, permitiendo al usuario revisar esta información fácilmente.
+    <br><br>
+    <strong>E02: Actualización y cancelación de suscripción</strong>
+    <br><br><strong>Dado que</strong> un usuario premium desea actualizar o cancelar su suscripción, <strong>cuando</strong> el usuario selecciona la opción correspondiente en la sección de suscripción, <strong>entonces</strong> el sistema debe permitir al usuario actualizar el plan de suscripción, cambiar los detalles de pago, o cancelar la suscripción, y confirmar los cambios mediante notificaciones o mensajes de confirmación, asegurando que las modificaciones se apliquen correctamente.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US052</td>
-            <td colspan="1">
-            Recibir una notificación antes de que mi membresía se renueve automáticamente
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS052</td>
+    <td colspan="1">
+    Recibir una notificación antes de que mi membresía se renueve automáticamente
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir una notificación antes de que mi membresía se renueve automáticamente, <strong>para</strong> tener la oportunidad de revisar mi suscripción, realizar ajustes si es necesario, y evitar cargos inesperados.</td>
+    <td colspan="5">
+    <strong>E01: Notificación de renovación próxima</strong>
+    <br><br><strong>Dado que</strong> un usuario premium está a punto de alcanzar la fecha de renovación de su membresía, <strong>cuando</strong> la fecha de renovación se acerque (por ejemplo, 7 días antes), <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico y/o dentro de la aplicación, informando al usuario sobre la próxima renovación automática, incluyendo detalles sobre la suscripción y opciones para gestionar la renovación.
+    <br><br>
+    <strong>E02: Opciones para gestionar renovación</strong>
+    <br><br><strong>Dado que</strong> un usuario premium recibe una notificación sobre la renovación automática, <strong>cuando</strong> el usuario hace clic en la notificación o accede a la sección de suscripción desde la aplicación, <strong>entonces</strong> el sistema debe ofrecer opciones para que el usuario revise su plan actual, actualice la información de pago, o cancele la renovación automática, asegurando que el usuario pueda tomar decisiones informadas antes de que se efectúe el cargo.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US053</td>
-            <td colspan="1">
-            Acceso a un periodo de prueba
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS053</td>
+    <td colspan="1">
+    Acceso a un periodo de prueba
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+    <td colspan="5">
+    <strong>E01: Activación del periodo de prueba</strong>
+    <br><br><strong>Dado que</strong> un usuario nuevo desea probar las funcionalidades premium, <strong>cuando</strong> el usuario se registra para el periodo de prueba, <strong>entonces</strong> el sistema debe activar el acceso a todas las características premium durante el periodo de prueba especificado, y proporcionar una confirmación de la activación junto con detalles sobre la duración del periodo de prueba y las funcionalidades disponibles.
+    <br><br>
+    <strong>E02: Notificación antes del final del periodo de prueba</strong>
+    <br><br><strong>Dado que</strong> un usuario está en el periodo de prueba, <strong>cuando</strong> el periodo de prueba está a punto de finalizar (por ejemplo, 2 días antes de la expiración), <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico y/o dentro de la aplicación, informando al usuario sobre la proximidad del final del periodo de prueba y ofreciendo opciones para suscribirse a una membresía premium si desea continuar con el acceso a las funcionalidades premium.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US054</td>
-            <td colspan="1">
-            Recibir soporte prioritario y asistencia personalizada (Usuario Premium)
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS054</td>
+    <td colspan="1">
+    Recibir soporte prioritario y asistencia personalizada (Usuario Premium)
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir soporte prioritario y asistencia personalizada, <strong>para</strong> obtener ayuda rápida y efectiva para resolver cualquier problema o consulta relacionada con mi cuenta y el uso de la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Acceso a soporte prioritario</strong>
+    <br><br><strong>Dado que</strong> un usuario premium solicita soporte, <strong>cuando</strong> el usuario contacta al soporte a través de los canales habilitados, <strong>entonces</strong> el sistema debe asignar la solicitud de soporte a un equipo de atención prioritaria, asegurando que el usuario reciba una respuesta y solución en un tiempo más corto en comparación con los usuarios no premium.
+    <br><br>
+    <strong>E02: Asistencia personalizada</strong>
+    <br><br><strong>Dado que</strong> un usuario premium está recibiendo soporte, <strong>cuando</strong> el usuario es asistido por un representante del soporte, <strong>entonces</strong> el sistema debe proporcionar al representante información detallada sobre la cuenta del usuario y su historial de interacciones para ofrecer una asistencia personalizada y resolver problemas específicos de manera efectiva.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS055</td>
-            <td colspan="1">
-            Implementación de un sistema de control de acceso basado en roles
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS055</td>
+    <td colspan="1">
+    Implementación de un sistema de control de acceso basado en roles
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> implementar un sistema de control de acceso basado en roles, <strong>para</strong> gestionar y restringir el acceso a diferentes funcionalidades y datos de la plataforma según el rol de cada usuario, garantizando la seguridad y el manejo adecuado de los permisos.</td>
+    <td colspan="5">
+    <strong>E01: Definición de roles y permisos</strong>
+    <br><br><strong>Dado que</strong> un administrador del sistema está configurando el control de acceso, <strong>cuando</strong> se definen roles en el sistema, <strong>entonces</strong> el sistema debe permitir al administrador establecer permisos específicos para cada rol, especificando qué funcionalidades y datos están accesibles para los usuarios con cada rol, asegurando que solo los usuarios autorizados puedan acceder a ciertas áreas o realizar ciertas acciones.
+    <br><br>
+    <strong>E02: Aplicación de roles y restricciones</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la plataforma, <strong>cuando</strong> el sistema evalúa el rol del usuario, <strong>entonces</strong> el sistema debe aplicar las restricciones y permisos definidos para ese rol, asegurando que el usuario solo pueda acceder a las funcionalidades y datos permitidos por su rol, y evitando el acceso no autorizado a áreas restringidas.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS056</td>
-            <td colspan="1">
-            Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS056</td>
+    <td colspan="1">
+    Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes, <strong>para</strong> garantizar que las transacciones de pago se realicen de manera segura y que las renovaciones automáticas de las suscripciones se procesen correctamente sin interrupciones.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de pagos seguros</strong>
+    <br><br><strong>Dado que</strong> un usuario premium realiza una suscripción o una renovación, <strong>cuando</strong> se procesa el pago, <strong>entonces</strong> el sistema debe utilizar protocolos de seguridad estándar para la transacción, como cifrado de datos y autenticación de pagos, asegurando que la información de pago del usuario se maneje de forma segura y que la transacción sea protegida contra fraudes.
+    <br><br>
+    <strong>E02: Gestión de pagos recurrentes</strong>
+    <br><br><strong>Dado que</strong> una suscripción premium está configurada para renovaciones automáticas, <strong>cuando</strong> se acerca la fecha de renovación, <strong>entonces</strong> el sistema debe gestionar automáticamente el pago recurrente, procesando la transacción según el ciclo de facturación establecido y notificando al usuario sobre la renovación y cualquier cargo asociado, asegurando que la suscripción se mantenga activa sin interrupciones.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS057</td>
-            <td colspan="1">
-            Diferenciar claramente la UI/UX para usuarios gratuitos y premium
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS057</td>
+    <td colspan="1">
+    Diferenciar claramente la UI/UX para usuarios gratuitos y premium
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que la interfaz de usuario (UI) y la experiencia de usuario (UX) sean claramente diferenciadas entre usuarios gratuitos y premium, <strong>para</strong> poder identificar fácilmente las características y funcionalidades exclusivas para usuarios premium y mejorar mi experiencia en la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Diferenciación visual de características</strong>
+    <br><br><strong>Dado que</strong> un usuario gratuito accede a la plataforma, <strong>cuando</strong> el usuario navega por la interfaz, <strong>entonces</strong> el sistema debe mostrar claramente las características y funcionalidades disponibles solo para usuarios premium, utilizando indicadores visuales como iconos, etiquetas o secciones específicas, para que los usuarios gratuitos comprendan las diferencias y el valor añadido de una suscripción premium.
+    <br><br>
+    <strong>E02: Acceso a funcionalidades premium</strong>
+    <br><br><strong>Dado que</strong> un usuario premium accede a la plataforma, <strong>cuando</strong> el usuario explora la interfaz, <strong>entonces</strong> el sistema debe proporcionar una experiencia de usuario optimizada y características exclusivas que no están disponibles para los usuarios gratuitos, asegurando que el usuario premium tenga acceso completo a las funcionalidades adicionales y beneficios asociados con su suscripción, mejorando así su satisfacción y valor percibido.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS058</td>
-            <td colspan="1">
-            Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS058</td>
+    <td colspan="1">
+    Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de cambiar de membresía sin interrupción en el servicio, <strong>para</strong> poder actualizar mi suscripción de manera fluida y sin perder acceso a las funcionalidades durante el proceso de cambio.</td>
+    <td colspan="5">
+    <strong>E01: Proceso de cambio de membresía sin interrupciones</strong>
+    <br><br><strong>Dado que</strong> un usuario desea cambiar de membresía, <strong>cuando</strong> el usuario selecciona una nueva opción de membresía y completa el proceso de actualización, <strong>entonces</strong> el sistema debe asegurarse de que el cambio de membresía se realice de manera continua, sin interrumpir el acceso a las funcionalidades de la plataforma durante el proceso, garantizando que el usuario tenga acceso inmediato a las nuevas características y beneficios.
+    <br><br>
+    <strong>E02: Confirmación y actualización del cambio de membresía</strong>
+    <br><br><strong>Dado que</strong> el proceso de cambio de membresía ha sido completado, <strong>cuando</strong> el sistema procesa la actualización, <strong>entonces</strong> el sistema debe enviar una notificación al usuario confirmando que el cambio de membresía se ha realizado con éxito y proporcionar detalles sobre los beneficios de la nueva membresía, asegurando que el usuario esté informado y satisfecho con la actualización.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS059</td>
-            <td colspan="1">
-            Asegurar que los datos de pago y la información sensible estén encriptados
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS059</td>
+    <td colspan="1">
+    Asegurar que los datos de pago y la información sensible estén encriptados
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que los datos de pago y la información sensible estén encriptados, <strong>para</strong> proteger la privacidad y seguridad de la información de los usuarios y evitar accesos no autorizados o filtraciones de datos.</td>
+    <td colspan="5">
+    <strong>E01: Encriptación de datos de pago</strong>
+    <br><br><strong>Dado que</strong> un usuario realiza una transacción de pago, <strong>cuando</strong> los datos de pago son transmitidos al sistema, <strong>entonces</strong> el sistema debe utilizar protocolos de encriptación estándar, como TLS (Transport Layer Security), para asegurar que los datos de pago sean encriptados durante la transmisión y el almacenamiento, protegiendo la información contra accesos no autorizados y vulnerabilidades de seguridad.
+    <br><br>
+    <strong>E02: Encriptación de información sensible del usuario</strong>
+    <br><br><strong>Dado que</strong> un usuario almacena información sensible en su perfil, <strong>cuando</strong> los datos son guardados en la base de datos, <strong>entonces</strong> el sistema debe aplicar técnicas de encriptación en reposo, como AES (Advanced Encryption Standard), para proteger la información sensible almacenada, garantizando que los datos estén seguros y accesibles solo para usuarios autorizados o para procesos legítimos dentro del sistema.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US060</td>
-            <td colspan="1">
-            Recibir una notifiación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US060</td>
+    <td colspan="1">
+    Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+    <td colspan="5">
+    <strong>E01: Notificación por correo electrónico</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole del inicio de sesión y proporcionando detalles sobre el dispositivo y la ubicación, para que el usuario pueda revisar y verificar la actividad.
+    <br><br>
+    <strong>E02: Notificación por SMS</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole del acceso no reconocido y proporcionando detalles básicos para que el usuario pueda actuar rápidamente en caso de actividad sospechosa.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US061</td>
-            <td colspan="1">
-            Poder revisar el historial de inicios de sesión recientes
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US061</td>
+    <td colspan="1">
+    Poder revisar el historial de inicios de sesión recientes
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
+    <td colspan="5">
+    <strong>E01: Visualización del historial de inicios de sesión</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la sección de historial de seguridad en su perfil, <strong>cuando</strong> el usuario solicita ver los inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada de las fechas, horas, dispositivos y ubicaciones de los inicios de sesión recientes, permitiendo al usuario revisar la actividad de su cuenta.
+    <br><br>
+    <strong>E02: Filtrado y búsqueda en el historial</strong>
+    <br><br><strong>Dado que</strong> un usuario desea encontrar información específica en su historial de inicios de sesión, <strong>cuando</strong> el usuario utiliza opciones de filtrado o búsqueda, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por fecha, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS062</td>
-            <td colspan="1">
-            Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS062</td>
+    <td colspan="1">
+    Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que el sistema implemente una detección de inicios de sesión sospechosos basada en la ubicación o el dispositivo, <strong>para</strong> ser alertado de accesos potencialmente fraudulentos o no autorizados y poder tomar acciones preventivas.</td>
+    <td colspan="5">
+    <strong>E01: Detección de inicios de sesión desde ubicaciones inusuales</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión es detectado desde una ubicación que no se encuentra en el historial habitual del usuario, <strong>cuando</strong> el sistema identifica una discrepancia significativa en la ubicación, <strong>entonces</strong> el sistema debe marcar el inicio de sesión como sospechoso y notificar al usuario a través de correo electrónico o SMS para que revise y confirme si el acceso es legítimo.
+    <br><br>
+    <strong>E02: Detección de inicios de sesión desde dispositivos no reconocidos</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión es realizado desde un dispositivo que no ha sido previamente registrado por el usuario, <strong>cuando</strong> el sistema detecta el uso de un nuevo dispositivo, <strong>entonces</strong> el sistema debe alertar al usuario mediante una notificación y solicitar una verificación adicional, como una autenticación por correo electrónico o SMS, para asegurar la legitimidad del acceso.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS063</td>
-            <td colspan="1">
-            Implementación de un sistema de control de sesiones activas
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS063</td>
+    <td colspan="1">
+    Implementación de un sistema de control de sesiones activas
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de controlar y gestionar mis sesiones activas, <strong>para</strong> poder cerrar sesiones en dispositivos que ya no uso o que considero inseguros y asegurarme de que solo los dispositivos autorizados tengan acceso a mi cuenta.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de sesiones activas</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la sección de gestión de sesiones en su perfil, <strong>cuando</strong> el usuario solicita ver las sesiones activas, <strong>entonces</strong> el sistema debe mostrar una lista de todas las sesiones activas, incluyendo detalles como dispositivo, ubicación y hora del último acceso, permitiendo al usuario revisar y monitorear la actividad en su cuenta.
+    <br><br>
+    <strong>E02: Cierre de sesiones activas</strong>
+    <br><br><strong>Dado que</strong> un usuario desea cerrar una sesión activa desde un dispositivo no reconocido o no autorizado, <strong>cuando</strong> el usuario selecciona la opción de cerrar sesión en esa sesión específica, <strong>entonces</strong> el sistema debe cerrar la sesión seleccionada de manera inmediata y notificar al usuario que la sesión ha sido cerrada exitosamente, garantizando que el dispositivo ya no tenga acceso a la cuenta.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US064</td>
-            <td colspan="1">
-            Leer y aceptar Términos y condiciones
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US064</td>
+    <td colspan="1">
+    Leer y aceptar Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario está en la página de registro, <strong>cuando</strong> el usuario hace clic en el enlace para leer los Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar un documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario revisar el contenido antes de aceptar.
+    <br><br>
+    <strong>E02: Aceptación de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario ha leído los Términos y condiciones, <strong>cuando</strong> el usuario marca la casilla de aceptación y completa el registro, <strong>entonces</strong> el sistema debe registrar la aceptación de los Términos y condiciones en la cuenta del usuario y permitir el acceso completo a la plataforma, garantizando que la aceptación es obligatoria antes de usar la aplicación.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US065</td>
-            <td colspan="1">
-            Revisar Términos y condiciones actualizados
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US065</td>
+    <td colspan="1">
+    Revisar Términos y condiciones actualizados
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+    <td colspan="5">
+    <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
+    <br><br>
+    <strong>E02: Confirmación de aceptación de actualizaciones</strong>
+    <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US066</td>
-            <td colspan="1">
-            Accesibilidad a Términos y condiciones
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US066</td>
+    <td colspan="1">
+    Accesibilidad a Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+    <td colspan="5">
+    <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
+    <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
+    <br><br>
+    <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
+    <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS067</td>
-            <td colspan="1">
-            Implementación de módulos de Términos y condiciones
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS067</td>
+    <td colspan="1">
+    Implementación de módulos de Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> implementar módulos de Términos y condiciones, <strong>para</strong> poder gestionar y actualizar fácilmente el contenido legal de la plataforma y asegurarme de que las políticas sean accesibles y estén actualizadas para todos los usuarios.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de módulo de Términos y condiciones para actualizaciones</strong>
+    <br><br><strong>Dado que</strong> el administrador necesita actualizar los Términos y condiciones, <strong>cuando</strong> el administrador realiza cambios en el módulo de Términos y condiciones, <strong>entonces</strong> el sistema debe permitir al administrador publicar las actualizaciones de manera efectiva, reflejando los cambios en la plataforma y notificando a los usuarios sobre la nueva versión disponible.
+    <br><br>
+    <strong>E02: Implementación de módulo de Términos y condiciones para el acceso del usuario</strong>
+    <br><br><strong>Dado que</strong> un usuario desea consultar los Términos y condiciones, <strong>cuando</strong> el usuario accede al módulo de Términos y condiciones desde cualquier sección de la plataforma, <strong>entonces</strong> el sistema debe proporcionar una interfaz intuitiva que permita al usuario leer y entender fácilmente el contenido, asegurando que esté disponible en todo momento y desde cualquier lugar dentro de la aplicación.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS068</td>
-            <td colspan="1">
-            Integración de un sistema de versiones para los Términos y condiciones
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS068</td>
+    <td colspan="1">
+    Integración de un sistema de versiones para los Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> integrar un sistema de versiones para los Términos y condiciones, <strong>para</strong> poder gestionar y rastrear cambios históricos en el contenido legal y asegurarme de que los usuarios siempre tengan acceso a las versiones correctas y actualizadas.</td>
+    <td colspan="5">
+    <strong>E01: Gestión de versiones de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> el administrador ha actualizado los Términos y condiciones, <strong>cuando</strong> el administrador guarda una nueva versión del documento, <strong>entonces</strong> el sistema debe registrar la versión actual, manteniendo un historial de versiones anteriores que puedan ser consultadas o restauradas si es necesario.
+    <br><br>
+    <strong>E02: Acceso a versiones anteriores de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario desea revisar los Términos y condiciones anteriores, <strong>cuando</strong> el usuario solicita ver una versión anterior desde el historial de versiones, <strong>entonces</strong> el sistema debe permitir al usuario acceder y leer esa versión específica, garantizando que el acceso a la información histórica sea claro y accesible.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS069</td>
-            <td colspan="1">
-            Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS069</td>
+    <td colspan="1">
+    Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que los Términos y condiciones sean redactados en un lenguaje claro y comprensible, <strong>para</strong> asegurarme de que puedo entender fácilmente las políticas y reglas de uso sin confusión.</td>
+    <td colspan="5">
+    <strong>E01: Redacción clara y accesible de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> los Términos y condiciones están disponibles en la plataforma, <strong>cuando</strong> un usuario accede al documento, <strong>entonces</strong> el sistema debe presentar el contenido en un formato que utilice un lenguaje simple y directo, evitando jerga legal compleja y asegurando que sea comprensible para un público general.
+    <br><br>
+    <strong>E02: Opciones de asistencia para entender Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario tiene dificultades para entender los Términos y condiciones, <strong>cuando</strong> el usuario busca ayuda, <strong>entonces</strong> el sistema debe proporcionar opciones de asistencia, como resúmenes de los puntos clave, glosarios de términos legales y enlaces a recursos adicionales, para facilitar la comprensión del contenido.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US070</td>
-            <td colspan="1">
-            Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US070</td>
+    <td colspan="1">
+    Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
+    </td>
+    <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+    <td colspan="5">
+    <strong>E01: Diseño visualmente atractivo y funcional</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
+    <br><br>
+    <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
+    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US071</td>
-            <td colspan="1">
-            Visualizar contenido de Landing Page
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US071</td>
+    <td colspan="1">
+    Visualizar contenido de Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+    <td colspan="5">
+    <strong>E01: Visualización completa del contenido de la landing page</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
+    <br><br>
+    <strong>E02: Acceso a información adicional y detalles</strong>
+    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US072</td>
-            <td colspan="1">
-            Formulario de contacto
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US072</td>
+    <td colspan="1">
+    Formulario de contacto
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+    <td colspan="5">
+    <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
+    <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
+    <br><br>
+    <strong>E02: Confirmación de envío y respuesta</strong>
+    <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US073</td>
-            <td colspan="1">
-            Implementación de footer
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US073</td>
+    <td colspan="1">
+    Implementación de footer
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+    <td colspan="5">
+    <strong>E01: Inclusión de enlaces importantes en el footer</strong>
+    <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
+    <br><br>
+    <strong>E02: Diseño consistente y funcional del footer</strong>
+    <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US074</td>
-            <td colspan="1">
-            Responsive Landing Page
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">US074</td>
+    <td colspan="1">
+    Responsive Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+    <td colspan="5">
+    <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
+    <br><br>
+    <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">US075</td>
-            <td colspan="1">
-            Facil navegación en el diseño de la Landing Page
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS075</td>
+    <td colspan="1">
+    Fácil navegación en el diseño de la Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
+    <td colspan="5">
+    <strong>E01: Navegación intuitiva y accesible</strong>
+    <br><br><strong>Dado que</strong> un visitante está navegando por la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> la navegación debe ser intuitiva, con menús claramente etiquetados, enlaces visibles a secciones clave y un diseño que guíe al usuario hacia las áreas importantes sin esfuerzo.
+    <br><br>
+    <strong>E02: Funcionalidad de búsqueda y filtros</strong>
+    <br><br><strong>Dado que</strong> un visitante desea encontrar información específica en la landing page, <strong>cuando</strong> el visitante utiliza la función de búsqueda o los filtros, <strong>entonces</strong> el sistema debe proporcionar resultados relevantes de manera rápida y precisa, con una interfaz de búsqueda y filtros que sea fácil de usar y que mejore la experiencia de navegación en la página.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS076</td>
-            <td colspan="1">
-            Deploy a Github Pages
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS076</td>
+    <td colspan="1">
+    Deploy a GitHub Pages
+    </td>
+    <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
+    <td colspan="5">
+    <strong>E01: Configuración del repositorio para GitHub Pages</strong>
+    <br><br><strong>Dado que</strong> tengo un repositorio de GitHub con los archivos de la landing page, <strong>cuando</strong> configuro GitHub Pages desde la sección de configuración del repositorio, <strong>entonces</strong> el sitio debe desplegarse correctamente utilizando la rama seleccionada (por ejemplo, `main` o `gh-pages`), y debe ser accesible a través de la URL proporcionada por GitHub Pages.
+    <br><br>
+    <strong>E02: Verificación de la funcionalidad del sitio desplegado</strong>
+    <br><br><strong>Dado que</strong> la landing page ha sido desplegada en GitHub Pages, <strong>cuando</strong> accedo a la URL del sitio, <strong>entonces</strong> la página debe cargar completamente, mostrando todo el contenido y funcionalidades sin errores, y debe ser accesible desde diferentes navegadores y dispositivos para asegurar que la experiencia de usuario sea consistente.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
 		<tr>
-            <td colspan="1">TS077</td>
-            <td colspan="1">
-            Integración de un sistema de seguimiento de métrica
-            </td>
-            <td colspan="1"><strong>Como</strong>  <strong>quiero</strong> <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> <strong>cuando</strong> <strong>entonces</strong> 
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong>  <strong>cuando</strong>  <strong>entonces</strong> 
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
+    <td colspan="1">TS077</td>
+    <td colspan="1">
+    Integración de un sistema de seguimiento de métricas
+    </td>
+    <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de herramientas de análisis</strong>
+    <br><br><strong>Dado que</strong> la landing page está en funcionamiento, <strong>cuando</strong> integro herramientas de análisis como Google Analytics o similares, <strong>entonces</strong> el sistema debe capturar y reportar métricas clave como el número de visitantes, la tasa de rebote, el tiempo de permanencia en la página y la tasa de conversión, permitiendo el acceso a estos datos a través del panel de control de la herramienta de análisis.
+    <br><br>
+    <strong>E02: Visualización de datos y generación de informes</strong>
+    <br><br><strong>Dado que</strong> los datos de métricas se están recopilando, <strong>cuando</strong> accedo al panel de análisis, <strong>entonces</strong> debo poder visualizar gráficos y reportes detallados sobre el rendimiento del sitio, incluyendo estadísticas diarias, semanales y mensuales, para evaluar el impacto de las estrategias implementadas y realizar ajustes basados en datos.
+    </td>
+    <td colspan="1">EP001</td>
+</tr>
+
 </table>
 
 ### 2.4.3. Impact Mapping.
