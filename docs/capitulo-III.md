@@ -262,11 +262,11 @@ En el caso de la Landing Page de Roademics, se ha optado por un diseño intuitiv
 
 Además, el diseño incorpora opciones de suscripción para usuarios interesados en recibir mejoras en las funcionalidades básicas de Roademics. Asimismo, para generar confianza y credibilidad, se han integrado testimonios de clientes satisfechos, y se ha añadido un formulario de contacto que facilita la comunicación directa con el equipo de Roademics. Este enfoque garantiza una navegación clara y una interacción efectiva con los usuarios, mejorando tanto la funcionalidad como la usabilidad de la página.
 
-**(Imagenes aqui)**
+**<img src="/assets/img/capitulo-3/UI-UX design/landing page/wireframe/Wireframe.png">**
 
 En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page, cada característica principal está representada de forma visual y detallada. El objetivo es proporcionar a los lectores una visión integral y profunda, permitiéndoles realizar un análisis exhaustivo de cada elemento. Para facilitar este proceso, se ha incluido un enlace al desarrollo de los wireframes en la plataforma de diseño Figma. Este enlace brinda a los lectores la oportunidad de explorar interactivamente cada aspecto del diseño y acceder a información adicional en caso de ser necesario, enriqueciendo la comprensión de las decisiones de diseño tomadas:
 
-**(Enlace)**
+**[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
 #### 3.1.3.2. Landing Page Mock-up.
 
@@ -274,11 +274,11 @@ Según Tidwell et al. (2020), los mock-ups, al igual que los wireframes, desempe
 
 En el caso específico de la landing page de Roademics, se ha optado por la utilización de mock-ups para crear un entorno visualmente atractivo y coherente. Estos mock-ups incluyen diversas secciones diseñadas para captar la atención del usuario y proporcionar una experiencia estética y funcionalmente refinada. Entre las características destacadas se encuentra la página de inicio, que actúa como la puerta principal de acceso, ofreciendo una visión general de las funcionalidades y servicios de Roademics con un enfoque más elaborado en los elementos visuales.
 
-**(Imagenes aqui)**
+
 
 En este conjunto de mockups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
 
-**(Enlace)**
+**[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
 ### 3.1.4. Mobile Applications UX/UI Design.
 
