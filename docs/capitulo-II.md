@@ -321,6 +321,26 @@ Nota:
 
 Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
+**Entrevista N°3:**
+
+###### Figura 4.
+*Imagen de presentación de la tercera entrevista realizada.*
+
+<img src="/assets/img/capitulo-2/interviews/interview-segment1-lopez.png" alt="Entrevista 3 Segmento 1" width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: Joaquín Salvador López Velasquez
+- Edad: 20 años
+- Distrito: Chorrillos
+- Link: [Link para entrevista a Joaquín López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBEGbI0bgD5eXhClMwaETgCw?e=YVnZGD)
+- Inicio de la entrevista: [0:52](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBMqf1MovAeMritZ7LsCJM3g?e=XEohZe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTIuMDJ9fQ%3D%3D)
+- Duración: 10 minutos y 24 segundos
+- Entrevistador: Trigueros Chumacero, Flavio Eduardo
+
+Nota:
+
+Joaquín López, un estudiante universitario de 20 años de la carrera de periodismo en la Pontificia Universidad Católica del Perú, planea empezar a realizar sus prácticas preprofesionales en siguiente año, pero aún no tiene una idea clara sobre como o donde comenzar. Menciona que se encuentra satisfecho con su formación académica y considera que la educación que se le hes provista en la universidad es suficiente para su desarrollo profesional. Al evaluar vacantes laborales, se enfoca en el salario y en los equipos de trabajo que estarán desarrollando material junto a él, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+
 ---
 
 #### Segmento 2: Empresas y Reclutadores en busca de personal capacitado
