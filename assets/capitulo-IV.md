@@ -6,8 +6,6 @@ Esta toma de decisiones es crucial para garantizar la eficiencia, coherencia y f
 
 ### 4.1.1. Software Development Environment Configuration.
 
-
-
 En esta sección, nuestro equipo de trabajo especificará, describirá e indicará los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia (para software basado en modelos SaaS) o la ruta de descarga (para productos que se ejecutan en el computador del miembro del equipo) de cada uno de los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del desarrollo de la aplicación móvil, abarcando todas las actividades como Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
 
 **Project Management**: Esta sección aborda la planificación y supervisión del proyecto durante todo su ciclo de vida, incluyendo la coordinación del equipo, la gestión de sus tareas y colaboraciones, así como la asignación de responsabilidades previamente establecidas. Para estructurar esta gestión, hemos dividido el enfoque en métodos distintos de comunicación y administración del equipo.
@@ -53,9 +51,10 @@ Página oficial de Figma: https://figma.com/
 
 **Product Architecture Design**:
 Esta sección se enfoca en el desarrollo y diseño de la arquitectura del producto a lo largo de todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer diversas aplicaciones que permitan la creación de diagramas detallados y complejos de cada capa de la arquitectura de la solución. Esto incluye la identificación de todos los componentes necesarios, así como los frameworks, IDEs y lenguajes de programación que se utilizarán. La capacidad de representar de manera clara y precisa la estructura del producto es esencial para asegurar que todos los aspectos de la arquitectura sean comprensibles y bien documentados.
-Diagramas C4: Para diseñar los diagramas C4 de nuestro proyecto, nuestro equipo ha decidido utilizar "C4 Builder". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las diferentes vistas de arquitectura según el enfoque C4. "C4 Builder" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para técnicos como para personas no técnicas. Además, "C4 Builder" permite una visualización y organización eficiente de los diagramas C4, lo que ayuda a asegurar que todos los miembros del equipo puedan entender la arquitectura del sistema sin complicaciones. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para nuestro proyecto.
 
-Página oficial de C4 Builder: https://c4model.com/
+Diagramas C4: Para diseñar los diagramas C4 de nuestro proyecto, nuestro equipo ha decidido utilizar "Visual Paradigm". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las diferentes vistas de arquitectura según el enfoque C4. "Visual Paradigm" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para técnicos como para personas no técnicas. Además, "Visual Paradigm" permite una visualización y organización eficiente de los diagramas C4, lo que ayuda a asegurar que todos los miembros del equipo puedan entender la arquitectura del sistema sin complicaciones. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para nuestro proyecto.
+
+Página oficial de Visual Paradigm: https://www.visual-paradigm.com/
 
 **Diagrama UML**: Para el diseño de los diagramas UML relacionados con nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del software. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de nuestra arquitectura. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo, especialmente entre los expertos en programación involucrados en el proyecto.
 
@@ -69,9 +68,13 @@ Página oficial de Moon Modeler: https://www.datensen.com/data-modeling/moon-mod
 ---
 
 **Software Development**:
+
 Esta sección se centra en las herramientas y aplicaciones necesarias para la programación de la landing page y la aplicación móvil de nuestro proyecto durante todo su ciclo de vida. Los instrumentos seleccionados incluyen IDEs, lenguajes de programación, bibliotecas y frameworks que deben alinearse con las metodologías y principios establecidos en el proyecto. Estos deben cumplir con las historias de usuario y los esquemas definidos para alcanzar los objetivos de nuestra startup y satisfacer las necesidades de nuestros segmentos objetivos.
+
 En el proceso de desarrollo de la aplicación móvil, se emplearán herramientas específicas para garantizar una programación eficiente y una integración adecuada con los distintos componentes del proyecto. Para la implementación técnica, se utilizará Kotlin como lenguaje de programación. Kotlin, conocido por su interoperabilidad con Java y su sintaxis concisa, proporciona una base sólida y moderna para el desarrollo de aplicaciones móviles en el entorno de Android.
+
 Landing Page: La landing page será desarrollada utilizando HTML5, CSS3 y JavaScript nativo. Cada uno de estos lenguajes se gestionará en secciones específicas dentro del repositorio del proyecto, lo que garantiza una estructura organizada y eficiente. HTML5 y CSS3 se encargarán de la estructura y el diseño de la página, mientras que JavaScript nativo permitirá añadir interactividad y funcionalidad dinámica. Esta combinación asegura que la página sea robusta, flexible y adecuada para un entorno de producción.
+
 Además, para mantener una interfaz clara y coherente, la landing page seguirá las directrices del Material Design. Este enfoque, conocido por su consistencia en el diseño de interfaces de usuario, contribuirá a una experiencia visualmente atractiva y funcional. En cuanto a las herramientas de desarrollo, se utilizará Visual Studio Code como el IDE principal. Aunque es más sencillo en comparación con otros IDEs más avanzados, su amplia gama de funcionalidades y extensiones facilita el proceso de programación, haciéndolo una opción efectiva para este proyecto.
 
 Página oficial de Visual Studio Code: https://code.visualstudio.com/
@@ -87,6 +90,7 @@ Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
 Material Design: https://m3.material.io/Design
 
 **Aplicación Móvil**: La aplicación móvil será desarrollada utilizando Flutter con VSCode como el entorno de desarrollo integrado (IDE). Flutter, el kit de herramientas de UI de Google para crear aplicaciones nativas compiladas para dispositivos móviles, web y escritorio a partir de una única base de código, ofrece una forma eficiente y flexible de construir interfaces de usuario atractivas y de alto rendimiento. VSCode es un IDE ligero pero potente que proporciona una integración fluida con Flutter, facilitando el desarrollo, la depuración y el diseño de la aplicación móvil.
+
 El diseño de la interfaz de usuario de la aplicación se basará en los principios del Material Design, garantizando una experiencia de usuario intuitiva y visualmente atractiva. Flutter proporciona un conjunto completo de widgets y herramientas para implementar estos principios, permitiendo la creación de interfaces de usuario consistentes y funcionales.
 
 Página oficial de Flutter: https://flutter.dev
@@ -97,11 +101,14 @@ Material Design: https://m3.material.io
 
 VSCode: https://code.visualstudio.com
 
-
 **Web Services**: En el proceso de desarrollo de los Web Services, es esencial adoptar modelos y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Para lograr esto, se utilizarán frameworks que proporcionen bibliotecas preimplementadas y que faciliten la integración fluida de los servicios web.
+
 El estilo de aplicación elegido será el RESTful API Architectural Style, conocido por su capacidad para ofrecer una comunicación rápida y directa entre clientes y servidores, así como por su amplia aceptación de buenas prácticas de diseño y seguridad. Este enfoque asegura un backend sólido y escalable, promoviendo prácticas de desarrollo consistentes y seguras.
+
 Para el desarrollo del backend, se optará por el uso de Java junto con el framework Spring Boot. Spring Boot es una herramienta poderosa que simplifica la creación de aplicaciones basadas en Spring, proporcionando un conjunto completo de funcionalidades para construir servicios web eficientes. Al utilizar Spring Boot con Java, se obtiene un entorno de desarrollo robusto y flexible, capaz de manejar las demandas de un backend de alto rendimiento con facilidad.
+
 El entorno de desarrollo integrado (IDE) seleccionado para este proceso será IntelliJ IDEA, una plataforma de JetBrains Toolbox que ofrece potentes características para el desarrollo en Java. IntelliJ IDEA es reconocido por su eficacia en la codificación, depuración y gestión de proyectos Java, facilitando un desarrollo ágil y productivo.
+
 Para la documentación de los servicios web, se empleará Swagger, proporcionado por OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para documentar APIs de manera estructurada y coherente, lo que facilita su comprensión y uso tanto para desarrolladores internos como externos. Además, Swagger permite registrar rápidamente los cambios en la API durante el desarrollo, manteniendo la documentación actualizada y precisa en todo momento.
 
 Página oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
@@ -117,6 +124,7 @@ Página de guía y seguimiento para el modelo REST: https://es.apis.support.brig
 ---
 
 **Software Deployment**:
+
 Esta sección aborda las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva de todas las páginas web desarrolladas a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para asegurar que las páginas se publiquen sin problemas de rendimiento o inconsistencias en su formato.
 Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporciona un rendimiento eficiente y confiable al alojar los sitios web directamente desde los repositorios en la misma plataforma. Dado que la Landing Page es estática, no requerirá actualizaciones frecuentes ni cambios continuos, lo que hace que GitHub Pages sea una opción adecuada para su implementación.
 
@@ -137,6 +145,7 @@ Guía y seguimiento para HTML5: https://www.w3schools.com/html/
 
 En esta sección se definirá la estrategia para emplear GitHub como plataforma de control de versiones y colaboración a lo largo del ciclo de vida del proyecto. Se utilizarán todas las herramientas establecidas y se mantendrá un registro detallado de las versiones para rastrear cambios, identificar nuevos desarrollos o corregir errores.
 A continuación, se ofrece una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios asociados dentro de esta organización:
+
 Repositorios en GitHub:
 
 Organización: https://github.com/GRUPO-3-MOVILES 
@@ -144,6 +153,8 @@ Organización: https://github.com/GRUPO-3-MOVILES
 Landing Page: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
 
 Report: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
+
+BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
@@ -159,15 +170,15 @@ En esta sección, se presentarán todos los usuarios que forman parte de la orga
 | AldhaValenzuelaH | <img src="/assets/img/capitulo-4/profiles/Aldhair-github.PNG" alt="Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
 | LucioY250 | <img src="/assets/img/capitulo-4/profiles/Lucio-github.PNG" alt="Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
 
-
 **GitFlow Workflow**:
+
 En nuestro proyecto, adoptaremos el modelo GitFlow para el control de versiones, el cual se estructura alrededor de ramas principales y secundarias. Las ramas principales, como main y develop, sirven como bases para el desarrollo y la implementación final del proyecto, mientras que las ramas secundarias, tales como las de características, lanzamiento y corrección, son utilizadas para gestionar cambios y desarrollos específicos. Esta metodología asegura una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del proyecto.
 En esta sección, describiremos cómo se aplicará GitFlow en nuestro proyecto. Cada nueva característica requerirá su propia rama, que deberá ser integrada a través de un pull request revisado por el equipo. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
 
 **Ramas Principales**:
+
 - `main`: Esta rama contiene la versión final y estable del proyecto, lista para su despliegue. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo para asegurar la calidad y estabilidad del código.
 - `develop`: Aquí se agrupan los elementos en desarrollo que han sido aprobados por al menos un miembro del equipo que no sea el autor de las modificaciones. Sirve como etapa de integración y prueba antes de fusionar con main.
-
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
@@ -181,8 +192,6 @@ En esta sección, describiremos cómo se aplicará GitFlow en nuestro proyecto. 
 | capitulo-III-Arquitectura | Contiene los cambios para el Capítulo 3, relacionado con la especificación de requisitos y funcionalidades. |
 | capitulo-IV-Backend-Product-Implementation | Se centra en el Capítulo 4, que detalla el modelado del diseño UI/UX para la landing page y la aplicación móvil. |
 | Capitulo-V-Product-Implementation-&-Validation | Abarca el Capítulo 5, que trata sobre la implementación del producto, su validación y despliegue en un entorno de producción. |
-
-
 
 **Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo y se integran a las ramas principales mediante pull requests aprobados por el líder del equipo. Una vez completados los cambios, estas ramas se eliminarán para evitar la acumulación innecesaria de ramas.
 
@@ -301,22 +310,38 @@ Java:
 
 ### 4.1.4. Software Deployment Configuration.
 
+En esta sección, detallaremos la configuración necesaria para implementar la solución, centrándonos específicamente en el despliegue del Landing Page. Comenzaremos creando un repositorio en GitHub destinado a almacenar los archivos HTML, CSS y JavaScript que componen nuestra página de destino. Una vez establecido el repositorio, cada miembro del equipo trabajará en su propia rama "feature" para desarrollar las diferentes características del Landing Page. Tras completar una característica específica, se llevará a cabo el proceso de merge con la rama "develop", garantizando así que la página de destino esté siempre actualizada con las últimas modificaciones y mejoras implementadas.
 
+Posteriormente, configuraremos GitHub Pages para que publique automáticamente la página de destino utilizando la rama "develop". Esto permitirá que la Landing Page sea accesible públicamente y esté disponible para su visualización y prueba por parte de los interesados y usuarios finales.
+
+A continuación, proporcionamos una descripción detallada de los pasos necesarios para llevar a cabo este proceso de despliegue en GitHub Pages, asegurando una implementación eficiente y sin contratiempos de nuestra solución.
+
+El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
+
+El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
+
+El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
+
+El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
+
+Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
+
+Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio.
 
 ## 4.2. Software Development & Implementation.
 
+A continuación, describimos en detalle el enfoque técnico que adoptaremos para la implementación, pruebas y despliegue de nuestra infraestructura backend, centrado en la creación y gestión de los servicios web, así como en la integración con la base de datos y el manejo eficiente de las API necesarias para el correcto funcionamiento de la aplicación. Este proceso abarca el desarrollo de servicios backend escalables, la validación exhaustiva mediante pruebas unitarias y de integración, y la optimización del rendimiento antes de cada ciclo de despliegue en el entorno de producción. 
+
 ### 4.2.1. Sprint 1
 
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 3 de requerimientos.
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 2 en la sección de requerimientos.
 
 #### 5.2.2.1 Sprint Planning 1.
 
 En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 1. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
 
-(Falta Cambios)
-
 ###### Tabla 23
-*Tabla del planeamiento a profundidad del Sprint 2*
+*Tabla del planeamiento a profundidad del Sprint 1*
 <table>
         <tr>
             <td colspan="1">Sprint #</td>
@@ -351,7 +376,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
             <tr>
             <td>Sprint 1 – 1 Retrospective Summary</td>
-            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño de la Landing Page.</td>
+            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño del BackEnd.</td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
@@ -362,7 +387,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
               <tr>
             <td>Sprint 1 Velocity</td>
-            <td>Con el equipo para este sprint 1 decidimos aceptar X (No dos digitos) Story Points</td>
+            <td>Con el equipo para este sprint 1 decidimos aceptar 5 Story Points</td>
         </tr>
               <tr>
             <td>Sum of Story Points</td>
@@ -370,11 +395,11 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
     </table>
 
-#### 5.2.2.2 Sprint Backlog 2.
+#### 5.2.2.2 Sprint Backlog 1.
 
-En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. Hemos separado toda la construcción del FrontEnd en un total de quince (15) historias de usuario, donde cada integrante del grupo hizo al menos dos. Gracias a este proceso, para el final del Sprint Backlog 2, hemos conseguido tener un modelo de FrontEnd estable, accesible y manipulable para toda nuestra aplicación web.
+En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
 
-###### Tabla XX
+###### Tabla 59
 *Tabla principal del planeamiento del Sprint Backlog 1*
 <table>
         <tr>
@@ -396,22 +421,84 @@ En esta sección se revisara todo el proceso dado para el Sprint Backlog número
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>USXx</td>
-            <td>Implementar algo</td>
+            <td>US21</td>
+            <td>Creación de roadmap académico básico</td>
             <td>T01</td>
-            <td>Apartado algo</td>
-            <td>Como Quiero Para.</td>
-            <td>Tiempo</td>
-            <td>Persona</td>
+            <td>Creación de roadmap básico</td>
+            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>3 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
+                <tr>
+            <td>US24</td>
+            <td>Edición de roadmap académico básico</td>
+            <td>T02</td>
+            <td>Edición de roadmap básico</td>
+            <td>Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades.</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US25</td>
+            <td>Acceso a herramienta de edición avanzada para usuarios Premium</td>
+            <td>T03</td>
+            <td>Acceso a herramientas de edición avanzada</td>
+            <td>Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.</td>
+            <td>2 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US26</td>
+            <td>Eliminación de roadmaps que no se requieren</td>
+            <td>T04</td>
+            <td>Eliminación de roadmaps que no se requieren</td>
+            <td>Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.</td>
+            <td>3 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US27</td>
+            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
+            <td>T05</td>
+            <td>Visualizar limitaciones respecto a la cantidad de roadmaps</td>
+            <td>Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio.</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US28</td>
+            <td>Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación</td>
+            <td>T06</td>
+            <td>Creación de roadmaps y compartirlos con los demás usuarios de la aplicación</td>
+            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                </tr>
+                <tr>
+            <td>US29</td>
+            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
+            <td>T07</td>
+            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
+            <td>Como usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente..</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                </tr>
     </table>
 
-Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: https://app.clickup.com/9013153284/v/l/6-901302611184-1
+Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
 
-###### Figura XX
+###### Figura 58
 *Presentación de la tabla de actividades designada para el Sprint 1 en ClickUp.*
-<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 2 En ClickUp">
+<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
 
 #### 5.2.2.3 Development Evidence for Sprint Review.
 
@@ -436,16 +523,6 @@ En esta sección presentaremos la evidencia detallada de las pruebas rigurosas r
 
 #### 5.2.2.5 Execution Evidence for Sprint Review. 
 
-El equipo ha logrado implementar ...
-
-(Evidencias)
-
-###### Figura XX
-*Muestra con evidencia de la sección de perfil de propiedades de la aplicación web*
-<img src="/assets/img/Evidencia-Propiedades-WebApp.png" alt="Evidencia Propiedades en la Aplicación Web">
-
-Además de la implementación de estas características y funcionalidades, el equipo se esforzó por proporcionar una explicación clara y detallada del progreso alcanzado durante el sprint. Se creó un vídeo de presentación y descripción que destaca cómo se lograron los objetivos del sprint 2, y se agregaron todas las descripciones necesarias con respecto a los commits y branches implementados y programados. El enlace del vídeo, publicado en Microsoft Stream, es el siguiente: 
-
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
 
 En esta sección, presentamos la relación de Endpoints documentados con OpenAPI, que están directamente vinculados con el alcance del Sprint. Iniciamos con una breve introducción que resume los logros alcanzados en relación con la Documentación de Web Services durante este período de desarrollo. A continuación, proporcionamos una tabla detallada que enumera cada Endpoint, junto con las acciones implementadas y los enlaces correspondientes a la documentación desplegada o la URL local en Sprints anteriores al despliegue de Web Services.
@@ -468,12 +545,9 @@ En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo e
 |--------|-------------|---------------------|------------|-----------|
 | GET    | Obtener todas las propiedades | GET /propiedades | Ninguno | Lista de todas las propiedades disponibles en formato JSON, con detalles como título, descripción, precio, ubicación, etc. |
 
-###### Figura 86
-*Muestra con evidencia de llamada al Endpoint.*
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
-Dentro del Sprint 1, no se realizo ningún despliegue. (Mejorar)
+Dentro del Sprint 1, no se realizo ningún despliegue.
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
