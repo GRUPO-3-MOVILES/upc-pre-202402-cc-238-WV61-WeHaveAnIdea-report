@@ -346,11 +346,21 @@ El diagrama de contexto, el nivel más alto de abstracción en el modelo C4, pro
 
 En el caso de una aplicación web inmobiliaria, el diagrama de contexto muestra de manera detallada las interacciones entre los usuarios finales, los agentes inmobiliarios y la plataforma. Además, destaca las conexiones críticas entre la aplicación y diversas API y servicios externos, esenciales para habilitar las funcionalidades clave que la plataforma debe ofrecer a los usuarios. Estas integraciones son fundamentales para garantizar una experiencia fluida y robusta, respondiendo a las necesidades dinámicas del mercado inmobiliario.
 
+###### Figura 35.
+*Presentación del diagrama de contexto de la aplicación de Roademics.*
+
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Context.png">
+
 #### 3.2.1.2. Software Architecture Container Level Diagram.
 
 El diagrama de contenedores ofrece una representación visual detallada de la arquitectura interna de un sistema de software, mostrando los principales contenedores (como aplicaciones, bases de datos o servicios) y cómo estos se comunican para cumplir con los objetivos del sistema. Es una herramienta esencial para facilitar la comprensión de la estructura y las interacciones internas, permitiendo a los miembros del equipo técnico y otras partes interesadas colaborar de manera más eficiente.
 
 En el caso del sistema integrado de Roademics, este diagrama desglosa la arquitectura, revelando las conexiones entre los distintos puntos de desarrollo, así como las interacciones con sistemas externos adyacentes. A través del BackEnd, se establecen conexiones directas con la base de datos, la cual gestiona y almacena la información crítica para el funcionamiento eficiente del sistema. Este enfoque detallado permite una visión clara de cómo cada componente colabora para brindar una experiencia fluida y coherente, asegurando que todas las partes del sistema trabajen en conjunto de manera efectiva.
+
+###### Figura 36.
+*Presentación del diagrama de contenedores de la aplicación de Roademics.*
+
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Containers.png">
 
 #### 3.2.1.3. Software Architecture Components Diagram.
 
@@ -360,11 +370,25 @@ En el contexto de Roademics, el diagrama de componentes destaca los elementos cl
 
 La utilidad del diagrama de componentes se extiende más allá del simple entendimiento de la arquitectura. Al proporcionar una visualización clara de cómo se gestionan los datos dentro de la aplicación móvil, este diagrama resulta invaluable no solo para los desarrolladores, sino también para los equipos de mantenimiento y actualización del sistema. Al descomponer cada elemento en sus componentes individuales y mapear sus interacciones, el diagrama optimiza el proceso de diseño y desarrollo, facilitando un mantenimiento efectivo y minimizando la complejidad durante el ciclo de vida del software.
 
-### 3.2.2. Software Object-Oriented Design.
+###### Figura 37.
+*Presentación del diagrama de componentes de la Landing Page de la aplicación de Roademics.*
 
-Freeman y Robson (2021) describen el diseño de software orientado a objetos (POO) como un enfoque que organiza el software en torno a objetos que representan entidades del mundo real o conceptos abstractos. Cada objeto está compuesto por atributos que definen su estado y métodos que especifican su comportamiento, lo que permite una estructura modular y clara. Este paradigma de diseño pone un fuerte énfasis en la modularidad, reutilización y extensibilidad del código, dividiendo el sistema en unidades independientes que interactúan entre sí para realizar tareas específicas.
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Landing-Page.png">
 
-Este enfoque no solo facilita la comunicación efectiva entre componentes, sino que también permite una mayor flexibilidad en la construcción y evolución del sistema de software. Este enfoque no solo proporciona una arquitectura más ordenada y mantenible, sino que también mejora la eficiencia en el desarrollo de software al facilitar la adaptación y crecimiento del sistema con el tiempo.
+###### Figura 38.
+*Presentación del diagrama de componentes de la Gestión de Perfiles de Usuario de la aplicación de Roademics.*
+
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-User-Profile-Management.png">
+
+###### Figura 39.
+*Presentación del diagrama de componentes del Desarrollo de Roadmaps de la aplicación de Roademics.*
+
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Roadmap-Development.png">
+
+###### Figura 40.
+*Presentación del diagrama de componentes del Desarrollo y Modelo del Networking de la aplicación de Roademics.*
+
+<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Networking-Model-Development.png">
 
 #### 3.2.2.1. Class Diagrams.
 
