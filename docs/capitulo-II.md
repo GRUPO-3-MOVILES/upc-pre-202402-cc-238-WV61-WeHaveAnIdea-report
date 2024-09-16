@@ -862,7 +862,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 	    <br><br><strong>Dado que</strong> un usuario modifica cualquiera de sus preferencias dentro del módulo de ajustes,
 cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema recibe las actualizaciones, <strong>entonces</strong> el sistema debe guardar los cambios instantáneamente, de manera rápida y eficiente
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
 		<tr>
             <td colspan="1">TS018</td>
@@ -876,7 +876,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario realiza cambios en el formulario de edición de perfil, <strong>cuando</strong> el usuario envía el formulario con los datos actualizados, <strong>entonces</strong> el sistema debe validar la información ingresada, guardar los cambios en la base de datos y mostrar un mensaje de confirmación de que la actualización fue exitosa.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
 		<tr>
             <td colspan="1">TS019</td>
@@ -890,7 +890,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario ha cargado una foto de perfil, <strong>cuando</strong> el sistema recibe la imagen, <strong>entonces</strong> el sistema debe realizar validaciones básicas, y si la imagen cumple con los requisitos, actualizar la foto de perfil en la base de datos y mostrar un mensaje de confirmación indicando que la actualización fue exitosa.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
 		<tr>
             <td colspan="1">TS020</td>
@@ -904,7 +904,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario envía el formulario de edición de perfil con datos incorrectos o incompletos, <strong>cuando</strong> la API backend procesa la solicitud, <strong>entonces</strong> el sistema debe recibir un mensaje de error detallado desde la API
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP003</td>
 		</tr>
 		<tr>
             <td colspan="1">US021</td>
@@ -918,7 +918,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario ha creado un roadmap académico básico, <strong>cuando</strong> el usuario visualiza el roadmap en la plataforma, <strong>entonces</strong> el sistema debe permitir al usuario ver el roadmap en un formato claro y estructurado
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US022</td>
@@ -946,7 +946,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario ha seleccionado una plantilla avanzada y está creando un roadmap profesional, <strong>cuando</strong> el usuario ingresa información sobre sus metas y preferencias, <strong>entonces</strong> el sistema debe utilizar inteligencia artificial para analizar la información proporcionada, ofrecer sugerencias personalizadas para completar el roadmap.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US024</td>
@@ -960,7 +960,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario ha realizado cambios en su roadmap básico, <strong>cuando</strong> el sistema valida y guarda la información actualizada, <strong>entonces</strong> el sistema debe realizar las validaciones necesarias, mostrando un mensaje de confirmación que indique que la edición fue exitosa.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US025</td>
@@ -974,7 +974,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium accede a la herramienta de edición avanzada, <strong>cuando</strong> el sistema detecta que el usuario no tiene una suscripción válida o ha intentado acceder a funciones premium sin los permisos adecuados, <strong>entonces</strong> el sistema debe mostrar un mensaje de error o una notificación indicando que la suscripción Premium es necesaria para utilizar la herramienta de edición avanzada 
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US026</td>
@@ -988,7 +988,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario ha eliminado un roadmap, <strong>cuando</strong> el usuario intenta acceder al roadmap eliminado, <strong>entonces</strong> el sistema debe mostrar un mensaje indicando que el roadmap ya no está disponible y redirigir al usuario a la página de lista de roadmaps o a otra sección relevante.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US027</td>
@@ -1002,7 +1002,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario está intentando crear un nuevo roadmap y ha alcanzado el límite de roadmaps permitidos por su plan o suscripción, <strong>cuando</strong> el usuario intenta agregar un nuevo roadmap, <strong>entonces</strong> el sistema debe mostrar un mensaje informativo indicando que el límite de roadmaps ha sido alcanzado.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US028</td>
@@ -1016,7 +1016,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap personalizado, <strong>cuando</strong> el usuario decide compartir el roadmap con otros usuarios de la aplicación, <strong>entonces</strong> el sistema debe proporcionar opciones para compartir el roadmap, asegurar que los destinatarios reciban una notificación sobre el acceso compartido
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US029</td>
@@ -1030,12 +1030,12 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: </strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium ha recibido un análisis avanzado de su roadmap, <strong>cuando</strong>  el usuario revisa el reporte, <strong>entonces</strong> el sistema debe permitir al usuario interactuar con los datos del análisis, ofrecer sugerencias adicionales para optimizar el roadmap basadas en el análisis.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US030</td>
             <td colspan="1">
-            Poder exportar mi roadmaps en formato como PDF o PNG (Usuario Premium)
+            Poder exportar mi roadmaps en formato como PDF o PNG 
             </td>
             <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> poder exportar mis roadmaps en formatos como PDF o PNG, <strong>para</strong> tener la opción de guardar, compartir o imprimir mis roadmaps en un formato que sea fácilmente accesible y presentable. </td>
             <td colspan="5">
@@ -1044,12 +1044,12 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Integridad del archivo exportado</strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium ha exportado un roadmap en formato PDF o PNG, <strong>cuando</strong>  el usuario descarga y abre el archivo exportado, <strong>entonces</strong> el archivo debe reflejar con precisión el diseño y el contenido del roadmap tal como se visualiza en la plataforma.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US031</td>
             <td colspan="1">
-            Poder crear los "pasos" (nodo) de mi roadmap
+            Poder crear los pasos de mi roadmap
             </td>
             <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder crear los "pasos" (nodo) de mi roadmap, <strong>para</strong> estructurar y definir claramente las etapas y acciones necesarias para alcanzar mis objetivos profesionales.</td>
             <td colspan="5">
@@ -1058,12 +1058,12 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Eliminación de pasos</strong>
 	    <br><br><strong>Dado que</strong> un usuario desea eliminar un paso (nodo) del roadmap, <strong>cuando</strong> el usuario selecciona el paso y confirma la opción de eliminar, <strong>entonces</strong> el sistema debe eliminar el paso del roadmap, actualizar la vista del roadmap para reflejar la eliminación, y mostrar un mensaje de confirmación indicando que el paso ha sido eliminado exitosamente.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US032</td>
             <td colspan="1">
-            Creacion de roadmaps con grafos más complejos (Usuario Premium)
+            Creacion de roadmaps con grafos más complejos 
             </td>
             <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> crear roadmaps con grafos más complejos, <strong>para</strong> tener la capacidad de diseñar roadmaps con múltiples niveles, relaciones entre pasos y una estructura más detallada </td>
             <td colspan="5">
@@ -1072,7 +1072,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Modificación de grafos complejos</strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap con un grafo complejo, <strong>cuando</strong> el usuario desea modificar el grafo <strong>entonces</strong> el sistema debe permitir al usuario realizar los cambios necesarios, actualizar el grafo en tiempo real para reflejar las modificaciones.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US033</td>
@@ -1087,7 +1087,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Notificación de disponibilidad de nodo</strong>
 	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario ya no está disponible <strong>cuando</strong> el sistema detecta que el nodo ya no está disponible, <strong>entonces</strong> el sistema debe enviar una notificación al usuario indicando que el nodo ya no está disponible.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US034</td>
@@ -1101,7 +1101,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Acceder a versiones anteriores</strong>
 	    <br><br><strong>Dado que</strong> un usuario desea revisar o restaurar una versión anterior de su roadmap, <strong>cuando</strong> el usuario accede al historial de versiones y selecciona una versión anterior para visualizar o restaurar,  <strong>entonces</strong> el sistema debe mostrar el roadmap en el estado en que se encontraba en esa versión específica, y permitir al usuario restaurar esa versión como la versión actual si así lo desea.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">TS035</td>
@@ -1115,7 +1115,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Persistencia de datos del grafo</strong>
 	    <br><br><strong>Dado que</strong> un usuario crea y actualiza un roadmap utilizando la estructura de datos en grafo,  <strong>cuando</strong> se guardan los cambios en el roadmap, <strong>entonces</strong> el sistema debe almacenar la estructura del grafo en una base de datos de manera eficiente, asegurando que los nodos, aristas y sus atributos se persistan correctamente y puedan ser recuperados y manipulados en futuras sesiones.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">TS036</td>
@@ -1131,7 +1131,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
 	    <strong>E03: Optimización de la conexión de nodos</strong>
 	    <br><br><strong>Dado que</strong> un usuario está creando o editando conexiones entre nodos en el grafo, <strong>cuando</strong>  el usuario agrega o ajusta una conexión entre nodos, <strong>entonces</strong> el sistema debe optimizar el proceso para minimizar la latencia y el tiempo de respuesta, asegurando que las conexiones se actualicen de manera fluida en el grafo y que el usuario pueda ver los cambios sin demoras significativas.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">TS037</td>
@@ -1145,7 +1145,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Visualización y navegación del grafo</strong>
 	    <br><br><strong>Dado que</strong> un usuario está trabajando con un grafo complejo en la interfaz visual, <strong>cuando</strong> el usuario necesita visualizar diferentes partes del grafo o navegar por el mismo,  <strong>entonces</strong> la interfaz debe proporcionar funcionalidades como zoom, desplazamiento y agrupación de nodos para facilitar la visualización de grandes grafos.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">TS038</td>
@@ -1159,7 +1159,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Sugerencias automáticas de conexiones entre nodos</strong>
 	    <br><br><strong>Dado que</strong> un usuario ha creado o editado nodos en su roadmap, <strong>cuando</strong> el sistema analiza la estructura actual del grafo y los datos del usuario, <strong>entonces</strong> el sistema debe utilizar algoritmos de IA para sugerir nuevas conexiones entre nodos existentes, incluyendo recomendaciones sobre cómo estas conexiones pueden mejorar la estructura del roadmap
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">TS039</td>
@@ -1173,7 +1173,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Detección de dependencias erróneas</strong>
 	    <br><br><strong>Dado que</strong> el usuario ha establecido conexiones entre nodos en el grafo, <strong>cuando</strong> el sistema revisa las dependencias entre nodos, <strong>entonces</strong> el sistema debe identificar cualquier dependencia errónea, notificar al usuario sobre estas dependencias incorrectas, y ofrecer recomendaciones para corregirlas o ajustar la estructura del grafo.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP004</td>
 		</tr>
 		<tr>
             <td colspan="1">US040</td>
@@ -1187,7 +1187,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Notificación de visualización de roadmap académico</strong>
 	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap académico de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, informándole que su roadmap ha sido visto
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">US041</td>
@@ -1201,7 +1201,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Chat entre usuarios y empresas</strong>
 	    <br><br><strong>Dado que</strong> un usuario quiere comunicarse con una empresa dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación con la empresa desde la interfaz de chat, <strong>entonces</strong> el sistema debe permitir la comunicación en tiempo real entre el usuario y la empresa, mostrando los mensajes enviados y recibidos de manera inmediata
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">US042</td>
@@ -1215,7 +1215,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Revisión de reportes</strong>
 	    <br><br><strong>Dado que</strong> un perfil ha sido reportado por un usuario, <strong>cuando</strong> el reporte es recibido por el equipo de moderación, <strong>entonces</strong> el sistema debe permitir al equipo de moderación revisar el reporte y el perfil asociado, tomar las acciones necesarias basadas en las políticas de la plataforma, y notificar al usuario que realizó el reporte sobre el estado y resultado de su solicitud
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">US043</td>
@@ -1229,7 +1229,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Visualización de solicitudes ignoradas o rechazadas</strong>
 	    <br><br><strong>Dado que</strong> un usuario ha enviado solicitudes de conexión a otros usuarios, <strong>cuando</strong>  uno de los destinatarios ignora o rechaza la solicitud de conexión, <strong>entonces</strong> el sistema debe notificar al usuario sobre el estado de la solicitud, indicando que ha sido ignorada o rechazada, y actualizar la lista de solicitudes para reflejar el nuevo estado.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">US044</td>
@@ -1243,7 +1243,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Informe de rendimiento de contenido</strong>
 	    <br><br><strong>Dado que</strong> un usuario Premium desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido,  <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">TS045</td>
@@ -1257,7 +1257,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Notificación de visualización de roadmap</strong>
 	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, incluyendo información sobre la fecha y la hora de la visualización, y ofreciendo opciones para gestionar la notificación, como ver detalles sobre quién ha visualizado el roadmap o ajustar la configuración de notificaciones. 
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
             <td colspan="1">TS046</td>
@@ -1271,7 +1271,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <strong>E02: Integración de mensajes directos entre usuarios y empresas</strong>
 	    <br><br><strong>Dado que</strong> un usuario envía un mensaje directo a una empresa, <strong>cuando</strong> el mensaje es enviado, <strong>entonces</strong> el sistema debe asegurar que el mensaje se entregue correctamente al destinatario en la empresa y que ambos puedan visualizar el mensaje en su historial de chat, garantizando que la comunicación sea clara y que no haya fallos en la entrega de mensajes.
             </td>
-            <td colspan="1">EP001</td>
+            <td colspan="1">EP005</td>
 		</tr>
 		<tr>
     		<td colspan="1">TS047</td>
@@ -1286,7 +1286,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Gestión de conexiones existentes</strong>
     <br><br><strong>Dado que</strong> un usuario tiene conexiones establecidas con otros usuarios, <strong>cuando</strong> el usuario quiere gestionar estas conexiones, <strong>entonces</strong> el sistema debe permitir al usuario ver, modificar o eliminar las conexiones existentes, asegurando que el proceso sea intuitivo y que los cambios se reflejen inmediatamente en el sistema.
     		</td>
-    		<td colspan="1">EP001</td>
+    		<td colspan="1">EP005</td>
 		</tr>
 		<tr>
     <td colspan="1">TS048</td>
@@ -1301,7 +1301,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Bloquear usuarios</strong>
     <br><br><strong>Dado que</strong> un usuario desea evitar interacciones con otro usuario, <strong>cuando</strong> el usuario utiliza la opción de bloqueo desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe impedir que el usuario bloqueado pueda enviar mensajes o ver el perfil del usuario que ha realizado el bloqueo, y actualizar la lista de usuarios bloqueados del usuario para reflejar el nuevo estado.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP005</td>
 </tr>
 		<tr>
     <td colspan="1">TS049</td>
@@ -1316,7 +1316,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Visualización de resultados de búsqueda</strong>
     <br><br><strong>Dado que</strong> una empresa ha realizado una búsqueda a través de la API, <strong>cuando</strong> se generan los resultados de búsqueda, <strong>entonces</strong> la API debe proporcionar una lista de perfiles que coinciden con los criterios de búsqueda, incluyendo información relevante y accesible de acuerdo con las configuraciones de privacidad, y permitir a la empresa interactuar con los resultados de manera controlada.
     </td>
-    <td colspan="1">EP002</td>
+    <td colspan="1">EP005</td>
 </tr>
 		<tr>
     <td colspan="1">TS050</td>
@@ -1331,7 +1331,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Confirmación y acceso inmediato</strong>
     <br><br><strong>Dado que</strong> un usuario ha completado el proceso de suscripción a una membresía premium, <strong>cuando</strong> la transacción se haya procesado correctamente, <strong>entonces</strong> el sistema debe enviar una confirmación de suscripción al usuario y activar inmediatamente todas las funcionalidades y beneficios de la membresía premium en la cuenta del usuario, asegurando que el acceso a los recursos premium sea inmediato y sin interrupciones.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS051</td>
@@ -1346,7 +1346,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Actualización y cancelación de suscripción</strong>
     <br><br><strong>Dado que</strong> un usuario premium desea actualizar o cancelar su suscripción, <strong>cuando</strong> el usuario selecciona la opción correspondiente en la sección de suscripción, <strong>entonces</strong> el sistema debe permitir al usuario actualizar el plan de suscripción, cambiar los detalles de pago, o cancelar la suscripción, y confirmar los cambios mediante notificaciones o mensajes de confirmación, asegurando que las modificaciones se apliquen correctamente.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS052</td>
@@ -1361,7 +1361,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Opciones para gestionar renovación</strong>
     <br><br><strong>Dado que</strong> un usuario premium recibe una notificación sobre la renovación automática, <strong>cuando</strong> el usuario hace clic en la notificación o accede a la sección de suscripción desde la aplicación, <strong>entonces</strong> el sistema debe ofrecer opciones para que el usuario revise su plan actual, actualice la información de pago, o cancele la renovación automática, asegurando que el usuario pueda tomar decisiones informadas antes de que se efectúe el cargo.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS053</td>
@@ -1376,12 +1376,12 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Notificación antes del final del periodo de prueba</strong>
     <br><br><strong>Dado que</strong> un usuario está en el periodo de prueba, <strong>cuando</strong> el periodo de prueba está a punto de finalizar (por ejemplo, 2 días antes de la expiración), <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico y/o dentro de la aplicación, informando al usuario sobre la proximidad del final del periodo de prueba y ofreciendo opciones para suscribirse a una membresía premium si desea continuar con el acceso a las funcionalidades premium.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS054</td>
     <td colspan="1">
-    Recibir soporte prioritario y asistencia personalizada (Usuario Premium)
+    Recibir soporte prioritario y asistencia personalizada 
     </td>
     <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir soporte prioritario y asistencia personalizada, <strong>para</strong> obtener ayuda rápida y efectiva para resolver cualquier problema o consulta relacionada con mi cuenta y el uso de la plataforma.</td>
     <td colspan="5">
@@ -1391,7 +1391,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Asistencia personalizada</strong>
     <br><br><strong>Dado que</strong> un usuario premium está recibiendo soporte, <strong>cuando</strong> el usuario es asistido por un representante del soporte, <strong>entonces</strong> el sistema debe proporcionar al representante información detallada sobre la cuenta del usuario y su historial de interacciones para ofrecer una asistencia personalizada y resolver problemas específicos de manera efectiva.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS055</td>
@@ -1406,7 +1406,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Aplicación de roles y restricciones</strong>
     <br><br><strong>Dado que</strong> un usuario accede a la plataforma, <strong>cuando</strong> el sistema evalúa el rol del usuario, <strong>entonces</strong> el sistema debe aplicar las restricciones y permisos definidos para ese rol, asegurando que el usuario solo pueda acceder a las funcionalidades y datos permitidos por su rol, y evitando el acceso no autorizado a áreas restringidas.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS056</td>
@@ -1421,7 +1421,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Gestión de pagos recurrentes</strong>
     <br><br><strong>Dado que</strong> una suscripción premium está configurada para renovaciones automáticas, <strong>cuando</strong> se acerca la fecha de renovación, <strong>entonces</strong> el sistema debe gestionar automáticamente el pago recurrente, procesando la transacción según el ciclo de facturación establecido y notificando al usuario sobre la renovación y cualquier cargo asociado, asegurando que la suscripción se mantenga activa sin interrupciones.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS057</td>
@@ -1436,7 +1436,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Acceso a funcionalidades premium</strong>
     <br><br><strong>Dado que</strong> un usuario premium accede a la plataforma, <strong>cuando</strong> el usuario explora la interfaz, <strong>entonces</strong> el sistema debe proporcionar una experiencia de usuario optimizada y características exclusivas que no están disponibles para los usuarios gratuitos, asegurando que el usuario premium tenga acceso completo a las funcionalidades adicionales y beneficios asociados con su suscripción, mejorando así su satisfacción y valor percibido.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS058</td>
@@ -1451,7 +1451,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Confirmación y actualización del cambio de membresía</strong>
     <br><br><strong>Dado que</strong> el proceso de cambio de membresía ha sido completado, <strong>cuando</strong> el sistema procesa la actualización, <strong>entonces</strong> el sistema debe enviar una notificación al usuario confirmando que el cambio de membresía se ha realizado con éxito y proporcionar detalles sobre los beneficios de la nueva membresía, asegurando que el usuario esté informado y satisfecho con la actualización.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP006</td>
 </tr>
 		<tr>
     <td colspan="1">TS059</td>
@@ -1466,7 +1466,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Encriptación de información sensible del usuario</strong>
     <br><br><strong>Dado que</strong> un usuario almacena información sensible en su perfil, <strong>cuando</strong> los datos son guardados en la base de datos, <strong>entonces</strong> el sistema debe aplicar técnicas de encriptación en reposo, como AES (Advanced Encryption Standard), para proteger la información sensible almacenada, garantizando que los datos estén seguros y accesibles solo para usuarios autorizados o para procesos legítimos dentro del sistema.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP007</td>
 </tr>
 		<tr>
     <td colspan="1">US060</td>
@@ -1481,7 +1481,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Notificación por SMS</strong>
     <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole del acceso no reconocido y proporcionando detalles básicos para que el usuario pueda actuar rápidamente en caso de actividad sospechosa.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP007</td>
 </tr>
 		<tr>
     <td colspan="1">US061</td>
@@ -1496,7 +1496,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Filtrado y búsqueda en el historial</strong>
     <br><br><strong>Dado que</strong> un usuario desea encontrar información específica en su historial de inicios de sesión, <strong>cuando</strong> el usuario utiliza opciones de filtrado o búsqueda, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por fecha, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP007</td>
 </tr>
 		<tr>
     <td colspan="1">TS062</td>
@@ -1511,7 +1511,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Detección de inicios de sesión desde dispositivos no reconocidos</strong>
     <br><br><strong>Dado que</strong> un inicio de sesión es realizado desde un dispositivo que no ha sido previamente registrado por el usuario, <strong>cuando</strong> el sistema detecta el uso de un nuevo dispositivo, <strong>entonces</strong> el sistema debe alertar al usuario mediante una notificación y solicitar una verificación adicional, como una autenticación por correo electrónico o SMS, para asegurar la legitimidad del acceso.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP007</td>
 </tr>
 		<tr>
     <td colspan="1">TS063</td>
@@ -1526,7 +1526,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Cierre de sesiones activas</strong>
     <br><br><strong>Dado que</strong> un usuario desea cerrar una sesión activa desde un dispositivo no reconocido o no autorizado, <strong>cuando</strong> el usuario selecciona la opción de cerrar sesión en esa sesión específica, <strong>entonces</strong> el sistema debe cerrar la sesión seleccionada de manera inmediata y notificar al usuario que la sesión ha sido cerrada exitosamente, garantizando que el dispositivo ya no tenga acceso a la cuenta.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP007</td>
 </tr>
 		<tr>
     <td colspan="1">US064</td>
@@ -1541,7 +1541,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Aceptación de Términos y condiciones</strong>
     <br><br><strong>Dado que</strong> un usuario ha leído los Términos y condiciones, <strong>cuando</strong> el usuario marca la casilla de aceptación y completa el registro, <strong>entonces</strong> el sistema debe registrar la aceptación de los Términos y condiciones en la cuenta del usuario y permitir el acceso completo a la plataforma, garantizando que la aceptación es obligatoria antes de usar la aplicación.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">US065</td>
@@ -1556,7 +1556,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Confirmación de aceptación de actualizaciones</strong>
     <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">US066</td>
@@ -1571,7 +1571,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
     <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">TS067</td>
@@ -1586,7 +1586,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Implementación de módulo de Términos y condiciones para el acceso del usuario</strong>
     <br><br><strong>Dado que</strong> un usuario desea consultar los Términos y condiciones, <strong>cuando</strong> el usuario accede al módulo de Términos y condiciones desde cualquier sección de la plataforma, <strong>entonces</strong> el sistema debe proporcionar una interfaz intuitiva que permita al usuario leer y entender fácilmente el contenido, asegurando que esté disponible en todo momento y desde cualquier lugar dentro de la aplicación.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">TS068</td>
@@ -1601,7 +1601,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Acceso a versiones anteriores de Términos y condiciones</strong>
     <br><br><strong>Dado que</strong> un usuario desea revisar los Términos y condiciones anteriores, <strong>cuando</strong> el usuario solicita ver una versión anterior desde el historial de versiones, <strong>entonces</strong> el sistema debe permitir al usuario acceder y leer esa versión específica, garantizando que el acceso a la información histórica sea claro y accesible.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">TS069</td>
@@ -1616,7 +1616,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Opciones de asistencia para entender Términos y condiciones</strong>
     <br><br><strong>Dado que</strong> un usuario tiene dificultades para entender los Términos y condiciones, <strong>cuando</strong> el usuario busca ayuda, <strong>entonces</strong> el sistema debe proporcionar opciones de asistencia, como resúmenes de los puntos clave, glosarios de términos legales y enlaces a recursos adicionales, para facilitar la comprensión del contenido.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP008</td>
 </tr>
 		<tr>
     <td colspan="1">US070</td>
@@ -1631,7 +1631,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
     <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">US071</td>
@@ -1646,7 +1646,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Acceso a información adicional y detalles</strong>
     <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">US072</td>
@@ -1661,7 +1661,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Confirmación de envío y respuesta</strong>
     <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">US073</td>
@@ -1676,7 +1676,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Diseño consistente y funcional del footer</strong>
     <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">US074</td>
@@ -1691,7 +1691,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
     <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">TS075</td>
@@ -1706,7 +1706,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Funcionalidad de búsqueda y filtros</strong>
     <br><br><strong>Dado que</strong> un visitante desea encontrar información específica en la landing page, <strong>cuando</strong> el visitante utiliza la función de búsqueda o los filtros, <strong>entonces</strong> el sistema debe proporcionar resultados relevantes de manera rápida y precisa, con una interfaz de búsqueda y filtros que sea fácil de usar y que mejore la experiencia de navegación en la página.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">TS076</td>
@@ -1721,7 +1721,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Verificación de la funcionalidad del sitio desplegado</strong>
     <br><br><strong>Dado que</strong> la landing page ha sido desplegada en GitHub Pages, <strong>cuando</strong> accedo a la URL del sitio, <strong>entonces</strong> la página debe cargar completamente, mostrando todo el contenido y funcionalidades sin errores, y debe ser accesible desde diferentes navegadores y dispositivos para asegurar que la experiencia de usuario sea consistente.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 		<tr>
     <td colspan="1">TS077</td>
@@ -1736,7 +1736,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <strong>E02: Visualización de datos y generación de informes</strong>
     <br><br><strong>Dado que</strong> los datos de métricas se están recopilando, <strong>cuando</strong> accedo al panel de análisis, <strong>entonces</strong> debo poder visualizar gráficos y reportes detallados sobre el rendimiento del sitio, incluyendo estadísticas diarias, semanales y mensuales, para evaluar el impacto de las estrategias implementadas y realizar ajustes basados en datos.
     </td>
-    <td colspan="1">EP001</td>
+    <td colspan="1">EP009</td>
 </tr>
 
 </table>
@@ -1763,6 +1763,30 @@ El Product Backlog no solo se limita a historias de usuario, sino que también i
 
 En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
 
-| #Orden    | User Story Id  | Titulo                                                  | Descripcion               | Story Points (1/2/3/5/8)   |
-|-----------|----------------|---------------------------------------------------------|---------------------------|----------------------------|
-|     1     |      US01      |            |                    |                      |
+| #Orden     | User Story Id  | Titulo                                                  | Descripcion               | Story Points (1/2/3/5/8)   |
+|------------|----------------|---------------------------------------------------------|---------------------------|----------------------------|
+|     1      |      US01      |                                                         |                           |                            |
+|     2      |      US02      |                                                         |                           |                            |
+|     3      |      US03      |                                                         |                           |                            |
+|     4      |      US04      |                                                         |                           |                            |
+|     5      |      US05      |                                                         |                           |                            |
+|     6      |      US06      |                                                         |                           |                            |
+|     7      |      US07      |                                                         |                           |                            |
+|     8      |      US08      |                                                         |                           |                            |
+|     9      |      US09      |                                                         |                           |                            |
+|     10     |      US010      |                                                         |                           |                            |
+|     11     |      US011     |                                                         |                           |                            |
+|     12     |      US012      |                                                         |                           |                            |
+|     13     |      US013      |                                                         |                           |                            |
+|     14     |      US014      |                                                         |                           |                            |
+|     15     |      US015      |                                                         |                           |                            |
+|     16     |      US016      |                                                         |                           |                            |
+|     17     |      US017      |                                                         |                           |                            |
+|     18     |      US018      |                                                         |                           |                            |
+|     19     |      US019      |                                                         |                           |                            |
+|     20     |      US020      |                                                         |                           |                            |
+|     21     |      US021      |                                                         |                           |                            |
+|     22     |      US022      |                                                         |                           |                            |
+|     23     |      US023      |                                                         |                           |                            |
+|     24     |      US024      |                                                         |                           |                            |
+|     25     |      US025      |                                                         |                           |                            |
