@@ -290,7 +290,7 @@ En esta sección, presentaremos los wireframes esquematizados de la Aplicación 
 
 Hemos adoptado un enfoque basado en la estructuración clara de las páginas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...) . Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para garantizar una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
 
-**(Imagenes aqui)**:
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/mobile_wireframes.png">**
 
 En este conjunto de wireframes de la aplicación móvil de Roademics, cada una de las funcionalidades clave se representa de manera esquemática y detallada. El objetivo es proporcionar a los usuarios una visión clara y comprensiva del diseño, facilitando un análisis profundo de cada componente de la interfaz. Para una mejor comprensión, se ha incluido un enlace directo a los wireframes en Figma, donde se puede interactuar con el diseño y obtener información adicional cuando sea necesario:
 
@@ -302,11 +302,17 @@ Esta sección presenta la propuesta de Wireflows seleccionada y determinada por 
 
 Cada diagrama de Wireflow incluye una descripción clara del objetivo del usuario (User Goal) correspondiente, acompañado de una explicación detallada del flujo. Esto proporciona una visión completa y precisa de cómo los usuarios interactúan con la aplicación y cómo se desarrollan las distintas etapas del proceso, mejorando la comprensión del diseño y su funcionalidad. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre estados, lo cual facilita la comprensión del flujo completo de interacción (Katz & Singh, 2019).
 
-**(Imagenes aqui)**:
+##### Registro y autenticación de usuario 
+
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/Wireflow_1.png">**
+
+##### Navegación de interfaz
+
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/Wireflow_2.png">**
 
 Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes con diagramas de flujo, mostrando no solo el diseño estructural de cada pantalla, sino también el recorrido y las interacciones del usuario dentro de la aplicación. Al ser una herramienta clave para planificar la experiencia de usuario, los Wireflow Diagrams permiten identificar posibles mejoras en la navegación y asegurar que los flujos sean coherentes y eficientes. Se brindara el enlace de los Wireflow diseñados para los lectores:
 
-**(Enlace)**
+**[(Enlace)](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-718%2C274%2C3118%2C1266%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
 #### 3.1.4.3. Mobile Applications Mock-ups.
 
