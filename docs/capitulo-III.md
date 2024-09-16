@@ -402,9 +402,254 @@ El diagrama de clases es una representación visual esencial en el modelado de s
 
 Este diagrama es ampliamente utilizado en múltiples fases del ciclo de vida del software, incluyendo la visualización de la arquitectura del sistema, la documentación técnica y la comunicación entre los miembros del equipo de desarrollo. Al emplear notaciones estándar de UML (Unified Modeling Language) y herramientas de modelado, el diagrama de clases proporciona una representación clara, precisa y coherente de la estructura del sistema, mejorando tanto el diseño como la implementación del software (Freeman & Robson, 2021).
 
+<img src="/assets/img/capitulo-3/Software-Object-Oriented-Design/Diagram_Class_Roademics.jpg">
+
 #### 3.2.2.2. Class Dictionary.
 
 Un diccionario de clases es una herramienta fundamental en el desarrollo de software, utilizada para documentar y organizar de manera sistemática la información sobre las clases que componen un sistema. Este diccionario actúa como un repositorio central de detalles, proporcionando una descripción exhaustiva de cada clase, sus atributos, métodos, relaciones con otras clases, y cualquier otro aspecto relevante que facilite la comprensión y mantenimiento del sistema.
+
+## Comment
+
+Descripción: Representa un comentario que puede estar asociado a un post. 
+Incluye información del usuario y contenido del comentario.
+
+Atributos:
+
+userId: Identificador del usuario que realiza el comentario.
+
+postId: Identificador del post al cual el comentario está asociado.
+
+body: Contenido textual del comentario.
+
+Métodos:
+
+deleteComment(): Permite eliminar el comentario.
+
+addCommentToPost(): Asocia el comentario a un post específico.
+
+
+## Reaction
+
+Descripción: Captura la reacción de un usuario a un post o comentario, como por ejemplo, un "me gusta".
+
+Atributos:
+
+userId: Identificador del usuario que reacciona.
+
+postId: Identificador del post al que se reacciona.
+
+reactionType: Tipo de reacción realizada, puede ser un enum que incluye tipos como 'like', 'dislike', etc.
+
+Métodos:
+
+addReactionToPost(UUID): Agrega una reacción a un post.
+
+addReactionToComment(UUID): Agrega una reacción a un comentario.
+
+setReactionTypeByString(String): Establece el tipo de reacción basado en una cadena de texto.
+
+
+## Post
+Descripción: Representa un post en la plataforma, el cual puede contener texto, reacciones y estar asociado a diferentes comentarios.
+
+Atributos:
+
+profileId: Identificador del perfil que publica el post.
+
+title: Título del post.
+
+body: Cuerpo o contenido principal del post.
+
+reactions: Lista de reacciones asociadas al post.
+
+Métodos:
+
+updatePost(): Actualiza la información del post.
+
+deletePost(): Elimina el post.
+
+addComment(): Añade un comentario al post.
+
+addReaction(): Añade una reacción al post.
+
+reactPost(UUID): Permite reaccionar a un post específico.
+
+
+## Connection
+
+Descripción: Representa una conexión o relación entre dos usuarios en la plataforma, facilitando la interacción social.
+
+Atributos:
+
+connectedUserId: Identificador del usuario con el que se establece la conexión.
+
+status: Estado de la conexión, que puede ser un enum con valores como 'pending', 'accepted', 'rejected'.
+
+Métodos:
+
+sendInvitation(UUID): Envía una invitación de conexión a otro usuario.
+
+
+## Membership
+
+Descripción: Detalla la membresía de un usuario en la plataforma, incluyendo características como fecha de expiración y lista de características.
+
+Atributos:
+
+profileId: Identificador del perfil asociado a la membresía.
+
+expirationDate: Fecha de expiración de la membresía.
+
+price: Precio de la membresía.
+
+featuresList: Lista de características o beneficios incluidos en la membresía.
+
+membershipType: Tipo de membresía, que puede ser un enum con valores como 'basic', 'premium'.
+
+Métodos:
+
+addMembershipToUser(): Añade una membresía a un usuario.
+
+renewMembership(): Renueva la membresía de un usuario.
+
+endMembership(): Finaliza la membresía de un usuario.
+
+
+## User
+
+Descripción: Representa un usuario en la plataforma, incluyendo información básica como nombre de usuario y contraseña.
+
+Atributos:
+
+id: Identificador único del usuario.
+
+username: Nombre de usuario para el acceso a la plataforma.
+
+password: Contraseña del usuario.
+
+email: Dirección de correo electrónico del usuario.
+Métodos:
+
+updateUsername(String): Actualiza el nombre de usuario.
+
+updatePassword(String): Actualiza la contraseña del usuario.
+
+
+## Profile
+
+Descripción: Perfil del usuario en la plataforma, conteniendo información personal como número de teléfono y dirección.
+
+Atributos:
+
+phoneNumber: Número de teléfono del usuario.
+
+name: Nombre personal del usuario.
+
+address: Dirección física del usuario.
+
+userType: Tipo de usuario, que puede ser un enum con valores como 'individual', 'business'.
+
+connections: Lista de conexiones del usuario.
+
+Métodos:
+
+updateName(String): Actualiza el nombre del usuario.
+
+updateEmail(String): Actualiza el correo electrónico del usuario.
+
+updateAddress(String, String, String, String): Actualiza la dirección del usuario.
+
+## Node:
+
+Descripción: Representa un nodo en un roadmap, como por ejemplo un curso o una habilidad. Es una entidad porque tiene identidad única y sus atributos pueden cambiar a lo largo del tiempo.
+
+Atributos:
+
+nodeId: ID único del nodo.
+
+title: Título del nodo (ejemplo: "Java", "Front-End").
+
+description: Descripción del nodo (modificada por AIRecommendation).
+
+isStartNode: Indica si es el nodo inicial.
+
+isEndNode: Indica si es el nodo final.
+
+
+## Edge
+
+Descripción: Representa una arista que conecta dos nodos en el roadmap. Define la relación entre los nodos, como "Prerequisite" o "Optional". Es una entidad porque tiene un identificador único y su estado puede cambiar.
+Atributos:
+
+fromNodeId: ID del nodo de origen.
+
+toNodeId: ID del nodo de destino.
+
+label: Etiqueta que describe la relación entre los nodos.
+
+description: Descripción de la relación entre los nodos (modificada por AIRecommendation).
+
+relationshipType: Tipo de relación entre los nodos (ejemplo: "Prerequisite", "Optional").
+
+
+## AIInteraction
+
+Descripción: Representa una interacción entre el usuario y la IA. Captura tanto el prompt enviado por el usuario como la respuesta de la IA. Es una entidad porque cada interacción es única y tiene identidad.
+
+Atributos:
+
+interactionId: ID único de la interacción.
+
+roadmapId: ID del roadmap al que pertenece la interacción.
+
+userPrompt: Prompt que el usuario envió a la IA.
+
+aiResponse: Respuesta generada por la IA.
+
+
+## AIRecommendation
+
+Descripción: Representa una recomendación generada por la IA que sugiere modificaciones en los nodos y las aristas de un roadmap. Es una entidad porque tiene identidad única y modifica el estado del roadmap.
+
+Atributos:
+
+recommendationId: ID único de la recomendación.
+
+roadmapId: ID del roadmap asociado.
+
+nodes: Lista de nodos a modificar (entidad Node).
+
+edges: Lista de aristas a modificar (entidad Edge).
+
+promptResponse: Respuesta generada por la IA que contiene las recomendaciones.
+
+
+## Roadmap
+Descripción: El agregado principal que representa un roadmap. Contiene nodos (Node) y aristas (Edge) que son parte del roadmap. Las modificaciones al roadmap (como las recomendaciones de IA) se aplican a través de este agregado.
+
+Entidades asociadas:
+
+Node: Representa los nodos dentro del roadmap.
+
+Edge: Representa las relaciones entre los nodos dentro del roadmap.
+
+
+## PromptResponse
+
+Descripción: Representa la respuesta generada por la IA en base a un prompt. Es un Value Object porque su valor es lo que importa, no su identidad.
+
+Atributos:
+
+response: Texto generado por la IA en respuesta al prompt del usuario.
+
+
+## UserPrompt
+
+Descripción: Representa el prompt enviado por el usuario a la IA. Es un Value Object porque solo interesa su valor y no su identidad.
+
+Atributos:
+
+prompt: Texto del prompt enviado a la IA.
 
 #### 3.2.2.3. Database Design.
 
