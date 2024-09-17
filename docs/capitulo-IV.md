@@ -1,115 +1,61 @@
 # Capítulo 4: Backend Product Implementation & Validation
 
 ## 4.1. Software Configuration Management.
-Para la gestión de la configuración de software de nuestra aplicación móvil Roademics, nos centraremos principalmente en la gestión del código fuente, asegurando un control eficiente de versiones y manteniendo una estructura organizada a lo largo de todo el desarrollo. Nos aseguraremos de que todos los miembros del equipo cuenten con herramientas consistentes que faciliten el desarrollo y ofrezcan una configuración adecuada tanto en el entorno de desarrollo como en el entorno de producción.
-Esta toma de decisiones es crucial para garantizar la eficiencia, coherencia y flexibilidad durante todo el ciclo de vida de la aplicación, lo que nos permite adaptarnos a las necesidades de nuestro público objetivo. De esta manera, lograremos proporcionar un espacio estructurado y optimizado donde los usuarios puedan crear, visualizar y compartir sus mapas de ruta profesional. Además, esta gestión garantiza un entorno seguro y fluido para los reclutadores y las empresas que deseen explorar los roadmaps de los candidatos, así como para los estudiantes y profesionales que buscan trazar su camino hacia el éxito laboral, junto con las demás funcionalidades destacadas en otros capítulos de esta documentación.
+En la gestión de la configuración del backend para la aplicación móvil Roademics, nos centramos en el control eficiente del código fuente, asegurando un manejo riguroso de versiones mediante sistemas como Git, y manteniendo una estructura modular y organizada durante todo el ciclo de desarrollo. Implementamos pipelines de CI/CD (Integración Continua y Despliegue Continuo) que automatizan pruebas, integraciones y despliegues en los entornos de desarrollo, pruebas y producción. Asimismo, nos aseguramos que todos los bounded context estén correctamente versionados y alineados con la infraestructura en, permitiendo una fácil integración con las APIs externas como Firebase Authentication, Stripe y Twilio.
+
+Estas decisiones son críticas para asegurar la eficiencia, coherencia y flexibilidad en la estructura del backend, lo que nos permite responder de manera ágil a las necesidades de los usuarios finales. De este modo, garantizamos una plataforma robusta y escalable, optimizada para manejar grandes volúmenes de solicitudes y datos de forma segura. Adicionalmente, la correcta gestión del backend asegura que tanto los reclutadores y empresas, como los estudiantes y profesionales, puedan interactuar de forma fluida con la plataforma, explorando y gestionando los roadmaps profesionales. Todo ello se complementa con la infraestructura descrita en los capítulos posteriores de esta documentación.
 
 ### 4.1.1. Software Development Environment Configuration.
 
-En esta sección, nuestro equipo de trabajo especificará, describirá e indicará los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia (para software basado en modelos SaaS) o la ruta de descarga (para productos que se ejecutan en el computador del miembro del equipo) de cada uno de los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del desarrollo de la aplicación móvil, abarcando todas las actividades como Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
+En esta sección, el equipo de desarrollo detallará las herramientas de software esenciales para el backend de la aplicación móvil, especificando el nombre de cada producto, su propósito dentro del proyecto, y el método de acceso o instalación. Para las herramientas basadas en SaaS (Software como servicio), se proporcionará la URL de acceso a sus páginas web, mientras que para aquellas que requieren ejecución en servidores locales, se indicará la ruta de descarga. 
+
+Las herramientas seleccionadas cubren actividades críticas para el backend, como la gestión de bases de datos, control de versiones, servidores de aplicaciones, despliegues, integración continua y entrega continua (CI/CD), monitoreo de servicios, gestión de API, y la documentación técnica de los servicios del backend.
 
 **Project Management**: Esta sección aborda la planificación y supervisión del proyecto durante todo su ciclo de vida, incluyendo la coordinación del equipo, la gestión de sus tareas y colaboraciones, así como la asignación de responsabilidades previamente establecidas. Para estructurar esta gestión, hemos dividido el enfoque en métodos distintos de comunicación y administración del equipo.
-Reuniones de Trabajo: Para la organización de las reuniones del equipo, hemos optado por utilizar exclusivamente "Discord". Esta decisión se basa en la familiaridad de todos los miembros del equipo con la plataforma, lo que facilita una comunicación fluida y un acceso inmediato a las reuniones. Aunque "Discord" puede no contar con algunas funcionalidades avanzadas de otras aplicaciones de videoconferencia, su interfaz sencilla y su flexibilidad en cuanto a la duración de las reuniones sin restricciones de tiempo nos permiten discutir temas en profundidad y coordinar nuestras actividades sin interrupciones. Además, "Discord" ofrece opciones de chat en tiempo real y la posibilidad de crear canales temáticos, lo que mejora la organización y el seguimiento de los temas tratados en las reuniones.
+
+- Reuniones de Trabajo: Para la coordinación de las tareas del equipo de backend, utilizamos "Discord" como plataforma principal de comunicación. Esta elección se fundamenta en la familiaridad del equipo con la herramienta, lo que permite una comunicación ágil y efectiva para la discusión de temas técnicos relacionados con la infraestructura del backend. Aunque "Discord" no posee ciertas características avanzadas de otras plataformas, su interfaz intuitiva y la posibilidad de reuniones sin restricciones de tiempo nos facilitan la planificación detallada de la arquitectura y la resolución de problemas complejos del backend. Además, los canales temáticos permiten organizar conversaciones específicas sobre desarrollo, despliegue, base de datos y gestión de servicios externos, mejorando el seguimiento de los temas relevantes al backend.
 
 Página oficial de Discord: https://discord.com/
 
-**Control de Versiones**: Para la gestión del control de versiones del proyecto, utilizamos las herramientas de "Github". Esta plataforma permite a nuestro equipo colaborar eficazmente a través de commits y pull requests. Los commits documentan los cambios realizados en el código, creando un historial detallado para revisar y rastrear modificaciones. Los pull requests facilitan la revisión y discusión de los cambios antes de integrarlos en la rama principal, asegurando que las nuevas funcionalidades se implementen de manera controlada. Esta metodología ayuda a mantener la estabilidad del proyecto y a identificar y revertir errores si es necesario.
+- Control de Versiones: Para la gestión del control de versiones del backend, utilizamos las herramientas integradas de "Github". Esta plataforma permite al equipo colaborar de manera eficiente a través de commits y pull requests específicos para el código del backend. Los commits documentan detalladamente los cambios realizados en la lógica del servidor y los servicios externos, proporcionando un historial claro para revisar y rastrear las modificaciones en la infraestructura del backend. Los pull requests facilitan la revisión y discusión de los cambios antes de integrarlos en la rama principal, asegurando que las nuevas funcionalidades del backend se implementen de forma controlada y sin comprometer la estabilidad del sistema. Este enfoque ayuda a mantener la integridad del backend y permite identificar y revertir errores críticos si es necesario.
 
 Página oficial de Github: https://github.com/
 
-
 ---
 
-**Requirements Management**:
+**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, h
 
-Para asegurar una organización efectiva del trabajo en nuestro equipo, hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto.
-
-En particular, hemos adoptado ClickUp como nuestra herramienta principal. Esta plataforma ofrece una interfaz amigable que facilita la división de actividades entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas, podemos establecer plazos, designar responsables y monitorear el progreso de cada tarea de manera eficiente. Esta configuración nos permite evaluar el avance respecto a los requisitos del proyecto y analizar el desempeño general del equipo. ClickUp también proporciona la capacidad de revisar las contribuciones individuales y el trabajo realizado, promoviendo la transparencia y la colaboración efectiva.
+- Organización de tareas: Hemos adoptado ClickUp como nuestra herramienta principal para la gestión de tareas del backend. La plataforma ofrece una interfaz amigable que facilita la división de las actividades relacionadas con la infraestructura y el desarrollo del backend entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas del backend, podemos establecer plazos, asignar responsables y monitorear el progreso de cada tarea técnica de manera eficiente. Esta configuración nos permite evaluar el avance en la implementación de la API, servicios externos y despliegues, así como analizar el desempeño general del equipo de backend. ClickUp también permite revisar las contribuciones individuales y el trabajo realizado en la parte del servidor, promoviendo la transparencia y la colaboración efectiva dentro del equipo técnico.
 
 Página oficial de ClickUp: https://clickup.com/ 
 
 ---
 
-**Product UX/UI Design**:
+**Product Architecture Design**: Esta sección se centra en el desarrollo y diseño de la arquitectura del backend a lo largo de todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer aplicaciones que permitan la creación de diagramas detallados y complejos de cada capa de la arquitectura del backend. Esto incluye la identificación de los componentes clave, como bases de datos, APIs y servicios externos, así como los frameworks, entornos de desarrollo (IDEs) y lenguajes de programación que se utilizarán. La capacidad de representar de manera clara y precisa la estructura del backend es esencial para asegurar que todos los aspectos técnicos sean comprensibles, bien documentados y alineados con los requisitos del sistema.
 
-Esta sección abarca el desarrollo y diseño de las interfaces UX y UI para nuestro proyecto durante todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer la flexibilidad para modificar la estética de las páginas y garantizar una experiencia óptima para nuestros usuarios finales, alineándose con las historias de usuario y las metodologías de desarrollo móvil. También es fundamental que estas herramientas permitan la estructuración y diagramación adecuada de todos los elementos necesarios.
-
-**Mapas y User Personas**: Para la creación y seguimiento de mapas como el Empathy Map, Journey Map e Impact Map, hemos optado por la plataforma "UXPressia". Esta herramienta se distingue por su interfaz intuitiva y su conjunto de funcionalidades integradas que facilitan la elaboración detallada de estos mapas, esenciales para entender mejor a nuestros usuarios y sus necesidades. UXPressia permite colaborar de manera eficiente, ya que ofrece capacidades de trabajo en equipo en tiempo real, lo cual es crucial para mantener la coherencia y la calidad en el diseño.
-Además, UXPressia proporciona herramientas para crear User Personas con modelos predefinidos y plantillas adaptables, que nos ayudan a representar de forma clara y visual los perfiles de nuestros usuarios objetivo. Aunque la plataforma puede tener algunas limitaciones en la creación de gráficos complejos, su enfoque en la simplicidad y la usabilidad compensa estas restricciones. Su capacidad para integrar y visualizar datos de manera efectiva asegura que nuestros mapas y personas sean precisos y útiles para el desarrollo del producto.
-
-Página oficial de UXPressia: https://uxpressia.com/
-
-**Escenarios**: Para modelar los escenarios AS-IS y TO-BE de nuestros segmentos de mercado, hemos seleccionado la herramienta "Miro". Miro es una plataforma altamente versátil que ofrece una amplia gama de plantillas y modelos para la creación de diagramas, tablas y mapas visuales. Su capacidad para facilitar la colaboración en tiempo real es una de sus principales ventajas, permitiendo que varios miembros del equipo trabajen juntos simultáneamente, lo cual mejora la calidad y la coherencia de los resultados finales. Miro también ofrece funcionalidades para crear mapas de procesos y diagramas de flujo detallados, que son esenciales para comprender las interacciones actuales y planificar mejoras futuras. La interfaz de Miro es intuitiva y permite una navegación fluida, lo que hace que el proceso de modelado sea eficiente y menos propenso a errores.
-
-Página oficial de Miro: https://miro.com/
-
-**Wireframes, Mock-ups, Prototypes y Diseño Móvil**: Para la creación de wireframes, mock-ups y prototipos de la landing page de nuestra startup y la interfaz de la aplicación móvil, hemos optado por "Figma". Figma es una herramienta poderosa y especializada en el diseño de interfaces digitales, ofreciendo un conjunto completo de funcionalidades para la creación de prototipos interactivos y el diseño colaborativo. La plataforma permite a los diseñadores trabajar en tiempo real, lo que facilita la comunicación y el intercambio de ideas entre los miembros del equipo, y asegura que el proceso de diseño sea ágil y eficiente. Figma también incluye una extensa biblioteca de componentes y recursos que pueden ser reutilizados, lo que acelera la creación de diseños consistentes y de alta calidad. Además, la capacidad de Figma para integrar comentarios y revisiones directamente en el diseño facilita la iteración y la mejora continua del producto. Esta herramienta es ideal para el diseño móvil, ya que ofrece características específicas para adaptar interfaces a diferentes dispositivos y resoluciones.
-
-Página oficial de Figma: https://figma.com/
-
----
-
-**Product Architecture Design**:
-Esta sección se enfoca en el desarrollo y diseño de la arquitectura del producto a lo largo de todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer diversas aplicaciones que permitan la creación de diagramas detallados y complejos de cada capa de la arquitectura de la solución. Esto incluye la identificación de todos los componentes necesarios, así como los frameworks, IDEs y lenguajes de programación que se utilizarán. La capacidad de representar de manera clara y precisa la estructura del producto es esencial para asegurar que todos los aspectos de la arquitectura sean comprensibles y bien documentados.
-
-Diagramas C4: Para diseñar los diagramas C4 de nuestro proyecto, nuestro equipo ha decidido utilizar "Visual Paradigm". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las diferentes vistas de arquitectura según el enfoque C4. "Visual Paradigm" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para técnicos como para personas no técnicas. Además, "Visual Paradigm" permite una visualización y organización eficiente de los diagramas C4, lo que ayuda a asegurar que todos los miembros del equipo puedan entender la arquitectura del sistema sin complicaciones. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para nuestro proyecto.
+- Diagramas C4: Para diseñar los diagramas C4 del backend de nuestro proyecto, nuestro equipo ha optado por utilizar "Visual Paradigm". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las vistas de arquitectura del backend según el enfoque C4. "Visual Paradigm" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para desarrolladores como para partes interesadas no técnicas. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados y precisos del backend sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para documentar la arquitectura del backend de nuestro proyecto.
 
 Página oficial de Visual Paradigm: https://www.visual-paradigm.com/
 
-**Diagrama UML**: Para el diseño de los diagramas UML relacionados con nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del software. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de nuestra arquitectura. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo, especialmente entre los expertos en programación involucrados en el proyecto.
+- Diagrama UML: Para el diseño de los diagramas UML relacionados con la arquitectura del backend de nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML del backend debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado de sistemas. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del backend, incluyendo la estructura de bases de datos, relaciones entre microservicios y flujos de datos. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de la arquitectura del backend. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo técnico, especialmente entre los desarrolladores y arquitectos de software involucrados en el proyecto.
 
 Página oficial de LucidChart: https://lucidchart.com/
 
-**Diseño de Bases de Datos**: Para el diseño de la base de datos de nuestro proyecto, que utiliza una estructura no relacional, hemos optado por "Moon Modeler". Esta herramienta es eficaz para el modelado y visualización de bases de datos no relacionales, como MongoDB. Ofrece una interfaz intuitiva que facilita la creación de diagramas detallados y bien estructurados, permitiendo diseñar esquemas claros y precisos. Además, "Moon Modeler" proporciona funcionalidades como la generación automática de documentación y la exportación de diseños en varios formatos, lo cual es esencial para una correcta representación y documentación de la base de datos.
-Aunque "Moon Modeler" es ideal para el diseño y documentación individual, no está orientada a la colaboración en tiempo real entre varios miembros del equipo. La herramienta está diseñada para el trabajo individual, facilitando la creación y revisión de modelos de datos, pero la colaboración se realiza mediante el intercambio de archivos exportados. Esta característica debe ser considerada al planificar la integración del diseño de bases de datos en el flujo de trabajo del equipo.
+- Diseño de Diagrama de Bases de Datos: Para el diseño de la base de datos no relacional de nuestro proyecto, hemos optado por "Moon Modeler". Esta herramienta es eficaz para el modelado y visualización de bases de datos no relacionales, como MongoDB. Ofrece una interfaz intuitiva que facilita la creación de diagramas detallados y bien estructurados, permitiendo diseñar esquemas claros y precisos para la estructura de datos del backend. "Moon Modeler" proporciona funcionalidades como la generación automática de documentación y la exportación de diseños en varios formatos, lo cual es esencial para una correcta representación y documentación de la base de datos. Aunque la herramienta está diseñada para el trabajo individual y no está orientada a la colaboración en tiempo real, permite la creación y revisión de modelos de datos, con la colaboración facilitada a través del intercambio de archivos exportados. Esta característica debe ser considerada al integrar el diseño de bases de datos en el flujo de trabajo del equipo de backend.
 
 Página oficial de Moon Modeler: https://www.datensen.com/data-modeling/moon-modeler-for-databases.html 
 
 ---
 
-**Software Development**:
+**Web Services**: En esta sección estarán las herramientas de desarrollo del Web Services con el Backend. Es esencial adoptar frameworks y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Utilizaremos frameworks que proporcionen bibliotecas preimplementadas para facilitar la creación, configuración y manejo de los servicios web. Estos frameworks permiten una integración fluida de los servicios, optimizando el rendimiento y asegurando que el backend pueda manejar de manera eficiente las solicitudes y respuestas entre los diferentes componentes del sistema.
 
-Esta sección se centra en las herramientas y aplicaciones necesarias para la programación de la landing page y la aplicación móvil de nuestro proyecto durante todo su ciclo de vida. Los instrumentos seleccionados incluyen IDEs, lenguajes de programación, bibliotecas y frameworks que deben alinearse con las metodologías y principios establecidos en el proyecto. Estos deben cumplir con las historias de usuario y los esquemas definidos para alcanzar los objetivos de nuestra startup y satisfacer las necesidades de nuestros segmentos objetivos.
+El estilo arquitectónico elegido para la aplicación será RESTful API, conocido por su eficacia en establecer una comunicación eficiente y directa entre clientes y servidores. Este enfoque es ampliamente reconocido por su capacidad para alinearse con las mejores prácticas de diseño y seguridad, lo que resulta fundamental para cualquier aplicación moderna. Al adoptar este estilo arquitectónico, se garantiza la creación de un backend no solo robusto, sino también altamente escalable, capaz de adaptarse a las crecientes demandas del sistema. Esto, a su vez, promueve un desarrollo coherente y seguro, estableciendo las bases necesarias para un rendimiento óptimo y una experiencia de usuario fiable.
 
-En el proceso de desarrollo de la aplicación móvil, se emplearán herramientas específicas para garantizar una programación eficiente y una integración adecuada con los distintos componentes del proyecto. Para la implementación técnica, se utilizará Kotlin como lenguaje de programación. Kotlin, conocido por su interoperabilidad con Java y su sintaxis concisa, proporciona una base sólida y moderna para el desarrollo de aplicaciones móviles en el entorno de Android.
+Para el desarrollo propio del código del backend, se optará por utilizar Java junto con el framework Spring Boot. Spring Boot facilita enormemente la creación de aplicaciones basadas en Spring, ya que ofrece un conjunto completo de funcionalidades preconfiguradas para construir servicios web eficientes y rápidos. Mientras tanto, Java es un lenguaje de programación altamente robusto y versátil, conocido por su eficiencia, seguridad y amplia comunidad de soporte. Esta combinación de tecnologías permite establecer un entorno de desarrollo sólido y flexible, adaptado a las necesidades actuales del proyecto. Al emplear Spring Boot con Java, se garantiza una infraestructura capaz de manejar las demandas de un backend de alto rendimiento, ofreciendo escalabilidad, mantenibilidad y una integración más fluida con otros componentes del sistema.
 
-Landing Page: La landing page será desarrollada utilizando HTML5, CSS3 y JavaScript nativo. Cada uno de estos lenguajes se gestionará en secciones específicas dentro del repositorio del proyecto, lo que garantiza una estructura organizada y eficiente. HTML5 y CSS3 se encargarán de la estructura y el diseño de la página, mientras que JavaScript nativo permitirá añadir interactividad y funcionalidad dinámica. Esta combinación asegura que la página sea robusta, flexible y adecuada para un entorno de producción.
+El entorno de desarrollo integrado (IDE) seleccionado para este proceso será IntelliJ IDEA, que forma parte del conjunto de herramientas de JetBrains Toolbox. IntelliJ IDEA es ampliamente reconocido por sus potentes características específicas para el desarrollo en Java, brindando un entorno que facilita enormemente la codificación, depuración y gestión de proyectos. Gracias a sus funciones avanzadas, como la autocompletación inteligente, análisis de código en tiempo real y herramientas de refactorización, se logra un proceso de desarrollo más ágil y productivo, reduciendo significativamente los errores y mejorando la calidad del código.
 
-Además, para mantener una interfaz clara y coherente, la landing page seguirá las directrices del Material Design. Este enfoque, conocido por su consistencia en el diseño de interfaces de usuario, contribuirá a una experiencia visualmente atractiva y funcional. En cuanto a las herramientas de desarrollo, se utilizará Visual Studio Code como el IDE principal. Aunque es más sencillo en comparación con otros IDEs más avanzados, su amplia gama de funcionalidades y extensiones facilita el proceso de programación, haciéndolo una opción efectiva para este proyecto.
-
-Página oficial de Visual Studio Code: https://code.visualstudio.com/
-
-Guías y recursos adicionales:
-
-HTML: https://www.w3schools.com/html/
-
-CSS: https://www.w3schools.com/css/default.asp
-
-Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
-
-Material Design: https://m3.material.io/Design
-
-**Aplicación Móvil**: La aplicación móvil será desarrollada utilizando Flutter con VSCode como el entorno de desarrollo integrado (IDE). Flutter, el kit de herramientas de UI de Google para crear aplicaciones nativas compiladas para dispositivos móviles, web y escritorio a partir de una única base de código, ofrece una forma eficiente y flexible de construir interfaces de usuario atractivas y de alto rendimiento. VSCode es un IDE ligero pero potente que proporciona una integración fluida con Flutter, facilitando el desarrollo, la depuración y el diseño de la aplicación móvil.
-
-El diseño de la interfaz de usuario de la aplicación se basará en los principios del Material Design, garantizando una experiencia de usuario intuitiva y visualmente atractiva. Flutter proporciona un conjunto completo de widgets y herramientas para implementar estos principios, permitiendo la creación de interfaces de usuario consistentes y funcionales.
-
-Página oficial de Flutter: https://flutter.dev
-
-Guías y recursos adicionales:
-
-Material Design: https://m3.material.io
-
-VSCode: https://code.visualstudio.com
-
-**Web Services**: En el proceso de desarrollo de los Web Services, es esencial adoptar modelos y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Para lograr esto, se utilizarán frameworks que proporcionen bibliotecas preimplementadas y que faciliten la integración fluida de los servicios web.
-
-El estilo de aplicación elegido será el RESTful API Architectural Style, conocido por su capacidad para ofrecer una comunicación rápida y directa entre clientes y servidores, así como por su amplia aceptación de buenas prácticas de diseño y seguridad. Este enfoque asegura un backend sólido y escalable, promoviendo prácticas de desarrollo consistentes y seguras.
-
-Para el desarrollo del backend, se optará por el uso de Java junto con el framework Spring Boot. Spring Boot es una herramienta poderosa que simplifica la creación de aplicaciones basadas en Spring, proporcionando un conjunto completo de funcionalidades para construir servicios web eficientes. Al utilizar Spring Boot con Java, se obtiene un entorno de desarrollo robusto y flexible, capaz de manejar las demandas de un backend de alto rendimiento con facilidad.
-
-El entorno de desarrollo integrado (IDE) seleccionado para este proceso será IntelliJ IDEA, una plataforma de JetBrains Toolbox que ofrece potentes características para el desarrollo en Java. IntelliJ IDEA es reconocido por su eficacia en la codificación, depuración y gestión de proyectos Java, facilitando un desarrollo ágil y productivo.
-
-Para la documentación de los servicios web, se empleará Swagger, proporcionado por OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para documentar APIs de manera estructurada y coherente, lo que facilita su comprensión y uso tanto para desarrolladores internos como externos. Además, Swagger permite registrar rápidamente los cambios en la API durante el desarrollo, manteniendo la documentación actualizada y precisa en todo momento.
+Para la documentación de los servicios web, se empleará Swagger, basado en la OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para la documentación de APIs, ya que ofrece una estructura clara y coherente que facilita su comprensión y uso, tanto por desarrolladores internos como externos. Además, Swagger permite registrar y reflejar rápidamente los cambios realizados en la API durante el proceso de desarrollo, garantizando que la documentación se mantenga precisa y actualizada en todo momento. Esto no solo mejora la comunicación entre los equipos, sino que también asegura un desarrollo más eficiente y colaborativo.
 
 Página oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
 
@@ -123,17 +69,17 @@ Página de guía y seguimiento para el modelo REST: https://es.apis.support.brig
 
 ---
 
-**Software Deployment**:
+**Software Deployment**: Esta sección se centra en las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva del backend desarrollado a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para garantizar que el backend se implemente sin problemas de rendimiento o inconsistencias en su funcionamiento. 
 
-Esta sección aborda las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva de todas las páginas web desarrolladas a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para asegurar que las páginas se publiquen sin problemas de rendimiento o inconsistencias en su formato.
-Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporciona un rendimiento eficiente y confiable al alojar los sitios web directamente desde los repositorios en la misma plataforma. Dado que la Landing Page es estática, no requerirá actualizaciones frecuentes ni cambios continuos, lo que hace que GitHub Pages sea una opción adecuada para su implementación.
+Para el despliegue del backend, se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
 
 Página oficial de GitHub Pages: https://pages.github.com/
 
 ---
 
-**Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación minuciosa del código y del software durante todo el ciclo de vida del proyecto. Las herramientas elegidas deben ser intuitivas para todos los miembros del equipo y adecuadas para manejar textos extensos, con soporte para imágenes y una clara estructura de secciones.
-Para la documentación, utilizaremos un repositorio en GitHub, organizado en múltiples ramas dentro de la estructura del equipo. La escritura de documentos se realizará principalmente en Markdown, lo que asegura una visualización coherente en la web a través de diversos dispositivos, además de facilitar la compresión y el cifrado de datos. En casos donde Markdown no sea suficiente, como para tablas extensas y complejas, se empleará HTML para una representación más adecuada y detallada.
+**Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
+
+Para la documentación, se utilizará un repositorio en GitHub, estructurado en múltiples ramas según las necesidades del equipo. La redacción de la documentación se llevará a cabo principalmente en Markdown, lo que garantiza una visualización coherente en la web a través de diferentes dispositivos, además de facilitar la compresión y el cifrado de los datos. En situaciones donde Markdown no sea suficiente, como para la creación de tablas complejas, se empleará HTML para lograr una representación más precisa y detallada.
 
 Página oficial de GitHub: https://github.com/
 
@@ -143,23 +89,22 @@ Guía y seguimiento para HTML5: https://www.w3schools.com/html/
 
 ### 4.1.2. Source Code Management.
 
-En esta sección se definirá la estrategia para emplear GitHub como plataforma de control de versiones y colaboración a lo largo del ciclo de vida del proyecto. Se utilizarán todas las herramientas establecidas y se mantendrá un registro detallado de las versiones para rastrear cambios, identificar nuevos desarrollos o corregir errores.
-A continuación, se ofrece una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios asociados dentro de esta organización:
+En esta sección, se definirá la estrategia para utilizar GitHub como plataforma de control de versiones y colaboración durante el ciclo de vida del desarrollo del backend. Se emplearán todas las herramientas proporcionadas por GitHub para garantizar una gestión eficaz del código fuente, incluyendo el seguimiento de versiones y la colaboración entre miembros del equipo. Se mantendrá un registro exhaustivo de las versiones del backend, permitiendo rastrear cambios, identificar nuevos desarrollos y corregir errores de manera precisa.
+
+Se establecerán ramas específicas para diferentes etapas del desarrollo, tales como la integración continua, las pruebas y la producción. Además, se implementarán políticas de pull requests y revisiones de código para asegurar la calidad y coherencia del backend. Esta metodología permitirá un control riguroso del ciclo de vida del desarrollo, facilitando la colaboración y asegurando que todos los cambios se registren de forma clara y ordenada.
+
+A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del backend dentro de esta organización:
 
 Repositorios en GitHub:
 
 Organización: https://github.com/GRUPO-3-MOVILES 
-
-Landing Page: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
-
-Report: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
 BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
 
-###### Tabla 23
+###### Tabla 23.
 
 *Modelo de integrantes del equipo dentro de la página de organización de Github*
 
@@ -172,60 +117,65 @@ En esta sección, se presentarán todos los usuarios que forman parte de la orga
 
 **GitFlow Workflow**:
 
-En nuestro proyecto, adoptaremos el modelo GitFlow para el control de versiones, el cual se estructura alrededor de ramas principales y secundarias. Las ramas principales, como main y develop, sirven como bases para el desarrollo y la implementación final del proyecto, mientras que las ramas secundarias, tales como las de características, lanzamiento y corrección, son utilizadas para gestionar cambios y desarrollos específicos. Esta metodología asegura una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del proyecto.
-En esta sección, describiremos cómo se aplicará GitFlow en nuestro proyecto. Cada nueva característica requerirá su propia rama, que deberá ser integrada a través de un pull request revisado por el equipo. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
+En nuestro proyecto, implementaremos el modelo GitFlow para el control de versiones, el cual está estructurado en torno a ramas principales y secundarias. Las ramas principales actúan como las bases fundamentales para el desarrollo y la implementación final del backend. La rama master representa la versión estable y en producción, mientras que develop se utiliza para integrar todas las características y correcciones que se encuentran en desarrollo.
+
+Las ramas secundarias se utilizan para gestionar desarrollos específicos y modificaciones puntuales. Estas ramas se crean para el desarrollo de nuevas funcionalidades, para abordar errores críticos en producción y para preparar la versión para su liberación final. Cada una de estas ramas se fusiona con develop a través de pull requests, los cuales son revisados por el equipo para asegurar la calidad y coherencia del código. Este enfoque asegura que cada cambio se maneje de manera organizada y que los errores críticos se aborden de forma eficiente, manteniendo la estabilidad del proyecto en todo momento.
+
+Esta metodología garantiza una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del backend, asegurando que todos los cambios se integren de manera controlada y que el historial del proyecto sea claro y manejable. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
 
 **Ramas Principales**:
 
-- `main`: Esta rama contiene la versión final y estable del proyecto, lista para su despliegue. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo para asegurar la calidad y estabilidad del código.
-- `develop`: Aquí se agrupan los elementos en desarrollo que han sido aprobados por al menos un miembro del equipo que no sea el autor de las modificaciones. Sirve como etapa de integración y prueba antes de fusionar con main.
+- `master`: Esta rama contiene la versión final y estable del backend, lista para su despliegue en el entorno de producción. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo técnico para asegurar la calidad y estabilidad del código del backend.
+  
+- `develop`: Esta rama agrupa los elementos en desarrollo relacionados con el backend, que han sido aprobados por al menos un miembro del equipo diferente del autor de las modificaciones. Sirve como etapa de integración y prueba de nuevas funcionalidades del backend antes de ser fusionadas con `master`.
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
-###### Tabla 24
+###### Tabla 24.
 
-*Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github*
+*Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github.*
+
 | Nombre | Descripción |
 |--------|-------------|
-| capitulo-I-Presentacion | Se encarga de los cambios relacionados con el Capítulo 1 del reporte del proyecto, incluyendo la introducción, información sobre la startup y el producto. |
-| capitulo-II-Needfinding | Agrupa los cambios correspondientes al Capítulo 2, que abordan la obtención y análisis de requisitos, así como la posición en el mercado y el segmento objetivo. |
-| capitulo-III-Arquitectura | Contiene los cambios para el Capítulo 3, relacionado con la especificación de requisitos y funcionalidades. |
-| capitulo-IV-Backend-Product-Implementation | Se centra en el Capítulo 4, que detalla el modelado del diseño UI/UX para la landing page y la aplicación móvil. |
-| Capitulo-V-Product-Implementation-&-Validation | Abarca el Capítulo 5, que trata sobre la implementación del producto, su validación y despliegue en un entorno de producción. |
+| feat/iam | Gestiona los cambios relacionados con la implementación del sistema de gestión de identidades y accesos (IAM) en el backend. Esta implementación asegura la autenticación, autorización y control de permisos de usuarios, garantizando la seguridad del sistema y un acceso adecuado a los recursos según los roles asignados. |
+| feat/roadmaps | Agrupa los cambios correspondientes a la gestión de los roadmaps en el backend, incluyendo la lógica para la creación, almacenamiento y procesamiento de los datos relacionados con los roadmaps de los usuarios. Esto abarca la implementación de endpoints para la manipulación de datos, así como la optimización de consultas y almacenamiento en la base de datos para asegurar un rendimiento eficiente. |
 
-**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo y se integran a las ramas principales mediante pull requests aprobados por el líder del equipo. Una vez completados los cambios, estas ramas se eliminarán para evitar la acumulación innecesaria de ramas.
+**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo en el backend. Los cambios se integran a las ramas principales mediante pull requests, que deben ser aprobados por el líder del equipo. Una vez que los cambios han sido completados y fusionados, estas ramas se eliminan para evitar la acumulación innecesaria de ramas y mantener un repositorio limpio y organizado.
 
 ---
 
-Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo, hemos definido el siguiente formato estándar:
+Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de backend, hemos establecido el siguiente formato estándar:
+
 Formato de Commit:
 
 |feat(branch): verb + brief description in English|
 |-------------------------------------------------|
 
-En este formato, branch debe indicar la rama en la que se han realizado los cambios propuestos para la nueva característica. Si los cambios se efectúan en una rama específica de un capítulo, simplemente se utilizará "chapter-xx" para mantener la descripción del commit o pull request breve.
-La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio realizado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
+En este formato, "branch" debe indicar la rama en la que se han realizado los cambios propuestos para una nueva funcionalidad del backend. La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio implementado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
 
 ###### Tabla 25
 *Modelo de escritura de verbos para todos los commits realizados en el proyecto de Github*
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
-|Add  |Añadir  |Utilizado para añadir nuevas secciones, imágenes, textos, etc., a una parte del proyecto. Ideal para commits en las ramas de capítulos o en características individuales que esperan un pull request.  |
-|Create  |Crear  |Empleado para la creación de encabezados de secciones vacíos o documentos y/o ramas dentro del proyecto que servirán como base general.  |
-|Update  |Actualizar  |Usado para actualizaciones menores en una sección del proyecto. Ideal para agregar pequeños cambios sin modificar la estructura original de la sección.  |
-|Modify  |Modificar  |Aplicado para cambios significativos en una sección, que requieren una reestructuración profunda. Se diferencia de "update" por implicar cambios más sustanciales.  |
-|Correct  |Corregir  |Utilizado para correcciones menores, como errores ortográficos o gramaticales. Debe aplicarse a cambios menores en comparación con una actualización.  |
-|Fix  |Arreglar  |Usado para solucionar problemas en el código de la aplicación web o landing page, así como para arreglar elementos que no funcionan, como enlaces.  |
-|Delete  |Borrar  |Aplicado para eliminar secciones, imágenes, etc., del proyecto. Debe utilizarse solo para eliminar contenido previamente aprobado por el equipo.  |
-|Drop  |Tirar  |Exclusivo para eliminar ramas, carpetas, etc., del repositorio. Solo debe usarse con la aprobación del equipo del proyecto.  |
+|Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
+|Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
+|Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
+|Modify  |Modificar  | Aplicado cuando se realizan cambios significativos en la lógica del backend, como la reestructuración de servicios o la implementación de nuevas políticas de negocio en la capa de lógica. Esto incluye cambios que afectan la arquitectura general o que impactan directamente en la interacción entre componentes.  |
+|Correct  | Corregir  | Utilizado para corregir errores menores en la implementación del backend, como ajustes en las validaciones de entradas, corrección de rutas de API, o fallos en configuraciones que afectan el correcto funcionamiento del sistema. Este verbo se reserva para pequeñas correcciones sin grandes implicaciones. |
+|Fix  |Arreglar  | Usado para solucionar bugs críticos o problemas que afectan directamente la funcionalidad del backend. Esto puede incluir arreglar errores en la lógica de negocio, problemas de conexión con la base de datos, o fallos en la autenticación y autorización de usuarios. También es comúnmente utilizado para resolver errores en la integración continua o el despliegue automático.  |
+|Delete  |Borrar  | Aplicado para la eliminación de clases, métodos o recursos que ya no son necesarios en el backend. Debe utilizarse cuando se elimina código obsoleto o módulos que han sido reemplazados por implementaciones más eficientes o actualizadas. |
+|Drop  |Tirar  | Exclusivo para la eliminación de esquemas de bases de datos, tablas, o configuraciones en el backend. Debe ser utilizado con precaución, ya que este tipo de cambios puede tener implicaciones críticas en el almacenamiento de datos y la estructura general del sistema. Suele aplicarse cuando se reorganiza o limpia la base de datos en el proceso de migración o refactorización. |
 
-Esta norma sigue los principios de los Conventional Commits, una convención ligera para estructurar y nombrar commits. Ofrece un conjunto claro de reglas para crear un historial de cambios detallado, lo cual facilita la automatización y el seguimiento de características, correcciones y modificaciones importantes. (GitHub & Netlify, 2024).
-**Estructura del Mensaje de Commit**:
+Esta norma sigue los principios de Conventional Commits, una convención ligera para estructurar y nombrar los commits. Esta convención proporciona un conjunto claro de reglas para crear un historial de cambios detallado y coherente, lo que facilita la automatización de procesos como el versionado semántico y el seguimiento de características, correcciones y modificaciones críticas. Su implementación mejora la trazabilidad del desarrollo, simplifica las revisiones y asegura una mayor transparencia en el control de versiones. (GitHub & Netlify, 2024).
+
+**Estructura del Mensaje de Commit:**
+
 |type: description|
 |-----------------|
 
-Versionado Semántico:
+**Versionado Semántico:**
+
 Para las versiones de lanzamiento del proyecto, se aplicará el versionado semántico 2.0.0., siguiendo la estructura:
 
 |Major.Minor.Patch|
@@ -236,60 +186,19 @@ Donde:
 - El segundo dígito (Minor) aumenta cuando se añaden nuevas funcionalidades que son compatibles con versiones anteriores.
 - El primer dígito (Major) se incrementa para cambios importantes que podrían no ser compatibles con versiones anteriores.
 
-
 ### 4.1.3. Source Code Style Guide & Conventions.
 
 En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, incluyendo la Landing Page y la Web Application. A continuación, especificaremos las convenciones para los siguientes lenguajes y herramientas:
 
-- Guía de Estilo para HTML: https://www.w3schools.com/html/html5_syntax.asp
-- Guía de Estilo de Google para HTML y CSS: https://google.github.io/styleguide/htmlcssguide.html
-- Guía de Estilo para CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
-- Guía de Estilo para JavaScript: https://google.github.io/styleguide/jsguide.html
-- Guía de Pautas de JavaScript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript
-- Guía de Estilo para Flutter: https://esflutter.dev/learn/
 - Guía de Estilo para Spring Boot: https://docs.spring.io/spring-boot/docs/current/reference/html/
+- Guía de Estilo para Java del AOSP para colaboradores: https://source.android.com/docs/setup/contribute/code-style?hl=es-419
+- Manual Completo de Código en Java: https://www.manualweb.net/java/
+- Modelo de Convenciones de codificación Java: https://codegym.cc/es/groups/posts/es.491.convenciones-de-codificacion-de-java-cuales-seguir-y-por-que
+- Convenciones de Gherkin para especificaciones legibles: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
 
 **Convenciones que Usaremos**
 
-**HTML**:
-- Utilizar nombres de archivos y carpetas descriptivos y claros que resuman las estructuras implementadas durante el proceso de desarrollo.
-- Aplicar una convención de nomenclatura uniforme para archivos y carpetas, como kebab-case o una alternativa equivalente.
-- Emplear etiquetas HTML semánticas para definir la estructura y el contenido, como header, nav, main, section, article, footer, evitando divs genéricos.
-- Mantener una estructura de código clara y legible mediante una indentación consistente. Asegurarse de que el diseño y la presentación sean coherentes en todas las partes del proyecto.
-- Usar atributos como alt en imágenes para mejorar la accesibilidad y la indexación por motores de búsqueda.
-- Asegurar que el HTML sea responsivo y se visualice correctamente en distintos dispositivos y tamaños de pantalla, utilizando CSS adaptable y consultas de medios.
-- Implementar modelos de accesibilidad para facilitar el acceso a personas con discapacidades o diferentes idiomas, creencias y culturas.
-
-**CSS**:
-- Emplear nombres de clases descriptivos y coherentes para facilitar la comprensión y el mantenimiento del código. Seguir metodologías como BEM (Block Element Modifier) y SMACSS (Scalable and Modular Architecture for CSS).
-- Optar por nombres descriptivos que reflejen la función de la clase en lugar de nombres genéricos o abreviaciones difíciles de entender.
-- Diseñar CSS modular para facilitar la reutilización de estilos en diferentes partes de la aplicación y la landing page, promoviendo la mantenibilidad y escalabilidad.
-- Utilizar prefijos de proveedores CSS (como -webkit-, -moz-, -ms-, -o-) cuando sea necesario para asegurar la compatibilidad con diversos navegadores.
-- Evitar el uso de estilos en línea (style attribute) y en su lugar, utilizar clases CSS para mantener la separación entre HTML y CSS.
-- Realizar pruebas en distintos navegadores y dispositivos para asegurar que los estilos sean consistentes y funcionales en todas las situaciones.
-
-**JavaScript**:
-- Usar nombres descriptivos para variables y funciones que reflejen claramente su propósito y función.
-- Aplicar el estilo de nomenclatura camelCase para variables y funciones. Mantener una línea de código por línea para mejorar la legibilidad.
-- Preferir const para variables inmutables y let para variables mutables, evitando var para mantener la claridad del alcance.
-- Documentar el código con comentarios que expliquen el propósito de las funciones, algoritmos complejos y decisiones de diseño. Eliminar comentarios innecesarios antes de la producción, o dejarlos con descripciones formales si son cruciales.
-- Minimizar el uso de variables globales y encapsular variables y funciones dentro de módulos o funciones autoejecutables para evitar conflictos.
-- Implementar un manejo adecuado de errores utilizando bloques try-catch para capturar y manejar excepciones, proporcionando mensajes claros para facilitar la depuración.
-- Usar operadores estrictos (=== y !==) para comparaciones y operaciones para evitar errores de tipo.
-- Aplicar delegación de eventos para manejar eventos en elementos dinámicos y reducir la cantidad de manipuladores de eventos necesarios en el DOM.
-- Utilizar funciones de orden superior como map, filter, reduce y forEach para simplificar el código y mejorar su legibilidad.
-
-**Flutter**:
-- **Nombres Descriptivos**: Emplear nombres descriptivos y consistentes para variables, funciones y widgets. Utilizar camelCase para nombres de variables y funciones, y PascalCase para nombres de clases y widgets.
-- **Variables y Estado**: Utilizar final para variables inmutables y var para variables mutables, siguiendo el principio de inmutabilidad siempre que sea posible. Para el estado en widgets, utilizar StatefulWidget y manejar el estado en la clase State.
-- **Widgets**: Crear widgets reutilizables y modulares para mantener el código limpio y organizado. Dividir los widgets grandes en widgets más pequeños para mejorar la legibilidad y la reutilización.
-- **Estilo de Código**: Utilizar la guía de estilo de Dart para mantener un formato consistente. Esto incluye la alineación adecuada del código y la organización de los imports.
-- **Manejo de Errores**: Utilizar try-catch para manejar errores y excepciones. Proporcionar mensajes de error claros y útiles para facilitar la depuración y la experiencia del usuario.
-- **Async/Await**: Utilizar las palabras clave async y await para manejar operaciones asincrónicas, evitando el uso excesivo de callbacks y mejorando la legibilidad del código.
-- **Dart Language Features**: Aprovechar las características del lenguaje Dart, como los mixins, extensiones y funciones de orden superior, para simplificar el código y mejorar la legibilidad.
-- **Estado y Contexto**: Utilizar Provider, Riverpod u otras soluciones de gestión del estado recomendadas por la comunidad Flutter para mantener un estado global de manera eficiente y escalable.
-
-Java:
+**Java:**
 - Usar nombres descriptivos y claros para clases, métodos y variables. Aplicar PascalCase para nombres de clases y camelCase para nombres de métodos y variables.
 - Organizar el código en paquetes lógicos para mantener la modularidad y la estructura del proyecto.
 - Documentar el código con comentarios Javadoc para explicar el propósito de las clases, métodos y parámetros. Mantener la documentación actualizada y precisa.
