@@ -15,7 +15,7 @@ Integrantes:
 Pescorán Angulo, Juan Fabritzzio - U20221C936 <br> Trigueros Chumacero, Flavio Eduardo - U202210190 <br> Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 <br> Yen Cerna, Lucio Heli - U202213143
 
 
-Sede de Villa, Agosto de 2024
+Sede de Villa, Setiembre de 2024
 
 ---
 
@@ -38,6 +38,18 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
       <td>Pescorán Angulo, Juan Fabritzzio <br>Trigueros Chumacero, Flavio Eduardo <br> Valenzuela Huillcaya, Aldhair Johan Juan <br> Yen Cerna, Lucio Heli</td>
       <td>Desarrollo del Capítulo I, Capitulo II</td>
     </tr>
+      <tr>
+      <td>TB2</td>
+      <td>15/09/24</td>
+      <td>Pescorán Angulo, Juan Fabritzzio <br>Trigueros Chumacero, Flavio Eduardo <br> Valenzuela Huillcaya, Aldhair Johan Juan <br> Yen Cerna, Lucio Heli</td>
+      <td>Desarrollo del Capítulo III, Capitulo IV. Desarrollo del Sprint 1 de Backend Product Implementation & Validation. Desarrollo de un 40% del BackEnd</td>
+    </tr>
+      <tr>
+      <td>TP</td>
+      <td>27/09/24</td>
+      <td>Pescorán Angulo, Juan Fabritzzio <br>Trigueros Chumacero, Flavio Eduardo <br> Valenzuela Huillcaya, Aldhair Johan Juan <br> Yen Cerna, Lucio Heli</td>
+      <td>Revisión y Corrección del Capítulo III y Capítulo IV. Desarrollo del Capítulo V. Desarrollo del Sprint 2 de Backend Product Implementation & Validation, junto a un Desarrollo y Despliegue de un 100% del BackEnd. Desarrollo del Sprint 1 de Product Implementation & Validation, junto a un Desarrollo y Despliegue del 100% de la Landing Page, y un Desarrollo de un 50% del FrontEnd</td>
+    </tr>
   </tbody>
 </table>
 
@@ -48,8 +60,23 @@ Durante esta primera entrega para la TB1, nuestro equipo se centró en el desarr
 
 Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a una sección específica del informe, lo que facilitó un avance ágil y el cumplimiento de los plazos establecidos. Asimismo, programamos sesiones regulares de brainstorming y resolución de problemas, donde se compartieron ideas y se abordaron de manera conjunta cualquier duda o dificultad que surgiera durante el desarrollo. Estas reuniones resultaron fundamentales para superar obstáculos de manera efectiva y asegurar un progreso sostenido.
 
+- Al finalizar el proceso de la TB1:
+
+<img src="/assets/img/pulse-for-main-tb1.png" alt="Pulse for Main - TB1">
 <img src="/assets/img/contributions-for-main-tb1.png" alt="Contributions for Main - TB1">
 <img src="/assets/img/individial-contributions-for-main-tb1.png" alt="Individual Contributions for Main - TB1">
+
+- Al finalizar el proceso de la TB2:
+
+<img src="/assets/img/pulse-for-main-tb2.png" alt="Pulse for Main - TB2">
+<img src="/assets/img/contributions-for-main-tb2.png" alt="Contributions for Main - TB2">
+<img src="/assets/img/individial-contributions-for-main-tb2.png" alt="Individual Contributions for Main - TB2">
+
+- Al finalizar el proceso de la TP:
+
+<img src="/assets/img/pulse-for-main-tp1.png" alt="Pulse for Main - TP1">
+<img src="/assets/img/contributions-for-main-tp1.png" alt="Contributions for Main - TP1">
+<img src="/assets/img/individial-contributions-for-main-tp1.png" alt="Individual Contributions for Main - TP1">
 
 ---
 
@@ -129,7 +156,7 @@ Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a un
      - 4.1.3. Source Code Style Guide & Conventions.
      - 4.1.4. Software Deployment Configuration.
    - 4.2. Software Development & Implementation.
-     - 4.2.1. Sprint 1
+     - 4.2.1. Sprint 1.
        - 4.2.1.1. Sprint Planning 1.
        - 4.2.1.2. Sprint Backlog 1.
        - 4.2.1.3. Development Evidence for Sprint Review.
@@ -138,6 +165,15 @@ Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a un
        - 4.2.1.6. Services Documentation Evidence for Sprint Review.
        - 4.2.1.7. Software Deployment Evidence for Sprint Review.
        - 4.2.1.8. Team Collaboration Insights during Sprint.
+     - 4.2.2. Sprint 2.
+       - 4.2.2.1. Sprint Planning 2.
+       - 4.2.2.2. Sprint Backlog 2.
+       - 4.2.2.3. Development Evidence for Sprint Review.
+       - 4.2.2.4. Testing Suite Evidence for Sprint Review
+       - 4.2.2.5. Execution Evidence for Sprint Review.
+       - 4.2.2.6. Services Documentation Evidence for Sprint Review.
+       - 4.2.2.7. Software Deployment Evidence for Sprint Review.
+       - 4.2.2.8. Team Collaboration Insights during Sprint.
 
 5. **Capítulo V: Product Implementation & Validation**
    
@@ -161,14 +197,15 @@ Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a un
         - 5.3.2. Registro de Entrevistas.
         - 5.3.3. Evaluaciones según heurísticas.
         - 5.4. Video About-the-Product.
-    - Conclusiones
-        - Conclusiones y recomendaciones.
-    - Video App Validation
-    - Video About the product
-    - Video About the team
-    - Glosario
-    - Bibliografía
-    - Anexos
+
+  - **Conclusiones**
+    - Conclusiones y recomendaciones.
+  - **Video App Validation**
+  - **Video About the product**
+  - **Video About the team**
+  - **Glosario**
+  - **Bibliografía**
+  - **Anexos**
 ---
 
 ### LISTA DE FIGURAS
@@ -310,7 +347,7 @@ Primer grupo de objetivos SMART:
             <tr>
                 <td>Descripción del objetivo</td>
                 <td>En 4 meses, quiero mejorar mi fluidez en alemán participando activamente en las clases de conversación de la universidad y completando las lecciones del libro de alemán que nos proporcionan. Además, reforzaré mi aprendizaje utilizando videos de YouTube sobre gramática y comprensión oral.</td>
-                <td>En los próximos 5 meses, quiero mejorar mi fluidez en inglés practicando conversación con un compañero de intercambio lingüístico de la universidad dos veces por semana. También completaré las unidades del libro asignado y practicaré vocabulario con la aplicación Duolingo. Al final de este período, me presentaré al examen Cambridge First Certificate (FCE) para obtener una certificación de nivel intermedio-alto.</td>
+                <td>En los próximos 3 meses del proyecto, mejoraré mis habilidades técnicas en el desarrollo de código tanto en FrontEnd como en BackEnd, centrándome en modelos de arquitecturas, patrones de diseño, funciones clave y buenas prácticas. Participaré en al menos el 50% de los commits del proyecto, enfocándome en añadir funcionalidades importantes a la aplicación. Además, mi objetivo es obtener una calificación de 19 o superior en la última entrega del proyecto. Esto me preparará para mis prácticas preprofesionales al proporcionarme conocimientos prácticos suficientes en el desarrollo de software y en todas las áreas que componen mi carrera, mejorando así mi desarrollo profesional a corto y largo plazo. </td>
                 <td>En un plazo de 4 meses, quiero adquirir un conocimiento sólido en el desarrollo de aplicaciones móviles tanto en Kotlin como en Flutter, completando un curso estructurado de al menos 5 semanas para cada tecnología. Además, desarrollaré una aplicación móvil completamente funcional en cada plataforma que incluya características clave como autenticación de usuario e integración con una base de datos. Al finalizar, tendré la capacidad de aplicar estos conocimientos en proyectos reales, entendiendo las diferencias y ventajas de cada lenguaje. </td>
                 <td> En un plazo de 6 meses, quiero mejorar mi fluidez en chino utilizando el libro de texto de la universidad y reforzando mi aprendizaje con podcasts y videos en chino una vez por semana. Además, participaré en sesiones de conversación organizadas por mi universidad. </td>
             </tr>
@@ -333,7 +370,7 @@ Primer grupo de objetivos SMART:
                 <td>S<br>Specific<br> Específico</td>
                 <td>¿Qué se va a lograr? <br> El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto.</td>
                 <td>Mejorar la fluidez en alemán mediante clases universitarias, uso del libro y videos de YouTube.</td>
-                <td>Mejorar la fluidez en inglés mediante intercambio lingüístico y el uso de una aplicación de vocabulario.</td>
+                <td>El objetivo es mejorar las habilidades técnicas en el desarrollo de código tanto en el FrontEnd y en el BackEnd de una aplicación, enfocándose en los conocimientos sobre arquitecturas, patrones de diseño, funciones clave y buenas prácticas. No se incluye un framework o lenguaje de programación en específico.</td>
                 <td>El objetivo es aprender y dominar el desarrollo de aplicaciones móviles utilizando dos tecnologías clave: Kotlin y Flutter. Esto implica la adquisición de conocimientos tanto teóricos como prácticos, aplicados en el desarrollo de dos aplicaciones móviles funcionales. Cada aplicación incluirá autenticación de usuario e integración con bases de datos, habilidades esenciales para proyectos móviles profesionales.</td>
                 <td>Mejorar la fluidez en chino mediante el uso del libro de texto, podcasts, y videos.</td>
             </tr>
@@ -341,7 +378,7 @@ Primer grupo de objetivos SMART:
                 <td>M<br>Measurable<br> Medible</td>
                 <td>¿Tiene KPI o métrica clara?<br> El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (lo que vamos a hacer).</td>
                 <td>Completar un libro de alemán, practicar con videos ver series de alemán nativo para poder aprender mejor.</td>
-                <td> Completar las unidades del libro y la práctica con Duolingo, y aprobar el examen FCE.</td>
+                <td>El progreso se medirá a través de dos métricas clave, las cuales son el porcentaje de participación en los commits del proyecto, además de la nota final obtenida en la última entrega del proyecto. Para este objetivo, es necesario participar en al menos el 50% de los commits del proyecto, los cuales deben agregar funcionalidades clave de la aplicación. Además, se busca obtener una calificación de 19 o superior en la última entrega del proyecto para comprobar que los commits realizados son funcionales y presentan un alto grado de cumplimiento.</td>
                 <td>El progreso se medirá a través de dos métricas clave:
 - Completar al menos 5 semanas de estudio para cada plataforma (10 semanas en total).
 - Desarrollar dos aplicaciones funcionales, una en Kotlin y otra en Flutter, que incluyan autenticación de usuario e integración con bases de datos. Estas métricas permiten medir no solo el tiempo dedicado, sino también los entregables finales, asegurando que el conocimiento no solo sea teórico sino también práctico. </td>
@@ -351,7 +388,7 @@ Primer grupo de objetivos SMART:
                 <td>A<br>Ambitious<br>Ambicioso</td>
                 <td>¿Es retador y va más allá de sus funciones? <br> El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes.</td>
                 <td>Es alcanzable con una combinación de clases y estudio autónomo.</td>
-                <td>Alcanzable dedicando tiempo semanal al intercambio y estudio adicional.</td>
+                <td>El objetivo es retador si tomamos en cuenta que el equipo de trabajo se compone de 4 integrantes y se espera que cada uno participe entre un 25% y 35% de las secciones del FrontEnd y BackEnd de la aplicación móvil. Alcanzar un 50% implicaria una participación vasta ante el gran número de User Stories presentados. Asimismo, conseguir una nota final de 19 es ambicioso, presentandose como una calificación perfecta o casi perfecta ante un proyecto bastante extenso y complejo, en el cual se deben aplicar muchos conocimientos nuevos.</td>
                 <td>El objetivo es retador, ya que requiere no solo adquirir conocimientos básicos, sino también desarrollar aplicaciones completas con características esenciales, lo cual implica el uso de documentación avanzada, integración de servicios, y habilidades de resolución de problemas. Este desafío va más allá de las funciones tradicionales de solo seguir un curso, ya que demanda un enfoque estratégico para aplicar esos conocimientos en proyectos reales, fortaleciendo la habilidad de elegir la tecnología más adecuada según las necesidades del proyecto.</td>
                 <td>Alcanzable mediante la dedicación semanal y las actividades de refuerzo.</td>
             </tr>
@@ -359,17 +396,17 @@ Primer grupo de objetivos SMART:
                 <td>R<br>Relevant<br>Relevante</td>
                 <td>¿Está alineado a la estratégia?<br>Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo.</td>
                 <td>Este objetivo está alineado con la necesidad de obtener una certificación que demuestre competencia en inglés para oportunidades profesionales.</td>
-                <td>Es relevante para avanzar en el aprendizaje del idioma y obtener una certificación reconocida internacionalmente.</td>
+                <td>Este objetivo es relevante puesto que contribuye a mi desarrollo profesional al prepararme de forma directa para el inicio de mis prácticas preprofesionales. Al proporcionar conocimientos prácticos suficientes en el desarrollo de software y en todas las áreas que componen mi carrera, puedo conseguir un mejor desempeño y eficiencia en las actividades que se me serán asignadas en mi ambiente laboral. Asimismo, este objetivo se relaciona directamente con el objetivo de Laurate Perú de formar profesionales capacitados y competitivos en tecnología.</td>
                 <td>Este objetivo está alineado con los objetivos estratégicos del desarrollo profesional en el área de tecnología móvil, dado que tanto Kotlin como Flutter son tecnologías altamente demandadas en el mercado laboral actual. Además, se relaciona directamente con el objetivo de Laureate Perú de formar profesionales capacitados y competitivos en tecnología. </td>
                 <td>Relevante para obtener una certificación de chino que apoye metas profesionales y académicas.</td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
                 <td>¿Cuándo se cumplirá?<br>En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo</td>
-                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales para asegurar la calidad y precisión de cada historia de usuario, además de ajustes en las redacciones y especificaciones según los cambios de ideas dados por los usuarios.</td>
-                <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones diarias para asegurar la calidad y precisión de cada aspecto referente a la documentación, además de ajustes en las normativas y en la propia redacción.</td>
+                <td>...</td>
+                <td>El objetivo presentado debe completarse en un plazo de 3 meses, con revisiones semanales para asegurar la calidad y funcionamiento adecuado de cada commit realizado con sus funcionalidades implementadas, además de otras revisiones en áreas más generales del trabajo, como el reporte, para poder conseguir una nota grupal mayor o igual a 19.</td>
                 <td>ElEl plazo es de 6 meses para prepararse y aprobar el examen internacional de chino.</td>
-                <td></td>
+                <td>(Pone algo)</td>
             </tr>
         </tbody>
     </table>
