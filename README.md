@@ -15,7 +15,7 @@ Integrantes:
 Pescorán Angulo, Juan Fabritzzio - U20221C936 <br> Trigueros Chumacero, Flavio Eduardo - U202210190 <br> Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 <br> Yen Cerna, Lucio Heli - U202213143
 
 
-Sede de Villa, Setiembre de 2024
+Sede de Villa, Septiembre de 2024
 
 ---
 
