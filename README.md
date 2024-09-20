@@ -70,9 +70,9 @@ En la entrega de la TB2, nuestro equipo profundizó en la concreción del proyec
 
 - Al finalizar el proceso de la TB2:
 
-<img src="/assets/img/pulse-for-main-tb2.png" alt="Pulse for Main - TB2">
-<img src="/assets/img/contributions-for-main-tb2.png" alt="Contributions for Main - TB2">
-<img src="/assets/img/individial-contributions-for-main-tb2.png" alt="Individual Contributions for Main - TB2">
+<img src="/assets/img/Github-insights/tb2/pulse-for-main-tb2.png" alt="Pulse for Main - TB2">
+<img src="/assets/img/Github-insights/tb2/contributions-for-main-tb2.png" alt="Contributions for Main - TB2">
+<img src="/assets/img/Github-insights/tb2/individual-contributions-for-main-tb2.png" alt="Individual Contributions for Main - TB2">
 
 - Al finalizar el proceso de la TP:
 
