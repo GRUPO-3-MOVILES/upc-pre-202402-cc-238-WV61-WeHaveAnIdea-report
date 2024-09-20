@@ -56,15 +56,17 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 
 **Team Collaboration Insights**
 
-Durante esta primera entrega para la TB1, nuestro equipo se centró en el desarrollo colaborativo del reporte principal y en el exhaustivo proceso de investigación y planeación, en el cual cada miembro aportó con sus habilidades y conocimientos especializados. Esta colaboración se evidencia en los numerosos commits registrados en nuestro repositorio, respaldados por capturas de pantalla adjuntas que aseguran una documentación minuciosa. Nuestro equipo se reunió tanto de manera presencial como virtual para asignar tareas y discutir en detalle la estrategia de desarrollo del proyecto. Estas reuniones fueron esenciales para clarificar las responsabilidades individuales y garantizar un desempeño óptimo.
+Durante la primera entrega para la TB1, nuestro equipo se centró en el desarrollo colaborativo del reporte principal y en el exhaustivo proceso de investigación y planeación, en el cual cada miembro aportó con sus habilidades y conocimientos especializados. Esta colaboración se evidencia en los numerosos commits registrados en nuestro repositorio, respaldados por capturas de pantalla adjuntas que aseguran una documentación minuciosa. Nuestro equipo se reunió tanto de manera presencial como virtual para asignar tareas y discutir en detalle la estrategia de desarrollo del proyecto. Estas reuniones fueron esenciales para clarificar las responsabilidades individuales y garantizar un desempeño óptimo.
 
 Con el fin de maximizar la eficiencia, cada miembro del equipo fue asignado a una sección específica del informe, lo que facilitó un avance ágil y el cumplimiento de los plazos establecidos. Asimismo, programamos sesiones regulares de brainstorming y resolución de problemas, donde se compartieron ideas y se abordaron de manera conjunta cualquier duda o dificultad que surgiera durante el desarrollo. Estas reuniones resultaron fundamentales para superar obstáculos de manera efectiva y asegurar un progreso sostenido.
 
 - Al finalizar el proceso de la TB1:
 
-<img src="/assets/img/pulse-for-main-tb1.png" alt="Pulse for Main - TB1">
-<img src="/assets/img/contributions-for-main-tb1.png" alt="Contributions for Main - TB1">
-<img src="/assets/img/individial-contributions-for-main-tb1.png" alt="Individual Contributions for Main - TB1">
+<img src="/assets/img/Github-insights/tb1/pulse-for-main-tb1.png" alt="Pulse for Main - TB1">
+<img src="/assets/img/Github-insights/tb1/contributions-for-main-tb1.png" alt="Contributions for Main - TB1">
+<img src="/assets/img/Github-insights/tb1/individual-contributions-for-main-tb1.png" alt="Individual Contributions for Main - TB1">
+
+En la entrega de la TB2, nuestro equipo profundizó en la concreción del proyecto, pasando de la fase de planeación a la de diseño y desarrollo. Elaboramos un diseño detallado del producto, incluyendo user stories y product backlog, que sirvieron como guía para el desarrollo. Además, creamos wireframes y mockups de la landing page y la aplicación móvil para visualizar la interfaz de usuario y la experiencia del usuario. Para iniciar la construcción, llevamos a cabo el Sprint 1, donde priorizamos las funcionalidades más críticas y comenzamos a desarrollar el backend. Al igual que en la TB1, la colaboración fue clave. Realizamos reuniones frecuentes, tanto sincrónicas como asincrónicas, para revisar el avance, resolver dudas y tomar decisiones conjuntas. Cada miembro del equipo se enfocó en tareas específicas, pero siempre manteniendo una comunicación abierta para garantizar la coherencia del proyecto. A través de herramientas de control de versiones y documentación detallada, aseguramos la trazabilidad de todos los cambios y decisiones tomadas durante este sprint.
 
 - Al finalizar el proceso de la TB2:
 
