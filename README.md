@@ -422,7 +422,7 @@ Primer grupo de objetivos SMART:
                 <td>Este objetivo está alineado con la necesidad de obtener una certificación que demuestre competencia en inglés para oportunidades profesionales.</td>
                 <td>Este objetivo es relevante puesto que contribuye a mi desarrollo profesional al prepararme de forma directa para el inicio de mis prácticas preprofesionales. Al proporcionar conocimientos prácticos suficientes en el desarrollo de software y en todas las áreas que componen mi carrera, puedo conseguir un mejor desempeño y eficiencia en las actividades que se me serán asignadas en mi ambiente laboral. Asimismo, este objetivo se relaciona directamente con el objetivo de Laurate Perú de formar profesionales capacitados y competitivos en tecnología.</td>
                 <td>Este objetivo está alineado con los objetivos estratégicos del desarrollo profesional en el área de tecnología móvil, dado que tanto Kotlin como Flutter son tecnologías altamente demandadas en el mercado laboral actual. Además, se relaciona directamente con el objetivo de Laureate Perú de formar profesionales capacitados y competitivos en tecnología. </td>
-                <td>Es relevante para mi desarrollo profesional y mi vida en general debido a que me ayudaría a decidir si este es el enfoque en el que deseo volvereme experto </td>
+                <td>Es relevante para mi desarrollo profesional y mi vida en general debido a que me ayudaría a decidir si este es el enfoque en el que deseo volverme experto </td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
@@ -453,7 +453,7 @@ Primer grupo de objetivos SMART:
                 <td>Desarrollar e implementar medidas de seguridad y privacidad avanzadas en el aplicativo móvil de Roademics, logrando cumplir con el estándar de seguridad OWASP Mobile Top 10 y obteniendo un 99% de conformidad en auditorías de seguridad realizadas antes de la demo principal en 3 meses.</td>
                 <td>Organizar y gestionar los sprints del proyecto Roademics utilizando el modelo Scrum, logrando una implementación eficiente que permita una finalización de tareas en un 95% dentro del tiempo estimado y una mejora continua en la gestión de proyectos según las métricas de Scrum, con un informe de progreso completo para la demo principal en 3 meses.</td>
                 <td>En los próximos 4 meses, quiero mejorar mi fluidez en inglés practicando conversación en mis clases de inglés de la universidad y completando el libro de texto proporcionado. Además, complementaré mi aprendizaje con videos de YouTube específicos para el desarrollo de habilidades conversacionales en inglés. Al final del período, me prepararé y aprobaré un examen de certificación en inglés, como el TOEFL o IELTS, para evaluar y validar mi progreso.</td>
-                <td>Desarrollar una aplicación de mapas de rutas de perfiles profesionales</td>
+                <td>Aprender sobre el desarrollo móvil en Flutter</td>
             </tr>
             <tr>
                 <td>Fecha de inicio</td>
@@ -476,7 +476,7 @@ Primer grupo de objetivos SMART:
                 <td>Implementar de forma adecuada, avanzada y precisa todas las medidas de seguridad y privacidad que cumplan con el estándar OWASP Mobile Top 10. Esto va para todas las medidas que se encuentren dentro del estándar junto a todas las recomendaciones y buenas prácticas que indican.</td>
                 <td>Implementar y gestionar todos los sprints del proyecto de programación usando Scrum, asegurando la finalización de tareas en un 95% dentro del tiempo estimado ya planteado por el propio equipo de trabajo y organización de Roademics.</td>
                 <td>El objetivo es mejorar mi fluidez en inglés a través de la práctica en clases de inglés de la universidad, la completación del libro de texto proporcionado, y el uso de videos de YouTube para habilidades conversacionales. El logro final será aprobar un examen de certificación en inglés (como el TOEFL o IELTS) al final del período, para validar la mejora en la fluidez y comprensión del idioma.</td>
-                <td></td>
+                <td>Quiero aprender Flutter para desarrollar aplicaciones móviles con una sola base de código para iOS y Android.</td>
             </tr>
             <tr>
                 <td>M<br>Measurable<br> Medible</td>
@@ -486,7 +486,7 @@ Primer grupo de objetivos SMART:
                 <td>El progreso se medirá con dos métricas clave:
 - Asistencia regular a las clases de conversación y avance en el libro de texto.
 - Preparación y aprobación del examen de certificación en inglés al final de los 4 meses. Estas métricas permiten evaluar tanto el esfuerzo continuo como el resultado final en términos de certificación. </td>
-                <td></td>
+                <td>Atenderé las clases de Flutter del curso y desarrollaré 2 aplicaciones móviles simples en clase y mi trabajo final</td>
             </tr>
             <tr>
                 <td>A<br>Ambitious<br>Ambicioso</td>
@@ -494,7 +494,7 @@ Primer grupo de objetivos SMART:
                 <td>El propio objetivo busca superar el estándar de conformidad del 90% en auditorías de seguridad móvil presentado por OWASP Mobile Security, meta la cual es demasiado ambiciosa ya que plantea superar a varias empresas líderes en la industria de las aplicaciones para dispositivos móviles en aspectos de privacidad de datos y seguridad.</td>
                 <td>Se sabe, mediante datos presentados por las organizaciones a cargo de las normativas Scrum y otras empresas que se especializan en el uso de Scrum en sus proyectos, que el promedio de efectividad de los grupos que usan Scrum en sus proyectos de programación es de 80%, terminando con un 20% de tareas que no consiguieron terminarse. Tomando en cuenta la medida del proyecto y el como solo se tienen 4 meses para el desarrollo completo, buscar un 95% de tareas completadas es algo ambicioso.</td>
                 <td>El objetivo es retador, ya que no solo implica la participación en clases y el estudio del libro, sino también prepararse y aprobar un examen de certificación reconocido. Esto requiere un enfoque disciplinado y estratégico para asegurar que el nivel de inglés sea suficiente para pasar el examen, lo cual va más allá de los requisitos normales de las clases. </td>
-                <td></td>
+                <td>El objetivo tiene una dificultad considerable puesto que es la primera vez que desarrollaré una aplicación con el lenguaje Dart. Sin embargo, las ventajas que tienen las aplicaciones desarrolladas en Flutter me inspiran a adquirir una base sólida de conocimientos del mismo.</td>
             </tr>
             <tr>
                 <td>R<br>Relevant<br>Relevante</td>
@@ -502,7 +502,7 @@ Primer grupo de objetivos SMART:
                 <td>Es obligatorio que toda aplicación de software presente unas medidas de seguridad adecuadas en todo momento. La autenticación y la autorización son aspectos que deben encontrarse muy bien controlados, sobre todo en aplicaciones que buscan un gran público y que podrían presentar incluso intercambio de información entre distintos usuarios.</td>
                 <td>Este aspecto es relevante en todos los puntos, puesto que es necesario que toda aplicación consiga completar todas sus tareas e historias de usuario antes de ser lanzada al mercado. Es necesario que se pueda completar todas las funcionalidades para así conseguir la mejor respuesta posible por parte de los usuarios.</td>
                 <td>Este objetivo está alineado con el desarrollo profesional y académico, ya que aprobar un examen de certificación en inglés abre oportunidades adicionales en el ámbito laboral y educativo. Validar tus habilidades con una certificación internacional es relevante para mejorar tu perfil profesional y cumplir con estándares reconocidos a nivel global. </td>
-                <td></td>
+                <td>Aprender Flutter me permitirá desarrollar aplicaciones móviles multiplataforma, lo cual es relevante para mis aspiraciones profesionales como desarrollador de software.</td>
             </tr>
             <tr>
                 <td>T<br>Time-bound<br>Tiempo Límite</td>
@@ -510,7 +510,7 @@ Primer grupo de objetivos SMART:
                 <td>El objetivo debe completarse en un plazo de 3 meses, con revisiones semanales de seguridad para asegurar que cada funcionalidad se encuentre bien aplicada y con disponibilidad completa.</td>
                 <td>El objetivo debe completarse en un plazo de 3 meses, puesto que esta es la fecha en la que se completará todo el proyecto de Roademics. Los propios sprints deben tener revisiones semanales para comprobar que se encuentran bien organizados incluso después de su primer planteamiento.</td>
                 <td>El objetivo tiene un plazo claro de 4 meses. Este tiempo incluye practicar en las clases, completar el libro de texto, y prepararse con videos de YouTube, culminando con la aprobación del examen de certificación dentro de ese marco de tiempo.</td>
-                <td></td>
+                <td>Alcanzaré este objetivo en 3 meses. En el primer mes completaré el curso, y en los siguientes dos meses desarrollaré las aplicaciones.</td>
             </tr>
         </tbody>
     </table>
