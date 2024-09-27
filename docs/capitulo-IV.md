@@ -37,7 +37,7 @@ Página oficial de ClickUp: https://clickup.com/
 
 Página oficial de Visual Paradigm: https://www.visual-paradigm.com/
 
-- Diagrama UML: Para el diseño de los diagramas UML relacionados con la arquitectura del backend de nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML del backend debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado de sistemas. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del backend, incluyendo la estructura de bases de datos, relaciones entre microservicios y flujos de datos. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de la arquitectura del backend. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo técnico, especialmente entre los desarrolladores y arquitectos de software involucrados en el proyecto.
+- Diagramas UML: Para el diseño de los diagramas UML relacionados con la arquitectura del backend de nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML del backend debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado de sistemas. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del backend, incluyendo la estructura de bases de datos, relaciones entre microservicios y flujos de datos. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de la arquitectura del backend. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo técnico, especialmente entre los desarrolladores y arquitectos de software involucrados en el proyecto.
 
 Página oficial de LucidChart: https://lucidchart.com/
 
@@ -63,15 +63,27 @@ Página de guía y seguimiento para Java: https://www.oracle.com/java/technologi
 
 Página oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
 
-- Documentación de servicios webs se empleará Swagger, basado en la OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para la documentación de APIs, ya que ofrece una estructura clara y coherente que facilita su comprensión y uso, tanto por desarrolladores internos como externos. Además, Swagger permite registrar y reflejar rápidamente los cambios realizados en la API durante el proceso de desarrollo, garantizando que la documentación se mantenga precisa y actualizada en todo momento. Esto no solo mejora la comunicación entre los equipos, sino que también asegura un desarrollo más eficiente y colaborativo.
+- Documentación de servicios web: Se empleará Swagger, basado en la OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para la documentación de APIs, ya que ofrece una estructura clara y coherente que facilita su comprensión y uso, tanto por desarrolladores internos como externos. Además, Swagger permite registrar y reflejar rápidamente los cambios realizados en la API durante el proceso de desarrollo, garantizando que la documentación se mantenga precisa y actualizada en todo momento. Esto no solo mejora la comunicación entre los equipos, sino que también asegura un desarrollo más eficiente y colaborativo.
 
 Página oficial de Swagger: https://swagger.io/
 
 ---
 
+**Database Development**: Esta sección aborda las herramientas y aplicaciones esenciales para la implementación efectiva de la base de datos que sustentará el ciclo de vida completo del proyecto. Se enfatiza la selección de recursos tecnológicos que no solo sean accesibles y fáciles de utilizar, sino que también ofrezcan un alto grado de fiabilidad y robustez. Esto es crucial para asegurar que la base de datos se implemente de manera eficiente, minimizando riesgos de bajo rendimiento o inconsistencias operativas que puedan comprometer la integridad de los datos y la fluidez de los procesos del proyecto. 
+
+- Gestor de bases de datos: Se ha decidido utilizar MongoDB como el sistema de gestión de bases de datos no relacional. MongoDB está diseñado para manejar grandes cantidades de datos no estructurados y semi-estructurados, lo que es ideal para una plataforma social donde los usuarios pueden generar diversos tipos de contenidos, desde textos hasta imágenes y videos, hasta sus propios roadmaps y hojas de ruta. Además, al ser una base de datos orientada a documentos, MongoDB permite una mayor flexibilidad en el almacenamiento y modelado de datos, lo que facilita la evolución de las funcionalidades de la red social sin necesidad de modificaciones extensivas en la estructura de la base de datos. 
+
+Página oficial de MongoDB: https://www.mongodb.com/es 
+
+- Despliegue de la base de datos: Se ha decidido utilizar MongoDB Atlas como la plataforma de despliegue para la base de datos. MongoDB Atlas es un servicio en la nube completamente gestionado que ofrece todas las ventajas de MongoDB, pero con el beneficio adicional de simplificar su administración y escalabilidad. Atlas permite una implementación rápida y sin complicaciones, asegurando la disponibilidad global de los datos y facilitando su distribución geográfica.
+
+Página oficial de MongoDB Atlas: https://www.mongodb.com/products/platform/atlas-database 
+
+---
+
 **Software Deployment**: Esta sección se centra en las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva del backend desarrollado a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para garantizar que el backend se implemente sin problemas de rendimiento o inconsistencias en su funcionamiento. 
 
-Para el despliegue del backend, se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
+- Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
 
 Página oficial de GitHub Pages: https://pages.github.com/
 
@@ -79,7 +91,7 @@ Página oficial de GitHub Pages: https://pages.github.com/
 
 **Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
 
-Para la documentación, se utilizará un repositorio en GitHub, estructurado en múltiples ramas según las necesidades del equipo. La redacción de la documentación se llevará a cabo principalmente en Markdown, lo que garantiza una visualización coherente en la web a través de diferentes dispositivos, además de facilitar la compresión y el cifrado de los datos. En situaciones donde Markdown no sea suficiente, como para la creación de tablas complejas, se empleará HTML para lograr una representación más precisa y detallada.
+- Documentación del proceso e informe de software: Se utilizará un repositorio en GitHub, estructurado en múltiples ramas según las necesidades del equipo. La redacción de la documentación se llevará a cabo principalmente en Markdown, lo que garantiza una visualización coherente en la web a través de diferentes dispositivos, además de facilitar la compresión y el cifrado de los datos. En situaciones donde Markdown no sea suficiente, como para la creación de tablas complejas, se empleará HTML para lograr una representación más precisa y detallada.
 
 Página oficial de GitHub: https://github.com/
 
@@ -98,6 +110,8 @@ A continuación, se proporciona una lista con los enlaces a la organización de 
 Repositorios en GitHub:
 
 - Organización: https://github.com/GRUPO-3-MOVILES 
+
+- Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
 - BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
@@ -188,38 +202,92 @@ Donde:
 
 ### 4.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, incluyendo la Landing Page y la Web Application. A continuación, especificaremos las convenciones para los siguientes lenguajes y herramientas:
+En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar, estructurar, organizar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, con un enfoque exclusivo en la implementación del Backend. Se detallarán las convenciones y mejores prácticas que se seguirán para asegurar un código coherente y eficiente en el uso de Java y SpringBoot, los principales lenguajes y herramientas del proyecto. Estas convenciones de codificación garantizarán la claridad, mantenibilidad y escalabilidad del código, facilitando la colaboración entre los diferentes miembros del equipo de desarrollo backend.
 
-- Guía de Estilo para Spring Boot: https://docs.spring.io/spring-boot/docs/current/reference/html/
+Asimismo, también investigaremos y presentaremos las directrices para la interacción con la base de datos MongoDB y su despliegue en MongoDB Atlas. Esto incluirá la gestión adecuada de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la optimización del rendimiento en las consultas y manejo de grandes volúmenes de datos:
+
+- Guía de Estilo para SpringBoot: https://docs.spring.io/spring-boot/docs/current/reference/html/
+- Panel de Guías variadas sobre SpringBoot: https://spring.io/guides
 - Guía de Estilo para Java del AOSP para colaboradores: https://source.android.com/docs/setup/contribute/code-style?hl=es-419
 - Manual Completo de Código en Java: https://www.manualweb.net/java/
 - Modelo de Convenciones de codificación Java: https://codegym.cc/es/groups/posts/es.491.convenciones-de-codificacion-de-java-cuales-seguir-y-por-que
-- Convenciones de Gherkin para especificaciones legibles: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+- Documentación oficial de MongoDB: https://www.mongodb.com/docs/manual/
+- Documentación oficial de MongoDB Atlas: https://www.mongodb.com/docs/atlas/
+- Guía oficial de conexiones, migraciones y herramientas de MongoDB: https://www.mongodb.com/docs/tools-and-connectors/ 
 
-**Convenciones que Usaremos**
+#### Convenciones que Usaremos:
 
 **Java:**
-- Usar nombres descriptivos y claros para clases, métodos y variables. Aplicar PascalCase para nombres de clases y camelCase para nombres de métodos y variables.
-- Organizar el código en paquetes lógicos para mantener la modularidad y la estructura del proyecto.
-- Documentar el código con comentarios Javadoc para explicar el propósito de las clases, métodos y parámetros. Mantener la documentación actualizada y precisa.
-- Seguir el principio de responsabilidad única, asegurando que cada clase y método tenga una única responsabilidad.
-- Implementar manejo de excepciones utilizando bloques try-catch y definir excepciones personalizadas cuando sea necesario para manejar errores específicos.
-- Utilizar interfaces y clases abstractas para promover la reutilización del código y la extensibilidad.
-- Adoptar los principios SOLID para diseñar clases y sistemas mantenibles y escalables.
+
+- Convenciones de Nomenclatura: La claridad en la nomenclatura es fundamental para la mantenibilidad y legibilidad del código. En el desarrollo de un backend con Java y SpringBoot, las clases deben seguir la convención de CamelCase, comenzando cada palabra con mayúscula (UserController, OrderService, etc). Los métodos deben usar una convención de camelCase, comenzando con un verbo que indique la acción que realizan (getUserById(), processOrder(), etc). Las variables deben ser descriptivas y seguir un esquema en camelCase para reflejar claramente su propósito. Además, se recomienda organizar el código en paquetes coherentes, agrupando funcionalidades similares.
+  
+- Uso de Encapsulamiento: El encapsulamiento es uno de los pilares de la programación orientada a objetos en Java y debe ser aplicado rigurosamente en el backend. Cada clase debe tener sus atributos privados y se debe acceder a ellos a través de métodos públicos como `getters` y `setters`. Esto asegura que los datos no puedan ser modificados directamente desde fuera de la clase, evitando comportamientos inesperados. Además, contribuye a la modularidad del código, facilitando la refactorización sin romper otras partes del sistema.
+
+- Control de Errores con Excepciones Personalizadas: En Java, el manejo adecuado de excepciones es crucial para asegurar la estabilidad del backend. Además de utilizar las excepciones estándar de Java, es recomendable definir excepciones personalizadas para representar errores específicos de la aplicación, como `UserNotFoundException` o `InvalidTransactionException`. Esto permite un control más granular sobre los errores y facilita la depuración. Asimismo, es importante asegurarse de no capturar excepciones de manera genérica con `catch(Exception e)` sin procesarlas adecuadamente. 
+
+- Uso Eficiente de Recursos: En el desarrollo backend, el manejo adecuado de recursos como conexiones a bases de datos o archivos es crítico. Java ofrece una estructura de manejo automático de recursos, como el bloque `try-with-resources`, que debe ser utilizado para asegurar que los recursos se cierren correctamente después de su uso. Esto no solo mejora el rendimiento del sistema, sino que también previene fugas de memoria y otros problemas relacionados con la gestión inadecuada de recursos.
+
+- Inmutabilidad de Objetos: Siempre que sea posible, los objetos en Java deben ser inmutables, lo que significa que su estado no puede cambiar después de su creación. Esto es particularmente útil en el backend para manejar datos que no deben ser modificados una vez inicializados, como claves de acceso o datos de configuración. Para crear objetos inmutables en Java, se pueden declarar todos los campos como final y no proveer métodos `setters`, asegurando que los objetos permanezcan constantes a lo largo de su ciclo de vida.
+
+- Uso de Lombok para Reducir Código Repetitivo: Para evitar escribir código repetitivo, como `getters`, `setters` y constructores, el uso de bibliotecas como "Lombok" puede ser muy útil en Java. Con anotaciones como `@Data`, `@AllArgsConstructor` y `@NoArgsConstructor`, se reduce significativamente el tamaño del código, haciéndolo más limpio y fácil de mantener. Sin embargo, es importante usar "Lombok" de manera consciente, ya que puede ocultar parte de la lógica del código y es necesario asegurarse de que su uso no genere dependencias innecesarias.
+
+- Aplicación del Principio de Responsabilidad Única: Cada clase y método en Java debe seguir el principio de responsabilidad única, lo que significa que cada uno debe tener una única razón para cambiar. Este principio asegura que el código esté organizado de manera modular, facilitando el mantenimiento y la extensión del sistema sin introducir complejidad adicional.
+
+- Implementación de Interfaces para Desacoplamiento: Para lograr un backend flexible y desacoplado en Java, es una buena práctica definir interfaces que abstraigan las implementaciones de las clases concretas. De esta forma, si en el futuro es necesario cambiar la implementación de un servicio, solo será necesario modificar la clase que implementa la interfaz, sin alterar el resto del código. Este patrón es especialmente útil en la interacción con bases de datos y servicios externos, permitiendo la inyección de dependencias con facilidad.
+
+- Uso de Generics para Tipado Fuerte: Los "Generics" en Java son una herramienta poderosa que permite crear clases y métodos que funcionen con cualquier tipo de dato, proporcionando mayor flexibilidad sin perder la seguridad del tipado fuerte. En un backend, los "generics" pueden utilizarse en clases de repositorio, listas, y otros contenedores de datos, garantizando que el código sea reutilizable y evite errores de tipo en tiempo de ejecución.
+
+- Convenciones de Documentación con Javadoc: La documentación es esencial en el desarrollo de backend en Java, y la convención estándar es usar "Javadoc" para documentar las clases, métodos y atributos. Al proporcionar descripciones claras de lo que hace cada parte del código, se facilita la comprensión del sistema por parte de otros desarrolladores o futuros mantenedores del proyecto. Además, Javadoc permite generar automáticamente documentación en formato "HTML", lo que es muy útil para proyectos de gran envergadura.
 
 **Spring Boot**:
-- Seguir la estructura de proyecto recomendada por Spring Boot, separando las capas de presentación, lógica de negocio y acceso a datos.
-- Utilizar la inyección de dependencias proporcionada por Spring para gestionar los componentes y servicios de la aplicación, promoviendo la modularidad y la testabilidad.
-- Aplicar el patrón de diseño MVC (Modelo-Vista-Controlador) o el patrón de arquitectura de microservicios según la complejidad del proyecto.
-- Configurar las propiedades de la aplicación utilizando archivos application.properties o application.yml y gestionar la configuración mediante perfiles de entorno.
-- Implementar la gestión de errores y excepciones utilizando el soporte de manejo global de errores de Spring y definir controladores de errores personalizados.
-- Usar la caché proporcionada por Spring para mejorar el rendimiento, almacenando datos que se acceden con frecuencia y que son costosos de recuperar.
-- Asegurar la aplicación mediante autenticación y autorización utilizando los mecanismos de seguridad integrados de Spring Security.
-- Implementar pruebas unitarias y de integración utilizando el soporte de pruebas de Spring Boot para asegurar la calidad del código y la funcionalidad de la aplicación.
+
+- Configuración de Aplicación Externa: En un proyecto de Spring Boot, es fundamental externalizar la configuración de la aplicación en archivos como `application.properties` o `application.yml`. Esto permite que diferentes entornos (desarrollo, prueba, producción) tengan configuraciones específicas sin necesidad de modificar el código fuente. Utilizar variables de entorno para manejar información sensible, como credenciales de bases de datos, refuerza la seguridad y la flexibilidad del sistema. Además, la configuración de la conexión a la base de datos debe ser clara y debe incluir parámetros como el nombre de la base de datos, la dirección del servidor y las credenciales de acceso.
+
+- Uso de Anotaciones de Spring: Aprovechar las poderosas anotaciones proporcionadas por Spring Boot es esencial para crear aplicaciones más limpias y mantenibles. Anotaciones como `@RestController`, `@Service`, `@Repository` y `@Component` deben ser utilizadas correctamente para definir la función de cada clase dentro de la aplicación. Esto no solo ayuda a la legibilidad del código, sino que también permite a Spring gestionar automáticamente la inyección de dependencias y la configuración de componentes, promoviendo una arquitectura más cohesiva y modular.
+
+- Manejo de Errores con Controladores de Excepciones: La gestión adecuada de errores es crucial en aplicaciones de Spring Boot. Utilizar `@ControllerAdvice` para manejar excepciones de forma centralizada proporciona una forma limpia de capturar y gestionar errores a lo largo de toda la aplicación. Al definir un controlador de excepciones global, puedes personalizar las respuestas de error, asegurando que los clientes reciban mensajes claros y coherentes en caso de fallos. Esto mejora la experiencia del usuario y facilita el proceso de depuración.
+
+- Configuración de Rutas de API REST: En el desarrollo de servicios REST con Spring Boot, es esencial estructurar las rutas de forma coherente y lógica. Usar convenciones de versión, como `/api/v1/`, permite gestionar los cambios en la API a lo largo del tiempo sin romper compatibilidad con versiones anteriores. Cada controlador debe tener su conjunto de rutas bien definidas y documentadas, utilizando las anotaciones `@GetMapping`, `@PostMapping`, `@PutMapping` y `@DeleteMapping` para mapear adecuadamente las solicitudes HTTP a los métodos correspondientes.
+
+- Integración de Spring Data MongoDB: Al trabajar con MongoDB, es recomendable utilizar "Spring Data MongoDB", que simplifica la interacción con la base de datos. Definir repositorios extendiendo "MongoRepository" permite implementar operaciones CRUD de forma sencilla y declarativa, eliminando la necesidad de escribir consultas "boilerplate". Además, se deben aprovechar las características de Spring Data, como las consultas personalizadas y la paginación, para optimizar el acceso a datos y mejorar el rendimiento general de la aplicación.
+
+- Pruebas Automatizadas con Spring Boot Test: La calidad del software es vital, y Spring Boot facilita la implementación de pruebas automatizadas. Utilizar el módulo "Spring Boot Test" permite realizar pruebas unitarias y de integración de manera efectiva. Es recomendable seguir el patrón de pruebas AAA (Arrange, Act, Assert) y utilizar herramientas como "JUnit" y "Mockito" para asegurar que cada componente de la aplicación funcione correctamente en diversas condiciones. Esto no solo aumenta la confianza en el código, sino que también facilita el mantenimiento y la evolución del sistema.
+
+- Aspectos de Seguridad con Spring Security: La seguridad es un aspecto crítico en cualquier aplicación, y Spring Boot ofrece Spring Security para gestionar la autenticación y autorización. Implementar medidas de seguridad, como la autenticación basada en tokens (JWT), es esencial para proteger las rutas de la API y garantizar que solo los usuarios autorizados puedan acceder a recursos críticos. Asegúrate de configurar correctamente las reglas de seguridad y de aplicar la menor cantidad de privilegios necesarios para cada rol de usuario, minimizando así el riesgo de vulnerabilidades.
+
+- Uso de Profiles para Configuraciones Específicas: Spring Boot permite definir diferentes perfiles para diferentes entornos de ejecución, como desarrollo, prueba y producción. Al utilizar la anotación `@Profile`, puedes activar o desactivar componentes específicos de la aplicación según el entorno. Esto facilita la personalización de la configuración, permitiendo que los equipos de desarrollo y operaciones gestionen mejor los entornos de producción sin comprometer la estabilidad del sistema.
+
+- Documentación de la API con Swagger: La documentación clara de la API es fundamental para facilitar la colaboración entre desarrolladores y consumidores de la misma. Integrar "Swagger" en un proyecto de Spring Boot permite generar documentación interactiva y visual para la API de forma automática. Asegúrate de incluir descripciones detalladas de los endpoints, parámetros y respuestas esperadas para que los desarrolladores puedan comprender fácilmente cómo interactuar con la API.
+
+- Configuración de la Persistencia de Datos: Para garantizar que los datos sean persistentes y se gestionen correctamente, es recomendable establecer un modelo claro de las entidades que se utilizarán en la aplicación. Al definir clases de entidad con la anotación `@Document` de "Spring Data MongoDB", asegúrate de que cada clase refleje la estructura de los documentos en la base de datos. Además, utilizar anotaciones como `@Id` para identificar la clave primaria y `@Field` para mapear los campos de manera explícita proporciona claridad y coherencia en la gestión de datos.
+
+**MongoDB:**
+
+- Diseño de Esquemas Flexibles: Uno de los principales beneficios de MongoDB es su naturaleza de esquema flexible, lo que permite que los documentos dentro de una colección tengan diferentes estructuras. Sin embargo, es importante definir un esquema básico para cada colección, estableciendo reglas claras sobre qué campos son obligatorios y cuáles son opcionales. Esto ayuda a mantener la integridad de los datos y facilita la validación a nivel de aplicación. 
+
+- Uso de Identificadores Únicos: En MongoDB, cada documento tiene un identificador único `_id` que se genera automáticamente, generalmente como un "ObjectId". Es crucial aprovechar este campo como clave primaria para garantizar que cada documento sea identificable de manera única dentro de su colección. En situaciones en las que se requiere un identificador alternativo (como un número de teléfono o un correo electrónico), es recomendable crear índices únicos sobre esos campos para prevenir duplicados y asegurar la integridad de los datos.
+
+- Modelado de Relaciones con Referencias o Embedding: Al modelar datos en MongoDB, es importante decidir cómo manejar las relaciones entre documentos. Existen dos enfoques principales: "referencias" y "embedding". Las referencias se utilizan para relacionar documentos de diferentes colecciones, mientras que el embedding permite almacenar documentos relacionados dentro de un documento padre. La elección entre estos métodos dependerá de la naturaleza de los datos y de cómo se accede a ellos. Generalmente, si los datos son utilizados juntos frecuentemente, el "embedding" puede ser más eficiente; por otro lado, si los datos son independientes y cambian con frecuencia, las "referencias" pueden ser preferibles.
+
+- Indices para Optimizar Consultas: Para mejorar el rendimiento de las consultas en MongoDB, es vital crear índices adecuados en los campos que se utilizan con frecuencia en las búsquedas. Utilizar el comando `createIndex` para establecer índices sobre campos clave, así como índices compuestos para combinaciones de múltiples campos, puede reducir significativamente el tiempo de respuesta de las consultas. Sin embargo, es importante equilibrar la creación de índices con el costo de mantenimiento que estos suponen al realizar operaciones de escritura, ya que cada índice adicional puede afectar el rendimiento de las inserciones y actualizaciones.
+
+- Consulta Eficiente con Proyecciones: Al recuperar documentos de una colección en MongoDB, es recomendable utilizar proyecciones para limitar los campos devueltos en una consulta. Esto no solo mejora la eficiencia al reducir la cantidad de datos transferidos, sino que también minimiza el uso de recursos del servidor. 
+
+- Manejo Adecuado de Transacciones: Aunque MongoDB es conocido por su naturaleza de base de datos de documentos, las transacciones se han vuelto cada vez más importantes, especialmente en aplicaciones que requieren la consistencia de múltiples operaciones de escritura. Desde la versión 4.0, MongoDB admite transacciones ACID que abarcan múltiples documentos y colecciones. Es esencial utilizar estas transacciones adecuadamente para asegurar que un grupo de operaciones se ejecute completamente o no se ejecute en absoluto, manteniendo así la integridad de los datos.
+
+- Implementación de Seguridad y Autenticación: La seguridad es un aspecto crítico en cualquier base de datos. En MongoDB, es importante habilitar la autenticación y la autorización, asegurando que solo los usuarios y aplicaciones autorizados puedan acceder a los datos. Configurar roles y permisos específicos a nivel de base de datos permite un control más granular sobre quién puede leer o escribir datos, lo que ayuda a mitigar el riesgo de accesos no autorizados y de violaciones de datos.
+
+- Monitoreo y Rendimiento: Para mantener un rendimiento óptimo en MongoDB, es crucial implementar prácticas de monitoreo y ajuste. Utilizar herramientas como "MongoDB Atlas" o "MongoDB Ops Manager" permite a los desarrolladores y administradores de bases de datos supervisar el rendimiento, identificar problemas y optimizar las consultas. El monitoreo regular de métricas como la latencia de las consultas, el uso de la memoria y la carga del servidor ayuda a anticipar problemas y a implementar soluciones proactivas.
+
+- Manejo de Datos No Estructurados: MongoDB es especialmente útil para almacenar datos no estructurados o semi-estructurados, como documentos JSON, imágenes o archivos. Utilizar la característica de "GridFS" de MongoDB permite almacenar y gestionar archivos grandes de manera eficiente. Sin embargo, es recomendable evaluar si se requiere almacenar datos directamente en la base de datos o si sería más apropiado almacenar rutas a archivos en un sistema de archivos externo, lo que puede mejorar el rendimiento y la escalabilidad.
+
+- Estrategias de Backup y Recuperación: Implementar una estrategia sólida de respaldo y recuperación es esencial para proteger los datos en MongoDB. Utilizar las herramientas de respaldo integradas en MongoDB, así como prácticas recomendadas como el respaldo incremental y la replicación, asegura que los datos estén disponibles y sean recuperables en caso de fallos. Además, se deben realizar pruebas periódicas de los procedimientos de recuperación para asegurar que los respaldos sean efectivos y que la restauración de datos se realice de manera fluida y sin interrupciones en el servicio.
 
 ### 4.1.4. Software Deployment Configuration.
 
-En esta sección, detallaremos la configuración necesaria para implementar la solución, centrándonos específicamente en el despliegue del Backend. Comenzaremos creando un repositorio en GitHub destinado a almacenar los archivos HTML, CSS y JavaScript que componen nuestra página de destino. Una vez establecido el repositorio, cada miembro del equipo trabajará en su propia rama "feature" para desarrollar las diferentes características del Landing Page. Tras completar una característica específica, se llevará a cabo el proceso de merge con la rama "develop", garantizando así que la página de destino esté siempre actualizada con las últimas modificaciones y mejoras implementadas.
+En esta sección, se detallará la configuración necesaria para implementar la solución, enfocándose exclusivamente en el despliegue del Backend del proyecto. El backend se desarrollará utilizando Java junto con el framework SpringBoot, lo que proporcionará una arquitectura robusta, escalable y fácil de mantener. Comenzaremos por crear un repositorio en GitHub destinado a almacenar todo el código relacionado con la lógica del servidor, controladores, servicios, y los modelos de datos que interactuarán con la base de datos MongoDB. 
+
+Este repositorio permitirá a los desarrolladores gestionar de manera eficiente la colaboración y el control de versiones, asegurando que cada miembro del equipo trabaje en su propia rama "feature" para desarrollar nuevas funcionalidades del backend, tales como la autenticación de usuarios, el manejo de solicitudes, o la gestión de sesiones. Posteriormente, se llevará a cabo el proceso de merge con la rama principal "develop", lo que asegura que la lógica del backend esté siempre actualizada y optimizada con las últimas mejoras y correcciones.
 
 ## 4.2. Software Development & Implementation.
 
@@ -227,11 +295,13 @@ A continuación, describimos en detalle el enfoque técnico que adoptaremos para
 
 ### 4.2.1. Sprint 1
 
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 2 en la sección de requerimientos.
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 1 de la Implementación del Backend. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo, el historial de cambios, y el avance colectivo aportado por cada integrante del equipo de trabajo sobre el propio Backend y sus Endpoints. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint.
 
-#### 5.2.2.1 Sprint Planning 1.
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto.
 
-En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 1. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
+#### 4.2.2.1 Sprint Planning 1.
+
+En esta sección se explicarán los detalles presentados y analizados durante la reunión del Sprint Planning para el Sprint número 1 de la implementación del Backend. El objetivo principal de esta reunión es establecer un plan claro y realista que guíe el desarrollo del backend, identificando las tareas específicas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. Este enfoque permite asegurar que todos los miembros del equipo tengan una comprensión compartida de los objetivos y las expectativas del sprint, lo que resulta esencial para la coordinación y efectividad en el trabajo colaborativo.
 
 ###### Tabla 23
 *Tabla del planeamiento a profundidad del Sprint 1*
@@ -245,7 +315,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
         <tr>
             <td>Date</td>
-            <td>2024-09-07</td>
+            <td>2024-09-01</td>
         </tr>
           <tr>
             <td>Time</td>
@@ -264,12 +334,12 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
             <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
         </tr>
             <tr>
-            <td>Sprint 1 - 1 Review Summary</td>
-            <td>Después de un realizar todos los procedimientos establecidos para la identificación de objetivos y áreas de retroalimentación, hemos podido concluir la reunión del sprint 1 con éxito en términos de avance en los productos de software y en la colaboración general del equipo. El proceso de mejora con la retroalimentación y la programación de varias secciones nuevas en la Aplicación Web significó un gran proceso de mejora para la construcción y realización del sprint, además de reforzar el compromiso de nuestro equipo y la mejora exponencial de las actividades indicadas.</td> 
+            <td>Sprint 1 Review Summary</td>
+            <td>Al concluir el Sprint 1, se llevó a cabo la reunión de Sprint Review en la que se evaluó el progreso realizado en el desarrollo del Backend de nuestra aplicación. Durante este sprint, el enfoque principal se centró en la creación de los Endpoints para el proceso de autenticación y autorización (IAM), así como en la implementación de la funcionalidad de Roadmaps. <br><br> La reunión fue exitosa en términos de avance en los productos de software y en la colaboración del equipo. Tras realizar un análisis exhaustivo de los objetivos establecidos y recopilar valiosa retroalimentación, se identificaron áreas de mejora que contribuyeron significativamente a la calidad del desarrollo. La integración de las recomendaciones recibidas permitió optimizar varios aspectos del código y mejorar la eficiencia de los nuevos Endpoints, lo que a su vez facilitó una experiencia de usuario más fluida y segura. </td> 
         </tr>
             <tr>
-            <td>Sprint 1 – 1 Retrospective Summary</td>
-            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño del BackEnd.</td>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización del primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil. <br><br> A través de este proceso reflexivo, se plantearon varias estrategias para garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros clientes. <br><br> Para este sprint en particular, hemos acordado implementar mejoras en la esquematización de los reportes, junto con la creación de diagramas que faciliten la comprensión y el seguimiento del progreso del desarrollo. Además, se propone una revisión integral del diseño del Backend, buscando optimizar su rendimiento y escalabilidad para garantizar una experiencia de usuario fluida en la aplicación móvil.</td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
@@ -288,9 +358,11 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
     </table>
 
-#### 5.2.2.2 Sprint Backlog 1.
+#### 4.2.2.2 Sprint Backlog 1.
 
-En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
+En esta sección se revisará todo el proceso relacionado con el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño del Backend y en la preparación de ciertas características correspondientes a la lógica de negocio y a los modelos de datos que interactúan con la base de datos mediante el uso de Endpoints documentados. Este enfoque abarcó la definición de las rutas de la API, la implementación de controladores, y la creación de servicios que soportan las funcionalidades requeridas por el sistema.
+
+Además, se abordaron los modelos de datos que estructuran la información en la base de datos MongoDB, asegurando que cada componente del backend esté alineado con los requisitos funcionales y no funcionales establecidos en la fase de planificación. También se discutieron las interacciones necesarias entre los distintos módulos del backend y la integración con MongoDB Atlas para garantizar un rendimiento óptimo y una alta disponibilidad de los datos. Este proceso de diseño y preparación fue crucial para sentar las bases del desarrollo efectivo en los siguientes sprints, asegurando que cada elemento del backend esté bien definido y listo para su implementación.
 
 ###### Tabla 59
 *Tabla principal del planeamiento del Sprint Backlog 1*
