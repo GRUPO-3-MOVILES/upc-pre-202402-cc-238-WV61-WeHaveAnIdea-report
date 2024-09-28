@@ -263,6 +263,9 @@ En el caso de la Landing Page de Roademics, se ha optado por un diseño intuitiv
 Además, el diseño incorpora opciones de suscripción para usuarios interesados en recibir mejoras en las funcionalidades básicas de Roademics. Asimismo, para generar confianza y credibilidad, se han integrado testimonios de clientes satisfechos, y se ha añadido un formulario de contacto que facilita la comunicación directa con el equipo de Roademics. Este enfoque garantiza una navegación clara y una interacción efectiva con los usuarios, mejorando tanto la funcionalidad como la usabilidad de la página.
 
 **<img src="/assets/img/capitulo-3/UI-UX design/landing page/wireframe/Wireframe.png">**
+___ 
+
+**<img src="/assets/img/capitulo-3/UI-UX design/landing page/wireframe/Responsive_Landing_Page_Wireframe.png">**
 
 En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page, cada característica principal está representada de forma visual y detallada. El objetivo es proporcionar a los lectores una visión integral y profunda, permitiéndoles realizar un análisis exhaustivo de cada elemento. Para facilitar este proceso, se ha incluido un enlace al desarrollo de los wireframes en la plataforma de diseño Figma. Este enlace brinda a los lectores la oportunidad de explorar interactivamente cada aspecto del diseño y acceder a información adicional en caso de ser necesario, enriqueciendo la comprensión de las decisiones de diseño tomadas:
 
@@ -274,7 +277,7 @@ Según Tidwell et al. (2020), los mock-ups, al igual que los wireframes, desempe
 
 En el caso específico de la landing page de Roademics, se ha optado por la utilización de mock-ups para crear un entorno visualmente atractivo y coherente. Estos mock-ups incluyen diversas secciones diseñadas para captar la atención del usuario y proporcionar una experiencia estética y funcionalmente refinada. Entre las características destacadas se encuentra la página de inicio, que actúa como la puerta principal de acceso, ofreciendo una visión general de las funcionalidades y servicios de Roademics con un enfoque más elaborado en los elementos visuales.
 
-
+**<img src="/assets/img/capitulo-3/UI-UX design/landing page/mockup/Landing_Page_Mockup.png">**
 
 En este conjunto de mockups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
 
@@ -320,7 +323,7 @@ En esta sección, presentaremos los Mock-Ups detallados de la Aplicación Móvil
 
 Hemos seguido un enfoque basado en la estructuración clara de las pantallas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...). Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para ofrecer una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
 
-**(Imagenes aqui)**:
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/mobile_mockups.png">**
 
 Los mockups de la aplicación móvil de Roademics proporcionan una representación visual detallada de la interfaz final. Cada pantalla está diseñada con el objetivo de ofrecer una experiencia de usuario intuitiva y atractiva, enfocándose en la claridad y el acceso rápido a las principales funcionalidades. Se incluye un enlace a los mockups en Figma para que los interesados puedan explorar cada pantalla y realizar ajustes o sugerencias interactivamente:
 
@@ -332,11 +335,12 @@ Esta sección presenta la propuesta de User Flows seleccionada y definida por nu
 
 Cada User Flow incluye una descripción clara del objetivo del usuario correspondiente, junto con una explicación detallada de los pasos involucrados en el flujo. Esto proporciona una visión integral y precisa de cómo los usuarios navegan por la aplicación y de cómo avanzan a lo largo de las diferentes etapas del proceso, facilitando la comprensión tanto del diseño como de su funcionamiento. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre las distintas fases del flujo, lo que simplifica la comprensión del proceso completo de interacción (Katz & Singh, 2019).
 
-**(Imagenes aqui)**:
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/userflow_1.png">**
+**<img src="/assets/img/capitulo-3/UI-UX design/mobile/userflow_2.png">**
 
 Los User Flow Diagrams de la aplicación Roademics describen de manera detallada los caminos que los usuarios seguirán al interactuar con la aplicación. Estos diagramas destacan los puntos de decisión y las rutas posibles, proporcionando una visión clara de cómo los usuarios logran sus objetivos dentro de la plataforma. Proporcionaremos en enlace para todos los interesados en el modelo en el que se enfocó Roademics durante todo el proceso:
 
-**(Enlace)**
+**[(Enlace](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-9429%2C19%2C14749%2C6198%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
 #### 3.1.4.5. Mobile Applications Prototyping.
 
@@ -687,6 +691,34 @@ Para el desarrollo del diseño del software orientado a objetos, decidimos utili
             <td>nombre de usuario</td>
         </tr>
          <tr>
+            <td>password</td>
+            <td>string</td>
+            <td>contrasenia de usuario</td>
+        </tr>
+            <td>createdAt</td>
+            <td>date</td>
+            <td>Fecha de creación del usuario</td>
+        </tr>
+         <tr>
+            <td>updatedAt</td>
+            <td>date</td>
+            <td>Fecha de actualización de datos del usuario</td>
+        </tr>
+ </table>
+
+##### Profiles
+<table>
+        <tr>
+            <td>Atributo</td>
+            <td>Tipo</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>_id</td>
+            <td>objectId</td>
+            <td>Identificador único de un usuario</td>
+        </tr>
+        <tr>
             <td>email</td>
             <td>string</td>
             <td>correo de usuario</td>
@@ -695,6 +727,16 @@ Para el desarrollo del diseño del software orientado a objetos, decidimos utili
             <td>userType</td>
             <td>enum</td>
             <td>tipos de usuario disponibles</td>
+        </tr>
+         <tr>
+            <td>personalInfo</td>
+            <td>object</td>
+            <td>conjunto de datos de información personal</td>
+        </tr>
+        <tr>
+            <td>biography</td>
+            <td>string</td>
+            <td>biografía del usuario</td>
         </tr>
          <tr>
             <td>connections</td>
@@ -712,6 +754,16 @@ Para el desarrollo del diseño del software orientado a objetos, decidimos utili
             <td>TIpo de membresía del usuario</td>
         </tr>
          <tr>
+            <td>notifications</td>
+            <td>Object array</td>
+            <td>arreglo de notificaciones</td>
+        </tr>
+         <tr>
+            <td>preferencias</td>
+            <td>Object array</td>
+            <td>arreglo de preferencias</td>
+        </tr>
+         <tr>
             <td>createdAt</td>
             <td>date</td>
             <td>Fecha de creación del usuario</td>
@@ -721,7 +773,7 @@ Para el desarrollo del diseño del software orientado a objetos, decidimos utili
             <td>date</td>
             <td>Fecha de actualización de datos del usuario</td>
         </tr>
- </table>
+</table>
 
   ##### Memberships
 <table>
