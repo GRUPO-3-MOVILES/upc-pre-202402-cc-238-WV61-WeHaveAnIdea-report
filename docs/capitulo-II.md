@@ -2241,9 +2241,9 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
 	        </tr>
 		<tr>
 	    <td colspan="1">26</td>
-            <td colspan="1">TS010</td>
-            <td colspan="1">Formulario de edición de perfil</td>
-            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos.</td>
+            <td colspan="1">US003</td>
+            <td colspan="1">Verificación de Correo Electrónico durante el registro</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	<tr>
@@ -2304,172 +2304,353 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
 	        </tr>
 	 	 <tr>
 	    <td colspan="1">35</td>
-            <td colspan="1">TS020</td>
-            <td colspan="1">Implementación de un sistema de control de conexiones.</td>
-            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
-            <td colspan="1"> 5 </td>
-	        </tr>
-	 	 <tr>
-	    <td colspan="1">36</td>
             <td colspan="1">TS019</td>
             <td colspan="1">Asegurar la integración del sistema de mensajes directos.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> asegurar la integración del sistema de mensajes directos, <strong>para</strong> garantizar que las funcionalidades de mensajería entre usuarios y empresas funcionen correctamente y de manera fluida dentro de la aplicación, mejorando la comunicación y la interacción entre los usuarios.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	        <tr>
-	    <td colspan="1">37</td>
+	    <td colspan="1">36</td>
             <td colspan="1">US031</td>
             <td colspan="1">Poder chatear directamente con otros usuarios y empresas.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder chatear directamente con otros usuarios y cuentas de empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin tener que salir de la aplicación, mejorando así la eficiencia y comodidad en las interacciones.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	<tr>
-	    <td colspan="1">38</td>
+	    <td colspan="1">37</td>
             <td colspan="1">US032</td>
             <td colspan="1">Gestión de privacidad en el chat.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar la privacidad de todas mis conversaciones en el chat, <strong>para</strong> asegurar que mi información y comunicaciones estén protegidas y se respeten mis preferencias de privacidad en todo momento.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	<tr>
-	    <td colspan="1">39</td>
+	    <td colspan="1">38</td>
             <td colspan="1">US034</td>
             <td colspan="1">Poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">40</td>
+	    <td colspan="1">39</td>
             <td colspan="1">US035</td>
             <td colspan="1">Poder recibir informes avanzados sobre la actividad de mi perfil.</td>
             <td colspan="2"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">41</td>
+	    <td colspan="1">40</td>
             <td colspan="1">US037</td>
             <td colspan="1">Poder revisar el historial de inicios de sesión recientes.</td>
             <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	<tr>
-	    <td colspan="1">42</td>
+	    <td colspan="1">41</td>
             <td colspan="1">US012</td>
             <td colspan="1">Eliminación de una cuenta de usuario.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	         <tr>
-	    <td colspan="1">43</td>
+	    <td colspan="1">42</td>
             <td colspan="1">US013</td>
             <td colspan="1">Sección de cambio de contraseña.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	<tr>
-	    <td colspan="1">44</td>
+	    <td colspan="1">43</td>
             <td colspan="1">US014</td>
             <td colspan="1">Gestión de notificaciones de usuario.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar de forma adecuada cómo se controlan las notificaciones en mi cuenta y perfil dentro de Roademics, <strong>para</strong> estar informado sobre los cambios que son de mi interés, mientras selecciono qué otros eventos no requieren que reciba notificaciones, brindándome control total sobre las alertas que recibo.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">45</td>
+	    <td colspan="1">44</td>
             <td colspan="1">US015</td>
             <td colspan="1">Notificaciones personalizadas para el usuario.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">46</td>
+	    <td colspan="1">45</td>
             <td colspan="1">US010</td>
             <td colspan="1">Gestión de preferencias de visibilidad del perfil.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder configurar la visibilidad de mi perfil para que sea público o privado o que solo un grupo de usuarios puedan revisarlo, <strong>para</strong> tener control sobre quién puede ver mi información personal y mis actividades dentro de la plataforma.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">47</td>
+	    <td colspan="1">46</td>
             <td colspan="1">US019</td>
             <td colspan="1">Acceso a plantillas básicas y avanzadas para la creación de Roadmaps.</td>
             <td colspan="2"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
             <td colspan="1"> 5 </td>
+	        </tr>
+	         <tr>
+	    <td colspan="1">47</td>
+            <td colspan="1">TS023</td>
+            <td colspan="1">Poder suscribirme de manera fácil a una membresía premium.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder suscribirme de manera fácil a una membresía premium, <strong>para</strong> acceder a todas las funcionalidades exclusivas de la plataforma sin complicaciones, y mejorar mi experiencia de usuario.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+            <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
 	    <td colspan="1">48</td>
-            <td colspan="1">US019</td>
-            <td colspan="1">Acceso a plantillas básicas y avanzadas para la creación de Roadmaps.</td>
-            <td colspan="2"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
-            <td colspan="1"> 5 </td>
-	        </tr>
-	 	 <tr>
-	    <td colspan="1">49</td>
-            <td colspan="1">US022</td>
-            <td colspan="1">Eliminación de Roadmaps.</td>
-            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
-            <td colspan="1"> 3 </td>
-	        </tr>
-	 	<tr>
-	    <td colspan="1">49</td>
             <td colspan="1">US022</td>
             <td colspan="1">Eliminación de Roadmaps.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">50</td>
+	    <td colspan="1">49</td>
             <td colspan="1">US023</td>
             <td colspan="1">Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">51</td>
+	    <td colspan="1">50</td>
             <td colspan="1">US025</td>
             <td colspan="1">Poder exportar mi roadmaps en formato como PDF o PNG.</td>
             <td colspan="2"><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">52</td>
+	    <td colspan="1">51</td>
             <td colspan="1">US027</td>
             <td colspan="1">Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">53</td>
+	    <td colspan="1">52</td>
             <td colspan="1">US029</td>
             <td colspan="1">Compartir un roadmap con otros usuarios.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder compartir mi roadmap con otros usuarios de la plataforma, <strong>para</strong> recibir retroalimentación o colaborar en la planificación de mi carrera profesional, fomentando el intercambio de ideas y la mejora mutua, o para que pueda ser revisado directamente por otras empresas que podrían ofrecerme trabajos por mis habilidades.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	<tr>
-	    <td colspan="1">54</td>
+	    <td colspan="1">53</td>
             <td colspan="1">TS017</td>
             <td colspan="1">Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">55</td>
+	    <td colspan="1">54</td>
             <td colspan="1">TS018</td>
             <td colspan="1">Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visualice su perfil o roadmap.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">56</td>
-            <td colspan="1">TS018</td>
-            <td colspan="1">Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visualice su perfil o roadmap.</td>
-            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva.</td>
+	    <td colspan="1">55</td>
+            <td colspan="1">TS012</td>
+            <td colspan="1">Funcionalidad de edición de perfil esté conectada a una API backend.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que la funcionalidad de edición de perfil esté conectada a una API backend, <strong>para</strong> asegurar que los cambios realizados en mi perfil se sincronicen correctamente con el servidor y se reflejen en la base de datos.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
-
-
-
-
-  
-
-
-
-
-
+	 	 <tr>
+	    <td colspan="1">56</td>
+            <td colspan="1">TS011</td>
+            <td colspan="1">Funcionalidad para gestión de fotos de perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder gestionar mi foto de perfil, <strong>para</strong> personalizar mi perfil con una nueva imagen y actualizarla cuando lo desee.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">57</td>
+            <td colspan="1">TS008</td>
+            <td colspan="1">Implementación de autenticación de dos factores (2FA).</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar autenticación de dos factores (2FA), <strong>para</strong> añadir una capa adicional de seguridad al proceso de autenticación de usuarios y proteger mejor sus cuentas.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">58</td>
+            <td colspan="1">TS006</td>
+            <td colspan="1">Integración de un flujo de recuperación de contraseña.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar un flujo de recuperación de contraseña, <strong>para</strong> permitir a los usuarios restablecer sus contraseñas de manera segura en caso de olvido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">59</td>
+            <td colspan="1">US005</td>
+            <td colspan="1">Recuperación de contraseña de cuenta.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en Roademics, <strong>quiero</strong> tener la opción de recuperar mi contraseña <strong>para</strong> poder restablecer mi acceso a la plataforma en caso de haberla olvidado o garantizar mi seguridad, y permitir la continuidad del uso de todas las funcionalidades asociadas a mi cuenta.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">60</td>
+            <td colspan="1">US007</td>
+            <td colspan="1">Agregar una foto o imagen en el perfil de usuario.</td>
+            <td colspan="2"><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">61</td>
+            <td colspan="1">TS021</td>
+            <td colspan="1">Diseñar un sistema para reportar y bloquear usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> diseñar un sistema para reportar y bloquear usuarios, <strong>para</strong> mantener un entorno seguro y libre de comportamiento inapropiado o no deseado, y poder gestionar mi experiencia en la plataforma de manera efectiva.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">62</td>
+            <td colspan="1">TS024</td>
+            <td colspan="1">Gestionar mi suscripción desde mi perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> gestionar mi suscripción desde mi perfil, <strong>para</strong> tener la capacidad de revisar, actualizar o cancelar mi suscripción de manera sencilla y conveniente, según mis necesidades y preferencias.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">63</td>
+            <td colspan="1">TS025</td>
+            <td colspan="1">Recibir una notificación antes de que mi membresía se renueve automáticamente</td>
+            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir una notificación antes de que mi membresía se renueve automáticamente, <strong>para</strong> tener la oportunidad de revisar mi suscripción, realizar ajustes si es necesario, y evitar cargos inesperados.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">64</td>
+            <td colspan="1">TS026</td>
+            <td colspan="1">Acceso a un periodo de prueba</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">65</td>
+            <td colspan="1">TS027</td>
+            <td colspan="1">Acceso a un periodo de prueba</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">66</td>
+            <td colspan="1">US030</td>
+            <td colspan="1">Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap profesional.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y visibilidad de mis datos, tomando decisiones informadas sobre la exposición de mi contenido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">67</td>
+            <td colspan="1">US033</td>
+            <td colspan="1">Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas, asegurando un entorno respetuoso y libre de contenido no permitido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">68</td>
+            <td colspan="1">US036</td>
+            <td colspan="1">Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">69</td>
+            <td colspan="1">TS027</td>
+            <td colspan="1">Recibir soporte prioritario y asistencia personalizada.</td>
+            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir soporte prioritario y asistencia personalizada, <strong>para</strong> obtener ayuda rápida y efectiva para resolver cualquier problema o consulta relacionada con mi cuenta y el uso de la plataforma.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">70</td>
+            <td colspan="1">TS035</td>
+            <td colspan="1">Implementación de módulos de Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> implementar módulos de Términos y condiciones, <strong>para</strong> poder gestionar y actualizar fácilmente el contenido legal de la plataforma y asegurarme de que las políticas sean accesibles y estén actualizadas para todos los usuarios.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">71</td>
+            <td colspan="1">TS036</td>
+            <td colspan="1">Integración de un sistema de versiones para los Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> integrar un sistema de versiones para los Términos y condiciones, <strong>para</strong> poder gestionar y rastrear cambios históricos en el contenido legal y asegurarme de que los usuarios siempre tengan acceso a las versiones correctas y actualizadas.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">72</td>
+            <td colspan="1">TS037</td>
+            <td colspan="1">Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que los Términos y condiciones sean redactados en un lenguaje claro y comprensible, <strong>para</strong> asegurarme de que puedo entender fácilmente las políticas y reglas de uso sin confusión.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">73</td>
+            <td colspan="1">US008</td>
+            <td colspan="1">Gestión de sección de biografía.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">74</td>
+            <td colspan="1">US038</td>
+            <td colspan="1">Leer y aceptar Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">75</td>
+            <td colspan="1">US039</td>
+            <td colspan="1"> Revisar Términos y condiciones actualizados.</td>
+            <td colspan="2"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">76</td>
+            <td colspan="1">US040</td>
+            <td colspan="1"> Accesibilidad a Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">77</td>
+            <td colspan="1">TS038</td>
+            <td colspan="1"> Fácil navegación en el diseño de la Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>
+  	 	 <tr>
+	    <td colspan="1">78</td>
+            <td colspan="1">TS039</td>
+            <td colspan="1"> Deploy a GitHub Pages.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">79</td>
+            <td colspan="1">TS040</td>
+            <td colspan="1"> Integración de un sistema de seguimiento de métricas.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">80</td>
+            <td colspan="1">US041</td>
+            <td colspan="1"> Diseñar una landing page persuasiva con un claro llamado a la acción (CTA).</td>
+            <td colspan="2"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">81</td>
+            <td colspan="1">US042</td>
+            <td colspan="1"> Visualizar contenido de Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">82</td>
+            <td colspan="1">US043</td>
+            <td colspan="1">Formulario de contacto.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">83</td>
+            <td colspan="1">US044</td>
+            <td colspan="1">Implementación de footer.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">84</td>
+            <td colspan="1">US045</td>
+            <td colspan="1">Responsive Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
