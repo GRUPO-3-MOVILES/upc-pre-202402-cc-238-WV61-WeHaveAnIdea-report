@@ -356,7 +356,7 @@ A continuación, proporcionaremos una descripción detallada de los pasos necesa
 1. El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
 
 ###### Figura 60
-*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Propertunity.*
+*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Roademics.*
 <img src="/assets/img/set-repository-name.png" alt="Set Repository Name">
 <img src="/assets/img/repository.png" alt="Repository">
 
@@ -373,13 +373,13 @@ A continuación, proporcionaremos una descripción detallada de los pasos necesa
 5. Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
 
 ###### Figura 62
-*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Propertunity.*
+*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Roademics.*
 <img src="/assets/img/github-link.png" alt="github link">
 
-6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio.
+6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/ 
 
 ###### Figura 63
-*Imagen de muestra y presentación sobre la Landing Page de Propertunity ya desplegada.*
+*Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
 <img src="/assets/img/landing_deployed.png" alt="Landing deployed">
 
 ## 5.2. Software Development & Implementation.
@@ -497,7 +497,7 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Visualización de contenido completo de la Landing Page</td>
             <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
             <td>2 horas</td>
-            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
                 <tr>
@@ -506,8 +506,8 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>T03</td>
             <td>Desarrollo y presentación de formulario de contacto</td>
             <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
-            <td>1 hora</td>
-            <td>Yen Cerna, Lucio Heli</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td> 
             <td>Done</td>
         </tr>
                 <tr>
@@ -516,7 +516,7 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>T04</td>
             <td>Implementación de la sección de footer</td>
             <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
-            <td>1 hora</td>
+            <td>1 hora con 30 minutos</td>
             <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
@@ -527,31 +527,39 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Implementación de propiedades Responsive en la Landing Page</td>
             <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
             <td>1 hora</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td> 
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US001</td>
+            <td>Registro de cuenta en la plataforma</td>
+            <td>T06</td>
+            <td>Registro de una cuenta en la aplicación</td>
+            <td><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
+            <td>2 horas con 30 minutos</td>
             <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US28</td>
-            <td>Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación</td>
-            <td>T06</td>
-            <td>Creación de roadmaps y compartirlos con los demás usuarios de la aplicación</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
-            <td>Done</td>
-        </tr>
-                </tr>
-                <tr>
-            <td>US29</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
+            <td>US003</td>
+            <td>Verificación de Correo Electrónico durante el registro</td>
             <td>T07</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
-            <td>Como usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente..</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
+            <td><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
-                </tr>
+                  <tr>
+            <td>US004</td>
+            <td>Inicio de sesión con cuenta de la aplicación</td>
+            <td>T07</td>
+            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
+            <td><<strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td>3 horas con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
     </table>
 
 #### 5.2.2.3 Development Evidence for Sprint Review.
@@ -580,7 +588,7 @@ Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en com
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
 
-En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1, y describen la interacción entre el Backend y los Web Services, así como su aplicación directa al FrontEnd de la solución.
+En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
 
 A continuación, se incluye una tabla exhaustiva donde se especifican las acciones soportadas para cada Endpoint, destacando el verbo HTTP utilizado (GET, POST, PUT, DELETE, PATCH) y proporcionando la sintaxis exacta de la llamada. También se detallan los posibles parámetros que pueden ser incluidos, junto con un ejemplo práctico de cada solicitud. Además, se ofrece una explicación clara y precisa del response correspondiente, asegurando que el equipo de desarrollo y los interesados comprendan cómo se procesan las peticiones y respuestas en el sistema. Esta documentación es clave para garantizar una integración fluida y efectiva entre los componentes del sistema, facilitando la comunicación entre el Backend y el FrontEnd.
 
@@ -596,23 +604,45 @@ A continuación, se incluye una tabla exhaustiva donde se especifican las accion
 | POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
 | POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
 
-
-###### Tabla 28
-Tabla del modelo de escritura para el Bounded Context de Roadmaps:
-| Método  | Descripción                                            | Ejemplo de llamada               | Parámetros                                                      | Respuesta                                                                                 |
-|---------|--------------------------------------------------------|----------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| GET     | Obtener todos los roadmaps disponibles                 | GET /roadmaps                    | Ninguno                                                         | Lista de roadmaps en formato JSON con detalles como título, descripción, nodos, edges, etc.|
-| POST    | Crear un nuevo roadmap                                 | POST /roadmaps                   | `title`, `description`, `nodes[]`, `edges[]`                    | Detalles del nuevo roadmap creado, incluyendo ID y fecha de creación.                     |
-| PUT     | Modificar un roadmap existente                         | PUT /roadmaps/{id}               | `title`, `description`, `nodes[]`, `edges[]`                    | Roadmap actualizado con la nueva información proporcionada.                               |
-| DELETE  | Eliminar un roadmap                                    | DELETE /roadmaps/{id}            | `id` del roadmap                                                | Mensaje de confirmación de eliminación del roadmap.                                        |
-| GET     | Obtener detalles de un roadmap específico              | GET /roadmaps/{id}               | `id` del roadmap                                                | Detalles del roadmap solicitado, con nodos y edges.                                       |
-| POST    | Generar recomendaciones mediante IA para un roadmap    | POST /roadmaps/{id}/recommendations | `id`, `userPrompt`, `aiToken`                                   | Respuesta de la IA con sugerencias personalizadas para el roadmap.                        |
-| GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
-| POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
-Dentro del Sprint 1, no se realizo ningún despliegue.
+En esta sección ex
+
+Comenzaremos el proceso creando un repositorio en GitHub, que servirá como el almacén centralizado para todos los archivos que componen nuestra página de destino, incluyendo HTML, CSS y JavaScript. Una vez que el repositorio esté establecido, cada miembro del equipo colaborará en su propia rama "feature" para desarrollar distintas características y funcionalidades del Landing Page, garantizando así que cada contribución se realice de manera aislada y organizada. Al finalizar el desarrollo de una característica específica, se procederá a llevar a cabo el proceso de fusión (merge) con la rama "develop". Este proceso de integración es crucial, ya que asegura que la página de destino se mantenga siempre actualizada con las últimas modificaciones y mejoras que se hayan implementado por parte de los miembros del equipo. Para facilitar esta integración, se recomienda que se realicen revisiones de código y pruebas antes de completar el merge, lo que contribuirá a mantener la calidad del código y a detectar posibles conflictos o errores en etapas tempranas.
+
+Posteriormente, configuraremos GitHub Pages para que publique automáticamente la página de destino utilizando la rama "develop". Este paso es fundamental, ya que permitirá que nuestra Landing Page sea accesible públicamente, facilitando su visualización y prueba por parte de los interesados y usuarios finales. Esta configuración no solo simplifica el proceso de despliegue, sino que también proporciona un enlace directo que puede compartirse fácilmente con el equipo y las partes interesadas, permitiendo una retroalimentación más rápida y eficiente.
+
+A continuación, proporcionaremos una descripción detallada de los pasos necesarios para llevar a cabo este proceso de despliegue en GitHub Pages. Cada uno de estos pasos se elaborará con suficiente profundidad para asegurar una implementación eficiente y sin contratiempos de nuestra solución, destacando las mejores prácticas y consideraciones técnicas que deberán tenerse en cuenta a lo largo del proceso. Con esta guía, buscamos garantizar que el equipo esté alineado y preparado para llevar a cabo una implementación exitosa del Landing Page.
+
+1. El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
+
+###### Figura 60
+*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Roademics.*
+<img src="/assets/img/set-repository-name.png" alt="Set Repository Name">
+<img src="/assets/img/repository.png" alt="Repository">
+
+2. El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
+
+3. El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
+
+4. El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
+
+###### Figura 61
+*Imagen de muestra y presentación sobre el despliegue de la Landing Page y el ajuste de las ramas integradas.*
+<img src="/assets/img/pagedeployed.png" alt="github page">
+
+5. Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
+
+###### Figura 62
+*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Roademics.*
+<img src="/assets/img/github-link.png" alt="github link">
+
+6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/ 
+
+###### Figura 63
+*Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
+<img src="/assets/img/landing_deployed.png" alt="Landing deployed">
+
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
