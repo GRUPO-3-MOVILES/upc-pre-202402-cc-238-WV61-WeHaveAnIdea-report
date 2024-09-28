@@ -2383,9 +2383,87 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
 	    <td colspan="1">46</td>
             <td colspan="1">US010</td>
             <td colspan="1">Gestión de preferencias de visibilidad del perfil.</td>
-            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder configurar la visibilidad de mi perfil para que sea público o privado o que solo un grupo de usuarios puedan revisarlo, <strong>para</strong> tener control sobre quién puede ver mi información personal y mis actividades dentro de la plataforma.</td>
             <td colspan="1"> 5 </td>
 	        </tr>
+	 	 <tr>
+	    <td colspan="1">47</td>
+            <td colspan="1">US019</td>
+            <td colspan="1">Acceso a plantillas básicas y avanzadas para la creación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">48</td>
+            <td colspan="1">US019</td>
+            <td colspan="1">Acceso a plantillas básicas y avanzadas para la creación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">49</td>
+            <td colspan="1">US022</td>
+            <td colspan="1">Eliminación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">49</td>
+            <td colspan="1">US022</td>
+            <td colspan="1">Eliminación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">50</td>
+            <td colspan="1">US023</td>
+            <td colspan="1">Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">51</td>
+            <td colspan="1">US025</td>
+            <td colspan="1">Poder exportar mi roadmaps en formato como PDF o PNG.</td>
+            <td colspan="2"><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">52</td>
+            <td colspan="1">US027</td>
+            <td colspan="1">Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">53</td>
+            <td colspan="1">US029</td>
+            <td colspan="1">Compartir un roadmap con otros usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder compartir mi roadmap con otros usuarios de la plataforma, <strong>para</strong> recibir retroalimentación o colaborar en la planificación de mi carrera profesional, fomentando el intercambio de ideas y la mejora mutua, o para que pueda ser revisado directamente por otras empresas que podrían ofrecerme trabajos por mis habilidades.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">54</td>
+            <td colspan="1">TS017</td>
+            <td colspan="1">Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">55</td>
+            <td colspan="1">TS018</td>
+            <td colspan="1">Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visualice su perfil o roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">56</td>
+            <td colspan="1">TS018</td>
+            <td colspan="1">Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visualice su perfil o roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+
 
 
 
