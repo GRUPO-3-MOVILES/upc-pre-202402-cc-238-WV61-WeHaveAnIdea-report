@@ -2055,32 +2055,137 @@ El Product Backlog no solo se limita a historias de usuario, sino que también i
 
 En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
 
-| #Orden     | User Story Id  | Titulo                                                  | Descripcion               | Story Points (1/2/3/5/8)   |
-|------------|----------------|---------------------------------------------------------|---------------------------|----------------------------|
-|     1      |      US021      |Creación de roadmap académico básico                                                          | Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales                          | 8                           |
-|     2      |      US022      | Generación de roadmap con IA                                                        | Como usuario que busca optimizar su trayectoria profesional, quiero que la plataforma genere un roadmap profesional utilizando inteligencia artificial, para recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.                          | 8                           |
-|     3      |      US023      |  Acceso a plantillas avanzadas y sugerencias de IA                                                       | Como usuario que desea mejorar su planificación profesional, quiero tener acceso a plantillas avanzadas y recibir sugerencias de inteligencia artificial, para facilitar la creación de un roadmap profesional detallado y personalizado que se ajuste a mis necesidades y objetivos específicos.                          |  8                          |
-|     4      |      US024      |Edición de roadmaps básicos                                                         | Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades                          | 8                           |
-|     5      |      US025      | Acceso a herramienta de edición avanzada para usuarios Premium                                                        |Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.                           |      8                     |
-|     6      |      US026      | Eliminación de roadmaps que no se requieren                                                        |Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.                           |  8                          |
-|     7      |      US027      | Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar                                                        |Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio                          | 8                           |
-|     8      |      US028      | Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación                                                        | Como usuario Premium, quiero crear roadmaps personalizados ilimitados y compartirlos con otros usuarios de la aplicación, para tener la flexibilidad de diseñar múltiples roadmaps según mis necesidades y colaborar con otros usuarios al compartir mis planes.                          |  8                          |
-|     9      |      US029      | 	Recibir análisis avanzados sobre mi propio roadmap                                                        |  omo usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente.                         |   5                         |
-|     10     |      US030      |   Poder exportar mi roadmaps en formato como PDF o PNG                                                      | Como usuario Premium, quiero poder exportar mis roadmaps en formatos como PDF o PNG, para tener la opción de guardar, compartir o imprimir mis roadmaps en un formato que sea fácilmente accesible y presentable.                          | 5                           |
-|     11     |      US031      | Poder crear los pasos de mi roadmap                                                        |  Como usuario registrado, quiero poder crear los "pasos" (nodo) de mi roadmap, para estructurar y definir claramente las etapas y acciones necesarias para alcanzar mis objetivos profesionales.                         |   5                        |
-|     12     |      US032      |  Creacion de roadmaps con grafos más complejos                                                       |  Como usuario Premium, quiero crear roadmaps con grafos más complejos, para tener la capacidad de diseñar roadmaps con múltiples niveles, relaciones entre pasos y una estructura más detallada                         | 5                           |
-|     13     |      US033      |    Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible                                                     |Como usuario registrado, quiero recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, para estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap y tomar las medidas necesarias para actualizar o ajustar mi plan.                           |    5                        |
-|     14     |      US034      |   Guardar versiones de mi roadmap                                                      |Como usuario registrado, quiero guardar versiones de mi roadmap, para tener un historial de cambios y poder revertir a versiones anteriores si es necesario.                           |  5                          |
-|     15     |      TS035      |  Creación de una estructura de datos en grafo para representar los roadmaps                                                       | Como desarrollador, quiero crear una estructura de datos en grafo para representar los roadmaps, para tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.                          |   5                         |
-|     16     |      TS036      |   Optimización de la creación, edición de nodos y conexiones en el grafo                                                      | Como usuario en la aplicación, quiero que la creación y edición de nodos y conexiones en el grafo sean optimizadas, para mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.                          |  5                          |
-|     17     |      TS037      |  Implementación de una interfaz visual interactiva para la manipulación del grafo                                                       |Como usuario registrado, quiero una interfaz visual interactiva para la manipulación del grafo, para poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.                           |   5                         |
-|     18     |      TS038      |  Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.                                                       | Como usuario registrado, quiero que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, para recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales                          |   5                         |
-|     19     |      TS039      |  Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo                                                       |Como usuario registrado, quiero implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, para identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap                           | 5                           |
-|     20     |      US070      |Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)                                                         | Como diseñador web, quiero diseñar una landing page persuasiva con un claro llamado a la acción (CTA), para maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles                          |   3                         |
-|     21     |      US071      |  Visualizar contenido de Landing Page                                                       |  Como visitante de la plataforma, quiero poder visualizar el contenido de la landing page, para obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir                         |    3                        |
-|     22     |      US072      | Formulario de contacto                                                        |  Como visitante de la plataforma, quiero tener acceso a un formulario de contacto, para poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla                         |     3                       |
-|     23     |      US073      | Implementación de footer                                                        |Como visitante de la plataforma, quiero que el footer esté implementado en todas las páginas, para tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre                           |  3                          |
-|     24     |      US074      |  Responsive Landing Page                                                       |Como visitante de la plataforma, quiero que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, para tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.                           |   3                         |
-|     25     |      TS075      |  Fácil navegación en el diseño de la Landing Page                                                       | Como visitante de la plataforma, quiero que el diseño de la landing page facilite la navegación, para poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.                          |   3                         |
-|     26     |      TS076      | Deploy a GitHub Pages                                                     | Como desarrollador, quiero desplegar mi landing page en GitHub Pages, para que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.                          | 3                           |
-|     27      |     TS077     |  Integración de un sistema de seguimiento de métricas       |Como desarrollador, quiero integrar un sistema de seguimiento de métricas en la landing page, para poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua. |3|
+<table  style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1">#Orden</td>
+            <td colspan="1">User story ID</td>
+            <td colspan="1">Título</td>
+            <td colspan="2">Descripción</td>
+            <td colspan="1">Story Points (1/2/3/5/8)</td>
+		</tr>
+		<tr>
+            <td colspan="1">1</td>
+            <td colspan="1">TS013</td>
+            <td colspan="1">Creación de una estructura de datos en grafo para representar los roadmaps</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">2</td>
+            <td colspan="1">TS014</td>
+            <td colspan="1">Optimización de la creación, edición de nodos y conexiones en el grafo</td>
+            <td colspan="2"><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.</td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">3</td>
+            <td colspan="1">US016</td>
+            <td colspan="1">Creación de Roadmap Básico</td>
+            <td colspan="2"><strong>Como</strong> usuario de la aplicación de Roademics interesado en planificar mi trayectoria profesional con las funciones ofrecidas, <strong>quiero</strong> crear un roadmap académico básico en la plataforma, <strong>para</strong> visualizar y gestionar mi progreso académico, planificar mis cursos y establecer metas profesionales de manera eficiente y estructurada.</td></td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">4</td>
+            <td colspan="1">US017</td>
+            <td colspan="1">Generación automática de roadmap con el uso de inteligencia artificial</td>
+            <td colspan="2"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma sea capaz de generar un roadmap profesional utilizando las herramientas de inteligencia artificial que dispone, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+    		<tr>
+            <td colspan="1">5</td>
+            <td colspan="1">US020</td>
+            <td colspan="1">Edición de roadmaps básicos</td>
+            <td colspan="2"><strong>Como</strong> usuario que ha creado un roadmap básico en la plataforma de Roademics, <strong>quiero</strong> poder editar el roadmap existente con el uso de herramientas variadas de edición y modificación, <strong>para</strong> actualizar la información relevante, ajustar mis objetivos profesionales o académicos, y modificar mis planes según mis necesidades actuales.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+      		<tr>
+            <td colspan="1">6</td>
+            <td colspan="1">TS015</td>
+            <td colspan="1">Implementación de una interfaz visual interactiva para la manipulación del grafo</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+       		<tr>
+            <td colspan="1">7</td>
+            <td colspan="1">TS016</td>
+            <td colspan="1">Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+       		<tr>
+            <td colspan="1">8</td>
+            <td colspan="1">US021</td>
+            <td colspan="1">Acceso a herramientas de edición avanzada de roadmaps para usuarios premium.</td>
+            <td colspan="2"><strong>Como</strong> usuario con suscripción Premium en la plataforma Roademics, <strong>quiero</strong> tener acceso a herramientas de edición avanzada para la modificación de mis roadmaps profesionales, <strong>para</strong> aprovechar funcionalidades adicionales que me permitan optimizar la planificación y gestión de mis metas, brindándome mayor flexibilidad y precisión en la creación y ajuste de mis objetivos.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+         	<tr>
+            <td colspan="1">9</td>
+            <td colspan="1">US024</td>
+            <td colspan="1">Recibir análisis avanzados sobre mi propio roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+           	<tr>
+            <td colspan="1">10</td>
+            <td colspan="1">US026</td>
+            <td colspan="1">Poder crear los nodos de mi roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">11</td>
+            <td colspan="1">US028</td>
+            <td colspan="1">Guardar versiones de mi roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">12</td>
+            <td colspan="1">US018</td>
+            <td colspan="1">Menú de almacenamiento de Roadmaps de un usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma tenga un pequeño menú o dashboard donde se muestren todos los roadmaps u hojas de ruta que he generado en la aplicación, <strong>para</strong> tener un acceso directo a cada uno de mis roadmaps y poder almacenarlos de forma más sencilla, cómoda y organizada.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">13</td>
+            <td colspan="1">TS002</td>
+            <td colspan="1">Implementación de validaciones de credenciales.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
+            <td colspan="1"> 8 </td>
+		</tr>	
+               	<tr>
+            <td colspan="1">14</td>
+            <td colspan="1">US001</td>
+            <td colspan="1">Registro de cuenta en la plataforma.</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                   <tr>
+            <td colspan="1">15</td>
+            <td colspan="1">TS001</td>
+            <td colspan="1">Integrar un sistema de registro con Firebase Authentication.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                <tr>
+            <td colspan="1">16</td>
+            <td colspan="1">US002</td>
+            <td colspan="1">Registro en la plataforma mediante una cuenta externa.</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> ser capaz de registrarme en la plataforma creando una cuenta personal a través del uso de las credenciales que tengo guardadas en otra cuenta externa, como una cuenta de un navegador o de una red social, <strong>para</strong> obtener un acceso directo y rápido a las funcionalidades de la aplicación sin tener que completar manualmente el formulario de registro.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                <tr>
+            <td colspan="1">17</td>
+            <td colspan="1">TS003</td>
+            <td colspan="1">Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td colspan="1"> 8 </td>
+		</tr>                <tr>
+            <td colspan="1">18</td>
+            <td colspan="1">TS003</td>
+            <td colspan="1">Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
