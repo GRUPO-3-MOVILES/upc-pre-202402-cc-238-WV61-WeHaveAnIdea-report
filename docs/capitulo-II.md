@@ -633,7 +633,7 @@ En la siguiente sección, procederemos a presentar un análisis exhaustivo y det
 De acuerdo con Sommerville (2020), una historia de usuario es una técnica esencial en el desarrollo de software, utilizada para describir una funcionalidad o característica desde la perspectiva del usuario final. En cada historia, se captura la identidad del usuario, la acción que necesita realizar y la razón por la cual esa acción es necesaria. Esta descripción concisa y centrada en el usuario no solo proporciona una guía clara para el equipo de desarrollo durante el diseño y la construcción del producto, sino que también asegura que se mantengan siempre en el centro de atención las necesidades y expectativas del usuario final. Al seguir este enfoque, garantizamos que cada componente desarrollado responda de manera efectiva a las demandas del usuario, contribuyendo al éxito global del proyecto.
 
 ###### Tabla 3.
-*Tabla de las historias de usuarios establecidas.*
+*Tabla de las historias de usuario establecidas.*
 
 <table  style="text-align: left;">
 	<tbody>
@@ -1436,6 +1436,598 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
     <br><br>
     <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
     <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+</table>
+
+###### Tabla 4.
+*Tabla de las historias técnicas establecidas.*
+
+<table  style="text-align: left;">
+	<tbody>
+<tr>
+            <td colspan="1">TS001</td>
+            <td colspan="1">
+            Integrar un sistema de registro con Firebase Authentication
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario nuevo desea registrarse <strong>cuando</strong> proporciona su correo electrónico y contraseña válidos a través de la aplicación usando Firebase Authentication, <strong>entonces</strong> el sistema debe crear la cuenta en Firebase y vincularla con los datos del usuario en la plataforma.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse con un correo electrónico ya existente en Firebase, <strong>cuando</strong> el sistema detecta que la dirección de correo electrónico está duplicada, <strong>entonces</strong> se debe mostrar un mensaje de error indicando que el correo ya está asociado a una cuenta existente y no se debe permitir el registro.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS002</td>
+            <td colspan="1">
+            Implementación de validaciones de credenciales
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario ingresa su correo electrónico para registrarse, <strong>cuando</strong> el correo electrónico no tiene un formato válido <strong>entonces</strong>el sistema debe mostrar un mensaje de error indicando que el formato del correo es incorrecto y no proceder con el registro. <br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está creando una cuenta, <strong>cuando</strong>  ingresa una contraseña que no cumple con los requisitos de seguridad <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando los requisitos de contraseña que no se cumplen y no permitir la creación de la cuenta.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS003</td>
+            <td colspan="1">
+            Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> los datos del usuario están siendo transmitidos durante algún proceso en la aplicación <strong>cuando</strong> el usuario envía su información a través de la plataforma, <strong>entonces</strong> los datos deben estar protegidos mediante protocolos de encriptación como HTTPS/TLS, asegurando que la información sea inaccesible por terceros durante la transmisión.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> los datos del usuario están almacenados en la base de datos, <strong>cuando</strong>  se guarda la información sensible del usuario<strong>entonces</strong> estos datos deben estar encriptados en reposo utilizando algoritmos de cifrado seguros.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS004</td>
+            <td colspan="1">
+            Integración de sistema de autenticación con Firebase Authentication
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario registrado intenta iniciar sesión, <strong>cuando</strong> ingresa su correo electrónico y contraseña correctos a través de la aplicación, <strong>entonces</strong> el sistema debe autenticar al usuario correctamente y permitirle acceder a su cuenta en la aplicación.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión con una contraseña incorrecta, <strong>cuando</strong>  Firebase Authentication verifica las credenciales y detecta el error, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que las credenciales son incorrectas y no permitir el acceso.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS005</td>
+            <td colspan="1">
+            implementar un sistema de autenticación segura en el backend</td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está intentando acceder a una funcionalidad restringida, <strong>cuando</strong> el usuario envía un token de autenticación válido (JWT) en la solicitud, <strong>entonces</strong> el sistema debe verificar la validez del token y permitir el acceso solo si el token es válido y no ha expirado.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta acceder a una funcionalidad restringida sin un token de autenticación o con un token inválido, <strong>cuando</strong> el sistema recibe la solicitud, <strong>entonces</strong> el sistema debe rechazar la solicitud y devolver un código de error con un mensaje indicando que se requiere autenticación.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS006</td>
+            <td colspan="1">
+            Integración de un flujo de recuperación de contraseña
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar un flujo de recuperación de contraseña, <strong>para</strong> permitir a los usuarios restablecer sus contraseñas de manera segura en caso de olvido. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha olvidado su contraseña y solicita una recuperación, <strong>cuando</strong> el usuario ingresa su correo electrónico en el formulario de recuperación y envía la solicitud, <strong>entonces</strong> el sistema debe generar un enlace seguro de restablecimiento de contraseña y enviarlo al correo electrónico proporcionado.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario recibe el enlace de restablecimiento de contraseña, <strong>cuando</strong>  el usuario hace clic en el enlace y proporciona una nueva contraseña que cumpla con los requisitos de seguridad, <strong>entonces</strong> el sistema debe validar la nueva contraseña, actualizarla en la base de datos y permitir al usuario iniciar sesión con la nueva contraseña.<br><br>
+	    <strong>E03: </strong>
+	    <br><br><strong>Dado que</strong> el enlace de restablecimiento de contraseña ha expirado o es inválido, <strong>cuando</strong> un usuario intenta usar un enlace expirado o inválido para restablecer su contraseña, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que el enlace no es válido o ha expirado.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS007</td>
+            <td colspan="1">
+            Almacenamiento de contraseñas utilizando técnicas de hash y salting
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> almacenar las contraseñas de los usuarios utilizando técnicas de hash y salting, <strong>para</strong> asegurar que las contraseñas se mantengan seguras y sean resistentes a ataques. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario se registra en la plataforma o cambia su contraseña, <strong>cuando</strong> el sistema recibe la contraseña en texto plano, <strong>entonces</strong> el sistema debe aplicar un algoritmo de hash seguro junto con un salt único para la contraseña y almacenarlo en la base de datos.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión, <strong>cuando</strong> el sistema recibe la contraseña ingresada, <strong>entonces</strong> el sistema debe aplicar el mismo algoritmo de hash y usar el salt asociado para verificar la contraseña contra el hash almacenado en la base de datos.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+	<tr>
+            <td colspan="1">TS008</td>
+            <td colspan="1">
+            Implementación de autenticación de dos factores (2FA)
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar autenticación de dos factores (2FA), <strong>para</strong> añadir una capa adicional de seguridad al proceso de autenticación de usuarios y proteger mejor sus cuentas.</td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> que un usuario ha habilitado la autenticación de dos factores en su cuenta, <strong>cuando</strong> el usuario intente iniciar sesión con su correo electrónico y contraseña válidos, <strong>entonces</strong> el sistema debe solicitar un segundo factor de autenticación antes de permitir el acceso a la cuenta.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> que un usuario recibe un código de autenticación en su dispositivo móvil o aplicación de autenticación, <strong>cuando</strong> el usuario ingresa el código en el formulario de autenticación de dos factores, <strong>entonces</strong> el sistema debe verificar la validez del código y permitir el acceso solo si el código es correcto y no ha expirado.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+	<tr>
+            <td colspan="1">TS009</td>
+            <td colspan="1">
+            Módulo de ajuste de usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> acceder a un módulo detallado de ajustes de usuario, <strong>para</strong> personalizar completamente mis preferencias y gestionar con facilidad los aspectos más importantes de mi cuenta. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está plenamente autenticado en la plataforma, <strong>cuando</strong> accede al módulo de ajustes de usuario, <strong>entonces</strong> el sistema debe mostrar de manera clara y organizada todas las opciones de personalización.<br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario modifica cualquiera de sus preferencias dentro del módulo de ajustes,
+cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema recibe las actualizaciones, <strong>entonces</strong> el sistema debe guardar los cambios instantáneamente, de manera rápida y eficiente
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS010</td>
+            <td colspan="1">
+            Formulario de edición de perfil
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede al formulario de edición de perfil, <strong>entonces</strong> el sistema debe mostrar un formulario con campos editables para la información personal del usuario. <br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario realiza cambios en el formulario de edición de perfil, <strong>cuando</strong> el usuario envía el formulario con los datos actualizados, <strong>entonces</strong> el sistema debe validar la información ingresada, guardar los cambios en la base de datos y mostrar un mensaje de confirmación de que la actualización fue exitosa.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+	<tr>
+            <td colspan="1">TS011</td>
+            <td colspan="1">
+            Funcionalidad para gestión de fotos de perfil
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder gestionar mi foto de perfil, <strong>para</strong> personalizar mi perfil con una nueva imagen y actualizarla cuando lo desee. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de gestión de foto de perfil y selecciona la opción para agregar o actualizar su foto, <strong>entonces</strong> el sistema debe permitir al usuario cargar una nueva imagen desde su dispositivo y permitir al usuario guardar la nueva foto de perfil. <br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha cargado una foto de perfil, <strong>cuando</strong> el sistema recibe la imagen, <strong>entonces</strong> el sistema debe realizar validaciones básicas, y si la imagen cumple con los requisitos, actualizar la foto de perfil en la base de datos y mostrar un mensaje de confirmación indicando que la actualización fue exitosa.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS012</td>
+            <td colspan="1">
+            Funcionalidad de edición de perfil esté conectada a una API backend
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que la funcionalidad de edición de perfil esté conectada a una API backend, <strong>para</strong> asegurar que los cambios realizados en mi perfil se sincronicen correctamente con el servidor y se reflejen en la base de datos. </td>
+            <td colspan="5">
+            <strong>E01: </strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede al formulario de edición de perfil, <strong>cuando</strong> el usuario realiza cambios en su información personal y envía el formulario,<strong>entonces</strong> el sistema debe hacer una llamada a la API backend con los datos actualizados, recibir una respuesta que confirme que los cambios se han guardado correctamente en la base de datos, y mostrar un mensaje de confirmación al usuario. <br><br>
+            <strong>E02: </strong>
+	    <br><br><strong>Dado que</strong> un usuario envía el formulario de edición de perfil con datos incorrectos o incompletos, <strong>cuando</strong> la API backend procesa la solicitud, <strong>entonces</strong> el sistema debe recibir un mensaje de error detallado desde la API
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS013</td>
+            <td colspan="1">
+            Creación de una estructura de datos en grafo para representar los roadmaps
+            </td>
+            <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
+            <td colspan="5">
+            <strong>E01: Definición de nodos y aristas</strong>
+	    <br><br><strong>Dado que</strong> se está creando una estructura de datos en grafo para un roadmap, <strong>cuando</strong> se definen los nodos (pasos) y aristas (relaciones) del grafo, <strong>entonces</strong> el sistema debe permitir la definición de nodos con atributos como nombre, descripción, fecha límite, y prioridad, y establecer aristas que representen las relaciones entre nodos.<br><br>
+            <strong>E02: Persistencia de datos del grafo</strong>
+	    <br><br><strong>Dado que</strong> un usuario crea y actualiza un roadmap utilizando la estructura de datos en grafo,  <strong>cuando</strong> se guardan los cambios en el roadmap, <strong>entonces</strong> el sistema debe almacenar la estructura del grafo en una base de datos de manera eficiente, asegurando que los nodos, aristas y sus atributos se persistan correctamente y puedan ser recuperados y manipulados en futuras sesiones.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS014</td>
+            <td colspan="1">
+            Optimización de la creación, edición de nodos y conexiones en el grafo
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo. </td>
+            <td colspan="5">
+            <strong>E01: Optimización de la creación de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está creando nuevos nodos en el grafo, <strong>cuando</strong> el usuario agrega un nodo al grafo, <strong>entonces</strong> el sistema debe permitir la creación de nodos de manera rápida, con una interfaz intuitiva que minimice el tiempo de entrada de datos, y mostrar el nuevo nodo en el grafo sin retrasos significativos, asegurando que se integren de manera eficiente en la estructura existente.<br><br>
+            <strong>E02: Optimización de la edición de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está editando atributos de un nodo en el grafo, <strong>cuando</strong> el usuario realiza cambios en los atributos del nodo <strong>entonces</strong> el sistema debe actualizar los atributos del nodo en tiempo real, reflejando los cambios de manera inmediata en el grafo sin afectar el rendimiento.
+	    <strong>E03: Optimización de la conexión de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está creando o editando conexiones entre nodos en el grafo, <strong>cuando</strong>  el usuario agrega o ajusta una conexión entre nodos, <strong>entonces</strong> el sistema debe optimizar el proceso para minimizar la latencia y el tiempo de respuesta, asegurando que las conexiones se actualicen de manera fluida en el grafo y que el usuario pueda ver los cambios sin demoras significativas.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS015</td>
+            <td colspan="1">
+            Implementación de una interfaz visual interactiva para la manipulación del grafo
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo. </td>
+            <td colspan="5">
+            <strong>E01: Interfaz para la creación y edición de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está en la interfaz visual del grafo, <strong>cuando</strong> el usuario desea crear o editar nodos, <strong>entonces</strong> la interfaz debe proporcionar herramientas interactivas que permitan al usuario añadir nuevos nodos<br><br>
+            <strong>E02: Visualización y navegación del grafo</strong>
+	    <br><br><strong>Dado que</strong> un usuario está trabajando con un grafo complejo en la interfaz visual, <strong>cuando</strong> el usuario necesita visualizar diferentes partes del grafo o navegar por el mismo,  <strong>entonces</strong> la interfaz debe proporcionar funcionalidades como zoom, desplazamiento y agrupación de nodos para facilitar la visualización de grandes grafos.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS016</td>
+            <td colspan="1">
+            Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales. </td>
+            <td colspan="5">
+            <strong>E01: Sugerencias automáticas de nuevos nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está trabajando en un roadmap y ha proporcionado datos relevantes <strong>cuando</strong> el sistema procesa estos datos utilizando algoritmos de IA, <strong>entonces</strong> el sistema debe generar y mostrar sugerencias automáticas para nuevos nodos que podrían ser relevantes para el roadmap. <br><br>
+            <strong>E02: Sugerencias automáticas de conexiones entre nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha creado o editado nodos en su roadmap, <strong>cuando</strong> el sistema analiza la estructura actual del grafo y los datos del usuario, <strong>entonces</strong> el sistema debe utilizar algoritmos de IA para sugerir nuevas conexiones entre nodos existentes, incluyendo recomendaciones sobre cómo estas conexiones pueden mejorar la estructura del roadmap
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS017</td>
+            <td colspan="1">
+            Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap. </td>
+            <td colspan="5">
+            <strong>E01: Detección de ciclos en el grafo</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha creado o modificado el grafo de su roadmap, <strong>cuando</strong> el sistema analiza la estructura del grafo, <strong>entonces</strong> el sistema debe detectar cualquier ciclo en el grafo y notificar al usuario sobre la existencia de estos ciclos. <br><br>
+            <strong>E02: Detección de dependencias erróneas</strong>
+	    <br><br><strong>Dado que</strong> el usuario ha establecido conexiones entre nodos en el grafo, <strong>cuando</strong> el sistema revisa las dependencias entre nodos, <strong>entonces</strong> el sistema debe identificar cualquier dependencia errónea, notificar al usuario sobre estas dependencias incorrectas, y ofrecer recomendaciones para corregirlas o ajustar la estructura del grafo.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS018</td>
+            <td colspan="1">
+            Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visulice su perfil o roadmap
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva. </td>
+            <td colspan="5">
+            <strong>E01: Notificación de visualización de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el perfil de otro usuario, <strong>cuando</strong> la visualización del perfil se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo perfil ha sido visualizado, indicando la fecha y la hora de la visualización. <br><br>
+            <strong>E02: Notificación de visualización de roadmap</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, incluyendo información sobre la fecha y la hora de la visualización, y ofreciendo opciones para gestionar la notificación, como ver detalles sobre quién ha visualizado el roadmap o ajustar la configuración de notificaciones. 
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">TS019</td>
+            <td colspan="1">
+            Asegurar la integración del sistema de mensajes directos
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> asegurar la integración del sistema de mensajes directos, <strong>para</strong> garantizar que las funcionalidades de mensajería entre usuarios y empresas funcionen correctamente y de manera fluida dentro de la aplicación, mejorando la comunicación y la interacción entre los usuarios. </td>
+            <td colspan="5">
+            <strong>E01: Integración de mensajes directos entre usuarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario envía un mensaje directo a otro usuario, <strong>cuando</strong> el mensaje es enviado, <strong>entonces</strong> el sistema debe asegurar que el mensaje se entregue de manera inmediata al destinatario y que ambos usuarios puedan ver el mensaje en su historial de chat, sin errores en la recepción o en la visualización de los mensajes. <br><br>
+            <strong>E02: Integración de mensajes directos entre usuarios y empresas</strong>
+	    <br><br><strong>Dado que</strong> un usuario envía un mensaje directo a una empresa, <strong>cuando</strong> el mensaje es enviado, <strong>entonces</strong> el sistema debe asegurar que el mensaje se entregue correctamente al destinatario en la empresa y que ambos puedan visualizar el mensaje en su historial de chat, garantizando que la comunicación sea clara y que no haya fallos en la entrega de mensajes.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+    		<td colspan="1">TS020</td>
+    		<td colspan="1">
+    Implementación de un sistema de control de conexiones
+    		</td>
+    		<td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
+    		<td colspan="5">
+    <strong>E01: Control de solicitudes de conexión</strong>
+    <br><br><strong>Dado que</strong> un usuario ha enviado una solicitud de conexión a otro usuario, <strong>cuando</strong> el destinatario recibe la solicitud, <strong>entonces</strong> el sistema debe permitir al destinatario aceptar, rechazar o ignorar la solicitud, y registrar el estado de la solicitud en el sistema para el seguimiento adecuado.
+    <br><br>
+    <strong>E02: Gestión de conexiones existentes</strong>
+    <br><br><strong>Dado que</strong> un usuario tiene conexiones establecidas con otros usuarios, <strong>cuando</strong> el usuario quiere gestionar estas conexiones, <strong>entonces</strong> el sistema debe permitir al usuario ver, modificar o eliminar las conexiones existentes, asegurando que el proceso sea intuitivo y que los cambios se reflejen inmediatamente en el sistema.
+    		</td>
+    		<td colspan="1">EP005</td>
+		</tr>
+		<tr>
+    <td colspan="1">TS021</td>
+    <td colspan="1">
+    Diseñar un sistema para reportar y bloquear usuarios
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> diseñar un sistema para reportar y bloquear usuarios, <strong>para</strong> mantener un entorno seguro y libre de comportamiento inapropiado o no deseado, y poder gestionar mi experiencia en la plataforma de manera efectiva.</td>
+    <td colspan="5">
+    <strong>E01: Reportar usuarios</strong>
+    <br><br><strong>Dado que</strong> un usuario encuentra a otro usuario que considera que está violando las políticas de la plataforma, <strong>cuando</strong> el usuario utiliza la opción de reporte desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe permitir al usuario enviar un reporte detallado sobre el comportamiento del usuario, incluyendo la razón del reporte y cualquier evidencia relevante, y confirmar la recepción del reporte para su revisión por el equipo de moderación.
+    <br><br>
+    <strong>E02: Bloquear usuarios</strong>
+    <br><br><strong>Dado que</strong> un usuario desea evitar interacciones con otro usuario, <strong>cuando</strong> el usuario utiliza la opción de bloqueo desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe impedir que el usuario bloqueado pueda enviar mensajes o ver el perfil del usuario que ha realizado el bloqueo, y actualizar la lista de usuarios bloqueados del usuario para reflejar el nuevo estado.
+    </td>
+    <td colspan="1">EP005</td>
+</tr>
+		<tr>
+    <td colspan="1">TS022</td>
+    <td colspan="1">
+    Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
+    </td>
+    <td colspan="1"><strong>Como</strong> empresa, <strong>quiero</strong> diseñar una API que permita realizar búsquedas en perfiles privados de usuarios Premium, <strong>para</strong> acceder a información relevante de candidatos potenciales y mejorar el proceso de selección y reclutamiento en la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Búsqueda de perfiles privados</strong>
+    <br><br><strong>Dado que</strong> una empresa tiene acceso a la API de búsqueda, <strong>cuando</strong> la empresa realiza una búsqueda en perfiles privados de usuarios Premium, <strong>entonces</strong> la API debe permitir a la empresa consultar criterios específicos (como habilidades, experiencia y ubicación) y obtener resultados que coincidan con estos criterios, respetando las configuraciones de privacidad y permisos de los usuarios.
+    <br><br>
+    <strong>E02: Visualización de resultados de búsqueda</strong>
+    <br><br><strong>Dado que</strong> una empresa ha realizado una búsqueda a través de la API, <strong>cuando</strong> se generan los resultados de búsqueda, <strong>entonces</strong> la API debe proporcionar una lista de perfiles que coinciden con los criterios de búsqueda, incluyendo información relevante y accesible de acuerdo con las configuraciones de privacidad, y permitir a la empresa interactuar con los resultados de manera controlada.
+    </td>
+    <td colspan="1">EP005</td>
+</tr>
+<tr>
+    <td colspan="1">TS023</td>
+    <td colspan="1">
+    Poder suscribirme de manera fácil a una membresía premium
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder suscribirme de manera fácil a una membresía premium, <strong>para</strong> acceder a todas las funcionalidades exclusivas de la plataforma sin complicaciones, y mejorar mi experiencia de usuario.</td>
+    <td colspan="5">
+    <strong>E01: Proceso de suscripción simplificado</strong>
+    <br><br><strong>Dado que</strong> un usuario desea suscribirse a una membresía premium, <strong>cuando</strong> el usuario inicia el proceso de suscripción, <strong>entonces</strong> el sistema debe proporcionar un flujo de suscripción simplificado que permita completar la suscripción con unos pocos pasos claros, incluyendo la selección del plan, el ingreso de detalles de pago y la confirmación de la suscripción, garantizando que el proceso sea intuitivo y eficiente.
+    <br><br>
+    <strong>E02: Confirmación y acceso inmediato</strong>
+    <br><br><strong>Dado que</strong> un usuario ha completado el proceso de suscripción a una membresía premium, <strong>cuando</strong> la transacción se haya procesado correctamente, <strong>entonces</strong> el sistema debe enviar una confirmación de suscripción al usuario y activar inmediatamente todas las funcionalidades y beneficios de la membresía premium en la cuenta del usuario, asegurando que el acceso a los recursos premium sea inmediato y sin interrupciones.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+<tr>
+    <td colspan="1">TS024</td>
+    <td colspan="1">
+    Gestionar mi suscripción desde mi perfil
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> gestionar mi suscripción desde mi perfil, <strong>para</strong> tener la capacidad de revisar, actualizar o cancelar mi suscripción de manera sencilla y conveniente, según mis necesidades y preferencias.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de detalles de suscripción</strong>
+    <br><br><strong>Dado que</strong> un usuario premium accede a su perfil, <strong>cuando</strong> el usuario navega a la sección de suscripción, <strong>entonces</strong> el sistema debe mostrar claramente los detalles de la suscripción actual, incluyendo el plan activo, la fecha de renovación, y los métodos de pago asociados, permitiendo al usuario revisar esta información fácilmente.
+    <br><br>
+    <strong>E02: Actualización y cancelación de suscripción</strong>
+    <br><br><strong>Dado que</strong> un usuario premium desea actualizar o cancelar su suscripción, <strong>cuando</strong> el usuario selecciona la opción correspondiente en la sección de suscripción, <strong>entonces</strong> el sistema debe permitir al usuario actualizar el plan de suscripción, cambiar los detalles de pago, o cancelar la suscripción, y confirmar los cambios mediante notificaciones o mensajes de confirmación, asegurando que las modificaciones se apliquen correctamente.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS025</td>
+    <td colspan="1">
+    Recibir una notificación antes de que mi membresía se renueve automáticamente
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir una notificación antes de que mi membresía se renueve automáticamente, <strong>para</strong> tener la oportunidad de revisar mi suscripción, realizar ajustes si es necesario, y evitar cargos inesperados.</td>
+    <td colspan="5">
+    <strong>E01: Notificación de renovación próxima</strong>
+    <br><br><strong>Dado que</strong> un usuario premium está a punto de alcanzar la fecha de renovación de su membresía, <strong>cuando</strong> la fecha de renovación se acerque (por ejemplo, 7 días antes), <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico y/o dentro de la aplicación, informando al usuario sobre la próxima renovación automática, incluyendo detalles sobre la suscripción y opciones para gestionar la renovación.
+    <br><br>
+    <strong>E02: Opciones para gestionar renovación</strong>
+    <br><br><strong>Dado que</strong> un usuario premium recibe una notificación sobre la renovación automática, <strong>cuando</strong> el usuario hace clic en la notificación o accede a la sección de suscripción desde la aplicación, <strong>entonces</strong> el sistema debe ofrecer opciones para que el usuario revise su plan actual, actualice la información de pago, o cancele la renovación automática, asegurando que el usuario pueda tomar decisiones informadas antes de que se efectúe el cargo.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS026</td>
+    <td colspan="1">
+    Acceso a un periodo de prueba
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+    <td colspan="5">
+    <strong>E01: Activación del periodo de prueba</strong>
+    <br><br><strong>Dado que</strong> un usuario nuevo desea probar las funcionalidades premium, <strong>cuando</strong> el usuario se registra para el periodo de prueba, <strong>entonces</strong> el sistema debe activar el acceso a todas las características premium durante el periodo de prueba especificado, y proporcionar una confirmación de la activación junto con detalles sobre la duración del periodo de prueba y las funcionalidades disponibles.
+    <br><br>
+    <strong>E02: Notificación antes del final del periodo de prueba</strong>
+    <br><br><strong>Dado que</strong> un usuario está en el periodo de prueba, <strong>cuando</strong> el periodo de prueba está a punto de finalizar (por ejemplo, 2 días antes de la expiración), <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico y/o dentro de la aplicación, informando al usuario sobre la proximidad del final del periodo de prueba y ofreciendo opciones para suscribirse a una membresía premium si desea continuar con el acceso a las funcionalidades premium.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS027</td>
+    <td colspan="1">
+    Recibir soporte prioritario y asistencia personalizada 
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir soporte prioritario y asistencia personalizada, <strong>para</strong> obtener ayuda rápida y efectiva para resolver cualquier problema o consulta relacionada con mi cuenta y el uso de la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Acceso a soporte prioritario</strong>
+    <br><br><strong>Dado que</strong> un usuario premium solicita soporte, <strong>cuando</strong> el usuario contacta al soporte a través de los canales habilitados, <strong>entonces</strong> el sistema debe asignar la solicitud de soporte a un equipo de atención prioritaria, asegurando que el usuario reciba una respuesta y solución en un tiempo más corto en comparación con los usuarios no premium.
+    <br><br>
+    <strong>E02: Asistencia personalizada</strong>
+    <br><br><strong>Dado que</strong> un usuario premium está recibiendo soporte, <strong>cuando</strong> el usuario es asistido por un representante del soporte, <strong>entonces</strong> el sistema debe proporcionar al representante información detallada sobre la cuenta del usuario y su historial de interacciones para ofrecer una asistencia personalizada y resolver problemas específicos de manera efectiva.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS028</td>
+    <td colspan="1">
+    Implementación de un sistema de control de acceso basado en roles
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> implementar un sistema de control de acceso basado en roles, <strong>para</strong> gestionar y restringir el acceso a diferentes funcionalidades y datos de la plataforma según el rol de cada usuario, garantizando la seguridad y el manejo adecuado de los permisos.</td>
+    <td colspan="5">
+    <strong>E01: Definición de roles y permisos</strong>
+    <br><br><strong>Dado que</strong> un administrador del sistema está configurando el control de acceso, <strong>cuando</strong> se definen roles en el sistema, <strong>entonces</strong> el sistema debe permitir al administrador establecer permisos específicos para cada rol, especificando qué funcionalidades y datos están accesibles para los usuarios con cada rol, asegurando que solo los usuarios autorizados puedan acceder a ciertas áreas o realizar ciertas acciones.
+    <br><br>
+    <strong>E02: Aplicación de roles y restricciones</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la plataforma, <strong>cuando</strong> el sistema evalúa el rol del usuario, <strong>entonces</strong> el sistema debe aplicar las restricciones y permisos definidos para ese rol, asegurando que el usuario solo pueda acceder a las funcionalidades y datos permitidos por su rol, y evitando el acceso no autorizado a áreas restringidas.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS029</td>
+    <td colspan="1">
+    Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes, <strong>para</strong> garantizar que las transacciones de pago se realicen de manera segura y que las renovaciones automáticas de las suscripciones se procesen correctamente sin interrupciones.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de pagos seguros</strong>
+    <br><br><strong>Dado que</strong> un usuario premium realiza una suscripción o una renovación, <strong>cuando</strong> se procesa el pago, <strong>entonces</strong> el sistema debe utilizar protocolos de seguridad estándar para la transacción, como cifrado de datos y autenticación de pagos, asegurando que la información de pago del usuario se maneje de forma segura y que la transacción sea protegida contra fraudes.
+    <br><br>
+    <strong>E02: Gestión de pagos recurrentes</strong>
+    <br><br><strong>Dado que</strong> una suscripción premium está configurada para renovaciones automáticas, <strong>cuando</strong> se acerca la fecha de renovación, <strong>entonces</strong> el sistema debe gestionar automáticamente el pago recurrente, procesando la transacción según el ciclo de facturación establecido y notificando al usuario sobre la renovación y cualquier cargo asociado, asegurando que la suscripción se mantenga activa sin interrupciones.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS030</td>
+    <td colspan="1">
+    Diferenciar claramente la UI/UX para usuarios gratuitos y premium
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que la interfaz de usuario (UI) y la experiencia de usuario (UX) sean claramente diferenciadas entre usuarios gratuitos y premium, <strong>para</strong> poder identificar fácilmente las características y funcionalidades exclusivas para usuarios premium y mejorar mi experiencia en la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Diferenciación visual de características</strong>
+    <br><br><strong>Dado que</strong> un usuario gratuito accede a la plataforma, <strong>cuando</strong> el usuario navega por la interfaz, <strong>entonces</strong> el sistema debe mostrar claramente las características y funcionalidades disponibles solo para usuarios premium, utilizando indicadores visuales como iconos, etiquetas o secciones específicas, para que los usuarios gratuitos comprendan las diferencias y el valor añadido de una suscripción premium.
+    <br><br>
+    <strong>E02: Acceso a funcionalidades premium</strong>
+    <br><br><strong>Dado que</strong> un usuario premium accede a la plataforma, <strong>cuando</strong> el usuario explora la interfaz, <strong>entonces</strong> el sistema debe proporcionar una experiencia de usuario optimizada y características exclusivas que no están disponibles para los usuarios gratuitos, asegurando que el usuario premium tenga acceso completo a las funcionalidades adicionales y beneficios asociados con su suscripción, mejorando así su satisfacción y valor percibido.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS031</td>
+    <td colspan="1">
+    Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de cambiar de membresía sin interrupción en el servicio, <strong>para</strong> poder actualizar mi suscripción de manera fluida y sin perder acceso a las funcionalidades durante el proceso de cambio.</td>
+    <td colspan="5">
+    <strong>E01: Proceso de cambio de membresía sin interrupciones</strong>
+    <br><br><strong>Dado que</strong> un usuario desea cambiar de membresía, <strong>cuando</strong> el usuario selecciona una nueva opción de membresía y completa el proceso de actualización, <strong>entonces</strong> el sistema debe asegurarse de que el cambio de membresía se realice de manera continua, sin interrumpir el acceso a las funcionalidades de la plataforma durante el proceso, garantizando que el usuario tenga acceso inmediato a las nuevas características y beneficios.
+    <br><br>
+    <strong>E02: Confirmación y actualización del cambio de membresía</strong>
+    <br><br><strong>Dado que</strong> el proceso de cambio de membresía ha sido completado, <strong>cuando</strong> el sistema procesa la actualización, <strong>entonces</strong> el sistema debe enviar una notificación al usuario confirmando que el cambio de membresía se ha realizado con éxito y proporcionar detalles sobre los beneficios de la nueva membresía, asegurando que el usuario esté informado y satisfecho con la actualización.
+    </td>
+    <td colspan="1">EP006</td>
+</tr>
+		<tr>
+    <td colspan="1">TS032</td>
+    <td colspan="1">
+    Asegurar que los datos de pago y la información sensible estén encriptados
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que los datos de pago y la información sensible estén encriptados, <strong>para</strong> proteger la privacidad y seguridad de la información de los usuarios y evitar accesos no autorizados o filtraciones de datos.</td>
+    <td colspan="5">
+    <strong>E01: Encriptación de datos de pago</strong>
+    <br><br><strong>Dado que</strong> un usuario realiza una transacción de pago, <strong>cuando</strong> los datos de pago son transmitidos al sistema, <strong>entonces</strong> el sistema debe utilizar protocolos de encriptación estándar, como TLS (Transport Layer Security), para asegurar que los datos de pago sean encriptados durante la transmisión y el almacenamiento, protegiendo la información contra accesos no autorizados y vulnerabilidades de seguridad.
+    <br><br>
+    <strong>E02: Encriptación de información sensible del usuario</strong>
+    <br><br><strong>Dado que</strong> un usuario almacena información sensible en su perfil, <strong>cuando</strong> los datos son guardados en la base de datos, <strong>entonces</strong> el sistema debe aplicar técnicas de encriptación en reposo, como AES (Advanced Encryption Standard), para proteger la información sensible almacenada, garantizando que los datos estén seguros y accesibles solo para usuarios autorizados o para procesos legítimos dentro del sistema.
+    </td>
+    <td colspan="1">EP007</td>
+</tr>
+		<tr>
+    <td colspan="1">TS033</td>
+    <td colspan="1">
+    Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que el sistema implemente una detección de inicios de sesión sospechosos basada en la ubicación o el dispositivo, <strong>para</strong> ser alertado de accesos potencialmente fraudulentos o no autorizados y poder tomar acciones preventivas.</td>
+    <td colspan="5">
+    <strong>E01: Detección de inicios de sesión desde ubicaciones inusuales</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión es detectado desde una ubicación que no se encuentra en el historial habitual del usuario, <strong>cuando</strong> el sistema identifica una discrepancia significativa en la ubicación, <strong>entonces</strong> el sistema debe marcar el inicio de sesión como sospechoso y notificar al usuario a través de correo electrónico o SMS para que revise y confirme si el acceso es legítimo.
+    <br><br>
+    <strong>E02: Detección de inicios de sesión desde dispositivos no reconocidos</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión es realizado desde un dispositivo que no ha sido previamente registrado por el usuario, <strong>cuando</strong> el sistema detecta el uso de un nuevo dispositivo, <strong>entonces</strong> el sistema debe alertar al usuario mediante una notificación y solicitar una verificación adicional, como una autenticación por correo electrónico o SMS, para asegurar la legitimidad del acceso.
+    </td>
+    <td colspan="1">EP007</td>
+</tr>
+		<tr>
+    <td colspan="1">TS034</td>
+    <td colspan="1">
+    Implementación de un sistema de control de sesiones activas
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de controlar y gestionar mis sesiones activas, <strong>para</strong> poder cerrar sesiones en dispositivos que ya no uso o que considero inseguros y asegurarme de que solo los dispositivos autorizados tengan acceso a mi cuenta.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de sesiones activas</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la sección de gestión de sesiones en su perfil, <strong>cuando</strong> el usuario solicita ver las sesiones activas, <strong>entonces</strong> el sistema debe mostrar una lista de todas las sesiones activas, incluyendo detalles como dispositivo, ubicación y hora del último acceso, permitiendo al usuario revisar y monitorear la actividad en su cuenta.
+    <br><br>
+    <strong>E02: Cierre de sesiones activas</strong>
+    <br><br><strong>Dado que</strong> un usuario desea cerrar una sesión activa desde un dispositivo no reconocido o no autorizado, <strong>cuando</strong> el usuario selecciona la opción de cerrar sesión en esa sesión específica, <strong>entonces</strong> el sistema debe cerrar la sesión seleccionada de manera inmediata y notificar al usuario que la sesión ha sido cerrada exitosamente, garantizando que el dispositivo ya no tenga acceso a la cuenta.
+    </td>
+    <td colspan="1">EP007</td>
+</tr>
+		<tr>
+    <td colspan="1">TS035</td>
+    <td colspan="1">
+    Implementación de módulos de Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> implementar módulos de Términos y condiciones, <strong>para</strong> poder gestionar y actualizar fácilmente el contenido legal de la plataforma y asegurarme de que las políticas sean accesibles y estén actualizadas para todos los usuarios.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de módulo de Términos y condiciones para actualizaciones</strong>
+    <br><br><strong>Dado que</strong> el administrador necesita actualizar los Términos y condiciones, <strong>cuando</strong> el administrador realiza cambios en el módulo de Términos y condiciones, <strong>entonces</strong> el sistema debe permitir al administrador publicar las actualizaciones de manera efectiva, reflejando los cambios en la plataforma y notificando a los usuarios sobre la nueva versión disponible.
+    <br><br>
+    <strong>E02: Implementación de módulo de Términos y condiciones para el acceso del usuario</strong>
+    <br><br><strong>Dado que</strong> un usuario desea consultar los Términos y condiciones, <strong>cuando</strong> el usuario accede al módulo de Términos y condiciones desde cualquier sección de la plataforma, <strong>entonces</strong> el sistema debe proporcionar una interfaz intuitiva que permita al usuario leer y entender fácilmente el contenido, asegurando que esté disponible en todo momento y desde cualquier lugar dentro de la aplicación.
+    </td>
+    <td colspan="1">EP008</td>
+</tr>
+		<tr>
+    <td colspan="1">TS036</td>
+    <td colspan="1">
+    Integración de un sistema de versiones para los Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> integrar un sistema de versiones para los Términos y condiciones, <strong>para</strong> poder gestionar y rastrear cambios históricos en el contenido legal y asegurarme de que los usuarios siempre tengan acceso a las versiones correctas y actualizadas.</td>
+    <td colspan="5">
+    <strong>E01: Gestión de versiones de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> el administrador ha actualizado los Términos y condiciones, <strong>cuando</strong> el administrador guarda una nueva versión del documento, <strong>entonces</strong> el sistema debe registrar la versión actual, manteniendo un historial de versiones anteriores que puedan ser consultadas o restauradas si es necesario.
+    <br><br>
+    <strong>E02: Acceso a versiones anteriores de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario desea revisar los Términos y condiciones anteriores, <strong>cuando</strong> el usuario solicita ver una versión anterior desde el historial de versiones, <strong>entonces</strong> el sistema debe permitir al usuario acceder y leer esa versión específica, garantizando que el acceso a la información histórica sea claro y accesible.
+    </td>
+    <td colspan="1">EP008</td>
+</tr>
+	<tr>
+    <td colspan="1">TS037</td>
+    <td colspan="1">
+    Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que los Términos y condiciones sean redactados en un lenguaje claro y comprensible, <strong>para</strong> asegurarme de que puedo entender fácilmente las políticas y reglas de uso sin confusión.</td>
+    <td colspan="5">
+    <strong>E01: Redacción clara y accesible de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> los Términos y condiciones están disponibles en la plataforma, <strong>cuando</strong> un usuario accede al documento, <strong>entonces</strong> el sistema debe presentar el contenido en un formato que utilice un lenguaje simple y directo, evitando jerga legal compleja y asegurando que sea comprensible para un público general.
+    <br><br>
+    <strong>E02: Opciones de asistencia para entender Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario tiene dificultades para entender los Términos y condiciones, <strong>cuando</strong> el usuario busca ayuda, <strong>entonces</strong> el sistema debe proporcionar opciones de asistencia, como resúmenes de los puntos clave, glosarios de términos legales y enlaces a recursos adicionales, para facilitar la comprensión del contenido.
+    </td>
+    <td colspan="1">EP008</td>
+</tr>
+		<tr>
+    <td colspan="1">TS038</td>
+    <td colspan="1">
+    Fácil navegación en el diseño de la Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
+    <td colspan="5">
+    <strong>E01: Navegación intuitiva y accesible</strong>
+    <br><br><strong>Dado que</strong> un visitante está navegando por la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> la navegación debe ser intuitiva, con menús claramente etiquetados, enlaces visibles a secciones clave y un diseño que guíe al usuario hacia las áreas importantes sin esfuerzo.
+    <br><br>
+    <strong>E02: Funcionalidad de búsqueda y filtros</strong>
+    <br><br><strong>Dado que</strong> un visitante desea encontrar información específica en la landing page, <strong>cuando</strong> el visitante utiliza la función de búsqueda o los filtros, <strong>entonces</strong> el sistema debe proporcionar resultados relevantes de manera rápida y precisa, con una interfaz de búsqueda y filtros que sea fácil de usar y que mejore la experiencia de navegación en la página.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">TS039</td>
+    <td colspan="1">
+    Deploy a GitHub Pages
+    </td>
+    <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
+    <td colspan="5">
+    <strong>E01: Configuración del repositorio para GitHub Pages</strong>
+    <br><br><strong>Dado que</strong> tengo un repositorio de GitHub con los archivos de la landing page, <strong>cuando</strong> configuro GitHub Pages desde la sección de configuración del repositorio, <strong>entonces</strong> el sitio debe desplegarse correctamente utilizando la rama seleccionada (por ejemplo, `main` o `gh-pages`), y debe ser accesible a través de la URL proporcionada por GitHub Pages.
+    <br><br>
+    <strong>E02: Verificación de la funcionalidad del sitio desplegado</strong>
+    <br><br><strong>Dado que</strong> la landing page ha sido desplegada en GitHub Pages, <strong>cuando</strong> accedo a la URL del sitio, <strong>entonces</strong> la página debe cargar completamente, mostrando todo el contenido y funcionalidades sin errores, y debe ser accesible desde diferentes navegadores y dispositivos para asegurar que la experiencia de usuario sea consistente.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">TS040</td>
+    <td colspan="1">
+    Integración de un sistema de seguimiento de métricas
+    </td>
+    <td colspan="1"><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
+    <td colspan="5">
+    <strong>E01: Implementación de herramientas de análisis</strong>
+    <br><br><strong>Dado que</strong> la landing page está en funcionamiento, <strong>cuando</strong> integro herramientas de análisis como Google Analytics o similares, <strong>entonces</strong> el sistema debe capturar y reportar métricas clave como el número de visitantes, la tasa de rebote, el tiempo de permanencia en la página y la tasa de conversión, permitiendo el acceso a estos datos a través del panel de control de la herramienta de análisis.
+    <br><br>
+    <strong>E02: Visualización de datos y generación de informes</strong>
+    <br><br><strong>Dado que</strong> los datos de métricas se están recopilando, <strong>cuando</strong> accedo al panel de análisis, <strong>entonces</strong> debo poder visualizar gráficos y reportes detallados sobre el rendimiento del sitio, incluyendo estadísticas diarias, semanales y mensuales, para evaluar el impacto de las estrategias implementadas y realizar ajustes basados en datos.
     </td>
     <td colspan="1">EP009</td>
 </tr>
