@@ -633,7 +633,7 @@ En la siguiente sección, procederemos a presentar un análisis exhaustivo y det
 De acuerdo con Sommerville (2020), una historia de usuario es una técnica esencial en el desarrollo de software, utilizada para describir una funcionalidad o característica desde la perspectiva del usuario final. En cada historia, se captura la identidad del usuario, la acción que necesita realizar y la razón por la cual esa acción es necesaria. Esta descripción concisa y centrada en el usuario no solo proporciona una guía clara para el equipo de desarrollo durante el diseño y la construcción del producto, sino que también asegura que se mantengan siempre en el centro de atención las necesidades y expectativas del usuario final. Al seguir este enfoque, garantizamos que cada componente desarrollado responda de manera efectiva a las demandas del usuario, contribuyendo al éxito global del proyecto.
 
 ###### Tabla 3.
-*Tabla de las historias de usuarios establecidas.*
+*Tabla de las historias de usuario establecidas.*
 
 <table  style="text-align: left;">
 	<tbody>
@@ -649,17 +649,805 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Registro de cuenta en la plataforma
             </td>
-            <td colspan="1"><strong>Como</strong> nuevo usuario, <strong>quiero</strong> registrarme en la plataforma creando una cuenta <strong>para</strong> poder acceder a la aplicación </td>
+            <td colspan="1"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
             <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> soy un usuario nuevo, <strong>cuando</strong> ingreso todos los campos requeridos y acepto los términos y condiciones <strong>entonces</strong> se debe crear la cuenta y mostrar un mensaje de confirmación de registro exitoso.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario intenta registrarse, <strong>cuando</strong> ingresa un correo electrónico que ya está asociado a una cuenta existente, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando que el correo ya está en uso y no permitir la creación de la cuenta.
+            <strong>Escenario 1: Registro exitoso </strong>
+	    <br><br><strong>Dado que</strong> un usuario nuevo ha ingresado a la aplicación y ha completado todos los campos requeridos en el formulario de registro, incluyendo nombre, dirección de correo electrónico válida y contraseña, y ha aceptado los términos y condiciones de uso de la plataforma, <strong>cuando</strong> presiona el botón de "Registrar", <strong>entonces</strong> el sistema debe crear la cuenta, almacenar de forma segura los datos provistos y mostrar un mensaje de confirmación del registro exitoso dentro de los próximos 3 segundos, permitiéndole proceder inmediatamente a la pantalla de inicio.<br><br>
+            <strong>Escenario 2: Correo electrónico ya en uso </strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra dentro de la aplicación e intenta registrarse, <strong>cuando</strong> ingresa un correo electrónico que ya está registrado en el sistema, <strong>entonces</strong> la plataforma debe bloquear la creación de la cuenta y mostrar un mensaje de error indicando que el correo electrónico ya está en uso dentro de los próximos 2 segundos, sugiriendo además la opción de iniciar sesión.<br><br>
+	    <strong>Escenario 3: Campos requeridos incompletos </strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra dentro de la aplicación e intenta registrarse sin haber completado todos los campos obligatorios del formulario, <strong>cuando</strong> intenta enviar el formulario al presionar el botón de "Registrar", <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia resaltando los campos faltantes dentro de los próximos 2 segundos, impidiendo que se avance hasta que se completen todos los datos requeridos.<br><br>
+	    <strong>Escenario 4: Contraseña no cumple con los requisitos </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha ingresado a la aplicación para registrarse y durante el registro ha ingresado una contraseña que no cumple con los requisitos mínimos de seguridad establecidos por la plataforma (como longitud, uso de caracteres especiales, números y mayúsculas), <strong>cuando</strong> intente registrarse al presionar el botón "Registar", <strong>entonces</strong> el sistema debe mostrar un mensaje de error específico dentro de los próximos 3 segundos, detallando los criterios que no se cumplen, y bloquear el registro hasta que la contraseña cumpla con las políticas establecidas.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+	<tr>
+            <td colspan="1">US002</td>
+            <td colspan="1">
+            Registro en la plataforma mediante una cuenta externa
+            </td>
+            <td colspan="1"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> ser capaz de registrarme en la plataforma creando una cuenta personal a través del uso de las credenciales que tengo guardadas en otra cuenta externa, como una cuenta de un navegador o de una red social, <strong>para</strong> obtener un acceso directo y rápido a las funcionalidades de la aplicación sin tener que completar manualmente el formulario de registro.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Registro exitoso mediante cuenta externa</strong>
+	    <br><br><strong>Dado que</strong> un usuario nuevo ingreso a la aplicación y desea registrarse en la plataforma utilizando una cuenta externa, <strong>cuando</strong> selecciona la opción de registro con una cuenta externa (Google, Facebook o LinkedIn) que se encuentra en la parte inferior del formulario de registro, y otorga los permisos requeridos, <strong>entonces</strong> el sistema debe autenticar la cuenta externa, crear una nueva cuenta en la plataforma de Roademics con la información disponible (como nombre y correo electrónico, y contraseña) y redirigir al usuario a la pantalla de bienvenida dentro de los próximos 5 segundos, asegurando que la experiencia sea fluida y rápida.<br><br>
+            <strong>Escenario 2: Cuenta externa ya vinculada</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse con una cuenta externa que ya está vinculada a una cuenta existente en la plataforma, <strong>cuando</strong> selecciona la opción de registro mediante la cuenta externa, <strong>entonces</strong> el sistema debe detectar la vinculación y mostrar un mensaje informativo en un plazo de 2 segundos, indicando que la cuenta externa ya está asociada a una cuenta en Roademics, sugiriendo opciones para iniciar sesión en lugar de registrarse nuevamente.<br><br>
+	    <strong>Escenario 3: Permisos denegados en la cuenta externa</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse a través de una cuenta externa, <strong>cuando</strong> rechaza otorgar los permisos requeridos por la aplicación (como acceso a su perfil público o dirección de correo electrónico), <strong>entonces</strong> el sistema debe mostrar un mensaje de error dentro de los próximos 2 segundos, explicando que los permisos son necesarios para completar el registro y ofreciendo la opción de intentar nuevamente o registrarse manualmente.<br><br>
+	    <strong>Escenario 4: Fallo en la autenticación de la cuenta externa </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta registrarse utilizando una cuenta externa, <strong>cuando</strong> se produce un error en el proceso de autenticación (por ejemplo, problemas de conexión o de la API de la red social), <strong>entonces</strong> el sistema debe manejar la situación mostrando un mensaje de error claro dentro de los próximos 2 segundos, informando que ha habido un problema al intentar registrarse y sugiriendo que el usuario intente nuevamente más tarde o utilice el registro manual como alternativa.
+            </td>
+            <td colspan="1">EP001</td>
+		</tr>
+			<tr>
+            <td colspan="1">US003</td>
+            <td colspan="1">
+            Verificación de Correo Electrónico durante el registro
+            </td>
+            <td colspan="1"><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Envio exitoso del correo de verificación</strong>
+	    <br><br><strong>Dado que</strong> un nuevo usuario ha ingresado en la aplicación de Roademics y ha completado el registro en la plataforma de forma adecuada, <strong>cuando</strong> el sistema confirma la creación de la cuenta para el usuario, <strong>entonces</strong> debe enviarse automáticamente un correo electrónico con un enlace de verificación dentro de los próximos 5 segundos al correo indicado por el usuario en el formulario, el cual debe permitir la activación de la cuenta al ser clicado.<br><br>
+            <strong>Escenario 2: Usuario intenta iniciar sesión sin haber verificado la cuenta</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha creado su cuenta de forma exitosa, pero ha intentado iniciar sesión sin haber completado el proceso de verificación de correo electrónico, <strong>cuando</strong> introduce sus credenciales en la pantalla de inicio de sesión dentro de la aplicación, <strong>entonces</strong> el sistema debe mostrar un mensaje de error en los próximos 2 segundos que le informe que debe verificar su correo electrónico para poder acceder a su cuenta, y proporcionarle la opción de reenviar el correo de verificación.<br><br>
+	    <strong>Escenario 3: Reenvío del correo de verificación</strong>
+	    <br><br><strong>Dado que</strong> un usuario ya se ha registrado correctamente hasta el proceso de verificación, pero el correo aun no le ha sido enviado, y solicita reenviar el correo de verificación desde la pantalla de registro, <strong>cuando</strong> selecciona la opción de "Reenviar correo", <strong>entonces</strong> el sistema debe enviar nuevamente el correo electrónico de verificación dentro de los próximos 5 segundos y mostrar un mensaje confirmando que el correo ha sido reenviado exitosamente, además de indicarle al usuario que hay un temporizado de 30 segundos antes de que pueda volver a presionar la opción de "Reenviar correo".
             </td>
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS002</td>
+            <td colspan="1">US004</td>
+            <td colspan="1">
+            Inicio de sesión con cuenta de la aplicación
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Inicio de sesión exitoso</strong>
+	    <br><br><strong>Dado que</strong> un usuario tiene una cuenta registrada en la plataforma, <strong>cuando</strong> ingresa correctamente su correo electrónico o nombre de usuario y contraseña en el formulario de inicio de sesión, <strong>entonces</strong> el sistema debe autenticar al usuario y redirigirlo automáticamente al dashboard principal de su cuenta dentro de los próximos 3 segundos, permitiéndole acceder a sus datos y configuraciones personales.<br><br>
+            <strong>Escenario 2: Datos o contraseña incorrecto</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión en la aplicación de Roademics, <strong>cuando</strong> ingresa una contraseña o correo electrónico incorrecto, <strong>entonces</strong> el sistema no debe permitir el acceso a la cuenta y debe mostrar un mensaje de error claro que indique que las credenciales son incorrectas, junto con opciones para recuperar o restablecer la contraseña dentro de los próximos 3 segundos.<br><br>
+            <strong>Escenario 3: Bloqueo de cuenta tras múltiples intentos fallidos</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha realizado 5 intentos fallidos de inicio de sesión, <strong>cuando</strong> intenta realizar un sexto intento, el cual también es fallido, <strong>entonces</strong> el sistema debe bloquear temporalmente la cuenta durante un período de 15 minutos y mostrar un mensaje de advertencia indicando que la cuenta ha sido bloqueada por motivos de seguridad, sugiriendo al usuario que intente nuevamente más tarde.<br><br>
+	     <strong>Escenario 4: Advertencia de bloqueo de cuenta tras múltiples intentos fallidos</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha realizado 4 intentos fallidos de inicio de sesión, <strong>cuando</strong> intenta realizar un quinto intento, <strong>entonces</strong> el sistema debe bloquear debe enviarle una advertencia a través de un mensaje flotante en menos de 3 segundos donde se le indica que la cuenta se bloquera por un total de 15 minutos si es que agrega sus credenciales de forma adecuada en esta ocasión.<br><br>
+ 	    <strong>Escenario 5: Opción de recordar sesión</strong>
+	    <br><br><strong>Dado que</strong> un usuario está dentro de la aplicación y se encuentra en la pantalla de inicio de sesión, <strong>cuando</strong> selecciona la opción de "Recordar sesión" antes de iniciar sesión, opción que estara justo debajo del botón de "Recuperar Contraseña", <strong>entonces</strong> el sistema debe almacenar de manera segura las credenciales del usuario en el dispositivo, permitiendo que la próxima vez que acceda a la aplicación se le redirija automáticamente al dashboard sin necesidad de ingresar nuevamente su correo electrónico y contraseña, todo esto dentro de los próximos 2 segundos tras el inicio de sesión exitoso.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">US005</td>
+            <td colspan="1">
+            Recuperación de contraseña de cuenta
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en Roademics, <strong>quiero</strong> tener la opción de recuperar mi contraseña <strong>para</strong> poder restablecer mi acceso a la plataforma en caso de haberla olvidado o garantizar mi seguridad, y permitir la continuidad del uso de todas las funcionalidades asociadas a mi cuenta.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Solicitud de recuperación de contraseña </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha olvidado su contraseña de la cuenta de Roademics, <strong>cuando</strong> selecciona la opción "Recuperar contraseña" en la pantalla de inicio de sesión y proporciona su dirección de correo electrónico registrada, <strong>entonces</strong> el sistema debe enviar un enlace seguro de restablecimiento de contraseña al correo electrónico proporcionado dentro de los próximos 5 segundos, asegurando que el enlace tenga una validez temporal limitada de 15 minutos por razones de seguridad.<br><br>
+            <strong>Escenario 2: Restablecimiento de contraseña mediante enlace </strong>
+	    <br><br><strong>Dado que</strong> un usuario de Roademics ha presionado el botón de restablecer contraseña en su inicio de sesión, ha brindado su correo electrónico, y ha recibido el enlace de restablecimiento de contraseña en su correo electrónico, <strong>cuando</strong> hace clic en dicho enlace, es enviado a la página de restablecimiento de contraseña, y proporciona una nueva contraseña que cumpla con los requisitos mínimos de seguridad (como longitud, uso de caracteres especiales, números y mayúsculas), <strong>entonces</strong> el sistema debe actualizar la contraseña en un plazo de 3 segundos y permitir al usuario iniciar sesión inmediatamente con su nueva credencial.<br><br>
+	    <strong>Escenario 3: Enlace de restablecimiento expirado </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta utilizar un enlace de restablecimiento de contraseña caducado, <strong>cuando</strong> hace clic en el enlace pasado el tiempo de validez permitido de 15 minutos, <strong>entonces</strong> el sistema debe mostrar un mensaje de error en los próximos 3 segundos que indique que el enlace ha expirado y debe proporcionar la opción de solicitar un nuevo enlace en 5 segundos.<br><br>
+	    <strong>Escenario 4: Corre electrónico no encontrado </strong>
+	    <br><br><strong>Dado que</strong> un usuario de Roademics ha presionado el botón de restablecer contraseña en su inicio de sesión, <strong>cuando</strong> presente un correo electrónico que no ha sido registrado en ninguno de los usuarios de la aplicación y ha pasado un total de 10 segundos de búsqueda, <strong>entonces</strong> la aplicación debe mostrar un mensaje flotante donde se indique que no fue posible encontrar alguna cuenta asignada a ese correo electrónico y que revise si se encuentra bien escrito o si es el correo correcto.<br><br>
+	    <strong>Escenario 5: Confirmación de restablecimiento exitoso </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha restablecido exitosamente su contraseña, <strong>cuando</strong> se ha completado el proceso de actualización de la nueva contraseña, <strong>entonces</strong> el sistema debe redirigir automáticamente al usuario a la pantalla de inicio de sesión dentro de los próximos 2 segundos, mostrando un mensaje de confirmación de que la contraseña ha sido actualizada de forma exitosa y es válida para futuros inicios de sesión.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">US006</td>
+            <td colspan="1">
+            Inicio de sesión mediante cuentas externas
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario de la aplicación Roademics que prefiere opciones rápidas de acceso, <strong>quiero</strong> poder iniciar sesión utilizando otras cuentas externas (Google, Facebook, LinkedIn), <strong>para</strong> poder acceder a la plataforma sin necesidad de crear una nueva cuenta o recordar diferentes credenciales en cada ocasión. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Inicio de sesión exitoso con red social </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha ingresado en la aplicación y selecciona la opción de iniciar sesión con una cuenta externa, la cual puede ser de Google, LinkedIn o Facebook, <strong>cuando</strong> proporciona las credenciales correctas y el acceso es autorizado por la cuenta externa, <strong>entonces</strong> el sistema debe autenticarlo y redirigirlo al dashboard principal dentro de los próximos 3 segundos, permitiendo el acceso inmediato a su cuenta.<br><br>
+            <strong>Escenario 2: Permiso denegado por la red social </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión a través de una red social, <strong>cuando</strong> elige no otorgar los permisos necesarios durante el proceso de autenticación, <strong>entonces</strong> el sistema debe mostrar un mensaje de error explicando que no se puede completar el inicio de sesión sin esos permisos y sugerirle opciones para volver a intentarlo o usar otra forma de autenticación.<br><br>
+	    <strong>Escenario 3: Cuenta externa no registrada en la aplicación</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión a través de una red social, <strong>cuando</strong> elija una cuenta que no ha utilizado para registrarse anteriormente y que no presenta su mismo correo <strong>entonces</strong> el sistema debe mostrar un mensaje de error explicando que la cuenta externa que esta utilizando no esta registrada en la base de datos en unos 3 segundos, y después debe mostrarle al usuario opciones de registro o inicio de sesión manual en 2 segundos.<br><br>
+	    <strong>Escenario 4: Vinculación de cuenta existente con red social</strong>
+	    <br><br><strong>Dado que</strong> un usuario ya tiene una cuenta en la plataforma de Roademics, <strong>cuando</strong> intenta iniciar sesión usando una cuenta externa con el mismo correo electrónico ya registrado, <strong>entonces</strong> el sistema debe vincular automáticamente ambas cuentas, permitiendo el acceso sin crear una nueva cuenta.
+            </td>
+            <td colspan="1">EP002</td>
+		</tr>
+		<tr>
+            <td colspan="1">US007</td>
+            <td colspan="1">
+            Agregar una foto o imagen en el perfil de usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.
+            <td colspan="5">
+            <strong>Escenario 1: Carga de una imagen exitosa </strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado de forma adecuada en la plataforma, <strong>cuando</strong> accede a la sección de perfil y selecciona la opción para agregar su imagen de perfil, <strong>entonces</strong> el sistema debe permitir al usuario cargar una imagen desde la galería de su dispositivo o tomar una fotografía, y la nueva foto debe guardarse y reflejarse en su perfil dentro de los próximos 5 segundos, actualizando su visualización para todos los usuarios.<br><br>
+            <strong>Escenario 2: Validación de tamaño y formato de imagen </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta cargar una imagen que excede el tamaño máximo permitido o no está en un formato aceptado, los cuales en este caso son JPEG y PNG, <strong>cuando</strong> el sistema analiza la imagen y detecta el problema durante el proceso de carga, <strong>entonces</strong> debe mostrar un mensaje de error detallado indicando la razón por la que la imagen no puede ser cargada, e informar al usuario sobre los requisitos de tamaño y formato.<br><br>
+	    <strong>Escenario 3: Revisión de requisitos y limitaciones de imagen </strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra en su sección de perfil e intenta cargar una imagen, <strong>cuando</strong> el sistema analiza la imagen y detecta el problema durante el proceso de carga, <strong>entonces</strong> debe mostrar un mensaje de error detallado indicando la razón por la que la imagen no puede ser cargada, e informar al usuario sobre los requisitos de tamaño y formato.<br><br>
+	    <strong>Escenario 4: Agregar imagen de cuenta externa en caso de registro con cuenta externa </strong>
+	    <br><br><strong>Dado que</strong> un usuario se ha registrado en la aplicación de Roademics mediante una cuenta externa, <strong>cuando</strong> el sistema registra el perfil y lo prepara directamente para la entrada del usuario con las credenciales entregadas, <strong>entonces</strong> el sistema usara la misma imagen de perfil que se encuentra en la cuenta externa que utilizo el usuario para agregarla en su propia cuenta de Roademics en un plazo de tiempo predeterminado de 15 segundos desde el registro. <br><br>
+	    <strong>Escenario 5: Funcionalidad de recorte de imagen </strong>
+	    <br><br><strong>Dado que</strong> un usuario ha seleccionado una foto o una imagen para cargar, <strong>cuando</strong> la imagen cargada tiene dimensiones que no se ajustan al tamaño predeterminado de la foto de perfil, <strong>entonces</strong> el sistema debe ofrecer la opción de recortar la imagen dentro de la plataforma de forma casi inmediata (1 segundo como máximo), y guardar la versión recortada como la nueva foto de perfil.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US008</td>
+            <td colspan="1">
+            Gestión de sección de biografía
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.
+            <td colspan="5">
+            <strong>Escenario 1: Agregar o editar biografía </strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma de Roademics, <strong>cuando</strong> accede a la sección de perfil y selecciona la opción para agregar o editar su biografía, <strong>entonces</strong> el sistema debe permitir al usuario ingresar o modificar el texto en el campo de biografía, mostrando una vista previa antes de confirmar los cambios, y guardando el nuevo contenido en un plazo no mayor a 2 segundos.<br><br>
+            <strong>Escenario 2: Eliminar biografía </strong>
+	    <br><br><strong>Dado que</strong> un usuario decide eliminar su biografía, <strong>cuando</strong> selecciona la opción de eliminar la biografía, la cual se encontrara en un botón en la esquina inferior derecha del bloque de texto, y confirma la acción en un cuadro de mensaje flotante, <strong>entonces</strong> el sistema debe eliminar la biografía de su perfil y mostrar un mensaje de confirmación en menos de 3 segundos, indicando que la biografía ha sido eliminada correctamente.<br><br>
+	    <strong>Escenario 3: Validación de longitud de biografía </strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta guardar una biografía que excede el límite máximo de caracteres permitido, <strong>cuando</strong> el sistema detecta este error, <strong>entonces</strong> debe mostrar un mensaje de advertencia en tiempo real indicando que el texto debe ser acortado y no permitir la acción de guardar hasta que se cumpla el límite establecido.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US010</td>
+            <td colspan="1">
+            Gestión de preferencias de visibilidad del perfil
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder configurar la visibilidad de mi perfil para que sea público o privado o que solo un grupo de usuarios puedan revisarlo, <strong>para</strong> tener control sobre quién puede ver mi información personal y mis actividades dentro de la plataforma.
+            <td colspan="5">
+            <strong>Escenario 1: Cambio en la configuración de visibilidad total del perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado accede a la sección de configuraciones de privacidad en su perfil de usuario, <strong>cuando</strong> selecciona la opción para cambiar la visibilidad de su perfil completo a "privado" o "público", <strong>entonces</strong> el sistema debe aplicar el cambio inmediatamente, actualizando la configuración y mostrando un mensaje de confirmación en menos de 2 segundos.<br><br>
+            <strong>Escenario 2: Visualización de perfil privado</strong>
+	    <br><br><strong>Dado que</strong> un usuario tiene su perfil configurado como privado en la aplicación de Roademics, <strong>cuando</strong> otros usuarios no autorizados intentan acceder a su perfil, <strong>entonces</strong> el sistema debe restringir el acceso y mostrar un mensaje indicando que el perfil es privado.<br><br>
+	    <strong>Escenario 3: Revertir visibilidad del perfil</strong>
+	    <br><br>Dado que</strong> un usuario cambia su perfil de privado a público en la sección de preferencias de privacidad de un perfil, <strong>cuando</strong> el cambio se realiza, <strong>entonces</strong> el sistema debe permitir que otros usuarios vean el perfil y mostrar un mensaje de confirmación para el propietario del perfil.<br><br>
+	    <strong>Escenario 4: Cambio de visualización solo para un grupo de personas específicas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado accede a la sección de configuraciones de privacidad en su perfil de usuario, <strong>cuando</strong> selecciona la opción para cambiar la visibilidad de su perfil a "solo personas seleccionadas", <strong>entonces</strong> el sistema debe presentarle una lista con todos los usuarios que sigue o tiene una relación de amistad para así poder seleccionar cuales usuarios pueden ver su perfil y cuales no. La lista debera ser presentada en un plazo no mayor a 5 segundos y el proceso de verificación de los ajustes realizados no debe tomar más de 3 segundos.<br><br>
+	    <strong>Escenario 5: Cambio de visualización solo para un grupo de secciones específicas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado accede a la sección de configuraciones de privacidad en su perfil de usuario, <strong>cuando</strong> selecciona la opción para cambiar la visibilidad de su perfil y selecciona la opción de hacerlo solo para ciertas secciones de su perfil, <strong>entonces</strong> el sistema debe presentarle una lista con todas las distintas secciones que tiene su perfil y presentarle las mismas opciones de preferencias que en otros casos para que haga su selección. La lista de secciones no debe tardar más de 3 segundos en presentarse, y los cambios realizados con los ajustes no deben tardar más de 5 segundos en presentarse.<br><br>
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+	         <tr>
+            <td colspan="1">US011</td>
+            <td colspan="1">
+            Actualización de información personal
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder actualizar mi información personal como nombres, apellidos, país y nacionalidad, y detalles de contacto en la plataforma, <strong>para</strong> mantener mi perfil actualizado y asegurarme de que otros usuarios puedan contactar conmigo de manera adecuada.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Modificación de información personal</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado accede a la sección de perfil, <strong>cuando</strong> selecciona la opción para modificar su información personal, <strong>entonces</strong> el sistema debe permitirle cambiar los campos pertinentes y guardar los cambios en menos de 3 segundos, mostrando una vista previa y un mensaje de confirmación de éxito al guardado en menos de 3 segundos también.<br><br>
+            <strong>Escenario 2: Validación de datos personales</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta ingresar información no válida (ej. nombre con números o formato incorrecto en el email), <strong>cuando</strong> el sistema detecta este error al momento de que el usuario quiera guardar esa información, <strong>entonces</strong> el sistema debe impedir la actualización, mostrando un mensaje de error en tiempo real, indicando la corrección necesaria.<br><br>
+	    <strong>Escenario 3: Recuperación de información anterior</strong>
+	    <br><br><strong>Dado que</strong> un usuario decide no continuar con los cambios que ha realizado en el formulario de modificación, <strong>cuando</strong> selecciona la opción de "Cancelar", <strong>entonces</strong> el sistema debe revertir los datos al estado anterior sin guardar ninguna modificación y mostrar un mensaje indicando que no se realizaron cambios en tiempo real.<br><br>
+	    <strong>Escenario 4: Restricción de caracteres</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta ingresar texto que excede los límites permitidos (ej. en el campo de nombre o apellido), <strong>cuando</strong> se detecta esta situación dentro del sistema al momento que el usuario esta escribiendo en los cuadros de texto, <strong>entonces</strong> el sistema debe restringir la cantidad de caracteres y notificar al usuario sobre el límite.<br><br>
+	    <strong>Escenario 5: Ingresar información que requiera de alguna verificación</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra en la pantalla de edición de información personal y quiere editar data que requiera de alguna verificación, como su correo electrónico y su número de teléfono, <strong>cuando</strong> se detecte el cambio de estos campos por parte del sistema y se identifique que tipo de información es, <strong>entonces</strong> el sistema le informara al usuario que para agregar o cambiar esos datos se le enviara un mensaje por correo electrónico o mensajería, dependiendo del campo modificado, para que pueda responder a esos mensajes de forma adecuada y así verificar que esos medios si son de su persona. Todo este proceso de envio de mensajes no debe tardar más de 5 segundos para ambos casos, y el proceso de verificación, al ser casi inmediato, no debe tardar más de 3 segundos.<br><br>
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US012</td>
+            <td colspan="1">
+            Eliminación de una cuenta de usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Solicitud de eliminación de cuenta</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la plataforma decide eliminar su cuenta, <strong>cuando</strong> accede a la sección de ajustes y selecciona la opción para eliminar la cuenta desde su perfil, <strong>entonces</strong> el sistema debe mostrar una advertencia clara que informe al usuario sobre la naturaleza irreversible del proceso, solicitando confirmación antes de proceder. La confirmación debe incluir un cuadro de diálogo adicional donde el usuario ingrese su contraseña como verificación final, y el proceso debe completarse en un máximo de 3 segundos.<br><br>
+            <strong>Escenario 2: Eliminación de cuenta fallida</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la plataforma decide eliminar su cuenta, <strong>cuando</strong> accede a la sección de ajustes y selecciona la opción para eliminar la cuenta desde su perfil, y no consiga escribir su contraseña de verificación de forma correcta después de 3 intentos, <strong>entonces</strong> el sistema debe proceder a denegar toda acción de cerrar sesión y bloquear el acceso a esa sección por un total de 15 minutos, además de enviarle un correo electrónico directo al usuario en el cual le informa lo sucedido y le pregunta si le gustaría bloquear la cuenta por una posible brecha de seguridad en un plazo de 5 segundos.<br><br>
+	    <strong>Escenario 3: Confirmación de eliminación exitosa</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la plataforma ha procedido con el proceso de eliminación de su cuenta personal, <strong>cuando</strong> la operación se complete con éxito y todo el proceso de verificación haya culminado, <strong>entonces</strong> el sistema debe enviar un correo final al usuario confirmando la eliminación de todos los datos y avisándole que ya no tiene acceso a la plataforma. Además, el sistema debe asegurarse de que el usuario vuelva a la pantalla de bienvenida y no pueda volver a iniciar sesión con las credenciales eliminadas.<br><br>
+	    <strong>Escenario 4: Prohibición de un registro con la mismas credenciales</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la plataforma ha procedido con el proceso de eliminación de su cuenta personal y la ha podido eliminar con éxito, <strong>cuando</strong> el usuario regrese a la pantalla de bienvenida y luego pase a la pantalla de registro para tratar de crear una nueva cuenta con las mismas credenciales de la cuenta eliminada, <strong>entonces</strong> el sistema debe denegarle el registro al usuario e informarle que no puede registrarse nuevamente con las mismas credenciales de la cuenta que ya elimino por un plazo de 30 días. Estos mensajes deben aparecer en menos de 3 segundos y su objetivo es evitar la sobrecarga de las funciones de eliminación y creación de datos, y la sobrecarga de información irrelevante.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US013</td>
+            <td colspan="1">
+            Sección de cambio de contraseña
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Cambio exitoso de contraseña</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma y accede a la sección de cambio de contraseña desde su perfil, <strong>cuando</strong> se le presente el formulario de cambio de contraseña, donde ingresa su contraseña actual, una nueva contraseña que cumpla con los requisitos de seguridad, y una confirmación de la nueva contraseña, <strong>entonces</strong> el sistema debe verificar que la contraseña actual es correcta, validar que la nueva contraseña cumple con los requisitos de seguridad (longitud mínima, caracteres especiales, números y mayúsculas), actualizar la contraseña en la base de datos y mostrar un mensaje de confirmación del cambio exitoso dentro de los próximos 3 segundos.<br><br>
+            <strong>Escenario 2: Contraseña no cumple con los requisitos</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta cambiar su contraseña, <strong>cuando</strong> ingresa una nueva contraseña que no cumple con los requisitos de seguridad establecidos, <strong>entonces</strong> el sistema debe mostrar un mensaje de error detallando los requisitos no cumplidos y no permitir el cambio hasta que la nueva contraseña cumpla con los criterios de seguridad indicados.<br><br>
+	    <strong>Escenario 3: Contraseña actual incorrecta</strong>
+	    <br><br><strong>Dado que</strong> un usuario está intentando cambiar su contraseña actual, <strong>cuando</strong> ingresa su contraseña actual de forma incorrecta en el formulario de cambio de contraseña, <strong>entonces</strong> el sistema debe mostrar un mensaje de error de forma inmediata informando que la contraseña actual no es correcta y no permitir el cambio hasta que el usuario ingrese la contraseña correcta.<br><br>
+	    <strong>Escenario 4: Confirmación de seguridad adicional</strong>
+	    <br><br><strong>Dado que</strong> un usuario está cambiando su contraseña, <strong>cuando</strong> el sistema detecta que el cambio de contraseña puede ser un intento de acceso no autorizado debido a un total de 3 fallos al momento de poner la contraseña actual, <strong>entonces</strong> el sistema debe enviar un correo de confirmación o una notificación al usuario registrado, solicitando la verificación de que ha sido él quien ha solicitado el cambio de contraseña, antes de completar el proceso de actualización en un plazo máximo de 5 minutos. De no poder verificarse, la opción se bloqueara por un total de 6 horas.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+		<tr>
+            <td colspan="1">US014</td>
+            <td colspan="1">
+            Gestión de notificaciones de usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar de forma adecuada cómo se controlan las notificaciones en mi cuenta y perfil dentro de Roademics, <strong>para</strong> estar informado sobre los cambios que son de mi interés, mientras selecciono qué otros eventos no requieren que reciba notificaciones, brindándome control total sobre las alertas que recibo.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Configuración de notificaciones por tipo de evento</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea personalizar sus notificaciones, <strong>cuando</strong> accede a la sección de configuración de notificaciones desde los ajustes de su perfil de usuario, <strong>entonces</strong> el sistema debe permitirle seleccionar sobre qué tipo de eventos o situaciones (mensajes, actualizaciones de perfil, nuevas conexiones, entre otros) desea recibir notificaciones y guardar sus preferencias después de hacer los cambios. El guardado de esas preferencias no debe tomar más de 2 segundos.<br><br>
+            <strong>Escenario 2: Configuración de notificaciones por tipo de medio</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea personalizar sus notificaciones, <strong>cuando</strong> accede a la sección de configuración de notificaciones desde los ajustes de su perfil de usuario, <strong>entonces</strong> el sistema debe permitirle seleccionar por que tipo de medios quiere que sus notificaciones sean enviadas (mensajeria, correo, en la misma aplicación, notificaciones directas de su dispositivos, entre otros) y guardar sus preferencias después de hacer los cambios. El guardado de esas preferencias no debe tomar más de 2 segundos.<br><br>
+	    <strong>Escenario 3: Frecuencia de notificaciones</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea controlar la frecuencia con la que recibe notificaciones de parte de la aplicación Roademics, <strong>cuando</strong> accede a la configuración de frecuencia de notificaciones desde su perfil de usuario, <strong>entonces</strong> el sistema debe permitir al usuario elegir si quiere que sus notificaciones aparezcan de forma instantánea, si quiere que haya un retraso entre cada notificación, o si quiere que solo haya un número de notificaciones de cada tipo de forma diaria. Estos cambios, una vez aplicados, deben poder guardarse en los próximos 5 segundos.<br><br>
+	    <strong>Escenario 4: Restablecimiento de preferencias de notificación</strong>
+	    <br><br><strong>Dado que</strong> un usuario ya ha cambiado sus ajustes de notificaciones en su página de perfil y desea restablecer sus preferencias de notificación a la configuración predeterminada, <strong>cuando</strong> selecciona la opción para restablecer las configuraciones de notificación desde su página de ajustes, <strong>entonces</strong> el sistema debe enviar un mensaje flotante de confirmación para la acción y aplicar los cambios en un plazo de 5 segundos, restableciendo todas las notificaciones a su estado original.
+            </td>
+            <td colspan="1">EP003</td>
+		</tr>
+  		<tr>
+            <td colspan="1">US015</td>
+            <td colspan="1">
+            Notificaciones personalizadas para el usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Notificaciones de nuevos mensajes</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la plataforma de Roademics y tiene las notificaciones activadas, <strong>cuando</strong> reciba un nuevo mensaje en la plataforma de parte de algún otro usuario, <strong>entonces</strong> el sistema debe notificar al usuario receptor del mensaje mediante una alerta visual en la plataforma en un plazo de 2 segundos y, si el usuario está desconectado, enviar mensaje de notificación mediante el método que selecciono el usuario en los ajustes de su perfil dentro de 10 segundos. En la notificación debe presentarse el primer mensaje y quien fue el emisor de ese mensaje.<br><br>
+            <strong>Escenario 2: Notificaciones de actualizaciones de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la plataforma de Roademics y tiene las notificaciones activadas, <strong>cuando</strong> se reporte un cambio o modificación en los datos del perfil del usuario, <strong>entonces</strong> el sistema debe notificar al usuario mediante una alerta visual en la plataforma en un plazo de 2 segundos y, si el usuario está desconectado, enviar mensaje de notificación mediante el método que selecciono el usuario en los ajustes de su perfil dentro de 10 segundos. En la notificación debe presentarse los cambios realizados en el perfil y en que momento fueron realizados.<br><br>
+	    <strong>Escenario 3: Notificaciones de nuevas conexiones</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la plataforma de Roademics y tiene las notificaciones activadas, <strong>cuando</strong> reciba una solicitud de amistad de un usuario de la plataforma, o algún usuario decida seguir su perfil, <strong>entonces</strong> el sistema debe notificar al usuario receptor de tal acción mediante una alerta visual en la plataforma en un plazo de 2 segundos y, si el usuario está desconectado, enviar mensaje de notificación mediante el método que selecciono el usuario en los ajustes de su perfil dentro de 10 segundos. En la notificación debe presentarse el usuario emisor de la solicitud y que tipo de conexión esta buscando, ya sea de seguimiento o amistad.<br><br>
+	    <strong>Escenario 4: Notificaciones de actividad en la red</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la plataforma de Roademics y tiene las notificaciones activadas, <strong>cuando</strong> algún usuario realice algún comentario sobre uno de sus post o revise su perfil, <strong>entonces</strong> el sistema debe notificar al usuario receptor de tal acción mediante una alerta visual en la plataforma en un plazo de 2 segundos y, si el usuario está desconectado y el usuario receptor fue un usuario con quien tiene una conexión de amistad, enviar mensaje de notificación mediante el método que selecciono el usuario en los ajustes de su perfil dentro de 10 segundos. En la notificación debe presentarse el usuario emisor de la acción y que es lo que hizo. De ser el caso, también presentar el mensaje enviado.
+            </td>
+            <td colspan="1">EP003</td>
+	    <tr>
+            <td colspan="1">US016</td>
+            <td colspan="1">
+            Creación de roadmap académico básico
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario de la aplicación de Roademics interesado en planificar mi trayectoria profesional con las funciones ofrecidas, <strong>quiero</strong> crear un roadmap académico básico en la plataforma, <strong>para</strong> visualizar y gestionar mi progreso académico, planificar mis cursos y establecer metas profesionales de manera eficiente y estructurada.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Ingreso de información básica para el roadmap académico</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a la sección de gestión de roadmap académico, <strong>cuando</strong> el usuario ingresa la información básica necesaria (como cursos planificados, objetivos, fechas estimadas, atributos y cualidades, y metas profesionales) para construir el roadmap en el formulario de creación, <strong>entonces</strong> el sistema debe permitir al usuario guardar esta información en un formato estructurado dentro de los próximos 5 segundos, asegurando que todos los campos obligatorios sean completados antes de proceder.<br><br>
+            <strong>Escenario 2: Generación de visualización del roadmap</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha ingresado correctamente la información básica de su roadmap según todos los formatos indicados, <strong>cuando</strong> el usuario confirma la creación del roadmap mediante el botón de "Guardar y Crear", <strong>entonces</strong> el sistema debe generar automáticamente una visualización gráfica básica, mostrando los pocos nodos y etapas del roadmap en un formato claro y organizado, con una estructura jerárquica que sea fácil de entender, y presentar la visualización en menos de 5 segundos.<br><br>
+	    <strong>Escenario 3: Confirmación de creación exitosa</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha podido crear un roadmap académico básico de forma exitosa y siguiendo todos los formatos indicados, <strong>cuando</strong> el proceso de creación se haya finalizado después de un plazo no mayor a 10 segundos, <strong>entonces</strong> el sistema debe mostrar un mensaje de confirmación dentro de los próximos 2 segundos, indicando que el roadmap se ha creado exitosamente y que la información está guardada de manera segura en la base de datos.<br><br>
+	    <strong>Escenario 4: Validación de datos para la creación del roadmap</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta crear un roadmap académico básico desde la pantalla de creación de roadmaps, <strong>cuando</strong> el sistema detecta datos faltantes o incorrectos en el formulario de ingreso de información (como cursos o carreras inexistentes, campos incompletos o duplicados, objetivos no comprensibles), <strong>entonces</strong> el sistema debe mostrar mensajes de error claros y detallados, impidiendo la creación del roadmap hasta que los problemas sean corregidos, y permitir la corrección dentro de los próximos 2 segundos.<br><br>
+	    <strong>Escenario 5: Creación del roadmap fallida</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta crear un roadmap académico básico desde la pantalla de creación de roadmaps, <strong>cuando</strong> la creación del Roadmap falla por algún motivo interno de la aplicación o por una carencia de disponibilidad a causa de alguna actualización o por obsolescencia de herramientas, entonces</strong> el sistema debe permitirle al usuario poder guardar o copiar la información que ingresó para la creación del roadmap antes del fallo, además de guardar automaticamente todo el proceso en menos de 10 segundos antes de cerrar la funcionalidad.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US017</td>
+            <td colspan="1">
+            Generación automática de roadmap con el uso de Inteligencia Artificial
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma sea capaz de generar un roadmap profesional utilizando las herramientas de inteligencia artificial que dispone, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Procesamiento de metas y generación de roadmap con IA</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y ha ingresado sus metas profesionales y educativas en la sección de gestión de roadmaps en la plataforma, <strong>cuando</strong> el usuario solicita la generación de un roadmap utilizando Inteligencia Artificial, <strong>entonces</strong> el sistema debe procesar la información proporcionada, aplicar los algoritmos de inteligencia artificial adecuados, y generar un roadmap profesional personalizado dentro de los próximos 15 segundos, mostrando una visualización clara y estructurada de las recomendaciones generadas y otros detalles de progreso y avance.<br><br>
+            <strong>Escenario 2: Validación de información para generar roadmap con IA</strong>
+	    <br><br><strong>Dado que</strong> un usuario ingresa a la sección de gestión de roadmaps en la aplicación de Roademics, <strong>cuando</strong> los datos introducidos no son suficientes o contienen errores para el procesimiento por parte de la Inteligencia Artificial (como objetivos no comprensibles, cursos o carreras inexistentes o información no pertinente), <strong>entonces</strong> el sistema debe mostrar mensajes de advertencia indicando la falta de información o el error específico encontrado, y no permitir la generación del roadmap hasta que la información sea completa y precisa, ofreciendo la corrección en un tiempo máximo de 5 segundos tras cada intento.<br><br>
+	    <strong>Escenario 3: Confirmación y guardado del roadmap final</strong>
+	    <br><br><strong>Dado que</strong> un usuario ingresa a la sección de gestión de roadmaps en la aplicación de Roademics y ha generado un roadmap con el uso de Inteligencia Artificial para guardarlo, <strong>cuando</strong> la aplicación y el asesor de inteligencia artificial terminen de generar el roadmap establecido para el usuario y presione el botón de guardado en la parte superior izquierda, <strong>entonces</strong> el sistema debe guardar tanto la data del roadmap como la orden que utilizo el usuario para generar en su base de datos en un plazo no mayor a 5 segundos.<br><br>
+	    <strong>Escenario 4: Creación del roadmap con IA fallida</strong>
+	    <br><br><strong>Dado que</strong> un usuario intenta crear un roadmap con el uso de su asesor de IA desde la pantalla de creación de roadmaps, <strong>cuando</strong> la creación del Roadmap falla por algún motivo interno de la aplicación o por una carencia de disponibilidad a causa de alguna actualización o por obsolescencia de las herramientas del asesor de inteligencia artificial, entonces</strong> el sistema debe permitirle al usuario poder guardar o copiar el prompt u orden que ingresó para su asesor de inteligencia artificial antes del fallo, además de guardar automaticamente todo el proceso en menos de 10 segundos antes de cerrar la funcionalidad.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US018</td>
+            <td colspan="1">
+            Menú de almacenamiento de Roadmaps de un usuario
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma tenga un pequeño menú o dashboard donde se muestren todos los roadmaps u hojas de ruta que he generado en la aplicación, <strong>para</strong> tener un acceso directo a cada uno de mis roadmaps y poder almacenarlos de forma más sencilla, cómoda y organizada.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Visualización de roadmaps generados</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha generado uno o más roadmaps en la plataforma de forma adecuada, <strong>cuando</strong> el usuario accede a su sección de gestión de roadmaps, <strong>entonces</strong> el sistema debe mostrar un menú o dashboard que liste todos los roadmaps creados, organizados por fecha de creación y última modificación, dentro de los próximos 3 segundos, permitiendo una fácil navegación y acceso a cada roadmap.<br><br>
+            <strong>Escenario 2: Acceso rápido a roadmaps</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado tiene varios roadmaps almacenados en su cuenta de Roademics, <strong>cuando</strong> el usuario ingresa a su sección de gestión de roadmaps y selecciona uno de los roadmaps desde el menú de almacenamiento, <strong>entonces</strong> el sistema debe redirigir al usuario a una página de visualización y edición detallada de ese roadmap específico, cargando los datos en un máximo de 8 segundos para una experiencia fluida.<br><br>
+	    <strong>Escenario 3: Función de organización personalizada</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la aplicación y quiere organizar mejor sus roadmaps, <strong>cuando</strong> el usuario accede a la sección de gestión de roadmaps y luego al menú de almacenamiento y decide reordenar o categorizar sus roadmaps, <strong>entonces</strong> el sistema debe permitir al usuario crear carpetas, etiquetas o filtros personalizados para mejorar la organización, guardando los cambios de forma automática en los próximos 3 segundos.<br><br>
+	    <strong>Escenario 4: Función de búsqueda rápida</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la aplicación tiene varios roadmaps guardados, <strong>cuando</strong> el usuario se encuentre dentro de la sección de gestión de roadmaps y desee buscar un roadmap específico por nombre o palabra clave, <strong>entonces</strong> el sistema debe incluir una barra de búsqueda en el menú de almacenamiento, que filtre y muestre resultados en tiempo real, dentro de un plazo de entre 1 a 3 segundos desde que el usuario comienza a escribir, dependiendo de la cantidad de roadmaps que tiene creados.<br><br> 
+	    <strong>Escenario 5: Función de ordenamiento rápido </strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la aplicación tiene varios roadmaps guardados, <strong>cuando</strong> el usuario se encuentre dentro de la sección de gestión de roadmaps y mantenga presionado uno de los botones de acceso directo de uno de sus roadmaps almacenados, <strong>entonces</strong> el sistema le permitira agarrar y mover los roadmaps alrededor de todo su almacenamiento de roadmaps para poder organizarlos de forma adecuada al crear un nuevo orden personalizado. Este movimiento es inmediato y se realiza con simples movimientos en la pantalla.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US019</td>
+            <td colspan="1">
+            Acceso a plantillas básicas y avanzadas para la creación de Roadmaps
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Visualización de plantillas de roadmap</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma y accede a la sección de gestión de roadmaps de la aplicación, <strong>cuando</strong> el usuario solicita ver las plantillas desde un botón con nombre "Plantillas" en el menú de almacenamiento de roadmaps, <strong>entonces</strong> el sistema debe mostrar una lista organizada de plantillas predefinidas, dividida entre plantillas básicas y avanzadas, dentro de los próximos 5 segundos, permitiendo al usuario seleccionar entre diferentes opciones que se ajusten a sus necesidades profesionales.<br><br>
+            <strong>Escenario 2: Acceso a plantillas premium</strong>
+	    <br><br><strong>Dado que</strong> un usuario con membresía premium está autenticado y solicita una plantilla avanzada en la sección de roadmaps de la aplicación, <strong>cuando</strong> el usuario selecciona una plantilla marcada como "premium" de entre todas las plantillas de la lista, <strong>entonces</strong> el sistema debe verificar que el usuario tiene acceso a dicha plantilla y, en caso de ser válido, habilitar la selección y personalización de la plantilla, dentro de los próximos 3 segundos.<br><br>
+	    <strong>Escenario 3: Restricción para usuarios sin acceso premium</strong>
+	    <br><br><strong>Dado que</strong> un usuario sin membresía premium este autenticado en la aplicación, <strong>cuando</strong> el usuario selecciona una plantilla avanzada o premium, <strong>entonces</strong> el sistema debe mostrar un mensaje indicando que la plantilla es solo accesible para usuarios con membresía premium y ofrecer la opción de actualizar su membresía en menos de 2 segundos, bloqueando el acceso hasta que se cumplan los requisitos.<br><br>
+	    <strong>Escenario 4: Filtros de plantillas</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la aplicación de Roademics e ingresa a la sección de roadmaps, <strong>cuando</strong> el usuario selecciona la sección de plantillas y presiona el botón de filtros en la parte superior derecha de la lista, <strong>entonces</strong> el sistema debe mostrar una lista de posibles filtros que puede utilizar el usuario, entre los cuales puede seleccionar la profesión, la carrera o especialización, la longitud, si es premium o básico, entre otros filtros. La presentación de filtros es inmediata y la búsqueda de plantillas basadas en filtros no debe tomar más de 5 segundos.<br><br>
+	    <strong>Escenario 5: Búsqueda de plantillas</strong>
+	    <br><br><strong>Dado que</strong> un usuario se encuentra autenticado en la aplicación de Roademics e ingresa a la sección de roadmaps, <strong>cuando</strong> el usuario selecciona la sección de plantillas y presiona la barra de búsqueda que se encuentra la parte superior de la lista, <strong>entonces</strong> el sistema debe permitir al usuario escribir en la barra de búsqueda con el fin de buscar una plantilla en específico o con el uso de filtros más completos y avanzados. La entrega de plantillas tras la búsqueda no debe tardar más de 5 segundos.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US020</td>
+            <td colspan="1">
+            Edición de roadmaps básicos
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario que ha creado un roadmap básico en la plataforma de Roademics, <strong>quiero</strong> poder editar el roadmap existente con el uso de herramientas variadas de edición y modificación, <strong>para</strong> actualizar la información relevante, ajustar mis objetivos profesionales o académicos, y modificar mis planes según mis necesidades actuales. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Acceso a la opción de edición de roadmaps</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha creado previamente un roadmap básico en la plataforma, <strong>cuando</strong> el usuario decide acceder a la sección de gestión de roadmaps y selecciona uno de los roadmaps que ya ha creado con la opción de edición, <strong>entonces</strong> el sistema debe mostrar una interfaz de edición estructurada que permita modificar los elementos del roadmap (como cursos, hitos o fechas), cargar los datos existentes en un plazo no mayor a 2 segundos, y ofrecer herramientas para ajustar los detalles de manera precisa.<br><br>
+            <strong>Escenario 2: Actualización y vista previa de cambios</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha ingresado nuevos datos o modificado la información existente en uno de sus roadmaps creados, <strong>cuando</strong> el usuario confirma los cambios realizados mediaten un botón de "Guardar" en la esquina superior izquierda de la interfaz, <strong>entonces</strong> el sistema debe generar una vista previa interactiva y en tiempo real del roadmap actualizado, reflejando claramente los cambios y permitiendo al usuario revisar la consistencia de los datos antes de proceder con el guardado final. La vista previa debe generarse en un plazo de hasta 2 segundos.<br><br>
+	    <strong>Escenario 3: Validación de información actualizada</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha completado las modificaciones de su roadmap básico mediante la interfaz de edición de la sección de gestión de roadmaps, <strong>cuando</strong> el usuario completa de forma adecuada el proceso de guardado y el sistema valida la nueva información ingresada (como fechas, duración de cursos y objetivos), <strong>entonces</strong> debe ejecutar las verificaciones necesarias para asegurar que los cambios cumplen con las reglas de formato y coherencia, notificando al usuario sobre cualquier error o conflicto en los datos dentro de los próximos 3 segundos. De ser necesario, el sistema debe ofrecer sugerencias de corrección.<br><br>
+	    <strong>Escenario 4: Mensaje de éxito en la edición</strong>
+	    <br><br><strong>Dado que</strong> un usuario ha finalizado el proceso de actualización de su roadmap y el sistema ha confirmado el guardado exitoso en la sección de gestión de roadmaps, <strong>cuando</strong> el sistema refleja los cambios de forma directa y los cambia por la última versión guardada antes del cambio, <strong>entonces</strong> debe mostrar un mensaje de éxito que incluya la fecha y hora en la que se realizó la última modificación, la cual debe ser guardada junto al resto de datos visibles del roadmap para el usuario, realizando todo el proceso en un tiempo máximo de 2 segundos.<br><br>
+	    <strong>Escenario 5: Guardado rápido en caso de fallo en la aplicación</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado de forma adecuada en la aplicación está actualizando su roadmap desde la sección de gestión de roadmaps, <strong>cuando</strong> el sistema presenta algún ligero fallo, ya sea por temas de disponibilidad, o por obsolescencia, o hay un cierre inesperado de la aplicación por otro motivo externo, <strong>entonces</strong> el sistema debe guardar automaticamente el progreso realizado por el usuario en un plazo no mayor a 3 segundos, para que el usuario pueda seguir su progreso desde el punto antes que la aplicación cerrará cuando los problemas se resuelvan.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US021</td>
+            <td colspan="1">
+            Acceso a herramientas de edición avanzada de roadmaps para usuarios premium
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario con suscripción Premium en la plataforma Roademics, <strong>quiero</strong> tener acceso a herramientas de edición avanzada para la modificación de mis roadmaps profesionales, <strong>para</strong> aprovechar funcionalidades adicionales que me permitan optimizar la planificación y gestión de mis metas, brindándome mayor flexibilidad y precisión en la creación y ajuste de mis objetivos. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Acceso a la herramienta avanzada de edición para usuarios Premium</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como miembro con suscripción Premium en la plataforma, <strong>cuando</strong> el usuario navega a la sección de gestión de roadmap, y accede a la pantalla de edición de uno de sus roadmaps <strong>entonces</strong> el sistema debe detectar su estado Premium y habilitar el acceso a la herramienta avanzada de edición. La habilitación debe ser completada en un plazo no mayor a 2 segundos.<br><br>
+            <strong>Escenario 2: Funcionalidades exclusivas de la herramienta avanzada</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium accede a la sección de gestión de roadmaps y puede utilizar las herramientas avanzadas de edición, <strong>cuando</strong> el usuario ingresa a la opción de edición de alguno de sus roadmaps y en la interfaz decide utilizar alguna de las funciones exclusivas que le son presentadas, <strong>entonces</strong> el sistema debe permitir el uso de estas funciones adicionales, mostrando una interfaz optimizada que cargue los componentes gráficos y herramientas avanzadas en menos de 3 segundos, asegurando una experiencia fluida y sin interrupciones.<br><br>
+	    <strong>Escenario 3: Restricción de acceso para usuarios sin suscripción Premium válida</strong>
+	    <br><br><strong>Dado que</strong> un usuario no premium o con membresía premium no válida accede a la sección de gestión de roadmaps y después a la interfaz de edición de uno de sus roadmaps, <strong>cuando</strong> el usuario quiera utilizar alguna de las funcionalidades avanzadas y el sistema detecta que la suscripción del usuario ha expirado o no es válida, o que el usuario no presenta alguna suscripción, <strong>entonces</strong> el sistema debe denegar el acceso a las funcionalidades avanzadas, mostrando un mensaje claro indicando que se requiere una suscripción Premium activa para utilizar la herramienta. El sistema debe ofrecer una opción para obtener, renovar o actualizar la suscripción, cargándose esta pantalla en un tiempo no mayor a 4 segundos.<br><br>
+	    <strong>Escenario 4: Almacenamiento y sincronización de cambios en tiempo real</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium ha realizado ediciones avanzadas en su roadmap, <strong>cuando</strong> el usuario guarda los cambios, <strong>entonces</strong> el sistema debe almacenar las modificaciones en tiempo real, sincronizarlas con el servidor de manera segura en menos de 2 segundos, y mostrar un mensaje de confirmación indicando que el roadmap se ha actualizado correctamente. El sistema debe permitir al usuario ver una vista previa actualizada del roadmap optimizado y ofrecer la opción de exportarlo en diferentes formatos avanzados.<br><br>
+	    <strong>Escenario 5: Almacenamiento de modificaciones realizadas con una membresía que ya no es válida</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado ha realizado ediciones avanzadas en su roadmap y ha guardado los cambios, <strong>cuando</strong> la cuenta premium del usuario termine siendo inhabilitada de forma temporal o permanente (ya sea por vencimiento de pagos, por incumplir con los términos y condiciones, por cerrar la cuenta por decisión propia, o por otras razones), <strong>entonces</strong> el sistema debe bloquear el acceso a todos los roadmaps del usuario que presenten el uso de alguna herramienta avanzada y solo permitirle el acceso después de realizar una propia limpieza de herramientas, con la cual el sistema eliminara toda modificación realizada con herramientas avanzadas en un plazo no mayor a 15 segundos.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US022</td>
+            <td colspan="1">
+            Eliminación de roadmaps
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Proceso de eliminación de roadmaps</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y navega a su lista de roadmaps en la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona uno o varios roadmaps que desea eliminar y confirma esta acción al presiona un botón con forma de una papelera, <strong>entonces</strong> el sistema debe proceder a eliminar los roadmaps seleccionados de la base de datos en un plazo máximo de 5 segundos, actualizar la lista de roadmaps en la interfaz del usuario de forma instantánea, y mostrar un mensaje de confirmación que indique que la eliminación se ha realizado de forma exitosa.<br><br>
+            <strong>Escenario 2: Mensaje de error en caso de fallo en la eliminación</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado e intenta eliminar un roadmap en su sección de gestión de roadmaps, <strong>cuando</strong> el sistema detecta un error en el proceso de eliminación (como un fallo en la conexión o problema con la base de datos), <strong>entonces</strong> el sistema debe mostrar un mensaje de error en menos de 3 segundos, informando al usuario del problema y sugiriendo que intente la acción nuevamente o contacte con soporte técnico si el error persiste.<br><br>
+	    <strong>Escenario 3: Intento de acceso a roadmaps eliminados</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha eliminado uno o varios roadmaps de su perfil, <strong>cuando</strong> el usuario intenta acceder a un roadmap eliminado a través de enlaces guardados o referencias anteriores, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia que indique que el roadmap ya no está disponible y redirigir al usuario a su lista actualizada de roadmaps o a otra sección relevante de la plataforma, ambas acciones dentro de un tiempo máximo de 3 segundos.<br><br>
+            </td>
+	    <strong>Escenario 4: Nueva pantalla en caso de eliminación de todos los roadmaps</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado está eliminando todos los roadmaps que tiene almacenados dentro de su sección de gestión de roadmaps, <strong>cuando</strong> el usuario consiga eliminar el último roadmap que queda en esa sección de forma adecuada, <strong>entonces</strong> el sistema debe cambiar la pantalla de su menú de la sección de gestión de roadmaps para que le presente un mensaje motivador para que empiece a crear nuevos roadmaps y darle la opción directa de generar un nuevo roadmap en un plazo no mayor a 2 segundos.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US023</td>
+            <td colspan="1">
+            Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Visualización de límite de roadmaps permitidos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y navega a la sección de gestión de roadmaps, <strong>cuando</strong> el usuario accede a esta sección y el menú de almacenamiento con todos sus roadmaps termina de cargar y presentarse, <strong>entonces</strong> el sistema debe mostrar de manera clara y visible en la esquina superior derecha de la interfaz la cantidad máxima de roadmaps que el usuario puede gestionar según su plan o suscripción, así como el número actual de roadmaps en uso, todo en tiempo real y de forma que sea comprensible. <br><br>
+            <strong>Escenario 2: Notificación al alcanzar el límite de roadmaps permitidos</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha alcanzado el límite de roadmaps permitidos por su plan o suscripción, <strong>cuando</strong> el usuario intenta crear un nuevo roadmap, <strong>entonces</strong> el sistema debe bloquear la acción y mostrar un mensaje informativo explicando que el usuario ha alcanzado el límite de roadmaps, ofreciendo además opciones como eliminar roadmaps antiguos, actualizar su plan de suscripción o contactar con soporte si requiere más roadmaps, todo este mensaje debe presentarse en un plazo menor a 3 segundos.<br><br>
+	    <strong>Escenario 3: Aviso preventivo al acercarse al límite</strong>
+	    <br><br><strong>Dado que</strong> un usuario tiene casi alcanzado el límite de roadmaps permitidos, <strong>cuando</strong> el usuario crea un nuevo roadmap y está a menos de dos roadmaps del límite, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia informando que el límite está próximo a alcanzarse, brindando sugerencias para optimizar la gestión de roadmaps, como la eliminación de roadmaps obsoletos o la actualización a un plan superior, además de abrir la pantalla de generación de roadmaps, ambas acciones en menos de 2 segundos.<br><br>
+	    <strong>Escenario 4: Límite diferenciado por tipo de suscripción</strong>
+	    <br><br><strong>Dado que</strong> un usuario con diferentes niveles de suscripción accede a la sección de roadmaps, <strong>cuando</strong> el usuario visualiza sus roadmaps en la plataforma, <strong>entonces</strong> el sistema debe mostrar la cantidad de roadmaps permitidos según el tipo de suscripción que tenga el usuario en un plazo no mayor a 3 segundos, diferenciando entre planes gratuitos y premium, y ofreciendo información sobre cómo ampliar el límite si el usuario está en un plan con restricciones. Para los usuarios básicos el límite es de 3 roadmaps, mientras que para usuarios premium el límite es de 10 roadmaps.<br><br>
+	    <strong>Escenario 5: Sincronización en tiempo real del límite de roadmaps</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado se encuentra en su sección de gestión de roadmaps, <strong>cuando</strong> el usuario realiza alguna acción con sus roadmaps, ya sea de creación o eliminación, <strong>entonces</strong> el sistema debe actualizar instantáneamente la información visible sobre el límite de roadmaps permitidos y el número actual en uso, garantizando que cualquier cambio sea reflejado en tiempo real en todos los dispositivos desde los que el usuario esté conectado.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US024</td>
+            <td colspan="1">
+            Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Solicitud de análisis avanzado</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario premium en la aplicación y accede a su sección de gestión de roadmaps para seleccionar uno de todos los roadmaps que tiene almacenados, <strong>cuando</strong> el usuario selecciona la opción de solicitar un análisis avanzado del roadmap en la parte superior central de la interfaz, <strong>entonces</strong> el sistema debe aplicar algoritmos de inteligencia artificial y análisis de datos avanzados para procesar la información contenida en el roadmap, generando un informe detallado que incluya el progreso alcanzado, posibles problemas e incomodidades en el avance, áreas donde el usuario puede mejorar, y recomendaciones personalizadas que sean relevantes para el usuario en función de sus metas profesionales y educativas. El acceso rápido a este reporte debe realizarse en menos de 10 segundos.<br><br>
+            <strong>Escenario 2: Presentación del análisis avanzado</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y el sistema ha generado el análisis avanzado del roadmap de un usuario premium, <strong>cuando</strong> el usuario accede al reporte gráfico en la plataforma, <strong>entonces</strong> el sistema debe mostrar el análisis en un formato claro, visualmente accesible, y comprensible, utilizando gráficos, porcentajes de progreso, y métricas clave que permitan al usuario comprender rápidamente las áreas críticas de su planificación profesional, y cómo pueden ser optimizadas para lograr un avance más eficiente. Todo este reporte gráfico debe realizarse en menos de 5 segundos desde que el usuario ingresa al informe de análisis.<br><br>
+	    <strong>Escenario 3: Interacción con los datos del análisis</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado está revisando su análisis avanzado de uno de sus roadmaps, <strong>cuando</strong> el usuario interactúa con los elementos gráficos del reporte desarrollado, <strong>entonces</strong> el sistema debe permitir al usuario profundizar en cada sección del análisis en tiempo real, proporcionando detalles adicionales y enlaces a herramientas de optimización del roadmap, como la modificación de objetivos o la recomendación de nuevos cursos, basadas en las áreas de mejora detectadas por el análisis.<br><br>
+	    <strong>Escenario 4: Recomendaciones basadas en el análisis avanzado</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado ha recibido un análisis detallado de su roadmap con elementos gráficos, <strong>cuando</strong> el sistema identifica áreas de mejora significativas o desalineaciones en la planificación del usuario, <strong>entonces</strong> el sistema debe generar recomendaciones específicas y personalizadas, incluyendo sugerencias sobre cursos adicionales, ajustes en los objetivos del roadmap, o estrategias de replanificación, con el fin de ayudar al usuario a realinear su roadmap con sus metas profesionales. Estas recomendaciones no deben tardar más de 5 segundos desde que se abrio la pantalla de análisis.<br><br>
+	    <strong>Escenario 5: Proceso de análisis fallido por no tener una cuenta válida</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado, pero no presenta una cuenta premium válida o directamente no presenta una cuenta premium, <strong>cuando</strong> el usuario seleccione la opción de generación de reporte de desarrollo en uno de sus roadmaps en la sección de gestión de roadmaps, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia en menos de 2 segundos, indicandole al usuario que no puede utilizar la funcionalidad debido a que no cuenta con los permisos adecuados de una cuenta premium validada.
+            </td>
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US025</td>
+            <td colspan="1">
+            Poder exportar mi roadmaps en formato como PDF o PNG 
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Opción de exportación</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario premium y ha accedido a uno de sus roadmaps profesionales a través de la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona la opción de exportar el roadmap, el cual se encuentra en un botón llamado "Exportar" en la esquina superior izquierda de la interfaz, <strong>entonces</strong> el sistema debe presentar las opciones disponibles para la exportación, permitiendo al usuario elegir entre los formatos PDF o PNG. El sistema deberá generar el archivo en el formato seleccionado, asegurándose de que este proceso se complete en un plazo máximo de 10 segundos para formatos PNG y 15 segundos para formatos PDF, tomando en cuenta el tamaño y la complejidad del roadmap.<br><br>
+            <strong>Escenario 2: Integridad del archivo exportado</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium ha exportado un roadmap en uno de los formatos permitidos, <strong>cuando</strong> el usuario descarga y abre el archivo exportado, <strong>entonces</strong> el archivo debe reflejar con exactitud tanto el diseño visual como el contenido del roadmap tal como fue presentado en la plataforma, sin pérdida de información o calidad gráfica. Además, el archivo PDF debe generarse con una estructura optimizada para la impresión, y el archivo PNG debe mantener una resolución de al menos 300 dpi, garantizando una alta calidad visual del roadmap para una clara visualización.<br><br>
+	    <strong>Escenario 3: Verificación del proceso de exportación</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium autenticado ha seleccionado un roadmap de su sección de gestión de roadmaps y ha iniciado el proceso de exportación, <strong>cuando</strong> el sistema está generando el archivo en el formato seleccionado, <strong>entonces</strong> el sistema debe mostrar un mensaje informativo que indique el estado del proceso de exportación. Este mensaje debe mantenerse visible durante el tiempo necesario hasta que la exportación se complete con éxito, informando al usuario si la exportación ha sido realizada dentro del tiempo esperado (10 o 15 segundos, según el formato).<br><br>
+	    <strong>Escenario 4: Notificación de éxito en la exportación</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado con una cuenta premium ha seleccionado un roadmap para exportar y el proceso de exportación ha finalizado con éxito, <strong>cuando</strong> el archivo se ha generado correctamente, <strong>entonces</strong> el sistema debe notificar al usuario mediante un mensaje que confirme que el roadmap ha sido exportado exitosamente, ofreciendo enlaces para descargar el archivo y recordando la ubicación predeterminada donde el archivo ha sido almacenado en el dispositivo. Esta notificación deberá aparecer en un plazo máximo de 3 segundos tras la finalización del proceso.<br><br>
+	    <strong>Escenario 5: Fallas en la exportación por falta de validación de cuenta premium</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado con una cuenta premium no validada o directamente sin una cuenta premium ha seleccionado un roadmap desde su sección de gestión de roadmaps, <strong>cuando</strong> seleccione la opción de exportación en la interfaz, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia en menos de 2 segundos, indicandole al usuario que no puede utilizar la funcionalidad debido a que no cuenta con los permisos adecuados de una cuenta premium validada.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US026</td>
+            <td colspan="1">
+            Poder crear los nodos de mi roadmap
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual , <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Creación de nuevos nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su roadmap profesional a través de la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona la opción para añadir un nuevo nodo al roadmap entre las opciones de la interfaz de edición, <strong>entonces</strong> el sistema debe permitir al usuario ingresar los detalles del nuevo nodo, tales como el título, descripción, metas a cumplir y cualquier información relevante. El sistema debe agregar el nuevo paso en la posición deseada dentro del roadmap, ya sea al final de la estructura existente o en una etapa intermedia definida por el usuario. Además, el sistema debe reflejar visualmente la creación del paso en la vista del roadmap, con un tiempo de respuesta no mayor a 3 segundos para asegurar una experiencia fluida.<br><br>
+            <strong>Escenario 2: Edición de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario desea modificar un nodo existente dentro de su roadmap profesional en la sección de gestión de roadmaps, <strong>cuando</strong> el usuario ingresa a la pantalla de edición del roadmap, selecciona un nodo para editar y luego selecciona el botón de edición, <strong>entonces</strong> el sistema debe permitir la edición de todos los campos asociados al nodo, como la descripción, objetivos y cualquier otra información ingresada. El sistema debe actualizar el nodo en el roadmap una vez que el usuario haya confirmado los cambios, mostrando los detalles actualizados en un plazo no mayor a 3 segundos después de guardar los cambios.<br><br>
+	    <strong>Escenario 3: Eliminación de nodos</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado desea eliminar un nodo que ya no es necesario dentro de su roadmap en la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona el roadmap en cuestión, luego selecciona el nodo que desea eliminar y confirma la eliminación mediante un botón de borrar, <strong>entonces</strong> el sistema debe eliminar el nodo del roadmap, actualizar la estructura visual del roadmap para reflejar la eliminación, y mostrar un mensaje de confirmación dentro de un plazo de 3 segundos tras la acción, indicando que el nodo ha sido eliminado exitosamente.<br><br>
+	    <strong>Escenario 4: Validación de datos ingresados</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado está en la pantalla de edición de un roadmap seleccionado anteriormente en la sección de gestión de roadmaps, <strong>cuando</strong> el usuario decide añadir o editar un nodo en el roadmap e introduce los detalles del nodo de forma incorrecta (ya sea por el uso de caracteres no reconocibles, datos o atributos inexistentes, entre otros), <strong>entonces</strong> el sistema debe mostrar un mensaje de error en un plazo de 1 segundo, solicitando al usuario que corrija la información antes de poder proceder.<br><br>
+	    <strong>Escenario 5: Guardado automático del roadmap como medida de seguridad</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha seleccionado un roadmap desde la sección de gestión de roadmaps y ha realizado cambios en este (creación, edición o eliminación de un nodo), <strong>cuando</strong> el sistema detecta la inactividad del usuario por más de 20 segundos tras el último cambio, o detecta que la aplicación se cerró de forma brusca y no por acción del mismo usuario, <strong>entonces</strong> el sistema debe guardar automáticamente los cambios realizados en el roadmap y enviar una notificación de que el progreso ha sido guardado exitosamente, para garantizar que no se pierda ninguna información crítica.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US027</td>
+            <td colspan="1">
+            Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario</td>
+            <td colspan="5">
+            <strong>Escenario 1: Notificación de obsolescencia de nodo</strong>
+	    <br><br><strong>Dado que</strong> un nodo en el grafo del roadmap de un usuario autenticado se vuelve obsoleto (ya sea por falta de actualización desde hace mucho tiempo, carencia de información relevante, quedarse aislado por mucho tiempo, entre otros), <strong>cuando</strong> el sistema detecta que el nodo ha sido marcado como obsoleto por un algoritmo de revisión y organización 14 días después de su creación, <strong>entonces</strong> el sistema debe enviar una notificación automática al usuario en un plazo de 5 segundos indicando que el nodo es obsoleto, con detalles que expliquen las razones de la obsolescencia y sugerencias para actualizar el nodo o reemplazarlo por otro. <br><br>
+            <strong>Escenario 2: Notificación de nodo no disponible</strong>
+	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario ya no está disponible (ya sea porque fue eliminado al considerarse obsoleto 30 días después de su creación, porque fue eliminado por una limpieza accidental, entre otros) <strong>cuando</strong> el sistema detecta que el nodo ha sido eliminado o ya no es accesible tras una revisión por algoritmos, <strong>entonces</strong> el sistema debe enviar una notificación al usuario en un plazo de 5 segundos, indicando que el nodo ya no está disponible y sugiriendo al usuario revisar su roadmap para reestructurarlo en consecuencia.<br><br>
+	    <strong>Escenario 3: Sugerencias de actualización del roadmap</strong>
+	    <br><br><strong>Dado que</strong> un nodo en el roadmap de un usuario ha sido marcado como obsoleto o ya no está disponible y ya se ha enviado la notificación directa al usuario, <strong>cuando</strong> el usuario accede a su roadmap tras recibir la notificación, o en cualquier otro momento después de eso, <strong>entonces</strong> el sistema debe proporcionar recomendaciones automáticas de nodos alternativos o acciones sugeridas para reemplazar el nodo afectado, permitiendo al usuario actualizar su roadmap de forma eficiente en un plazo de 5 segundos.<br><br>
+	    <strong>Escenario 4: Actualización automática de la estructura del roadmap</strong>
+	    <br><br><strong>Dado que</strong> un nodo obsoleto o no disponible de un roadmap ha sido notificado directamente al usuario según los términos indicados por la aplicación, <strong>cuando</strong> el usuario ingresa al roadmap afectado y toma acciones para eliminar o actualizar el nodo afectado, <strong>entonces</strong> el sistema debe automáticamente reestructurar el grafo del roadmap para ajustar el flujo y reflejar los cambios directos hacia el nodo y todos los otros nodos en los que influyó ese cambio, mostrando una confirmación visual en un plazo de 5 segundos.<br><br>
+	    <strong>Escenario 5: Alerta persistente hasta que se tomen acciones</strong>
+	    <br><br><strong>Dado que</strong> un nodo de un roadmap ha sido marcado como obsoleto o no disponible y también se ha enviado una notificación directa al usuario para informarle sobre la situación, <strong>cuando</strong> el usuario no ha tomado ninguna acción para actualizar su roadmap, <strong>entonces</strong> el sistema debe mostrar una alerta persistente cada vez que el usuario acceda a su roadmap, recordándole que aún hay nodos obsoletos que requieren atención, hasta que el nodo sea actualizado o eliminado de forma definitiva.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>
+		<tr>
+            <td colspan="1">US028</td>
+            <td colspan="1">
+            Guardar versiones de mi roadmap
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Guardar una nueva versión</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado está trabajando en un roadmap dentro de la sección de gestión de roadmaps, y realiza cambios significativos en la estructura o contenido del roadmap (ya sea creación, actualización, eliminación o reorganización de nodos), <strong>cuando</strong> el usuario selecciona la opción para guardar un roadmap en la esquina superior izquierda de la interfaz y después selecciona la opción de guardar como una nueva versión, <strong>entonces</strong> el sistema debe crear una copia de la versión actual, asignarle un identificador único, y registrar una marca de tiempo. Además, debe agregar esta versión a la lista de versiones guardadas y notificar al usuario en un plazo de 2 segundos que la nueva versión ha sido guardada exitosamente. <br><br>
+            <strong>Escenario 2: Visualización del historial de versiones</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado tiene un roadmap con al menos una versión y desea revisar las versiones guardadas de su roadmap, <strong>cuando</strong> el usuario accede a su sección de gestión de roadmaps almacenados, presiona la sección de ajustes de uno de sus roadmaps y presiona la opción de "Revisar Historial de Versiones", <strong>entonces</strong> el sistema debe mostrar una lista cronológica de todas las versiones guardadas de solo ese roadmap, con detalles como la fecha de creación y una descripción opcional de los cambios (si está disponible), permitiendo al usuario seleccionar y visualizar versiones anteriores en un plazo de 3 segundos.<br><br>
+	    <strong>Escenario 3: Restaurar una versión anterior</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha accedido al historial de versiones de uno de sus roadmaps desde la sección de gestión de roadmaps y desea restaurar una versión anterior, <strong>cuando</strong> el usuario selecciona una versión anterior y después presiona el botón de "Restaurar versión", <strong>entonces</strong> el sistema debe mostrar un mensaje de confirmación al usuario para reemplazar la versión actual del roadmap con la versión seleccionada, notificando al usuario en un plazo de 4 segundos que la restauración se ha completado exitosamente y reflejando los cambios en la vista del roadmap.<br><br>
+	    <strong>Escenario 4: Comparar versiones</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado está revisando las versiones guardadas de uno de sus roadmap desde su sección de gestión de roadmaps, <strong>cuando</strong> el usuario esta en la interfaz de ajustes del roadmap nuevamente y selecciona la opción para comparar dos versiones distintas del roadmap, <strong>entonces</strong> el sistema debe mostrar una vista comparativa que resalte las diferencias clave entre las dos versiones seleccionadas, como cambios en los nodos, fechas y progreso, permitiendo al usuario visualizar las alteraciones de manera clara en un plazo de no más de 5 segundos.<br><br>
+	    <strong>Escenario 5: Eliminación de versiones antiguas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado tiene múltiples versiones de un roadmap guardadas en su sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona una o varias versiones de forma consecutiva y después selecciona un botón con una forma de papelera para eliminarlas, <strong>entonces</strong> el sistema debe permitir la eliminación de esas versiones, asegurándose de que al menos una versión se mantenga activa, y actualizar el historial en un plazo de 2 segundos, notificando al usuario que las versiones seleccionadas han sido eliminadas.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>   
+		<tr>
+            <td colspan="1">US029</td>
+            <td colspan="1">
+            Compartir un roadmap con otros usuarios
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder compartir mi roadmap con otros usuarios de la plataforma, <strong>para</strong> recibir retroalimentación o colaborar en la planificación de mi carrera profesional, fomentando el intercambio de ideas y la mejora mutua, o para que pueda ser revisado directamente por otras empresas que podrían ofrecerme trabajos por mis habilidades.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Selección de destinatarios y permisos</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado accede a la sección de gestión de roadmaps y después a uno de sus roadmap, <strong>cuando</strong> selecciona la opción de compartir el roadmap entre las demás opciones de la interfaz, <strong>entonces</strong> el sistema debe permitir al usuario seleccionar destinatarios entre otros usuarios registrados, ofrecer opciones para establecer permisos de visualización o edición, y enviar el roadmap a los usuarios seleccionados en un plazo de 5 segundos. El sistema debe confirmar que el roadmap ha sido compartido correctamente mediante una notificación en la plataforma. <br><br>
+            <strong>Escenario 2: Notificación de compartición</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha compartido su roadmap con otros usuarios de la plataforma a través de las funciones de compartición de la sección de gestión de roadmaps, <strong>cuando</strong> se redacta la notificación de compartición y es enviada directamente a los destinatarios, <strong>entonces</strong> el sistema debe mostrar una notificación en el perfil de los destinatarios en un plazo de 3 segundos, permitiéndoles acceder al roadmap compartido desde la sección de notificaciones o desde la lista de roadmaps compartidos.<br><br>
+	    <strong>Escenario 3: Permisos de visualización</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha compartido uno de sus roadmaps con solo permisos de visualización, <strong>cuando</strong> el destinatario recibe la notificación de compartición de forma adecuada y accede al roadmap, <strong>entonces</strong> el sistema debe permitirle ver el contenido del roadmap sin la posibilidad de realizar modificaciones, asegurándose de que el destinatario pueda navegar por las distintas secciones del roadmap y visualizar la información relevante sin alterar los datos.<br><br>
+	    <strong>Escenario 4: Permisos de sugerencias y comentarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha compartido uno de sus roadmaps con permisos de comentarios y sugerencias, <strong>cuando</strong> el destinatario recibe la notificación de compartición de forma adecuada y accede al roadmap, <strong>entonces</strong> el sistema debe permitirle ver el contenido en el roadmap, y poder realizar comentarios y sugerencias para cada nodo y arista, sin afectar la estructura de este en ningún momento. El sistema debe guardar automáticamente cualquier comentario realizado por el destinatario en un plazo de 2 segundos.<br><br>
+	    <strong>Escenario 5: Revocación de permisos de compartición</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha compartido uno de sus roadmap con otros usuarios de forma adecuada, pero ahora quiere revocar los permisos de acceso de forma inmediata, <strong>cuando</strong> el propietario vuelva a ingresar a la pantalla de compartición en la interfaz de la sección de gestión de roadmaps, <strong>entonces</strong> el sistema debe ofrecer la opción de eliminar los permisos para uno o más usuarios, actualizar el acceso al roadmap en un plazo de 2 segundos, y notificar a los usuarios afectados que ya no tienen acceso al roadmap. El propietario también puede realizar un comentario en la notificación para informar sobre el motivo de la revocación.
+            </td>
+            <td colspan="1">EP004</td>
+		</tr>   
+		<tr>
+            <td colspan="1">US030</td>
+            <td colspan="1">
+            Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap profesional
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y visibilidad de mis datos, tomando decisiones informadas sobre la exposición de mi contenido. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Notificación de visualización de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario emisor ya registrado en la aplicación de Roademics desea visualizar el perfil de otro usuario con quien tiene o no tiene una conexión, <strong>cuando</strong> el usuario emisor entra a la página de perfil de un usuario receptor y permanece ahi por 1 segundo o más, <strong>entonces</strong> el sistema debe enviar una notificación al usuario receptor en un plazo de 3 segundos, informando el nombre del usuario que visualizó el perfil (si la configuración de privacidad lo permite) y la hora exacta de la visualización.<br><br>
+            <strong>Escenario 2: Notificación de visualización de roadmap profesional</strong>
+	    <br><br><strong>Dado que</strong> un usuario emisor ya registrado en la aplicación de Roademics desea visualizar uno de los roadmap profesionales de otro usuario con quien tiene o no tiene una conexión, <strong>cuando</strong> el usuario emisor entra a la página de visualización de uno de los roadmaps de un usuario receptor y permanece ahi por 1 segundo o más, <strong>entonces</strong> el sistema debe enviar una notificación al usuario receptor en un plazo de 3 segundos, informando el nombre del usuario que visualizó el roadmap (si la configuración de privacidad lo permite), cual fue el roadmap visualización y la hora exacta de la visualización.<br><br>
+	    <strong>Escenario 3: Personalización de notificaciones</strong>
+	    <br><br><strong>Dado que</strong> un usuario registrado en la aplicación prefiere controlar qué tipo de notificaciones recibe que estén relacionadas con su perfil y/o roadmaps, <strong>cuando</strong> el usuario accede a la pantalla de configuración de notificaciones desde la sección de ajustes en su pantalla de perfil, <strong>entonces</strong> el sistema debe permitir al usuario activar o desactivar las notificaciones específicas de visualización de perfil y roadmaps en un período no mayor a 3 segundos, asegurando que estas preferencias sean respetadas en futuras interacciones.<br><br>
+	    <strong>Escenario 4: Historial de visualizaciones</strong>
+	    <br><br><strong>Dado que</strong> un usuario registrado en la aplicación ha recibido múltiples notificaciones sobre visualizaciones de su perfil o roadmap y quiere revisar el total de notificaciones junto a todos los detalles posibles, <strong>cuando</strong> el usuario accede a su pantalla de perfil, después a su sección de ajustes e ingresa a la sección de historial de visualizaciones, <strong>entonces</strong> el sistema debe mostrar un registro de todas las visualizaciones recientes en orden cronológico, con detalles de quién visualizó el contenido (si la configuración de privacidad lo permite), y la fecha y hora de cada visualización. En caso de roadmaps, también debe aparecer el roadmap que fue visualizado.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">US031</td>
+            <td colspan="1">
+            Poder chatear directamente con otros usuarios y empresas
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder chatear directamente con otros usuarios y cuentas de empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin tener que salir de la aplicación, mejorando así la eficiencia y comodidad en las interacciones.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Chat en tiempo real entre usuarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado quiere comunicarse con otro usuario autenticado dentro de la aplicación, ya sea si tienen una conexión o no, <strong>cuando</strong> el usuario inicia una conversación desde la interfaz de chat en la pantalla de perfil o de networking, <strong>entonces</strong> el sistema debe abrir una pequeña pestaña de chat y permitir la comunicación en tiempo real entre ambos usuarios, mostrando los mensajes enviados y recibidos de manera inmediata, con una latencia menor a 2 segundos, y asegurando que las conversaciones se mantengan organizadas y accesibles en el historial de chat.<br><br>
+            <strong>Escenario 2: Chat en tiempo real entre usuarios y empresas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado quiere comunicarse con la cuenta de una empresa también autenticada dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación desde la interfaz de chat en la pantalla de perfil o de networking, <strong>entonces</strong> el sistema debe abrir una pequeña pestaña de chat y permitir la comunicación en tiempo real entre el usuario y el usuario a cargo de la cuenta de la empresa, mostrando los mensajes enviados y recibidos de manera inmediata, con una latencia menor a 2 segundos, y asegurando que las conversaciones se mantengan organizadas y accesibles en el historial de chat.<br><br>
+	    <strong>Escenario 3: Notificaciones de nuevos mensajes</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado recibe un nuevo mensaje en su interfaz de chat, pero no se encuentra presente en ese momento dentro de la pestaña, <strong>cuando</strong> el mensaje es enviado por otro usuario o una empresa y el sistema detecta que el usuario no se encuentra dentro de la pestaña de conversaciones, <strong>entonces</strong> el sistema debe enviar una notificación al usuario receptor en un plazo de 3 segundos, informando de la recepción del nuevo mensaje junto al nombre del usuario emisor, con la opción de visualizar la conversación directamente desde la notificación.<br><br>
+	    <strong>Escenario 4: Función de búsqueda en el historial de chat</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado tiene varias conversaciones activas o archivadas dentro de su interfaz de chat, <strong>cuando</strong> el usuario accede al historial de chat y utiliza la función de búsqueda que se debe encontrar en el tope de la pequeña pestaña, <strong>entonces</strong> el sistema debe permitir al usuario buscar conversaciones anteriores o mensajes específicos utilizando palabras clave o nombres de usuarios/empresas, mostrando los resultados en un plazo máximo de 5 segundos.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">US032</td>
+            <td colspan="1">
+            Gestión de privacidad en el chat
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar la privacidad de todas mis conversaciones en el chat, <strong>para</strong> asegurar que mi información y comunicaciones estén protegidas y se respeten mis preferencias de privacidad en todo momento.</td>
+            <td colspan="5">
+            <strong>Escenario 1: Configuración de privacidad de chat</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado desea ajustar sus preferencias de privacidad en el chat, <strong>cuando</strong> el usuario accede a la interfaz de conversaciones en la pantalla de perfil o de networking, y después accede a la sección de configuración de chat, <strong>entonces</strong> el sistema debe proporcionar opciones para que el usuario pueda activar o desactivar la visibilidad de su estado en línea, elegir quién puede iniciar conversaciones (usuarios, empresas o ambos), y restringir el acceso a las conversaciones pasadas para ciertos usuarios o grupos. Estas opciones deben presentarse en menos de 2 segundos y los cambios deben aplicarse de inmediato y reflejarse en todas las futuras interacciones.<br><br>
+            <strong>Escenario 2: Notificación de privacidad actualizada</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha modificado su configuración de privacidad del chat mediante la interfaz de conversaciones, <strong>cuando</strong> el sistema detecta que los cambios se han aplicado correctamente desde las pantallas adecuadas, <strong>entonces</strong> el sistema debe enviar una notificación al usuario confirmando que las nuevas configuraciones de privacidad han sido guardadas exitosamente, en un plazo de 5 segundos.<br><br>
+	    <strong>Escenario 3: Restricción de mensajes entrantes</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha limitado quién puede iniciar conversaciones en su configuración de privacidad a través de la interfaz de chat, <strong>cuando</strong> un usuario emisor no autorizado intenta iniciar una conversación con el usuario receptor, <strong>entonces</strong> el sistema debe bloquear el intento de forma inmediata, mostrando un mensaje al remitente informándole que el usuario no acepta nuevas conversaciones en un plazo de 2 segundos, y asegurando que el mensaje no llegue al destinatario.<br><br>
+	    <strong>Escenario 4: Gestión de solicitudes de conversación</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha configurado su privacidad para recibir solicitudes de conversación en vez de recibir mensajes directamente a su interfaz de conversaciones, <strong>cuando</strong> un usuario o empresa intenta contactarlo de forma directa con el uso de mensajes de chat, <strong>entonces</strong> el sistema debe enviar una solicitud de conversación al usuario destinatario en un plazo no mayor a 5 segundos, permitiéndole aceptar o rechazar la solicitud antes de que se inicie la conversación.<br><br>
+	    <strong>Escenario 5: Notificación de estado de privacidad a otros usuarios</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha desactivado su visibilidad de estado en línea mediante el uso de la interfaz de conversaciones en la pantalla de perfil o de networking, <strong>cuando</strong> otros usuarios emisores visualizan el perfil del usuario, <strong>entonces</strong> el sistema debe asegurarse de que su estado en línea no se muestre de forma inmediata, protegiendo así su privacidad y respetando las configuraciones elegidas.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">US033</td>
+            <td colspan="1">
+            Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas, asegurando un entorno respetuoso y libre de contenido no permitido. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Opción de reporte de perfiles</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado encuentra un perfil inapropiado o que viola las políticas de la plataforma según los términos y condiciones, <strong>cuando</strong> el usuario ingresa al perfil inapropiado y selecciona la opción de reporte en la esquina superior derecha de la interfaz del perfil, <strong>entonces</strong> el sistema debe permitir al usuario completar un formulario de reporte detallado, que incluya la razón del reporte, categoría de la violación (como lenguaje inapropiado, contenido ofensivo, etc.) y cualquier evidencia adicional. El sistema debe confirmar la recepción del reporte en un plazo de 10 segundos. <br><br>
+            <strong>Escenario 2: Revisión del reporte por moderadores</strong>
+	    <br><br><strong>Dado que</strong> un perfil ha sido reportado mediante el uso de un formulario de reporte por un usuario adecuadamente autenticado en la aplicación, <strong>cuando</strong> el reporte es recibido por en la bandeja de informes del equipo de moderación, <strong>entonces</strong> el sistema debe notificar al equipo de moderación y poner a disposición del equipo la información proporcionada por el usuario, junto con cualquier contenido relevante del perfil reportado, para que se realice una revisión en un plazo de 48 horas para determinar si el caso procede.<br><br>
+	    <strong>Escenario 3: Notificación del estado del reporte al usuario</strong>
+	    <br><br><strong>Dado que</strong> el usuario autenticado ha enviado un reporte sobre un perfil que encontro inadecuado según las normativas de Roademics, <strong>cuando</strong> el equipo de moderación completa la revisión del reporte y del propio perfil que fue reportado por el usuario, <strong>entonces</strong> el sistema debe notificar al usuario que realizó el reporte sobre el estado del proceso, incluyendo si el perfil ha sido suspendido, advertido o si no se han tomado medidas. Esta notificación debe llegar en un plazo de 72 horas desde la recepción del reporte.<br><br>
+	    <strong>Escenario 4: Bloqueo de perfiles reportados</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha reportado un perfil por contenido inapropiado o por alguna otra razón que este en contra de las normativas presentadas en la aplicación de Roademics, <strong>cuando</strong> el reporte ha sido confirmado como válido por parte del equipo de moderadores de Roademics, <strong>entonces</strong> el sistema debe automáticamente bloquear el acceso del perfil reportado a las funcionalidades de contacto con el usuario que realizó el reporte y asegurar que no puedan visualizar sus datos. De llegar a ser el caso, también puede haber un bloque permanente con el resto de usuarios de la plataforma, o directamente una eliminación de cuenta y bloqueo de credenciales.<br><br>
+	    <strong>Escenario 5: Registro de historial de reportes</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha reportado un perfil por contenido inapropiado o por alguna otra razón que este en contra de las normativas presentadas en la aplicación de Roademics, <strong>cuando</strong> el sistema recibe el reporte entregado por el usuario, <strong>entonces</strong> este debe automáticamente ingresarse en el historial de reportes que tiene ese mismo perfil junto con el resto de reportes previos (si los hay) y las acciones tomadas para cada tipo de reporte. De está forma, se esta proporcionando un contexto más claro para el equipo de moderadores.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">US034</td>
+            <td colspan="1">
+            Poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva. </td>
+            <td colspan="5">
+            <strong>Escenario 1: Visualización de solicitudes aceptadas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha enviado una solicitud de conexión a otro usuario que también se encuentre autenticado en la plataforma, <strong>cuando</strong> el destinatario acepta la solicitud, <strong>entonces</strong> el sistema debe notificar al usuario emisor que su solicitud ha sido aceptada, actualizar el estado de la solicitud en la lista de conexiones pendientes a "Aceptada" en un plazo de 10 segundos, y mover la nueva conexión a la lista de contactos confirmados.<br><br>
+            <strong>Escenario 2: Visualización de solicitudes ignoradas o rechazadas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado ha enviado una solicitud de conexión a otro usuario que también se encuentre autenticado en la plataforma, <strong>cuando</strong> el destinatario ignora o rechaza la solicitud, <strong>entonces</strong> el sistema debe notificar al usuario emisor que su solicitud ha sido rechazada, y actualizar el estado de la solicitud a "Rechazada" en la lista de solicitudes pendientes, en un plazo de 10 segundos.<br><br>
+	    <strong>Escenario 3: Historial de solicitudes de conexión</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la aplicación quiere ver el estado de sus solicitudes enviadas, <strong>cuando</strong> accede a la sección de historial de solicitudes en la interfaz de conexiones con usuarios, <strong>entonces</strong> el sistema debe mostrar una lista de todas las solicitudes de conexión enviadas en menos de 3 segundos, con el estado actual de cada una (Aceptada, Rechazada, Pendiente) y la fecha en que ocurrió el último cambio de estado.<br><br>
+	    <strong>Escenario 4: Reenvío de solicitudes de conexión ignoradas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la aplicación quiere reenviar una solicitud de conexión ignorada por algún otro usuario, <strong>cuando</strong> accede a la lista de solicitudes ignoradas en la interfaz de solicitudes de conexión, <strong>entonces</strong> el sistema debe permitir al usuario reenviar la solicitud de conexión, proporcionando una opción de reenvío en un plazo de 7 días después de que la solicitud ha sido ignorada.<br><br>
+	    <strong>Escenario 5: Notificación de solicitudes expiradas</strong>
+	    <br><br><strong>Dado que</strong> un usuario autenticado en la aplicación ha enviado una solicitud de conexión a un usuario o a una cuenta de una empresa, <strong>cuando</strong> la solicitud no recibe una respuesta después de un período definido de 14 días por parte del usuario receptor, <strong>entonces</strong> el sistema debe marcar la solicitud como "Ignorada", enviar una notificación al usuario y moverla al historial de solicitudes ignoradas en un plazo no mayor de 5 segundos.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+            <td colspan="1">US035</td>
+            <td colspan="1">
+            Poder recibir informes avanzados sobre la actividad de mi perfil
+            </td>
+            <td colspan="1"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
+            <td colspan="5">
+            <strong>E01: Informe de actividad de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium solicita un informe sobre la actividad de su perfil, <strong>cuando</strong> el sistema genera el informe, <strong>entonces</strong> el sistema debe proporcionar un informe detallado que incluya métricas avanzadas como número de visitas, interacciones recibidas, conexiones realizadas, y otras estadísticas relevantes, presentadas en un formato accesible. <br><br>
+            <strong>E02: Informe de rendimiento de contenido</strong>
+	    <br><br><strong>Dado que</strong> un usuario Premium desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido,  <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación.
+            </td>
+            <td colspan="1">EP005</td>
+		</tr>
+		<tr>
+    <td colspan="1">US036</td>
+    <td colspan="1">
+    Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+    <td colspan="5">
+    <strong>E01: Notificación por correo electrónico</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole del inicio de sesión y proporcionando detalles sobre el dispositivo y la ubicación, para que el usuario pueda revisar y verificar la actividad.
+    <br><br>
+    <strong>E02: Notificación por SMS</strong>
+    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole del acceso no reconocido y proporcionando detalles básicos para que el usuario pueda actuar rápidamente en caso de actividad sospechosa.
+    </td>
+    <td colspan="1">EP007</td>
+</tr>
+		<tr>
+    <td colspan="1">US037</td>
+    <td colspan="1">
+    Poder revisar el historial de inicios de sesión recientes
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
+    <td colspan="5">
+    <strong>E01: Visualización del historial de inicios de sesión</strong>
+    <br><br><strong>Dado que</strong> un usuario accede a la sección de historial de seguridad en su perfil, <strong>cuando</strong> el usuario solicita ver los inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada de las fechas, horas, dispositivos y ubicaciones de los inicios de sesión recientes, permitiendo al usuario revisar la actividad de su cuenta.
+    <br><br>
+    <strong>E02: Filtrado y búsqueda en el historial</strong>
+    <br><br><strong>Dado que</strong> un usuario desea encontrar información específica en su historial de inicios de sesión, <strong>cuando</strong> el usuario utiliza opciones de filtrado o búsqueda, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por fecha, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.
+    </td>
+    <td colspan="1">EP007</td>
+</tr>
+		<tr>
+    <td colspan="1">US038</td>
+    <td colspan="1">
+    Leer y aceptar Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
+    <td colspan="5">
+    <strong>E01: Visualización de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario está en la página de registro, <strong>cuando</strong> el usuario hace clic en el enlace para leer los Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar un documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario revisar el contenido antes de aceptar.
+    <br><br>
+    <strong>E02: Aceptación de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> un usuario ha leído los Términos y condiciones, <strong>cuando</strong> el usuario marca la casilla de aceptación y completa el registro, <strong>entonces</strong> el sistema debe registrar la aceptación de los Términos y condiciones en la cuenta del usuario y permitir el acceso completo a la plataforma, garantizando que la aceptación es obligatoria antes de usar la aplicación.
+    </td>
+    <td colspan="1">EP008</td>
+</tr>
+		<tr>
+    <td colspan="1">US039</td>
+    <td colspan="1">
+    Revisar Términos y condiciones actualizados
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+    <td colspan="5">
+    <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
+    <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
+    <br><br>
+    <strong>E02: Confirmación de aceptación de actualizaciones</strong>
+    <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
+    </td>
+    <td colspan="1">EP008</td>
+</tr>
+		<tr>
+    <td colspan="1">US040</td>
+    <td colspan="1">
+    Accesibilidad a Términos y condiciones
+    </td>
+    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+    <td colspan="5">
+    <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
+    <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
+    <br><br>
+    <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
+    <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
+    </td>
+    <td colspan="1">EP008</td>
+		</tr>
+		<tr>
+    <td colspan="1">US041</td>
+    <td colspan="1">
+    Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
+    </td>
+    <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+    <td colspan="5">
+    <strong>E01: Diseño visualmente atractivo y funcional</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
+    <br><br>
+    <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
+    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">US042</td>
+    <td colspan="1">
+    Visualizar contenido de Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+    <td colspan="5">
+    <strong>E01: Visualización completa del contenido de la landing page</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
+    <br><br>
+    <strong>E02: Acceso a información adicional y detalles</strong>
+    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">US043</td>
+    <td colspan="1">
+    Formulario de contacto
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+    <td colspan="5">
+    <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
+    <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
+    <br><br>
+    <strong>E02: Confirmación de envío y respuesta</strong>
+    <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">US044</td>
+    <td colspan="1">
+    Implementación de footer
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+    <td colspan="5">
+    <strong>E01: Inclusión de enlaces importantes en el footer</strong>
+    <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
+    <br><br>
+    <strong>E02: Diseño consistente y funcional del footer</strong>
+    <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+		<tr>
+    <td colspan="1">US045</td>
+    <td colspan="1">
+    Responsive Landing Page
+    </td>
+    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+    <td colspan="5">
+    <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
+    <br><br>
+    <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
+    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
+    </td>
+    <td colspan="1">EP009</td>
+</tr>
+</table>
+
+###### Tabla 4.
+*Tabla de las historias técnicas establecidas.*
+
+<table  style="text-align: left;">
+	<tbody>
+<tr>
+            <td colspan="1">TS001</td>
             <td colspan="1">
             Integrar un sistema de registro con Firebase Authentication
             </td>
@@ -673,7 +1461,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS003</td>
+            <td colspan="1">TS002</td>
             <td colspan="1">
             Implementación de validaciones de credenciales
             </td>
@@ -687,7 +1475,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS004</td>
+            <td colspan="1">TS003</td>
             <td colspan="1">
             Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo
             </td>
@@ -701,21 +1489,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP001</td>
 		</tr>
 		<tr>
-            <td colspan="1">US005</td>
-            <td colspan="1">
-            Inicio de sesión con cuenta de la plataforma
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado en la aplicación <strong>quiero</strong> iniciar sesión en la plataforma utilizando mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta. </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario tiene una cuenta registrada, <strong>cuando</strong> ingresa correctamente su correo electrónico y contraseña en la página de inicio de sesión, <strong>entonces</strong> el sistema debe autenticar al usuario y redirigirlo al dashboard principal de su cuenta.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario intenta iniciar sesión, <strong>cuando</strong> ingresa una contraseña o correo electrónico incorrecto, <strong>entonces</strong> el sistema no le permite acceder a su cuenta y debe mostrar un mensaje de error, junto con opciones para recuperar o restablecer la contraseña.
-            </td>
-            <td colspan="1">EP002</td>
-		</tr>
-		<tr>
-            <td colspan="1">TS006</td>
+            <td colspan="1">TS004</td>
             <td colspan="1">
             Integración de sistema de autenticación con Firebase Authentication
             </td>
@@ -729,23 +1503,9 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP002</td>
 		</tr>
 		<tr>
-            <td colspan="1">US007</td>
+            <td colspan="1">TS005</td>
             <td colspan="1">
-            Recuperación de contraseña
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado <strong>quiero</strong> tener la opción de recuperar mi contraseña, <strong>para</strong> poder restablecer mi acceso a la plataforma.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha olvidado su contraseña, <strong>cuando</strong> selecciona la opción "Recuperar contraseña" y proporciona su correo electrónico registrado, <strong>entonces</strong> el sistema debe enviar un enlace seguro de restablecimiento de contraseña al correo proporcionado.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario recibe el enlace de restablecimiento de contraseña, <strong>cuando</strong> hace clic en el enlace y proporciona una nueva contraseña que cumpla con los requisitos de seguridad, <strong>entonces</strong> el sistema debe actualizar la contraseña y permitirle iniciar sesión con la nueva credencial.
-            </td>
-            <td colspan="1">EP002</td>
-		</tr>
-		<tr>
-            <td colspan="1">TS008</td>
-            <td colspan="1">
-            implementar un sistema de autenticación segura en el backend</td>
+            Implementar un sistema de autenticación segura en el backend</td>
             <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
             <td colspan="5">
             <strong>E01: </strong>
@@ -756,7 +1516,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP002</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS009</td>
+            <td colspan="1">TS006</td>
             <td colspan="1">
             Integración de un flujo de recuperación de contraseña
             </td>
@@ -772,7 +1532,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP002</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS010</td>
+            <td colspan="1">TS007</td>
             <td colspan="1">
             Almacenamiento de contraseñas utilizando técnicas de hash y salting
             </td>
@@ -785,8 +1545,8 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             </td>
             <td colspan="1">EP002</td>
 		</tr>
-		<tr>
-            <td colspan="1">TS011</td>
+	<tr>
+            <td colspan="1">TS008</td>
             <td colspan="1">
             Implementación de autenticación de dos factores (2FA)
             </td>
@@ -799,78 +1559,8 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             </td>
             <td colspan="1">EP002</td>
 		</tr>
-		<tr>
-            <td colspan="1">US012</td>
-            <td colspan="1">
-            Interacción con información personal
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> gestionar y actualizar mi información personal en la plataforma, <strong>para</strong> asegurar que mis datos estén actualizados y reflejen correctamente mi situación actual. </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y realiza cambios en su información personal  <strong>entonces</strong> el sistema debe actualizar los datos en la base de datos y mostrar un mensaje de confirmación de que los cambios se han guardado exitosamente.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha actualizado su dirección de correo electrónico, <strong>cuando</strong> el sistema guarda el nuevo correo electrónico, <strong>entonces</strong> el sistema debe enviar un correo de confirmación al nuevo correo electrónico para verificar la validez de la dirección
-            </td>
-            <td colspan="1">EP003</td>
-		</tr>
-		<tr>
-            <td colspan="1">US013</td>
-            <td colspan="1">
-            Agregar foto de perfil
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> agregar o actualizar mi foto de perfil en la plataforma, <strong>para</strong> </td> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente.
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y selecciona la opción para agregar o actualizar su foto de perfil, <strong>entonces</strong> el sistema debe permitir al usuario cargar una imagen desde su dispositivo y guardar la nueva foto de perfil.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario carga una imagen que excede el tamaño máximo permitido o no está en un formato aceptado, <strong>cuando</strong> el sistema detecta el problema, <strong>entonces</strong> el sistema debe mostrar un mensaje de error indicando el problema con la imagen y no permitir la carga de la imagen hasta que se corrija el problema.
-            </td>
-            <td colspan="1">EP003</td>
-		</tr>
-		<tr>
-            <td colspan="1">US014</td>
-            <td colspan="1">
-            Gestión de biografía
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> que un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la sección de perfil y elige la opción para agregar o editar su biografía, <strong>entonces</strong> el sistema debe permitir al usuario ingresar o modificar el texto de la biografía y guardar los cambios, mostrando una vista previa del texto antes de la confirmación.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario decide eliminar su biografía, <strong>cuando</strong> el usuario selecciona la opción para eliminar la biografía y confirma la acción, <strong>entonces</strong> el sistema debe eliminar la biografía del perfil del usuario y mostrar un mensaje de confirmación indicando que la biografía ha sido eliminada.
-            </td>
-            <td colspan="1">EP003</td>
-		</tr>
-		<tr>
-            <td colspan="1">US015</td>
-            <td colspan="1">
-            Eliminación de cuenta
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder eliminar mi cuenta de la plataforma, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma, <strong>cuando</strong> accede a la opción de eliminar su cuenta y confirma la solicitud, <strong>entonces</strong> el sistema debe iniciar un proceso de eliminación y enviar un correo de confirmación al usuario para verificar la solicitud.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha confirmado la solicitud de eliminación a través del correo de confirmación, <strong>cuando</strong> el sistema recibe la confirmación, <strong>entonces</strong> el sistema debe eliminar todos los datos personales asociados a la cuenta de manera segura y permanente.
-            </td>
-            <td colspan="1">EP003</td>
-		</tr>
-		<tr>
-            <td colspan="1">US016</td>
-            <td colspan="1">
-            Sección de cambio de contraseña
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura en mi cuenta.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado en la plataforma y accede a la sección de cambio de contraseña, <strong>cuando</strong> el usuario ingresa su contraseña actual, una nueva contraseña que cumpla con los requisitos de seguridad y confirma la nueva contraseña, <strong>entonces</strong> el sistema debe verificar que la contraseña actual es correcta, validar que la nueva contraseña cumple con los requisitos de seguridad, actualizar la contraseña en la base de datos y mostrar un mensaje de confirmación de que el cambio ha sido exitoso. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ingresa una nueva contraseña que no cumple con los requisitos de seguridad <strong>cuando</strong> el sistema detecta que la nueva contraseña no cumple con los requisitos, <strong>entonces</strong> el sistema debe mostrar un mensaje de error detallando los requisitos que no se cumplen y no permitir el cambio de contraseña hasta que se corrija el problema.
-            </td>
-            <td colspan="1">EP003</td>
-		</tr>
-		<tr>
-            <td colspan="1">TS017</td>
+	<tr>
+            <td colspan="1">TS009</td>
             <td colspan="1">
             Módulo de ajuste de usuario
             </td>
@@ -885,7 +1575,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP003</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS018</td>
+            <td colspan="1">TS010</td>
             <td colspan="1">
             Formulario de edición de perfil
             </td>
@@ -898,8 +1588,8 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             </td>
             <td colspan="1">EP003</td>
 		</tr>
-		<tr>
-            <td colspan="1">TS019</td>
+	<tr>
+            <td colspan="1">TS011</td>
             <td colspan="1">
             Funcionalidad para gestión de fotos de perfil
             </td>
@@ -913,7 +1603,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP003</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS020</td>
+            <td colspan="1">TS012</td>
             <td colspan="1">
             Funcionalidad de edición de perfil esté conectada a una API backend
             </td>
@@ -927,204 +1617,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP003</td>
 		</tr>
 		<tr>
-            <td colspan="1">US021</td>
-            <td colspan="1">
-            Creación de roadmap académico básico
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario interesado en planificar su trayectoria profesional, <strong>quiero</strong> crear un roadmap académico básico en la plataforma,<strong>para</strong> visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> que un usuario está autenticado y accede a la sección de creación de roadmap académico, <strong>cuando</strong> el usuario ingresa la información básica necesaria para crear un roadmap <strong>entonces</strong> el sistema debe permitir al usuario guardar esta información en un formato estructurado, generar una visualización básica del roadmap y mostrar un mensaje de confirmación de que el roadmap se ha creado exitosamente. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha creado un roadmap académico básico, <strong>cuando</strong> el usuario visualiza el roadmap en la plataforma, <strong>entonces</strong> el sistema debe permitir al usuario ver el roadmap en un formato claro y estructurado
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US022</td>
-            <td colspan="1">
-            Generación de roadmap con IA
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional, <strong>quiero</strong> que la plataforma genere un roadmap profesional utilizando inteligencia artificial, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado y ha ingresado sus metas profesionales y educativas en la plataforma, <strong>cuando</strong>  el usuario solicita la generación de un roadmap utilizando IA, <strong>entonces</strong> el sistema debe procesar la información proporcionada, aplicar algoritmos de inteligencia artificial para generar un roadmap profesional personalizado y mostrar la recomendación al usuario. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha recibido un roadmap generado por IA, <strong>cuando</strong> el usuario revisa el roadmap y decide realizar ajustes <strong>entonces</strong> el sistema debe permitir al usuario editar el roadmap generado, actualizar las recomendaciones según los cambios realizados y guardar una versión final del roadmap.
-            </td>
-            <td colspan="1">EP001</td>
-		</tr>
-		<tr>
-            <td colspan="1">US023</td>
-            <td colspan="1">
-            Acceso a plantillas avanzadas y sugerencias de IA
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario que desea mejorar su planificación profesional, <strong>quiero</strong> tener acceso a plantillas avanzadas y recibir sugerencias de inteligencia artificial, <strong>para</strong> facilitar la creación de un roadmap profesional detallado y personalizado que se ajuste a mis necesidades y objetivos específicos.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> que un usuario está autenticado en la plataforma y accede a la sección de creación de roadmap, <strong>cuando</strong> el usuario solicita plantillas avanzadas, <strong>entonces</strong> el sistema debe mostrar una lista de plantillas predefinidas y avanzadas que el usuario puede elegir <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha seleccionado una plantilla avanzada y está creando un roadmap profesional, <strong>cuando</strong> el usuario ingresa información sobre sus metas y preferencias, <strong>entonces</strong> el sistema debe utilizar inteligencia artificial para analizar la información proporcionada, ofrecer sugerencias personalizadas para completar el roadmap.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US024</td>
-            <td colspan="1">
-            Edición de roadmaps básicos
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario que ha creado un roadmap básico, <strong>quiero</strong> poder editar el roadmap, <strong>para</strong> actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado y ha creado un roadmap básico, <strong>cuando</strong> el usuario accede a la opción de edición del roadmap, <strong>entonces</strong> el sistema debe permitir al usuario modificar los detalles del roadmap, reflejar los cambios en una vista previa actualizada y guardar los ajustes realizados. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha realizado cambios en su roadmap básico, <strong>cuando</strong> el sistema valida y guarda la información actualizada, <strong>entonces</strong> el sistema debe realizar las validaciones necesarias, mostrando un mensaje de confirmación que indique que la edición fue exitosa.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US025</td>
-            <td colspan="1">
-            Acceso a herramienta de edición avanzada para usuarios Premium
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> tener acceso a una herramienta de edición avanzada, <strong>para</strong> aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos. </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium, <strong>cuando</strong> el usuario accede a la sección de edición de roadmap, <strong>entonces</strong> el sistema debe mostrar la opción de utilizar la herramienta de edición avanzada, proporcionando funcionalidades adicionales que no están disponibles para usuarios no Premium.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium accede a la herramienta de edición avanzada, <strong>cuando</strong> el sistema detecta que el usuario no tiene una suscripción válida o ha intentado acceder a funciones premium sin los permisos adecuados, <strong>entonces</strong> el sistema debe mostrar un mensaje de error o una notificación indicando que la suscripción Premium es necesaria para utilizar la herramienta de edición avanzada 
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US026</td>
-            <td colspan="1">
-            Elimicación de roadmaps que no se requieren
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado y libre de información obsoleta o innecesaria. </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su lista de roadmaps, <strong>cuando</strong> el usuario selecciona un roadmap que desea eliminar y confirma la acción, <strong>entonces</strong> el sistema debe eliminar el roadmap seleccionado de la base de datos, actualizar la lista de roadmaps del usuario y mostrar un mensaje de confirmación indicando que la eliminación se ha realizado exitosamente. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario ha eliminado un roadmap, <strong>cuando</strong> el usuario intenta acceder al roadmap eliminado, <strong>entonces</strong> el sistema debe mostrar un mensaje indicando que el roadmap ya no está disponible y redirigir al usuario a la página de lista de roadmaps o a otra sección relevante.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US027</td>
-            <td colspan="1">
-            Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, <strong>para</strong> </td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a la sección de gestión de roadmaps, <strong>cuando</strong> el usuario consulta la información sobre la cantidad de roadmaps que puede gestionar, <strong>entonces</strong> el sistema debe mostrar claramente la limitación de roadmaps permitidos en la interfaz del usuario, incluyendo el número total permitido y cuántos roadmaps están actualmente en uso. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está intentando crear un nuevo roadmap y ha alcanzado el límite de roadmaps permitidos por su plan o suscripción, <strong>cuando</strong> el usuario intenta agregar un nuevo roadmap, <strong>entonces</strong> el sistema debe mostrar un mensaje informativo indicando que el límite de roadmaps ha sido alcanzado.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US028</td>
-            <td colspan="1">
-            Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación (Usuario Premium)
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> crear roadmaps personalizados ilimitados y compartirlos con otros usuarios de la aplicación, <strong>para</strong> tener la flexibilidad de diseñar múltiples roadmaps según mis necesidades y colaborar con otros usuarios al compartir mis planes.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a la sección de creación de roadmaps, <strong>cuando</strong> el usuario crea un nuevo roadmap personalizado, <strong>entonces</strong> el sistema debe permitir al usuario crear tantos roadmaps personalizados como desee sin restricciones de cantidad. <br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap personalizado, <strong>cuando</strong> el usuario decide compartir el roadmap con otros usuarios de la aplicación, <strong>entonces</strong> el sistema debe proporcionar opciones para compartir el roadmap, asegurar que los destinatarios reciban una notificación sobre el acceso compartido
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US029</td>
-            <td colspan="1">
-            Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> recibir análisis avanzados sobre mi propio roadmap, <strong>para</strong> obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente.</td>
-            <td colspan="5">
-            <strong>E01: </strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a su roadmap, <strong>cuando</strong> el usuario solicita un análisis avanzado del roadmap, <strong>entonces</strong> el sistema debe procesar la información del roadmap utilizando algoritmos de análisis avanzados, generar un reporte detallado que incluya insights sobre progreso, áreas de mejora, y recomendaciones personalizadas, y presentar el análisis en un formato accesible y comprensible para el usuario.<br><br>
-            <strong>E02: </strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium ha recibido un análisis avanzado de su roadmap, <strong>cuando</strong>  el usuario revisa el reporte, <strong>entonces</strong> el sistema debe permitir al usuario interactuar con los datos del análisis, ofrecer sugerencias adicionales para optimizar el roadmap basadas en el análisis.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US030</td>
-            <td colspan="1">
-            Poder exportar mi roadmaps en formato como PDF o PNG 
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> poder exportar mis roadmaps en formatos como PDF o PNG, <strong>para</strong> tener la opción de guardar, compartir o imprimir mis roadmaps en un formato que sea fácilmente accesible y presentable. </td>
-            <td colspan="5">
-            <strong>E01: Opción de exportación</strong>
-	    <br><br><strong>Dado que</strong> que un usuario está autenticado como usuario Premium y accede a su roadmap, <strong>cuando</strong> el usuario selecciona la opción de exportar el roadmap, <strong>entonces</strong> el sistema debe ofrecer opciones para exportar el roadmap en los formatos disponibles (PDF o PNG), permitir al usuario seleccionar el formato deseado, y generar el archivo en el formato elegido.<br><br>
-            <strong>E02: Integridad del archivo exportado</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium ha exportado un roadmap en formato PDF o PNG, <strong>cuando</strong>  el usuario descarga y abre el archivo exportado, <strong>entonces</strong> el archivo debe reflejar con precisión el diseño y el contenido del roadmap tal como se visualiza en la plataforma.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US031</td>
-            <td colspan="1">
-            Poder crear los pasos de mi roadmap
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder crear los "pasos" (nodo) de mi roadmap, <strong>para</strong> estructurar y definir claramente las etapas y acciones necesarias para alcanzar mis objetivos profesionales.</td>
-            <td colspan="5">
-            <strong>E01: Creación de nuevos pasos</strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su roadmap, <strong>cuando</strong> el usuario selecciona la opción para añadir un nuevo paso (nodo) al roadmap, <strong>entonces</strong> el sistema debe permitir al usuario ingresar detalles del nuevo paso, agregar el paso al roadmap en la posición deseada, y mostrar el nuevo paso en la vista del roadmap con la información ingresada.<br><br>
-            <strong>E02: Eliminación de pasos</strong>
-	    <br><br><strong>Dado que</strong> un usuario desea eliminar un paso (nodo) del roadmap, <strong>cuando</strong> el usuario selecciona el paso y confirma la opción de eliminar, <strong>entonces</strong> el sistema debe eliminar el paso del roadmap, actualizar la vista del roadmap para reflejar la eliminación, y mostrar un mensaje de confirmación indicando que el paso ha sido eliminado exitosamente.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US032</td>
-            <td colspan="1">
-            Creacion de roadmaps con grafos más complejos 
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium, <strong>quiero</strong> crear roadmaps con grafos más complejos, <strong>para</strong> tener la capacidad de diseñar roadmaps con múltiples niveles, relaciones entre pasos y una estructura más detallada </td>
-            <td colspan="5">
-            <strong>E01: Creación de grafos complejos</strong>
-	    <br><br><strong>Dado que</strong> un usuario está autenticado como usuario Premium y accede a la herramienta de creación de roadmaps,<strong>cuando</strong> el usuario selecciona la opción para crear un roadmap con un grafo complejo, <strong>entonces</strong> el sistema debe permitir al usuario añadir múltiples niveles de nodos, establecer relaciones entre los nodos, y personalizar el diseño del grafo.<br><br>
-            <strong>E02: Modificación de grafos complejos</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium ha creado un roadmap con un grafo complejo, <strong>cuando</strong> el usuario desea modificar el grafo <strong>entonces</strong> el sistema debe permitir al usuario realizar los cambios necesarios, actualizar el grafo en tiempo real para reflejar las modificaciones.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US033</td>
-            <td colspan="1">
-            Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap y tomar las medidas necesarias para actualizar o ajustar mi plan.
-	    </td>
-            <td colspan="5">
-            <strong>E01: Notificación de obsolescencia de nodo</strong>
-	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario se vuelve obsoleto <strong>cuando</strong> el sistema detecta que el nodo ha sido marcado como obsoleto, <strong>entonces</strong> el sistema debe enviar una notificación al usuario informando que el nodo es obsoleto, proporcionando detalles sobre la obsolescencia. <br><br>
-            <strong>E02: Notificación de disponibilidad de nodo</strong>
-	    <br><br><strong>Dado que</strong> un nodo en el grafo de un usuario ya no está disponible <strong>cuando</strong> el sistema detecta que el nodo ya no está disponible, <strong>entonces</strong> el sistema debe enviar una notificación al usuario indicando que el nodo ya no está disponible.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">US034</td>
-            <td colspan="1">
-            Guardar versiones de mi roadmap
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> guardar versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario. </td>
-            <td colspan="5">
-            <strong>E01: Guardar una nueva versión</strong>
-	    <br><br><strong>Dado que</strong> un usuario está trabajando en un roadmap y realiza cambios significativos, <strong>cuando</strong> el usuario selecciona la opción para guardar una nueva versión del roadmap, <strong>entonces</strong> el sistema debe guardar una copia de la versión actual del roadmap con un identificador único y una marca de tiempo, y permitir al usuario acceder a la lista de versiones guardadas desde el historial del roadmap. <br><br>
-            <strong>E02: Acceder a versiones anteriores</strong>
-	    <br><br><strong>Dado que</strong> un usuario desea revisar o restaurar una versión anterior de su roadmap, <strong>cuando</strong> el usuario accede al historial de versiones y selecciona una versión anterior para visualizar o restaurar,  <strong>entonces</strong> el sistema debe mostrar el roadmap en el estado en que se encontraba en esa versión específica, y permitir al usuario restaurar esa versión como la versión actual si así lo desea.
-            </td>
-            <td colspan="1">EP004</td>
-		</tr>
-		<tr>
-            <td colspan="1">TS035</td>
+            <td colspan="1">TS013</td>
             <td colspan="1">
             Creación de una estructura de datos en grafo para representar los roadmaps
             </td>
@@ -1138,7 +1631,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP004</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS036</td>
+            <td colspan="1">TS014</td>
             <td colspan="1">
             Optimización de la creación, edición de nodos y conexiones en el grafo
             </td>
@@ -1154,7 +1647,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP004</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS037</td>
+            <td colspan="1">TS015</td>
             <td colspan="1">
             Implementación de una interfaz visual interactiva para la manipulación del grafo
             </td>
@@ -1168,7 +1661,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP004</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS038</td>
+            <td colspan="1">TS016</td>
             <td colspan="1">
             Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.
             </td>
@@ -1182,7 +1675,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP004</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS039</td>
+            <td colspan="1">TS017</td>
             <td colspan="1">
             Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo
             </td>
@@ -1196,77 +1689,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP004</td>
 		</tr>
 		<tr>
-            <td colspan="1">US040</td>
-            <td colspan="1">
-            Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y la visibilidad de mis datos. </td>
-            <td colspan="5">
-            <strong>E01: Notificación de visualización de perfil</strong>
-	    <br><br><strong>Dado que</strong> un usuario ha visualizado el perfil de otro usuario, <strong>cuando</strong> la visualización del perfil se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo perfil ha sido visualizado, informándole que su perfil ha sido visto <br><br>
-            <strong>E02: Notificación de visualización de roadmap académico</strong>
-	    <br><br><strong>Dado que</strong> un usuario ha visualizado el roadmap académico de otro usuario, <strong>cuando</strong> la visualización del roadmap se completa, <strong>entonces</strong> el sistema debe enviar una notificación al usuario cuyo roadmap ha sido visualizado, informándole que su roadmap ha sido visto
-            </td>
-            <td colspan="1">EP005</td>
-		</tr>
-		<tr>
-            <td colspan="1">US041</td>
-            <td colspan="1">
-            Poder chatear directamente con otros usuarios y empresas
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder chatear directamente con otros usuarios y empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin salir de la aplicación. </td>
-            <td colspan="5">
-            <strong>E01: Chat entre usuarios</strong>
-	    <br><br><strong>Dado que</strong> un usuario quiere comunicarse con otro usuario dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación desde la interfaz de chat, <strong>entonces</strong> el sistema debe permitir la comunicación en tiempo real entre ambos usuarios, mostrando los mensajes enviados y recibidos de manera inmediata y asegurando que las conversaciones se mantengan organizadas y accesibles en el historial de chat. <br><br>
-            <strong>E02: Chat entre usuarios y empresas</strong>
-	    <br><br><strong>Dado que</strong> un usuario quiere comunicarse con una empresa dentro de la aplicación, <strong>cuando</strong> el usuario inicia una conversación con la empresa desde la interfaz de chat, <strong>entonces</strong> el sistema debe permitir la comunicación en tiempo real entre el usuario y la empresa, mostrando los mensajes enviados y recibidos de manera inmediata
-            </td>
-            <td colspan="1">EP005</td>
-		</tr>
-		<tr>
-            <td colspan="1">US042</td>
-            <td colspan="1">
-            Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas en la plataforma, y asegurar un entorno respetuoso y libre de contenido no permitido. </td>
-            <td colspan="5">
-            <strong>E01: Reportar perfiles inapropiados</strong>
-	    <br><br><strong>Dado que</strong> que un usuario encuentra un perfil que considera inapropiado o que viola las políticas de la plataforma, <strong>cuando</strong> el usuario utiliza la opción de reporte desde la interfaz del perfil, <strong>entonces</strong> el sistema debe permitir al usuario enviar un reporte detallado sobre el perfil en cuestión, incluyendo la razón del reporte y cualquier evidencia relevante, y confirmar la recepción del reporte al usuario. <br><br>
-            <strong>E02: Revisión de reportes</strong>
-	    <br><br><strong>Dado que</strong> un perfil ha sido reportado por un usuario, <strong>cuando</strong> el reporte es recibido por el equipo de moderación, <strong>entonces</strong> el sistema debe permitir al equipo de moderación revisar el reporte y el perfil asociado, tomar las acciones necesarias basadas en las políticas de la plataforma, y notificar al usuario que realizó el reporte sobre el estado y resultado de su solicitud
-            </td>
-            <td colspan="1">EP005</td>
-		</tr>
-		<tr>
-            <td colspan="1">US043</td>
-            <td colspan="1">
-            Poder ver quien ha aceptado mi solicitud de conexión y quien la ha ignorado o rechazado
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva. </td>
-            <td colspan="5">
-            <strong>E01: Visualización de solicitudes aceptadas</strong>
-	    <br><br><strong>Dado que</strong> un usuario ha enviado solicitudes de conexión a otros usuarios, <strong>cuando</strong> uno de los destinatarios acepta la solicitud de conexión, <strong>entonces</strong> el sistema debe notificar al usuario que su solicitud ha sido aceptada, y mostrar el estado actualizado en la lista de solicitudes de conexión. <br><br>
-            <strong>E02: Visualización de solicitudes ignoradas o rechazadas</strong>
-	    <br><br><strong>Dado que</strong> un usuario ha enviado solicitudes de conexión a otros usuarios, <strong>cuando</strong>  uno de los destinatarios ignora o rechaza la solicitud de conexión, <strong>entonces</strong> el sistema debe notificar al usuario sobre el estado de la solicitud, indicando que ha sido ignorada o rechazada, y actualizar la lista de solicitudes para reflejar el nuevo estado.
-            </td>
-            <td colspan="1">EP005</td>
-		</tr>
-		<tr>
-            <td colspan="1">US044</td>
-            <td colspan="1">
-            Poder recibir informes avanzados sobre la actividad de mi perfil (Usuario Premium)
-            </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
-            <td colspan="5">
-            <strong>E01: Informe de actividad de perfil</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium solicita un informe sobre la actividad de su perfil, <strong>cuando</strong> el sistema genera el informe, <strong>entonces</strong> el sistema debe proporcionar un informe detallado que incluya métricas avanzadas como número de visitas, interacciones recibidas, conexiones realizadas, y otras estadísticas relevantes, presentadas en un formato accesible. <br><br>
-            <strong>E02: Informe de rendimiento de contenido</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido,  <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación.
-            </td>
-            <td colspan="1">EP005</td>
-		</tr>
-		<tr>
-            <td colspan="1">TS045</td>
+            <td colspan="1">TS018</td>
             <td colspan="1">
             Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visulice su perfil o roadmap
             </td>
@@ -1280,7 +1703,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP005</td>
 		</tr>
 		<tr>
-            <td colspan="1">TS046</td>
+            <td colspan="1">TS019</td>
             <td colspan="1">
             Asegurar la integración del sistema de mensajes directos
             </td>
@@ -1294,7 +1717,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
             <td colspan="1">EP005</td>
 		</tr>
 		<tr>
-    		<td colspan="1">TS047</td>
+    		<td colspan="1">TS020</td>
     		<td colspan="1">
     Implementación de un sistema de control de conexiones
     		</td>
@@ -1309,7 +1732,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     		<td colspan="1">EP005</td>
 		</tr>
 		<tr>
-    <td colspan="1">TS048</td>
+    <td colspan="1">TS021</td>
     <td colspan="1">
     Diseñar un sistema para reportar y bloquear usuarios
     </td>
@@ -1323,23 +1746,8 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     </td>
     <td colspan="1">EP005</td>
 </tr>
-		<tr>
-    <td colspan="1">TS049</td>
-    <td colspan="1">
-    Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
-    </td>
-    <td colspan="1"><strong>Como</strong> empresa, <strong>quiero</strong> diseñar una API que permita realizar búsquedas en perfiles privados de usuarios Premium, <strong>para</strong> acceder a información relevante de candidatos potenciales y mejorar el proceso de selección y reclutamiento en la plataforma.</td>
-    <td colspan="5">
-    <strong>E01: Búsqueda de perfiles privados</strong>
-    <br><br><strong>Dado que</strong> una empresa tiene acceso a la API de búsqueda, <strong>cuando</strong> la empresa realiza una búsqueda en perfiles privados de usuarios Premium, <strong>entonces</strong> la API debe permitir a la empresa consultar criterios específicos (como habilidades, experiencia y ubicación) y obtener resultados que coincidan con estos criterios, respetando las configuraciones de privacidad y permisos de los usuarios.
-    <br><br>
-    <strong>E02: Visualización de resultados de búsqueda</strong>
-    <br><br><strong>Dado que</strong> una empresa ha realizado una búsqueda a través de la API, <strong>cuando</strong> se generan los resultados de búsqueda, <strong>entonces</strong> la API debe proporcionar una lista de perfiles que coinciden con los criterios de búsqueda, incluyendo información relevante y accesible de acuerdo con las configuraciones de privacidad, y permitir a la empresa interactuar con los resultados de manera controlada.
-    </td>
-    <td colspan="1">EP005</td>
-</tr>
-		<tr>
-    <td colspan="1">TS050</td>
+<tr>
+    <td colspan="1">TS023</td>
     <td colspan="1">
     Poder suscribirme de manera fácil a una membresía premium
     </td>
@@ -1353,8 +1761,8 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     </td>
     <td colspan="1">EP006</td>
 </tr>
-		<tr>
-    <td colspan="1">TS051</td>
+<tr>
+    <td colspan="1">TS024</td>
     <td colspan="1">
     Gestionar mi suscripción desde mi perfil
     </td>
@@ -1369,7 +1777,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS052</td>
+    <td colspan="1">TS025</td>
     <td colspan="1">
     Recibir una notificación antes de que mi membresía se renueve automáticamente
     </td>
@@ -1384,7 +1792,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS053</td>
+    <td colspan="1">TS026</td>
     <td colspan="1">
     Acceso a un periodo de prueba
     </td>
@@ -1399,7 +1807,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS054</td>
+    <td colspan="1">TS027</td>
     <td colspan="1">
     Recibir soporte prioritario y asistencia personalizada 
     </td>
@@ -1414,7 +1822,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS055</td>
+    <td colspan="1">TS028</td>
     <td colspan="1">
     Implementación de un sistema de control de acceso basado en roles
     </td>
@@ -1429,7 +1837,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS056</td>
+    <td colspan="1">TS029</td>
     <td colspan="1">
     Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes
     </td>
@@ -1444,7 +1852,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS057</td>
+    <td colspan="1">TS030</td>
     <td colspan="1">
     Diferenciar claramente la UI/UX para usuarios gratuitos y premium
     </td>
@@ -1459,7 +1867,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS058</td>
+    <td colspan="1">TS031</td>
     <td colspan="1">
     Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio
     </td>
@@ -1474,7 +1882,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP006</td>
 </tr>
 		<tr>
-    <td colspan="1">TS059</td>
+    <td colspan="1">TS032</td>
     <td colspan="1">
     Asegurar que los datos de pago y la información sensible estén encriptados
     </td>
@@ -1489,37 +1897,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP007</td>
 </tr>
 		<tr>
-    <td colspan="1">US060</td>
-    <td colspan="1">
-    Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
-    <td colspan="5">
-    <strong>E01: Notificación por correo electrónico</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole del inicio de sesión y proporcionando detalles sobre el dispositivo y la ubicación, para que el usuario pueda revisar y verificar la actividad.
-    <br><br>
-    <strong>E02: Notificación por SMS</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole del acceso no reconocido y proporcionando detalles básicos para que el usuario pueda actuar rápidamente en caso de actividad sospechosa.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">US061</td>
-    <td colspan="1">
-    Poder revisar el historial de inicios de sesión recientes
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
-    <td colspan="5">
-    <strong>E01: Visualización del historial de inicios de sesión</strong>
-    <br><br><strong>Dado que</strong> un usuario accede a la sección de historial de seguridad en su perfil, <strong>cuando</strong> el usuario solicita ver los inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada de las fechas, horas, dispositivos y ubicaciones de los inicios de sesión recientes, permitiendo al usuario revisar la actividad de su cuenta.
-    <br><br>
-    <strong>E02: Filtrado y búsqueda en el historial</strong>
-    <br><br><strong>Dado que</strong> un usuario desea encontrar información específica en su historial de inicios de sesión, <strong>cuando</strong> el usuario utiliza opciones de filtrado o búsqueda, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por fecha, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">TS062</td>
+    <td colspan="1">TS033</td>
     <td colspan="1">
     Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo
     </td>
@@ -1534,7 +1912,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP007</td>
 </tr>
 		<tr>
-    <td colspan="1">TS063</td>
+    <td colspan="1">TS034</td>
     <td colspan="1">
     Implementación de un sistema de control de sesiones activas
     </td>
@@ -1549,52 +1927,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP007</td>
 </tr>
 		<tr>
-    <td colspan="1">US064</td>
-    <td colspan="1">
-    Leer y aceptar Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
-    <td colspan="5">
-    <strong>E01: Visualización de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario está en la página de registro, <strong>cuando</strong> el usuario hace clic en el enlace para leer los Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar un documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario revisar el contenido antes de aceptar.
-    <br><br>
-    <strong>E02: Aceptación de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario ha leído los Términos y condiciones, <strong>cuando</strong> el usuario marca la casilla de aceptación y completa el registro, <strong>entonces</strong> el sistema debe registrar la aceptación de los Términos y condiciones en la cuenta del usuario y permitir el acceso completo a la plataforma, garantizando que la aceptación es obligatoria antes de usar la aplicación.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US065</td>
-    <td colspan="1">
-    Revisar Términos y condiciones actualizados
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
-    <td colspan="5">
-    <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
-    <br><br>
-    <strong>E02: Confirmación de aceptación de actualizaciones</strong>
-    <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US066</td>
-    <td colspan="1">
-    Accesibilidad a Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
-    <td colspan="5">
-    <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
-    <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
-    <br><br>
-    <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
-    <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">TS067</td>
+    <td colspan="1">TS035</td>
     <td colspan="1">
     Implementación de módulos de Términos y condiciones
     </td>
@@ -1609,7 +1942,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP008</td>
 </tr>
 		<tr>
-    <td colspan="1">TS068</td>
+    <td colspan="1">TS036</td>
     <td colspan="1">
     Integración de un sistema de versiones para los Términos y condiciones
     </td>
@@ -1623,8 +1956,8 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     </td>
     <td colspan="1">EP008</td>
 </tr>
-		<tr>
-    <td colspan="1">TS069</td>
+	<tr>
+    <td colspan="1">TS037</td>
     <td colspan="1">
     Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios
     </td>
@@ -1639,82 +1972,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP008</td>
 </tr>
 		<tr>
-    <td colspan="1">US070</td>
-    <td colspan="1">
-    Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
-    </td>
-    <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
-    <td colspan="5">
-    <strong>E01: Diseño visualmente atractivo y funcional</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
-    <br><br>
-    <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US071</td>
-    <td colspan="1">
-    Visualizar contenido de Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
-    <td colspan="5">
-    <strong>E01: Visualización completa del contenido de la landing page</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
-    <br><br>
-    <strong>E02: Acceso a información adicional y detalles</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US072</td>
-    <td colspan="1">
-    Formulario de contacto
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
-    <td colspan="5">
-    <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
-    <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
-    <br><br>
-    <strong>E02: Confirmación de envío y respuesta</strong>
-    <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US073</td>
-    <td colspan="1">
-    Implementación de footer
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
-    <td colspan="5">
-    <strong>E01: Inclusión de enlaces importantes en el footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
-    <br><br>
-    <strong>E02: Diseño consistente y funcional del footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US074</td>
-    <td colspan="1">
-    Responsive Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
-    <td colspan="5">
-    <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
-    <br><br>
-    <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">TS075</td>
+    <td colspan="1">TS038</td>
     <td colspan="1">
     Fácil navegación en el diseño de la Landing Page
     </td>
@@ -1729,7 +1987,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP009</td>
 </tr>
 		<tr>
-    <td colspan="1">TS076</td>
+    <td colspan="1">TS039</td>
     <td colspan="1">
     Deploy a GitHub Pages
     </td>
@@ -1744,7 +2002,7 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <td colspan="1">EP009</td>
 </tr>
 		<tr>
-    <td colspan="1">TS077</td>
+    <td colspan="1">TS040</td>
     <td colspan="1">
     Integración de un sistema de seguimiento de métricas
     </td>
@@ -1758,7 +2016,6 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     </td>
     <td colspan="1">EP009</td>
 </tr>
-
 </table>
 
 ### 2.4.3. Impact Mapping.
@@ -1783,32 +2040,593 @@ El Product Backlog no solo se limita a historias de usuario, sino que también i
 
 En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
 
-| #Orden     | User Story Id  | Titulo                                                  | Descripcion               | Story Points (1/2/3/5/8)   |
-|------------|----------------|---------------------------------------------------------|---------------------------|----------------------------|
-|     1      |      US021      |Creación de roadmap académico básico                                                          | Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales                          | 8                           |
-|     2      |      US022      | Generación de roadmap con IA                                                        | Como usuario que busca optimizar su trayectoria profesional, quiero que la plataforma genere un roadmap profesional utilizando inteligencia artificial, para recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.                          | 8                           |
-|     3      |      US023      |  Acceso a plantillas avanzadas y sugerencias de IA                                                       | Como usuario que desea mejorar su planificación profesional, quiero tener acceso a plantillas avanzadas y recibir sugerencias de inteligencia artificial, para facilitar la creación de un roadmap profesional detallado y personalizado que se ajuste a mis necesidades y objetivos específicos.                          |  8                          |
-|     4      |      US024      |Edición de roadmaps básicos                                                         | Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades                          | 8                           |
-|     5      |      US025      | Acceso a herramienta de edición avanzada para usuarios Premium                                                        |Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.                           |      8                     |
-|     6      |      US026      | Eliminación de roadmaps que no se requieren                                                        |Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.                           |  8                          |
-|     7      |      US027      | Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar                                                        |Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio                          | 8                           |
-|     8      |      US028      | Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación                                                        | Como usuario Premium, quiero crear roadmaps personalizados ilimitados y compartirlos con otros usuarios de la aplicación, para tener la flexibilidad de diseñar múltiples roadmaps según mis necesidades y colaborar con otros usuarios al compartir mis planes.                          |  8                          |
-|     9      |      US029      | 	Recibir análisis avanzados sobre mi propio roadmap                                                        |  omo usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente.                         |   5                         |
-|     10     |      US030      |   Poder exportar mi roadmaps en formato como PDF o PNG                                                      | Como usuario Premium, quiero poder exportar mis roadmaps en formatos como PDF o PNG, para tener la opción de guardar, compartir o imprimir mis roadmaps en un formato que sea fácilmente accesible y presentable.                          | 5                           |
-|     11     |      US031      | Poder crear los pasos de mi roadmap                                                        |  Como usuario registrado, quiero poder crear los "pasos" (nodo) de mi roadmap, para estructurar y definir claramente las etapas y acciones necesarias para alcanzar mis objetivos profesionales.                         |   5                        |
-|     12     |      US032      |  Creacion de roadmaps con grafos más complejos                                                       |  Como usuario Premium, quiero crear roadmaps con grafos más complejos, para tener la capacidad de diseñar roadmaps con múltiples niveles, relaciones entre pasos y una estructura más detallada                         | 5                           |
-|     13     |      US033      |    Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible                                                     |Como usuario registrado, quiero recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, para estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap y tomar las medidas necesarias para actualizar o ajustar mi plan.                           |    5                        |
-|     14     |      US034      |   Guardar versiones de mi roadmap                                                      |Como usuario registrado, quiero guardar versiones de mi roadmap, para tener un historial de cambios y poder revertir a versiones anteriores si es necesario.                           |  5                          |
-|     15     |      TS035      |  Creación de una estructura de datos en grafo para representar los roadmaps                                                       | Como desarrollador, quiero crear una estructura de datos en grafo para representar los roadmaps, para tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.                          |   5                         |
-|     16     |      TS036      |   Optimización de la creación, edición de nodos y conexiones en el grafo                                                      | Como usuario en la aplicación, quiero que la creación y edición de nodos y conexiones en el grafo sean optimizadas, para mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.                          |  5                          |
-|     17     |      TS037      |  Implementación de una interfaz visual interactiva para la manipulación del grafo                                                       |Como usuario registrado, quiero una interfaz visual interactiva para la manipulación del grafo, para poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.                           |   5                         |
-|     18     |      TS038      |  Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.                                                       | Como usuario registrado, quiero que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, para recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales                          |   5                         |
-|     19     |      TS039      |  Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo                                                       |Como usuario registrado, quiero implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, para identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap                           | 5                           |
-|     20     |      US070      |Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)                                                         | Como diseñador web, quiero diseñar una landing page persuasiva con un claro llamado a la acción (CTA), para maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles                          |   3                         |
-|     21     |      US071      |  Visualizar contenido de Landing Page                                                       |  Como visitante de la plataforma, quiero poder visualizar el contenido de la landing page, para obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir                         |    3                        |
-|     22     |      US072      | Formulario de contacto                                                        |  Como visitante de la plataforma, quiero tener acceso a un formulario de contacto, para poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla                         |     3                       |
-|     23     |      US073      | Implementación de footer                                                        |Como visitante de la plataforma, quiero que el footer esté implementado en todas las páginas, para tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre                           |  3                          |
-|     24     |      US074      |  Responsive Landing Page                                                       |Como visitante de la plataforma, quiero que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, para tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.                           |   3                         |
-|     25     |      TS075      |  Fácil navegación en el diseño de la Landing Page                                                       | Como visitante de la plataforma, quiero que el diseño de la landing page facilite la navegación, para poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.                          |   3                         |
-|     26     |      TS076      | Deploy a GitHub Pages                                                     | Como desarrollador, quiero desplegar mi landing page en GitHub Pages, para que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.                          | 3                           |
-|     27      |     TS077     |  Integración de un sistema de seguimiento de métricas       |Como desarrollador, quiero integrar un sistema de seguimiento de métricas en la landing page, para poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua. |3|
+<table  style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1">#Orden</td>
+            <td colspan="1">User story ID</td>
+            <td colspan="1">Título</td>
+            <td colspan="2">Descripción</td>
+            <td colspan="1">Story Points (1/2/3/5/8)</td>
+		</tr>
+		<tr>
+            <td colspan="1">1</td>
+            <td colspan="1">TS013</td>
+            <td colspan="1">Creación de una estructura de datos en grafo para representar los roadmaps</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">2</td>
+            <td colspan="1">TS014</td>
+            <td colspan="1">Optimización de la creación, edición de nodos y conexiones en el grafo</td>
+            <td colspan="2"><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.</td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">3</td>
+            <td colspan="1">US016</td>
+            <td colspan="1">Creación de Roadmap Básico</td>
+            <td colspan="2"><strong>Como</strong> usuario de la aplicación de Roademics interesado en planificar mi trayectoria profesional con las funciones ofrecidas, <strong>quiero</strong> crear un roadmap académico básico en la plataforma, <strong>para</strong> visualizar y gestionar mi progreso académico, planificar mis cursos y establecer metas profesionales de manera eficiente y estructurada.</td></td>
+	    <td colspan="1"> 8 </td>
+		</tr>
+  		<tr>
+            <td colspan="1">4</td>
+            <td colspan="1">US017</td>
+            <td colspan="1">Generación automática de roadmap con el uso de inteligencia artificial</td>
+            <td colspan="2"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma sea capaz de generar un roadmap profesional utilizando las herramientas de inteligencia artificial que dispone, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+    		<tr>
+            <td colspan="1">5</td>
+            <td colspan="1">US020</td>
+            <td colspan="1">Edición de roadmaps básicos</td>
+            <td colspan="2"><strong>Como</strong> usuario que ha creado un roadmap básico en la plataforma de Roademics, <strong>quiero</strong> poder editar el roadmap existente con el uso de herramientas variadas de edición y modificación, <strong>para</strong> actualizar la información relevante, ajustar mis objetivos profesionales o académicos, y modificar mis planes según mis necesidades actuales.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+      		<tr>
+            <td colspan="1">6</td>
+            <td colspan="1">TS015</td>
+            <td colspan="1">Implementación de una interfaz visual interactiva para la manipulación del grafo</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+       		<tr>
+            <td colspan="1">7</td>
+            <td colspan="1">TS016</td>
+            <td colspan="1">Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+       		<tr>
+            <td colspan="1">8</td>
+            <td colspan="1">US021</td>
+            <td colspan="1">Acceso a herramientas de edición avanzada de roadmaps para usuarios premium.</td>
+            <td colspan="2"><strong>Como</strong> usuario con suscripción Premium en la plataforma Roademics, <strong>quiero</strong> tener acceso a herramientas de edición avanzada para la modificación de mis roadmaps profesionales, <strong>para</strong> aprovechar funcionalidades adicionales que me permitan optimizar la planificación y gestión de mis metas, brindándome mayor flexibilidad y precisión en la creación y ajuste de mis objetivos.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+         	<tr>
+            <td colspan="1">9</td>
+            <td colspan="1">US024</td>
+            <td colspan="1">Recibir análisis avanzados sobre mi propio roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+           	<tr>
+            <td colspan="1">10</td>
+            <td colspan="1">US026</td>
+            <td colspan="1">Poder crear los nodos de mi roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">11</td>
+            <td colspan="1">US028</td>
+            <td colspan="1">Guardar versiones de mi roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">12</td>
+            <td colspan="1">US018</td>
+            <td colspan="1">Menú de almacenamiento de Roadmaps de un usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma tenga un pequeño menú o dashboard donde se muestren todos los roadmaps u hojas de ruta que he generado en la aplicación, <strong>para</strong> tener un acceso directo a cada uno de mis roadmaps y poder almacenarlos de forma más sencilla, cómoda y organizada.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+             	<tr>
+            <td colspan="1">13</td>
+            <td colspan="1">TS002</td>
+            <td colspan="1">Implementación de validaciones de credenciales.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
+            <td colspan="1"> 8 </td>
+		</tr>	
+               	<tr>
+            <td colspan="1">14</td>
+            <td colspan="1">US001</td>
+            <td colspan="1">Registro de cuenta en la plataforma.</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                   <tr>
+            <td colspan="1">15</td>
+            <td colspan="1">TS001</td>
+            <td colspan="1">Integrar un sistema de registro con Firebase Authentication.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+		</tr>                
+              <td colspan="1">16</td>
+            <td colspan="1">TS004</td>
+            <td colspan="1">Integración de sistema de autenticación con Firebase Authentication.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                <tr>
+            <td colspan="1">17</td>
+            <td colspan="1">US002</td>
+            <td colspan="1">Registro en la plataforma mediante una cuenta externa.</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> ser capaz de registrarme en la plataforma creando una cuenta personal a través del uso de las credenciales que tengo guardadas en otra cuenta externa, como una cuenta de un navegador o de una red social, <strong>para</strong> obtener un acceso directo y rápido a las funcionalidades de la aplicación sin tener que completar manualmente el formulario de registro.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
+                <tr>
+            <td colspan="1">18</td>
+            <td colspan="1">TS003</td>
+            <td colspan="1">Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	         <tr>
+            <td colspan="1">19</td>
+            <td colspan="1">TS005</td>
+            <td colspan="1">Implementar un sistema de autenticación segura en el backend.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	         <tr>
+            <td colspan="1">20</td>
+            <td colspan="1">TS007</td>
+            <td colspan="1">Almacenamiento de contraseñas utilizando técnicas de hash y salting.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> almacenar las contraseñas de los usuarios utilizando técnicas de hash y salting, <strong>para</strong> asegurar que las contraseñas se mantengan seguras y sean resistentes a ataques.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	 	 <tr>
+            <td colspan="1">21</td>
+            <td colspan="1">US004</td>
+            <td colspan="1">Inicio de sesión con cuenta de la aplicación</td>
+            <td colspan="2"><strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	 	 <tr>
+            <td colspan="1">22</td>
+            <td colspan="1">US006</td>
+            <td colspan="1">Inicio de sesión mediante cuentas externas</td>
+            <td colspan="2"><strong>Como</strong> usuario de la aplicación Roademics que prefiere opciones rápidas de acceso, <strong>quiero</strong> poder iniciar sesión utilizando otras cuentas externas (Google, Facebook, LinkedIn), <strong>para</strong> poder acceder a la plataforma sin necesidad de crear una nueva cuenta o recordar diferentes credenciales en cada ocasión. </td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+            <td colspan="1">23</td>
+            <td colspan="1">TS009</td>
+            <td colspan="1">Módulo de ajuste de usuario</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> acceder a un módulo detallado de ajustes de usuario, <strong>para</strong> personalizar completamente mis preferencias y gestionar con facilidad los aspectos más importantes de mi cuenta.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	        <tr>
+            <td colspan="1">24</td>
+            <td colspan="1">TS010</td>
+            <td colspan="1">Formulario de edición de perfil</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+	    <td colspan="1">25</td>
+            <td colspan="1">US011</td>
+            <td colspan="1">Actualización de información personal</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder actualizar mi información personal como nombres, apellidos, país y nacionalidad, y detalles de contacto en la plataforma, <strong>para</strong> mantener mi perfil actualizado y asegurarme de que otros usuarios puedan contactar conmigo de manera adecuada.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+	    <td colspan="1">26</td>
+            <td colspan="1">US003</td>
+            <td colspan="1">Verificación de Correo Electrónico durante el registro</td>
+            <td colspan="2"><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">27</td>
+            <td colspan="1">TS028</td>
+            <td colspan="1">Implementación de un sistema de control de acceso basado en roles</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> implementar un sistema de control de acceso basado en roles, <strong>para</strong> gestionar y restringir el acceso a diferentes funcionalidades y datos de la plataforma según el rol de cada usuario, garantizando la seguridad y el manejo adecuado de los permisos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">28</td>
+            <td colspan="1">TS030</td>
+            <td colspan="1">Diferenciar claramente la UI/UX para usuarios gratuitos y premium</td>
+            <td colspan="2">Como</strong> usuario de la plataforma, <strong>quiero</strong> que la interfaz de usuario (UI) y la experiencia de usuario (UX) sean claramente diferenciadas entre usuarios gratuitos y premium, <strong>para</strong> poder identificar fácilmente las características y funcionalidades exclusivas para usuarios premium y mejorar mi experiencia en la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">29</td>
+            <td colspan="1">TS029</td>
+            <td colspan="1">Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes.</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes, <strong>para</strong> garantizar que las transacciones de pago se realicen de manera segura y que las renovaciones automáticas de las suscripciones se procesen correctamente sin interrupciones</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">30</td>
+            <td colspan="1">TS031</td>
+            <td colspan="1">Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de cambiar de membresía sin interrupción en el servicio, <strong>para</strong> poder actualizar mi suscripción de manera fluida y sin perder acceso a las funcionalidades durante el proceso de cambio.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">31</td>
+            <td colspan="1">TS032</td>
+            <td colspan="1">Asegurar que los datos de pago y la información sensible estén encriptados.</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que los datos de pago y la información sensible estén encriptados, <strong>para</strong> proteger la privacidad y seguridad de la información de los usuarios y evitar accesos no autorizados o filtraciones de datos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">32</td>
+            <td colspan="1">TS033</td>
+            <td colspan="1">Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que el sistema implemente una detección de inicios de sesión sospechosos basada en la ubicación o el dispositivo, <strong>para</strong> ser alertado de accesos potencialmente fraudulentos o no autorizados y poder tomar acciones preventivas.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">33</td>
+            <td colspan="1">TS034</td>
+            <td colspan="1">Implementación de un sistema de control de sesiones activas.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de controlar y gestionar mis sesiones activas, <strong>para</strong> poder cerrar sesiones en dispositivos que ya no uso o que considero inseguros y asegurarme de que solo los dispositivos autorizados tengan acceso a mi cuenta.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">34</td>
+            <td colspan="1">TS020</td>
+            <td colspan="1">Implementación de un sistema de control de conexiones.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">35</td>
+            <td colspan="1">TS019</td>
+            <td colspan="1">Asegurar la integración del sistema de mensajes directos.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> asegurar la integración del sistema de mensajes directos, <strong>para</strong> garantizar que las funcionalidades de mensajería entre usuarios y empresas funcionen correctamente y de manera fluida dentro de la aplicación, mejorando la comunicación y la interacción entre los usuarios.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	        <tr>
+	    <td colspan="1">36</td>
+            <td colspan="1">US031</td>
+            <td colspan="1">Poder chatear directamente con otros usuarios y empresas.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder chatear directamente con otros usuarios y cuentas de empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin tener que salir de la aplicación, mejorando así la eficiencia y comodidad en las interacciones.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">37</td>
+            <td colspan="1">US032</td>
+            <td colspan="1">Gestión de privacidad en el chat.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar la privacidad de todas mis conversaciones en el chat, <strong>para</strong> asegurar que mi información y comunicaciones estén protegidas y se respeten mis preferencias de privacidad en todo momento.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">38</td>
+            <td colspan="1">US034</td>
+            <td colspan="1">Poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">39</td>
+            <td colspan="1">US035</td>
+            <td colspan="1">Poder recibir informes avanzados sobre la actividad de mi perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">40</td>
+            <td colspan="1">US037</td>
+            <td colspan="1">Poder revisar el historial de inicios de sesión recientes.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">41</td>
+            <td colspan="1">US012</td>
+            <td colspan="1">Eliminación de una cuenta de usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	         <tr>
+	    <td colspan="1">42</td>
+            <td colspan="1">US013</td>
+            <td colspan="1">Sección de cambio de contraseña.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">43</td>
+            <td colspan="1">US014</td>
+            <td colspan="1">Gestión de notificaciones de usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar de forma adecuada cómo se controlan las notificaciones en mi cuenta y perfil dentro de Roademics, <strong>para</strong> estar informado sobre los cambios que son de mi interés, mientras selecciono qué otros eventos no requieren que reciba notificaciones, brindándome control total sobre las alertas que recibo.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">44</td>
+            <td colspan="1">US015</td>
+            <td colspan="1">Notificaciones personalizadas para el usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">45</td>
+            <td colspan="1">US010</td>
+            <td colspan="1">Gestión de preferencias de visibilidad del perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder configurar la visibilidad de mi perfil para que sea público o privado o que solo un grupo de usuarios puedan revisarlo, <strong>para</strong> tener control sobre quién puede ver mi información personal y mis actividades dentro de la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">46</td>
+            <td colspan="1">US019</td>
+            <td colspan="1">Acceso a plantillas básicas y avanzadas para la creación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	         <tr>
+	    <td colspan="1">47</td>
+            <td colspan="1">TS023</td>
+            <td colspan="1">Poder suscribirme de manera fácil a una membresía premium.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder suscribirme de manera fácil a una membresía premium, <strong>para</strong> acceder a todas las funcionalidades exclusivas de la plataforma sin complicaciones, y mejorar mi experiencia de usuario.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">48</td>
+            <td colspan="1">US022</td>
+            <td colspan="1">Eliminación de Roadmaps.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">49</td>
+            <td colspan="1">US023</td>
+            <td colspan="1">Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">50</td>
+            <td colspan="1">US025</td>
+            <td colspan="1">Poder exportar mi roadmaps en formato como PDF o PNG.</td>
+            <td colspan="2"><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">51</td>
+            <td colspan="1">US027</td>
+            <td colspan="1">Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">52</td>
+            <td colspan="1">US029</td>
+            <td colspan="1">Compartir un roadmap con otros usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder compartir mi roadmap con otros usuarios de la plataforma, <strong>para</strong> recibir retroalimentación o colaborar en la planificación de mi carrera profesional, fomentando el intercambio de ideas y la mejora mutua, o para que pueda ser revisado directamente por otras empresas que podrían ofrecerme trabajos por mis habilidades.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">53</td>
+            <td colspan="1">TS017</td>
+            <td colspan="1">Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">54</td>
+            <td colspan="1">TS018</td>
+            <td colspan="1">Implementar un sistema de notificaciones para avisar a los usuarios cuando alguien visualice su perfil o roadmap.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de notificaciones que avise cuando alguien visulice su perfil o roadmap <strong>para</strong> estar informado sobre las visitas a mi perfil y roadmap, y poder gestionar mi privacidad y las interacciones de manera efectiva.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">55</td>
+            <td colspan="1">TS012</td>
+            <td colspan="1">Funcionalidad de edición de perfil esté conectada a una API backend.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> que la funcionalidad de edición de perfil esté conectada a una API backend, <strong>para</strong> asegurar que los cambios realizados en mi perfil se sincronicen correctamente con el servidor y se reflejen en la base de datos.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">56</td>
+            <td colspan="1">TS011</td>
+            <td colspan="1">Funcionalidad para gestión de fotos de perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder gestionar mi foto de perfil, <strong>para</strong> personalizar mi perfil con una nueva imagen y actualizarla cuando lo desee.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">57</td>
+            <td colspan="1">TS008</td>
+            <td colspan="1">Implementación de autenticación de dos factores (2FA).</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar autenticación de dos factores (2FA), <strong>para</strong> añadir una capa adicional de seguridad al proceso de autenticación de usuarios y proteger mejor sus cuentas.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">58</td>
+            <td colspan="1">TS006</td>
+            <td colspan="1">Integración de un flujo de recuperación de contraseña.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar un flujo de recuperación de contraseña, <strong>para</strong> permitir a los usuarios restablecer sus contraseñas de manera segura en caso de olvido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">59</td>
+            <td colspan="1">US005</td>
+            <td colspan="1">Recuperación de contraseña de cuenta.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en Roademics, <strong>quiero</strong> tener la opción de recuperar mi contraseña <strong>para</strong> poder restablecer mi acceso a la plataforma en caso de haberla olvidado o garantizar mi seguridad, y permitir la continuidad del uso de todas las funcionalidades asociadas a mi cuenta.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">60</td>
+            <td colspan="1">US007</td>
+            <td colspan="1">Agregar una foto o imagen en el perfil de usuario.</td>
+            <td colspan="2"><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">61</td>
+            <td colspan="1">TS021</td>
+            <td colspan="1">Diseñar un sistema para reportar y bloquear usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> diseñar un sistema para reportar y bloquear usuarios, <strong>para</strong> mantener un entorno seguro y libre de comportamiento inapropiado o no deseado, y poder gestionar mi experiencia en la plataforma de manera efectiva.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">62</td>
+            <td colspan="1">TS024</td>
+            <td colspan="1">Gestionar mi suscripción desde mi perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> gestionar mi suscripción desde mi perfil, <strong>para</strong> tener la capacidad de revisar, actualizar o cancelar mi suscripción de manera sencilla y conveniente, según mis necesidades y preferencias.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">63</td>
+            <td colspan="1">TS025</td>
+            <td colspan="1">Recibir una notificación antes de que mi membresía se renueve automáticamente</td>
+            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir una notificación antes de que mi membresía se renueve automáticamente, <strong>para</strong> tener la oportunidad de revisar mi suscripción, realizar ajustes si es necesario, y evitar cargos inesperados.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">64</td>
+            <td colspan="1">TS026</td>
+            <td colspan="1">Acceso a un periodo de prueba</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">65</td>
+            <td colspan="1">TS027</td>
+            <td colspan="1">Acceso a un periodo de prueba</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo, <strong>quiero</strong> tener acceso a un periodo de prueba, <strong>para</strong> experimentar las funcionalidades premium de la plataforma sin compromiso y decidir si deseo continuar con una suscripción de pago.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">66</td>
+            <td colspan="1">US030</td>
+            <td colspan="1">Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap profesional.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y visibilidad de mis datos, tomando decisiones informadas sobre la exposición de mi contenido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">67</td>
+            <td colspan="1">US033</td>
+            <td colspan="1">Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas, asegurando un entorno respetuoso y libre de contenido no permitido.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">68</td>
+            <td colspan="1">US036</td>
+            <td colspan="1">Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+            <td colspan="1"> 3 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">69</td>
+            <td colspan="1">TS035</td>
+            <td colspan="1">Implementación de módulos de Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> implementar módulos de Términos y condiciones, <strong>para</strong> poder gestionar y actualizar fácilmente el contenido legal de la plataforma y asegurarme de que las políticas sean accesibles y estén actualizadas para todos los usuarios.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">70</td>
+            <td colspan="1">TS036</td>
+            <td colspan="1">Integración de un sistema de versiones para los Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> integrar un sistema de versiones para los Términos y condiciones, <strong>para</strong> poder gestionar y rastrear cambios históricos en el contenido legal y asegurarme de que los usuarios siempre tengan acceso a las versiones correctas y actualizadas.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">71</td>
+            <td colspan="1">TS037</td>
+            <td colspan="1">Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que los Términos y condiciones sean redactados en un lenguaje claro y comprensible, <strong>para</strong> asegurarme de que puedo entender fácilmente las políticas y reglas de uso sin confusión.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">72</td>
+            <td colspan="1">US008</td>
+            <td colspan="1">Gestión de sección de biografía.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">73</td>
+            <td colspan="1">US038</td>
+            <td colspan="1">Leer y aceptar Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">74</td>
+            <td colspan="1">US039</td>
+            <td colspan="1"> Revisar Términos y condiciones actualizados.</td>
+            <td colspan="2"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">75</td>
+            <td colspan="1">US040</td>
+            <td colspan="1"> Accesibilidad a Términos y condiciones.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+            <td colspan="1"> 2 </td>
+	        </tr>
+ 	 	 <tr>
+	    <td colspan="1">76</td>
+            <td colspan="1">TS038</td>
+            <td colspan="1"> Fácil navegación en el diseño de la Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>
+  	 	 <tr>
+	    <td colspan="1">77</td>
+            <td colspan="1">TS039</td>
+            <td colspan="1"> Deploy a GitHub Pages.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">78</td>
+            <td colspan="1">TS040</td>
+            <td colspan="1"> Integración de un sistema de seguimiento de métricas.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">79</td>
+            <td colspan="1">US041</td>
+            <td colspan="1"> Diseñar una landing page persuasiva con un claro llamado a la acción (CTA).</td>
+            <td colspan="2"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">80</td>
+            <td colspan="1">US042</td>
+            <td colspan="1"> Visualizar contenido de Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">81</td>
+            <td colspan="1">US043</td>
+            <td colspan="1">Formulario de contacto.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">82</td>
+            <td colspan="1">US044</td>
+            <td colspan="1">Implementación de footer.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
+  	 	 <tr>
+	    <td colspan="1">83</td>
+            <td colspan="1">US045</td>
+            <td colspan="1">Responsive Landing Page.</td>
+            <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+            <td colspan="1"> 1 </td>
+	        </tr>  
