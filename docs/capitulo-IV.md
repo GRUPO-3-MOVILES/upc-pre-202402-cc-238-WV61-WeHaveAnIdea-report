@@ -553,7 +553,6 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
 | POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
 
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
 Dentro del Sprint 1, no se realizo ningún despliegue.
@@ -575,15 +574,15 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 
 ---
 
-(Mejorar)
-
 ### 4.2.2. Sprint 2
 
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 2 en la sección de requerimientos.
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 2 de la Implementación del Backend. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo, el historial de cambios, y el avance colectivo aportado por cada integrante del equipo de trabajo sobre el propio Backend y sus Endpoints. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint.
 
-#### 5.2.2.2 Sprint Planning 2.
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto.
 
-En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 1. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
+#### 4.2.2.2 Sprint Planning 2.
+
+En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 2. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
 
 ###### Tabla XX
 *Tabla del planeamiento a profundidad del Sprint 2.*
@@ -616,11 +615,11 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
             <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
         </tr>
             <tr>
-            <td>Sprint 1 - 1 Review Summary</td>
+            <td>Sprint 2 - 2 Review Summary</td>
             <td>Después de un realizar todos los procedimientos establecidos para la identificación de objetivos y áreas de retroalimentación, hemos podido concluir la reunión del sprint 1 con éxito en términos de avance en los productos de software y en la colaboración general del equipo. El proceso de mejora con la retroalimentación y la programación de varias secciones nuevas en la Aplicación Web significó un gran proceso de mejora para la construcción y realización del sprint, además de reforzar el compromiso de nuestro equipo y la mejora exponencial de las actividades indicadas.</td> 
         </tr>
             <tr>
-            <td>Sprint 1 – 1 Retrospective Summary</td>
+            <td>Sprint 2 – 2 Retrospective Summary</td>
             <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño del BackEnd.</td>
         </tr>
             <tr>
@@ -640,7 +639,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
     </table>
 
-#### 5.2.2.2 Sprint Backlog 1.
+#### 4.2.2.2 Sprint Backlog 2.
 
 En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
 
@@ -666,53 +665,53 @@ En esta sección se revisara todo el proceso dado para el Sprint Backlog número
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US21</td>
-            <td>Creación de roadmap académico básico</td>
-            <td>T01</td>
-            <td>Creación de roadmap básico</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>TS001</td>
+            <td>Integrar un sistema de registro con Firebase Authentication</td>
+            <td>T08</td>
+            <td>Integración de un sistema de registro con Firebase Authentication</td>
+            <td><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td>1 hora</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS002</td>
+            <td>Implementación de validaciones de credenciales</td>
+            <td>T09</td>
+            <td>Implementación de validaciones de las credenciales de usuario</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
             <td>3 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US24</td>
-            <td>Edición de roadmap académico básico</td>
-            <td>T02</td>
-            <td>Edición de roadmap básico</td>
-            <td>Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades.</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
-            <td>Done</td>
-        </tr>
-                <tr>
-            <td>US25</td>
-            <td>Acceso a herramienta de edición avanzada para usuarios Premium</td>
-            <td>T03</td>
-            <td>Acceso a herramientas de edición avanzada</td>
-            <td>Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.</td>
+            <td>TS003</td>
+            <td>Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo</td>
+            <td>T10</td>
+            <td>Encriptación de los datos de usuarios cuando estén presentes en tránsito o en reposo</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
             <td>2 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US26</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>T04</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.</td>
-            <td>3 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>TS004</td>
+            <td>Integración de sistema de autenticación con Firebase Authentication</td>
+            <td>T11</td>
+            <td>Integración de sistemas de autenticación con la API Firebase Authentication</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td>1 hora</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US27</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
-            <td>T05</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps</td>
-            <td>Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio.</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>TS005</td>
+            <td>Implementar un sistema de autenticación segura en el backend</td>
+            <td>T12</td>
+            <td>Implementación de un sistema de autenticación segura en el backend</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
+            <td>2 horas</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
                 <tr>
@@ -742,7 +741,7 @@ En esta sección se revisara todo el proceso dado para el Sprint Backlog número
 Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
 
 ###### Figura 58
-*Presentación de la tabla de actividades designada para el Sprint 1 en ClickUp.*
+*Presentación de la tabla de actividades designada para el Sprint 2 en ClickUp.*
 <img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
 
 #### 5.2.2.3 Development Evidence for Sprint Review.
@@ -750,7 +749,7 @@ Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más p
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
 
 ###### Tabla XX
-*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
 |upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
@@ -836,8 +835,6 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
-Dentro del Sprint 1, no se realizo ningún despliegue.
-
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
 Durante el Sprint 1 de la sección Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del propio BackEnd de la aplicación móvil de Roademics, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
@@ -847,7 +844,7 @@ Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas
 Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd del Web Application.
 
 ###### Figura 88
-*Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 1 de Software Development & Implementation.*
+*Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
 
 <img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
 <img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
