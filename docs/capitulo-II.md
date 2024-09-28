@@ -1278,7 +1278,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US035</td>
             <td colspan="1">
-            Poder recibir informes avanzados sobre la actividad de mi perfil (Usuario Premium)
+            Poder recibir informes avanzados sobre la actividad de mi perfil
             </td>
             <td colspan="1"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
             <td colspan="5">
@@ -1505,7 +1505,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">TS005</td>
             <td colspan="1">
-            implementar un sistema de autenticación segura en el backend</td>
+            Implementar un sistema de autenticación segura en el backend</td>
             <td colspan="1"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
             <td colspan="5">
             <strong>E01: </strong>
@@ -1743,21 +1743,6 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
     <br><br>
     <strong>E02: Bloquear usuarios</strong>
     <br><br><strong>Dado que</strong> un usuario desea evitar interacciones con otro usuario, <strong>cuando</strong> el usuario utiliza la opción de bloqueo desde el perfil del usuario en cuestión, <strong>entonces</strong> el sistema debe impedir que el usuario bloqueado pueda enviar mensajes o ver el perfil del usuario que ha realizado el bloqueo, y actualizar la lista de usuarios bloqueados del usuario para reflejar el nuevo estado.
-    </td>
-    <td colspan="1">EP005</td>
-</tr>
-		<tr>
-    <td colspan="1">TS022</td>
-    <td colspan="1">
-    Diseñar una API que permita a las empresas realizar búsquedas en perfiles privados (Usuario Premium)
-    </td>
-    <td colspan="1"><strong>Como</strong> empresa, <strong>quiero</strong> diseñar una API que permita realizar búsquedas en perfiles privados de usuarios Premium, <strong>para</strong> acceder a información relevante de candidatos potenciales y mejorar el proceso de selección y reclutamiento en la plataforma.</td>
-    <td colspan="5">
-    <strong>E01: Búsqueda de perfiles privados</strong>
-    <br><br><strong>Dado que</strong> una empresa tiene acceso a la API de búsqueda, <strong>cuando</strong> la empresa realiza una búsqueda en perfiles privados de usuarios Premium, <strong>entonces</strong> la API debe permitir a la empresa consultar criterios específicos (como habilidades, experiencia y ubicación) y obtener resultados que coincidan con estos criterios, respetando las configuraciones de privacidad y permisos de los usuarios.
-    <br><br>
-    <strong>E02: Visualización de resultados de búsqueda</strong>
-    <br><br><strong>Dado que</strong> una empresa ha realizado una búsqueda a través de la API, <strong>cuando</strong> se generan los resultados de búsqueda, <strong>entonces</strong> la API debe proporcionar una lista de perfiles que coinciden con los criterios de búsqueda, incluyendo información relevante y accesible de acuerdo con las configuraciones de privacidad, y permitir a la empresa interactuar con los resultados de manera controlada.
     </td>
     <td colspan="1">EP005</td>
 </tr>
@@ -2393,8 +2378,6 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
             <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> poder suscribirme de manera fácil a una membresía premium, <strong>para</strong> acceder a todas las funcionalidades exclusivas de la plataforma sin complicaciones, y mejorar mi experiencia de usuario.</td>
             <td colspan="1"> 3 </td>
 	        </tr>
-            <td colspan="1"> 3 </td>
-	        </tr>
 	 	 <tr>
 	    <td colspan="1">48</td>
             <td colspan="1">US022</td>
@@ -2544,111 +2527,104 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
 	        </tr>
 	 	 <tr>
 	    <td colspan="1">69</td>
-            <td colspan="1">TS027</td>
-            <td colspan="1">Recibir soporte prioritario y asistencia personalizada.</td>
-            <td colspan="2"><strong>Como</strong> usuario premium, <strong>quiero</strong> recibir soporte prioritario y asistencia personalizada, <strong>para</strong> obtener ayuda rápida y efectiva para resolver cualquier problema o consulta relacionada con mi cuenta y el uso de la plataforma.</td>
-            <td colspan="1"> 2 </td>
-	        </tr>
-	 	 <tr>
-	    <td colspan="1">70</td>
             <td colspan="1">TS035</td>
             <td colspan="1">Implementación de módulos de Términos y condiciones.</td>
             <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> implementar módulos de Términos y condiciones, <strong>para</strong> poder gestionar y actualizar fácilmente el contenido legal de la plataforma y asegurarme de que las políticas sean accesibles y estén actualizadas para todos los usuarios.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">71</td>
+	    <td colspan="1">70</td>
             <td colspan="1">TS036</td>
             <td colspan="1">Integración de un sistema de versiones para los Términos y condiciones.</td>
             <td colspan="2"><strong>Como</strong> administrador de la plataforma, <strong>quiero</strong> integrar un sistema de versiones para los Términos y condiciones, <strong>para</strong> poder gestionar y rastrear cambios históricos en el contenido legal y asegurarme de que los usuarios siempre tengan acceso a las versiones correctas y actualizadas.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">72</td>
+	    <td colspan="1">71</td>
             <td colspan="1">TS037</td>
             <td colspan="1">Garantizar que los Términos y condiciones sean fáciles de entender para todos los usuarios.</td>
             <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que los Términos y condiciones sean redactados en un lenguaje claro y comprensible, <strong>para</strong> asegurarme de que puedo entender fácilmente las políticas y reglas de uso sin confusión.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">73</td>
+	    <td colspan="1">72</td>
             <td colspan="1">US008</td>
             <td colspan="1">Gestión de sección de biografía.</td>
             <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">74</td>
+	    <td colspan="1">73</td>
             <td colspan="1">US038</td>
             <td colspan="1">Leer y aceptar Términos y condiciones.</td>
             <td colspan="2"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">75</td>
+	    <td colspan="1">74</td>
             <td colspan="1">US039</td>
             <td colspan="1"> Revisar Términos y condiciones actualizados.</td>
             <td colspan="2"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
 	 	 <tr>
-	    <td colspan="1">76</td>
+	    <td colspan="1">75</td>
             <td colspan="1">US040</td>
             <td colspan="1"> Accesibilidad a Términos y condiciones.</td>
             <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
             <td colspan="1"> 2 </td>
 	        </tr>
  	 	 <tr>
-	    <td colspan="1">77</td>
+	    <td colspan="1">76</td>
             <td colspan="1">TS038</td>
             <td colspan="1"> Fácil navegación en el diseño de la Landing Page.</td>
             <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
             <td colspan="1"> 1 </td>
 	        </tr>
   	 	 <tr>
-	    <td colspan="1">78</td>
+	    <td colspan="1">77</td>
             <td colspan="1">TS039</td>
             <td colspan="1"> Deploy a GitHub Pages.</td>
             <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">79</td>
+	    <td colspan="1">78</td>
             <td colspan="1">TS040</td>
             <td colspan="1"> Integración de un sistema de seguimiento de métricas.</td>
             <td colspan="2"><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">80</td>
+	    <td colspan="1">79</td>
             <td colspan="1">US041</td>
             <td colspan="1"> Diseñar una landing page persuasiva con un claro llamado a la acción (CTA).</td>
             <td colspan="2"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">81</td>
+	    <td colspan="1">80</td>
             <td colspan="1">US042</td>
             <td colspan="1"> Visualizar contenido de Landing Page.</td>
             <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">82</td>
+	    <td colspan="1">81</td>
             <td colspan="1">US043</td>
             <td colspan="1">Formulario de contacto.</td>
             <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">83</td>
+	    <td colspan="1">82</td>
             <td colspan="1">US044</td>
             <td colspan="1">Implementación de footer.</td>
             <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
             <td colspan="1"> 1 </td>
 	        </tr>  
   	 	 <tr>
-	    <td colspan="1">84</td>
+	    <td colspan="1">83</td>
             <td colspan="1">US045</td>
             <td colspan="1">Responsive Landing Page.</td>
             <td colspan="2"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
