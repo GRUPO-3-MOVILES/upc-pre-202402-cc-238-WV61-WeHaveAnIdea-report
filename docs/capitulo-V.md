@@ -61,7 +61,7 @@ Página oficial de Miro: https://miro.com/
 
 - Wireframes, Mock-ups y Prototypes: Para el desarrollo de wireframes, mock-ups y prototipos relacionados con la landing page de nuestra startup y todas las secciones de la aplicación móvil orientada al frontend, hemos decidido utilizar la plataforma Figma. Esta herramienta ha sido seleccionada por su especialización en el diseño de interfaces de usuario para aplicaciones móviles y sitios web, ofreciendo un conjunto robusto de características que abordan las necesidades tanto de diseñadores como de desarrolladores de productos digitales. Su capacidad para crear prototipos interactivos y simular experiencias reales de usuario nos permite probar y validar conceptos antes de pasar al desarrollo final. Otra de las razones clave para esta elección es el enfoque colaborativo de Figma, que permite que múltiples miembros del equipo trabajen simultáneamente en un mismo diseño. Otro aspecto importante de Figma es su vasta biblioteca de recursos y modelos predefinidos. Estos recursos proporcionan a nuestro equipo una base sólida sobre la cual construir los wireframes iniciales, mock-ups visuales y prototipos interactivos. Por último, la capacidad de Figma para simular la experiencia del usuario final en dispositivos móviles y navegadores es fundamental para garantizar que la aplicación web y la landing page proporcionen una experiencia de usuario óptima en todos los dispositivos y plataformas.
 
-- Página oficial de Figma: https://figma.com/ 
+Página oficial de Figma: https://figma.com/ 
 
 ---
 
@@ -69,25 +69,25 @@ Página oficial de Miro: https://miro.com/
 
 - Landing Page: En el desarrollo de la landing page, hemos implementado un conjunto específico de herramientas que aseguran tanto la programación como la esquematización del proyecto de forma eficiente y escalable. Para ello, hemos optado por el uso combinado de HTML5, CSS3, y JavaScript, cada uno organizado en secciones individuales dentro del repositorio del equipo. Esta decisión responde a la versatilidad que ofrecen dichos lenguajes, indispensables en la creación de páginas web que cumplan con los estándares de calidad requeridos para un entorno de producción. El diseño visual seguirá las directrices del Material Design, una metodología ampliamente reconocida por su claridad, coherencia y estructura optimizada para la experiencia de usuario. Con este enfoque, buscamos no solo una apariencia atractiva, sino también garantizar una navegación intuitiva y efectiva que maximice la interacción del usuario con la página. El IDE seleccionado para este proyecto es Visual Studio Code, el cual será empleado para la edición y desarrollo del código. A pesar de ser un entorno de desarrollo más simple en comparación con IDEs más robustos, su amplia gama de funcionalidades y extensiones lo hace ideal para proyectos como este. Su interfaz sencilla y la posibilidad de integrar múltiples herramientas lo convierten en una opción práctica para la gestión ágil de código en la landing page.
 
-- Página oficial de Visual Studio Code: https://code.visualstudio.com/
+Página oficial de Visual Studio Code: https://code.visualstudio.com/
 
-- Página de guía y seguimiento para HTML5: https://www.w3schools.com/html/ 
+Página de guía y seguimiento para HTML5: https://www.w3schools.com/html/ 
 
-- Página de guía y seguimiento para CSS3: https://www.w3schools.com/css/default.asp
+Página de guía y seguimiento para CSS3: https://www.w3schools.com/css/default.asp
 
-- Página de guía y seguimiento para JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+Página de guía y seguimiento para JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
 
-- Página de guía y seguimiento para el modelo del Material Design: https://m3.material.io/
+Página de guía y seguimiento para el modelo del Material Design: https://m3.material.io/
 
 - Mobile Application: En el proceso de desarrollo de la aplicación móvil frontend, se utilizarán una variedad de herramientas con el objetivo de asegurar una programación eficiente y una estructura coherente para cada uno de los componentes visuales y funcionales. Para este propósito, hemos optado por el uso del framework Flutter, que ofrece una sólida base para el desarrollo de aplicaciones móviles multiplataforma, con un enfoque centrado en la creación de interfaces de usuario fluidas y eficientes. Este framework, combinado con el lenguaje Dart, proporcionará un entorno técnico robusto para el desarrollo y permitirá una optimización adecuada de los componentes de la interfaz de usuario. Además, se aprovechará la biblioteca de widgets nativos de Flutter, que facilita la creación de elementos visuales coherentes y altamente personalizables, contribuyendo a la mantenibilidad y elegancia del código. Esto asegurará que la experiencia de usuario sea consistente en diferentes dispositivos y plataformas, permitiendo una navegación fluida y una interfaz altamente responsiva. En cuanto al entorno de desarrollo integrado (IDE), se empleará Visual Studio Code (VSCode). Este IDE ha sido seleccionado por su versatilidad, amplia gama de extensiones, y su capacidad para integrar de manera efectiva las herramientas necesarias para el desarrollo de aplicaciones móviles con Flutter. VSCode también destaca por su eficiencia en la depuración de código, permitiendo realizar actualizaciones inmediatas sin interrumpir el flujo de desarrollo. 
 
-- Página oficial de Visual Studio Code: https://code.visualstudio.com/
+Página oficial de Visual Studio Code: https://code.visualstudio.com/
 
-- Página oficial de Flutter: https://flutter.dev/ 
+Página oficial de Flutter: https://flutter.dev/ 
 
-- Página oficial de Dart: https://dart.dev/ 
+Página oficial de Dart: https://dart.dev/ 
 
-- Página de guía y seguimiento para el modelo del Material Design: https://m3.material.io/
+Página de guía y seguimiento para el modelo del Material Design: https://m3.material.io/
 
 ---
 
@@ -109,21 +109,23 @@ Guía de uso de Markdown: https://www.markdownguide.org/
 
 Guía y seguimiento para HTML5: https://www.w3schools.com/html/
 
-### 4.1.2. Source Code Management.
+### 5.1.2. Source Code Management.
 
-En esta sección, se definirá la estrategia para utilizar GitHub como plataforma de control de versiones y colaboración durante el ciclo de vida del desarrollo del backend. Se emplearán todas las herramientas proporcionadas por GitHub para garantizar una gestión eficaz del código fuente, incluyendo el seguimiento de versiones y la colaboración entre miembros del equipo. Se mantendrá un registro exhaustivo de las versiones del backend, permitiendo rastrear cambios, identificar nuevos desarrollos y corregir errores de manera precisa.
+En esta sección, se definirá la estrategia para utilizar GitHub como plataforma de control de versiones y colaboración durante el ciclo de vida del desarrollo del frontend. Se emplearán todas las herramientas proporcionadas por GitHub para garantizar una gestión eficaz del código fuente, incluyendo el seguimiento de versiones y la colaboración entre miembros del equipo. Se mantendrá un registro exhaustivo de las versiones del frontend, permitiendo rastrear cambios, identificar nuevos desarrollos y corregir errores de manera precisa.
 
-Se establecerán ramas específicas para diferentes etapas del desarrollo, tales como la integración continua, las pruebas y la producción. Además, se implementarán políticas de pull requests y revisiones de código para asegurar la calidad y coherencia del backend. Esta metodología permitirá un control riguroso del ciclo de vida del desarrollo, facilitando la colaboración y asegurando que todos los cambios se registren de forma clara y ordenada.
+Se establecerán ramas específicas para diferentes etapas del desarrollo, tales como la integración continua, las pruebas y la producción. Además, se implementarán políticas de pull requests y revisiones de código para asegurar la calidad y coherencia del frontend. Esta metodología permitirá un control riguroso del ciclo de vida del desarrollo, facilitando la colaboración y asegurando que todos los cambios se registren de forma clara y ordenada.
 
-A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del backend dentro de esta organización:
+A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del frontend dentro de esta organización:
 
-Repositorios en GitHub:
+**Repositorios en GitHub:**
 
 - Organización: https://github.com/GRUPO-3-MOVILES 
 
 - Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
-- BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
+- Aplicación Móvil: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication
+
+- Landing Page: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
@@ -141,17 +143,17 @@ En esta sección, se presentarán todos los usuarios que forman parte de la orga
 
 **GitFlow Workflow**:
 
-En nuestro proyecto, implementaremos el modelo GitFlow para el control de versiones, el cual está estructurado en torno a ramas principales y secundarias. Las ramas principales actúan como las bases fundamentales para el desarrollo y la implementación final del backend. La rama master representa la versión estable y en producción, mientras que develop se utiliza para integrar todas las características y correcciones que se encuentran en desarrollo.
+En nuestro proyecto, implementaremos el modelo GitFlow para el control de versiones, el cual está estructurado en torno a ramas principales y secundarias. Las ramas principales actúan como las bases fundamentales para el desarrollo y la implementación final del frontend. La rama master representa la versión estable y en producción, mientras que develop se utiliza para integrar todas las características y correcciones que se encuentran en desarrollo.
 
 Las ramas secundarias se utilizan para gestionar desarrollos específicos y modificaciones puntuales. Estas ramas se crean para el desarrollo de nuevas funcionalidades, para abordar errores críticos en producción y para preparar la versión para su liberación final. Cada una de estas ramas se fusiona con develop a través de pull requests, los cuales son revisados por el equipo para asegurar la calidad y coherencia del código. Este enfoque asegura que cada cambio se maneje de manera organizada y que los errores críticos se aborden de forma eficiente, manteniendo la estabilidad del proyecto en todo momento.
 
-Esta metodología garantiza una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del backend, asegurando que todos los cambios se integren de manera controlada y que el historial del proyecto sea claro y manejable. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
+Esta metodología garantiza una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del frontend, asegurando que todos los cambios se integren de manera controlada y que el historial del proyecto sea claro y manejable. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
 
 **Ramas Principales**:
 
-- `master`: Esta rama contiene la versión final y estable del backend, lista para su despliegue en el entorno de producción. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo técnico para asegurar la calidad y estabilidad del código del backend.
+- `master`: Esta rama contiene la versión final y estable del frontend, lista para su despliegue en el entorno de producción. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo técnico para asegurar la calidad y estabilidad del código del frontend.
   
-- `develop`: Esta rama agrupa los elementos en desarrollo relacionados con el backend, que han sido aprobados por al menos un miembro del equipo diferente del autor de las modificaciones. Sirve como etapa de integración y prueba de nuevas funcionalidades del backend antes de ser fusionadas con `master`.
+- `develop`: Esta rama agrupa los elementos en desarrollo relacionados con el frontend, que han sido aprobados por al menos un miembro del equipo diferente del autor de las modificaciones. Sirve como etapa de integración y prueba de nuevas funcionalidades del frontend antes de ser fusionadas con `master`.
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
@@ -164,11 +166,11 @@ Esta metodología garantiza una organización efectiva del flujo de trabajo, fac
 | feat/iam | Gestiona los cambios relacionados con la implementación del sistema de gestión de identidades y accesos (IAM) en el backend. Esta implementación asegura la autenticación, autorización y control de permisos de usuarios, garantizando la seguridad del sistema y un acceso adecuado a los recursos según los roles asignados. |
 | feat/roadmaps | Agrupa los cambios correspondientes a la gestión de los roadmaps en el backend, incluyendo la lógica para la creación, almacenamiento y procesamiento de los datos relacionados con los roadmaps de los usuarios. Esto abarca la implementación de endpoints para la manipulación de datos, así como la optimización de consultas y almacenamiento en la base de datos para asegurar un rendimiento eficiente. |
 
-**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo en el backend. Los cambios se integran a las ramas principales mediante pull requests, que deben ser aprobados por el líder del equipo. Una vez que los cambios han sido completados y fusionados, estas ramas se eliminan para evitar la acumulación innecesaria de ramas y mantener un repositorio limpio y organizado.
+**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo en el frontend. Los cambios se integran a las ramas principales mediante pull requests, que deben ser aprobados por el líder del equipo. Una vez que los cambios han sido completados y fusionados, estas ramas se eliminan para evitar la acumulación innecesaria de ramas y mantener un repositorio limpio y organizado.
 
 ---
 
-Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de backend, hemos establecido el siguiente formato estándar:
+Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de frontend, hemos establecido el siguiente formato estándar:
 
 Formato de Commit:
 
@@ -182,14 +184,14 @@ En este formato, "branch" debe indicar la rama en la que se han realizado los ca
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
-|Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
-|Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
-|Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
-|Modify  |Modificar  | Aplicado cuando se realizan cambios significativos en la lógica del backend, como la reestructuración de servicios o la implementación de nuevas políticas de negocio en la capa de lógica. Esto incluye cambios que afectan la arquitectura general o que impactan directamente en la interacción entre componentes.  |
-|Correct  | Corregir  | Utilizado para corregir errores menores en la implementación del backend, como ajustes en las validaciones de entradas, corrección de rutas de API, o fallos en configuraciones que afectan el correcto funcionamiento del sistema. Este verbo se reserva para pequeñas correcciones sin grandes implicaciones. |
-|Fix  |Arreglar  | Usado para solucionar bugs críticos o problemas que afectan directamente la funcionalidad del backend. Esto puede incluir arreglar errores en la lógica de negocio, problemas de conexión con la base de datos, o fallos en la autenticación y autorización de usuarios. También es comúnmente utilizado para resolver errores en la integración continua o el despliegue automático.  |
-|Delete  |Borrar  | Aplicado para la eliminación de clases, métodos o recursos que ya no son necesarios en el backend. Debe utilizarse cuando se elimina código obsoleto o módulos que han sido reemplazados por implementaciones más eficientes o actualizadas. |
-|Drop  |Tirar  | Exclusivo para la eliminación de esquemas de bases de datos, tablas, o configuraciones en el backend. Debe ser utilizado con precaución, ya que este tipo de cambios puede tener implicaciones críticas en el almacenamiento de datos y la estructura general del sistema. Suele aplicarse cuando se reorganiza o limpia la base de datos en el proceso de migración o refactorización. |
+|Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, componentes o módulos al frontend. Ideal para commits en los que se implementan nuevas vistas, estilos o scripts, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
+|Create  |Crear  | Empleado para la creación de nuevos componentes, estilos o rutas en la aplicación frontend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o diseño dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad. |
+|Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del frontend, como la actualización de estilos, optimización de scripts o ajustes en la lógica de interacción. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
+|Modify  |Modificar  | Aplicado cuando se realizan cambios significativos en la lógica del frontend, como la reestructuración de componentes o la implementación de nuevas políticas de diseño en la capa de presentación. Esto incluye cambios que afectan la arquitectura general o que impactan directamente en la interacción entre componentes. |
+|Correct  | Corregir  | Utilizado para corregir errores menores en la implementación del frontend, como ajustes en las validaciones de formularios, corrección de rutas de navegación, o fallos en configuraciones que afectan el correcto funcionamiento de la interfaz. Este verbo se reserva para pequeñas correcciones sin grandes implicaciones. |
+|Fix  |Arreglar  | Usado para solucionar bugs críticos o problemas que afectan directamente la funcionalidad del frontend. Esto puede incluir arreglar errores en la lógica de interacción, problemas de visualización o fallos en la autenticación de usuarios. También es comúnmente utilizado para resolver errores en la integración continua o el despliegue automático. |
+|Delete  |Borrar  | Aplicado para la eliminación de componentes, estilos o recursos que ya no son necesarios en el frontend. Debe utilizarse cuando se elimina código obsoleto o componentes que han sido reemplazados por implementaciones más eficientes o actualizadas. |
+|Drop  |Tirar  | Exclusivo para la eliminación de rutas, estilos o configuraciones en el frontend. Debe ser utilizado con precaución, ya que este tipo de cambios puede tener implicaciones críticas en la presentación de datos y la estructura general de la interfaz. Suele aplicarse cuando se reorganiza o limpia el sistema de archivos en el proceso de migración o refactorización. |
 
 Esta norma sigue los principios de Conventional Commits, una convención ligera para estructurar y nombrar los commits. Esta convención proporciona un conjunto claro de reglas para crear un historial de cambios detallado y coherente, lo que facilita la automatización de procesos como el versionado semántico y el seguimiento de características, correcciones y modificaciones críticas. Su implementación mejora la trazabilidad del desarrollo, simplifica las revisiones y asegura una mayor transparencia en el control de versiones. (GitHub & Netlify, 2024).
 
@@ -212,18 +214,20 @@ Donde:
 
 ### 4.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar, estructurar, organizar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, con un enfoque exclusivo en la implementación del Backend. Se detallarán las convenciones y mejores prácticas que se seguirán para asegurar un código coherente y eficiente en el uso de Java y SpringBoot, los principales lenguajes y herramientas del proyecto. Estas convenciones de codificación garantizarán la claridad, mantenibilidad y escalabilidad del código, facilitando la colaboración entre los diferentes miembros del equipo de desarrollo backend.
+En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar, estructurar, organizar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, con un enfoque exclusivo en la implementación del frontend. Se detallarán las convenciones y mejores prácticas que se seguirán para asegurar un código coherente y eficiente en el uso de Flutter, Dart, CSS, HTML y JavaScript, que son las principales herramientas del proyecto. Estas convenciones de codificación garantizarán la claridad, mantenibilidad y escalabilidad del código, facilitando la colaboración entre los diferentes miembros del equipo de desarrollo frontend.
 
-Asimismo, también investigaremos y presentaremos las directrices para la interacción con la base de datos MongoDB y su despliegue en MongoDB Atlas. Esto incluirá la gestión adecuada de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la optimización del rendimiento en las consultas y manejo de grandes volúmenes de datos:
+Asimismo, también investigaremos y presentaremos las directrices para la interacción con las interfaces de usuario y la implementación de una experiencia de usuario fluida y atractiva. Esto incluirá la gestión adecuada de los componentes visuales, la optimización del rendimiento en la renderización y el manejo efectivo de la interacción del usuario con la aplicación:
 
-- Guía de Estilo para SpringBoot: https://docs.spring.io/spring-boot/docs/current/reference/html/
-- Panel de Guías variadas sobre SpringBoot: https://spring.io/guides
-- Guía de Estilo para Java del AOSP para colaboradores: https://source.android.com/docs/setup/contribute/code-style?hl=es-419
-- Manual Completo de Código en Java: https://www.manualweb.net/java/
-- Modelo de Convenciones de codificación Java: https://codegym.cc/es/groups/posts/es.491.convenciones-de-codificacion-de-java-cuales-seguir-y-por-que
-- Documentación oficial de MongoDB: https://www.mongodb.com/docs/manual/
-- Documentación oficial de MongoDB Atlas: https://www.mongodb.com/docs/atlas/
-- Guía oficial de conexiones, migraciones y herramientas de MongoDB: https://www.mongodb.com/docs/tools-and-connectors/ 
+- Guía de Estilos y Convenciones de Codigo para HTML: https://www.w3schools.com/html/html5_syntax.asp 
+- Guía de Estilos de Google para HTML Y CSS: https://google.github.io/styleguide/htmlcssguide.html 
+- Convenciones de Gherkin para especificaciones legibles: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ 
+- Guía de Google para el Estilo de JavaScript: https://google.github.io/styleguide/jsguide.html
+- Guía de Pautas de Javascript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript}
+- Guía de Estilos de Javascript del consorcio W3: https://www.w3schools.com/js/js_conventions.asp
+- Guía Oficial del Framework de Flutter: https://docs.flutter.dev/get-started/learn-flutter
+- Conjunto de Datos con Recursos de Aprendizaje de Flutter: https://github.com/rafathefull/flutterverso
+- Guía Oficial de Dart: https://dart.dev/language
+- Guía de Librerías Oficiales de Dart: https://dart.dev/libraries
 
 #### Convenciones que Usaremos:
 
