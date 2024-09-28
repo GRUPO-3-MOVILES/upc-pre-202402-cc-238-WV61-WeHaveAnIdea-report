@@ -2169,23 +2169,229 @@ En la siguiente sección, se presenta el Product Backlog finalizado del proyecto
             <td colspan="2"><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
             <td colspan="1"> 8 </td>
 		</tr>
+		</tr>                
+              <td colspan="1">16</td>
+            <td colspan="1">TS004</td>
+            <td colspan="1">Integración de sistema de autenticación con Firebase Authentication.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td colspan="1"> 8 </td>
+		</tr>
                 <tr>
-            <td colspan="1">16</td>
+            <td colspan="1">17</td>
             <td colspan="1">US002</td>
             <td colspan="1">Registro en la plataforma mediante una cuenta externa.</td>
             <td colspan="2"><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> ser capaz de registrarme en la plataforma creando una cuenta personal a través del uso de las credenciales que tengo guardadas en otra cuenta externa, como una cuenta de un navegador o de una red social, <strong>para</strong> obtener un acceso directo y rápido a las funcionalidades de la aplicación sin tener que completar manualmente el formulario de registro.</td>
             <td colspan="1"> 8 </td>
 		</tr>
                 <tr>
-            <td colspan="1">17</td>
-            <td colspan="1">TS003</td>
-            <td colspan="1">Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
-            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
-            <td colspan="1"> 8 </td>
-		</tr>                <tr>
             <td colspan="1">18</td>
             <td colspan="1">TS003</td>
             <td colspan="1">Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
             <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
             <td colspan="1"> 8 </td>
-		</tr>
+	        </tr>
+	         <tr>
+            <td colspan="1">19</td>
+            <td colspan="1">TS005</td>
+            <td colspan="1">Implementar un sistema de autenticación segura en el backend.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	         <tr>
+            <td colspan="1">20</td>
+            <td colspan="1">TS007</td>
+            <td colspan="1">Almacenamiento de contraseñas utilizando técnicas de hash y salting.</td>
+            <td colspan="2"><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> almacenar las contraseñas de los usuarios utilizando técnicas de hash y salting, <strong>para</strong> asegurar que las contraseñas se mantengan seguras y sean resistentes a ataques.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	 	 <tr>
+            <td colspan="1">21</td>
+            <td colspan="1">US004</td>
+            <td colspan="1">Inicio de sesión con cuenta de la aplicación</td>
+            <td colspan="2"><strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td colspan="1"> 8 </td>
+	        </tr>
+	 	 <tr>
+            <td colspan="1">22</td>
+            <td colspan="1">US006</td>
+            <td colspan="1">Inicio de sesión mediante cuentas externas</td>
+            <td colspan="2"><strong>Como</strong> usuario de la aplicación Roademics que prefiere opciones rápidas de acceso, <strong>quiero</strong> poder iniciar sesión utilizando otras cuentas externas (Google, Facebook, LinkedIn), <strong>para</strong> poder acceder a la plataforma sin necesidad de crear una nueva cuenta o recordar diferentes credenciales en cada ocasión. </td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+            <td colspan="1">23</td>
+            <td colspan="1">TS009</td>
+            <td colspan="1">Módulo de ajuste de usuario</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> acceder a un módulo detallado de ajustes de usuario, <strong>para</strong> personalizar completamente mis preferencias y gestionar con facilidad los aspectos más importantes de mi cuenta.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	        <tr>
+            <td colspan="1">24</td>
+            <td colspan="1">TS010</td>
+            <td colspan="1">Formulario de edición de perfil</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+	    <td colspan="1">25</td>
+            <td colspan="1">US011</td>
+            <td colspan="1">Actualización de información personal</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder actualizar mi información personal como nombres, apellidos, país y nacionalidad, y detalles de contacto en la plataforma, <strong>para</strong> mantener mi perfil actualizado y asegurarme de que otros usuarios puedan contactar conmigo de manera adecuada.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+		<tr>
+	    <td colspan="1">26</td>
+            <td colspan="1">TS010</td>
+            <td colspan="1">Formulario de edición de perfil</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> tener un formulario de edición de perfil, <strong>para</strong>actualizar mi información personal y mantener mi perfil actualizado con datos precisos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">27</td>
+            <td colspan="1">TS028</td>
+            <td colspan="1">Implementación de un sistema de control de acceso basado en roles</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> implementar un sistema de control de acceso basado en roles, <strong>para</strong> gestionar y restringir el acceso a diferentes funcionalidades y datos de la plataforma según el rol de cada usuario, garantizando la seguridad y el manejo adecuado de los permisos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">28</td>
+            <td colspan="1">TS030</td>
+            <td colspan="1">Diferenciar claramente la UI/UX para usuarios gratuitos y premium</td>
+            <td colspan="2">Como</strong> usuario de la plataforma, <strong>quiero</strong> que la interfaz de usuario (UI) y la experiencia de usuario (UX) sean claramente diferenciadas entre usuarios gratuitos y premium, <strong>para</strong> poder identificar fácilmente las características y funcionalidades exclusivas para usuarios premium y mejorar mi experiencia en la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">29</td>
+            <td colspan="1">TS029</td>
+            <td colspan="1">Asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes.</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que las suscripciones premium se manejen con pagos seguros y recurrentes, <strong>para</strong> garantizar que las transacciones de pago se realicen de manera segura y que las renovaciones automáticas de las suscripciones se procesen correctamente sin interrupciones</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">30</td>
+            <td colspan="1">TS031</td>
+            <td colspan="1">Integración de un sistema que permita a los usuarios cambiar de membresía sin interrupción en el servicio.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de cambiar de membresía sin interrupción en el servicio, <strong>para</strong> poder actualizar mi suscripción de manera fluida y sin perder acceso a las funcionalidades durante el proceso de cambio.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">31</td>
+            <td colspan="1">TS032</td>
+            <td colspan="1">Asegurar que los datos de pago y la información sensible estén encriptados.</td>
+            <td colspan="2"><strong>Como</strong> administrador del sistema, <strong>quiero</strong> asegurar que los datos de pago y la información sensible estén encriptados, <strong>para</strong> proteger la privacidad y seguridad de la información de los usuarios y evitar accesos no autorizados o filtraciones de datos.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">32</td>
+            <td colspan="1">TS033</td>
+            <td colspan="1">Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que el sistema implemente una detección de inicios de sesión sospechosos basada en la ubicación o el dispositivo, <strong>para</strong> ser alertado de accesos potencialmente fraudulentos o no autorizados y poder tomar acciones preventivas.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">33</td>
+            <td colspan="1">TS034</td>
+            <td colspan="1">Implementación de un sistema de control de sesiones activas.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener la capacidad de controlar y gestionar mis sesiones activas, <strong>para</strong> poder cerrar sesiones en dispositivos que ya no uso o que considero inseguros y asegurarme de que solo los dispositivos autorizados tengan acceso a mi cuenta.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">34</td>
+            <td colspan="1">TS020</td>
+            <td colspan="1">Implementación de un sistema de control de conexiones.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">35</td>
+            <td colspan="1">TS020</td>
+            <td colspan="1">Implementación de un sistema de control de conexiones.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de control de conexiones, <strong>para</strong> gestionar de manera eficiente las solicitudes y permisos de conexión, asegurando que las interacciones sean seguras y que se puedan administrar de acuerdo a las políticas de la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">36</td>
+            <td colspan="1">TS019</td>
+            <td colspan="1">Asegurar la integración del sistema de mensajes directos.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado, <strong>quiero</strong> asegurar la integración del sistema de mensajes directos, <strong>para</strong> garantizar que las funcionalidades de mensajería entre usuarios y empresas funcionen correctamente y de manera fluida dentro de la aplicación, mejorando la comunicación y la interacción entre los usuarios.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	        <tr>
+	    <td colspan="1">37</td>
+            <td colspan="1">US031</td>
+            <td colspan="1">Poder chatear directamente con otros usuarios y empresas.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder chatear directamente con otros usuarios y cuentas de empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin tener que salir de la aplicación, mejorando así la eficiencia y comodidad en las interacciones.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">38</td>
+            <td colspan="1">US032</td>
+            <td colspan="1">Gestión de privacidad en el chat.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar la privacidad de todas mis conversaciones en el chat, <strong>para</strong> asegurar que mi información y comunicaciones estén protegidas y se respeten mis preferencias de privacidad en todo momento.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">39</td>
+            <td colspan="1">US034</td>
+            <td colspan="1">Poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">40</td>
+            <td colspan="1">US035</td>
+            <td colspan="1">Poder recibir informes avanzados sobre la actividad de mi perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">41</td>
+            <td colspan="1">US037</td>
+            <td colspan="1">Poder revisar el historial de inicios de sesión recientes.</td>
+            <td colspan="2"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">42</td>
+            <td colspan="1">US012</td>
+            <td colspan="1">Eliminación de una cuenta de usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	         <tr>
+	    <td colspan="1">43</td>
+            <td colspan="1">US013</td>
+            <td colspan="1">Sección de cambio de contraseña.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	<tr>
+	    <td colspan="1">44</td>
+            <td colspan="1">US014</td>
+            <td colspan="1">Gestión de notificaciones de usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar de forma adecuada cómo se controlan las notificaciones en mi cuenta y perfil dentro de Roademics, <strong>para</strong> estar informado sobre los cambios que son de mi interés, mientras selecciono qué otros eventos no requieren que reciba notificaciones, brindándome control total sobre las alertas que recibo.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">45</td>
+            <td colspan="1">US015</td>
+            <td colspan="1">Notificaciones personalizadas para el usuario.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+	 	 <tr>
+	    <td colspan="1">46</td>
+            <td colspan="1">US010</td>
+            <td colspan="1">Gestión de preferencias de visibilidad del perfil.</td>
+            <td colspan="2"><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> recibir notificaciones sobre actualizaciones importantes y eventos relevantes, <strong>para</strong> estar al tanto de cualquier cambio o evento que ocurra en mi perfil o red de conexiones, asegurando así una experiencia de usuario más informada y proactiva.</td>
+            <td colspan="1"> 5 </td>
+	        </tr>
+
+
+
+  
+
+
+
+
+
