@@ -388,11 +388,11 @@ A continuación, describimos en detalle el enfoque técnico que adoptaremos para
 
 ### 5.2.1. Sprint 1
 
-En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 1 de la Implementación del FrontEnd. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo de la interfaz de usuario, las principales funcionalidades de Roadmap, la sección de inicio de sesión y registro, el diseño finalizado de la Landing Page, y el avance colectivo aportado por cada integrante del equipo de trabajo en relación con los componentes del FrontEnd y sus respectivas interacciones entre Bounded Context. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint, destacando cómo cada aportación individual contribuye al éxito colectivo del proyecto.
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 1 de la Implementación del FrontEnd. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo de la interfaz para el registro de usuarios e inicio de sesión adecuado, además del desarrollo final del diseño de la Landing Page. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint, destacando cómo cada aportación individual contribuye al éxito colectivo del proyecto.
 
 Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto, asegurando que la interfaz cumpla con los estándares de calidad y usabilidad deseados.
 
-#### 4.2.2.1 Sprint Planning 1.
+#### 5.2.1.1 Sprint Planning 1.
 
 En esta sección se explicarán los detalles presentados y analizados durante la reunión del Sprint Planning para el Sprint número 1 de la implementación del FrontEnd. El objetivo principal de esta reunión es establecer un plan claro y realista que guíe el desarrollo de la interfaz de usuario, identificando las tareas específicas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto por el lado de las funcionalidades principales de generación y edición de roadmaps. Este enfoque permite asegurar que todos los miembros del equipo tengan una comprensión compartida de los objetivos y las expectativas del sprint, lo que resulta esencial para la coordinación y efectividad en el trabajo colaborativo.
 
@@ -434,7 +434,7 @@ Durante esta reunión, se abordarán las características a desarrollar, los pla
         </tr>
             <tr>
             <td>Sprint 1 Retrospective Summary</td>
-            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización de este primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil desde la perspectiva del FrontEnd. <br><br> A través de este proceso reflexivo, se plantearon diversas estrategias destinadas a garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros usuarios finales. Se discutieron aspectos relacionados con la usabilidad de la interfaz, la coherencia en el diseño y la implementación de mejores prácticas en el desarrollo del FrontEnd. Este intercambio de ideas no solo fortaleció la colaboración del equipo, sino que también sentó las bases para un enfoque más efectivo en los próximos sprints, asegurando así que nuestro producto no solo sea funcional, sino también intuitivo y atractivo para nuestros clientes. <br><br> </td>
+            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización de este primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil desde la perspectiva del FrontEnd. <br><br> A través de este proceso reflexivo, se plantearon diversas estrategias destinadas a garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros usuarios finales. Se discutieron aspectos relacionados con la usabilidad de la interfaz, la coherencia en el diseño y la implementación de mejores prácticas en el desarrollo del FrontEnd. Este intercambio de ideas no solo fortaleció la colaboración del equipo, sino que también sentó las bases para un enfoque más efectivo en los próximos sprints, asegurando así que nuestro producto no solo sea funcional, sino también intuitivo y atractivo para nuestros clientes. </td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
@@ -445,7 +445,7 @@ Durante esta reunión, se abordarán las características a desarrollar, los pla
         </tr>
               <tr>
             <td>Sprint 1 Velocity</td>
-            <td>Con el equipo para este sprint 1 decidimos aceptar 8 Story Points</td>
+            <td>Con el equipo para este sprint 1 decidimos aceptar 3 Story Points</td>
         </tr>
               <tr>
             <td>Sum of Story Points</td>
@@ -453,7 +453,7 @@ Durante esta reunión, se abordarán las características a desarrollar, los pla
         </tr>
     </table>
 
-#### 4.2.2.2 Sprint Backlog 1.
+#### 5.2.1.2 Sprint Backlog 1.
 
 En esta sección, se revisará exhaustivamente todo el proceso relacionado con el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de la Landing Page, así como en la creación de las funcionalidades clave asociadas a los roadmaps y a las sesiones de registro e inicio de sesión en la aplicación móvil principal de Roademics. Este enfoque integral abarcó la definición detallada de las rutas de la API, la implementación de controladores necesarios para gestionar la interacción entre el cliente y el servidor, y la creación de servicios que soportan las funcionalidades requeridas por el sistema.
 
@@ -562,7 +562,7 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
         </tr>
     </table>
 
-#### 5.2.2.3 Development Evidence for Sprint Review.
+#### 5.2.1.3 Development Evidence for Sprint Review.
 
 En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 1 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
 
@@ -572,7 +572,7 @@ En esta sección se explicarán y presentarán los avances obtenidos en la imple
 |------------|-------|----------|---------------|--------------------|-------------------|
 |upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
 
-#### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
+#### 5.2.1.4 Testing Suite Evidence for Sprint Review. 
 
 En esta sección presentaremos una evidencia detallada de las rigurosas pruebas realizadas durante el sprint, con el fin de garantizar la calidad y la funcionalidad del producto en desarrollo. Hemos implementado la metodología Gherkin, que permite definir escenarios de prueba de manera clara y concisa, facilitando la comprensión tanto para los desarrolladores como para los interesados no técnicos.
 
@@ -586,9 +586,9 @@ Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en com
 | upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 7990a48a9b476d87cdcd98de0535f2b07b2644d1 | feat: add TS013-TS017 y TS27-TS040 |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
 | upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | e7e7f030e2b31007d0f9daf82fecc1889569c491 | feat: add US_Sprint1_Frontend |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del Frontend de Roademics | 28/09/24 |
 
-#### 5.2.2.5 Execution Evidence for Sprint Review. 
+#### 5.2.1.5 Execution Evidence for Sprint Review. 
 
-#### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review. 
 
 En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
 
@@ -606,9 +606,11 @@ A continuación, se incluye una tabla exhaustiva donde se especifican las accion
 | POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
 | POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
 
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7 Software Deployment Evidence for Sprint Review.
 
-En esta sección ex
+En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
+
+Durante este Sprint 1, se realizó el despliegue de la Landing Page de Roademics como una página web de acceso rápido y directo. Para este propósito, optamos por utilizar GitHub Pages, una herramienta confiable y gratuita proporcionada por GitHub que facilita la publicación de sitios web estáticos directamente desde un repositorio. Esta elección se debió a su facilidad de uso, integración con flujos de trabajo basados en Git y su soporte nativo para dominios personalizados, lo que permite una rápida puesta en marcha sin necesidad de configurar un servidor adicional.
 
 Comenzaremos el proceso creando un repositorio en GitHub, que servirá como el almacén centralizado para todos los archivos que componen nuestra página de destino, incluyendo HTML, CSS y JavaScript. Una vez que el repositorio esté establecido, cada miembro del equipo colaborará en su propia rama "feature" para desarrollar distintas características y funcionalidades del Landing Page, garantizando así que cada contribución se realice de manera aislada y organizada. Al finalizar el desarrollo de una característica específica, se procederá a llevar a cabo el proceso de fusión (merge) con la rama "develop". Este proceso de integración es crucial, ya que asegura que la página de destino se mantenga siempre actualizada con las últimas modificaciones y mejoras que se hayan implementado por parte de los miembros del equipo. Para facilitar esta integración, se recomienda que se realicen revisiones de código y pruebas antes de completar el merge, lo que contribuirá a mantener la calidad del código y a detectar posibles conflictos o errores en etapas tempranas.
 
@@ -646,7 +648,7 @@ A continuación, proporcionaremos una descripción detallada de los pasos necesa
 <img src="/assets/img/landing_deployed.png" alt="Landing deployed">
 
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+#### 5.2.1.8 Team Collaboration Insights during Sprint.
 
 Durante el Sprint 1 de la sección Product Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del FrontEnd de la aplicación móvil de Roademics, además de la Landing Page, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
 
@@ -662,3 +664,283 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 <img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
 
 ---
+
+### 5.2.2. Sprint 2
+
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 2 de la Implementación del FrontEnd. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo de la interfaz de usuario en su página de perfil, las principales funcionalidades de Roadmaps e Inteligencia Artificial, y el avance colectivo aportado por cada integrante del equipo de trabajo en relación con los componentes del FrontEnd y sus respectivas interacciones entre Bounded Context. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint, destacando cómo cada aportación individual contribuye al éxito colectivo del proyecto.
+
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto, asegurando que la interfaz cumpla con los estándares de calidad y usabilidad deseados.
+
+#### 5.2.2.1 Sprint Planning 2.
+
+En esta sección se explicarán los detalles presentados y analizados durante la reunión del Sprint Planning para el Sprint número 2 de la implementación del FrontEnd. El objetivo principal de esta reunión es establecer un plan claro y realista que guíe el desarrollo de la interfaz de usuario, identificando las tareas específicas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto por el lado de las funcionalidades principales de generación y edición de roadmaps. Este enfoque permite asegurar que todos los miembros del equipo tengan una comprensión compartida de los objetivos y las expectativas del sprint, lo que resulta esencial para la coordinación y efectividad en el trabajo colaborativo.
+
+Durante esta reunión, se abordarán las características a desarrollar, los plazos para cada tarea y los criterios de aceptación correspondientes. Además, se fomentará un diálogo abierto entre los integrantes del equipo para identificar posibles desafíos y oportunidades de mejora, asegurando que cada aspecto del desarrollo del FrontEnd esté alineado con las metas del proyecto. 
+
+###### Tabla 23
+*Tabla del planeamiento a profundidad del Sprint 1*
+<table>
+        <tr>
+            <td colspan="1">Sprint #</td>
+            <td colspan="1">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2024-10-08</td>
+        </tr>
+          <tr>
+            <td>Time</td>
+            <td>17:16</td>
+        </tr>
+            <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+            <tr>
+            <td>Prepared by</td>
+            <td>Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>Al finalizar el Sprint 2, se concretó la reunión del Sprint Review para evaluar el avance en el desarrollo del FrontEnd de nuestra aplicación. En este sprint, el objetivo principal fue el desarrollo de funciones clave en la aplicación, tales como la generación y edición de roadmaps mediante el asesor que funciona a base de inteligencia artificial, y la implementación de secciones como el perfil de usuario y mejoras en el diseño de las pantallas de networking. <br><br>La reunión fue exitosa, tanto por los avances logrados en los productos de software como por la efectiva colaboración del equipo. Se expusieron las nuevas funcionalidades, se realizaron demostraciones de la interfaz de usuario, y se recibieron comentarios útiles de los miembros del equipo y otros interesados. Este valioso intercambio de ideas permitió identificar oportunidades de mejora y ajustar las prioridades para el siguiente sprint. La colaboración y comunicación fluida durante esta revisión contribuyeron significativamente a la cohesión del equipo y aseguraron que el desarrollo del FrontEnd siguiera en línea con los objetivos generales del proyecto.</td> 
+        </tr>
+            <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>Durante la Sprint Retrospective del Sprint 2, el equipo se enfocó en analizar en detalle toda la retroalimentación obtenida tras la finalización de este ciclo de proyecto. Esta evaluación profunda, tanto del desempeño colectivo como del individual, nos permitió identificar áreas críticas de mejora que resultarán esenciales para perfeccionar nuestra aplicación móvil desde la perspectiva del FrontEnd.<br><br> En este ejercicio de reflexión, surgieron diversas propuestas enfocadas en elevar la calidad del trabajo entregado y asegurar que el producto final cumpla con las expectativas de nuestros usuarios. Se abordaron temas como la mejora en el rendimiento de la aplicación y su balance con el diseño de interfaz, el uso de APIs y mejores opciones de librerías, y mejoras en el alcance y la portabilidad que presentara nuestra aplicación. Este intercambio de ideas no solo reforzó la colaboración del equipo, sino que también estableció un camino claro para los próximos sprints, asegurando que el producto final no solo presente un diseño atrayente, intuitivo y atractivo para los clientes, sino también que las funcionalidades sean accesibles, se encuentren adecuadamente organizadas, y presenten un buen rendimiento. </td>
+        </tr>
+            <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+              <tr>
+            <td>Sprint 2 Goal</td>
+            <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 2 con todas las historias de usuario y otros materiales necesarios.</td>
+        </tr>
+              <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>Con el equipo para este sprint 2 decidimos aceptar 8 Story Points</td>
+        </tr>
+              <tr>
+            <td>Sum of Story Points</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es XX</td>
+        </tr>
+    </table>
+
+#### 5.2.1.2 Sprint Backlog 2.
+
+En esta sección se analizará en detalle el proceso del Sprint Backlog 2, en el cual nuestro equipo concentró sus esfuerzos principalmente en el diseño de los bounded contexts de Roadmaps, Gestión de Usuarios, y en avanzar en aspectos clave de Networking. Este enfoque abarcó de manera integral la definición de cada una de las funcionalidades planteadas en las historias de usuario, además del diseño de cada actividad ya asignada y la propia interfaz.
+
+A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia del usuario, asegurando que cada elemento de la interfaz no solo cumpliera con los requisitos funcionales, sino que también proporcionara una navegación fluida y atractiva. Además, se realizaron sesiones de revisión y pruebas exhaustivas para verificar que las funcionalidades desarrolladas estuvieran alineadas con las expectativas del Product Backlog. Este enfoque colaborativo, centrado en el usuario, es crucial para garantizar que la solución no solo sea efectiva, sino también capaz de satisfacer las necesidades de nuestros clientes de manera óptima.
+
+###### Tabla 59
+*Tabla principal del planeamiento del Sprint Backlog 2*
+<table>
+        <tr>
+            <td colspan="2">Sprint #</td>
+            <td colspan="6">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Descripcion</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status (To-do / In / Process / ToReview / Done)</td>
+        </tr>
+        <tr>
+            <td>US041</td>
+            <td>Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)</td>
+            <td>T001</td>
+            <td>Diseño de Landing Page con un Call To Action</td>
+            <td><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+            <td>3 horas</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US042</td>
+            <td>Visualizar contenido de Landing Page</td>
+            <td>T02</td>
+            <td>Visualización de contenido completo de la Landing Page</td>
+            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+            <td>2 horas</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US043</td>
+            <td>Formulario de contacto</td>
+            <td>T03</td>
+            <td>Desarrollo y presentación de formulario de contacto</td>
+            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td> 
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US044</td>
+            <td>Implementación de footer</td>
+            <td>T04</td>
+            <td>Implementación de la sección de footer</td>
+            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US045</td>
+            <td>Responsive Landing Page</td>
+            <td>T05</td>
+            <td>Implementación de propiedades Responsive en la Landing Page</td>
+            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+            <td>1 hora</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td> 
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US001</td>
+            <td>Registro de cuenta en la plataforma</td>
+            <td>T06</td>
+            <td>Registro de una cuenta en la aplicación</td>
+            <td><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
+            <td>2 horas con 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US003</td>
+            <td>Verificación de Correo Electrónico durante el registro</td>
+            <td>T07</td>
+            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
+            <td><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                  <tr>
+            <td>US004</td>
+            <td>Inicio de sesión con cuenta de la aplicación</td>
+            <td>T07</td>
+            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
+            <td><<strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td>3 horas con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+    </table>
+
+#### 5.2.1.3 Development Evidence for Sprint Review.
+
+En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 1 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
+
+###### Tabla XX
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+| Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
+|------------|-------|----------|---------------|--------------------|-------------------|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
+
+#### 5.2.1.4 Testing Suite Evidence for Sprint Review. 
+
+En esta sección presentaremos una evidencia detallada de las rigurosas pruebas realizadas durante el sprint, con el fin de garantizar la calidad y la funcionalidad del producto en desarrollo. Hemos implementado la metodología Gherkin, que permite definir escenarios de prueba de manera clara y concisa, facilitando la comprensión tanto para los desarrolladores como para los interesados no técnicos.
+
+Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en commits específicos dentro de nuestro repositorio de código, lo que asegura un historial completo, detallado y transparente del proceso de prueba. Este enfoque no solo permite rastrear fácilmente los cambios y correcciones asociados a las pruebas, sino que también garantiza que las funcionalidades clave del sistema cumplan con los criterios de aceptación definidos. La metodología adoptada refuerza la integridad del código y la entrega de un producto final robusto y confiable.
+
+###### Tabla 26
+*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+| Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
+|-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 5198ddb8114acf692f93d46e0224c8652529b5dc | feat: add US_Sprint1.feature | En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 7990a48a9b476d87cdcd98de0535f2b07b2644d1 | feat: add TS013-TS017 y TS27-TS040 |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | e7e7f030e2b31007d0f9daf82fecc1889569c491 | feat: add US_Sprint1_Frontend |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del Frontend de Roademics | 28/09/24 |
+
+#### 5.2.1.5 Execution Evidence for Sprint Review. 
+
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review. 
+
+En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
+
+A continuación, se incluye una tabla exhaustiva donde se especifican las acciones soportadas para cada Endpoint, destacando el verbo HTTP utilizado (GET, POST, PUT, DELETE, PATCH) y proporcionando la sintaxis exacta de la llamada. También se detallan los posibles parámetros que pueden ser incluidos, junto con un ejemplo práctico de cada solicitud. Además, se ofrece una explicación clara y precisa del response correspondiente, asegurando que el equipo de desarrollo y los interesados comprendan cómo se procesan las peticiones y respuestas en el sistema. Esta documentación es clave para garantizar una integración fluida y efectiva entre los componentes del sistema, facilitando la comunicación entre el Backend y el FrontEnd.
+
+###### Tabla 27
+*Tabla del modelo de escritura para el Bounded Context de IAM*
+| Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
+|---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
+| GET     | Obtener todos los usuarios                   | GET /usuarios               | Ninguno                                        | Lista de usuarios en formato JSON con detalles como nombre, correo, fecha de registro, etc.|
+| POST    | Crear un nuevo usuario                       | POST /usuarios              | `username`, `email`, `password`                | Detalles del nuevo usuario creado en formato JSON, incluyendo ID y fecha de creación.      |
+| PUT     | Actualizar la información de un usuario      | PUT /usuarios/{id}          | `username`, `email`, `password`                | Usuario actualizado con los nuevos datos proporcionados.                                  |
+| DELETE  | Eliminar un usuario                          | DELETE /usuarios/{id}       | `id` del usuario                               | Mensaje de confirmación de eliminación del usuario.                                        |
+| GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
+| POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
+| POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
+
+#### 5.2.1.7 Software Deployment Evidence for Sprint Review.
+
+En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
+
+Durante este Sprint 1, se realizó el despliegue de la Landing Page de Roademics como una página web de acceso rápido y directo. Para este propósito, optamos por utilizar GitHub Pages, una herramienta confiable y gratuita proporcionada por GitHub que facilita la publicación de sitios web estáticos directamente desde un repositorio. Esta elección se debió a su facilidad de uso, integración con flujos de trabajo basados en Git y su soporte nativo para dominios personalizados, lo que permite una rápida puesta en marcha sin necesidad de configurar un servidor adicional.
+
+Comenzaremos el proceso creando un repositorio en GitHub, que servirá como el almacén centralizado para todos los archivos que componen nuestra página de destino, incluyendo HTML, CSS y JavaScript. Una vez que el repositorio esté establecido, cada miembro del equipo colaborará en su propia rama "feature" para desarrollar distintas características y funcionalidades del Landing Page, garantizando así que cada contribución se realice de manera aislada y organizada. Al finalizar el desarrollo de una característica específica, se procederá a llevar a cabo el proceso de fusión (merge) con la rama "develop". Este proceso de integración es crucial, ya que asegura que la página de destino se mantenga siempre actualizada con las últimas modificaciones y mejoras que se hayan implementado por parte de los miembros del equipo. Para facilitar esta integración, se recomienda que se realicen revisiones de código y pruebas antes de completar el merge, lo que contribuirá a mantener la calidad del código y a detectar posibles conflictos o errores en etapas tempranas.
+
+Posteriormente, configuraremos GitHub Pages para que publique automáticamente la página de destino utilizando la rama "develop". Este paso es fundamental, ya que permitirá que nuestra Landing Page sea accesible públicamente, facilitando su visualización y prueba por parte de los interesados y usuarios finales. Esta configuración no solo simplifica el proceso de despliegue, sino que también proporciona un enlace directo que puede compartirse fácilmente con el equipo y las partes interesadas, permitiendo una retroalimentación más rápida y eficiente.
+
+A continuación, proporcionaremos una descripción detallada de los pasos necesarios para llevar a cabo este proceso de despliegue en GitHub Pages. Cada uno de estos pasos se elaborará con suficiente profundidad para asegurar una implementación eficiente y sin contratiempos de nuestra solución, destacando las mejores prácticas y consideraciones técnicas que deberán tenerse en cuenta a lo largo del proceso. Con esta guía, buscamos garantizar que el equipo esté alineado y preparado para llevar a cabo una implementación exitosa del Landing Page.
+
+1. El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
+
+###### Figura 60
+*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Roademics.*
+<img src="/assets/img/set-repository-name.png" alt="Set Repository Name">
+<img src="/assets/img/repository.png" alt="Repository">
+
+2. El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
+
+3. El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
+
+4. El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
+
+###### Figura 61
+*Imagen de muestra y presentación sobre el despliegue de la Landing Page y el ajuste de las ramas integradas.*
+<img src="/assets/img/pagedeployed.png" alt="github page">
+
+5. Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
+
+###### Figura 62
+*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Roademics.*
+<img src="/assets/img/github-link.png" alt="github link">
+
+6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/ 
+
+###### Figura 63
+*Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
+<img src="/assets/img/landing_deployed.png" alt="Landing deployed">
+
+
+#### 5.2.1.8 Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1 de la sección Product Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del FrontEnd de la aplicación móvil de Roademics, además de la Landing Page, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
+
+Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas y discutir la estrategia de desarrollo del proyecto. Estas reuniones fueron cruciales para clarificar nuestras responsabilidades individuales y asegurar un desempeño óptimo. Para maximizar la eficiencia, decidimos asignar a cada miembro del equipo una sección específica del FrontEnd para desarrollar, lo que nos permitió avanzar rápidamente y cumplir con los plazos establecidos.
+
+Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd de la Web Application.
+
+###### Figura 88
+*Reporte completo de contribuciones para el desarrollo del FrontEnd de la Aplicación Móvil de Roademics durante el Sprint 1 de Software Development & Implementation.*
+
+<img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
+<img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+
+---
+
