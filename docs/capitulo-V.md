@@ -540,16 +540,6 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
-                <tr>
-            <td>US003</td>
-            <td>Verificación de Correo Electrónico durante el registro</td>
-            <td>T07</td>
-            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
-            <td><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
-            <td>1 hora con 30 minutos</td>
-            <td>Yen Cerna, Lucio Heli</td>
-            <td>Done</td>
-        </tr>
                   <tr>
             <td>US004</td>
             <td>Inicio de sesión con cuenta de la aplicación</td>
@@ -570,7 +560,17 @@ En esta sección se explicarán y presentarán los avances obtenidos en la imple
 *Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|main|038c4057c4a89f79ee2f4acb77971cc8992a010d|Initial commit| This is the Initial Commit of the repository. With this commit we add all the neccesary archives and base models| 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|develop|038c4057c4a89f79ee2f4acb77971cc8992a010d|Initial commit| This is the Initial Commit of the repository. With this commit we add all the neccesary archives and base models| 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|Home-Profile|038c4057c4a89f79ee2f4acb77971cc8992a010d|Initial commit| This is the Initial Commit of the repository. With this commit we add all the neccesary archives and base models| 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|IAM|038c4057c4a89f79ee2f4acb77971cc8992a010d|Initial commit| This is the Initial Commit of the repository. With this commit we add all the neccesary archives and base models| 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|Roadmap|038c4057c4a89f79ee2f4acb77971cc8992a010d|Initial commit| This is the Initial Commit of the repository. With this commit we add all the neccesary archives and base models| 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication|IAM|b041e9872ac33b190bee1245236a39efcd625cd3|feat:add base | With this commit we added the main artifacts and libraries that will be used for the main Identity and Access Management module and functionalities. We also created the main pages for the register and the login section. | 25/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|Home-Profile|2085a4451325f1d0668047d8cb6b2ea986d11b59|feat: add home and profile section| With this commit we added a new set of activities for the home and profile screens of the Mobile Application | 26/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|Roadmap|581d7f7f45d1875ef5187e0db252d6ad275a6a74|feat: add roadmaps| With this commit we added some of the main methods and functions of the Roadmaps Bounded Context, mostly for the manual creationg of one. | 27/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|Roadmap|d302fdf41169429e50a37201a261bd4a5f5b88fa|feat: fixed proyect| With this commit we fixed some functions related to the Roadmaps section and the artifacts used. | 27/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage|main|4fcb94a38a101a987a8bbc86dc11b6623a911789|feat: add html, css, js files| With this commit we added the main documents for the configuration and programming of the landing page of Roademics| 28/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage|main|89f1a3b4b56e51ea6d541acd7e5c58fe3f9373fa|feat: add index and styles with boostrap| With this commit we added the main artifacts needed to use the various styles of springboot. We also implemented some styles combined.| 28/09/24|
 
 #### 5.2.1.4 Testing Suite Evidence for Sprint Review. 
 
@@ -582,11 +582,17 @@ Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en com
 *Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
 | Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
 |-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
-| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 5198ddb8114acf692f93d46e0224c8652529b5dc | feat: add US_Sprint1.feature | En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
-| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 7990a48a9b476d87cdcd98de0535f2b07b2644d1 | feat: add TS013-TS017 y TS27-TS040 |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
 | upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | e7e7f030e2b31007d0f9daf82fecc1889569c491 | feat: add US_Sprint1_Frontend |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del Frontend de Roademics | 28/09/24 |
 
 #### 5.2.1.5 Execution Evidence for Sprint Review. 
+
+En esta sección, presentamos de manera exhaustiva y organizada los avances alcanzados durante el primer sprint del proyecto Roademics. Estos logros abarcan principalmente el desarrollo y la implementación de la Landing Page, que ha sido completada utilizando un enfoque eficiente y alineado con los objetivos del sprint. Para su construcción, se emplearon los recursos ofrecidos por el framework Spring Boot, aprovechando sus componentes de diseño predeterminados y la estructura proporcionada por las plantillas base de HTML y CSS. Además, se incorporaron funcionalidades dinámicas mediante JavaScript, logrando una integración fluida entre la interfaz de usuario y las operaciones del backend, asegurando así un rendimiento óptimo.
+
+De manera complementaria, se ha avanzado en la implementación de funcionalidades clave dentro de los módulos de inicio de sesión y registro de la aplicación móvil. Estas funcionalidades iniciales forman parte de la estructura fundamental de la aplicación, permitiendo un primer acercamiento sólido al desarrollo de la capa de autenticación y mejorando la experiencia del usuario desde las primeras fases del proyecto.
+
+Asimismo, se ha realizado la integración de diversas librerías y artefactos de uso común en el mercado tecnológico actual, con el propósito de incorporar estilos modernos y eficientes que respondan a las tendencias vigentes en el desarrollo móvil. Este enfoque asegura no solo una alineación con las mejores prácticas de la industria, sino también una base sólida para la evolución del proyecto en sprints posteriores.
+
+**Landing Page:**
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review. 
 
