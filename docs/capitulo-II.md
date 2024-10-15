@@ -1043,7 +1043,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma. </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
             <td colspan="5">
             <strong>Escenario 1: Visualización de límite de roadmaps permitidos</strong>
 	    <br><br><strong>Dado que</strong> un usuario está autenticado y navega a la sección de gestión de roadmaps, <strong>cuando</strong> el usuario accede a esta sección y el menú de almacenamiento con todos sus roadmaps termina de cargar y presentarse, <strong>entonces</strong> el sistema debe mostrar de manera clara y visible en la esquina superior derecha de la interfaz la cantidad máxima de roadmaps que el usuario puede gestionar según su plan o suscripción, así como el número actual de roadmaps en uso, todo en tiempo real y de forma que sea comprensible. <br><br>
@@ -1061,7 +1061,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US024</td>
             <td colspan="1">
-            Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
+            Recibir análisis avanzados sobre un Roadmap en específico para los usuarios premium
             </td>
             <td colspan="1"><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
             <td colspan="5">
@@ -1104,7 +1104,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder crear los nodos de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual , <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
             <td colspan="5">
             <strong>Escenario 1: Creación de nuevos nodos</strong>
 	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su roadmap profesional a través de la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona la opción para añadir un nuevo nodo al roadmap entre las opciones de la interfaz de edición, <strong>entonces</strong> el sistema debe permitir al usuario ingresar los detalles del nuevo nodo, tales como el título, descripción, metas a cumplir y cualquier información relevante. El sistema debe agregar el nuevo paso en la posición deseada dentro del roadmap, ya sea al final de la estructura existente o en una etapa intermedia definida por el usuario. Además, el sistema debe reflejar visualmente la creación del paso en la vista del roadmap, con un tiempo de respuesta no mayor a 3 segundos para asegurar una experiencia fluida.<br><br>
@@ -1124,7 +1124,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario</td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
             <td colspan="5">
             <strong>Escenario 1: Notificación de obsolescencia de nodo</strong>
 	    <br><br><strong>Dado que</strong> un nodo en el grafo del roadmap de un usuario autenticado se vuelve obsoleto (ya sea por falta de actualización desde hace mucho tiempo, carencia de información relevante, quedarse aislado por mucho tiempo, entre otros), <strong>cuando</strong> el sistema detecta que el nodo ha sido marcado como obsoleto por un algoritmo de revisión y organización 14 días después de su creación, <strong>entonces</strong> el sistema debe enviar una notificación automática al usuario en un plazo de 5 segundos indicando que el nodo es obsoleto, con detalles que expliquen las razones de la obsolescencia y sugerencias para actualizar el nodo o reemplazarlo por otro. <br><br>
@@ -1144,7 +1144,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Guardar versiones de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes. </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
             <td colspan="5">
             <strong>Escenario 1: Guardar una nueva versión</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado está trabajando en un roadmap dentro de la sección de gestión de roadmaps, y realiza cambios significativos en la estructura o contenido del roadmap (ya sea creación, actualización, eliminación o reorganización de nodos), <strong>cuando</strong> el usuario selecciona la opción para guardar un roadmap en la esquina superior izquierda de la interfaz y después selecciona la opción de guardar como una nueva versión, <strong>entonces</strong> el sistema debe crear una copia de la versión actual, asignarle un identificador único, y registrar una marca de tiempo. Además, debe agregar esta versión a la lista de versiones guardadas y notificar al usuario en un plazo de 2 segundos que la nueva versión ha sido guardada exitosamente. <br><br>
