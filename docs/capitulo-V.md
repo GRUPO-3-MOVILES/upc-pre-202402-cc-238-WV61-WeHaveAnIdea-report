@@ -595,6 +595,8 @@ Asimismo, se ha realizado la integración de diversas librerías y artefactos de
 
 **Landing Page:**
 
+**FrontEnd Web:**
+
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review. 
 
 En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
@@ -731,7 +733,7 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 134</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 101</td>
         </tr>
     </table>
 
@@ -874,21 +876,71 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
         </tr>
                               <tr>
             <td>US022</td>
-            <td>Eliminación de Roadmaps/td>
+            <td>Eliminación de Roadmaps</td>
             <td>T19</td>
             <td>Eliminación de Roadmaps</td>
             <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
-            <td>1 hora</td>
+            <td>1 hora y 30 minutos</td>
             <td>###</td>
             <td>Done</td>
         </tr>
                                 <tr>
-            <td>US022</td>
-            <td>Eliminación de Roadmaps/td>
-            <td>T19</td>
-            <td>Eliminación de Roadmaps</td>
-            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
-            <td>1 hora</td>
+            <td>US023</td>
+            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
+            <td>T20</td>
+            <td>Visualización de limitaciones de la cantidad de roadmaps que cada usuario puede gestionar</td>
+            <td><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                  <tr>
+            <td>US024</td>
+            <td>Recibir análisis avanzados sobre un Roadmap en específico para los usuarios premium</td>
+            <td>T21</td>
+            <td>Análisis avanzado sobre un Roadmap en específico para los usuarios premium</td>
+            <td><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
+            <td>3 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                    <tr>
+            <td>US025</td>
+            <td>Poder exportar mi roadmaps en formato como PDF o PNG</td>
+            <td>T22</td>
+            <td>Exportar roadmaps en formato PDF o PNG</td>
+            <td><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
+            <td>2 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                    <tr>
+            <td>US026</td>
+            <td>Poder crear los nodos de mi roadmap</td>
+            <td>T23</td>
+            <td>Creación de nodos de un roadmap</td>
+            <td><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td>3 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                      <tr>
+            <td>US027</td>
+            <td>Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible</td>
+            <td>T24</td>
+            <td>Notificar si un nodo en un grafo se vuelve obsoleto o ya no se encuentra disponible</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
+            <td>2 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                        <tr>
+            <td>US028</td>
+            <td>Guardar versiones de mi roadmap</td>
+            <td>T25</td>
+            <td>Historial de versiones de un roadmap</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
+            <td>2 horas y 30 minutos</td>
             <td>###</td>
             <td>Done</td>
         </tr>
@@ -896,7 +948,7 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
 
 #### 5.2.1.3 Development Evidence for Sprint Review.
 
-En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 1 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
+En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 2 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
 
 ###### Tabla XX
 *Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
@@ -922,78 +974,38 @@ Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en com
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review. 
 
-En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 1 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
+En esta sección presentamos la relación detallada de los Endpoints documentados utilizando la especificación OpenAPI, los cuales están directamente vinculados con el alcance del Sprint y su implementación en el proyecto Roademics por parte de las áreas presentadas en el BackEnd. Estos Endpoints son esenciales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 2 del FrontEnd, y describen la interacción entre el propio Backend y la propia Aplicación Móvil.
 
 A continuación, se incluye una tabla exhaustiva donde se especifican las acciones soportadas para cada Endpoint, destacando el verbo HTTP utilizado (GET, POST, PUT, DELETE, PATCH) y proporcionando la sintaxis exacta de la llamada. También se detallan los posibles parámetros que pueden ser incluidos, junto con un ejemplo práctico de cada solicitud. Además, se ofrece una explicación clara y precisa del response correspondiente, asegurando que el equipo de desarrollo y los interesados comprendan cómo se procesan las peticiones y respuestas en el sistema. Esta documentación es clave para garantizar una integración fluida y efectiva entre los componentes del sistema, facilitando la comunicación entre el Backend y el FrontEnd.
 
 ###### Tabla 27
-*Tabla del modelo de escritura para el Bounded Context de IAM*
+*Tabla del modelo de escritura para el Bounded Context de ####*
 | Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
 |---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
 | GET     | Obtener todos los usuarios                   | GET /usuarios               | Ninguno                                        | Lista de usuarios en formato JSON con detalles como nombre, correo, fecha de registro, etc.|
 | POST    | Crear un nuevo usuario                       | POST /usuarios              | `username`, `email`, `password`                | Detalles del nuevo usuario creado en formato JSON, incluyendo ID y fecha de creación.      |
 | PUT     | Actualizar la información de un usuario      | PUT /usuarios/{id}          | `username`, `email`, `password`                | Usuario actualizado con los nuevos datos proporcionados.                                  |
-| DELETE  | Eliminar un usuario                          | DELETE /usuarios/{id}       | `id` del usuario                               | Mensaje de confirmación de eliminación del usuario.                                        |
-| GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
-| POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
-| POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review.
 
 En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
 
-Durante este Sprint 1, se realizó el despliegue de la Landing Page de Roademics como una página web de acceso rápido y directo. Para este propósito, optamos por utilizar GitHub Pages, una herramienta confiable y gratuita proporcionada por GitHub que facilita la publicación de sitios web estáticos directamente desde un repositorio. Esta elección se debió a su facilidad de uso, integración con flujos de trabajo basados en Git y su soporte nativo para dominios personalizados, lo que permite una rápida puesta en marcha sin necesidad de configurar un servidor adicional.
-
-Comenzaremos el proceso creando un repositorio en GitHub, que servirá como el almacén centralizado para todos los archivos que componen nuestra página de destino, incluyendo HTML, CSS y JavaScript. Una vez que el repositorio esté establecido, cada miembro del equipo colaborará en su propia rama "feature" para desarrollar distintas características y funcionalidades del Landing Page, garantizando así que cada contribución se realice de manera aislada y organizada. Al finalizar el desarrollo de una característica específica, se procederá a llevar a cabo el proceso de fusión (merge) con la rama "develop". Este proceso de integración es crucial, ya que asegura que la página de destino se mantenga siempre actualizada con las últimas modificaciones y mejoras que se hayan implementado por parte de los miembros del equipo. Para facilitar esta integración, se recomienda que se realicen revisiones de código y pruebas antes de completar el merge, lo que contribuirá a mantener la calidad del código y a detectar posibles conflictos o errores en etapas tempranas.
-
-Posteriormente, configuraremos GitHub Pages para que publique automáticamente la página de destino utilizando la rama "develop". Este paso es fundamental, ya que permitirá que nuestra Landing Page sea accesible públicamente, facilitando su visualización y prueba por parte de los interesados y usuarios finales. Esta configuración no solo simplifica el proceso de despliegue, sino que también proporciona un enlace directo que puede compartirse fácilmente con el equipo y las partes interesadas, permitiendo una retroalimentación más rápida y eficiente.
-
-A continuación, proporcionaremos una descripción detallada de los pasos necesarios para llevar a cabo este proceso de despliegue en GitHub Pages. Cada uno de estos pasos se elaborará con suficiente profundidad para asegurar una implementación eficiente y sin contratiempos de nuestra solución, destacando las mejores prácticas y consideraciones técnicas que deberán tenerse en cuenta a lo largo del proceso. Con esta guía, buscamos garantizar que el equipo esté alineado y preparado para llevar a cabo una implementación exitosa del Landing Page.
-
-1. El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
-
-###### Figura 60
-*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Roademics.*
-<img src="/assets/img/set-repository-name.png" alt="Set Repository Name">
-<img src="/assets/img/repository.png" alt="Repository">
-
-2. El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
-
-3. El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
-
-4. El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
-
-###### Figura 61
-*Imagen de muestra y presentación sobre el despliegue de la Landing Page y el ajuste de las ramas integradas.*
-<img src="/assets/img/pagedeployed.png" alt="github page">
-
-5. Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
-
-###### Figura 62
-*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Roademics.*
-<img src="/assets/img/github-link.png" alt="github link">
-
-6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/ 
-
-###### Figura 63
-*Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
-<img src="/assets/img/landing_deployed.png" alt="Landing deployed">
-
+Sin embargo, durante este Sprint 2, no se llegó a realizar ningún modelo de despliegue dentro de la aplicación móvil o dentro de algunos de sus componentes. Esto es debido a que la aplicación aún no presenta un estado que este lo suficientemente completado como para considerar presentarlo en un ambiente de producción. Ante la carencia de funcionalidades clave, como las secciones de networking y mejoras en la seguridad e inicio de sesión,  decidimos no realizar ningún despliegue hasta otro sprint próximo.
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint.
 
-Durante el Sprint 1 de la sección Product Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del FrontEnd de la aplicación móvil de Roademics, además de la Landing Page, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
+Durante el Sprint 2 de la sección Product Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del FrontEnd de la aplicación móvil de Roademics, principalmente en los bounded context de Roadmaps y Gestión de Usuarios, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
 
 Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas y discutir la estrategia de desarrollo del proyecto. Estas reuniones fueron cruciales para clarificar nuestras responsabilidades individuales y asegurar un desempeño óptimo. Para maximizar la eficiencia, decidimos asignar a cada miembro del equipo una sección específica del FrontEnd para desarrollar, lo que nos permitió avanzar rápidamente y cumplir con los plazos establecidos.
 
 Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd de la Web Application.
 
 ###### Figura 88
-*Reporte completo de contribuciones para el desarrollo del FrontEnd de la Aplicación Móvil de Roademics durante el Sprint 1 de Software Development & Implementation.*
+*Reporte completo de contribuciones para el desarrollo del FrontEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
 
-<img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
-<img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
-<img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Pulse-backend-for-main-sprint2.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Contributions-backend-for-main-sprint2.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
+<img src="/assets/img/Individual-contributions-for-main-sprint2.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
 
 ---
 
