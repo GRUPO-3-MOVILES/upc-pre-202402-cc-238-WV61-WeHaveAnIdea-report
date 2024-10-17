@@ -1,34 +1,50 @@
 # Capítulo 4: Backend Product Implementation & Validation
 
 ## 4.1. Software Configuration Management.
-Para la gestión de la configuración de software de nuestra aplicación móvil Roademics, nos centraremos principalmente en la gestión del código fuente, asegurando un control eficiente de versiones y manteniendo una estructura organizada a lo largo de todo el desarrollo. Nos aseguraremos de que todos los miembros del equipo cuenten con herramientas consistentes que faciliten el desarrollo y ofrezcan una configuración adecuada tanto en el entorno de desarrollo como en el entorno de producción.
-Esta toma de decisiones es crucial para garantizar la eficiencia, coherencia y flexibilidad durante todo el ciclo de vida de la aplicación, lo que nos permite adaptarnos a las necesidades de nuestro público objetivo. De esta manera, lograremos proporcionar un espacio estructurado y optimizado donde los usuarios puedan crear, visualizar y compartir sus mapas de ruta profesional. Además, esta gestión garantiza un entorno seguro y fluido para los reclutadores y las empresas que deseen explorar los roadmaps de los candidatos, así como para los estudiantes y profesionales que buscan trazar su camino hacia el éxito laboral, junto con las demás funcionalidades destacadas en otros capítulos de esta documentación.
+
+En la gestión de la configuración del backend para la aplicación móvil Roademics, nos centramos en el control eficiente del código fuente, asegurando un manejo riguroso de versiones mediante sistemas como Git, y manteniendo una estructura modular y organizada durante todo el ciclo de desarrollo. Implementamos pipelines de CI/CD (Integración Continua y Despliegue Continuo) que automatizan pruebas, integraciones y despliegues en los entornos de desarrollo, pruebas y producción. Asimismo, nos aseguramos que todos los bounded context estén correctamente versionados y alineados con la infraestructura en, permitiendo una fácil integración con las APIs externas como Firebase Authentication, Stripe y Twilio.
+
+Estas decisiones son críticas para asegurar la eficiencia, coherencia y flexibilidad en la estructura del backend, lo que nos permite responder de manera ágil a las necesidades de los usuarios finales. De este modo, garantizamos una plataforma robusta y escalable, optimizada para manejar grandes volúmenes de solicitudes y datos de forma segura. Adicionalmente, la correcta gestión del backend asegura que tanto los reclutadores y empresas, como los estudiantes y profesionales, puedan interactuar de forma fluida con la plataforma, explorando y gestionando los roadmaps profesionales. Todo ello se complementa con la infraestructura descrita en los capítulos posteriores de esta documentación.
 
 ### 4.1.1. Software Development Environment Configuration.
 
-En esta sección, nuestro equipo de trabajo especificará, describirá e indicará los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia (para software basado en modelos SaaS) o la ruta de descarga (para productos que se ejecutan en el computador del miembro del equipo) de cada uno de los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del desarrollo de la aplicación móvil, abarcando todas las actividades como Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Deployment y Software Documentation.
+En esta sección, el equipo de desarrollo detallará las herramientas de software esenciales para el backend de la aplicación móvil, especificando el nombre de cada producto, su propósito dentro del proyecto, y el método de acceso o instalación. Para las herramientas basadas en SaaS (Software como servicio), se proporcionará la URL de acceso a sus páginas web, mientras que para aquellas que requieren ejecución en servidores locales, se indicará la ruta de descarga. 
+
+Las herramientas seleccionadas cubren actividades críticas para el backend, como la gestión de bases de datos, control de versiones, servidores de aplicaciones, despliegues, integración continua y entrega continua (CI/CD), monitoreo de servicios, gestión de API, y la documentación técnica de los servicios del backend.
 
 **Project Management**: Esta sección aborda la planificación y supervisión del proyecto durante todo su ciclo de vida, incluyendo la coordinación del equipo, la gestión de sus tareas y colaboraciones, así como la asignación de responsabilidades previamente establecidas. Para estructurar esta gestión, hemos dividido el enfoque en métodos distintos de comunicación y administración del equipo.
-Reuniones de Trabajo: Para la organización de las reuniones del equipo, hemos optado por utilizar exclusivamente "Discord". Esta decisión se basa en la familiaridad de todos los miembros del equipo con la plataforma, lo que facilita una comunicación fluida y un acceso inmediato a las reuniones. Aunque "Discord" puede no contar con algunas funcionalidades avanzadas de otras aplicaciones de videoconferencia, su interfaz sencilla y su flexibilidad en cuanto a la duración de las reuniones sin restricciones de tiempo nos permiten discutir temas en profundidad y coordinar nuestras actividades sin interrupciones. Además, "Discord" ofrece opciones de chat en tiempo real y la posibilidad de crear canales temáticos, lo que mejora la organización y el seguimiento de los temas tratados en las reuniones.
+
+- Reuniones de Trabajo: Para la coordinación de las tareas del equipo de backend, utilizamos "Discord" como plataforma principal de comunicación. Esta elección se fundamenta en la familiaridad del equipo con la herramienta, lo que permite una comunicación ágil y efectiva para la discusión de temas técnicos relacionados con la infraestructura del backend. Aunque "Discord" no posee ciertas características avanzadas de otras plataformas, su interfaz intuitiva y la posibilidad de reuniones sin restricciones de tiempo nos facilitan la planificación detallada de la arquitectura y la resolución de problemas complejos del backend. Además, los canales temáticos permiten organizar conversaciones específicas sobre desarrollo, despliegue, base de datos y gestión de servicios externos, mejorando el seguimiento de los temas relevantes al backend.
 
 Página oficial de Discord: https://discord.com/
 
-**Control de Versiones**: Para la gestión del control de versiones del proyecto, utilizamos las herramientas de "Github". Esta plataforma permite a nuestro equipo colaborar eficazmente a través de commits y pull requests. Los commits documentan los cambios realizados en el código, creando un historial detallado para revisar y rastrear modificaciones. Los pull requests facilitan la revisión y discusión de los cambios antes de integrarlos en la rama principal, asegurando que las nuevas funcionalidades se implementen de manera controlada. Esta metodología ayuda a mantener la estabilidad del proyecto y a identificar y revertir errores si es necesario.
+- Control de Versiones: Para la gestión del control de versiones del backend, utilizamos las herramientas integradas de "Github". Esta plataforma permite al equipo colaborar de manera eficiente a través de commits y pull requests específicos para el código del backend. Los commits documentan detalladamente los cambios realizados en la lógica del servidor y los servicios externos, proporcionando un historial claro para revisar y rastrear las modificaciones en la infraestructura del backend. Los pull requests facilitan la revisión y discusión de los cambios antes de integrarlos en la rama principal, asegurando que las nuevas funcionalidades del backend se implementen de forma controlada y sin comprometer la estabilidad del sistema. Este enfoque ayuda a mantener la integridad del backend y permite identificar y revertir errores críticos si es necesario.
 
 Página oficial de Github: https://github.com/
 
-
 ---
 
-**Requirements Management**:
+**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, h
 
-Para asegurar una organización efectiva del trabajo en nuestro equipo, hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto.
-
-En particular, hemos adoptado ClickUp como nuestra herramienta principal. Esta plataforma ofrece una interfaz amigable que facilita la división de actividades entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas, podemos establecer plazos, designar responsables y monitorear el progreso de cada tarea de manera eficiente. Esta configuración nos permite evaluar el avance respecto a los requisitos del proyecto y analizar el desempeño general del equipo. ClickUp también proporciona la capacidad de revisar las contribuciones individuales y el trabajo realizado, promoviendo la transparencia y la colaboración efectiva.
+- Organización de tareas: Hemos adoptado ClickUp como nuestra herramienta principal para la gestión de tareas del backend. La plataforma ofrece una interfaz amigable que facilita la división de las actividades relacionadas con la infraestructura y el desarrollo del backend entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas del backend, podemos establecer plazos, asignar responsables y monitorear el progreso de cada tarea técnica de manera eficiente. Esta configuración nos permite evaluar el avance en la implementación de la API, servicios externos y despliegues, así como analizar el desempeño general del equipo de backend. ClickUp también permite revisar las contribuciones individuales y el trabajo realizado en la parte del servidor, promoviendo la transparencia y la colaboración efectiva dentro del equipo técnico.
 
 Página oficial de ClickUp: https://clickup.com/ 
 
 ---
+
+**Product Architecture Design**: Esta sección se centra en el desarrollo y diseño de la arquitectura del backend a lo largo de todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer aplicaciones que permitan la creación de diagramas detallados y complejos de cada capa de la arquitectura del backend. Esto incluye la identificación de los componentes clave, como bases de datos, APIs y servicios externos, así como los frameworks, entornos de desarrollo (IDEs) y lenguajes de programación que se utilizarán. La capacidad de representar de manera clara y precisa la estructura del backend es esencial para asegurar que todos los aspectos técnicos sean comprensibles, bien documentados y alineados con los requisitos del sistema.
+
+- Diagramas C4: Para diseñar los diagramas C4 del backend de nuestro proyecto, nuestro equipo ha optado por utilizar "Visual Paradigm". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las vistas de arquitectura del backend según el enfoque C4. "Visual Paradigm" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para desarrolladores como para partes interesadas no técnicas. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados y precisos del backend sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para documentar la arquitectura del backend de nuestro proyecto.
+
+Página oficial de Visual Paradigm: https://www.visual-paradigm.com/
+
+- Diagramas UML: Para el diseño de los diagramas UML relacionados con la arquitectura del backend de nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML del backend debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado de sistemas. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del backend, incluyendo la estructura de bases de datos, relaciones entre microservicios y flujos de datos. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de la arquitectura del backend. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo técnico, especialmente entre los desarrolladores y arquitectos de software involucrados en el proyecto.
+
+Página oficial de LucidChart: https://lucidchart.com/
+
+- Diseño de Diagrama de Bases de Datos: Para el diseño de la base de datos no relacional de nuestro proyecto, hemos optado por "Moon Modeler". Esta herramienta es eficaz para el modelado y visualización de bases de datos no relacionales, como MongoDB. Ofrece una interfaz intuitiva que facilita la creación de diagramas detallados y bien estructurados, permitiendo diseñar esquemas claros y precisos para la estructura de datos del backend. "Moon Modeler" proporciona funcionalidades como la generación automática de documentación y la exportación de diseños en varios formatos, lo cual es esencial para una correcta representación y documentación de la base de datos. Aunque la herramienta está diseñada para el trabajo individual y no está orientada a la colaboración en tiempo real, permite la creación y revisión de modelos de datos, con la colaboración facilitada a través del intercambio de archivos exportados. Esta característica debe ser considerada al integrar el diseño de bases de datos en el flujo de trabajo del equipo de backend.
+
+Página oficial de Moon Modeler: https://www.datensen.com/data-modeling/moon-modeler-for-databases.html 
 
 **Product UX/UI Design**:
 
@@ -49,21 +65,37 @@ Página oficial de Figma: https://figma.com/
 
 ---
 
-**Product Architecture Design**:
-Esta sección se enfoca en el desarrollo y diseño de la arquitectura del producto a lo largo de todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer diversas aplicaciones que permitan la creación de diagramas detallados y complejos de cada capa de la arquitectura de la solución. Esto incluye la identificación de todos los componentes necesarios, así como los frameworks, IDEs y lenguajes de programación que se utilizarán. La capacidad de representar de manera clara y precisa la estructura del producto es esencial para asegurar que todos los aspectos de la arquitectura sean comprensibles y bien documentados.
+**Web Services**: En esta sección estarán las herramientas de desarrollo del Web Services con el Backend. Es esencial adoptar frameworks y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Utilizaremos frameworks que proporcionen bibliotecas preimplementadas para facilitar la creación, configuración y manejo de los servicios web. Estos frameworks permiten una integración fluida de los servicios, optimizando el rendimiento y asegurando que el backend pueda manejar de manera eficiente las solicitudes y respuestas entre los diferentes componentes del sistema.
 
-Diagramas C4: Para diseñar los diagramas C4 de nuestro proyecto, nuestro equipo ha decidido utilizar "Visual Paradigm". Esta herramienta ha sido seleccionada por sus características específicas que facilitan el modelado claro y efectivo de las diferentes vistas de arquitectura según el enfoque C4. "Visual Paradigm" se destaca por su simplicidad en la creación de diagramas estructurados y su capacidad para ofrecer una representación visual comprensible tanto para técnicos como para personas no técnicas. Además, "Visual Paradigm" permite una visualización y organización eficiente de los diagramas C4, lo que ayuda a asegurar que todos los miembros del equipo puedan entender la arquitectura del sistema sin complicaciones. La elección de esta herramienta se basa en su capacidad para generar diagramas detallados sin necesidad de codificación de bajo nivel, lo que la convierte en una opción accesible y eficaz para nuestro proyecto.
+- Modelo de Arquitectura: El estilo arquitectónico elegido para la aplicación será RESTful API, conocido por su eficacia en establecer una comunicación eficiente y directa entre clientes y servidores. Este enfoque es ampliamente reconocido por su capacidad para alinearse con las mejores prácticas de diseño y seguridad, lo que resulta fundamental para cualquier aplicación moderna. Al adoptar este estilo arquitectónico, se garantiza la creación de un backend no solo robusto, sino también altamente escalable, capaz de adaptarse a las crecientes demandas del sistema. Esto, a su vez, promueve un desarrollo coherente y seguro, estableciendo las bases necesarias para un rendimiento óptimo y una experiencia de usuario fiable.
 
-Página oficial de Visual Paradigm: https://www.visual-paradigm.com/
+Página de guía y seguimiento para el modelo REST: https://es.apis.support.brightcove.com/getting-started/learning-guide-using-rest-apis.html 
 
-**Diagrama UML**: Para el diseño de los diagramas UML relacionados con nuestro proyecto, hemos optado por "LucidChart". Esta plataforma es especialmente adecuada para la creación de diagramas UML debido a su interfaz intuitiva y su amplia gama de herramientas específicas para el modelado. "LucidChart" permite crear diagramas detallados y bien estructurados que representan con precisión la arquitectura del software. La facilidad de uso y las opciones avanzadas para organizar y estructurar los diagramas hacen que "LucidChart" sea la herramienta ideal para garantizar una representación clara y completa de nuestra arquitectura. Su capacidad para integrar y organizar partes del diagrama facilita la colaboración y la comunicación entre los miembros del equipo, especialmente entre los expertos en programación involucrados en el proyecto.
+- Desarrollo de código: Para el desarrollo propio del código del backend, se optará por utilizar Java junto con el framework Spring Boot. Spring Boot facilita enormemente la creación de aplicaciones basadas en Spring, ya que ofrece un conjunto completo de funcionalidades preconfiguradas para construir servicios web eficientes y rápidos. Mientras tanto, Java es un lenguaje de programación altamente robusto y versátil, conocido por su eficiencia, seguridad y amplia comunidad de soporte. Esta combinación de tecnologías permite establecer un entorno de desarrollo sólido y flexible, adaptado a las necesidades actuales del proyecto. Al emplear Spring Boot con Java, se garantiza una infraestructura capaz de manejar las demandas de un backend de alto rendimiento, ofreciendo escalabilidad, mantenibilidad y una integración más fluida con otros componentes del sistema.
 
-Página oficial de LucidChart: https://lucidchart.com/
+Página oficial de Spring Boot: https://spring.io/projects/spring-boot
 
-**Diseño de Bases de Datos**: Para el diseño de la base de datos de nuestro proyecto, que utiliza una estructura no relacional, hemos optado por "Moon Modeler". Esta herramienta es eficaz para el modelado y visualización de bases de datos no relacionales, como MongoDB. Ofrece una interfaz intuitiva que facilita la creación de diagramas detallados y bien estructurados, permitiendo diseñar esquemas claros y precisos. Además, "Moon Modeler" proporciona funcionalidades como la generación automática de documentación y la exportación de diseños en varios formatos, lo cual es esencial para una correcta representación y documentación de la base de datos.
-Aunque "Moon Modeler" es ideal para el diseño y documentación individual, no está orientada a la colaboración en tiempo real entre varios miembros del equipo. La herramienta está diseñada para el trabajo individual, facilitando la creación y revisión de modelos de datos, pero la colaboración se realiza mediante el intercambio de archivos exportados. Esta característica debe ser considerada al planificar la integración del diseño de bases de datos en el flujo de trabajo del equipo.
+Página de guía y seguimiento para Java: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
 
-Página oficial de Moon Modeler: https://www.datensen.com/data-modeling/moon-modeler-for-databases.html 
+- Entorno de desarrollo integrado: El IDE seleccionado para este proceso será IntelliJ IDEA, que forma parte del conjunto de herramientas de JetBrains Toolbox. IntelliJ IDEA es ampliamente reconocido por sus potentes características específicas para el desarrollo en Java, brindando un entorno que facilita enormemente la codificación, depuración y gestión de proyectos. Gracias a sus funciones avanzadas, como la autocompletación inteligente, análisis de código en tiempo real y herramientas de refactorización, se logra un proceso de desarrollo más ágil y productivo, reduciendo significativamente los errores y mejorando la calidad del código.
+
+Página oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
+
+- Documentación de servicios web: Se empleará Swagger, basado en la OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para la documentación de APIs, ya que ofrece una estructura clara y coherente que facilita su comprensión y uso, tanto por desarrolladores internos como externos. Además, Swagger permite registrar y reflejar rápidamente los cambios realizados en la API durante el proceso de desarrollo, garantizando que la documentación se mantenga precisa y actualizada en todo momento. Esto no solo mejora la comunicación entre los equipos, sino que también asegura un desarrollo más eficiente y colaborativo.
+
+Página oficial de Swagger: https://swagger.io/
+
+---
+
+**Database Development**: Esta sección aborda las herramientas y aplicaciones esenciales para la implementación efectiva de la base de datos que sustentará el ciclo de vida completo del proyecto. Se enfatiza la selección de recursos tecnológicos que no solo sean accesibles y fáciles de utilizar, sino que también ofrezcan un alto grado de fiabilidad y robustez. Esto es crucial para asegurar que la base de datos se implemente de manera eficiente, minimizando riesgos de bajo rendimiento o inconsistencias operativas que puedan comprometer la integridad de los datos y la fluidez de los procesos del proyecto. 
+
+- Gestor de bases de datos: Se ha decidido utilizar MongoDB como el sistema de gestión de bases de datos no relacional. MongoDB está diseñado para manejar grandes cantidades de datos no estructurados y semi-estructurados, lo que es ideal para una plataforma social donde los usuarios pueden generar diversos tipos de contenidos, desde textos hasta imágenes y videos, hasta sus propios roadmaps y hojas de ruta. Además, al ser una base de datos orientada a documentos, MongoDB permite una mayor flexibilidad en el almacenamiento y modelado de datos, lo que facilita la evolución de las funcionalidades de la red social sin necesidad de modificaciones extensivas en la estructura de la base de datos. 
+
+Página oficial de MongoDB: https://www.mongodb.com/es 
+
+- Despliegue de la base de datos: Se ha decidido utilizar MongoDB Atlas como la plataforma de despliegue para la base de datos. MongoDB Atlas es un servicio en la nube completamente gestionado que ofrece todas las ventajas de MongoDB, pero con el beneficio adicional de simplificar su administración y escalabilidad. Atlas permite una implementación rápida y sin complicaciones, asegurando la disponibilidad global de los datos y facilitando su distribución geográfica.
+
+Página oficial de MongoDB Atlas: https://www.mongodb.com/products/platform/atlas-database 
 
 ---
 
@@ -101,26 +133,6 @@ Material Design: https://m3.material.io
 
 VSCode: https://code.visualstudio.com
 
-**Web Services**: En el proceso de desarrollo de los Web Services, es esencial adoptar modelos y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Para lograr esto, se utilizarán frameworks que proporcionen bibliotecas preimplementadas y que faciliten la integración fluida de los servicios web.
-
-El estilo de aplicación elegido será el RESTful API Architectural Style, conocido por su capacidad para ofrecer una comunicación rápida y directa entre clientes y servidores, así como por su amplia aceptación de buenas prácticas de diseño y seguridad. Este enfoque asegura un backend sólido y escalable, promoviendo prácticas de desarrollo consistentes y seguras.
-
-Para el desarrollo del backend, se optará por el uso de Java junto con el framework Spring Boot. Spring Boot es una herramienta poderosa que simplifica la creación de aplicaciones basadas en Spring, proporcionando un conjunto completo de funcionalidades para construir servicios web eficientes. Al utilizar Spring Boot con Java, se obtiene un entorno de desarrollo robusto y flexible, capaz de manejar las demandas de un backend de alto rendimiento con facilidad.
-
-El entorno de desarrollo integrado (IDE) seleccionado para este proceso será IntelliJ IDEA, una plataforma de JetBrains Toolbox que ofrece potentes características para el desarrollo en Java. IntelliJ IDEA es reconocido por su eficacia en la codificación, depuración y gestión de proyectos Java, facilitando un desarrollo ágil y productivo.
-
-Para la documentación de los servicios web, se empleará Swagger, proporcionado por OpenAPI Specification. Swagger se ha consolidado como un estándar en la industria para documentar APIs de manera estructurada y coherente, lo que facilita su comprensión y uso tanto para desarrolladores internos como externos. Además, Swagger permite registrar rápidamente los cambios en la API durante el desarrollo, manteniendo la documentación actualizada y precisa en todo momento.
-
-Página oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
-
-Página oficial de Spring Boot: https://spring.io/projects/spring-boot
-
-Página oficial de Swagger: https://swagger.io/
-
-Página de guía y seguimiento para Java: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
-
-Página de guía y seguimiento para el modelo REST: https://es.apis.support.brightcove.com/getting-started/learning-guide-using-rest-apis.html 
-
 ---
 
 **Software Deployment**:
@@ -130,10 +142,12 @@ Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporcio
 
 Página oficial de GitHub Pages: https://pages.github.com/
 
+- Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
 ---
 
-**Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación minuciosa del código y del software durante todo el ciclo de vida del proyecto. Las herramientas elegidas deben ser intuitivas para todos los miembros del equipo y adecuadas para manejar textos extensos, con soporte para imágenes y una clara estructura de secciones.
-Para la documentación, utilizaremos un repositorio en GitHub, organizado en múltiples ramas dentro de la estructura del equipo. La escritura de documentos se realizará principalmente en Markdown, lo que asegura una visualización coherente en la web a través de diversos dispositivos, además de facilitar la compresión y el cifrado de datos. En casos donde Markdown no sea suficiente, como para tablas extensas y complejas, se empleará HTML para una representación más adecuada y detallada.
+**Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
+
+- Documentación del proceso e informe de software: Se utilizará un repositorio en GitHub, estructurado en múltiples ramas según las necesidades del equipo. La redacción de la documentación se llevará a cabo principalmente en Markdown, lo que garantiza una visualización coherente en la web a través de diferentes dispositivos, además de facilitar la compresión y el cifrado de los datos. En situaciones donde Markdown no sea suficiente, como para la creación de tablas complejas, se empleará HTML para lograr una representación más precisa y detallada.
 
 Página oficial de GitHub: https://github.com/
 
@@ -143,23 +157,26 @@ Guía y seguimiento para HTML5: https://www.w3schools.com/html/
 
 ### 4.1.2. Source Code Management.
 
-En esta sección se definirá la estrategia para emplear GitHub como plataforma de control de versiones y colaboración a lo largo del ciclo de vida del proyecto. Se utilizarán todas las herramientas establecidas y se mantendrá un registro detallado de las versiones para rastrear cambios, identificar nuevos desarrollos o corregir errores.
-A continuación, se ofrece una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios asociados dentro de esta organización:
+En esta sección, se definirá la estrategia para utilizar GitHub como plataforma de control de versiones y colaboración durante el ciclo de vida del desarrollo del backend. Se emplearán todas las herramientas proporcionadas por GitHub para garantizar una gestión eficaz del código fuente, incluyendo el seguimiento de versiones y la colaboración entre miembros del equipo. Se mantendrá un registro exhaustivo de las versiones del backend, permitiendo rastrear cambios, identificar nuevos desarrollos y corregir errores de manera precisa.
+
+Se establecerán ramas específicas para diferentes etapas del desarrollo, tales como la integración continua, las pruebas y la producción. Además, se implementarán políticas de pull requests y revisiones de código para asegurar la calidad y coherencia del backend. Esta metodología permitirá un control riguroso del ciclo de vida del desarrollo, facilitando la colaboración y asegurando que todos los cambios se registren de forma clara y ordenada.
+
+A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del backend dentro de esta organización:
 
 Repositorios en GitHub:
 
-Organización: https://github.com/GRUPO-3-MOVILES 
+- Organización: https://github.com/GRUPO-3-MOVILES 
 
-Landing Page: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
+- Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
-Report: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
+- BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
-BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
 
-###### Tabla 23
+
+###### Tabla 23.
 
 *Modelo de integrantes del equipo dentro de la página de organización de Github*
 
@@ -172,60 +189,65 @@ En esta sección, se presentarán todos los usuarios que forman parte de la orga
 
 **GitFlow Workflow**:
 
-En nuestro proyecto, adoptaremos el modelo GitFlow para el control de versiones, el cual se estructura alrededor de ramas principales y secundarias. Las ramas principales, como main y develop, sirven como bases para el desarrollo y la implementación final del proyecto, mientras que las ramas secundarias, tales como las de características, lanzamiento y corrección, son utilizadas para gestionar cambios y desarrollos específicos. Esta metodología asegura una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del proyecto.
-En esta sección, describiremos cómo se aplicará GitFlow en nuestro proyecto. Cada nueva característica requerirá su propia rama, que deberá ser integrada a través de un pull request revisado por el equipo. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
+En nuestro proyecto, implementaremos el modelo GitFlow para el control de versiones, el cual está estructurado en torno a ramas principales y secundarias. Las ramas principales actúan como las bases fundamentales para el desarrollo y la implementación final del backend. La rama master representa la versión estable y en producción, mientras que develop se utiliza para integrar todas las características y correcciones que se encuentran en desarrollo.
+
+Las ramas secundarias se utilizan para gestionar desarrollos específicos y modificaciones puntuales. Estas ramas se crean para el desarrollo de nuevas funcionalidades, para abordar errores críticos en producción y para preparar la versión para su liberación final. Cada una de estas ramas se fusiona con develop a través de pull requests, los cuales son revisados por el equipo para asegurar la calidad y coherencia del código. Este enfoque asegura que cada cambio se maneje de manera organizada y que los errores críticos se aborden de forma eficiente, manteniendo la estabilidad del proyecto en todo momento.
+
+Esta metodología garantiza una organización efectiva del flujo de trabajo, facilita la colaboración entre los miembros del equipo y optimiza la gestión de versiones del backend, asegurando que todos los cambios se integren de manera controlada y que el historial del proyecto sea claro y manejable. A continuación, se detallan las convenciones para nombrar las ramas dentro de nuestra organización:
 
 **Ramas Principales**:
 
-- `main`: Esta rama contiene la versión final y estable del proyecto, lista para su despliegue. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo para asegurar la calidad y estabilidad del código.
-- `develop`: Aquí se agrupan los elementos en desarrollo que han sido aprobados por al menos un miembro del equipo que no sea el autor de las modificaciones. Sirve como etapa de integración y prueba antes de fusionar con main.
+- `master`: Esta rama contiene la versión final y estable del backend, lista para su despliegue en el entorno de producción. Las integraciones a esta rama deben pasar por una revisión exhaustiva por parte del equipo técnico para asegurar la calidad y estabilidad del código del backend.
+  
+- `develop`: Esta rama agrupa los elementos en desarrollo relacionados con el backend, que han sido aprobados por al menos un miembro del equipo diferente del autor de las modificaciones. Sirve como etapa de integración y prueba de nuevas funcionalidades del backend antes de ser fusionadas con `master`.
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
-###### Tabla 24
+###### Tabla 24.
 
-*Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github*
+*Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github.*
+
 | Nombre | Descripción |
 |--------|-------------|
-| capitulo-I-Presentacion | Se encarga de los cambios relacionados con el Capítulo 1 del reporte del proyecto, incluyendo la introducción, información sobre la startup y el producto. |
-| capitulo-II-Needfinding | Agrupa los cambios correspondientes al Capítulo 2, que abordan la obtención y análisis de requisitos, así como la posición en el mercado y el segmento objetivo. |
-| capitulo-III-Arquitectura | Contiene los cambios para el Capítulo 3, relacionado con la especificación de requisitos y funcionalidades. |
-| capitulo-IV-Backend-Product-Implementation | Se centra en el Capítulo 4, que detalla el modelado del diseño UI/UX para la landing page y la aplicación móvil. |
-| Capitulo-V-Product-Implementation-&-Validation | Abarca el Capítulo 5, que trata sobre la implementación del producto, su validación y despliegue en un entorno de producción. |
+| feat/iam | Gestiona los cambios relacionados con la implementación del sistema de gestión de identidades y accesos (IAM) en el backend. Esta implementación asegura la autenticación, autorización y control de permisos de usuarios, garantizando la seguridad del sistema y un acceso adecuado a los recursos según los roles asignados. |
+| feat/roadmaps | Agrupa los cambios correspondientes a la gestión de los roadmaps en el backend, incluyendo la lógica para la creación, almacenamiento y procesamiento de los datos relacionados con los roadmaps de los usuarios. Esto abarca la implementación de endpoints para la manipulación de datos, así como la optimización de consultas y almacenamiento en la base de datos para asegurar un rendimiento eficiente. |
 
-**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo y se integran a las ramas principales mediante pull requests aprobados por el líder del equipo. Una vez completados los cambios, estas ramas se eliminarán para evitar la acumulación innecesaria de ramas.
+**Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo en el backend. Los cambios se integran a las ramas principales mediante pull requests, que deben ser aprobados por el líder del equipo. Una vez que los cambios han sido completados y fusionados, estas ramas se eliminan para evitar la acumulación innecesaria de ramas y mantener un repositorio limpio y organizado.
 
 ---
 
-Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo, hemos definido el siguiente formato estándar:
+Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de backend, hemos establecido el siguiente formato estándar:
+
 Formato de Commit:
 
 |feat(branch): verb + brief description in English|
 |-------------------------------------------------|
-
-En este formato, branch debe indicar la rama en la que se han realizado los cambios propuestos para la nueva característica. Si los cambios se efectúan en una rama específica de un capítulo, simplemente se utilizará "chapter-xx" para mantener la descripción del commit o pull request breve.
-La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio realizado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
+En este formato, "branch" debe indicar la rama en la que se han realizado los cambios propuestos para una nueva funcionalidad del backend. La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio implementado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
 
 ###### Tabla 25
 *Modelo de escritura de verbos para todos los commits realizados en el proyecto de Github*
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
-|Add  |Añadir  |Utilizado para añadir nuevas secciones, imágenes, textos, etc., a una parte del proyecto. Ideal para commits en las ramas de capítulos o en características individuales que esperan un pull request.  |
-|Create  |Crear  |Empleado para la creación de encabezados de secciones vacíos o documentos y/o ramas dentro del proyecto que servirán como base general.  |
-|Update  |Actualizar  |Usado para actualizaciones menores en una sección del proyecto. Ideal para agregar pequeños cambios sin modificar la estructura original de la sección.  |
-|Modify  |Modificar  |Aplicado para cambios significativos en una sección, que requieren una reestructuración profunda. Se diferencia de "update" por implicar cambios más sustanciales.  |
-|Correct  |Corregir  |Utilizado para correcciones menores, como errores ortográficos o gramaticales. Debe aplicarse a cambios menores en comparación con una actualización.  |
-|Fix  |Arreglar  |Usado para solucionar problemas en el código de la aplicación web o landing page, así como para arreglar elementos que no funcionan, como enlaces.  |
-|Delete  |Borrar  |Aplicado para eliminar secciones, imágenes, etc., del proyecto. Debe utilizarse solo para eliminar contenido previamente aprobado por el equipo.  |
-|Drop  |Tirar  |Exclusivo para eliminar ramas, carpetas, etc., del repositorio. Solo debe usarse con la aprobación del equipo del proyecto.  |
 
-Esta norma sigue los principios de los Conventional Commits, una convención ligera para estructurar y nombrar commits. Ofrece un conjunto claro de reglas para crear un historial de cambios detallado, lo cual facilita la automatización y el seguimiento de características, correcciones y modificaciones importantes. (GitHub & Netlify, 2024).
-**Estructura del Mensaje de Commit**:
+|Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
+|Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
+|Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
+|Modify  |Modificar  | Aplicado cuando se realizan cambios significativos en la lógica del backend, como la reestructuración de servicios o la implementación de nuevas políticas de negocio en la capa de lógica. Esto incluye cambios que afectan la arquitectura general o que impactan directamente en la interacción entre componentes.  |
+|Correct  | Corregir  | Utilizado para corregir errores menores en la implementación del backend, como ajustes en las validaciones de entradas, corrección de rutas de API, o fallos en configuraciones que afectan el correcto funcionamiento del sistema. Este verbo se reserva para pequeñas correcciones sin grandes implicaciones. |
+|Fix  |Arreglar  | Usado para solucionar bugs críticos o problemas que afectan directamente la funcionalidad del backend. Esto puede incluir arreglar errores en la lógica de negocio, problemas de conexión con la base de datos, o fallos en la autenticación y autorización de usuarios. También es comúnmente utilizado para resolver errores en la integración continua o el despliegue automático.  |
+|Delete  |Borrar  | Aplicado para la eliminación de clases, métodos o recursos que ya no son necesarios en el backend. Debe utilizarse cuando se elimina código obsoleto o módulos que han sido reemplazados por implementaciones más eficientes o actualizadas. |
+|Drop  |Tirar  | Exclusivo para la eliminación de esquemas de bases de datos, tablas, o configuraciones en el backend. Debe ser utilizado con precaución, ya que este tipo de cambios puede tener implicaciones críticas en el almacenamiento de datos y la estructura general del sistema. Suele aplicarse cuando se reorganiza o limpia la base de datos en el proceso de migración o refactorización. |
+
+Esta norma sigue los principios de Conventional Commits, una convención ligera para estructurar y nombrar los commits. Esta convención proporciona un conjunto claro de reglas para crear un historial de cambios detallado y coherente, lo que facilita la automatización de procesos como el versionado semántico y el seguimiento de características, correcciones y modificaciones críticas. Su implementación mejora la trazabilidad del desarrollo, simplifica las revisiones y asegura una mayor transparencia en el control de versiones. (GitHub & Netlify, 2024).
+
+**Estructura del Mensaje de Commit:**
+
 |type: description|
 |-----------------|
 
-Versionado Semántico:
+**Versionado Semántico:**
+
 Para las versiones de lanzamiento del proyecto, se aplicará el versionado semántico 2.0.0., siguiendo la estructura:
 
 |Major.Minor.Patch|
@@ -236,97 +258,94 @@ Donde:
 - El segundo dígito (Minor) aumenta cuando se añaden nuevas funcionalidades que son compatibles con versiones anteriores.
 - El primer dígito (Major) se incrementa para cambios importantes que podrían no ser compatibles con versiones anteriores.
 
-
 ### 4.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, incluyendo la Landing Page y la Web Application. A continuación, especificaremos las convenciones para los siguientes lenguajes y herramientas:
+En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar, estructurar, organizar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, con un enfoque exclusivo en la implementación del Backend. Se detallarán las convenciones y mejores prácticas que se seguirán para asegurar un código coherente y eficiente en el uso de Java y SpringBoot, los principales lenguajes y herramientas del proyecto. Estas convenciones de codificación garantizarán la claridad, mantenibilidad y escalabilidad del código, facilitando la colaboración entre los diferentes miembros del equipo de desarrollo backend.
 
-- Guía de Estilo para HTML: https://www.w3schools.com/html/html5_syntax.asp
-- Guía de Estilo de Google para HTML y CSS: https://google.github.io/styleguide/htmlcssguide.html
-- Guía de Estilo para CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
-- Guía de Estilo para JavaScript: https://google.github.io/styleguide/jsguide.html
-- Guía de Pautas de JavaScript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript
-- Guía de Estilo para Flutter: https://esflutter.dev/learn/
-- Guía de Estilo para Spring Boot: https://docs.spring.io/spring-boot/docs/current/reference/html/
+Asimismo, también investigaremos y presentaremos las directrices para la interacción con la base de datos MongoDB y su despliegue en MongoDB Atlas. Esto incluirá la gestión adecuada de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y la optimización del rendimiento en las consultas y manejo de grandes volúmenes de datos:
 
-**Convenciones que Usaremos**
+- Guía de Estilo para SpringBoot: https://docs.spring.io/spring-boot/docs/current/reference/html/
+- Panel de Guías variadas sobre SpringBoot: https://spring.io/guides
+- Guía de Estilo para Java del AOSP para colaboradores: https://source.android.com/docs/setup/contribute/code-style?hl=es-419
+- Manual Completo de Código en Java: https://www.manualweb.net/java/
+- Modelo de Convenciones de codificación Java: https://codegym.cc/es/groups/posts/es.491.convenciones-de-codificacion-de-java-cuales-seguir-y-por-que
+- Documentación oficial de MongoDB: https://www.mongodb.com/docs/manual/
+- Documentación oficial de MongoDB Atlas: https://www.mongodb.com/docs/atlas/
+- Guía oficial de conexiones, migraciones y herramientas de MongoDB: https://www.mongodb.com/docs/tools-and-connectors/ 
 
-**HTML**:
-- Utilizar nombres de archivos y carpetas descriptivos y claros que resuman las estructuras implementadas durante el proceso de desarrollo.
-- Aplicar una convención de nomenclatura uniforme para archivos y carpetas, como kebab-case o una alternativa equivalente.
-- Emplear etiquetas HTML semánticas para definir la estructura y el contenido, como header, nav, main, section, article, footer, evitando divs genéricos.
-- Mantener una estructura de código clara y legible mediante una indentación consistente. Asegurarse de que el diseño y la presentación sean coherentes en todas las partes del proyecto.
-- Usar atributos como alt en imágenes para mejorar la accesibilidad y la indexación por motores de búsqueda.
-- Asegurar que el HTML sea responsivo y se visualice correctamente en distintos dispositivos y tamaños de pantalla, utilizando CSS adaptable y consultas de medios.
-- Implementar modelos de accesibilidad para facilitar el acceso a personas con discapacidades o diferentes idiomas, creencias y culturas.
+#### Convenciones que Usaremos:
 
-**CSS**:
-- Emplear nombres de clases descriptivos y coherentes para facilitar la comprensión y el mantenimiento del código. Seguir metodologías como BEM (Block Element Modifier) y SMACSS (Scalable and Modular Architecture for CSS).
-- Optar por nombres descriptivos que reflejen la función de la clase en lugar de nombres genéricos o abreviaciones difíciles de entender.
-- Diseñar CSS modular para facilitar la reutilización de estilos en diferentes partes de la aplicación y la landing page, promoviendo la mantenibilidad y escalabilidad.
-- Utilizar prefijos de proveedores CSS (como -webkit-, -moz-, -ms-, -o-) cuando sea necesario para asegurar la compatibilidad con diversos navegadores.
-- Evitar el uso de estilos en línea (style attribute) y en su lugar, utilizar clases CSS para mantener la separación entre HTML y CSS.
-- Realizar pruebas en distintos navegadores y dispositivos para asegurar que los estilos sean consistentes y funcionales en todas las situaciones.
+**Java:**
 
-**JavaScript**:
-- Usar nombres descriptivos para variables y funciones que reflejen claramente su propósito y función.
-- Aplicar el estilo de nomenclatura camelCase para variables y funciones. Mantener una línea de código por línea para mejorar la legibilidad.
-- Preferir const para variables inmutables y let para variables mutables, evitando var para mantener la claridad del alcance.
-- Documentar el código con comentarios que expliquen el propósito de las funciones, algoritmos complejos y decisiones de diseño. Eliminar comentarios innecesarios antes de la producción, o dejarlos con descripciones formales si son cruciales.
-- Minimizar el uso de variables globales y encapsular variables y funciones dentro de módulos o funciones autoejecutables para evitar conflictos.
-- Implementar un manejo adecuado de errores utilizando bloques try-catch para capturar y manejar excepciones, proporcionando mensajes claros para facilitar la depuración.
-- Usar operadores estrictos (=== y !==) para comparaciones y operaciones para evitar errores de tipo.
-- Aplicar delegación de eventos para manejar eventos en elementos dinámicos y reducir la cantidad de manipuladores de eventos necesarios en el DOM.
-- Utilizar funciones de orden superior como map, filter, reduce y forEach para simplificar el código y mejorar su legibilidad.
+- Convenciones de Nomenclatura: La claridad en la nomenclatura es fundamental para la mantenibilidad y legibilidad del código. En el desarrollo de un backend con Java y SpringBoot, las clases deben seguir la convención de CamelCase, comenzando cada palabra con mayúscula (UserController, OrderService, etc). Los métodos deben usar una convención de camelCase, comenzando con un verbo que indique la acción que realizan (getUserById(), processOrder(), etc). Las variables deben ser descriptivas y seguir un esquema en camelCase para reflejar claramente su propósito. Además, se recomienda organizar el código en paquetes coherentes, agrupando funcionalidades similares.
+  
+- Uso de Encapsulamiento: El encapsulamiento es uno de los pilares de la programación orientada a objetos en Java y debe ser aplicado rigurosamente en el backend. Cada clase debe tener sus atributos privados y se debe acceder a ellos a través de métodos públicos como `getters` y `setters`. Esto asegura que los datos no puedan ser modificados directamente desde fuera de la clase, evitando comportamientos inesperados. Además, contribuye a la modularidad del código, facilitando la refactorización sin romper otras partes del sistema.
 
-**Flutter**:
-- **Nombres Descriptivos**: Emplear nombres descriptivos y consistentes para variables, funciones y widgets. Utilizar camelCase para nombres de variables y funciones, y PascalCase para nombres de clases y widgets.
-- **Variables y Estado**: Utilizar final para variables inmutables y var para variables mutables, siguiendo el principio de inmutabilidad siempre que sea posible. Para el estado en widgets, utilizar StatefulWidget y manejar el estado en la clase State.
-- **Widgets**: Crear widgets reutilizables y modulares para mantener el código limpio y organizado. Dividir los widgets grandes en widgets más pequeños para mejorar la legibilidad y la reutilización.
-- **Estilo de Código**: Utilizar la guía de estilo de Dart para mantener un formato consistente. Esto incluye la alineación adecuada del código y la organización de los imports.
-- **Manejo de Errores**: Utilizar try-catch para manejar errores y excepciones. Proporcionar mensajes de error claros y útiles para facilitar la depuración y la experiencia del usuario.
-- **Async/Await**: Utilizar las palabras clave async y await para manejar operaciones asincrónicas, evitando el uso excesivo de callbacks y mejorando la legibilidad del código.
-- **Dart Language Features**: Aprovechar las características del lenguaje Dart, como los mixins, extensiones y funciones de orden superior, para simplificar el código y mejorar la legibilidad.
-- **Estado y Contexto**: Utilizar Provider, Riverpod u otras soluciones de gestión del estado recomendadas por la comunidad Flutter para mantener un estado global de manera eficiente y escalable.
+- Control de Errores con Excepciones Personalizadas: En Java, el manejo adecuado de excepciones es crucial para asegurar la estabilidad del backend. Además de utilizar las excepciones estándar de Java, es recomendable definir excepciones personalizadas para representar errores específicos de la aplicación, como `UserNotFoundException` o `InvalidTransactionException`. Esto permite un control más granular sobre los errores y facilita la depuración. Asimismo, es importante asegurarse de no capturar excepciones de manera genérica con `catch(Exception e)` sin procesarlas adecuadamente. 
 
-Java:
-- Usar nombres descriptivos y claros para clases, métodos y variables. Aplicar PascalCase para nombres de clases y camelCase para nombres de métodos y variables.
-- Organizar el código en paquetes lógicos para mantener la modularidad y la estructura del proyecto.
-- Documentar el código con comentarios Javadoc para explicar el propósito de las clases, métodos y parámetros. Mantener la documentación actualizada y precisa.
-- Seguir el principio de responsabilidad única, asegurando que cada clase y método tenga una única responsabilidad.
-- Implementar manejo de excepciones utilizando bloques try-catch y definir excepciones personalizadas cuando sea necesario para manejar errores específicos.
-- Utilizar interfaces y clases abstractas para promover la reutilización del código y la extensibilidad.
-- Adoptar los principios SOLID para diseñar clases y sistemas mantenibles y escalables.
+- Uso Eficiente de Recursos: En el desarrollo backend, el manejo adecuado de recursos como conexiones a bases de datos o archivos es crítico. Java ofrece una estructura de manejo automático de recursos, como el bloque `try-with-resources`, que debe ser utilizado para asegurar que los recursos se cierren correctamente después de su uso. Esto no solo mejora el rendimiento del sistema, sino que también previene fugas de memoria y otros problemas relacionados con la gestión inadecuada de recursos.
+
+- Inmutabilidad de Objetos: Siempre que sea posible, los objetos en Java deben ser inmutables, lo que significa que su estado no puede cambiar después de su creación. Esto es particularmente útil en el backend para manejar datos que no deben ser modificados una vez inicializados, como claves de acceso o datos de configuración. Para crear objetos inmutables en Java, se pueden declarar todos los campos como final y no proveer métodos `setters`, asegurando que los objetos permanezcan constantes a lo largo de su ciclo de vida.
+
+- Uso de Lombok para Reducir Código Repetitivo: Para evitar escribir código repetitivo, como `getters`, `setters` y constructores, el uso de bibliotecas como "Lombok" puede ser muy útil en Java. Con anotaciones como `@Data`, `@AllArgsConstructor` y `@NoArgsConstructor`, se reduce significativamente el tamaño del código, haciéndolo más limpio y fácil de mantener. Sin embargo, es importante usar "Lombok" de manera consciente, ya que puede ocultar parte de la lógica del código y es necesario asegurarse de que su uso no genere dependencias innecesarias.
+
+- Aplicación del Principio de Responsabilidad Única: Cada clase y método en Java debe seguir el principio de responsabilidad única, lo que significa que cada uno debe tener una única razón para cambiar. Este principio asegura que el código esté organizado de manera modular, facilitando el mantenimiento y la extensión del sistema sin introducir complejidad adicional.
+
+- Implementación de Interfaces para Desacoplamiento: Para lograr un backend flexible y desacoplado en Java, es una buena práctica definir interfaces que abstraigan las implementaciones de las clases concretas. De esta forma, si en el futuro es necesario cambiar la implementación de un servicio, solo será necesario modificar la clase que implementa la interfaz, sin alterar el resto del código. Este patrón es especialmente útil en la interacción con bases de datos y servicios externos, permitiendo la inyección de dependencias con facilidad.
+
+- Uso de Generics para Tipado Fuerte: Los "Generics" en Java son una herramienta poderosa que permite crear clases y métodos que funcionen con cualquier tipo de dato, proporcionando mayor flexibilidad sin perder la seguridad del tipado fuerte. En un backend, los "generics" pueden utilizarse en clases de repositorio, listas, y otros contenedores de datos, garantizando que el código sea reutilizable y evite errores de tipo en tiempo de ejecución.
+
+- Convenciones de Documentación con Javadoc: La documentación es esencial en el desarrollo de backend en Java, y la convención estándar es usar "Javadoc" para documentar las clases, métodos y atributos. Al proporcionar descripciones claras de lo que hace cada parte del código, se facilita la comprensión del sistema por parte de otros desarrolladores o futuros mantenedores del proyecto. Además, Javadoc permite generar automáticamente documentación en formato "HTML", lo que es muy útil para proyectos de gran envergadura.
 
 **Spring Boot**:
-- Seguir la estructura de proyecto recomendada por Spring Boot, separando las capas de presentación, lógica de negocio y acceso a datos.
-- Utilizar la inyección de dependencias proporcionada por Spring para gestionar los componentes y servicios de la aplicación, promoviendo la modularidad y la testabilidad.
-- Aplicar el patrón de diseño MVC (Modelo-Vista-Controlador) o el patrón de arquitectura de microservicios según la complejidad del proyecto.
-- Configurar las propiedades de la aplicación utilizando archivos application.properties o application.yml y gestionar la configuración mediante perfiles de entorno.
-- Implementar la gestión de errores y excepciones utilizando el soporte de manejo global de errores de Spring y definir controladores de errores personalizados.
-- Usar la caché proporcionada por Spring para mejorar el rendimiento, almacenando datos que se acceden con frecuencia y que son costosos de recuperar.
-- Asegurar la aplicación mediante autenticación y autorización utilizando los mecanismos de seguridad integrados de Spring Security.
-- Implementar pruebas unitarias y de integración utilizando el soporte de pruebas de Spring Boot para asegurar la calidad del código y la funcionalidad de la aplicación.
+
+- Configuración de Aplicación Externa: En un proyecto de Spring Boot, es fundamental externalizar la configuración de la aplicación en archivos como `application.properties` o `application.yml`. Esto permite que diferentes entornos (desarrollo, prueba, producción) tengan configuraciones específicas sin necesidad de modificar el código fuente. Utilizar variables de entorno para manejar información sensible, como credenciales de bases de datos, refuerza la seguridad y la flexibilidad del sistema. Además, la configuración de la conexión a la base de datos debe ser clara y debe incluir parámetros como el nombre de la base de datos, la dirección del servidor y las credenciales de acceso.
+
+- Uso de Anotaciones de Spring: Aprovechar las poderosas anotaciones proporcionadas por Spring Boot es esencial para crear aplicaciones más limpias y mantenibles. Anotaciones como `@RestController`, `@Service`, `@Repository` y `@Component` deben ser utilizadas correctamente para definir la función de cada clase dentro de la aplicación. Esto no solo ayuda a la legibilidad del código, sino que también permite a Spring gestionar automáticamente la inyección de dependencias y la configuración de componentes, promoviendo una arquitectura más cohesiva y modular.
+
+- Manejo de Errores con Controladores de Excepciones: La gestión adecuada de errores es crucial en aplicaciones de Spring Boot. Utilizar `@ControllerAdvice` para manejar excepciones de forma centralizada proporciona una forma limpia de capturar y gestionar errores a lo largo de toda la aplicación. Al definir un controlador de excepciones global, puedes personalizar las respuestas de error, asegurando que los clientes reciban mensajes claros y coherentes en caso de fallos. Esto mejora la experiencia del usuario y facilita el proceso de depuración.
+
+- Configuración de Rutas de API REST: En el desarrollo de servicios REST con Spring Boot, es esencial estructurar las rutas de forma coherente y lógica. Usar convenciones de versión, como `/api/v1/`, permite gestionar los cambios en la API a lo largo del tiempo sin romper compatibilidad con versiones anteriores. Cada controlador debe tener su conjunto de rutas bien definidas y documentadas, utilizando las anotaciones `@GetMapping`, `@PostMapping`, `@PutMapping` y `@DeleteMapping` para mapear adecuadamente las solicitudes HTTP a los métodos correspondientes.
+
+- Integración de Spring Data MongoDB: Al trabajar con MongoDB, es recomendable utilizar "Spring Data MongoDB", que simplifica la interacción con la base de datos. Definir repositorios extendiendo "MongoRepository" permite implementar operaciones CRUD de forma sencilla y declarativa, eliminando la necesidad de escribir consultas "boilerplate". Además, se deben aprovechar las características de Spring Data, como las consultas personalizadas y la paginación, para optimizar el acceso a datos y mejorar el rendimiento general de la aplicación.
+
+- Pruebas Automatizadas con Spring Boot Test: La calidad del software es vital, y Spring Boot facilita la implementación de pruebas automatizadas. Utilizar el módulo "Spring Boot Test" permite realizar pruebas unitarias y de integración de manera efectiva. Es recomendable seguir el patrón de pruebas AAA (Arrange, Act, Assert) y utilizar herramientas como "JUnit" y "Mockito" para asegurar que cada componente de la aplicación funcione correctamente en diversas condiciones. Esto no solo aumenta la confianza en el código, sino que también facilita el mantenimiento y la evolución del sistema.
+
+- Aspectos de Seguridad con Spring Security: La seguridad es un aspecto crítico en cualquier aplicación, y Spring Boot ofrece Spring Security para gestionar la autenticación y autorización. Implementar medidas de seguridad, como la autenticación basada en tokens (JWT), es esencial para proteger las rutas de la API y garantizar que solo los usuarios autorizados puedan acceder a recursos críticos. Asegúrate de configurar correctamente las reglas de seguridad y de aplicar la menor cantidad de privilegios necesarios para cada rol de usuario, minimizando así el riesgo de vulnerabilidades.
+
+- Uso de Profiles para Configuraciones Específicas: Spring Boot permite definir diferentes perfiles para diferentes entornos de ejecución, como desarrollo, prueba y producción. Al utilizar la anotación `@Profile`, puedes activar o desactivar componentes específicos de la aplicación según el entorno. Esto facilita la personalización de la configuración, permitiendo que los equipos de desarrollo y operaciones gestionen mejor los entornos de producción sin comprometer la estabilidad del sistema.
+
+- Documentación de la API con Swagger: La documentación clara de la API es fundamental para facilitar la colaboración entre desarrolladores y consumidores de la misma. Integrar "Swagger" en un proyecto de Spring Boot permite generar documentación interactiva y visual para la API de forma automática. Asegúrate de incluir descripciones detalladas de los endpoints, parámetros y respuestas esperadas para que los desarrolladores puedan comprender fácilmente cómo interactuar con la API.
+
+- Configuración de la Persistencia de Datos: Para garantizar que los datos sean persistentes y se gestionen correctamente, es recomendable establecer un modelo claro de las entidades que se utilizarán en la aplicación. Al definir clases de entidad con la anotación `@Document` de "Spring Data MongoDB", asegúrate de que cada clase refleje la estructura de los documentos en la base de datos. Además, utilizar anotaciones como `@Id` para identificar la clave primaria y `@Field` para mapear los campos de manera explícita proporciona claridad y coherencia en la gestión de datos.
+
+**MongoDB:**
+
+- Diseño de Esquemas Flexibles: Uno de los principales beneficios de MongoDB es su naturaleza de esquema flexible, lo que permite que los documentos dentro de una colección tengan diferentes estructuras. Sin embargo, es importante definir un esquema básico para cada colección, estableciendo reglas claras sobre qué campos son obligatorios y cuáles son opcionales. Esto ayuda a mantener la integridad de los datos y facilita la validación a nivel de aplicación. 
+
+- Uso de Identificadores Únicos: En MongoDB, cada documento tiene un identificador único `_id` que se genera automáticamente, generalmente como un "ObjectId". Es crucial aprovechar este campo como clave primaria para garantizar que cada documento sea identificable de manera única dentro de su colección. En situaciones en las que se requiere un identificador alternativo (como un número de teléfono o un correo electrónico), es recomendable crear índices únicos sobre esos campos para prevenir duplicados y asegurar la integridad de los datos.
+
+- Modelado de Relaciones con Referencias o Embedding: Al modelar datos en MongoDB, es importante decidir cómo manejar las relaciones entre documentos. Existen dos enfoques principales: "referencias" y "embedding". Las referencias se utilizan para relacionar documentos de diferentes colecciones, mientras que el embedding permite almacenar documentos relacionados dentro de un documento padre. La elección entre estos métodos dependerá de la naturaleza de los datos y de cómo se accede a ellos. Generalmente, si los datos son utilizados juntos frecuentemente, el "embedding" puede ser más eficiente; por otro lado, si los datos son independientes y cambian con frecuencia, las "referencias" pueden ser preferibles.
+
+- Indices para Optimizar Consultas: Para mejorar el rendimiento de las consultas en MongoDB, es vital crear índices adecuados en los campos que se utilizan con frecuencia en las búsquedas. Utilizar el comando `createIndex` para establecer índices sobre campos clave, así como índices compuestos para combinaciones de múltiples campos, puede reducir significativamente el tiempo de respuesta de las consultas. Sin embargo, es importante equilibrar la creación de índices con el costo de mantenimiento que estos suponen al realizar operaciones de escritura, ya que cada índice adicional puede afectar el rendimiento de las inserciones y actualizaciones.
+
+- Consulta Eficiente con Proyecciones: Al recuperar documentos de una colección en MongoDB, es recomendable utilizar proyecciones para limitar los campos devueltos en una consulta. Esto no solo mejora la eficiencia al reducir la cantidad de datos transferidos, sino que también minimiza el uso de recursos del servidor. 
+
+- Manejo Adecuado de Transacciones: Aunque MongoDB es conocido por su naturaleza de base de datos de documentos, las transacciones se han vuelto cada vez más importantes, especialmente en aplicaciones que requieren la consistencia de múltiples operaciones de escritura. Desde la versión 4.0, MongoDB admite transacciones ACID que abarcan múltiples documentos y colecciones. Es esencial utilizar estas transacciones adecuadamente para asegurar que un grupo de operaciones se ejecute completamente o no se ejecute en absoluto, manteniendo así la integridad de los datos.
+
+- Implementación de Seguridad y Autenticación: La seguridad es un aspecto crítico en cualquier base de datos. En MongoDB, es importante habilitar la autenticación y la autorización, asegurando que solo los usuarios y aplicaciones autorizados puedan acceder a los datos. Configurar roles y permisos específicos a nivel de base de datos permite un control más granular sobre quién puede leer o escribir datos, lo que ayuda a mitigar el riesgo de accesos no autorizados y de violaciones de datos.
+
+- Monitoreo y Rendimiento: Para mantener un rendimiento óptimo en MongoDB, es crucial implementar prácticas de monitoreo y ajuste. Utilizar herramientas como "MongoDB Atlas" o "MongoDB Ops Manager" permite a los desarrolladores y administradores de bases de datos supervisar el rendimiento, identificar problemas y optimizar las consultas. El monitoreo regular de métricas como la latencia de las consultas, el uso de la memoria y la carga del servidor ayuda a anticipar problemas y a implementar soluciones proactivas.
+
+- Manejo de Datos No Estructurados: MongoDB es especialmente útil para almacenar datos no estructurados o semi-estructurados, como documentos JSON, imágenes o archivos. Utilizar la característica de "GridFS" de MongoDB permite almacenar y gestionar archivos grandes de manera eficiente. Sin embargo, es recomendable evaluar si se requiere almacenar datos directamente en la base de datos o si sería más apropiado almacenar rutas a archivos en un sistema de archivos externo, lo que puede mejorar el rendimiento y la escalabilidad.
+
+- Estrategias de Backup y Recuperación: Implementar una estrategia sólida de respaldo y recuperación es esencial para proteger los datos en MongoDB. Utilizar las herramientas de respaldo integradas en MongoDB, así como prácticas recomendadas como el respaldo incremental y la replicación, asegura que los datos estén disponibles y sean recuperables en caso de fallos. Además, se deben realizar pruebas periódicas de los procedimientos de recuperación para asegurar que los respaldos sean efectivos y que la restauración de datos se realice de manera fluida y sin interrupciones en el servicio.
 
 ### 4.1.4. Software Deployment Configuration.
 
-En esta sección, detallaremos la configuración necesaria para implementar la solución, centrándonos específicamente en el despliegue del Landing Page. Comenzaremos creando un repositorio en GitHub destinado a almacenar los archivos HTML, CSS y JavaScript que componen nuestra página de destino. Una vez establecido el repositorio, cada miembro del equipo trabajará en su propia rama "feature" para desarrollar las diferentes características del Landing Page. Tras completar una característica específica, se llevará a cabo el proceso de merge con la rama "develop", garantizando así que la página de destino esté siempre actualizada con las últimas modificaciones y mejoras implementadas.
+En esta sección, se detallará la configuración necesaria para implementar la solución, enfocándose exclusivamente en el despliegue del Backend del proyecto. El backend se desarrollará utilizando Java junto con el framework SpringBoot, lo que proporcionará una arquitectura robusta, escalable y fácil de mantener. Comenzaremos por crear un repositorio en GitHub destinado a almacenar todo el código relacionado con la lógica del servidor, controladores, servicios, y los modelos de datos que interactuarán con la base de datos MongoDB. 
 
-Posteriormente, configuraremos GitHub Pages para que publique automáticamente la página de destino utilizando la rama "develop". Esto permitirá que la Landing Page sea accesible públicamente y esté disponible para su visualización y prueba por parte de los interesados y usuarios finales.
-
-A continuación, proporcionamos una descripción detallada de los pasos necesarios para llevar a cabo este proceso de despliegue en GitHub Pages, asegurando una implementación eficiente y sin contratiempos de nuestra solución.
-
-El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
-
-El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
-
-El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
-
-El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
-
-Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
-
-Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio.
+Este repositorio permitirá a los desarrolladores gestionar de manera eficiente la colaboración y el control de versiones, asegurando que cada miembro del equipo trabaje en su propia rama "feature" para desarrollar nuevas funcionalidades del backend, tales como la autenticación de usuarios, el manejo de solicitudes, o la gestión de sesiones. Posteriormente, se llevará a cabo el proceso de merge con la rama principal "develop", lo que asegura que la lógica del backend esté siempre actualizada y optimizada con las últimas mejoras y correcciones.
 
 ## 4.2. Software Development & Implementation.
 
@@ -334,11 +353,13 @@ A continuación, describimos en detalle el enfoque técnico que adoptaremos para
 
 ### 4.2.1. Sprint 1
 
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint número 1. Todo el avance descriptivo se muestra aquí junto a su desarrollo, historial y avance en conjunto dado por cada intengrante del equipo de trabajo. Todas las especificaciones siguen desde el Product Backlog del Capitulo 2 en la sección de requerimientos.
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 1 de la Implementación del Backend. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo, el historial de cambios, y el avance colectivo aportado por cada integrante del equipo de trabajo sobre el propio Backend y sus Endpoints. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint.
 
-#### 5.2.2.1 Sprint Planning 1.
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto.
 
-En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 1. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
+#### 4.2.2.1 Sprint Planning 1.
+
+En esta sección se explicarán los detalles presentados y analizados durante la reunión del Sprint Planning para el Sprint número 1 de la implementación del Backend. El objetivo principal de esta reunión es establecer un plan claro y realista que guíe el desarrollo del backend, identificando las tareas específicas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. Este enfoque permite asegurar que todos los miembros del equipo tengan una comprensión compartida de los objetivos y las expectativas del sprint, lo que resulta esencial para la coordinación y efectividad en el trabajo colaborativo.
 
 ###### Tabla 23
 *Tabla del planeamiento a profundidad del Sprint 1*
@@ -352,7 +373,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
         <tr>
             <td>Date</td>
-            <td>2024-09-07</td>
+            <td>2024-09-01</td>
         </tr>
           <tr>
             <td>Time</td>
@@ -371,12 +392,12 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
             <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
         </tr>
             <tr>
-            <td>Sprint 1 - 1 Review Summary</td>
-            <td>Después de un realizar todos los procedimientos establecidos para la identificación de objetivos y áreas de retroalimentación, hemos podido concluir la reunión del sprint 1 con éxito en términos de avance en los productos de software y en la colaboración general del equipo. El proceso de mejora con la retroalimentación y la programación de varias secciones nuevas en la Aplicación Web significó un gran proceso de mejora para la construcción y realización del sprint, además de reforzar el compromiso de nuestro equipo y la mejora exponencial de las actividades indicadas.</td> 
+            <td>Sprint 1 Review Summary</td>
+            <td>Al concluir el Sprint 1, se llevó a cabo la reunión de Sprint Review en la que se evaluó el progreso realizado en el desarrollo del Backend de nuestra aplicación. Durante este sprint, el enfoque principal se centró en la creación de los Endpoints para el proceso de autenticación y autorización (IAM), así como en la implementación de la funcionalidad de Roadmaps. <br><br> La reunión fue exitosa en términos de avance en los productos de software y en la colaboración del equipo. Tras realizar un análisis exhaustivo de los objetivos establecidos y recopilar valiosa retroalimentación, se identificaron áreas de mejora que contribuyeron significativamente a la calidad del desarrollo. La integración de las recomendaciones recibidas permitió optimizar varios aspectos del código y mejorar la eficiencia de los nuevos Endpoints, lo que a su vez facilitó una experiencia de usuario más fluida y segura. </td> 
         </tr>
             <tr>
-            <td>Sprint 1 – 1 Retrospective Summary</td>
-            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño del BackEnd.</td>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización del primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil. <br><br> A través de este proceso reflexivo, se plantearon varias estrategias para garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros clientes. <br><br> Para este sprint en particular, hemos acordado implementar mejoras en la esquematización de los reportes, junto con la creación de diagramas que faciliten la comprensión y el seguimiento del progreso del desarrollo. Además, se propone una revisión integral del diseño del Backend, buscando optimizar su rendimiento y escalabilidad para garantizar una experiencia de usuario fluida en la aplicación móvil.</td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
@@ -395,9 +416,11 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
         </tr>
     </table>
 
-#### 5.2.2.2 Sprint Backlog 1.
+#### 4.2.2.2 Sprint Backlog 1.
 
-En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
+En esta sección se revisará todo el proceso relacionado con el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño del Backend y en la preparación de ciertas características correspondientes a la lógica de negocio y a los modelos de datos que interactúan con la base de datos mediante el uso de Endpoints documentados. Este enfoque abarcó la definición de las rutas de la API, la implementación de controladores, y la creación de servicios que soportan las funcionalidades requeridas por el sistema.
+
+Además, se abordaron los modelos de datos que estructuran la información en la base de datos MongoDB, asegurando que cada componente del backend esté alineado con los requisitos funcionales y no funcionales establecidos en la fase de planificación. También se discutieron las interacciones necesarias entre los distintos módulos del backend y la integración con MongoDB Atlas para garantizar un rendimiento óptimo y una alta disponibilidad de los datos. Este proceso de diseño y preparación fue crucial para sentar las bases del desarrollo efectivo en los siguientes sprints, asegurando que cada elemento del backend esté bien definido y listo para su implementación.
 
 ###### Tabla 59
 *Tabla principal del planeamiento del Sprint Backlog 1*
@@ -588,7 +611,6 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
 | POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
 
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
 Dentro del Sprint 1, no se realizo ningún despliegue.
@@ -607,3 +629,282 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 <img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
 <img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
 <img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+
+---
+
+### 4.2.2. Sprint 2
+
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 2 de la Implementación del Backend. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo, el historial de cambios, y el avance colectivo aportado por cada integrante del equipo de trabajo sobre el propio Backend y sus Endpoints. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint.
+
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto.
+
+#### 4.2.2.2 Sprint Planning 2.
+
+En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 2. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
+
+###### Tabla XX
+*Tabla del planeamiento a profundidad del Sprint 2.*
+<table>
+        <tr>
+            <td colspan="1">Sprint #</td>
+            <td colspan="1">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2024-09-18</td>
+        </tr>
+          <tr>
+            <td>Time</td>
+            <td>18:27</td>
+        </tr>
+            <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+            <tr>
+            <td>Prepared by</td>
+            <td>Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Sprint 2 - 2 Review Summary</td>
+            <td>Después de un realizar todos los procedimientos establecidos para la identificación de objetivos y áreas de retroalimentación, hemos podido concluir la reunión del sprint 1 con éxito en términos de avance en los productos de software y en la colaboración general del equipo. El proceso de mejora con la retroalimentación y la programación de varias secciones nuevas en la Aplicación Web significó un gran proceso de mejora para la construcción y realización del sprint, además de reforzar el compromiso de nuestro equipo y la mejora exponencial de las actividades indicadas.</td> 
+        </tr>
+            <tr>
+            <td>Sprint 2 – 2 Retrospective Summary</td>
+            <td>Para el proceso de la retrospectiva del Sprint 1, fue necesario que nuestro equipo revisara a detalle toda la retroalimentación recibida ante el primer sprint realizado, para luego generar un análisis a profundidad del desempeño general e individual de todos los miembros del equipo de trabjo. Después de ese proceso, pudimos identificar varias áreas de mejora en las cuales centrarnos para así poder garantizar la entrega de un mejor trabajo y un buen producto para todos nuestros clientes, promoviendo la mejora continua y optimizando los métodos de trabajo en los próximos sprints durante el ciclo de vida del proyecto. Para el caso de este sprint, hemos planteado la mejora en la esquematización del reporte junto a sus diagramas, además de una mejora general en todo el diseño del BackEnd.</td>
+        </tr>
+            <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+              <tr>
+            <td>Sprint 1 Goal</td>
+            <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 1 con todas las historias de usuario y otros materiales necesarios.</td>
+        </tr>
+              <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>Con el equipo para este sprint 1 decidimos aceptar 5 Story Points</td>
+        </tr>
+              <tr>
+            <td>Sum of Story Points</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es XX</td>
+        </tr>
+    </table>
+
+#### 4.2.2.2 Sprint Backlog 2.
+
+En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
+
+###### Tabla 59
+*Tabla principal del planeamiento del Sprint Backlog 1*
+<table>
+        <tr>
+            <td colspan="2">Sprint #</td>
+            <td colspan="6">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Descripcion</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status (To-do / In / Process / ToReview / Done)</td>
+        </tr>
+        <tr>
+            <td>TS001</td>
+            <td>Integrar un sistema de registro con Firebase Authentication</td>
+            <td>T08</td>
+            <td>Integración de un sistema de registro con Firebase Authentication</td>
+            <td><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td>1 hora</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS002</td>
+            <td>Implementación de validaciones de credenciales</td>
+            <td>T09</td>
+            <td>Implementación de validaciones de las credenciales de usuario</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
+            <td>3 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS003</td>
+            <td>Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo</td>
+            <td>T10</td>
+            <td>Encriptación de los datos de usuarios cuando estén presentes en tránsito o en reposo</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td>2 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS004</td>
+            <td>Integración de sistema de autenticación con Firebase Authentication</td>
+            <td>T11</td>
+            <td>Integración de sistemas de autenticación con la API Firebase Authentication</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td>1 hora</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS005</td>
+            <td>Implementar un sistema de autenticación segura en el backend</td>
+            <td>T12</td>
+            <td>Implementación de un sistema de autenticación segura en el backend</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
+            <td>2 horas</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US28</td>
+            <td>Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación</td>
+            <td>T06</td>
+            <td>Creación de roadmaps y compartirlos con los demás usuarios de la aplicación</td>
+            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                </tr>
+                <tr>
+            <td>US29</td>
+            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
+            <td>T07</td>
+            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
+            <td>Como usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente..</td>
+            <td>4 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+        </tr>
+                </tr>
+    </table>
+
+Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
+
+###### Figura 58
+*Presentación de la tabla de actividades designada para el Sprint 2 en ClickUp.*
+<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
+
+#### 5.2.2.3 Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
+
+###### Tabla XX
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
+| Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
+|------------|-------|----------|---------------|--------------------|-------------------|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|97844950e2f718610501441269a798e12a09335e|feat(pom)|added dependencies and pluggins to work with|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|e0bff2d2c61620faebff1677756d311003cf2710|feat(shared) | added aggregate and entity for model in shared|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|e0bff2d2c61620faebff1677756d311003cf2710|feat(shared) | added openapi documentation|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2b25ddce453a9cc5607d5d84605a366aafc60f3d|feat(shared) | added messageresource to handling errors|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|c61c607c468d92badf5782a17f68a146de5b3156|feat(shared) | added mongodb connection string with environment variables|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|529d6cd57e62dd85b5e7481673baf93753637540|feat(shared) | added getter annotation for auditable root|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|a2c7bcfef24588dff3c58e7e12e7e8c18678e05b|feat(iam) | add queries and commands for domain model|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|eef09f53e6a0def5c69d68eeecc7d946c8dc6046|feat(iam) | add aggregate, entity and value object|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|563a45cf85acf62a3b6188c9825aa44e623c048c|feat(iam) | add services into domain model for role and user|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|d4b16c16c6187ea0b631c6e9ebfd34418573639d|feat(iam) | add aggregate and entity into domain model|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|01ef289b8e06c608437e83fe9f784942133aab16|feat(iam) | add repositories into infrastructure using spring data mongodb|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|b772481b7f9265fa7cdd7755547df926a8d0c3c9|feat | add configurations to run application|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|dad58f32480d06eb505510c553488c63dfdf575a|feat(iam) | add endpoints for roles, users and iam|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|eaad313305eea6cc6ad968962a9c12220f68640d|feat(iam) | add resources and transform into interfaces directory to work with endpoints|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|06e2d6ad69877a6a17ccc4d3b407fb4433647cbe|fix(shared) | changed id from string to long|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|c461a5a847ab8e04a064edc5eb6afc50dafd3ae2|fix(iam) | fix variable type for these files|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|ff2fb2a6c541ffb7572bf0e47de580ab81655e08|feat(iam) | add implementation for services|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|8439db4b61723bda9a4d78319cad58f62188022e|feat(iam) | add security measures for tokens, login, etc|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|a0960fb7e3c2852f56e96310e284f263c1a43b15|feat(iam) | add services for tokens, hashing, etc|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|43b1bbbef36b5347980e1a24189be88b57055619|feat(iam) | add facade to interact with other bounded contexts|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|446d39aec1d5012e434eb6ee0dbf0ce20617c19c|refactor(pom) | add management dependencies|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|52bedcd93b6974510c1c8eea0e45e74194b13a70|refactor(pom) | refactored pom.xml|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|aa04417c3937ea4646487613b11352f9f2e9460d|refactor(pom) | refactored application.properties|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|f360d9db097b676f756a7c783673acad7bb8b6d7|feat(pom) | add dependencies to pom for openai service and apache http components|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|5138178d855314fc986d7527266533a8a93c56ea|feat(roadmap) | add command and queries for domain model|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|6ab57299e68457af7250c3cf33c2d08dbd7085fc|feat(roadmap) | add outbound service in application layer|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|eaa28f963e1abc9f32012ce68d32ce9d5469038f|feat(roadmap) | add entities, value objects and aggregates for domain layer|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|131c8525f8e9ded47671249807295f7961f76e2c|feat(roadmap) | add service interfaces for roadmap aggregate and both, ai interaction and ai recommendations|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|e33627bc8c10b32d81bbb8b2eab5cb07344e59da|feat(roadmap) | add service implementation for roadmap aggregate and both, ai interaction and ai recommendations|15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|90d29b3a2d8224de3d92f3fad82b9ba3e1d49cdd|feat(roadmap) | add repository for roadmap aggregate and ai recommendations|15/09/24|
+
+#### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
+
+En esta sección presentaremos la evidencia detallada de las pruebas rigurosas realizadas durante el sprint. Para garantizar la calidad y funcionalidad del producto, hemos empleado la metodología Gherkin para definir escenarios de prueba claros y concisos. Cada uno de estos escenarios se ha registrado meticulosamente en commits específicos en nuestro repositorio de código, lo que proporciona un registro completo y transparente de nuestro proceso de prueba.
+
+###### Tabla 26
+*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
+| Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
+|-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
+| upc-pre-202401--si730-WS52-SmarTech-AcceptanceTests | feat(.features): added More User Stories - Ruben - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 2 de Propertunity | 30/04/24 |
+
+#### 5.2.2.5 Execution Evidence for Sprint Review. 
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
+
+En esta sección, presentamos la relación de Endpoints documentados con OpenAPI, que están directamente vinculados con el alcance del Sprint. Iniciamos con una breve introducción que resume los logros alcanzados en relación con la Documentación de Web Services durante este período de desarrollo. A continuación, proporcionamos una tabla detallada que enumera cada Endpoint, junto con las acciones implementadas y los enlaces correspondientes a la documentación desplegada o la URL local en Sprints anteriores al despliegue de Web Services.
+
+El siguiente enlace proporcionará acceso al modelo de DBJson utilizado como una representación simulada de API antes de la integración y construcción de una API completa y final para Propertunity. Este enlace está ubicado dentro de nuestra plataforma FrontEnd y sirve como punto de referencia crucial durante el proceso de desarrollo y prueba.
+
+Al hacer clic en este enlace, los desarrolladores y miembros del equipo pueden acceder al modelo de datos completo en formato JSON, que representa de manera precisa la estructura y la organización de los datos utilizados en nuestra aplicación. Este modelo de DBJson sirve como un punto de partida fundamental para comprender la lógica subyacente de nuestra aplicación y cómo interactúa con la base de datos: https://github.com/SmarTech-Propertunity/upc-pre-202401--si730-WS52-SmarTech-FrontEnd/blob/main/server/db.json
+
+En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo el verbo HTTP (GET, POST, PUT, DELETE, PATCH), la sintaxis de llamada, la especificación de posibles parámetros y se incluye un ejemplo junto con una explicación del response correspondiente. Además de la tabla, se presentan capturas de pantalla que ilustran la interacción con la documentación elaborada, utilizando datos de muestra para demostrar cómo se utiliza cada Endpoint. En este caso, vamos a dar una explicación completa de 3 clases con respecto a todo el modelo del DBJson para poder dar una idea completa y, a la vez, no abrumar al lector con grandes cúmulos de información base en un modelo CRUD:
+
+###### Tabla 27
+*Tabla del modelo de escritura para el Bounded Context de IAM*
+| Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
+|---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
+| GET     | Obtener todos los usuarios                   | GET /usuarios               | Ninguno                                        | Lista de usuarios en formato JSON con detalles como nombre, correo, fecha de registro, etc.|
+| POST    | Crear un nuevo usuario                       | POST /usuarios              | `username`, `email`, `password`                | Detalles del nuevo usuario creado en formato JSON, incluyendo ID y fecha de creación.      |
+| PUT     | Actualizar la información de un usuario      | PUT /usuarios/{id}          | `username`, `email`, `password`                | Usuario actualizado con los nuevos datos proporcionados.                                  |
+| DELETE  | Eliminar un usuario                          | DELETE /usuarios/{id}       | `id` del usuario                               | Mensaje de confirmación de eliminación del usuario.                                        |
+| GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
+| POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
+| POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
+
+
+###### Tabla 28
+Tabla del modelo de escritura para el Bounded Context de Roadmaps:
+| Método  | Descripción                                            | Ejemplo de llamada               | Parámetros                                                      | Respuesta                                                                                 |
+|---------|--------------------------------------------------------|----------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| GET     | Obtener todos los roadmaps disponibles                 | GET /roadmaps                    | Ninguno                                                         | Lista de roadmaps en formato JSON con detalles como título, descripción, nodos, edges, etc.|
+| POST    | Crear un nuevo roadmap                                 | POST /roadmaps                   | `title`, `description`, `nodes[]`, `edges[]`                    | Detalles del nuevo roadmap creado, incluyendo ID y fecha de creación.                     |
+| PUT     | Modificar un roadmap existente                         | PUT /roadmaps/{id}               | `title`, `description`, `nodes[]`, `edges[]`                    | Roadmap actualizado con la nueva información proporcionada.                               |
+| DELETE  | Eliminar un roadmap                                    | DELETE /roadmaps/{id}            | `id` del roadmap                                                | Mensaje de confirmación de eliminación del roadmap.                                        |
+| GET     | Obtener detalles de un roadmap específico              | GET /roadmaps/{id}               | `id` del roadmap                                                | Detalles del roadmap solicitado, con nodos y edges.                                       |
+| POST    | Generar recomendaciones mediante IA para un roadmap    | POST /roadmaps/{id}/recommendations | `id`, `userPrompt`, `aiToken`                                   | Respuesta de la IA con sugerencias personalizadas para el roadmap.                        |
+| GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
+| POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1 de la sección Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del propio BackEnd de la aplicación móvil de Roademics, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
+
+Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas y discutir la estrategia de desarrollo del proyecto. Estas reuniones fueron cruciales para clarificar nuestras responsabilidades individuales y asegurar un desempeño óptimo. Para maximizar la eficiencia, decidimos asignar a cada miembro del equipo una sección específica del BackEnd para desarrollar, lo que nos permitió avanzar rápidamente y cumplir con los plazos establecidos.
+
+Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd del Web Application.
+
+###### Figura 88
+*Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
+
+<img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
+<img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+
