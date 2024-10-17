@@ -1,6 +1,7 @@
 # Capítulo 4: Backend Product Implementation & Validation
 
 ## 4.1. Software Configuration Management.
+
 En la gestión de la configuración del backend para la aplicación móvil Roademics, nos centramos en el control eficiente del código fuente, asegurando un manejo riguroso de versiones mediante sistemas como Git, y manteniendo una estructura modular y organizada durante todo el ciclo de desarrollo. Implementamos pipelines de CI/CD (Integración Continua y Despliegue Continuo) que automatizan pruebas, integraciones y despliegues en los entornos de desarrollo, pruebas y producción. Asimismo, nos aseguramos que todos los bounded context estén correctamente versionados y alineados con la infraestructura en, permitiendo una fácil integración con las APIs externas como Firebase Authentication, Stripe y Twilio.
 
 Estas decisiones son críticas para asegurar la eficiencia, coherencia y flexibilidad en la estructura del backend, lo que nos permite responder de manera ágil a las necesidades de los usuarios finales. De este modo, garantizamos una plataforma robusta y escalable, optimizada para manejar grandes volúmenes de solicitudes y datos de forma segura. Adicionalmente, la correcta gestión del backend asegura que tanto los reclutadores y empresas, como los estudiantes y profesionales, puedan interactuar de forma fluida con la plataforma, explorando y gestionando los roadmaps profesionales. Todo ello se complementa con la infraestructura descrita en los capítulos posteriores de esta documentación.
@@ -45,6 +46,23 @@ Página oficial de LucidChart: https://lucidchart.com/
 
 Página oficial de Moon Modeler: https://www.datensen.com/data-modeling/moon-modeler-for-databases.html 
 
+**Product UX/UI Design**:
+
+Esta sección abarca el desarrollo y diseño de las interfaces UX y UI para nuestro proyecto durante todo su ciclo de vida. Las herramientas seleccionadas deben ofrecer la flexibilidad para modificar la estética de las páginas y garantizar una experiencia óptima para nuestros usuarios finales, alineándose con las historias de usuario y las metodologías de desarrollo móvil. También es fundamental que estas herramientas permitan la estructuración y diagramación adecuada de todos los elementos necesarios.
+
+**Mapas y User Personas**: Para la creación y seguimiento de mapas como el Empathy Map, Journey Map e Impact Map, hemos optado por la plataforma "UXPressia". Esta herramienta se distingue por su interfaz intuitiva y su conjunto de funcionalidades integradas que facilitan la elaboración detallada de estos mapas, esenciales para entender mejor a nuestros usuarios y sus necesidades. UXPressia permite colaborar de manera eficiente, ya que ofrece capacidades de trabajo en equipo en tiempo real, lo cual es crucial para mantener la coherencia y la calidad en el diseño.
+Además, UXPressia proporciona herramientas para crear User Personas con modelos predefinidos y plantillas adaptables, que nos ayudan a representar de forma clara y visual los perfiles de nuestros usuarios objetivo. Aunque la plataforma puede tener algunas limitaciones en la creación de gráficos complejos, su enfoque en la simplicidad y la usabilidad compensa estas restricciones. Su capacidad para integrar y visualizar datos de manera efectiva asegura que nuestros mapas y personas sean precisos y útiles para el desarrollo del producto.
+
+Página oficial de UXPressia: https://uxpressia.com/
+
+**Escenarios**: Para modelar los escenarios AS-IS y TO-BE de nuestros segmentos de mercado, hemos seleccionado la herramienta "Miro". Miro es una plataforma altamente versátil que ofrece una amplia gama de plantillas y modelos para la creación de diagramas, tablas y mapas visuales. Su capacidad para facilitar la colaboración en tiempo real es una de sus principales ventajas, permitiendo que varios miembros del equipo trabajen juntos simultáneamente, lo cual mejora la calidad y la coherencia de los resultados finales. Miro también ofrece funcionalidades para crear mapas de procesos y diagramas de flujo detallados, que son esenciales para comprender las interacciones actuales y planificar mejoras futuras. La interfaz de Miro es intuitiva y permite una navegación fluida, lo que hace que el proceso de modelado sea eficiente y menos propenso a errores.
+
+Página oficial de Miro: https://miro.com/
+
+**Wireframes, Mock-ups, Prototypes y Diseño Móvil**: Para la creación de wireframes, mock-ups y prototipos de la landing page de nuestra startup y la interfaz de la aplicación móvil, hemos optado por "Figma". Figma es una herramienta poderosa y especializada en el diseño de interfaces digitales, ofreciendo un conjunto completo de funcionalidades para la creación de prototipos interactivos y el diseño colaborativo. La plataforma permite a los diseñadores trabajar en tiempo real, lo que facilita la comunicación y el intercambio de ideas entre los miembros del equipo, y asegura que el proceso de diseño sea ágil y eficiente. Figma también incluye una extensa biblioteca de componentes y recursos que pueden ser reutilizados, lo que acelera la creación de diseños consistentes y de alta calidad. Además, la capacidad de Figma para integrar comentarios y revisiones directamente en el diseño facilita la iteración y la mejora continua del producto. Esta herramienta es ideal para el diseño móvil, ya que ofrece características específicas para adaptar interfaces a diferentes dispositivos y resoluciones.
+
+Página oficial de Figma: https://figma.com/
+
 ---
 
 **Web Services**: En esta sección estarán las herramientas de desarrollo del Web Services con el Backend. Es esencial adoptar frameworks y metodologías que garanticen una programación eficiente y la implementación de un backend robusto y de alto rendimiento. Utilizaremos frameworks que proporcionen bibliotecas preimplementadas para facilitar la creación, configuración y manejo de los servicios web. Estos frameworks permiten una integración fluida de los servicios, optimizando el rendimiento y asegurando que el backend pueda manejar de manera eficiente las solicitudes y respuestas entre los diferentes componentes del sistema.
@@ -81,12 +99,50 @@ Página oficial de MongoDB Atlas: https://www.mongodb.com/products/platform/atla
 
 ---
 
-**Software Deployment**: Esta sección se centra en las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva del backend desarrollado a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para garantizar que el backend se implemente sin problemas de rendimiento o inconsistencias en su funcionamiento. 
+**Software Development**:
 
-- Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
+Esta sección se centra en las herramientas y aplicaciones necesarias para la programación de la landing page y la aplicación móvil de nuestro proyecto durante todo su ciclo de vida. Los instrumentos seleccionados incluyen IDEs, lenguajes de programación, bibliotecas y frameworks que deben alinearse con las metodologías y principios establecidos en el proyecto. Estos deben cumplir con las historias de usuario y los esquemas definidos para alcanzar los objetivos de nuestra startup y satisfacer las necesidades de nuestros segmentos objetivos.
+
+En el proceso de desarrollo de la aplicación móvil, se emplearán herramientas específicas para garantizar una programación eficiente y una integración adecuada con los distintos componentes del proyecto. Para la implementación técnica, se utilizará Kotlin como lenguaje de programación. Kotlin, conocido por su interoperabilidad con Java y su sintaxis concisa, proporciona una base sólida y moderna para el desarrollo de aplicaciones móviles en el entorno de Android.
+
+Landing Page: La landing page será desarrollada utilizando HTML5, CSS3 y JavaScript nativo. Cada uno de estos lenguajes se gestionará en secciones específicas dentro del repositorio del proyecto, lo que garantiza una estructura organizada y eficiente. HTML5 y CSS3 se encargarán de la estructura y el diseño de la página, mientras que JavaScript nativo permitirá añadir interactividad y funcionalidad dinámica. Esta combinación asegura que la página sea robusta, flexible y adecuada para un entorno de producción.
+
+Además, para mantener una interfaz clara y coherente, la landing page seguirá las directrices del Material Design. Este enfoque, conocido por su consistencia en el diseño de interfaces de usuario, contribuirá a una experiencia visualmente atractiva y funcional. En cuanto a las herramientas de desarrollo, se utilizará Visual Studio Code como el IDE principal. Aunque es más sencillo en comparación con otros IDEs más avanzados, su amplia gama de funcionalidades y extensiones facilita el proceso de programación, haciéndolo una opción efectiva para este proyecto.
+
+Página oficial de Visual Studio Code: https://code.visualstudio.com/
+
+Guías y recursos adicionales:
+
+HTML: https://www.w3schools.com/html/
+
+CSS: https://www.w3schools.com/css/default.asp
+
+Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Material Design: https://m3.material.io/Design
+
+**Aplicación Móvil**: La aplicación móvil será desarrollada utilizando Flutter con VSCode como el entorno de desarrollo integrado (IDE). Flutter, el kit de herramientas de UI de Google para crear aplicaciones nativas compiladas para dispositivos móviles, web y escritorio a partir de una única base de código, ofrece una forma eficiente y flexible de construir interfaces de usuario atractivas y de alto rendimiento. VSCode es un IDE ligero pero potente que proporciona una integración fluida con Flutter, facilitando el desarrollo, la depuración y el diseño de la aplicación móvil.
+
+El diseño de la interfaz de usuario de la aplicación se basará en los principios del Material Design, garantizando una experiencia de usuario intuitiva y visualmente atractiva. Flutter proporciona un conjunto completo de widgets y herramientas para implementar estos principios, permitiendo la creación de interfaces de usuario consistentes y funcionales.
+
+Página oficial de Flutter: https://flutter.dev
+
+Guías y recursos adicionales:
+
+Material Design: https://m3.material.io
+
+VSCode: https://code.visualstudio.com
+
+---
+
+**Software Deployment**:
+
+Esta sección aborda las herramientas y aplicaciones necesarias para llevar a cabo el despliegue e implementación efectiva de todas las páginas web desarrolladas a lo largo del ciclo de vida del proyecto. Los recursos seleccionados deben ser fáciles de usar y ofrecer alta confiabilidad para asegurar que las páginas se publiquen sin problemas de rendimiento o inconsistencias en su formato.
+Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporciona un rendimiento eficiente y confiable al alojar los sitios web directamente desde los repositorios en la misma plataforma. Dado que la Landing Page es estática, no requerirá actualizaciones frecuentes ni cambios continuos, lo que hace que GitHub Pages sea una opción adecuada para su implementación.
 
 Página oficial de GitHub Pages: https://pages.github.com/
 
+- Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
 ---
 
 **Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
@@ -115,8 +171,10 @@ Repositorios en GitHub:
 
 - BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
 
+
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
+
 
 ###### Tabla 23.
 
@@ -164,7 +222,6 @@ Formato de Commit:
 
 |feat(branch): verb + brief description in English|
 |-------------------------------------------------|
-
 En este formato, "branch" debe indicar la rama en la que se han realizado los cambios propuestos para una nueva funcionalidad del backend. La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio implementado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
 
 ###### Tabla 25
@@ -172,6 +229,7 @@ En este formato, "branch" debe indicar la rama en la que se han realizado los ca
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
+
 |Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
 |Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
 |Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
@@ -849,3 +907,4 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 <img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
 <img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
 <img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+
