@@ -24,7 +24,7 @@ Página oficial de Github: https://github.com/
 
 ---
 
-**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, h
+**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, hemos empleado una serie de programas que presenten listas organizadas junto a tableros con los objetivos y metas que necesitamos completar, ademas de todos los puntos que falten completar.
 
 - Organización de tareas: Hemos adoptado ClickUp como nuestra herramienta principal para la gestión de tareas del backend. La plataforma ofrece una interfaz amigable que facilita la división de las actividades relacionadas con la infraestructura y el desarrollo del backend entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas del backend, podemos establecer plazos, asignar responsables y monitorear el progreso de cada tarea técnica de manera eficiente. Esta configuración nos permite evaluar el avance en la implementación de la API, servicios externos y despliegues, así como analizar el desempeño general del equipo de backend. ClickUp también permite revisar las contribuciones individuales y el trabajo realizado en la parte del servidor, promoviendo la transparencia y la colaboración efectiva dentro del equipo técnico.
 
@@ -143,6 +143,7 @@ Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporcio
 Página oficial de GitHub Pages: https://pages.github.com/
 
 - Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
+  
 ---
 
 **Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
@@ -165,12 +166,11 @@ A continuación, se proporciona una lista con los enlaces a la organización de 
 
 Repositorios en GitHub:
 
-- Organización: https://github.com/GRUPO-3-MOVILES 
+- Repositorio principal de la organización de Roademics: https://github.com/GRUPO-3-MOVILES 
 
-- Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
+- Repositorio del reporte y documentación de Roademics: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
-- BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
-
+- Repositorio con todo el código correspondiente al BackEnd de Roademics: https://github.com/GRUPO-3-MOVILES/WeHaveIdea
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
@@ -218,7 +218,7 @@ Esta metodología garantiza una organización efectiva del flujo de trabajo, fac
 
 Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de backend, hemos establecido el siguiente formato estándar:
 
-Formato de Commit:
+**Formato de Commit:**
 
 |feat(branch): verb + brief description in English|
 |-------------------------------------------------|
@@ -229,7 +229,6 @@ En este formato, "branch" debe indicar la rama en la que se han realizado los ca
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
-
 |Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
 |Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
 |Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
@@ -349,7 +348,43 @@ Este repositorio permitirá a los desarrolladores gestionar de manera eficiente 
 
 ## 4.2. Software Development & Implementation.
 
-A continuación, describimos en detalle el enfoque técnico que adoptaremos para la implementación, pruebas y despliegue de nuestra infraestructura backend, centrado en la creación y gestión de los servicios web, así como en la integración con la base de datos y el manejo eficiente de las API necesarias para el correcto funcionamiento de la aplicación. Este proceso abarca el desarrollo de servicios backend escalables, la validación exhaustiva mediante pruebas unitarias y de integración, y la optimización del rendimiento antes de cada ciclo de despliegue en el entorno de producción. 
+A continuación, se presenta una descripción detallada del enfoque técnico que adoptaremos para la implementación y despliegue de nuestra infraestructura backend en el proyecto de Roademics. Este enfoque se centra en la creación y gestión de servicios web, además de la integración con la base de datos y el manejo eficiente de las APIs necesarias para garantizar el correcto funcionamiento de la aplicación.
+
+El proceso contempla varias etapas fundamentales. En primer lugar, se procederá al desarrollo de servicios backend escalables, diseñados para manejar un volumen creciente de solicitudes y datos, lo que asegurará la disponibilidad y el rendimiento óptimo de la aplicación en diferentes escenarios de carga. Además, se llevará a cabo una validación exhaustiva mediante pruebas unitarias y de integración. Estas pruebas son esenciales para identificar y corregir errores en fases tempranas del desarrollo, garantizando que cada componente funcione correctamente tanto de forma aislada como en conjunto.
+
+Finalmente, antes de cada ciclo de despliegue en el entorno de producción, se implementarán estrategias de optimización del rendimiento. Esto incluirá la revisión y ajuste de consultas a la base de datos, la implementación de cachés y el análisis del tiempo de respuesta de las APIs. Este enfoque proactivo no solo mejorará la eficiencia del sistema, sino que también contribuirá a una experiencia de usuario fluida y satisfactoria.
+
+**Despliegue de la arquitectura BackEnd de Roademics:**
+
+Comenzaremos el proceso estableciendo un repositorio en GitHub, el cual funcionará como el repositorio central para todo el código y los recursos que componen nuestra aplicación de Backend, desarrollada en Java, con el framework de SpringBoot y organizada bajo Clean Architecture. Este repositorio servirá como base para gestionar la estructura del proyecto y contener los módulos esenciales de la aplicación, incluyendo el manejo de la API principal, la lógica de negocio establecida junto a los endpoints adecuados, y la integración con servicios externos como Firebase Authentication, Twilio y Stripe. Una vez que el repositorio esté configurado, cada desarrollador trabajará en su propia rama "feature" para implementar y mejorar funcionalidades específicas, permitiendo que cada contribución sea independiente y esté organizada. Una vez cada desarrollador termine su sección de feature, esas ramas serán eliminadas y se pasaran a las ramas principales.
+
+Al completar el desarrollo de una funcionalidad, el siguiente paso será integrar el código en la rama "develop". Este proceso de fusión (merge) es fundamental, ya que asegura que la rama principal de desarrollo esté siempre actualizada con las implementaciones más recientes y con el trabajo colaborativo del equipo. Para garantizar una integración fluida, vamos a realizar revisiones de código a profundidad antes de realizar el merge. Estas revisiones y pruebas ayudarán a mantener la calidad del código y a detectar posibles conflictos o errores en una etapa temprana, evitando problemas en el entorno de producción.
+
+Una vez que la rama "develop" esté lista y el código esté validado, configuraremos Railway para desplegar automáticamente nuestra aplicación de Servicios. Railway es una plataforma de infraestructura como servicio (IaaS) que facilita el despliegue, administración y escalabilidad de aplicaciones de backend, APIs y bases de datos. Esta plataforma facilitará el despliegue continuo al habilitar la actualización de la aplicación cada vez que se realice un merge en la rama "develop", permitiendo que la aplicación esté accesible de manera pública o en un entorno de pruebas, según las necesidades del proyecto. Esta configuración en Railway no solo optimiza el proceso de despliegue, sino que también proporciona un enlace que puede compartirse con los miembros del equipo y las partes interesadas, permitiendo una retroalimentación rápida y eficaz sobre el rendimiento y las funcionalidades del Backend.
+
+A continuación, detallaremos los pasos necesarios para realizar este despliegue en Railway, con un enfoque en las mejores prácticas y consideraciones técnicas que asegurarán una implementación robusta y libre de contratiempos. Esta guía tiene como objetivo alinear al equipo y asegurar una implementación exitosa y eficiente de nuestra aplicación de Backend.
+
+1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics. 
+
+2. Después de completar los pasos de autenticación requeridos por Railway para acceder a la plataforma, seremos dirigidos a la página de inicio, donde encontraremos la sección principal para la creación de un nuevo proyecto mediante el panel de control. En esta sección, seleccionaremos la opción "Deploy from GitHub repository", que permite conectar directamente un repositorio de GitHub para configurar el despliegue de manera continua. Esta opción es ideal para proyectos como Roademics, ya que simplifica la integración con el repositorio y facilita la implementación automática de cambios realizados en la rama principal (main), asegurando que la aplicación esté siempre actualizada en el entorno de producción o pruebas, según corresponda.
+
+3. Al haber vinculado nuestra cuenta de Railway con la de GitHub, la plataforma mostrará automáticamente todos los repositorios en los que tenemos permisos de administrador. Esto nos permitirá seleccionar el repositorio específico de Roademics para proceder con su despliegue. Railway detectará las ramas disponibles en el repositorio, como la rama principal (main) y cualquier otra rama de desarrollo que deseemos utilizar, ofreciendo así un control total sobre el entorno de despliegue y las versiones de código que se publicarán.
+
+4. A continuación, se nos presentará una sección para la configuración de variables de entorno, las cuales son esenciales para el correcto funcionamiento de nuestra aplicación. En este caso, dado que estamos utilizando Java con Spring Boot, deberemos definir las variables que normalmente se encuentran en el archivo "application.properties" de nuestro proyecto. Estas variables pueden incluir credenciales de acceso a bases de datos, claves API de servicios externos, o configuraciones específicas del entorno de producción. Configurar correctamente estas variables en Railway garantiza que la aplicación se ejecute con los valores apropiados en cada despliegue, manteniendo la seguridad y permitiendo una adaptación flexible entre distintos entornos (desarrollo, pruebas, producción).
+
+5. Una vez que hayamos definido todas las variables de entorno necesarias, procederemos a hacer clic en el botón "*Deploy Now*", lo cual iniciará el proceso de build y deploy de nuestra aplicación en Railway. Durante esta fase, Railway compilará el proyecto y gestionará la implementación, verificando que todas las configuraciones, dependencias y servicios externos estén correctamente conectados y configurados. Es importante monitorear el progreso en esta etapa para asegurarnos de que no haya errores en la compilación o despliegue, lo cual puede tardar unos minutos dependiendo de la complejidad del proyecto.
+
+6. Para acceder a la interfaz gráfica de Swagger para nuestro backend, utilizaremos el dominio proporcionado por Railway y añadiremos la ruta "/swagger-ui/index.html#/" al final de la URL. Esto le indica a Swagger que queremos usar su interfaz para interactuar con los métodos HTTP de nuestra API, evitando hacer peticiones directas a los endpoints. Así, obtendremos una URL similar a la siguiente:
+  
+   "https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/"
+
+   Este enlace nos permitirá visualizar y probar todos los endpoints de nuestra API en un entorno controlado, facilitando la documentación y verificación de los servicios expuestos por el backend.
+
+   Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+
+7. Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+
+8. Al probar nuestro enlace en Postman para contactar un endpoint específico, recibimos un response con el código de estado 200, lo que indica que la solicitud fue procesada exitosamente.
 
 ### 4.2.1. Sprint 1
 
