@@ -954,7 +954,14 @@ En esta sección se explicarán y presentarán los avances obtenidos en la imple
 *Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fcd14b9127bccf8dce545dfaff8e439c2dde91c7|chore: create clean architecture folder structure and add app_constants|committed :)| 25/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|11e89700dd38ae8f9b45e8f598a3278a1e746222|chore: add placeholder for team collaboration|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|f3e95111ef5f8264cb4c28fbbc2ee7adb46545a0|chore: add more placeholders |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|5d323f549767b421e31f61af7bddf5f281371054|feat: add profile page, edit profile, settings page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fbb9f26790c7ee08a44aae50b4e9de868ab08fba|feat: add update email settings page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|65bf6314c46c88c58692c652b8e5e4d69078278d|feat: add update phone number page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|1dd12af8610363edb885b11be93bf78585066d2f|feat: add change password page|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|d4dc95c6b813259b32fba6ab146dbc2a8aaa7f21|feat: add delete account function|committed :)| 26/10/24|
 
 #### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
 
