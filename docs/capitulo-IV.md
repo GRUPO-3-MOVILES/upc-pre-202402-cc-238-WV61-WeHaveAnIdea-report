@@ -367,15 +367,27 @@ Una vez que la rama "develop" esté lista y el código esté validado, configura
 
 A continuación, detallaremos los pasos necesarios para realizar este despliegue en Railway, con un enfoque en las mejores prácticas y consideraciones técnicas que asegurarán una implementación robusta y libre de contratiempos. Esta guía tiene como objetivo alinear al equipo y asegurar una implementación exitosa y eficiente de nuestra aplicación de Backend.
 
-1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics. 
+1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics.
+
+  <img src="/assets/img/railway-initial-page.png" alt="Initial page from railway's platform">
+
+  <img src="/assets/img/railway-register.png" alt="Register page from railway's platform">
 
 2. Después de completar los pasos de autenticación requeridos por Railway para acceder a la plataforma, seremos dirigidos a la página de inicio, donde encontraremos la sección principal para la creación de un nuevo proyecto mediante el panel de control. En esta sección, seleccionaremos la opción "Deploy from GitHub repository", que permite conectar directamente un repositorio de GitHub para configurar el despliegue de manera continua. Esta opción es ideal para proyectos como Roademics, ya que simplifica la integración con el repositorio y facilita la implementación automática de cambios realizados en la rama principal (main), asegurando que la aplicación esté siempre actualizada en el entorno de producción o pruebas, según corresponda.
 
+  <img src="/assets/img/railway-repository-section.png" alt="Repository page from railway's platform">
+
 3. Al haber vinculado nuestra cuenta de Railway con la de GitHub, la plataforma mostrará automáticamente todos los repositorios en los que tenemos permisos de administrador. Esto nos permitirá seleccionar el repositorio específico de Roademics para proceder con su despliegue. Railway detectará las ramas disponibles en el repositorio, como la rama principal (main) y cualquier otra rama de desarrollo que deseemos utilizar, ofreciendo así un control total sobre el entorno de despliegue y las versiones de código que se publicarán.
+
+  <img src="/assets/img/railway-repository-vinculation.png" alt="Repository page from railway's platform with the vinculation from Github">
 
 4. A continuación, se nos presentará una sección para la configuración de variables de entorno, las cuales son esenciales para el correcto funcionamiento de nuestra aplicación. En este caso, dado que estamos utilizando Java con Spring Boot, deberemos definir las variables que normalmente se encuentran en el archivo "application.properties" de nuestro proyecto. Estas variables pueden incluir credenciales de acceso a bases de datos, claves API de servicios externos, o configuraciones específicas del entorno de producción. Configurar correctamente estas variables en Railway garantiza que la aplicación se ejecute con los valores apropiados en cada despliegue, manteniendo la seguridad y permitiendo una adaptación flexible entre distintos entornos (desarrollo, pruebas, producción).
 
+  <img src="/assets/img/railway-add-variables.png" alt="Variables section from railway's platform">
+
 5. Una vez que hayamos definido todas las variables de entorno necesarias, procederemos a hacer clic en el botón "*Deploy Now*", lo cual iniciará el proceso de build y deploy de nuestra aplicación en Railway. Durante esta fase, Railway compilará el proyecto y gestionará la implementación, verificando que todas las configuraciones, dependencias y servicios externos estén correctamente conectados y configurados. Es importante monitorear el progreso en esta etapa para asegurarnos de que no haya errores en la compilación o despliegue, lo cual puede tardar unos minutos dependiendo de la complejidad del proyecto.
+
+  <img src="/assets/img/railway-build-and-deploy.png" alt="Build and Deploy process in the railway's platform">
 
 6. Para acceder a la interfaz gráfica de Swagger para nuestro backend, utilizaremos el dominio proporcionado por Railway y añadiremos la ruta "/swagger-ui/index.html#/" al final de la URL. Esto le indica a Swagger que queremos usar su interfaz para interactuar con los métodos HTTP de nuestra API, evitando hacer peticiones directas a los endpoints. Así, obtendremos una URL similar a la siguiente:
   
@@ -383,11 +395,15 @@ A continuación, detallaremos los pasos necesarios para realizar este despliegue
 
    Este enlace nos permitirá visualizar y probar todos los endpoints de nuestra API en un entorno controlado, facilitando la documentación y verificación de los servicios expuestos por el backend.
 
-   Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+  <img src="/assets/img/railway-obtain-swagger.png" alt="Endpoint's link obtained in the railway's platform">  
 
 7. Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
 
+  <img src="/assets/img/railway-show-swagger.png" alt="Roademics' Swagger Presentation">  
+  
 8. Al probar nuestro enlace en Postman para contactar un endpoint específico, recibimos un response con el código de estado 200, lo que indica que la solicitud fue procesada exitosamente.
+
+  <img src="/assets/img/railway-show-postman.png" alt="Roademics' Postman Presentation">  
 
 ### 4.2.1. Sprint 1
 
@@ -838,12 +854,6 @@ En esta sección se revisara todo el proceso dado para el Sprint Backlog número
                 </tr>
     </table>
 
-Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
-
-###### Figura 58
-*Presentación de la tabla de actividades designada para el Sprint 2 en ClickUp.*
-<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
-
 #### 5.2.2.3 Development Evidence for Sprint Review.
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
@@ -932,8 +942,53 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
 | POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
 
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+
+Comenzaremos el proceso estableciendo un repositorio en GitHub, el cual funcionará como el repositorio central para todo el código y los recursos que componen nuestra aplicación de Backend, desarrollada en Java, con el framework de SpringBoot y organizada bajo Clean Architecture. Este repositorio servirá como base para gestionar la estructura del proyecto y contener los módulos esenciales de la aplicación, incluyendo el manejo de la API principal, la lógica de negocio establecida junto a los endpoints adecuados, y la integración con servicios externos como Firebase Authentication, Twilio y Stripe. Una vez que el repositorio esté configurado, cada desarrollador trabajará en su propia rama "feature" para implementar y mejorar funcionalidades específicas, permitiendo que cada contribución sea independiente y esté organizada. Una vez cada desarrollador termine su sección de feature, esas ramas serán eliminadas y se pasaran a las ramas principales.
+
+Al completar el desarrollo de una funcionalidad, el siguiente paso será integrar el código en la rama "develop". Este proceso de fusión (merge) es fundamental, ya que asegura que la rama principal de desarrollo esté siempre actualizada con las implementaciones más recientes y con el trabajo colaborativo del equipo. Para garantizar una integración fluida, vamos a realizar revisiones de código a profundidad antes de realizar el merge. Estas revisiones y pruebas ayudarán a mantener la calidad del código y a detectar posibles conflictos o errores en una etapa temprana, evitando problemas en el entorno de producción.
+
+Una vez que la rama "develop" esté lista y el código esté validado, configuraremos Railway para desplegar automáticamente nuestra aplicación de Servicios. Railway es una plataforma de infraestructura como servicio (IaaS) que facilita el despliegue, administración y escalabilidad de aplicaciones de backend, APIs y bases de datos. Esta plataforma facilitará el despliegue continuo al habilitar la actualización de la aplicación cada vez que se realice un merge en la rama "develop", permitiendo que la aplicación esté accesible de manera pública o en un entorno de pruebas, según las necesidades del proyecto. Esta configuración en Railway no solo optimiza el proceso de despliegue, sino que también proporciona un enlace que puede compartirse con los miembros del equipo y las partes interesadas, permitiendo una retroalimentación rápida y eficaz sobre el rendimiento y las funcionalidades del Backend.
+
+A continuación, detallaremos los pasos necesarios para realizar este despliegue en Railway, con un enfoque en las mejores prácticas y consideraciones técnicas que asegurarán una implementación robusta y libre de contratiempos. Esta guía tiene como objetivo alinear al equipo y asegurar una implementación exitosa y eficiente de nuestra aplicación de Backend.
+
+1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics.
+
+  <img src="/assets/img/railway-initial-page.png" alt="Initial page from railway's platform">
+
+  <img src="/assets/img/railway-register.png" alt="Register page from railway's platform">
+
+2. Después de completar los pasos de autenticación requeridos por Railway para acceder a la plataforma, seremos dirigidos a la página de inicio, donde encontraremos la sección principal para la creación de un nuevo proyecto mediante el panel de control. En esta sección, seleccionaremos la opción "Deploy from GitHub repository", que permite conectar directamente un repositorio de GitHub para configurar el despliegue de manera continua. Esta opción es ideal para proyectos como Roademics, ya que simplifica la integración con el repositorio y facilita la implementación automática de cambios realizados en la rama principal (main), asegurando que la aplicación esté siempre actualizada en el entorno de producción o pruebas, según corresponda.
+
+  <img src="/assets/img/railway-repository-section.png" alt="Repository page from railway's platform">
+
+3. Al haber vinculado nuestra cuenta de Railway con la de GitHub, la plataforma mostrará automáticamente todos los repositorios en los que tenemos permisos de administrador. Esto nos permitirá seleccionar el repositorio específico de Roademics para proceder con su despliegue. Railway detectará las ramas disponibles en el repositorio, como la rama principal (main) y cualquier otra rama de desarrollo que deseemos utilizar, ofreciendo así un control total sobre el entorno de despliegue y las versiones de código que se publicarán.
+
+  <img src="/assets/img/railway-repository-vinculation.png" alt="Repository page from railway's platform with the vinculation from Github">
+
+4. A continuación, se nos presentará una sección para la configuración de variables de entorno, las cuales son esenciales para el correcto funcionamiento de nuestra aplicación. En este caso, dado que estamos utilizando Java con Spring Boot, deberemos definir las variables que normalmente se encuentran en el archivo "application.properties" de nuestro proyecto. Estas variables pueden incluir credenciales de acceso a bases de datos, claves API de servicios externos, o configuraciones específicas del entorno de producción. Configurar correctamente estas variables en Railway garantiza que la aplicación se ejecute con los valores apropiados en cada despliegue, manteniendo la seguridad y permitiendo una adaptación flexible entre distintos entornos (desarrollo, pruebas, producción).
+
+  <img src="/assets/img/railway-add-variables.png" alt="Variables section from railway's platform">
+
+5. Una vez que hayamos definido todas las variables de entorno necesarias, procederemos a hacer clic en el botón "*Deploy Now*", lo cual iniciará el proceso de build y deploy de nuestra aplicación en Railway. Durante esta fase, Railway compilará el proyecto y gestionará la implementación, verificando que todas las configuraciones, dependencias y servicios externos estén correctamente conectados y configurados. Es importante monitorear el progreso en esta etapa para asegurarnos de que no haya errores en la compilación o despliegue, lo cual puede tardar unos minutos dependiendo de la complejidad del proyecto.
+
+  <img src="/assets/img/railway-build-and-deploy.png" alt="Build and Deploy process in the railway's platform">
+
+6. Para acceder a la interfaz gráfica de Swagger para nuestro backend, utilizaremos el dominio proporcionado por Railway y añadiremos la ruta "/swagger-ui/index.html#/" al final de la URL. Esto le indica a Swagger que queremos usar su interfaz para interactuar con los métodos HTTP de nuestra API, evitando hacer peticiones directas a los endpoints. Así, obtendremos una URL similar a la siguiente:
+  
+   "https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/"
+
+   Este enlace nos permitirá visualizar y probar todos los endpoints de nuestra API en un entorno controlado, facilitando la documentación y verificación de los servicios expuestos por el backend.
+
+  <img src="/assets/img/railway-obtain-swagger.png" alt="Endpoint's link obtained in the railway's platform">  
+
+7. Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+
+  <img src="/assets/img/railway-show-swagger.png" alt="Roademics' Swagger Presentation">  
+  
+8. Al probar nuestro enlace en Postman para contactar un endpoint específico, recibimos un response con el código de estado 200, lo que indica que la solicitud fue procesada exitosamente.
+
+  <img src="/assets/img/railway-show-postman.png" alt="Roademics' Postman Presentation">  
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
