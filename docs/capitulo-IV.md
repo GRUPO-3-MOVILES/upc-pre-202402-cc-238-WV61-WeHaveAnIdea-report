@@ -172,9 +172,12 @@ Repositorios en GitHub:
 
 - Repositorio con todo el código correspondiente al BackEnd de Roademics: https://github.com/GRUPO-3-MOVILES/WeHaveIdea
 
+Asimismo, se brinda un enlace a todos los puntos desplegados de la aplicación por el lado del BackEnd:
+
+- Enlace del punto de visualización de Swagger del BackEnd de Roademics: https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/
+
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
-
 
 ###### Tabla 23.
 
@@ -428,11 +431,11 @@ En esta sección se explicarán los detalles presentados y analizados durante la
         </tr>
             <tr>
             <td>Sprint 1 Review Summary</td>
-            <td>Al concluir el Sprint 1, se llevó a cabo la reunión de Sprint Review en la que se evaluó el progreso realizado en el desarrollo del Backend de nuestra aplicación. Durante este sprint, el enfoque principal se centró en la creación de los Endpoints para el proceso de autenticación y autorización (IAM), así como en la implementación de la funcionalidad de Roadmaps. <br><br> La reunión fue exitosa en términos de avance en los productos de software y en la colaboración del equipo. Tras realizar un análisis exhaustivo de los objetivos establecidos y recopilar valiosa retroalimentación, se identificaron áreas de mejora que contribuyeron significativamente a la calidad del desarrollo. La integración de las recomendaciones recibidas permitió optimizar varios aspectos del código y mejorar la eficiencia de los nuevos Endpoints, lo que a su vez facilitó una experiencia de usuario más fluida y segura. </td> 
+            <td>Al finalizar el Sprint 1, se realizó la reunión de Sprint Review para evaluar los logros alcanzados en el desarrollo del Backend de nuestra aplicación. Este sprint se centró en el diseño y creación de Endpoints esenciales para los procesos de autenticación y autorización (IAM), así como en la implementación de funcionalidades críticas relacionadas con la gestión de Roadmaps. A lo largo de esta fase, el equipo dedicó sus esfuerzos a asegurar la seguridad y eficiencia de estos componentes, priorizando una estructura robusta y escalable. <br><br> La reunión fue altamente productiva tanto en términos de avance en los productos de software como en la cohesión del equipo. Tras un análisis detallado de los objetivos iniciales y la recopilación de retroalimentación constructiva, se identificaron varias oportunidades de mejora que, al ser implementadas, contribuyeron notablemente a optimizar la calidad del desarrollo. La integración de estas recomendaciones permitió refinar aspectos clave del código, logrando así una mayor eficiencia en los Endpoints y mejorando la experiencia del usuario en cuanto a seguridad y fluidez en la navegación. Estos ajustes se traducen en un Backend más sólido y preparado para los siguientes retos del proyecto. </td> 
         </tr>
             <tr>
             <td>Sprint 1 Retrospective Summary</td>
-            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización del primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil. <br><br> A través de este proceso reflexivo, se plantearon varias estrategias para garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros clientes. <br><br> Para este sprint en particular, hemos acordado implementar mejoras en la esquematización de los reportes, junto con la creación de diagramas que faciliten la comprensión y el seguimiento del progreso del desarrollo. Además, se propone una revisión integral del diseño del Backend, buscando optimizar su rendimiento y escalabilidad para garantizar una experiencia de usuario fluida en la aplicación móvil.</td>
+            <td>Durante la Sprint Retrospective del Sprint 1, nuestro equipo realizó un análisis detallado de la retroalimentación recibida al finalizar esta primera fase de desarrollo por el lado del BackEnd y otras implementaciones técnicas. Este proceso minucioso incluyó una evaluación profunda tanto del desempeño colectivo como del individual de cada miembro del equipo, permitiéndonos identificar áreas clave de mejora necesarias para optimizar la funcionalidad y calidad de nuestra aplicación móvil. <br><br> Como parte de esta reflexión, se propusieron varias estrategias que buscan asegurar un estándar de trabajo superior y alineado con las expectativas de nuestros clientes. En particular, se acordó implementar mejoras en la organización y claridad de los reportes, incluyendo la creación de diagramas visuales que faciliten el seguimiento y comprensión del progreso del desarrollo. Asimismo, se promovio la integración de documentación en los endpoints para un mejor uso por parte de los desarrolladores. También se identificó la necesidad de realizar una revisión exhaustiva de la arquitectura del Backend y el Clean Architecture que sigue de forma ideal, con el objetivo de optimizar su rendimiento y escalabilidad. Estas acciones no solo contribuyen a un diseño más robusto y ágil, sino que también son cruciales para brindar una experiencia de usuario más fluida y confiable en nuestra aplicación móvil.</td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
@@ -447,15 +450,15 @@ En esta sección se explicarán los detalles presentados y analizados durante la
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es XX</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es 64</td>
         </tr>
     </table>
 
 #### 4.2.2.2 Sprint Backlog 1.
 
-En esta sección se revisará todo el proceso relacionado con el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño del Backend y en la preparación de ciertas características correspondientes a la lógica de negocio y a los modelos de datos que interactúan con la base de datos mediante el uso de Endpoints documentados. Este enfoque abarcó la definición de las rutas de la API, la implementación de controladores, y la creación de servicios que soportan las funcionalidades requeridas por el sistema.
+En esta sección se examina detalladamente el proceso relacionado con el Sprint Backlog número 1, donde nuestro equipo se enfocó principalmente en la estructuración y diseño del Backend, así como en la preparación de funcionalidades clave de la lógica de negocio, particularmente en las áreas de autenticación y autorización (IAM) y en el diseño y desarrollo de los Roadmaps. Este enfoque abarcó desde la definición de rutas para la API hasta la implementación de controladores y la creación de servicios fundamentales para soportar las funcionalidades solicitadas por el sistema.
 
-Además, se abordaron los modelos de datos que estructuran la información en la base de datos MongoDB, asegurando que cada componente del backend esté alineado con los requisitos funcionales y no funcionales establecidos en la fase de planificación. También se discutieron las interacciones necesarias entre los distintos módulos del backend y la integración con MongoDB Atlas para garantizar un rendimiento óptimo y una alta disponibilidad de los datos. Este proceso de diseño y preparación fue crucial para sentar las bases del desarrollo efectivo en los siguientes sprints, asegurando que cada elemento del backend esté bien definido y listo para su implementación.
+También se trabajó en la creación de modelos de datos estructurados para la base de datos MongoDB, asegurando que cada componente del Backend esté perfectamente alineado con los requisitos funcionales y no funcionales definidos en la etapa de planificación. Asimismo, se analizaron y definieron las interacciones esenciales entre los distintos módulos del Backend y se abordó la integración con MongoDB Atlas para asegurar un rendimiento óptimo y una alta disponibilidad de datos. Este proceso de diseño y preparación fue fundamental para establecer las bases de un desarrollo eficiente en los sprints posteriores, asegurando que cada elemento del Backend esté bien estructurado y listo para su implementación, contribuyendo así a una mayor cohesión y claridad en el desarrollo del proyecto.
 
 ###### Tabla 59
 *Tabla principal del planeamiento del Sprint Backlog 1*
@@ -479,84 +482,89 @@ Además, se abordaron los modelos de datos que estructuran la información en la
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US21</td>
-            <td>Creación de roadmap académico básico</td>
-            <td>T01</td>
-            <td>Creación de roadmap básico</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>TS013</td>
+            <td>Creación de una estructura de datos en grafo para representar los roadmaps</td>
+            <td>T001</td>
+            <td>Estructura de datos en grafo para representar los roadmaps</td>
+            <td><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
             <td>3 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US24</td>
-            <td>Edición de roadmap académico básico</td>
-            <td>T02</td>
-            <td>Edición de roadmap básico</td>
-            <td>Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades.</td>
+            <td>TS014</td>
+            <td>Optimización de la creación, edición de nodos y conexiones en el grafo</td>
+            <td>T002</td>
+            <td>Optimización de la creación y edición de nodos y aristas</td>
+            <td><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.</td>
             <td>4 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US25</td>
-            <td>Acceso a herramienta de edición avanzada para usuarios Premium</td>
-            <td>T03</td>
-            <td>Acceso a herramientas de edición avanzada</td>
-            <td>Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.</td>
-            <td>2 horas</td>
+            <td>TS015</td>
+            <td>Implementación de una interfaz visual interactiva para la manipulación del grafo</td>
+            <td>T003</td>
+            <td>Interfaz visual interactiva para la manipulación del grafo</td>
+            <td><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.</td>
+            <td>2 horas y 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS016</td>
+            <td>Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.</td>
+            <td>T004</td>
+            <td>Integración de algoritmos de recomendaciones de Inteligencia Artificial para la sugerencia automática de nuevos nodos y conexiones</td>
+            <td><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales.</td>
+            <td>3 horas y 30 minutos</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US26</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>T04</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.</td>
+            <td>TS002</td>
+            <td>Implementación de validaciones de credenciales.</td>
+            <td>T005</td>
+            <td>Implementar validación de credenciales</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
             <td>3 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US27</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
-            <td>T05</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps</td>
-            <td>Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio.</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
-            <td>Done</td>
-        </tr>
-                <tr>
-            <td>US28</td>
-            <td>Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación</td>
-            <td>T06</td>
-            <td>Creación de roadmaps y compartirlos con los demás usuarios de la aplicación</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
-            <td>4 horas</td>
+            <td>TS001</td>
+            <td>Integrar un sistema de registro con Firebase Authentication.</td>
+            <td>T006</td>
+            <td>Integración de sistema de registro mediante Firebase Authentication</td>
+            <td><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td>3 horas y 30 minutos</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 </tr>
                 <tr>
-            <td>US29</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
-            <td>T07</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
-            <td>Como usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente..</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>TS004</td>
+            <td>Integración de sistema de autenticación con Firebase Authentication.</td>
+            <td>T007</td>
+            <td>Integración de sistema de autenticación mediante Firebase Authentication.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td>3 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+                </tr>
+                  <tr>
+            <td>TS003</td>
+            <td>Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
+            <td>T008</td>
+            <td>Encriptación de datos del usuario en tránsito y en reposo.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td>3 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                 </tr>
     </table>
-
-Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
-
-###### Figura 58
-*Presentación de la tabla de actividades designada para el Sprint 1 en ClickUp.*
-<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
 
 #### 5.2.2.3 Development Evidence for Sprint Review.
 
@@ -606,7 +614,7 @@ En esta sección presentaremos la evidencia detallada de las pruebas rigurosas r
 *Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
 | Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
 |-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
-| upc-pre-202401--si730-WS52-SmarTech-AcceptanceTests | feat(.features): added More User Stories - Ruben - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 2 de Propertunity | 30/04/24 |
+| upc-pre-202401--si730-WS52-Roademics-AcceptanceTests | feat(.features): added More User Stories - Ruben - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 2 de Roademics | 30/04/24 |
 
 #### 5.2.2.5 Execution Evidence for Sprint Review. 
 
@@ -631,7 +639,6 @@ En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo e
 | GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
 | POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
 | POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
-
 
 ###### Tabla 28
 Tabla del modelo de escritura para el Bounded Context de Roadmaps:
