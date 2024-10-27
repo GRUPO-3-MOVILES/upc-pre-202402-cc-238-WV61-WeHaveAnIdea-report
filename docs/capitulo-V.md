@@ -1040,7 +1040,7 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 ###### Figura 88
 *Reporte completo de contribuciones para el desarrollo del FrontEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
 
-<img src="/assets/img/Pulse-frontend-for-main-sprint2.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/Pulse-frontend-for-main-sprint2.png" alt="Pulse for the Main Branch in Software Development and Implementation">
 <img src="/assets/img/Contributions-frontend-for-main-sprint2.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
 <img src="/assets/img/Individual-contributions-frontend-for-main-sprint2.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
 
