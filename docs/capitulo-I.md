@@ -272,7 +272,7 @@ Sabremos que hemos tenido éxito cuando observemos un aumento en la tasa de rete
 ###### Figura 5
 *Presentación del Lean UX Canvas*
 
-<img src="/assets/img/capitulo-I/Lean UX/Lean UX Canvas WeHaveAnIdea.jpg" alt="Lean UX Canvas de Roadmics">
+<img src="/assets/img/capitulo-I/lean-ux/lean-ux-canvas.png" alt="Lean UX Canvas de Roadmics">
 
 ---
 
