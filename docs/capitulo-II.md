@@ -86,8 +86,8 @@ Indeed se ha consolidado como una herramienta esencial tanto para quienes buscan
 
 ### 2.1.1. Análisis competitivo.
 
-###### Tabla 2.
-*Análisis Competitivo organizado para todos los competidores potenciales de Roademics.*
+###### Tabla 2
+*Análisis Competitivo organizado para todos los competidores potenciales de Roademics*
 
 <table border="1" style="text-align:center;">
 	<tbody>
@@ -243,8 +243,8 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 **Preguntas generales:**
 
-1. ¿Como te llamas?
-2. ¿Cuantos años tienes?
+1. ¿Cómo te llamas?
+2. ¿Cuántos años tienes?
 3. ¿A qué te dedicas?
 
 **Segmento 1: : Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap**
@@ -265,17 +265,16 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 **Segmento 2: : Empresas y Reclutadores en busca de personal capacitado**
 
 1. ¿Cómo funciona el proceso de contratación en la empresa?
-2. ¿Que medios utiliza para anunciar un puesto de trabajo?
+2. ¿Qué medios utiliza para anunciar un puesto de trabajo?
 3. ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?
 4. Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?
 5. ¿Que medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?
 6. ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?
 7. ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado ?
-8. ¿Cuando un trabajador solicita un ascenso, con que criterios lo evaluan?
-9. ¿Cual es tu posición sobre las personas conformistas respecto a su educación?
+8. ¿Cuándo un trabajador solicita un ascenso, con que criterios lo evaluan?
+9. ¿Cuál es tu posición sobre las personas conformistas respecto a su educación?
 10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?
-11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
-
+11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil?
    
 ### 2.2.2. Registro de entrevistas.
 
@@ -283,63 +282,54 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 **Entrevista N°1:**
 
-###### Figura 2.
-*Imagen de presentación de la primera entrevista realizada.*
+###### Figura 6
+*Imagen de presentación de la primera entrevista realizada*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-lizano.png" alt="Entrevista Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/entrevista1-segmento1.png" alt="Primera entrevista de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: Coll Cardenas, Fernando Lizano
+- Nombre completo del entrevistado: Fernando Lizano Coll Cardenas
 - Edad: 19 años
 - Distrito: Punta Hermosa
-- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
 - Duración: 7 minutos y 3 segundos
-- Entrevistador: Pescoran Angulo, Juan Fabritzzio
-
-Nota:
-
-Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
 
 **Entrevista N°2:**
 
-###### Figura 3.
-*Imagen de presentación de la segunda entrevista realizada.*
+###### Figura 7
+*Imagen de presentación de la segunda entrevista realizada*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-evangelista.png" alt="Entrevista 2 Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/entrevista2-segmento1.png" alt="Segunda entrevista de nuestro segmento objetivo 1 a Jeremías Evangelista Pescorán." width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Jeremías Evangelista Pescorán
 - Edad: 24 años
 - Distrito: San Juan de Miraflores
-- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Jeremías Pescorán](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
 - Duración: 7 minutos y 33 segundos
-- Entrevistador: Pescoran Angulo, Juan Fabritzzio
-
-Nota:
-
-Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Jeremías Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 **Entrevista N°3:**
 
-###### Figura 4.
+###### Figura 8
 *Imagen de presentación de la tercera entrevista realizada.*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-lopez.png" alt="Entrevista 3 Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/entrevista3-segmento1.png" alt="Tercera entrevista de nuestro segmento objetivo 1 a Joaquín Salvador López Velasquez." width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Joaquín Salvador López Velasquez
 - Edad: 20 años
 - Distrito: Chorrillos
-- Link: [Link para entrevista a Joaquín López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBEGbI0bgD5eXhClMwaETgCw?e=YVnZGD)
+- Link: [Entrevista a Joaquín López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBEGbI0bgD5eXhClMwaETgCw?e=YVnZGD)
 - Inicio de la entrevista: [0:52](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBMqf1MovAeMritZ7LsCJM3g?e=XEohZe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTIuMDJ9fQ%3D%3D)
 - Duración: 10 minutos y 24 segundos
 - Entrevistador: Trigueros Chumacero, Flavio Eduardo
-
-Nota:
-
-Joaquín López, un estudiante universitario de 20 años de la carrera de periodismo en la Pontificia Universidad Católica del Perú, planea empezar a realizar sus prácticas preprofesionales en siguiente año, pero aún no tiene una idea clara sobre como o donde comenzar. Menciona que se encuentra satisfecho con su formación académica y considera que la educación que se le hes provista en la universidad es suficiente para su desarrollo profesional. Al evaluar vacantes laborales, se enfoca en el salario y en los equipos de trabajo que estarán desarrollando material junto a él, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+- Resumen de Entrevista: Joaquín López, un estudiante universitario de 20 años de la carrera de periodismo en la Pontificia Universidad Católica del Perú, planea empezar a realizar sus prácticas preprofesionales en siguiente año, pero aún no tiene una idea clara sobre como o donde comenzar. Menciona que se encuentra satisfecho con su formación académica y considera que la educación que se le hes provista en la universidad es suficiente para su desarrollo profesional. Al evaluar vacantes laborales, se enfoca en el salario y en los equipos de trabajo que estarán desarrollando material junto a él, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 ---
 
@@ -347,47 +337,45 @@ Joaquín López, un estudiante universitario de 20 años de la carrera de period
 
 **Entrevista N°4:**
 
-###### Figura 5.
-*Imagen de presentación de la cuarta entrevista realizada.*
+###### Figura 9
+*Imagen de presentación de la cuarta entrevista realizada*
 
-<img src="/assets/img/capitulo-2//interviews/Entrevista1-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2//interviews/entrevista1-segmento2.png" alt="Primera entrevista de nuestro segmento objetivo 2 a Rosa Castro." width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Rosa Castro
 - Edad: 32
 - Distrito: Ate
-- Link: [Entrevita](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Rosa Castro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: 0:01 
 - Duración: 10:56
 - Entrevistador: Lucio Yen
-- Nota: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
----
+- Resumen de Entrevista: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
 
 **Entrevista N°5:**
 
-###### Figura 6.
+###### Figura 10
 *Imagen de presentación de la quinta entrevista realizada.*
 
-<img src="/assets/img/capitulo-2//interviews/Entrevista2-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2//interviews/entrevista2-segmento2.png" alt="Segunda entrevista de nuestro segmento objetivo 2 a Jennifer Villanueva." width="400" height="200">
 
 
 **Datos principales:**
 - Nombre completo del entrevistado: Jennifer Villanueva
 - Edad: 40
 - Distrito: Ate
-- Link: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Jennifer Villanueva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: 0:02
 - Duración: 10:42
 - Entrevistador: Lucio Yen
-- Nota: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
----
+- Resumen de Entrevista: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
 
 **Entrevista N°6:**
 
-###### Figura 7.
+###### Figura 11
 *Imagen de presentación de la sexta entrevista realizada.*
 
-<img src="/assets/img/capitulo-2/interviews/entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/entrevista3-segmento2.png" alt="Tercera entrevista de nuestro segmento objetivo 2 a Ximena Vilchez Paredes." width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Ximena Vilchez Paredes
@@ -397,8 +385,7 @@ Joaquín López, un estudiante universitario de 20 años de la carrera de period
 - Inicio de la entrevista: 0:01
 - Duración: 11:19
 - Entrevistador: Aldhair Valenzuela
-- Nota: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
----
+- Resumen de Entrevista: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -406,43 +393,47 @@ Como parte del análisis de la información recopilada a través de las entrevis
 
 Al utilizar Google Forms, se puede recoger y analizar la información de manera eficiente, lo que proporciona una base sólida para la toma de decisiones y la elaboración de conclusiones basadas en evidencias. Esta herramienta no solo simplifica el proceso de recopilación de datos, sino que también optimiza el análisis al permitir la generación automática de gráficos y resúmenes estadísticos que enriquecen la interpretación de los resultados obtenidos.
 
-**Segmento 1: :** 
+**Segmento 1:** 
 
-###### Figura 8.
+###### Figura 12
 *Conjunto de datos analizados de las entrevistas para el primer segmento objetivo.*
 
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-1.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-2.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-3.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-4.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-5.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-6.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-7.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-8.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-9.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-10.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 1: ¿Te sientes satisfecho con tu carrera?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 1: ¿Aspiras a aprender más sobre tu especialización?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 1: ¿Cómo planearías o que acciones realizarías para planear tu ruta de aprendizaje sobre tu trayectoria académica?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 1: ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 1: ¿Que métodos utilizas para encontrar material o certificaciones que te permitan potenciarte?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 1: ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 1: ¿Utiliza redes sociales para publicar actualizaciones de tus logros académicos?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 1: ¿Qué medios o redes utilizas para informarte sobre puestos de trabajo?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 1: ¿Qué es lo primero que deseas observar observar a la hora de querer informarte sobre una vacante laboral?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento1/segmento-1-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 1: ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que desean en los postulantes?" width="600" height="270">
+
 ---
 
-**Segmento 2: :**
+**Segmento 2:**
 
-###### Figura 9.
+###### Figura 13
 *Conjunto de datos analizados de las entrevistas para el segundo segmento objetivo.*
 
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-1.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-2.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-3.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-4.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-5.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-6.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-7.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-8.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-9.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-10.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-11.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-1.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-2.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-3.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-4.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-5.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-6.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-7.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-8.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-9.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-10.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-11.png" alt="Analisis entrevista segmento2" width="600" height="270">
 
 A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
 
 **Segmento 1:** 
+
+###### Tabla 3
+*Recopilación de respuestas comunes a cada pregunta de las entrevistas realizadas para el segmento 1 de Roademics*
 
 | Preguntas | Respuestas |
 |-----------|------------|
@@ -458,6 +449,9 @@ A continuación, recopilamos las respuestas comunes a cada pregunta de las entre
 |10. ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que deseen en los postulantes?  |Mucho, aprecio demasiado la transparencia con los requisitos delpuesto.  | 
 
 **Segmento 2:** 
+
+###### Tabla 4
+*Recopilación de respuestas comunes a cada pregunta de las entrevistas realizadas para el segmento 2 de Roademics*
 
 | Preguntas | Respuestas |
 |-----------|------------|
@@ -485,13 +479,13 @@ Un user persona es una representación semi-ficticia de un usuario ideal basada 
 
 El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los distintos segmentos de usuarios en el contexto de nuestra aplicación Roademics, la cual se centra en ofrecer soluciones tecnológicas para el desarrollo profesional continuo de los usuarios. Estos user personas actúan como representaciones ficticias pero realistas de los usuarios con los que interactuamos en el ámbito empresarial. Al desarrollar perfiles detallados de los usuarios potenciales, podemos identificar de manera más efectiva sus intereses y problemas específicos, lo que permite diseñar funcionalidades y experiencias que se ajusten de manera precisa a sus demandas. 
 
-###### Figura 10.
-*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap.*
-<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento1.png">
+###### Figura 14
+*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap*
+<img src="/assets/img/capitulo-2/needfinding/user-persona-segmento1.png">
 
-###### Figura 11.
-*User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado.*
-<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento2.png">
+###### Figura 15
+*User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado*
+<img src="/assets/img/capitulo-2/needfinding/user-persona-segmento2.png">
 
 ### 2.3.2. User Task Matrix.
 
@@ -499,8 +493,8 @@ Una Matriz de Tareas de Usuario es una herramienta esencial en el diseño de exp
 
 Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores pueden obtener una comprensión más profunda de las interacciones clave que los usuarios tienen con el producto, lo que facilita la identificación de áreas críticas que requieren mayor atención o mejora. Como señala Patnaik (2017), el uso de esta matriz permite al equipo de diseño crear productos más intuitivos y eficaces, que se alineen mejor con las necesidades y expectativas de los usuarios, optimizando así la experiencia de uso y la satisfacción del cliente.
 
-###### Tabla 3.
-*User Task Matrix para el primer User Persona.*
+###### Tabla 5
+*User Task Matrix seleccionado para el primer User Persona, el respectivo al primer segmento objetivo*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -512,8 +506,8 @@ Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores p
 |Participar en eventos y conferencias de su industria para mantenerse actualizado.    |Sometimes    |Medium|
 |Revisar y actualizar su perfil en plataformas profesionales.    |Sometimes    |Medium|
 
-###### Tabla 4.
-*User Task Matrix para el segundo User Persona.*
+###### Tabla 6
+*User Task Matrix seleccionado para el segundo User Persona, el respectivo al segundo segmento objetivo*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -531,7 +525,7 @@ Según Patnaik (2017), el Mapeo de Viaje es una técnica fundamental en el dise�
 
 El proceso de creación de un Journey Map implica la identificación y el mapeo de cada interacción entre el usuario y el producto o servicio, capturando todos los momentos clave de este recorrido. Esto incluye desde el descubrimiento inicial del producto, la evaluación de sus características, la toma de decisiones para la compra, el uso regular del producto o servicio, hasta las interacciones que pueden surgir después de la venta, como el servicio al cliente o soporte técnico. 
 
-###### Figura 12.
+###### Figura 14
 *User Journey Mapping del primer User Persona.*
 <img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento1.png">
 
