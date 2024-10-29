@@ -56,6 +56,8 @@ En WeHaveAnIdea, nos dedicamos a adherirnos a un conjunto de valores esenciales 
 
 #### Pescorán Angulo, Juan Fabritzzio - U20221C936 - Ingeniería de Software
 
+###### Figura 1
+*Imagen de Perfil para el integrante Juan Fabritzzio Pescorán Angulo, miembro de la startup de WeHaveAnIdea*
 <img src="/assets/img/capitulo-I/profiles/juan-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="250">
 
 Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptitudes ayudan a que el trabajo en equipo sea más eficiente y efectivo, creando química entre los compañeros de trabajo. Mis conocimientos en C++, C#, Java, JavaScript, MongoDB, DDD, entre otros, serán de gran ayuda para cumplir con todas las pautas dentro del trabajo final de este curso.
@@ -64,6 +66,8 @@ Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptit
 
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
+###### Figura 2
+*Imagen de Perfil para el integrante Flavio Eduardo Trigueros Chumacero, miembro de la startup de WeHaveAnIdea*
 <img src="/assets/img/capitulo-I/profiles/flavio-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="270">
 
 Acerca de mí: Me considero una persona meticulosa y profundamente dedicada, con un firme compromiso hacia la mejora continua en todas las áreas de mi trabajo. Mi enfoque detallista y preciso me permite avanzar de manera eficiente y ágil en los proyectos, con especial énfasis en la documentación, la identificación de errores y la detección de oportunidades de mejora. Siempre estoy dispuesto a apoyar a mis compañeros en todo lo que sea necesario y me esfuerzo constantemente por entregar productos de la más alta calidad.
@@ -74,6 +78,8 @@ Además, cuento con un amplio conocimiento en diversos entornos y modelos de pro
 
 #### Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 - Ingeniería de Software
 
+###### Figura 3
+*Imagen de Perfil para el integrante Aldhair Johan Juan Valenzuela Huillcaya, miembro de la startup de WeHaveAnIdea*
 <img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="250">
 
 Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona altamente responsable, organizada, puntual y empática. Mi capacidad de adaptación a entornos cambiantes y habilidad para trabajar colaborativamente en equipo son aspectos destacados de mi perfil. Tengo conocimientos en Python, C++, HTML, CSS, Javascript, MySQL, MongoDB y SQLite.
@@ -82,6 +88,8 @@ Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias 
 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
 
+###### Figura 4
+*Imagen de Perfil para el integrante Lucio Heli Yen Cerna, miembro de la startup de WeHaveAnIdea*
 <img src="/assets/img/capitulo-I/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="180">
 
 Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis características me permiten tener un gran impacto en el trabajo en equipo debido a que siempre busco que todos los integrantes entiendan los objetivos a alcanzar y aprendamos juntos durante el desarrollo del proyecto. Por otro lado, tengo conocimientos en C++, HTML, CSS, git bash, MsSql, MongoDB, diseño y aplicaciones web, los cuáles serán beneficiosos para cumplir con el Student Outcome y criterios de evaluación del curso.
@@ -124,8 +132,7 @@ Finalmente, otro aspecto crucial de esta problemática es el conformismo, en el 
 
 Frente a esta problemática presentada, realizaremos un análisis exhaustivo utilizando el modelo práctico de las 5Ws y 2Hs, con el objetivo de desarrollar un sistema más estructurado que aborde principalmente las causas del problema.
 
-###### Tabla 1.
-
+###### Tabla 1
 *Presentación del modelo de las preguntas 5Ws y 2Hs con la que se analizaron los antecedentes y la problemática que abarca nuestro proyecto.*
 
 | 5W's y 2H's |              Pregunta               |    Descripción    |
@@ -143,7 +150,6 @@ Frente a esta problemática presentada, realizaremos un análisis exhaustivo uti
 Según Gothelf y Seiden (2021), el Lean UX Process es, como tal, una propia evolución dada por los crecimientos y transformaciones de conceptos e ideas en el diseño de productos y servicios, sistemas de iteración y la colaboración eficaz. Este sistema toma las herramientas y metodologías principales de los diseñadores y lo combina con un sistema Agile de desarrollo de Software. De esta forma, provee un modelo que maximiza el entendimiento mutuo, evita el aislamiento y amplifica la participación de todas las partes relacionadas con el proyecto, especialmente la del cliente.
 
 #### 1.2.2.1. Lean UX Problem Statements
-
 
 El desarrollo profesional continuo se refiere al proceso mediante el cual los profesionales adquieren, mantienen y mejoran continuamente sus habilidades, conocimientos y competencias a lo largo de su carrera. Este desarrollo es esencial para adaptarse a los cambios en la industria, mantenerse al día con las nuevas tecnologías y prácticas, y garantizar que se pueda seguir ofreciendo un servicio o un trabajo de alta calidad.
 
@@ -196,7 +202,6 @@ La aplicación debe presentar una interfaz moderna, profesional y fácil de usar
 3. Conexión con empresas del mismo rubro que cuenten con propuestas laborales de interés.
 
 4. Mayor agilidad en procesos de búsqueda de candidatos para un puesto laboral.
-
 
 - **Business Assumptions:**
 
@@ -264,8 +269,8 @@ Sabremos que hemos tenido éxito cuando observemos un aumento en la tasa de rete
 
 #### 1.2.2.4. Lean UX Canvas
 
-###### Figura 1.
-*Presentación del Lean UX Canvas.*
+###### Figura 5
+*Presentación del Lean UX Canvas*
 
 <img src="/assets/img/capitulo-I/Lean UX/Lean UX Canvas WeHaveAnIdea.jpg" alt="Lean UX Canvas de Roadmics">
 
