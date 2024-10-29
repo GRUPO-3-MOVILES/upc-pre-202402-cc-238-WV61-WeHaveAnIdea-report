@@ -416,17 +416,17 @@ Al utilizar Google Forms, se puede recoger y analizar la información de manera 
 ###### Figura 13
 *Conjunto de datos analizados de las entrevistas para el segundo segmento objetivo.*
 
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-1.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-2.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-3.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-4.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-5.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-6.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-7.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-8.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-9.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-10.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-11.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 2: ¿Cómo funciona el proceso de contratación en la empresa?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 2: ¿Que medios utiliza para anunciar un puesto de trabajo?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 2: ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 2: Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 2: ¿Qué medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 2: ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 2: ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 2: ¿Cuándo un trabajador solicita un ascenso, con que criterios lo evaluan?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 2: ¿Cuál es tu posición sobre las personas conformistas respecto a su educación?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 2: Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento2/segmento-2-11.png" alt="Analisis a la pregunta 11 de la entrevista al segmento 2: ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil?" width="600" height="270">
 
 A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
 
