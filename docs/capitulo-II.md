@@ -467,7 +467,7 @@ A continuación, recopilamos las respuestas comunes a cada pregunta de las entre
 |10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación? |Daños, Infligir las normas y mal rendimiento | 
 |11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil? |Me sería de mucha utilidad | 
 
-## 2.3. Needfinding.
+## 2.3. Needfinding
 
 Según lo señalado por Patnaik (2017), la metodología del Needfinding se concentra principalmente en la acción de descubrir las necesidades, tanto explícitas como implícitas, de los segmentos objetivos seleccionados con el fin de poder crear soluciones adecuadas. Para esto, es necesario ver más allá de todo lo tangible y concentrarse en ideas más abstractas y conceptos más amigables para todos los usuarios.
 
@@ -487,7 +487,7 @@ El proceso de creación de user personas es esencial para comprender las necesid
 *User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado*
 <img src="/assets/img/capitulo-2/needfinding/user-persona-segmento2.png">
 
-### 2.3.2. User Task Matrix.
+### 2.3.2. User Task Matrix
 
 Una Matriz de Tareas de Usuario es una herramienta esencial en el diseño de experiencia de usuario (UX) y en el desarrollo de productos, utilizada para organizar y visualizar de manera estructurada las tareas que los usuarios realizan dentro de un sistema o plataforma. Esta matriz no solo permite identificar y categorizar las diversas acciones que los usuarios deben llevar a cabo en el producto, sino que también ofrece una visión clara de la frecuencia con la que se realizan estas tareas, así como de la importancia relativa de cada una de ellas en el contexto de la experiencia global del usuario.
 
@@ -525,25 +525,25 @@ Según Patnaik (2017), el Mapeo de Viaje es una técnica fundamental en el dise�
 
 El proceso de creación de un Journey Map implica la identificación y el mapeo de cada interacción entre el usuario y el producto o servicio, capturando todos los momentos clave de este recorrido. Esto incluye desde el descubrimiento inicial del producto, la evaluación de sus características, la toma de decisiones para la compra, el uso regular del producto o servicio, hasta las interacciones que pueden surgir después de la venta, como el servicio al cliente o soporte técnico. 
 
-###### Figura 14
-*User Journey Mapping del primer User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento1.png">
+###### Figura 15
+*User Journey Mapping diseñado para el primer User Persona*
+<img src="/assets/img/capitulo-2/needfinding/journey-mapping-segmento1.png">
 
-###### Figura 13.
-*User Journey Mapping del segundo User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento2.png">
+###### Figura 16
+*User Journey Mapping del segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/journey-mapping-segmento2.png">
 
 ### 2.3.4 Empathy Mapping
 
 El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017).
 
-###### Figura 14.
-*User Empathy Mapping del primer User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento1.png">
+###### Figura 17
+*User Empathy Mapping del primer User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-map-segmento1.png">
 
-###### Figura 15.
-*User Empathy Mapping del segundo User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento2.png">
+###### Figura 18
+*User Empathy Mapping del segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-map-segmento2.png">
 
 ### 2.3.5 As-is Scenario Mapping
 
@@ -551,39 +551,39 @@ El "As-is Scenario Mapping" es una técnica ampliamente empleada en el diseño d
 
 Como señala Harmon (2019), el As-is Scenario Mapping implica la elaboración de un mapa visual detallado que representa todas las etapas y acciones que forman parte de un proceso o experiencia en su estado actual. Este mapeo incluye todas las interacciones, pasos, decisiones y puntos de contacto que tienen lugar a lo largo del proceso, proporcionando una visión integral y precisa de cómo funciona realmente el sistema o servicio en cuestión. Esta herramienta resulta esencial para identificar áreas de mejora y para el diseño de futuras iteraciones del sistema o servicio, alineadas con las necesidades y expectativas de los usuarios.
 
-###### Figura 14.
-*As-is Scenario Mapping del primer User Persona.*
+###### Figura 19
+*As-is Scenario Mapping del primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento1.jpg">
+<img src="/assets/img/capitulo-2/needfinding/as-is-map-segmento1.png">
 
-###### Figura 15. 
-*As-is Scenario Mapping del segundo User Persona.*
+###### Figura 20
+*As-is Scenario Mapping del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento2.jpg">
+<img src="/assets/img/capitulo-2/needfinding/as-is-map-segmento2.png">
 
-## 2.4. Requirements specification.
+## 2.4. Requirements specification
 
 Las Requirements Specification, o Especificaciones de Requisitos, son documentos de vital importancia en el proceso de desarrollo de sistemas y software, ya que proporcionan una descripción detallada de las funcionalidades, características y limitaciones que un producto o sistema debe cumplir. Estos documentos no solo definen lo que un sistema debe hacer, sino también cómo debe comportarse en diferentes escenarios y bajo distintas condiciones operativas, incluyendo cualquier restricción técnica relevante.
 
 Según Sommerville (2020), las especificaciones de requisitos cumplen un doble propósito: por un lado, ofrecen una guía técnica detallada para los desarrolladores sobre cómo construir el sistema, y por otro, proporcionan una referencia que puede ser utilizada para validar y verificar que el sistema final cumple con las expectativas establecidas. Además, este documento es crucial para la planificación y gestión del proyecto, ya que permite identificar y mitigar posibles riesgos, definir criterios de aceptación y establecer un marco para la toma de decisiones durante todo el ciclo de vida del desarrollo.
 
-### 2.4.1. To-Be Scenario Mapping.
+### 2.4.1. To-Be Scenario Mapping
 
 El "To-Be Scenario Mapping" es una técnica clave en el diseño de experiencia de usuario (UX) y en el análisis de procesos, utilizada para visualizar y planificar cómo debería estructurarse un proceso o experiencia en un futuro ideal. El término "to-be" se refiere a lo que "será", lo que implica que esta técnica se centra en la representación de cómo debería funcionar un proceso o experiencia después de la implementación de mejoras o cambios estratégicos.
 
 Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un mapa visual que ilustra las etapas y acciones deseadas en un proceso o experiencia futura. Este mapa detalla cómo deberían configurarse las interacciones, los pasos, las decisiones y los puntos de contacto en el proceso, con el fin de alcanzar un estado optimizado y alineado con los objetivos estratégicos. Esta herramienta es esencial para guiar el desarrollo de soluciones que mejoren la eficiencia, la efectividad y la satisfacción del usuario, asegurando que las transformaciones realizadas sean coherentes con la visión y metas a largo plazo.
 
-###### Figura 16. 
-*To-be Scenario Mapping del primer User Persona.*
+###### Figura 21
+*To-be Scenario Mapping del primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento1.jpg">
+<img src="/assets/img/capitulo-2/needfinding/to-be-map-segmento1.png">
 
-###### Figura 17. 
-*To-be Scenario Mapping del segundo User Persona.*
+###### Figura 22
+*To-be Scenario Mapping del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento2.jpg">
+<img src="/assets/img/capitulo-2/needfinding/to-be-map-segmento2.png">
 
-### 2.4.2. User Stories.
+### 2.4.2. User Stories
 
 En esta sección, procederemos a realizar un análisis exhaustivo de cada una de las historias de usuario asignadas a lo largo de todo el ciclo de vida del proyecto. Nuestro objetivo primordial es asegurar la plena satisfacción de nuestros segmentos de mercado, mediante una comprensión profunda de sus necesidades y expectativas, así como la posterior adecuación de nuestras soluciones a estos requerimientos. Para alcanzar este fin, se especificarán detalladamente los requisitos definidos, junto con el conjunto de User Stories y Epics identificados como elementos clave para el éxito del proyecto. Es crucial destacar que cada User Story estará acompañada de sus correspondientes criterios de aceptación, lo que garantizará una comprensión precisa y compartida de los objetivos a lograr.
 
@@ -591,8 +591,8 @@ Iniciaremos este proceso de presentación con una definición clara y contextual
 
 Por lo tanto, presentaremos inicialmente nuestro modelo de Epics, el cual servirá como una guía y un marco de referencia integral para comprender tanto la naturaleza como el alcance de las historias de usuario que se abordarán a continuación. Este enfoque garantiza que se obtenga una visión completa y coherente de los diversos tipos de historias de usuario, así como de sus respectivas divisiones y definiciones, facilitando así una evaluación más precisa y una comprensión más profunda del proyecto en su conjunto.
 
-##### Tabla 2.
-Tabla de épicas establecidas para las historias de usuarios.
+##### Tabla 7
+*Tabla de épicas establecidas para las historias de usuario para el proyecto de Roademics*
 
 <table border="1" style="text-align: left;"> 
 	<tbody> 
@@ -626,8 +626,8 @@ En la siguiente sección, procederemos a presentar un análisis exhaustivo y det
 
 De acuerdo con Sommerville (2020), una historia de usuario es una técnica esencial en el desarrollo de software, utilizada para describir una funcionalidad o característica desde la perspectiva del usuario final. En cada historia, se captura la identidad del usuario, la acción que necesita realizar y la razón por la cual esa acción es necesaria. Esta descripción concisa y centrada en el usuario no solo proporciona una guía clara para el equipo de desarrollo durante el diseño y la construcción del producto, sino que también asegura que se mantengan siempre en el centro de atención las necesidades y expectativas del usuario final. Al seguir este enfoque, garantizamos que cada componente desarrollado responda de manera efectiva a las demandas del usuario, contribuyendo al éxito global del proyecto.
 
-###### Tabla 3.
-*Tabla de las historias de usuario establecidas.*
+###### Tabla 8
+*Tabla de las historias de usuario establecidas para el proyecto de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
@@ -1449,8 +1449,8 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 </tr>
 </table>
 
-###### Tabla 4.
-*Tabla de las historias técnicas establecidas.*
+###### Tabla 9
+*Tabla de las historias técnicas establecidas para el proyecto de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
@@ -2026,27 +2026,32 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
 </tr>
 </table>
 
-### 2.4.3. Impact Mapping.
+### 2.4.3. Impact Mapping
 
-*Impact Mapping del primer User Persona.*
+En esta sección vamos a presentar los diagramas desarrollados para el modelo de Impact Mapping que seguimos para cada uno de nuestros User Persona. Según Patnaik (2017), los diagramas de impacto nos ayudan a visualizar y entender cómo las decisiones de diseño y desarrollo pueden influir en los resultados deseados para los usuarios y el negocio Esta metodología nos permite alinear nuestros esfuerzos con las necesidades y objetivos de los usuarios, facilitando una mejor comprensión de las interacciones entre las características del producto y la experiencia.
 
-###### Figura 18.
+Los diagramas de impacto se dividen en cuatro componentes principales: los actores, los objetivos, los impactos y las entregas. Cada uno de estos elementos juega un papel crucial en la planificación y desarrollo del producto, ya que nos ayuda a centrar nuestras prioridades y a asegurar que estamos abordando los problemas más relevantes para nuestros usuarios.
 
-<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento1.png">
+###### Figura 23
+*Impact Mapping empleado en el primer User Persona*
 
-*Impact Mapping del primer User Persona.*
+<img src="/assets/img/capitulo-2/needfinding/impact-mapping-segmento1.png">
 
-###### Figura 19.
+###### Figura 24
+*Impact Mapping empleado en el segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/impact-mapping-segmento2.png">
 
-### 2.4.4. Product Backlog.
+### 2.4.4. Product Backlog
 
 En esta sección del proyecto, procederemos a esquematizar y completar el Product Backlog, un componente esencial en la gestión ágil de proyectos de desarrollo de software. El Product Backlog se constituye como una lista dinámica y priorizada que engloba todas las funcionalidades, mejoras, y requisitos necesarios para el desarrollo del producto. Esta lista se organiza en función del valor que cada elemento aporta al negocio, convirtiéndose así en una herramienta clave para guiar el trabajo del equipo de desarrollo a lo largo de las diferentes fases del proyecto.
 
 El Product Backlog no solo se limita a historias de usuario, sino que también incluye tareas técnicas y otras actividades críticas para el desarrollo del producto. La estructuración de este backlog sigue una lógica clara y meticulosa: en primer lugar, se priorizan las historias relacionadas con la experiencia del usuario en la Landing Page, seguidas de las funcionalidades esenciales de la aplicación móvil, y finalmente, se abordan las historias técnicas necesarias para el desarrollo del sistema en su totalidad. Este enfoque garantiza que cada acción realizada por el equipo esté alineada con las prioridades del proyecto y las expectativas de los usuarios (Sommerville, 2020).
 
 En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
+
+###### Tabla 10
+*Product Backlog diseñado para el desarrollo de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
