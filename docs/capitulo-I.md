@@ -57,8 +57,9 @@ En WeHaveAnIdea, nos dedicamos a adherirnos a un conjunto de valores esenciales 
 #### Pescorán Angulo, Juan Fabritzzio - U20221C936 - Ingeniería de Software
 
 ###### Figura 1
-*Imagen de Perfil para el integrante Juan Fabritzzio Pescorán Angulo, miembro de la startup de WeHaveAnIdea*
-<img src="/assets/img/capitulo-I/profiles/juan-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="250">
+*Imagen de Perfil del integrante Juan Fabritzzio Pescorán Angulo, miembro de la startup de WeHaveAnIdea*
+
+<img src="/assets/img/capitulo-I/profiles/juan-pescoran-angulo-profile.png" alt="Pescorán Angulo, Juan Fabritzzio" width="200" height="250">
 
 Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptitudes ayudan a que el trabajo en equipo sea más eficiente y efectivo, creando química entre los compañeros de trabajo. Mis conocimientos en C++, C#, Java, JavaScript, MongoDB, DDD, entre otros, serán de gran ayuda para cumplir con todas las pautas dentro del trabajo final de este curso.
 
@@ -67,8 +68,9 @@ Acerca de mí: Soy un gran trabajador en equipo, creativo y práctico. Mis aptit
 #### Trigueros Chumacero, Flavio Eduardo - U202210190 - Ingeniería de Software
 
 ###### Figura 2
-*Imagen de Perfil para el integrante Flavio Eduardo Trigueros Chumacero, miembro de la startup de WeHaveAnIdea*
-<img src="/assets/img/capitulo-I/profiles/flavio-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="270">
+*Imagen de Perfil del integrante Flavio Eduardo Trigueros Chumacero, miembro de la startup de WeHaveAnIdea*
+
+<img src="/assets/img/capitulo-I/profiles/flavio-trigueros-chumacero-profile.png" alt="Trigueros Chumacero, Flavio Eduardo" width="200" height="270">
 
 Acerca de mí: Me considero una persona meticulosa y profundamente dedicada, con un firme compromiso hacia la mejora continua en todas las áreas de mi trabajo. Mi enfoque detallista y preciso me permite avanzar de manera eficiente y ágil en los proyectos, con especial énfasis en la documentación, la identificación de errores y la detección de oportunidades de mejora. Siempre estoy dispuesto a apoyar a mis compañeros en todo lo que sea necesario y me esfuerzo constantemente por entregar productos de la más alta calidad.
 
@@ -79,8 +81,10 @@ Además, cuento con un amplio conocimiento en diversos entornos y modelos de pro
 #### Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 - Ingeniería de Software
 
 ###### Figura 3
-*Imagen de Perfil para el integrante Aldhair Johan Juan Valenzuela Huillcaya, miembro de la startup de WeHaveAnIdea*
-<img src="/assets/img/capitulo-I/profiles/aldhair-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="250">
+
+*Imagen de Perfil del integrante Aldhair Johan Juan Valenzuela Huillcaya, miembro de la startup de WeHaveAnIdea*
+
+<img src="/assets/img/capitulo-I/profiles/aldhair-valenzuela-huillcaya-profile.png" alt="Valenzuela Huillcaya, Aldhair Johan Juan" width="200" height="250">
 
 Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona altamente responsable, organizada, puntual y empática. Mi capacidad de adaptación a entornos cambiantes y habilidad para trabajar colaborativamente en equipo son aspectos destacados de mi perfil. Tengo conocimientos en Python, C++, HTML, CSS, Javascript, MySQL, MongoDB y SQLite.
 
@@ -89,8 +93,9 @@ Soy estudiante de Ingeniería de software en la Universidad Peruana de Ciencias 
 #### Yen Cerna, Lucio Heli - U202213143 - Ingeniería de Software
 
 ###### Figura 4
-*Imagen de Perfil para el integrante Lucio Heli Yen Cerna, miembro de la startup de WeHaveAnIdea*
-<img src="/assets/img/capitulo-I/profiles/lucio-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="180">
+*Imagen de Perfil del integrante Lucio Heli Yen Cerna, miembro de la startup de WeHaveAnIdea*
+
+<img src="/assets/img/capitulo-I/profiles/lucio-yen-cerna-profile.png" alt="Yen Cerna, Lucio Heli" width="200" height="180">
 
 Acerca de mí: Soy una persona líder, autodidacta y dedicada. Mis características me permiten tener un gran impacto en el trabajo en equipo debido a que siempre busco que todos los integrantes entiendan los objetivos a alcanzar y aprendamos juntos durante el desarrollo del proyecto. Por otro lado, tengo conocimientos en C++, HTML, CSS, git bash, MsSql, MongoDB, diseño y aplicaciones web, los cuáles serán beneficiosos para cumplir con el Student Outcome y criterios de evaluación del curso.
 
