@@ -222,7 +222,7 @@ Asimismo, también investigaremos y presentaremos las directrices para la intera
 - Guía de Estilos de Google para HTML Y CSS: https://google.github.io/styleguide/htmlcssguide.html 
 - Convenciones de Gherkin para especificaciones legibles: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ 
 - Guía de Google para el Estilo de JavaScript: https://google.github.io/styleguide/jsguide.html
-- Guía de Pautas de Javascript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript}
+- Guía de Pautas de Javascript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript
 - Guía de Estilos de Javascript del consorcio W3: https://www.w3schools.com/js/js_conventions.asp
 - Guía Oficial del Framework de Flutter: https://docs.flutter.dev/get-started/learn-flutter
 - Conjunto de Datos con Recursos de Aprendizaje de Flutter: https://github.com/rafathefull/flutterverso
@@ -1046,3 +1046,138 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 
 ---
 
+## 5.3. Validation Interviews
+
+En esta sección, nuestro equipo documentará y describirá las actividades vinculadas a las entrevistas de validación realizadas durante el proyecto. Las entrevistas de validación son esenciales, ya que permiten a los usuarios de los segmentos objetivo interactuar tanto con la página web de presentación de la aplicación, así como con la propia aplicación móvil. Estas interacciones brindan información valiosa sobre la experiencia del usuario y la eficacia del diseño. Para asegurar un proceso de validación eficiente, es importante emplear el formato de evaluación heurística desarrollado específicamente para este proyecto. Este formato establece una estructura para analizar la usabilidad y la experiencia del usuario, garantizando que se aborden los aspectos clave para mejorar el diseño y funcionamiento de las aplicaciones (Papalia, 2024).
+
+### 5.3.1. Diseño de Entrevistas
+
+El equipo se encarga de definir, para cada segmento de público identificado, los elementos que deben incluirse en la sesión de validación. Esto incluye tanto el análisis de la página de destino como de las aplicaciones móviles asociadas. Además, se describe el diseño de los flujos de usuario de las aplicaciones, que jugarán un papel fundamental en el proceso de validación. Estos flujos de usuario, que representan la secuencia de acciones que los usuarios realizarán dentro de las aplicaciones, son esenciales para asegurar una experiencia de usuario óptima. De esta forma, se garantiza que cada paso que da el usuario en las aplicaciones sea coherente, intuitivo y esté alineado con los objetivos de diseño establecidos.
+
+Preguntas generales iniciales:
+
+1. ¿Podría indicarnos su nombre completo, por favor?
+2. ¿Podría compartir su edad?
+3. ¿Había tenido algún contacto previo con nuestra startup antes de esta entrevista?
+
+Preguntas generales sobre la aplicación:
+
+1. ¿Cuál fue su primera impresión al utilizar la aplicación? ¿La encontró intuitiva y fácil de usar?
+2. ¿Experimentó algún inconveniente durante su uso? En caso afirmativo, ¿podría describirlo?
+3. ¿Recomendaría la aplicación a otros usuarios? ¿Por qué?
+
+Segmento 1: Profesionales formados y en desarrollo que deseen potenciarse planificando su futuro.
+
+1. ¿Considera adecuado el nivel de asesoría proporcionado por la inteligencia artificial de la aplicación?
+2. ¿Le parece útil organizar logros, habilidades y metas a través de hojas de ruta? ¿Tiene alguna sugerencia para mejorar esta presentación?
+3. ¿Qué tan sencillo fue crear su primer roadmap dentro de la aplicación?
+4. ¿Cuáles herramientas del aplicativo fueron las más útiles para sus necesidades profesionales? ¿Por qué?
+5. ¿Opina que los modelos de perfiles profesionales ofrecidos en la aplicación reflejan el mercado laboral actual?
+6. ¿Cree que la presentación de hojas de ruta es atractiva para las empresas actuales? ¿Consideraría agregar un roadmap adecuado a su curriculum vitae?
+7. ¿Piensa que podría lograr una oportunidad laboral estable utilizando solo las funcionalidades de la plataforma?
+8. ¿Le parecen efectivas las funciones de networking que ofrece la aplicación? Si estuviera postulando a un empleo, ¿preferiría los medios de comunicación de la aplicación o utilizaría otro canal? ¿Por qué?
+9. ¿Cómo compara nuestra plataforma con otras en términos de usabilidad, innovación y calidad en la presentación de información?
+10. ¿Qué mejoras o nuevas funcionalidades le gustaría ver en la plataforma y por qué considera que serían relevantes?
+
+Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
+
+1. ¿Considera que el perfil empresarial en la aplicación facilita la búsqueda de candidatos adecuados para sus necesidades de contratación?
+2. ¿Cómo evalúa la utilidad de los mapas de ruta profesionales para comunicar los requisitos de habilidades y competencias a los candidatos?
+3. ¿Qué tan efectiva considera que es la plataforma para identificar talento que esté alineado con las demandas de su empresa?
+4. ¿Encuentra que las herramientas de filtrado de candidatos en la aplicación son precisas y adecuadas? ¿Qué aspectos mejoraría?
+5. ¿Le parece útil la visualización de perfiles de candidatos que siguen rutas similares a las requeridas por su organización?
+6. ¿Considera que el modelo de networking dentro de la aplicación facilita las conexiones con candidatos relevantes y de alto potencial?
+7. ¿La función de creación de perfiles profesionales en Roademics ayuda a su empresa a identificar habilidades y experiencias clave en los candidatos?
+8. ¿Qué tan adecuado encuentra el modelo Freemium para su empresa en términos de funcionalidad y acceso a opciones avanzadas de reclutamiento?
+9. ¿De qué manera considera que la aplicación podría optimizar el proceso de selección de candidatos en relación con otras herramientas de reclutamiento que haya utilizado?
+10. ¿Qué funcionalidades adicionales le gustaría ver en la plataforma para hacer más eficiente la contratación de personal capacitado?
+
+### 5.3.2. Registro de Entrevistas
+
+#### Segmento 1: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap
+
+**Entrevista N°1:**
+
+###### Figura ##
+*Imagen de presentación de la primera entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion1-segmento1.png" alt="Primera entrevista de validación de nuestro primer segmento objetivo a (nombre)." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: (Nombre completo)
+- Edad: 
+- Distrito: 
+- Link: [Entrevista a (Poner Nombre)](enlace)
+- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
+- Duración: (Minutos y segundos)
+- Entrevistador: (Nombre completo)
+- Resumen de Entrevista: (Párrafo)
+
+**Entrevista N°2:**
+
+###### Figura ##
+*Imagen de presentación de la segunda entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion2-segmento1.png" alt="Segunda entrevista de validación de nuestro primer segmento objetivo a (nombre)." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: (Nombre completo)
+- Edad: 
+- Distrito: 
+- Link: [Entrevista a (Poner Nombre)](enlace)
+- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
+- Duración: (Minutos y segundos)
+- Entrevistador: (Nombre completo)
+- Resumen de Entrevista: (Párrafo)
+
+---
+
+#### Segmento 2: Empresas y Reclutadores en busca de personal capacitado
+
+**Entrevista N°3:**
+
+###### Figura ##
+*Imagen de presentación de la tercera entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion1-segmento2.png" alt="Primera entrevista de validación de nuestro segundo segmento objetivo a (nombre)." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: (Nombre completo)
+- Edad: 
+- Distrito: 
+- Link: [Entrevista a (Poner Nombre)](enlace)
+- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
+- Duración: (Minutos y segundos)
+- Entrevistador: (Nombre completo)
+- Resumen de Entrevista: (Párrafo)
+  
+**Entrevista N°3:**
+
+###### Figura ##
+*Imagen de presentación de la cuarta entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion2-segmento2.png" alt="Segunda entrevista de validación de nuestro segundo segmento objetivo a (nombre)." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: (Nombre completo)
+- Edad: 
+- Distrito: 
+- Link: [Entrevista a (Poner Nombre)](enlace)
+- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
+- Duración: (Minutos y segundos)
+- Entrevistador: (Nombre completo)
+- Resumen de Entrevista: (Párrafo)
+  
+### 5.3.3. Evaluaciones según heurísticas
+
+En esta sección se detalla el proceso minucioso de evaluación de las sesiones de validación, fundamentado en un conjunto de heurísticas diseñadas para cubrir los aspectos más relevantes de la experiencia del usuario. Estas heurísticas se organizan en categorías clave que incluyen criterios de usabilidad, arquitectura de la información y elementos del diseño de experiencia. Cada categoría ha sido cuidadosamente definida para proporcionar un análisis riguroso y profundo de las interacciones y percepciones del usuario.
+
+La evaluación integral tiene como objetivo asegurar que todos los componentes de la interfaz y la experiencia general respondan a altos estándares de calidad, permitiendo identificar no solo las fortalezas en el diseño y la implementación, sino también las áreas que requieren ajustes o mejoras. Este enfoque garantiza una revisión exhaustiva de cada elemento de la aplicación, facilitando el reconocimiento de oportunidades que mejoren la funcionalidad, accesibilidad y satisfacción general del usuario. A través de este proceso continuo de optimización, se busca refinar el producto hasta lograr una plataforma que ofrezca una experiencia de usuario completa, confiable y alineada con los más altos estándares de calidad y eficacia.
+
+## 5.4. Video About-the-Product
+
+En esta sección, el equipo expone y describe en detalle el contenido del video "About-the-Product," dirigido tanto a los visitantes del Landing Page como a los usuarios de la aplicación móvil. Este recurso audiovisual tiene como propósito central brindar una presentación clara y completa sobre el modelo de negocio y las características distintivas de los productos de software, asegurando que tanto nuevos usuarios como aquellos ya registrados comprendan a fondo el valor que ofrece la plataforma.
+
+Para alcanzar una comunicación efectiva y alineada con la identidad del producto, se ha seleccionado un tono narrativo coherente y uniforme, que refleja tanto la seriedad como la innovación del software. Este enfoque busca proyectar una imagen profesional y confiable, facilitando una experiencia de usuario que promueve el interés y compromiso con las herramientas y beneficios que el producto ofrece a nivel profesional y personal.
+
+El vídeo About-the-Product fue integrado dentro de la Landing Page y puede ser visualizado en la página con facilidad, pero, con fines de documentación, también se agrego el vídeo en este reporte. El enlace es el siguiente:
