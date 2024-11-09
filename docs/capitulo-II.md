@@ -557,7 +557,7 @@ El proceso de creación de un Journey Map implica la identificación y el mapeo 
 
 ### 2.3.4 Empathy Mapping
 
-El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017).
+El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017). 
 
 ###### Figura 18
 *User Empathy Mapping diseñado para el primer User Persona*
