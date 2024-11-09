@@ -399,14 +399,23 @@ Al utilizar Google Forms, se puede recoger y analizar la información de manera 
 *Conjunto de datos analizados de las entrevistas para el primer segmento objetivo.*
 
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 1: ¿Te sientes satisfecho con tu carrera?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 1: ¿Aspiras a aprender más sobre tu especialización?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 1: ¿Cómo planearías o que acciones realizarías para planear tu ruta de aprendizaje sobre tu trayectoria académica?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 1: ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 1: ¿Que métodos utilizas para encontrar material o certificaciones que te permitan potenciarte?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 1: ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 1: ¿Utiliza redes sociales para publicar actualizaciones de tus logros académicos?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 1: ¿Qué medios o redes utilizas para informarte sobre puestos de trabajo?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 1: ¿Qué es lo primero que deseas observar observar a la hora de querer informarte sobre una vacante laboral?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 1: ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que desean en los postulantes?" width="600" height="270">
 
 ---
@@ -417,15 +426,25 @@ Al utilizar Google Forms, se puede recoger y analizar la información de manera 
 *Conjunto de datos analizados de las entrevistas para el segundo segmento objetivo.*
 
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 2: ¿Cómo funciona el proceso de contratación en la empresa?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 2: ¿Que medios utiliza para anunciar un puesto de trabajo?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 2: ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 2: Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 2: ¿Qué medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 2: ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 2: ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 2: ¿Cuándo un trabajador solicita un ascenso, con que criterios lo evaluan?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 2: ¿Cuál es tu posición sobre las personas conformistas respecto a su educación?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 2: Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?" width="600" height="270">
+
 <img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-11.png" alt="Analisis a la pregunta 11 de la entrevista al segmento 2: ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil?" width="600" height="270">
 
 A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
@@ -481,11 +500,13 @@ El proceso de creación de user personas es esencial para comprender las necesid
 
 ###### Figura 14
 *User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap*
-<img src="/assets/img/capitulo-2/needfinding/user-persona-segmento1.png">
+
+<img src="/assets/img/capitulo-2/needfinding/user-personas/user-persona-segmento1.png" alt="User Persona que caracteriza a todos los usuarios del primer segmento objetivo establecido por Roademics.">
 
 ###### Figura 15
 *User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado*
-<img src="/assets/img/capitulo-2/needfinding/user-persona-segmento2.png">
+
+<img src="/assets/img/capitulo-2/needfinding/user-personas/user-persona-segmento2.png" alt="User Persona que caracteriza a todos los usuarios del segundo segmento objetivo establecido por Roademics.">
 
 ### 2.3.2. User Task Matrix
 
@@ -494,7 +515,7 @@ Una Matriz de Tareas de Usuario es una herramienta esencial en el diseño de exp
 Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores pueden obtener una comprensión más profunda de las interacciones clave que los usuarios tienen con el producto, lo que facilita la identificación de áreas críticas que requieren mayor atención o mejora. Como señala Patnaik (2017), el uso de esta matriz permite al equipo de diseño crear productos más intuitivos y eficaces, que se alineen mejor con las necesidades y expectativas de los usuarios, optimizando así la experiencia de uso y la satisfacción del cliente.
 
 ###### Tabla 5
-*User Task Matrix seleccionado para el primer User Persona, el respectivo al primer segmento objetivo*
+*User Task Matrix desarrollado y seleccionado para el primer User Persona*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -507,7 +528,7 @@ Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores p
 |Revisar y actualizar su perfil en plataformas profesionales.    |Sometimes    |Medium|
 
 ###### Tabla 6
-*User Task Matrix seleccionado para el segundo User Persona, el respectivo al segundo segmento objetivo*
+*User Task Matrix desarrollado y seleccionado para el segundo User Persona*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -525,25 +546,26 @@ Según Patnaik (2017), el Mapeo de Viaje es una técnica fundamental en el dise�
 
 El proceso de creación de un Journey Map implica la identificación y el mapeo de cada interacción entre el usuario y el producto o servicio, capturando todos los momentos clave de este recorrido. Esto incluye desde el descubrimiento inicial del producto, la evaluación de sus características, la toma de decisiones para la compra, el uso regular del producto o servicio, hasta las interacciones que pueden surgir después de la venta, como el servicio al cliente o soporte técnico. 
 
-###### Figura 15
-*User Journey Mapping diseñado para el primer User Persona*
-<img src="/assets/img/capitulo-2/needfinding/journey-mapping-segmento1.png">
-
 ###### Figura 16
-*User Journey Mapping del segundo User Persona*
-<img src="/assets/img/capitulo-2/needfinding/journey-mapping-segmento2.png">
+*User Journey Mapping diseñado para el primer User Persona*
+
+<img src="/assets/img/capitulo-2/needfinding/journey-maps/journey-map-segmento1.png" alt="Modelo de Journey Mapping diseñado para el primer User Persona de Roademics.">
+
+###### Figura 17
+*User Journey Mapping diseñado para el segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/journey-maps/journey-map-segmento2.png" alt="Modelo de Journey Mapping diseñado para el segundo User Persona de Roademics.">
 
 ### 2.3.4 Empathy Mapping
 
 El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017).
 
-###### Figura 17
-*User Empathy Mapping del primer User Persona*
-<img src="/assets/img/capitulo-2/needfinding/empathy-map-segmento1.png">
-
 ###### Figura 18
-*User Empathy Mapping del segundo User Persona*
-<img src="/assets/img/capitulo-2/needfinding/empathy-map-segmento2.png">
+*User Empathy Mapping diseñado para el primer User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-maps/empathy-map-segmento1.png" alt="Modelo de Empathy Mapping diseñado para el primer User Persona de Roademics.">
+
+###### Figura 19
+*User Empathy Mapping diseñado para el segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-maps/empathy-map-segmento2.png" alt="Modelo de Empathy Mapping diseñado para el segundo User Persona de Roademics.">
 
 ### 2.3.5 As-is Scenario Mapping
 
@@ -551,15 +573,15 @@ El "As-is Scenario Mapping" es una técnica ampliamente empleada en el diseño d
 
 Como señala Harmon (2019), el As-is Scenario Mapping implica la elaboración de un mapa visual detallado que representa todas las etapas y acciones que forman parte de un proceso o experiencia en su estado actual. Este mapeo incluye todas las interacciones, pasos, decisiones y puntos de contacto que tienen lugar a lo largo del proceso, proporcionando una visión integral y precisa de cómo funciona realmente el sistema o servicio en cuestión. Esta herramienta resulta esencial para identificar áreas de mejora y para el diseño de futuras iteraciones del sistema o servicio, alineadas con las necesidades y expectativas de los usuarios.
 
-###### Figura 19
-*As-is Scenario Mapping del primer User Persona*
-
-<img src="/assets/img/capitulo-2/needfinding/as-is-map-segmento1.png">
-
 ###### Figura 20
-*As-is Scenario Mapping del segundo User Persona*
+*As-is Scenario Mapping diseñado para el proceso que realiza el primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/as-is-map-segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/as-is-maps/as-is-map-segmento1.png" alt="Modelo de As-Is Mapping diseñado para los procesos que desarrollaria nuestro primer user persona antes de la existencia de la aplicación de Roademics.">
+
+###### Figura 21
+*As-is Scenario Mapping diseñado para el proceso que realiza el segundo User Persona*
+
+<img src="/assets/img/capitulo-2/needfinding/as-is-maps/as-is-map-segmento2.png" alt="Modelo de As-Is Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona antes de la existencia de la aplicación de Roademics.">
 
 ## 2.4. Requirements specification
 
@@ -576,12 +598,12 @@ Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un m
 ###### Figura 21
 *To-be Scenario Mapping del primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/to-be-map-segmento1.png">
+<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento1.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro primer user persona después de la existencia de la aplicación de Roademics.">
 
 ###### Figura 22
 *To-be Scenario Mapping del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/to-be-map-segmento2.png">
+<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento2.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona después de la existencia de la aplicación de Roademics.>
 
 ### 2.4.2. User Stories
 
@@ -1290,164 +1312,166 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">EP005</td>
 		</tr>
 		<tr>
-    <td colspan="1">US036</td>
-    <td colspan="1">
-    Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma de Roademics, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
-    <td colspan="5">
-    <strong>Escenario 1: Notificación por correo electrónico</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole sobre el inicio de sesión, incluyendo detalles como la ubicación aproximada, tipo de dispositivo y la hora del acceso. El sistema debe enviar el correo en un plazo de 1 minuto tras el inicio de sesión.<br><br>
-    <strong>Escenario 2: Notificación por SMS</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> se confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole sobre el acceso y proporcionando detalles básicos como el tipo de dispositivo y la ubicación aproximada, para que el usuario pueda actuar rápidamente en caso de actividad sospechosa. El sistema debe enviar el SMS en un plazo de 1 minuto tras el inicio de sesión.<br><br>
-    <strong>Escenario 3: Solicitud de verificación adicional</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema identifica que el acceso proviene de una ubicación inusual o un dispositivo nuevo y no reconocido, <strong>entonces</strong> debe solicitar al usuario una verificación adicional a través de un código de seguridad enviado por correo electrónico o SMS, antes de permitir el acceso completo a la cuenta. Este mensaje debe ser enviado en un plazo no mayor a 10 segundos y la propia advertencia y bloqueo a la entrada debe presentarse de forma inmediata.<br><br>
-    <strong>Escenario 4: Opciones de dispositivos confiables</strong>
-    <br><br><strong>Dado que</strong> un usuario desea evitar recibir notificaciones continuas de inicio de sesión desde un dispositivo de confianza, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una opción para marcar dispositivos específicos como "confiables", evitando notificaciones futuras sobre inicios de sesión desde esos dispositivos, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.<br><br>
-    <strong>Escenario 5: Visualización de dispositivos registrados</strong>
-    <br><br><strong>Dado que</strong> un usuario desea gestionar cada uno de los dispositivos que en algún momento fueron asociados a su cuenta de Roademics, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una lista de información sobre todos los dispositivos vinculados, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">US037</td>
-    <td colspan="1">
-    Poder revisar el historial de inicios de sesión recientes
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario autenticado en la plataforma de Roademics, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes realizados en mi cuenta de usuario, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual que pueda afectar mi seguridad personal.</td>
-    <td colspan="5">
-    <strong>Escenario 1: Visualización del historial de inicios de sesión</strong>
-    <br><br><strong>Dado que</strong> un usuario autenticado accede a su página de perfil con el fin de identificar cuales fueron los inicios de sesión más recientes en su cuenta, <strong>cuando</strong> accede a la sección de historial de ingreso y presiona el botón de revisar inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada que incluya fechas, horas, dispositivos, direcciones IP y ubicaciones de cada inicio de sesión, permitiendo al usuario revisar la actividad de su cuenta. El historial debe estar disponible en un plazo de 2 segundos tras la solicitud.
-    <br><br>
-    <strong>Escenario 2: Filtrado y búsqueda en el historial</strong>
-    <br><br><strong>Dado que</strong> un usuario autenticado desea encontrar información específica en su historial de inicios de sesión dentro de la página de su perfil, <strong>cuando</strong> utiliza opciones de filtrado o búsqueda en la propia sección mediante una barra de texto, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por rango de fechas, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.<br><br>
-    <strong>Escenario 3: Exportación del historial de inicios de sesión</strong>
-    <br><br><strong>Dado que</strong> un usuario autenticado desea tener una copia de su historial de inicios de sesión en la aplicación de Roademics, <strong>cuando</strong> accede a página de perfil, luego a la sección de ajustes, accede a la página de historial y presiona la opción de exportación en el historial, <strong>entonces</strong> el sistema debe permitir la descarga del historial en formato PDF o CSV, garantizando que los datos exportados incluyan toda la información disponible sobre cada inicio de sesión, en un plazo no mayor a 1 minuto.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">US038</td>
-    <td colspan="1">
-    Leer y aceptar Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> un nuevo usuario de la plataforma de Roademics, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro de mi cuenta, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma en todo momento.</td>
-    <td colspan="5">
-    <strong>Escenario 1: Visualización de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario está en la página de registro de la aplicación de Roademics, <strong>cuando</strong> hace clic en el enlace para leer los Términos y condiciones en la parte inferior del formulario, <strong>entonces</strong> el sistema debe mostrar el documento completo en una ventana emergente o en una nueva página. El documento debe ser fácilmente navegable y estar estructurado de manera que facilite su lectura, permitiendo al usuario revisar el contenido antes de aceptar. El sistema debe cargar los Términos y condiciones en un plazo máximo de 2 segundos.<br><br>
-    <strong>Escenario 2: Aceptación de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario nuevo en la aplicación ha accedido a la pestaña de términos y condiciones y los ha leído completamente, <strong>cuando</strong> marca la casilla de aceptación y completa el registro de su cuenta, <strong>entonces</strong> el sistema debe registrar la aceptación en la base de datos del usuario y permitir el acceso completo a la plataforma. El sistema debe asegurarse de que la aceptación sea obligatoria y que el registro no pueda completarse sin la acción explícita de marcar la casilla de aceptación.<br><br>
-    <strong>Escenario 3: Descarga de los términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario desea conservar una copia de los Términos y condiciones que está aceptando durante el proceso de creación de su cuenta, <strong>cuando</strong> ingresa a la pantalla de revisión de términos y condiciones, ya sea desde el formulario de registro o alguna otra pantalla superior, baja hasta el final del documento y presiona el botón de descargar, <strong>entonces</strong> el usuario debe poder descargar una versión PDF del documento directamente, para garantizar que tenga acceso continuo a la versión aceptada.<br><br>
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US039</td>
-    <td colspan="1">
-    Revisar Términos y condiciones actualizados
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
-    <td colspan="5">
-    <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
-    <br><br>
-    <strong>E02: Confirmación de aceptación de actualizaciones</strong>
-    <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US040</td>
-    <td colspan="1">
-    Accesibilidad a Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
-    <td colspan="5">
-    <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
-    <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
-    <br><br>
-    <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
-    <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
-    </td>
-    <td colspan="1">EP008</td>
-		</tr>
-		<tr>
-    <td colspan="1">US041</td>
-    <td colspan="1">
-    Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
-    </td>
-    <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
-    <td colspan="5">
-    <strong>E01: Diseño visualmente atractivo y funcional</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
-    <br><br>
-    <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US042</td>
-    <td colspan="1">
-    Visualizar contenido de Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
-    <td colspan="5">
-    <strong>E01: Visualización completa del contenido de la landing page</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
-    <br><br>
-    <strong>E02: Acceso a información adicional y detalles</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US043</td>
-    <td colspan="1">
-    Formulario de contacto
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
-    <td colspan="5">
-    <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
-    <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
-    <br><br>
-    <strong>E02: Confirmación de envío y respuesta</strong>
-    <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US044</td>
-    <td colspan="1">
-    Implementación de footer
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
-    <td colspan="5">
-    <strong>E01: Inclusión de enlaces importantes en el footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
-    <br><br>
-    <strong>E02: Diseño consistente y funcional del footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US045</td>
-    <td colspan="1">
-    Responsive Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
-    <td colspan="5">
-    <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
-    <br><br>
-    <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
+      <td colspan="1">US036</td>
+      <td colspan="1">
+      Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario de la plataforma de Roademics, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Notificación por correo electrónico</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole sobre el inicio de sesión, incluyendo detalles como la ubicación aproximada, tipo de dispositivo y la hora del acceso. El sistema debe enviar el correo en un plazo de 1 minuto tras el inicio de sesión.<br><br>
+      <strong>Escenario 2: Notificación por SMS</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> se confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole sobre el acceso y proporcionando detalles básicos como el tipo de dispositivo y la ubicación aproximada, para que el usuario pueda actuar rápidamente en caso de actividad sospechosa. El sistema debe enviar el SMS en un plazo de 1 minuto tras el inicio de sesión.<br><br>
+      <strong>Escenario 3: Solicitud de verificación adicional</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema identifica que el acceso proviene de una ubicación inusual o un dispositivo nuevo y no reconocido, <strong>entonces</strong> debe solicitar al usuario una verificación adicional a través de un código de seguridad enviado por correo electrónico o SMS, antes de permitir el acceso completo a la cuenta. Este mensaje debe ser enviado en un plazo no mayor a 10 segundos y la propia advertencia y bloqueo a la entrada debe presentarse de forma inmediata.<br><br>
+      <strong>Escenario 4: Opciones de dispositivos confiables</strong>
+      <br><br><strong>Dado que</strong> un usuario desea evitar recibir notificaciones continuas de inicio de sesión desde un dispositivo de confianza, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una opción para marcar dispositivos específicos como "confiables", evitando notificaciones futuras sobre inicios de sesión desde esos dispositivos, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.<br><br>
+      <strong>Escenario 5: Visualización de dispositivos registrados</strong>
+      <br><br><strong>Dado que</strong> un usuario desea gestionar cada uno de los dispositivos que en algún momento fueron asociados a su cuenta de Roademics, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una lista de información sobre todos los dispositivos vinculados, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.
+      </td>
+      <td colspan="1">EP007</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US037</td>
+      <td colspan="1">
+      Poder revisar el historial de inicios de sesión recientes
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario autenticado en la plataforma de Roademics, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes realizados en mi cuenta de usuario, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual que pueda afectar mi seguridad personal.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Visualización del historial de inicios de sesión</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado accede a su página de perfil con el fin de identificar cuales fueron los inicios de sesión más recientes en su cuenta, <strong>cuando</strong> accede a la sección de historial de ingreso y presiona el botón de revisar inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada que incluya fechas, horas, dispositivos, direcciones IP y ubicaciones de cada inicio de sesión, permitiendo al usuario revisar la actividad de su cuenta. El historial debe estar disponible en un plazo de 2 segundos tras la solicitud.
+      <br><br>
+      <strong>Escenario 2: Filtrado y búsqueda en el historial</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado desea encontrar información específica en su historial de inicios de sesión dentro de la página de su perfil, <strong>cuando</strong> utiliza opciones de filtrado o búsqueda en la propia sección mediante una barra de texto, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por rango de fechas, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.<br><br>
+      <strong>Escenario 3: Exportación del historial de inicios de sesión</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado desea tener una copia de su historial de inicios de sesión en la aplicación de Roademics, <strong>cuando</strong> accede a página de perfil, luego a la sección de ajustes, accede a la página de historial y presiona la opción de exportación en el historial, <strong>entonces</strong> el sistema debe permitir la descarga del historial en formato PDF o CSV, garantizando que los datos exportados incluyan toda la información disponible sobre cada inicio de sesión, en un plazo no mayor a 1 minuto.
+      </td>
+      <td colspan="1">EP007</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US038</td>
+      <td colspan="1">
+      Leer y aceptar Términos y condiciones
+      </td>
+      <td colspan="1"><strong>Como</strong> un nuevo usuario de la plataforma de Roademics, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro de mi cuenta, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma en todo momento.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Visualización de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario está en la página de registro de la aplicación de Roademics, <strong>cuando</strong> hace clic en el enlace para leer los Términos y condiciones en la parte inferior del formulario, <strong>entonces</strong> el sistema debe mostrar el documento completo en una ventana emergente o en una nueva página. El documento debe ser fácilmente navegable y estar estructurado de manera que facilite su lectura, permitiendo al usuario revisar el contenido antes de aceptar. El sistema debe cargar los Términos y condiciones en un plazo máximo de 2 segundos.<br><br>
+      <strong>Escenario 2: Aceptación de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario nuevo en la aplicación ha accedido a la pestaña de términos y condiciones y los ha leído completamente, <strong>cuando</strong> marca la casilla de aceptación y completa el registro de su cuenta, <strong>entonces</strong> el sistema debe registrar la aceptación en la base de datos del usuario y permitir el acceso completo a la plataforma. El sistema debe asegurarse de que la aceptación sea obligatoria y que el registro no pueda completarse sin la acción explícita de marcar la casilla de aceptación.<br><br>
+      <strong>Escenario 3: Descarga de los términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario desea conservar una copia de los Términos y condiciones que está aceptando durante el proceso de creación de su cuenta, <strong>cuando</strong> ingresa a la pantalla de revisión de términos y condiciones, ya sea desde el formulario de registro o alguna otra pantalla superior, baja hasta el final del documento y presiona el botón de descargar, <strong>entonces</strong> el usuario debe poder descargar una versión PDF del documento directamente, para garantizar que tenga acceso continuo a la versión aceptada.<br><br>
+      </td>
+      <td colspan="1">EP008</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US039</td>
+      <td colspan="1">
+      Revisar Términos y condiciones actualizados
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+      <td colspan="5">
+      <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
+      <br><br>
+      <strong>E02: Confirmación de aceptación de actualizaciones</strong>
+      <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
+      </td>
+      <td colspan="1">EP008</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US040</td>
+      <td colspan="1">
+      Accesibilidad a Términos y condiciones
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+      <td colspan="5">
+      <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
+      <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
+      <br><br>
+      <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
+      <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
+      </td>
+      <td colspan="1">EP008</td>
+                  </tr>
+                  <tr>
+      <td colspan="1">US041</td>
+      <td colspan="1">
+      Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
+      </td>
+      <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+      <td colspan="5">
+      <strong>E01: Diseño visualmente atractivo y funcional</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
+      <br><br>
+      <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
+      <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US042</td>
+      <td colspan="1">
+      Visualizar contenido de Landing Page
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+      <td colspan="5">
+      <strong>E01: Visualización completa del contenido de la landing page</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
+      <br><br>
+      <strong>E02: Acceso a información adicional y detalles</strong>
+      <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US043</td>
+      <td colspan="1">
+      Formulario de contacto
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+      <td colspan="5">
+      <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
+      <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
+      <br><br>
+      <strong>E02: Confirmación de envío y respuesta</strong>
+      <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US044</td>
+      <td colspan="1">
+      Implementación de footer
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+      <td colspan="5">
+      <strong>E01: Inclusión de enlaces importantes en el footer</strong>
+      <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
+      <br><br>
+      <strong>E02: Diseño consistente y funcional del footer</strong>
+      <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US045</td>
+      <td colspan="1">
+      Responsive Landing Page
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+      <td colspan="5">
+      <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
+      <br><br>
+      <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
 </table>
+
+Terminando con las historias de usuario funcionales, pasamos a las historias de usuario técnicas de Roademics, las cuales se presentan en la sección a continuación. <br><br> Estas historias técnicas se encuentran diseñadas específicamente para el proyecto Roademics, con el propósito de optimizar el funcionamiento interno de la plataforma y asegurar una infraestructura robusta, escalable y adaptable a las necesidades futuras de la aplicación. Estas historias abordan componentes técnicos fundamentales que, aunque no son directamente visibles para el usuario final, inciden significativamente en la estabilidad, seguridad, rendimiento y eficiencia global del sistema. <br><br> Además, cada historia técnica ha sido desarrollada para alinearse con los requisitos de calidad y soporte establecidos, con el fin de garantizar que la experiencia del usuario sea intuitiva, fluida y fiable. De este modo, se busca que cada funcionalidad de la aplicación esté respaldada por una arquitectura sólida y de alta calidad, capaz de soportar el crecimiento y evolución continuos de Roademics.
 
 ###### Tabla 9
 *Tabla de las historias técnicas establecidas para el proyecto de Roademics*
@@ -2033,14 +2057,14 @@ En esta sección vamos a presentar los diagramas desarrollados para el modelo de
 Los diagramas de impacto se dividen en cuatro componentes principales: los actores, los objetivos, los impactos y las entregas. Cada uno de estos elementos juega un papel crucial en la planificación y desarrollo del producto, ya que nos ayuda a centrar nuestras prioridades y a asegurar que estamos abordando los problemas más relevantes para nuestros usuarios.
 
 ###### Figura 23
-*Impact Mapping empleado en el primer User Persona*
+*Impact Mapping desarrollado con respecto a las necesidades del primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/impact-mapping-segmento1.png">
+<img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento1.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del primer User Persona de Roademics.">
 
 ###### Figura 24
-*Impact Mapping empleado en el segundo User Persona*
+*Impact Mapping desarrollado con respecto a las necesidades del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/impact-mapping-segmento2.png">
+<img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento2.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del segundo User Persona de Roademics.">
 
 ### 2.4.4. Product Backlog
 
