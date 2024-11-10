@@ -603,7 +603,7 @@ Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un m
 ###### Figura 22
 *To-be Scenario Mapping del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento2.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona después de la existencia de la aplicación de Roademics.>
+<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento2.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona después de la existencia de la aplicación de Roademics.">
 
 ### 2.4.2. User Stories
 
@@ -654,7 +654,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 <table  style="text-align: left;">
 	<tbody>
 		<tr>
-			<td colspan="1">ID de Historia de Usuario</td>
+	    <td colspan="1">ID de Historia de Usuario</td>
             <td colspan="1">Título</td>
             <td colspan="1">Descripción</td>
             <td colspan="5">Criterios de Aceptación con Escenarios</td>
@@ -1048,7 +1048,6 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 	    <br><br><strong>Dado que</strong> un usuario está autenticado e intenta eliminar un roadmap en su sección de gestión de roadmaps, <strong>cuando</strong> el sistema detecta un error en el proceso de eliminación (como un fallo en la conexión o problema con la base de datos), <strong>entonces</strong> el sistema debe mostrar un mensaje de error en menos de 3 segundos, informando al usuario del problema y sugiriendo que intente la acción nuevamente o contacte con soporte técnico si el error persiste.<br><br>
 	    <strong>Escenario 3: Intento de acceso a roadmaps eliminados</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado ha eliminado uno o varios roadmaps de su perfil, <strong>cuando</strong> el usuario intenta acceder a un roadmap eliminado a través de enlaces guardados o referencias anteriores, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia que indique que el roadmap ya no está disponible y redirigir al usuario a su lista actualizada de roadmaps o a otra sección relevante de la plataforma, ambas acciones dentro de un tiempo máximo de 3 segundos.<br><br>
-            </td>
 	    <strong>Escenario 4: Nueva pantalla en caso de eliminación de todos los roadmaps</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado está eliminando todos los roadmaps que tiene almacenados dentro de su sección de gestión de roadmaps, <strong>cuando</strong> el usuario consiga eliminar el último roadmap que queda en esa sección de forma adecuada, <strong>entonces</strong> el sistema debe cambiar la pantalla de su menú de la sección de gestión de roadmaps para que le presente un mensaje motivador para que empiece a crear nuevos roadmaps y darle la opción directa de generar un nuevo roadmap en un plazo no mayor a 2 segundos.
             </td>
