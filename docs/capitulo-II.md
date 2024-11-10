@@ -595,12 +595,12 @@ El "To-Be Scenario Mapping" es una técnica clave en el diseño de experiencia d
 
 Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un mapa visual que ilustra las etapas y acciones deseadas en un proceso o experiencia futura. Este mapa detalla cómo deberían configurarse las interacciones, los pasos, las decisiones y los puntos de contacto en el proceso, con el fin de alcanzar un estado optimizado y alineado con los objetivos estratégicos. Esta herramienta es esencial para guiar el desarrollo de soluciones que mejoren la eficiencia, la efectividad y la satisfacción del usuario, asegurando que las transformaciones realizadas sean coherentes con la visión y metas a largo plazo.
 
-###### Figura 21
+###### Figura 22
 *To-be Scenario Mapping del primer User Persona*
 
 <img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento1.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro primer user persona después de la existencia de la aplicación de Roademics.">
 
-###### Figura 22
+###### Figura 23
 *To-be Scenario Mapping del segundo User Persona*
 
 <img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento2.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona después de la existencia de la aplicación de Roademics.">
@@ -2055,12 +2055,12 @@ En esta sección vamos a presentar los diagramas desarrollados para el modelo de
 
 Los diagramas de impacto se dividen en cuatro componentes principales: los actores, los objetivos, los impactos y las entregas. Cada uno de estos elementos juega un papel crucial en la planificación y desarrollo del producto, ya que nos ayuda a centrar nuestras prioridades y a asegurar que estamos abordando los problemas más relevantes para nuestros usuarios.
 
-###### Figura 23
+###### Figura 24
 *Impact Mapping desarrollado con respecto a las necesidades del primer User Persona*
 
 <img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento1.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del primer User Persona de Roademics.">
 
-###### Figura 24
+###### Figura 25
 *Impact Mapping desarrollado con respecto a las necesidades del segundo User Persona*
 
 <img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento2.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del segundo User Persona de Roademics.">
