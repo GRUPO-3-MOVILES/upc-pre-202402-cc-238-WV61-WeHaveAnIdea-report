@@ -1289,17 +1289,13 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
 En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 2 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
 
 ###### Tabla XX
-*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 3*
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fcd14b9127bccf8dce545dfaff8e439c2dde91c7|chore: create clean architecture folder structure and add app_constants|committed :)| 25/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|11e89700dd38ae8f9b45e8f598a3278a1e746222|chore: add placeholder for team collaboration|committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|f3e95111ef5f8264cb4c28fbbc2ee7adb46545a0|chore: add more placeholders |committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|5d323f549767b421e31f61af7bddf5f281371054|feat: add profile page, edit profile, settings page |committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fbb9f26790c7ee08a44aae50b4e9de868ab08fba|feat: add update email settings page |committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|65bf6314c46c88c58692c652b8e5e4d69078278d|feat: add update phone number page |committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|1dd12af8610363edb885b11be93bf78585066d2f|feat: add change password page|committed :)| 26/10/24|
-|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|d4dc95c6b813259b32fba6ab146dbc2a8aaa7f21|feat: add delete account function|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|307f27d841d91bf023a8c5e743e46bf34d75fad0|feat: add login with backend logic|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage|main|56411883772943c9f707fc83efee0f5b06a99085|feat: update hero section and foooter|committed :)| 10/11/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests|Sprint-3|e781d5338369c69ae5d0fc68437d6b9e863c15da|Create US_Sprint3.feature|committed :)| 10/11/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests|Sprint-3|47228e2ed86c66f85d72ecd011fd34ab90f2212b|Update US_Sprint3.feature|committed :)| 10/11/24|
 
 #### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
 
