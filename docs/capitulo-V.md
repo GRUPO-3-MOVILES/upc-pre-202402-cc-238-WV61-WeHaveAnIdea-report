@@ -452,7 +452,7 @@ Durante esta reunión, se abordarán las características a desarrollar, los pla
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es 21</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es 29</td>
         </tr>
     </table>
 
@@ -533,7 +533,7 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Pescoran Angulo, Juan Fabrizzio</td> 
             <td>Done</td>
         </tr>
-                <tr>
+        <tr>
             <td>US001</td>
             <td>Registro de cuenta en la plataforma</td>
             <td>T06</td>
@@ -543,13 +543,33 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
-                  <tr>
+        <tr>
+            <td>US003</td>
+            <td>Verificación de Correo Electrónico durante el registro</td>
+            <td>T07</td>
+            <td>Verificación del Correo Electrónico al registrar un usuario</td>
+            <td><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual, <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>US004</td>
             <td>Inicio de sesión con cuenta de la aplicación</td>
-            <td>T07</td>
+            <td>T08</td>
             <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
-            <td><<strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
+            <td><strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
             <td>3 horas con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US005</td>
+            <td>Recuperación de contraseña de cuenta.</td>
+            <td>T09</td>
+            <td>Recuperación de contraseña de un usuario.</td>
+            <td><strong>Como</strong> usuario registrado en Roademics, <strong>quiero</strong> tener la opción de recuperar mi contraseña, <strong>para</strong> poder restablecer mi acceso a la plataforma en caso de haberla olvidado o garantizar mi seguridad, y permitir la continuidad del uso de todas las funcionalidades asociadas a mi cuenta.</td>
+            <td>1 hora con 30 minutos</td>
             <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
@@ -697,7 +717,7 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
         </tr>
         <tr>
             <td>Date</td>
-            <td>2024-10-12</td>
+            <td>2024-10-15</td>
         </tr>
           <tr>
             <td>Time</td>
@@ -732,11 +752,11 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
         </tr>
               <tr>
             <td>Sprint 2 Velocity</td>
-            <td>Con el equipo para este sprint 2 decidimos aceptar 8 Story Points</td>
+            <td>Con el equipo para este sprint 2 decidimos aceptar 8 Story Points.</td>
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 101</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 64.</td>
         </tr>
     </table>
 
@@ -770,111 +790,80 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
         <tr>
             <td>US007</td>
             <td>Agregar una foto o imagen en el perfil de usuario</td>
-            <td>T08</td>
+            <td>T10</td>
             <td>Agregar imagen de perfil de usuario</td>
             <td><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.</td>
-            <td>1 hora</td>
-            <td>###</td>
+            <td>1 hora y 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
           <tr>
             <td>US008</td>
             <td>Gestión de sección de biografía</td>
-            <td>T09</td>
+            <td>T11</td>
             <td>Agregar y gestionar biografía de usuario</td>
             <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.</td>
             <td>1 hora</td>
-            <td>###</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
             <tr>
             <td>US011</td>
             <td>Actualización de información personal</td>
-            <td>T10</td>
+            <td>T13</td>
             <td>Actualización de información de perfil</td>
             <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder actualizar mi información personal como nombres, apellidos, país y nacionalidad, y detalles de contacto en la plataforma, <strong>para</strong> mantener mi perfil actualizado y asegurarme de que otros usuarios puedan contactar conmigo de manera adecuada.</td>
             <td>2 horas y 30 minutos</td>
-            <td>###</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
               <tr>
             <td>US012</td>
             <td>Eliminación de una cuenta de usuario</td>
-            <td>T11</td>
+            <td>T14</td>
             <td>Eliminación de cuenta de usuario</td>
             <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
-            <td>1 hora</td>
-            <td>###</td>
+            <td>2 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                 <tr>
             <td>US013</td>
             <td>Sección de cambio de contraseña</td>
-            <td>T12</td>
+            <td>T15</td>
             <td>Página con sección de cambio de contraseña</td>
             <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
-            <td>1 hora</td>
-            <td>###</td>
+            <td>1 hora y 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                   <tr>
             <td>US016</td>
             <td>Creación de roadmap académico básico</td>
-            <td>T13</td>
+            <td>T16</td>
             <td>Creación de un roadmap básico</td>
             <td><strong>Como</strong> usuario de la aplicación de Roademics interesado en planificar mi trayectoria profesional con las funciones ofrecidas, <strong>quiero</strong> crear un roadmap académico básico en la plataforma, <strong>para</strong> visualizar y gestionar mi progreso académico, planificar mis cursos y establecer metas profesionales de manera eficiente y estructurada.</td>
             <td>3 horas y 30 minutos</td>
-            <td>###</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
                     <tr>
             <td>US017</td>
             <td>Generación automática de roadmap con el uso de Inteligencia Artificial</td>
-            <td>T14</td>
+            <td>T17</td>
             <td>Creación de un roadmap básico con Inteligencia Artificial</td>
             <td><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma sea capaz de generar un roadmap profesional utilizando las herramientas de inteligencia artificial que dispone, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
             <td>3 horas</td>
-            <td>###</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
-        </tr>
-                      <tr>
-            <td>US018</td>
-            <td>Menú de almacenamiento de Roadmaps de un usuario</td>
-            <td>T15</td>
-            <td>Implementar menú de almacenamiento de roadmaps personales</td>
-            <td><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma tenga un pequeño menú o dashboard donde se muestren todos los roadmaps u hojas de ruta que he generado en la aplicación, <strong>para</strong> tener un acceso directo a cada uno de mis roadmaps y poder almacenarlos de forma más sencilla, cómoda y organizada.</td>
-            <td>2 horas</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
-                        <tr>
-            <td>US019</td>
-            <td>Acceso a plantillas básicas y avanzadas para la creación de Roadmaps</td>
-            <td>T16</td>
-            <td>Diseño de plantillas básicas y avanzadas para la creación de Roadmaps</td>
-            <td><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
-            <td>1 hora y 30 minutos</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
                           <tr>
             <td>US020</td>
             <td>Edición de roadmaps básicos</td>
-            <td>T17</td>
+            <td>T18</td>
             <td>Edición de un roadmap básico</td>
             <td><strong>Como</strong> usuario que ha creado un roadmap básico en la plataforma de Roademics, <strong>quiero</strong> poder editar el roadmap existente con el uso de herramientas variadas de edición y modificación, <strong>para</strong> actualizar la información relevante, ajustar mis objetivos profesionales o académicos, y modificar mis planes según mis necesidades actuales.</td>
             <td>4 horas y 30 minutos</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
-                            <tr>
-            <td>US021</td>
-            <td>Acceso a herramientas de edición avanzada de roadmaps para usuarios premium</td>
-            <td>T18</td>
-            <td>Desarrollo de herramientas de edición avanzada de roadmaps (Para usuarios premium)</td>
-            <td><strong>Como</strong> usuario con suscripción Premium en la plataforma Roademics, <strong>quiero</strong> tener acceso a herramientas de edición avanzada para la modificación de mis roadmaps profesionales, <strong>para</strong> aprovechar funcionalidades adicionales que me permitan optimizar la planificación y gestión de mis metas, brindándome mayor flexibilidad y precisión en la creación y ajuste de mis objetivos.</td>
-            <td>2 horas y 30 minutos</td>
-            <td>###</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
                               <tr>
@@ -884,7 +873,7 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
             <td>Eliminación de Roadmaps</td>
             <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
             <td>1 hora y 30 minutos</td>
-            <td>###</td>
+            <td>Pescorán Angulo, Juan Fabritzzio</td>
             <td>Done</td>
         </tr>
                                 <tr>
@@ -894,57 +883,27 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
             <td>Visualización de limitaciones de la cantidad de roadmaps que cada usuario puede gestionar</td>
             <td><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
             <td>1 hora y 30 minutos</td>
-            <td>###</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
-                                  <tr>
-            <td>US024</td>
-            <td>Recibir análisis avanzados sobre un Roadmap en específico para los usuarios premium</td>
-            <td>T21</td>
-            <td>Análisis avanzado sobre un Roadmap en específico para los usuarios premium</td>
-            <td><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
-            <td>3 horas</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
-                                    <tr>
-            <td>US025</td>
-            <td>Poder exportar mi roadmaps en formato como PDF o PNG</td>
-            <td>T22</td>
-            <td>Exportar roadmaps en formato PDF o PNG</td>
-            <td><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
-            <td>2 horas</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
-                                    <tr>
+         <tr>
             <td>US026</td>
             <td>Poder crear los nodos de mi roadmap</td>
-            <td>T23</td>
+            <td>T21</td>
             <td>Creación de nodos de un roadmap</td>
             <td><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
             <td>3 horas</td>
-            <td>###</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
-                                      <tr>
-            <td>US027</td>
-            <td>Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible</td>
-            <td>T24</td>
-            <td>Notificar si un nodo en un grafo se vuelve obsoleto o ya no se encuentra disponible</td>
-            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
-            <td>2 horas</td>
-            <td>###</td>
-            <td>Done</td>
-        </tr>
-                                        <tr>
+        <tr>
             <td>US028</td>
             <td>Guardar versiones de mi roadmap</td>
-            <td>T25</td>
+            <td>T22</td>
             <td>Historial de versiones de un roadmap</td>
             <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
             <td>2 horas y 30 minutos</td>
-            <td>###</td>
+            <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
     </table>
@@ -1049,15 +1008,15 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 
 ---
 
-### 5.2.2. Sprint 3
+### 5.2.3. Sprint 3
 
 En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 2 de la Implementación del FrontEnd. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo de la interfaz de usuario en su página de perfil, las principales funcionalidades de Roadmaps e Inteligencia Artificial, todas las secciones referentes al networking, y el avance colectivo aportado por cada integrante del equipo de trabajo en relación con los componentes del FrontEnd y sus respectivas interacciones entre Bounded Context. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint, destacando cómo cada aportación individual contribuye al éxito colectivo del proyecto.
 
 Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto, asegurando que la interfaz cumpla con los estándares de calidad y usabilidad deseados.
 
-#### 5.2.2.1 Sprint Planning 3.
+#### 5.2.3.1 Sprint Planning 3.
 
-Aqui se detallarán los puntos discutidos y analizados durante la reunión de Sprint Planning para el segundo sprint enfocado en la implementación del FrontEnd. El objetivo principal de dicha reunión fue establecer un plan estratégico y alcanzable que guíe el desarrollo de la interfaz de usuario, garantizando la incorporación de todas las funcionalidades esenciales para los usuarios. Durante el encuentro, se identificaron las tareas específicas a ejecutar, comprometiéndose a entregar un conjunto de resultados tangibles que contribuyan al progreso del proyecto, particularmente en las funcionalidades clave como la generación y edición de roadmaps, las funciones relacionadas con la gestión del perfil y datos de usuario, así como las características principales de la sección de networking.
+Aqui se detallarán los puntos discutidos y analizados durante la reunión de Sprint Planning para el tercer sprint enfocado en la implementación del FrontEnd. El objetivo principal de dicha reunión fue establecer un plan estratégico y alcanzable que guíe el desarrollo de la interfaz de usuario, garantizando la incorporación de todas las funcionalidades esenciales para los usuarios. Durante el encuentro, se identificaron las tareas específicas a ejecutar, comprometiéndose a entregar un conjunto de resultados tangibles que contribuyan al progreso del proyecto, particularmente en las funcionalidades clave como la generación y edición de roadmaps, las funciones relacionadas con la gestión del perfil y datos de usuario, así como las características principales de la sección de networking.
 
 Este enfoque asegura que todos los miembros del equipo compartan una visión común respecto a los objetivos y expectativas del sprint, lo cual es fundamental para mantener una adecuada coordinación y efectividad en el trabajo colaborativo. A lo largo de la reunión, se establecieron las características que serán desarrolladas, se definieron los plazos para cada tarea y se acordaron los criterios de aceptación correspondientes. Además, se promovió un diálogo abierto entre los integrantes del equipo, con el fin de identificar posibles desafíos y áreas de mejora, asegurando que todos los aspectos del desarrollo del FrontEnd estén alineados con las metas generales del proyecto. Esta metodología contribuye a una planificación estructurada y a una ejecución eficiente de las tareas, reforzando el compromiso del equipo con los objetivos del sprint.
 
@@ -1066,18 +1025,18 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
 <table>
         <tr>
             <td colspan="1">Sprint #</td>
-            <td colspan="1">Sprint 2</td>
+            <td colspan="1">Sprint 3</td>
         </tr>
         <tr>
             <td colspan="2">Sprint Planning Background</td>
         </tr>
         <tr>
             <td>Date</td>
-            <td>2024-10-12</td>
+            <td>2024-10-30</td>
         </tr>
           <tr>
             <td>Time</td>
-            <td>17:16</td>
+            <td>19:56</td>
         </tr>
             <tr>
             <td>Location</td>
@@ -1092,8 +1051,8 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
             <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
         </tr>
             <tr>
-            <td>Sprint 2 Review Summary</td>
-            <td>Al finalizar el Sprint 2, se concretó la reunión del Sprint Review para evaluar el avance en el desarrollo del FrontEnd de nuestra aplicación. En este sprint, el objetivo principal fue el desarrollo de funciones clave en la aplicación, tales como la generación y edición de roadmaps mediante el asesor que funciona a base de inteligencia artificial, y la implementación de secciones como el perfil de usuario y mejoras en el diseño de las pantallas de networking. <br><br>La reunión fue exitosa, tanto por los avances logrados en los productos de software como por la efectiva colaboración del equipo. Se expusieron las nuevas funcionalidades, se realizaron demostraciones de la interfaz de usuario, y se recibieron comentarios útiles de los miembros del equipo y otros interesados. Este valioso intercambio de ideas permitió identificar oportunidades de mejora y ajustar las prioridades para el siguiente sprint. La colaboración y comunicación fluida durante esta revisión contribuyeron significativamente a la cohesión del equipo y aseguraron que el desarrollo del FrontEnd siguiera en línea con los objetivos generales del proyecto.</td> 
+            <td>Sprint 3 Review Summary</td>
+            <td>Al finalizar el Sprint 3, se concretó la reunión del Sprint Review para evaluar el avance en el desarrollo del FrontEnd de nuestra aplicación. En este sprint, el objetivo principal fue el desarrollo de funciones clave en la aplicación, tales como la generación y edición de roadmaps mediante el asesor que funciona a base de inteligencia artificial, y la implementación de secciones como el perfil de usuario y mejoras en el diseño de las pantallas de networking. <br><br>La reunión fue exitosa, tanto por los avances logrados en los productos de software como por la efectiva colaboración del equipo. Se expusieron las nuevas funcionalidades, se realizaron demostraciones de la interfaz de usuario, y se recibieron comentarios útiles de los miembros del equipo y otros interesados. Este valioso intercambio de ideas permitió identificar oportunidades de mejora y ajustar las prioridades para el siguiente sprint. La colaboración y comunicación fluida durante esta revisión contribuyeron significativamente a la cohesión del equipo y aseguraron que el desarrollo del FrontEnd siguiera en línea con los objetivos generales del proyecto.</td> 
         </tr>
             <tr>
             <td>Sprint 2 Retrospective Summary</td>
@@ -1103,20 +1062,20 @@ Este enfoque asegura que todos los miembros del equipo compartan una visión com
             <td colspan="2">Sprint Goal & User Stories</td>
         </tr>
               <tr>
-            <td>Sprint 2 Goal</td>
+            <td>Sprint 3 Goal</td>
             <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 2 con todas las historias de usuario y otros materiales necesarios.</td>
         </tr>
               <tr>
-            <td>Sprint 2 Velocity</td>
+            <td>Sprint 3 Velocity</td>
             <td>Con el equipo para este sprint 2 decidimos aceptar 8 Story Points</td>
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 101</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 3 es 101</td>
         </tr>
     </table>
 
-#### 5.2.2.2 Sprint Backlog 3.
+#### 5.2.3.2 Sprint Backlog 3.
 
 En esta sección se analizará en detalle el proceso del Sprint Backlog 2, en el cual nuestro equipo concentró sus esfuerzos principalmente en el diseño de los bounded contexts de Roadmaps, Gestión de Usuarios, y en avanzar en aspectos clave de Networking. Este enfoque abarcó de manera integral la definición de cada una de las funcionalidades planteadas en las historias de usuario, además del diseño de cada actividad ya asignada y la propia interfaz.
 
@@ -1144,9 +1103,9 @@ A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia d
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US007</td>
+            <td>US002</td>
             <td>Agregar una foto o imagen en el perfil de usuario</td>
-            <td>T08</td>
+            <td>T23</td>
             <td>Agregar imagen de perfil de usuario</td>
             <td><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.</td>
             <td>1 hora</td>
