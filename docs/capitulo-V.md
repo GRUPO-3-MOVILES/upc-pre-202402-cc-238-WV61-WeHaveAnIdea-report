@@ -1457,6 +1457,8 @@ Para alcanzar una comunicación efectiva y alineada con la identidad del product
 
 El vídeo About-the-Product fue integrado dentro de la Landing Page y puede ser visualizado en la página con facilidad, pero, con fines de documentación, también se agrego el vídeo en este reporte. El enlace es el siguiente:
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZl_lHXj4yBNjlWuh494lBcBnQ_wkKPOnHUu8EXe2_4okQ?e=XYRmJS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ## 5.5. Video About-the-Team
 
 En esta sección se presenta una descripción detallada del video "About-The-Team," un recurso audiovisual diseñado para dar a conocer a cada uno de los miembros del equipo que ha contribuido al desarrollo de este proyecto. Este video está dirigido a los usuarios de la aplicación móvil, proporcionando una visión cercana y auténtica sobre los profesionales que están detrás de la plataforma.
