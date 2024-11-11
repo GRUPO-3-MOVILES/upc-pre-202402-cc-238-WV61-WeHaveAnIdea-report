@@ -1366,43 +1366,43 @@ Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
 9. ¿De qué manera considera que la aplicación podría optimizar el proceso de selección de candidatos en relación con otras herramientas de reclutamiento que haya utilizado?
 10. ¿Qué funcionalidades adicionales le gustaría ver en la plataforma para hacer más eficiente la contratación de personal capacitado?
 
-### 5.3.2. Registro de Entrevistas
+### 5.3.2. Registro de Entrevistas de Validación
 
 #### Segmento 1: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap
 
 **Entrevista N°1:**
 
-###### Figura ##
+###### Figura #
 *Imagen de presentación de la primera entrevista de validación realizada*
 
-<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion1-segmento1.png" alt="Primera entrevista de validación de nuestro primer segmento objetivo a (nombre)." width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento1.png" alt="Primera entrevista de validación de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: (Nombre completo)
-- Edad: 
-- Distrito: 
-- Link: [Entrevista a (Poner Nombre)](enlace)
-- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
-- Duración: (Minutos y segundos)
-- Entrevistador: (Nombre completo)
-- Resumen de Entrevista: (Párrafo)
+- Nombre completo del entrevistado: Fernando Lizano Coll Cardenas
+- Edad: 19 años
+- Distrito: Punta Hermosa
+- Link: [Entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
+- Duración: 7 minutos y 3 segundos
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
 
 **Entrevista N°2:**
 
-###### Figura ##
+###### Figura #
 *Imagen de presentación de la segunda entrevista de validación realizada*
 
-<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion2-segmento1.png" alt="Segunda entrevista de validación de nuestro primer segmento objetivo a (nombre)." width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista2-segmento1.png" alt="Segunda entrevista de validación a nuestro segmento objetivo 1 a Jeremías Evangelista Pescorán." width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: (Nombre completo)
-- Edad: 
-- Distrito: 
-- Link: [Entrevista a (Poner Nombre)](enlace)
-- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
-- Duración: (Minutos y segundos)
-- Entrevistador: (Nombre completo)
-- Resumen de Entrevista: (Párrafo)
+- Nombre completo del entrevistado: Jeremías Evangelista Pescorán
+- Edad: 24 años
+- Distrito: San Juan de Miraflores
+- Link: [Entrevista a Jeremías Pescorán](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
+- Duración: 7 minutos y 33 segundos
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Jeremías Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 ---
 
@@ -1410,37 +1410,38 @@ Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
 
 **Entrevista N°3:**
 
-###### Figura ##
+###### Figura #
 *Imagen de presentación de la tercera entrevista de validación realizada*
 
-<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion1-segmento2.png" alt="Primera entrevista de validación de nuestro segundo segmento objetivo a (nombre)." width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento2.png" alt="Primera entrevista de validación de nuestro segmento objetivo 2 a Rosa Castro." width="400" height="200">
 
 **Datos principales:**
-- Nombre completo del entrevistado: (Nombre completo)
-- Edad: 
-- Distrito: 
-- Link: [Entrevista a (Poner Nombre)](enlace)
-- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
-- Duración: (Minutos y segundos)
-- Entrevistador: (Nombre completo)
-- Resumen de Entrevista: (Párrafo)
-  
-**Entrevista N°3:**
+- Nombre completo del entrevistado: Rosa Castro
+- Edad: 32
+- Distrito: Ate
+- Link: [Entrevista a Rosa Castro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:01 
+- Duración: 10:56
+- Entrevistador: Lucio Yen
+- Resumen de Entrevista: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
 
-###### Figura ##
-*Imagen de presentación de la cuarta entrevista de validación realizada*
+**Entrevista N°4:**
 
-<img src="/assets/img/capitulo-5/validation-interviews/entrevista-validacion2-segmento2.png" alt="Segunda entrevista de validación de nuestro segundo segmento objetivo a (nombre)." width="550" height="300">
+###### Figura #
+*Imagen de presentación de la cuarta entrevista de validación realizada.*
+
+<img src="/assets/img/capitulo-2//interviews/records/entrevista2-segmento2.png" alt="Segunda entrevista de validación nuestro segmento objetivo 2 a Jennifer Villanueva." width="400" height="200">
+
 
 **Datos principales:**
-- Nombre completo del entrevistado: (Nombre completo)
-- Edad: 
-- Distrito: 
-- Link: [Entrevista a (Poner Nombre)](enlace)
-- Inicio de la entrevista: [Etiqueta de tiempo](enlace)
-- Duración: (Minutos y segundos)
-- Entrevistador: (Nombre completo)
-- Resumen de Entrevista: (Párrafo)
+- Nombre completo del entrevistado: Jennifer Villanueva
+- Edad: 40
+- Distrito: Ate
+- Link: [Entrevista a Jennifer Villanueva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:02
+- Duración: 10:42
+- Entrevistador: Lucio Yen
+- Resumen de Entrevista: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
   
 ### 5.3.3. Evaluaciones según heurísticas
 
