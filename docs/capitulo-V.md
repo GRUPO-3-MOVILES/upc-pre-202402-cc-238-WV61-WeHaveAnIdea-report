@@ -1456,3 +1456,15 @@ En esta sección, el equipo expone y describe en detalle el contenido del video 
 Para alcanzar una comunicación efectiva y alineada con la identidad del producto, se ha seleccionado un tono narrativo coherente y uniforme, que refleja tanto la seriedad como la innovación del software. Este enfoque busca proyectar una imagen profesional y confiable, facilitando una experiencia de usuario que promueve el interés y compromiso con las herramientas y beneficios que el producto ofrece a nivel profesional y personal.
 
 El vídeo About-the-Product fue integrado dentro de la Landing Page y puede ser visualizado en la página con facilidad, pero, con fines de documentación, también se agrego el vídeo en este reporte. El enlace es el siguiente:
+
+## 5.5. Video About-the-Team
+
+En esta sección se presenta una descripción detallada del video "About-The-Team," un recurso audiovisual diseñado para dar a conocer a cada uno de los miembros del equipo que ha contribuido al desarrollo de este proyecto. Este video está dirigido a los usuarios de la aplicación móvil, proporcionando una visión cercana y auténtica sobre los profesionales que están detrás de la plataforma.
+
+En el video, cada integrante expone su rol y participación en el proyecto, compartiendo sus testimonios personales y las enseñanzas adquiridas a lo largo de la experiencia. Además, los miembros del equipo revelan algunos de sus logros profesionales más significativos, ofreciendo una perspectiva completa sobre su crecimiento y desarrollo en sus respectivas trayectorias.
+
+Este enfoque busca no solo presentar al equipo, sino también fortalecer la confianza de los usuarios en la calidad y el compromiso del talento humano que respalda el producto. Al mostrar de forma transparente la experiencia y dedicación de cada miembro, el video contribuye a proyectar una imagen de profesionalismo y credibilidad.
+
+El video "About-The-Team" se ha integrado en la Landing Page para una visualización accesible. Asimismo, para fines de documentación, el video se incluye en este informe y puede ser consultado en el siguiente enlace: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EdbL3RmmyM1ApWKz3O268HcBmUQBV7GG7kKeTyfTeW0bSQ?e=BW3ilk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
