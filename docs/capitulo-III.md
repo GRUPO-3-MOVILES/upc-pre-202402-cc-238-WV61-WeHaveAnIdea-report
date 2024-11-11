@@ -1,14 +1,18 @@
 # Capítulo 3: Arquitectura
 
-## 3.1. Product Design.
+## 3.1. Product Design
 
-### 3.1.1. Style Guidelines.
+Product Design es un proceso multidisciplinario que abarca desde la concepción de una idea hasta su desarrollo y lanzamiento al mercado, buscando crear productos que sean útiles, deseables y viables. Este proceso implica identificar problemas y necesidades del usuario, diseñar soluciones funcionales, y definir una estética que logre una experiencia atractiva y efectiva. En el ámbito tecnológico y digital, el diseño de productos incluye la planificación de la interfaz de usuario (UI), la experiencia del usuario (UX), la arquitectura de la información y la implementación de soluciones que garanticen tanto un diseño intuitivo como una navegación fluida (Zeldman, 2024).
+
+El proceso de diseño de producto no solo considera la satisfacción del usuario, sino también la rentabilidad, la capacidad de fabricación, y la adecuación al mercado, por lo que el diseño debe equilibrar la funcionalidad, la usabilidad y la sostenibilidad del producto en el largo plazo. Entre sus etapas clave se incluyen la investigación, el prototipado, la prueba de conceptos, la validación de la usabilidad y la iteración continua en función de los comentarios de los usuarios y del mercado.
+
+### 3.1.1. Style Guidelines
 
 En esta sección, presentamos el plan detallado de diseño, estilos y estéticas que hemos desarrollado para nuestro proyecto. Este plan se enfoca en asegurar una experiencia de usuario optimizada, proporcionando una interfaz que no solo sea amigable, sino también intuitiva y agradable de utilizar. Nuestra principal meta es garantizar que cada visitante encuentre la navegación sencilla y visualmente atractiva, independientemente de su nivel de experiencia técnica. Para lograr este objetivo, hemos seleccionado cuidadosamente elementos visuales que destacan por su claridad y atractivo estético. Esto implica el uso de una paleta de colores coherente, tipografías legibles y adecuadas para el contenido, así como iconografía y gráficos que complementan el diseño sin saturarlo. Adicionalmente, hemos establecido un conjunto de restricciones específicas para evitar la inclusión de elementos gráficos que puedan resultar discordantes, sobrecargados, o que no contribuyan positivamente a la experiencia del usuario.
 
 Es fundamental comprender que el diseño coherente y estandarizado no solo mejora la estética de una página web, sino que también incrementa la funcionalidad y usabilidad. Estas guías de estilo son esenciales para mantener la uniformidad en la presentación visual y asegurar que cada página o actividad móvil del proyecto ofrezca una experiencia homogénea y profesional. Según Zeldman (2024), una guía de estilo no solo define la apariencia y el comportamiento de los elementos en una interfaz, sino que también establece un marco de trabajo que facilita la colaboración entre los equipos de diseño y desarrollo, asegurando consistencia y eficiencia en la ejecución del proyecto.
 
-#### 3.1.1.1. General Style Guidelines.
+#### 3.1.1.1. General Style Guidelines
 
 **Colores:**
 
@@ -20,36 +24,45 @@ Con esta estructura, no solo garantizamos un diseño visual atractivo y profesio
 
 - **Negro Rico (#06151E):** El Negro Rico es un tono profundo y elegante que evoca estabilidad, autoridad y profesionalismo. En Roademics, su uso refuerza el compromiso de la plataforma con la confiabilidad y la solidez, alineándose con la naturaleza seria del desarrollo profesional que se busca fomentar. Este color oscuro no solo establece una base visual sólida, sino que también transmite una sensación de modernidad y sobriedad, elementos clave para generar confianza entre los usuarios. Desde una perspectiva psicológica, el Negro Rico inspira seguridad, lo que favorece la percepción de una plataforma confiable y estructurada (Westland & Maggio, 2023). Además, su baja emisión de luz azul y menor contraste, en comparación con colores como el blanco o el negro puro, contribuye a reducir la fatiga visual, mejorando la legibilidad y el confort para los usuarios que interactúan con la aplicación.
 
-###### Figura 19.
-*Presentación de la paleta designada para el color Negro Rico.*
+###### Figura 26
+*Presentación de la paleta designada para el color Negro Rico de Roademics*
 
-<img src="/assets/img/capitulo-3/style-guidelines/color/black.png">
+<img src="/assets/img/capitulo-3/style-guidelines/color/negro.png" alt="Paleta de color designada para la base del color Negro Rico en Roademics.">
 
 - **Verde Medianoche (#133F4A) y Verde Mirto (#22797A):** Ambos tonos de verde, Verde Medianoche y Verde Mirto, evocan una sensación de calma, crecimiento y equilibrio, aspectos esenciales en la propuesta de valor de Roademics. Mientras que el Verde Medianoche se inclina hacia una representación más sobria y discreta, el Verde Mirto agrega una capa de frescura y vitalidad, alineándose con la idea de progreso y avance continuo en la carrera profesional. Estos tonos transmiten serenidad y confianza, cualidades fundamentales para una plataforma que busca guiar a los usuarios en la toma de decisiones clave sobre su futuro laboral. Estos colores complementan al Negro Rico al suavizar la paleta, ofreciendo una transición fluida entre tonos oscuros y claros (Westland & Maggio, 2023).
 
-###### Figura 20.
-*Presentación de la paleta designada para el color Verde Medianoche.*
+###### Figura 27
+*Presentación de la paleta designada para el color Verde Medianoche de Raodemics*
 
-<img src="/assets/img/capitulo-3/style-guidelines/color/midnight-green.png">
+<img src="/assets/img/capitulo-3/style-guidelines/color/verde-medianoche.png" alt="Paleta de color designada para la base del color Verde Medianoche en Roademics.">
 
-###### Figura 21.
-*Presentación de la paleta designada para el color Verde Mirto.*
+###### Figura 28
+*Presentación de la paleta designada para el color Verde Mirto de Roademics*
 
-<img src="/assets/img/capitulo-3/style-guidelines/color/myrtle-green.png">
+<img src="/assets/img/capitulo-3/style-guidelines/color/verde-mirto.png" alt="Paleta de color designada para la base del color Verde Mirto en Roademics.">
 
 - **Turquesa (#40E0D0):** El Turquesa es un color que representa creatividad, claridad y comunicación, valores esenciales para la experiencia de usuario en Roademics. Según lo aclarado por Westland Y Maggio (2023), este tono vivo, asociado con la innovación, esfuerzo y la frescura, ayuda a que la aplicación sea percibida como moderna y dinámica, reflejando su enfoque en la inteligencia artificial y el networking. El Turquesa también fomenta una sensación de apertura y accesibilidad, lo que es clave para una plataforma que busca empoderar a los usuarios para que naveguen por sus rutas profesionales con facilidad y confianza. El Turquesa actúa como un color destacado en la paleta, ofreciendo un equilibrio visual entre los tonos oscuros y neutros. En una aplicación, se suele utilizar para destacar elementos interactivos como botones principales, iconos de acción o elementos gráficos dinámicos.
 
-###### Figura 22.
-*Presentación de la paleta designada para el color Turquesa.*
+###### Figura 29
+*Presentación de la paleta designada para el color Turquesa de Roademics*
 
-<img src="/assets/img/capitulo-3/style-guidelines/color/turquoise.png">
+<img src="/assets/img/capitulo-3/style-guidelines/color/turquesa.png" alt="Paleta de color designada para la base del color Turquesa en Roademics.">
 
 - **Cian Fluorescente (#6FFFE9):** El Cian Fluorescente es un tono vibrante y enérgico que simboliza el pensamiento futurista y la innovación tecnológica, lo que lo hace especialmente adecuado para nuestra aplicación. Este color está asociado con la modernidad y la eficiencia, valores clave que queremos proyectar en nuestro enfoque hacia el desarrollo profesional. El Cian Fluorescente también tiene una cualidad llamativa que lo convierte en un color ideal para áreas donde es crucial captar la atención del usuario rápidamente, como notificaciones o recomendaciones urgentes (Westland & Maggio, 2023). Este color funciona en perfecta armonía con el Turquesa y los verdes, creando un contraste atractivo y sofisticado que equilibra los tonos más oscuros del Negro Rico. 
 
-###### Figura 22.
-*Presentación de la paleta designada para el color Cian Fluorescente.*
+###### Figura 30
+*Presentación de la paleta designada para el color Cian Fluorescente*
 
-<img src="/assets/img/capitulo-3/style-guidelines/color/cyan.png">
+<img src="/assets/img/capitulo-3/style-guidelines/color/cian-fluorescente.png" alt="Paleta de color designada para la base del color Cian Fluorescente en Roademics.">
+
+Es fundamental que cada capa de color tenga una proporción específica, de manera que el color primario se destaque visualmente y sea el elemento más llamativo en comparación con los colores secundarios y complementarios. La intención es que este color primario capture la atención y sea el punto focal, guiando la percepción del usuario hacia el aspecto más relevante del diseño. 
+
+Aunque pueden realizarse variaciones en las proporciones de los colores, es importante que estas se mantengan bajo un control riguroso, asegurando que la dispersión o desviación de cualquier color adicional no sea demasiado brusca. Esto garantiza un equilibrio visual y evita que el diseño pierda cohesión o se vuelva inconsistente. 
+
+###### Figura 31
+*Presentación de la proporción de colores base en el diseño de la aplicación de Roademics*
+
+<img src="/assets/img/capitulo-3/style-guidelines/color/distribucion-color.png" alt="Distribución de colores base en el diseño de la aplicación de Roademics.">
 
 **Tipografía:**
 
@@ -60,6 +73,11 @@ Dentro del vasto mundo tipográfico, existen dos grandes categorías que predomi
 - **Serif:** Estas tipografías se caracterizan por la presencia de pequeñas líneas o adornos en los extremos de las letras, conocidos como serifas. Estos elementos decorativos suelen proporcionar un aspecto más formal, tradicional y elegante, lo que las hace especialmente adecuadas para medios impresos o textos extensos, como libros o artículos académicos, donde mejoran la legibilidad al guiar la mirada de un carácter a otro. Esta cualidad es particularmente útil en textos largos, ya que facilita el flujo de lectura (Jay & Lupton, 2024). Ejemplos populares de fuentes serif incluyen Times New Roman, que ha sido ampliamente utilizada en medios impresos y documentos formales, y Georgia, una fuente que también equilibra legibilidad y elegancia en medios tanto digitales como impresos.
 
 - **Sans-serif:** Estas tipografías se distinguen por la ausencia de los adornos o serifas, lo que les otorga un diseño más limpio, moderno y minimalista. Debido a su simplicidad, las fuentes sans-serif han ganado popularidad, especialmente en el ámbito digital, donde la claridad y la simplicidad en la presentación del texto son fundamentales para la experiencia del usuario (Jay & Lupton, 2024). Ejemplos de tipografías sans-serif incluyen Arial, una fuente versátil ampliamente utilizada en múltiples plataformas, Helvetica, famosa por su elegancia minimalista, y Roboto, desarrollada específicamente para mejorar la legibilidad en interfaces digitales.
+
+###### Figura 32
+*Comparación entre los tipos de tipografía serif, utilizando Roboto Slab, y sans-serif, utilizando Roboto*
+
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/comparacion-serif-y-sans-serif.png" alt="Comparación entre los tipos de tipografía serif, empleando Roboto Slab, y sans-serif, empleando Roboto.">
 
 En el contexto de aplicaciones móviles, donde las interfaces están diseñadas para ser funcionales y visualmente atractivas en pantallas pequeñas, las tipografías "sans-serif" son, en general, la mejor opción. Esta preferencia se debe tanto a consideraciones técnicas como de diseño. Entre las principales razones, se pueden encontrar las siguientes:
 
@@ -79,10 +97,10 @@ Para la aplicación Roademics, hemos decidido adoptar Raleway como nuestra tipog
 
 El carácter refinado de Raleway la convierte en una elección sobresaliente para los elementos principales de nuestra interfaz, como encabezados, botones y menús. Su diseño uniforme y sus proporciones bien equilibradas aseguran que el texto se presente de manera clara y legible en diversas resoluciones de pantalla y tamaños. Además, la fluidez y la precisión tipográfica de Raleway contribuyen a una estética profesional y pulida, que refuerza la identidad visual de Roademics.
 
-###### Figura 19.
-*Presentación de modelos de grosor para el tipo de letra Raleway.*
+###### Figura 33
+*Presentación de modelos de grosor para el tipo de letra Raleway*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/raleway.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/raleway.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Raleway.">
 
 **- Tipo de Letra para Soporte de Internacionalidad:**
 
@@ -90,37 +108,37 @@ Para garantizar una representación adecuada en contextos internacionales, hemos
 
 Según lo aclarado por Huang (2019), la implementación de Noto Sans contribuye a la accesibilidad y la inclusividad, aspectos fundamentales para ofrecer una experiencia de usuario universal. Al utilizar esta tipografía, no solo garantizamos una presentación uniforme del contenido en distintos contextos internacionales, sino que también reafirmamos nuestro compromiso con la adaptabilidad y la consideración de las necesidades globales de nuestros usuarios.
 
-###### Figura 20.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en General.*
+###### Figura 34
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en General*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión general.">
 
 El propósito principal de Noto Sans en nuestra aplicación Roademics es facilitar una experiencia globalizada, abordando las necesidades de una audiencia diversa. Esta tipografía ha sido elegida para su uso en todos los aspectos de la aplicación que requieren un enfoque inclusivo, asegurando que todos los usuarios, sin importar su idioma o sistema de escritura, puedan interactuar con la aplicación de manera efectiva.
 
-###### Figura 21.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en Japonés.*
+###### Figura 35
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en Japonés*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans-japanese-script.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans-japanese-script.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión japonesa.">
 
-###### Figura 22.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en Chino Tradicional.*
+###### Figura 36
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en Chino Tradicional*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans-traditional-chinese-script.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans-traditional-chinese-script.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión de chino tradicional.">
 
-###### Figura 23.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en Tailandés.*
+###### Figura 37
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en Tailandés*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans-thai-script.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans-thai-script.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión tailandesa.">
 
-###### Figura 24.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en Coreano.*
+###### Figura 38
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en Coreano*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans-korean-script.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans-korean-script.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión coreana.">
 
-###### Figura 25.
-*Presentación de modelos de grosor para el tipo de letra Noto Sans en Árabe.*
+###### Figura 39
+*Presentación de modelos de grosor para el tipo de letra Noto Sans en Árabe*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/noto-sans-arabic-script.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/noto-sans-arabic-script.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Noto Sans en su versión árabe.">
 
 **- Tipo de Letra Complementaria:**
 
@@ -128,10 +146,10 @@ En situaciones en las que debemos depender del conjunto de fuentes disponible en
 
 Arial es apreciada por su claridad y simplicidad, atributos que la convierten en una opción confiable para comunicaciones por correo electrónico, mensajes SMS, y otros medios similares. Su diseño neutral y funcional asegura que el texto se mantenga legible y profesional en diferentes tamaños y resoluciones de pantalla, proporcionando una experiencia de usuario sin inconvenientes. Al optar por Arial, garantizamos que nuestras formas de comunicación digital mantengan una presentación clara y coherente, reforzando la efectividad de nuestra comunicación y la profesionalidad de nuestra marca.
 
-###### Figura 26.
-*Presentación de modelos de grosor para el tipo de letra Arial.*
+###### Figura 40
+*Presentación de modelos de grosor para el tipo de letra Arial*
 
-<img src="/assets/img/capitulo-3/style-guidelines/typography/arial.png">
+<img src="/assets/img/capitulo-3/style-guidelines/tipografia/arial.png" alt="Presentación de los modelos de grosor presentes en el tipo de letra Arial.">
 
 **Tono de Comunicación y Lenguaje Aplicado:**
 
@@ -145,14 +163,40 @@ Este equilibrio entre tono entusiasta y formalidad asegura una comunicación efe
 
 **Branding e Icono:**
 
+Un logo es un elemento gráfico que representa la identidad visual de una marca, empresa o producto, sintetizando sus valores, misión y visión en una imagen reconocible y memorable. Su diseño tiene el propósito de comunicar de manera rápida y efectiva los atributos de la marca y establecer una conexión emocional con su audiencia.
 
-### 3.1.2. Information Architecture.
+Según Wheeler y Meyerson (2024), "un logotipo es una firma visual, una pieza esencial en el sistema de identidad de una marca que sirve como ancla en todas las comunicaciones de la marca". Esta cita subraya la importancia del logo como un símbolo central de reconocimiento y consistencia en la comunicación de marca.
 
-En esta sección del proyecto, nuestro equipo presentará las decisiones y justificaciones relacionadas con la organización del contenido en las experiencias web y móvil, que abarcan tanto la Landing Page como la aplicación móvil en desarrollo. Estas propuestas estarán enfocadas en garantizar que los visitantes y usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto, encontrando lo que necesitan sin dificultad. Además, se incluirán las decisiones sobre los Organization Systems, Labelin Systems, Navigation Systems y Searching Systems.
+Para el logo de Roademics, hemos optado por un diseño distintivo y atractivo que se destaque entre las demás aplicaciones de desarrollo profesional y planificación de carreras. Este logo no solo es visualmente llamativo, sino que también encapsula la esencia de Roademics, proyectando sus objetivos y misión. El diseño representa de manera simbólica la orientación, el acompañamiento y el crecimiento profesional que Roademics ofrece a sus usuarios. Nuestro objetivo es que este logo atraiga e inspire a nuestros segmentos principales.
 
-#### 3.1.2.1. Organization Systems.
+El logo de Roademics combina varios elementos visuales que representan los objetivos y la visión de la aplicación. Esta es la explicación e interpretación del diseño:
 
-Según Bass, Clements y Kazman (2003) en "Software Architecture in Practice", el sistema de organización en la arquitectura de software se refiere a la forma en que los componentes estructurales de un sistema —como módulos, capas y subsistemas— se organizan para cumplir con los requisitos del sistema. Estos sistemas permiten manejar la complejidad de grandes aplicaciones, facilitando la comprensión, el desarrollo y el mantenimiento del software. La correcta organización de estos elementos contribuye a mejorar la escalabilidad, la cohesión y la eficiencia general del sistema.
+1. Camino central curvo: El camino en tonos de turquesa y cian simboliza una trayectoria o ruta profesional. Su diseño curvo evoca el concepto de un viaje personalizado, destacando la posibilidad de elegir y seguir rutas de desarrollo únicas para alcanzar metas personales y profesionales. Este camino se abre hacia el horizonte, transmitiendo una sensación de dirección y progreso constante.
+
+2. Hexágono y red de nodos: La estructura hexagonal que rodea el camino, junto con los nodos conectados, representa una red de conexiones y relaciones, clave en la misión de Roademics de facilitar el networking entre usuarios y empresas. Cada nodo simboliza puntos de encuentro y recursos, como habilidades, conocimientos y contactos que los usuarios pueden alcanzar en su camino.
+
+3. Colores (Turquesa, Verde Medianoche, y Cian Fluorescente): La paleta de colores predominante en tonos fríos y modernos evoca profesionalismo, confianza y tecnología, reforzando la idea de innovación en la planificación de carreras. Estos colores reflejan los cinco colores principales de Roademics y representan las conexiones seguras y confiables que Roademics busca establecer.
+
+4. Conexiones entre nodos: Las líneas que conectan los nodos simbolizan el enfoque de Roademics en ofrecer una red de apoyo y recursos a través de mapas de ruta personalizados, cursos y habilidades recomendadas. Cada conexión simboliza un punto de ayuda en el recorrido profesional, resaltando el papel de la aplicación como guía para alcanzar el éxito.
+
+###### Figura 41
+*Presentación del logotipo de Roademics*
+
+<img src="/assets/img/capitulo-3/style-guidelines/logo/logo-roademics.png" alt="Presentación del logo de Roademics.">
+
+A través del logo atrayente junto a su mensaje claro y agradable, podremos mostrar nuestro apoyo directo a nuestros segmentos de mercados y a como esperemos cambiar el mercado inmobiliario para que sea un lugar más seguro, formal e informado para todas las personas que deseen entrar. Con este logo, no solo conseguiremos atraer a más público, sino que también podremos mostrar nuestra misión, visión y valores de forma abstracta y rápida para todos nuestros clientes potenciales.
+
+### 3.1.2. Information Architecture
+
+En esta sección del proyecto, nuestro equipo presentará las decisiones y justificaciones relacionadas con la organización del contenido en las experiencias web y móvil, que abarcan tanto la Landing Page como la aplicación móvil en desarrollo. Según Rosenfeld et al. (2015), la arquitectura de la información es el arte y la ciencia de dar forma a los productos digitales y a las experiencias compartidas que son coherentes y accesibles para los usuarios. 
+
+Estas propuestas estarán enfocadas en garantizar que los visitantes y usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto, encontrando lo que necesitan sin dificultad. Además, se incluirán las decisiones sobre los Organization Systems, Labelin Systems, Navigation Systems y Searching Systems.
+
+#### 3.1.2.1. Organization Systems
+
+Los sistemas de organización son estructuras utilizadas para clasificar y ordenar la información dentro de una propia arquitectura, permitiendo que los usuarios accedan y comprendan los datos de manera lógica y efectiva. Estos sistemas son esenciales en el diseño de interfaces y plataformas digitales, ya que ayudan a crear una navegación intuitiva y a reducir la carga cognitiva del usuario al interactuar con grandes volúmenes de información.
+
+Como señalan Rosenfeld et al. (2015), los sistemas de organización proporcionan las categorías y relaciones que permiten a los usuarios identificar y localizar la información que necesitan. Esto resalta la importancia de los sistemas de organización en la creación de experiencias de usuario eficientes y en la estructura general de los productos digitales.
 
 El objetivo principal del modelo de los *Organization Systems* en *Roademics* es construir una estructura visual coherente y eficiente para el contenido, facilitando una navegación intuitiva y un acceso fluido a la información. En *Roademics*, se implementará un sistema de organización que se basa en la segmentación del contenido en módulos y en el uso de jerarquías claras y funcionales. Esto permitirá que los usuarios naveguen de manera eficiente a través de la aplicación, encontrando rápidamente la información sobre sus habilidades y certificados. Al desarrollar estos elementos, aseguraremos una experiencia de usuario optimizada y fluida.
 
@@ -168,12 +212,12 @@ El objetivo principal del modelo de los *Organization Systems* en *Roademics* es
 
 Un Labelling Systems en el contexto de Roademics se refiere a la metodología empleada para asignar etiquetas o nombres a los elementos clave dentro de la aplicación, con el fin de mejorar la navegación y la claridad del contenido. Estas etiquetas son esenciales para identificar y categorizar componentes, como habilidades, certificaciones, mapas de ruta y perfiles de usuarios o empresas.
 
-Al igual que lo expresado por Bass, Clements y Kazman (2003) en *Software Architecture in Practice*, el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
+Al igual que lo expresado por Rosenfeld et al. (2015), el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
 
-###### Tabla 12. 
-*Seguimiento de Labelling Systems integrados dentro del proyecto de Roadmecis.*
-| **Etiqueta**      | **Descripción**                                                                                                              |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------|
+###### Tabla 11
+*Seguimiento de Labelling Systems integrados dentro del proyecto de Roadmecis*
+| **Etiqueta** | **Descripción** |
+|--------------|-----------------|
 | **Agregar habilidad**   | Permite al usuario incluir una nueva habilidad a su mapa de ruta profesional. Esta opción es esencial para el crecimiento continuo del usuario en la plataforma. |
 | **Mis mapas**      | Da acceso al usuario a todos los mapas de ruta que ha creado, organizados según el progreso, relevancia o fecha de actualización. |
 | **Buscar usuario**  | Facilita la búsqueda de otros usuarios dentro de la plataforma, permitiendo la conexión y la visualización de sus trayectorias profesionales.|
