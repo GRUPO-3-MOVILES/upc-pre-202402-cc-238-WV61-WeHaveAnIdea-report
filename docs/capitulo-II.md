@@ -86,8 +86,8 @@ Indeed se ha consolidado como una herramienta esencial tanto para quienes buscan
 
 ### 2.1.1. Análisis competitivo.
 
-###### Tabla 2.
-*Análisis Competitivo organizado para todos los competidores potenciales de Roademics.*
+###### Tabla 2
+*Análisis Competitivo organizado para todos los competidores potenciales de Roademics*
 
 <table border="1" style="text-align:center;">
 	<tbody>
@@ -243,8 +243,8 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 **Preguntas generales:**
 
-1. ¿Como te llamas?
-2. ¿Cuantos años tienes?
+1. ¿Cómo te llamas?
+2. ¿Cuántos años tienes?
 3. ¿A qué te dedicas?
 
 **Segmento 1: : Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap**
@@ -265,17 +265,16 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 **Segmento 2: : Empresas y Reclutadores en busca de personal capacitado**
 
 1. ¿Cómo funciona el proceso de contratación en la empresa?
-2. ¿Que medios utiliza para anunciar un puesto de trabajo?
+2. ¿Qué medios utiliza para anunciar un puesto de trabajo?
 3. ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?
 4. Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?
 5. ¿Que medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?
 6. ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?
 7. ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado ?
-8. ¿Cuando un trabajador solicita un ascenso, con que criterios lo evaluan?
-9. ¿Cual es tu posición sobre las personas conformistas respecto a su educación?
+8. ¿Cuándo un trabajador solicita un ascenso, con que criterios lo evaluan?
+9. ¿Cuál es tu posición sobre las personas conformistas respecto a su educación?
 10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?
-11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil ?
-
+11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil?
    
 ### 2.2.2. Registro de entrevistas.
 
@@ -283,63 +282,54 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 
 **Entrevista N°1:**
 
-###### Figura 2.
-*Imagen de presentación de la primera entrevista realizada.*
+###### Figura 6
+*Imagen de presentación de la primera entrevista realizada*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-lizano.png" alt="Entrevista Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento1.png" alt="Primera entrevista de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: Coll Cardenas, Fernando Lizano
+- Nombre completo del entrevistado: Fernando Lizano Coll Cardenas
 - Edad: 19 años
 - Distrito: Punta Hermosa
-- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
 - Duración: 7 minutos y 3 segundos
-- Entrevistador: Pescoran Angulo, Juan Fabritzzio
-
-Nota:
-
-Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
 
 **Entrevista N°2:**
 
-###### Figura 3.
-*Imagen de presentación de la segunda entrevista realizada.*
+###### Figura 7
+*Imagen de presentación de la segunda entrevista realizada*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-evangelista.png" alt="Entrevista 2 Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista2-segmento1.png" alt="Segunda entrevista de nuestro segmento objetivo 1 a Jeremías Evangelista Pescorán." width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Jeremías Evangelista Pescorán
 - Edad: 24 años
 - Distrito: San Juan de Miraflores
-- Link: [Link para entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Jeremías Pescorán](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
 - Duración: 7 minutos y 33 segundos
-- Entrevistador: Pescoran Angulo, Juan Fabritzzio
-
-Nota:
-
-Jeremias Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Jeremías Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 **Entrevista N°3:**
 
-###### Figura 4.
+###### Figura 8
 *Imagen de presentación de la tercera entrevista realizada.*
 
-<img src="/assets/img/capitulo-2/interviews/interview-segment1-lopez.png" alt="Entrevista 3 Segmento 1" width="550" height="300">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista3-segmento1.png" alt="Tercera entrevista de nuestro segmento objetivo 1 a Joaquín Salvador López Velasquez." width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Joaquín Salvador López Velasquez
 - Edad: 20 años
 - Distrito: Chorrillos
-- Link: [Link para entrevista a Joaquín López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBEGbI0bgD5eXhClMwaETgCw?e=YVnZGD)
+- Link: [Entrevista a Joaquín López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBEGbI0bgD5eXhClMwaETgCw?e=YVnZGD)
 - Inicio de la entrevista: [0:52](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210190_upc_edu_pe/EfrkYlMiuy5GikhVFgFUcTcBMqf1MovAeMritZ7LsCJM3g?e=XEohZe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTIuMDJ9fQ%3D%3D)
 - Duración: 10 minutos y 24 segundos
 - Entrevistador: Trigueros Chumacero, Flavio Eduardo
-
-Nota:
-
-Joaquín López, un estudiante universitario de 20 años de la carrera de periodismo en la Pontificia Universidad Católica del Perú, planea empezar a realizar sus prácticas preprofesionales en siguiente año, pero aún no tiene una idea clara sobre como o donde comenzar. Menciona que se encuentra satisfecho con su formación académica y considera que la educación que se le hes provista en la universidad es suficiente para su desarrollo profesional. Al evaluar vacantes laborales, se enfoca en el salario y en los equipos de trabajo que estarán desarrollando material junto a él, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+- Resumen de Entrevista: Joaquín López, un estudiante universitario de 20 años de la carrera de periodismo en la Pontificia Universidad Católica del Perú, planea empezar a realizar sus prácticas preprofesionales en siguiente año, pero aún no tiene una idea clara sobre como o donde comenzar. Menciona que se encuentra satisfecho con su formación académica y considera que la educación que se le hes provista en la universidad es suficiente para su desarrollo profesional. Al evaluar vacantes laborales, se enfoca en el salario y en los equipos de trabajo que estarán desarrollando material junto a él, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
 
 ---
 
@@ -347,47 +337,45 @@ Joaquín López, un estudiante universitario de 20 años de la carrera de period
 
 **Entrevista N°4:**
 
-###### Figura 5.
-*Imagen de presentación de la cuarta entrevista realizada.*
+###### Figura 9
+*Imagen de presentación de la cuarta entrevista realizada*
 
-<img src="/assets/img/capitulo-2//interviews/Entrevista1-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento2.png" alt="Primera entrevista de nuestro segmento objetivo 2 a Rosa Castro." width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Rosa Castro
 - Edad: 32
 - Distrito: Ate
-- Link: [Entrevita](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Rosa Castro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: 0:01 
 - Duración: 10:56
 - Entrevistador: Lucio Yen
-- Nota: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
----
+- Resumen de Entrevista: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
 
 **Entrevista N°5:**
 
-###### Figura 6.
+###### Figura 10
 *Imagen de presentación de la quinta entrevista realizada.*
 
-<img src="/assets/img/capitulo-2//interviews/Entrevista2-segmento2.png" alt="Entrevista Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2//interviews/records/entrevista2-segmento2.png" alt="Segunda entrevista de nuestro segmento objetivo 2 a Jennifer Villanueva." width="400" height="200">
 
 
 **Datos principales:**
 - Nombre completo del entrevistado: Jennifer Villanueva
 - Edad: 40
 - Distrito: Ate
-- Link: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Link: [Entrevista a Jennifer Villanueva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Inicio de la entrevista: 0:02
 - Duración: 10:42
 - Entrevistador: Lucio Yen
-- Nota: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
----
+- Resumen de Entrevista: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
 
 **Entrevista N°6:**
 
-###### Figura 7.
+###### Figura 11
 *Imagen de presentación de la sexta entrevista realizada.*
 
-<img src="/assets/img/capitulo-2/interviews/entrevista3-segmento2.png" alt="Entrevista3 Segmento 2" width="400" height="200">
+<img src="/assets/img/capitulo-2/interviews/records/entrevista3-segmento2.png" alt="Tercera entrevista de nuestro segmento objetivo 2 a Ximena Vilchez Paredes." width="400" height="200">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Ximena Vilchez Paredes
@@ -397,8 +385,7 @@ Joaquín López, un estudiante universitario de 20 años de la carrera de period
 - Inicio de la entrevista: 0:01
 - Duración: 11:19
 - Entrevistador: Aldhair Valenzuela
-- Nota: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
----
+- Resumen de Entrevista: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -406,43 +393,66 @@ Como parte del análisis de la información recopilada a través de las entrevis
 
 Al utilizar Google Forms, se puede recoger y analizar la información de manera eficiente, lo que proporciona una base sólida para la toma de decisiones y la elaboración de conclusiones basadas en evidencias. Esta herramienta no solo simplifica el proceso de recopilación de datos, sino que también optimiza el análisis al permitir la generación automática de gráficos y resúmenes estadísticos que enriquecen la interpretación de los resultados obtenidos.
 
-**Segmento 1: :** 
+**Segmento 1:** 
 
-###### Figura 8.
+###### Figura 12
 *Conjunto de datos analizados de las entrevistas para el primer segmento objetivo.*
 
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-1.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-2.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-3.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-4.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-5.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-6.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-7.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-8.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-9.png" alt="Analisis entrevista segmento 1" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-1/Segmento-1-10.png" alt="Analisis entrevista segmento 1" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 1: ¿Te sientes satisfecho con tu carrera?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 1: ¿Aspiras a aprender más sobre tu especialización?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 1: ¿Cómo planearías o que acciones realizarías para planear tu ruta de aprendizaje sobre tu trayectoria académica?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 1: ¿Qué papel juegan las herramientas digitales y las plataformas de aprendizaje en la planificación de tu trayectoria profesional?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 1: ¿Que métodos utilizas para encontrar material o certificaciones que te permitan potenciarte?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 1: ¿Cuáles son tus expectativas respecto al mercado laboral, y cómo buscas actualizarte a lo que se solicita hoy en día?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 1: ¿Utiliza redes sociales para publicar actualizaciones de tus logros académicos?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 1: ¿Qué medios o redes utilizas para informarte sobre puestos de trabajo?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 1: ¿Qué es lo primero que deseas observar observar a la hora de querer informarte sobre una vacante laboral?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-1/segmento-1-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 1: ¿Qué tanto valorarías que una empresa informe sobre los requisitos/aptitudes que desean en los postulantes?" width="600" height="270">
+
 ---
 
-**Segmento 2: :**
+**Segmento 2:**
 
-###### Figura 9.
+###### Figura 13
 *Conjunto de datos analizados de las entrevistas para el segundo segmento objetivo.*
 
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-1.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-2.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-3.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-4.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-5.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-6.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-7.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-8.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-9.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-10.png" alt="Analisis entrevista segmento2" width="600" height="270">
-<img src="/assets/img/capitulo-2/interviews/analysis/Segmento-2/Segmento-2-11.png" alt="Analisis entrevista segmento2" width="600" height="270">
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-1.png" alt="Analisis a la pregunta 1 de la entrevista al segmento 2: ¿Cómo funciona el proceso de contratación en la empresa?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-2.png" alt="Analisis a la pregunta 2 de la entrevista al segmento 2: ¿Que medios utiliza para anunciar un puesto de trabajo?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-3.png" alt="Analisis a la pregunta 3 de la entrevista al segmento 2: ¿Qué aspectos busca en un postulante antes de conocerlo independientemente del área?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-4.png" alt="Analisis a la pregunta 4 de la entrevista al segmento 2: Cuando analiza un perfil, ¿Realiza algún tipo de investigación en sus redes sociales para identificar ejemplos dónde se avalen sus aptitudes?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-5.png" alt="Analisis a la pregunta 5 de la entrevista al segmento 2: ¿Qué medios o aplicaciones utiliza para realizar ese proceso? ¿Cree que son adecuados?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-6.png" alt="Analisis a la pregunta 6 de la entrevista al segmento 2: ¿Ustedes como área o empresa, intentan fomentar el estudio continuo a sus trabajadores?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-7.png" alt="Analisis a la pregunta 7 de la entrevista al segmento 2: ¿Cómo valoran un perfil profesional que no solamente este alineado a los requisitos, sino, que se actualice constantemente según el mercado?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-8.png" alt="Analisis a la pregunta 8 de la entrevista al segmento 2: ¿Cuándo un trabajador solicita un ascenso, con que criterios lo evaluan?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-9.png" alt="Analisis a la pregunta 9 de la entrevista al segmento 2: ¿Cuál es tu posición sobre las personas conformistas respecto a su educación?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-10.png" alt="Analisis a la pregunta 10 de la entrevista al segmento 2: Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación?" width="600" height="270">
+
+<img src="/assets/img/capitulo-2/interviews/analysis/segmento-2/segmento-2-11.png" alt="Analisis a la pregunta 11 de la entrevista al segmento 2: ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil?" width="600" height="270">
 
 A continuación, recopilamos las respuestas comunes a cada pregunta de las entrevistas, identificando los patrones y puntos en común entre las respuestas de los participantes. Este análisis comparativo nos permitió identificar las tendencias predominantes y los temas recurrentes, facilitando una comprensión más profunda de las opiniones y experiencias compartidas por los entrevistados. Al agrupar las respuestas similares, pudimos destacar las áreas de consenso y divergencia, lo que contribuye a una visión más clara y coherente de los datos obtenidos. Este enfoque nos ayuda a interpretar las respuestas de manera más efectiva y a extraer conclusiones significativas que pueden guiar las decisiones y estrategias futuras.
 
 **Segmento 1:** 
+
+###### Tabla 3
+*Recopilación de respuestas comunes a cada pregunta de las entrevistas realizadas para el segmento 1 de Roademics*
 
 | Preguntas | Respuestas |
 |-----------|------------|
@@ -459,6 +469,9 @@ A continuación, recopilamos las respuestas comunes a cada pregunta de las entre
 
 **Segmento 2:** 
 
+###### Tabla 4
+*Recopilación de respuestas comunes a cada pregunta de las entrevistas realizadas para el segmento 2 de Roademics*
+
 | Preguntas | Respuestas |
 |-----------|------------|
 |1. ¿Cómo funciona el proceso de contratación en la empresa? |Entrevistas virtuales |
@@ -473,7 +486,7 @@ A continuación, recopilamos las respuestas comunes a cada pregunta de las entre
 |10. Al momento de efectuar un despido, ¿Qué aspectos debe tener la persona para que amerite está situación? |Daños, Infligir las normas y mal rendimiento | 
 |11. ¿Cree que una aplicación dónde pueda hacer su propio mapa de ruta de los requisitos por posición de trabajo sería útil? |Me sería de mucha utilidad | 
 
-## 2.3. Needfinding.
+## 2.3. Needfinding
 
 Según lo señalado por Patnaik (2017), la metodología del Needfinding se concentra principalmente en la acción de descubrir las necesidades, tanto explícitas como implícitas, de los segmentos objetivos seleccionados con el fin de poder crear soluciones adecuadas. Para esto, es necesario ver más allá de todo lo tangible y concentrarse en ideas más abstractas y conceptos más amigables para todos los usuarios.
 
@@ -485,22 +498,24 @@ Un user persona es una representación semi-ficticia de un usuario ideal basada 
 
 El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los distintos segmentos de usuarios en el contexto de nuestra aplicación Roademics, la cual se centra en ofrecer soluciones tecnológicas para el desarrollo profesional continuo de los usuarios. Estos user personas actúan como representaciones ficticias pero realistas de los usuarios con los que interactuamos en el ámbito empresarial. Al desarrollar perfiles detallados de los usuarios potenciales, podemos identificar de manera más efectiva sus intereses y problemas específicos, lo que permite diseñar funcionalidades y experiencias que se ajusten de manera precisa a sus demandas. 
 
-###### Figura 10.
-*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap.*
-<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento1.png">
+###### Figura 14
+*User Persona del primer segmento objetivo: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap*
 
-###### Figura 11.
-*User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado.*
-<img src="/assets/img/capitulo-2/needfinding/UserPersona-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/user-personas/user-persona-segmento1.png" alt="User Persona que caracteriza a todos los usuarios del primer segmento objetivo establecido por Roademics.">
 
-### 2.3.2. User Task Matrix.
+###### Figura 15
+*User Persona del segundo segmento objetivo: Empresas y Reclutadores en busca de personal capacitado*
+
+<img src="/assets/img/capitulo-2/needfinding/user-personas/user-persona-segmento2.png" alt="User Persona que caracteriza a todos los usuarios del segundo segmento objetivo establecido por Roademics.">
+
+### 2.3.2. User Task Matrix
 
 Una Matriz de Tareas de Usuario es una herramienta esencial en el diseño de experiencia de usuario (UX) y en el desarrollo de productos, utilizada para organizar y visualizar de manera estructurada las tareas que los usuarios realizan dentro de un sistema o plataforma. Esta matriz no solo permite identificar y categorizar las diversas acciones que los usuarios deben llevar a cabo en el producto, sino que también ofrece una visión clara de la frecuencia con la que se realizan estas tareas, así como de la importancia relativa de cada una de ellas en el contexto de la experiencia global del usuario.
 
 Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores pueden obtener una comprensión más profunda de las interacciones clave que los usuarios tienen con el producto, lo que facilita la identificación de áreas críticas que requieren mayor atención o mejora. Como señala Patnaik (2017), el uso de esta matriz permite al equipo de diseño crear productos más intuitivos y eficaces, que se alineen mejor con las necesidades y expectativas de los usuarios, optimizando así la experiencia de uso y la satisfacción del cliente.
 
-###### Tabla 3.
-*User Task Matrix para el primer User Persona.*
+###### Tabla 5
+*User Task Matrix desarrollado y seleccionado para el primer User Persona*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -512,8 +527,8 @@ Al emplear una Matriz de Tareas de Usuario, los diseñadores y desarrolladores p
 |Participar en eventos y conferencias de su industria para mantenerse actualizado.    |Sometimes    |Medium|
 |Revisar y actualizar su perfil en plataformas profesionales.    |Sometimes    |Medium|
 
-###### Tabla 4.
-*User Task Matrix para el segundo User Persona.*
+###### Tabla 6
+*User Task Matrix desarrollado y seleccionado para el segundo User Persona*
 
 | Tareas |Frecuencia    |Importancia    |
 |--------|--------------|---------------|
@@ -531,25 +546,26 @@ Según Patnaik (2017), el Mapeo de Viaje es una técnica fundamental en el dise�
 
 El proceso de creación de un Journey Map implica la identificación y el mapeo de cada interacción entre el usuario y el producto o servicio, capturando todos los momentos clave de este recorrido. Esto incluye desde el descubrimiento inicial del producto, la evaluación de sus características, la toma de decisiones para la compra, el uso regular del producto o servicio, hasta las interacciones que pueden surgir después de la venta, como el servicio al cliente o soporte técnico. 
 
-###### Figura 12.
-*User Journey Mapping del primer User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento1.png">
+###### Figura 16
+*User Journey Mapping diseñado para el primer User Persona*
 
-###### Figura 13.
-*User Journey Mapping del segundo User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/JourneyMapping-Segmento2.png">
+<img src="/assets/img/capitulo-2/needfinding/journey-maps/journey-map-segmento1.png" alt="Modelo de Journey Mapping diseñado para el primer User Persona de Roademics.">
+
+###### Figura 17
+*User Journey Mapping diseñado para el segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/journey-maps/journey-map-segmento2.png" alt="Modelo de Journey Mapping diseñado para el segundo User Persona de Roademics.">
 
 ### 2.3.4 Empathy Mapping
 
-El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017).
+El Mapeo de Empatía es una herramienta fundamental en el ámbito del diseño de experiencia de usuario (UX) y en el desarrollo de productos, cuyo propósito es profundizar en la comprensión de las necesidades, deseos, emociones y comportamientos de los usuarios. Esta metodología tiene como objetivo central promover una conexión empática entre los miembros del equipo de diseño y los usuarios finales del producto o servicio. Al implementar el Empathy Mapping, se busca que los diseñadores no solo identifiquen las características y expectativas de los usuarios, sino que también experimenten y comprendan sus perspectivas y emociones, lo que resulta crucial para la creación de soluciones más alineadas con sus verdaderas necesidades (Patnaik, 2017). 
 
-###### Figura 14.
-*User Empathy Mapping del primer User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento1.png">
+###### Figura 18
+*User Empathy Mapping diseñado para el primer User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-maps/empathy-map-segmento1.png" alt="Modelo de Empathy Mapping diseñado para el primer User Persona de Roademics.">
 
-###### Figura 15.
-*User Empathy Mapping del segundo User Persona.*
-<img src="/assets/img/capitulo-2/needfinding/EmpathyMap-Segmento2.png">
+###### Figura 19
+*User Empathy Mapping diseñado para el segundo User Persona*
+<img src="/assets/img/capitulo-2/needfinding/empathy-maps/empathy-map-segmento2.png" alt="Modelo de Empathy Mapping diseñado para el segundo User Persona de Roademics.">
 
 ### 2.3.5 As-is Scenario Mapping
 
@@ -557,39 +573,39 @@ El "As-is Scenario Mapping" es una técnica ampliamente empleada en el diseño d
 
 Como señala Harmon (2019), el As-is Scenario Mapping implica la elaboración de un mapa visual detallado que representa todas las etapas y acciones que forman parte de un proceso o experiencia en su estado actual. Este mapeo incluye todas las interacciones, pasos, decisiones y puntos de contacto que tienen lugar a lo largo del proceso, proporcionando una visión integral y precisa de cómo funciona realmente el sistema o servicio en cuestión. Esta herramienta resulta esencial para identificar áreas de mejora y para el diseño de futuras iteraciones del sistema o servicio, alineadas con las necesidades y expectativas de los usuarios.
 
-###### Figura 14.
-*As-is Scenario Mapping del primer User Persona.*
+###### Figura 20
+*As-is Scenario Mapping diseñado para el proceso que realiza el primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento1.jpg">
+<img src="/assets/img/capitulo-2/needfinding/as-is-maps/as-is-map-segmento1.png" alt="Modelo de As-Is Mapping diseñado para los procesos que desarrollaria nuestro primer user persona antes de la existencia de la aplicación de Roademics.">
 
-###### Figura 15. 
-*As-is Scenario Mapping del segundo User Persona.*
+###### Figura 21
+*As-is Scenario Mapping diseñado para el proceso que realiza el segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/AsIsMap-Segmento2.jpg">
+<img src="/assets/img/capitulo-2/needfinding/as-is-maps/as-is-map-segmento2.png" alt="Modelo de As-Is Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona antes de la existencia de la aplicación de Roademics.">
 
-## 2.4. Requirements specification.
+## 2.4. Requirements specification
 
 Las Requirements Specification, o Especificaciones de Requisitos, son documentos de vital importancia en el proceso de desarrollo de sistemas y software, ya que proporcionan una descripción detallada de las funcionalidades, características y limitaciones que un producto o sistema debe cumplir. Estos documentos no solo definen lo que un sistema debe hacer, sino también cómo debe comportarse en diferentes escenarios y bajo distintas condiciones operativas, incluyendo cualquier restricción técnica relevante.
 
 Según Sommerville (2020), las especificaciones de requisitos cumplen un doble propósito: por un lado, ofrecen una guía técnica detallada para los desarrolladores sobre cómo construir el sistema, y por otro, proporcionan una referencia que puede ser utilizada para validar y verificar que el sistema final cumple con las expectativas establecidas. Además, este documento es crucial para la planificación y gestión del proyecto, ya que permite identificar y mitigar posibles riesgos, definir criterios de aceptación y establecer un marco para la toma de decisiones durante todo el ciclo de vida del desarrollo.
 
-### 2.4.1. To-Be Scenario Mapping.
+### 2.4.1. To-Be Scenario Mapping
 
 El "To-Be Scenario Mapping" es una técnica clave en el diseño de experiencia de usuario (UX) y en el análisis de procesos, utilizada para visualizar y planificar cómo debería estructurarse un proceso o experiencia en un futuro ideal. El término "to-be" se refiere a lo que "será", lo que implica que esta técnica se centra en la representación de cómo debería funcionar un proceso o experiencia después de la implementación de mejoras o cambios estratégicos.
 
 Según Harmon (2019), el To-Be Scenario Mapping consiste en la creación de un mapa visual que ilustra las etapas y acciones deseadas en un proceso o experiencia futura. Este mapa detalla cómo deberían configurarse las interacciones, los pasos, las decisiones y los puntos de contacto en el proceso, con el fin de alcanzar un estado optimizado y alineado con los objetivos estratégicos. Esta herramienta es esencial para guiar el desarrollo de soluciones que mejoren la eficiencia, la efectividad y la satisfacción del usuario, asegurando que las transformaciones realizadas sean coherentes con la visión y metas a largo plazo.
 
-###### Figura 16. 
-*To-be Scenario Mapping del primer User Persona.*
+###### Figura 22
+*To-be Scenario Mapping del primer User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento1.jpg">
+<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento1.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro primer user persona después de la existencia de la aplicación de Roademics.">
 
-###### Figura 17. 
-*To-be Scenario Mapping del segundo User Persona.*
+###### Figura 23
+*To-be Scenario Mapping del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ToBeMap-Segmento2.jpg">
+<img src="/assets/img/capitulo-2/requirements-specification/to-be-maps/to-be-map-segmento2.png" alt="Modelo de To-Be Mapping diseñado para los procesos que desarrollaria nuestro segundo user persona después de la existencia de la aplicación de Roademics.">
 
-### 2.4.2. User Stories.
+### 2.4.2. User Stories
 
 En esta sección, procederemos a realizar un análisis exhaustivo de cada una de las historias de usuario asignadas a lo largo de todo el ciclo de vida del proyecto. Nuestro objetivo primordial es asegurar la plena satisfacción de nuestros segmentos de mercado, mediante una comprensión profunda de sus necesidades y expectativas, así como la posterior adecuación de nuestras soluciones a estos requerimientos. Para alcanzar este fin, se especificarán detalladamente los requisitos definidos, junto con el conjunto de User Stories y Epics identificados como elementos clave para el éxito del proyecto. Es crucial destacar que cada User Story estará acompañada de sus correspondientes criterios de aceptación, lo que garantizará una comprensión precisa y compartida de los objetivos a lograr.
 
@@ -597,8 +613,8 @@ Iniciaremos este proceso de presentación con una definición clara y contextual
 
 Por lo tanto, presentaremos inicialmente nuestro modelo de Epics, el cual servirá como una guía y un marco de referencia integral para comprender tanto la naturaleza como el alcance de las historias de usuario que se abordarán a continuación. Este enfoque garantiza que se obtenga una visión completa y coherente de los diversos tipos de historias de usuario, así como de sus respectivas divisiones y definiciones, facilitando así una evaluación más precisa y una comprensión más profunda del proyecto en su conjunto.
 
-##### Tabla 2.
-Tabla de épicas establecidas para las historias de usuarios.
+##### Tabla 7
+*Tabla de épicas establecidas para las historias de usuario para el proyecto de Roademics*
 
 <table border="1" style="text-align: left;"> 
 	<tbody> 
@@ -632,13 +648,13 @@ En la siguiente sección, procederemos a presentar un análisis exhaustivo y det
 
 De acuerdo con Sommerville (2020), una historia de usuario es una técnica esencial en el desarrollo de software, utilizada para describir una funcionalidad o característica desde la perspectiva del usuario final. En cada historia, se captura la identidad del usuario, la acción que necesita realizar y la razón por la cual esa acción es necesaria. Esta descripción concisa y centrada en el usuario no solo proporciona una guía clara para el equipo de desarrollo durante el diseño y la construcción del producto, sino que también asegura que se mantengan siempre en el centro de atención las necesidades y expectativas del usuario final. Al seguir este enfoque, garantizamos que cada componente desarrollado responda de manera efectiva a las demandas del usuario, contribuyendo al éxito global del proyecto.
 
-###### Tabla 3.
-*Tabla de las historias de usuario establecidas.*
+###### Tabla 8
+*Tabla de las historias de usuario establecidas para el proyecto de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
 		<tr>
-			<td colspan="1">ID de Historia de Usuario</td>
+	    <td colspan="1">ID de Historia de Usuario</td>
             <td colspan="1">Título</td>
             <td colspan="1">Descripción</td>
             <td colspan="5">Criterios de Aceptación con Escenarios</td>
@@ -1032,7 +1048,6 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 	    <br><br><strong>Dado que</strong> un usuario está autenticado e intenta eliminar un roadmap en su sección de gestión de roadmaps, <strong>cuando</strong> el sistema detecta un error en el proceso de eliminación (como un fallo en la conexión o problema con la base de datos), <strong>entonces</strong> el sistema debe mostrar un mensaje de error en menos de 3 segundos, informando al usuario del problema y sugiriendo que intente la acción nuevamente o contacte con soporte técnico si el error persiste.<br><br>
 	    <strong>Escenario 3: Intento de acceso a roadmaps eliminados</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado ha eliminado uno o varios roadmaps de su perfil, <strong>cuando</strong> el usuario intenta acceder a un roadmap eliminado a través de enlaces guardados o referencias anteriores, <strong>entonces</strong> el sistema debe mostrar un mensaje de advertencia que indique que el roadmap ya no está disponible y redirigir al usuario a su lista actualizada de roadmaps o a otra sección relevante de la plataforma, ambas acciones dentro de un tiempo máximo de 3 segundos.<br><br>
-            </td>
 	    <strong>Escenario 4: Nueva pantalla en caso de eliminación de todos los roadmaps</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado está eliminando todos los roadmaps que tiene almacenados dentro de su sección de gestión de roadmaps, <strong>cuando</strong> el usuario consiga eliminar el último roadmap que queda en esa sección de forma adecuada, <strong>entonces</strong> el sistema debe cambiar la pantalla de su menú de la sección de gestión de roadmaps para que le presente un mensaje motivador para que empiece a crear nuevos roadmaps y darle la opción directa de generar un nuevo roadmap en un plazo no mayor a 2 segundos.
             </td>
@@ -1043,7 +1058,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma. </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
             <td colspan="5">
             <strong>Escenario 1: Visualización de límite de roadmaps permitidos</strong>
 	    <br><br><strong>Dado que</strong> un usuario está autenticado y navega a la sección de gestión de roadmaps, <strong>cuando</strong> el usuario accede a esta sección y el menú de almacenamiento con todos sus roadmaps termina de cargar y presentarse, <strong>entonces</strong> el sistema debe mostrar de manera clara y visible en la esquina superior derecha de la interfaz la cantidad máxima de roadmaps que el usuario puede gestionar según su plan o suscripción, así como el número actual de roadmaps en uso, todo en tiempo real y de forma que sea comprensible. <br><br>
@@ -1061,7 +1076,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
 		<tr>
             <td colspan="1">US024</td>
             <td colspan="1">
-            Recibir análisis avanzados sobre mi propio roadmap (Usuario Premium)
+            Recibir análisis avanzados sobre un Roadmap en específico para los usuarios premium
             </td>
             <td colspan="1"><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
             <td colspan="5">
@@ -1104,7 +1119,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder crear los nodos de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual , <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td colspan="1"><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
             <td colspan="5">
             <strong>Escenario 1: Creación de nuevos nodos</strong>
 	    <br><br><strong>Dado que</strong> un usuario está autenticado y accede a su roadmap profesional a través de la sección de gestión de roadmaps, <strong>cuando</strong> el usuario selecciona la opción para añadir un nuevo nodo al roadmap entre las opciones de la interfaz de edición, <strong>entonces</strong> el sistema debe permitir al usuario ingresar los detalles del nuevo nodo, tales como el título, descripción, metas a cumplir y cualquier información relevante. El sistema debe agregar el nuevo paso en la posición deseada dentro del roadmap, ya sea al final de la estructura existente o en una etapa intermedia definida por el usuario. Además, el sistema debe reflejar visualmente la creación del paso en la vista del roadmap, con un tiempo de respuesta no mayor a 3 segundos para asegurar una experiencia fluida.<br><br>
@@ -1124,7 +1139,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario</td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
             <td colspan="5">
             <strong>Escenario 1: Notificación de obsolescencia de nodo</strong>
 	    <br><br><strong>Dado que</strong> un nodo en el grafo del roadmap de un usuario autenticado se vuelve obsoleto (ya sea por falta de actualización desde hace mucho tiempo, carencia de información relevante, quedarse aislado por mucho tiempo, entre otros), <strong>cuando</strong> el sistema detecta que el nodo ha sido marcado como obsoleto por un algoritmo de revisión y organización 14 días después de su creación, <strong>entonces</strong> el sistema debe enviar una notificación automática al usuario en un plazo de 5 segundos indicando que el nodo es obsoleto, con detalles que expliquen las razones de la obsolescencia y sugerencias para actualizar el nodo o reemplazarlo por otro. <br><br>
@@ -1144,7 +1159,7 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Guardar versiones de mi roadmap
             </td>
-            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes. </td>
+            <td colspan="1"><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
             <td colspan="5">
             <strong>Escenario 1: Guardar una nueva versión</strong>
 	    <br><br><strong>Dado que</strong> un usuario autenticado está trabajando en un roadmap dentro de la sección de gestión de roadmaps, y realiza cambios significativos en la estructura o contenido del roadmap (ya sea creación, actualización, eliminación o reorganización de nodos), <strong>cuando</strong> el usuario selecciona la opción para guardar un roadmap en la esquina superior izquierda de la interfaz y después selecciona la opción de guardar como una nueva versión, <strong>entonces</strong> el sistema debe crear una copia de la versión actual, asignarle un identificador único, y registrar una marca de tiempo. Además, debe agregar esta versión a la lista de versiones guardadas y notificar al usuario en un plazo de 2 segundos que la nueva versión ha sido guardada exitosamente. <br><br>
@@ -1280,169 +1295,185 @@ De acuerdo con Sommerville (2020), una historia de usuario es una técnica esenc
             <td colspan="1">
             Poder recibir informes avanzados sobre la actividad de mi perfil
             </td>
-            <td colspan="1"><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
+            <td colspan="1"><strong>Como</strong> usuario premium registrado en la aplicación de Roademics, <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma. </td>
             <td colspan="5">
-            <strong>E01: Informe de actividad de perfil</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium solicita un informe sobre la actividad de su perfil, <strong>cuando</strong> el sistema genera el informe, <strong>entonces</strong> el sistema debe proporcionar un informe detallado que incluya métricas avanzadas como número de visitas, interacciones recibidas, conexiones realizadas, y otras estadísticas relevantes, presentadas en un formato accesible. <br><br>
-            <strong>E02: Informe de rendimiento de contenido</strong>
-	    <br><br><strong>Dado que</strong> un usuario Premium desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido,  <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación.
+            <strong>Escenario 1: Informe de actividad de perfil</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado solicita un informe sobre la actividad de su perfil, <strong>cuando</strong> el sistema genera el informe después de que se haya reportado al menos una interacción dentro del perfil, y el usuario ingrese a su página de perfil para luego ingresar a la sección de reportes, <strong>entonces</strong> el sistema debe proporcionar un informe detallado que incluya métricas avanzadas como el número de visitas, interacciones recibidas, conexiones realizadas, y otras estadísticas relevantes, presentadas en un formato accesible en un plazo de 5 minutos desde la creación del reporte. El acceso al propio reporte debe darse en 5 segundos o menos.<br><br>
+            <strong>Escenario 2: Informe de rendimiento de contenido</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado desea analizar el rendimiento de contenido específico en su perfil, <strong>cuando</strong> el usuario solicita un informe sobre el rendimiento de dicho contenido desde la página de su perfil en la sección de reportes, <strong>entonces</strong> el sistema debe generar un informe que detalle la actividad relacionada con ese contenido, como el número de visualizaciones, interacciones, y el impacto en el perfil, proporcionando insights que permitan al usuario ajustar y mejorar su contenido y estrategias de participación en un plazo de 5 minutos. Este reporte, en contraste con el de actividad de perfil, debe recién generarse en ese momento.<br><br>
+	    <strong>Escenario 3: Comparativa de rendimiento con otros perfiles</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado quiere entender cómo se compara su actividad con otros perfiles similares en la plataforma de Roademics, <strong>cuando</strong> ingresé a su página de perfil, luego a la sección de reportes, y desde ahi solicita un informe de comparativa con un promedio o con algunas cuentas en específico que seleccione, <strong>entonces</strong> el sistema debe generar un informe que compare su actividad con los perfiles o con el modelo que selecciono el usuario, incluyendo métricas como el número de visitas e interacciones, para identificar áreas de mejora en un plazo de 10 minutos desde que se solicitó la creación.<br><br>
+	    <strong>Escenario 4: Personalización de informes</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado desea personalizar el contenido de los informes y reportes que recibe o puede generar desde su página de perfil, <strong>cuando</strong> el usuario accede a la sección de reportes y en la configuración de la página presiona el botón de preferencias y edicio´n, <strong>entonces</strong> el sistema debe permitir al usuario seleccionar qué métricas y estadísticas desea incluir en sus informes, y guardar estas preferencias para futuras solicitudes de forma casi inmediata.<br><br>
+	    <strong>Escenario 5: Historial de informes generados</strong>
+	    <br><br><strong>Dado que</strong> un usuario premium autenticado quiere revisar informes anteriores que ha generado dentro de la aplicación a través de la sección de reportes, <strong>cuando</strong> accede a su página de perfil y luego a la sección de reportes, y presiona el botón de historial de informes realizados, <strong>entonces</strong> el sistema debe mostrar una lista de todos los informes generados previamente, con opciones para visualizar, descargar o eliminar cada informe en un formato PDF o PNG, todo en un proceso de 5 segundos o menos.
             </td>
             <td colspan="1">EP005</td>
 		</tr>
 		<tr>
-    <td colspan="1">US036</td>
-    <td colspan="1">
-    Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
-    <td colspan="5">
-    <strong>E01: Notificación por correo electrónico</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole del inicio de sesión y proporcionando detalles sobre el dispositivo y la ubicación, para que el usuario pueda revisar y verificar la actividad.
-    <br><br>
-    <strong>E02: Notificación por SMS</strong>
-    <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado, <strong>cuando</strong> se confirma el acceso, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole del acceso no reconocido y proporcionando detalles básicos para que el usuario pueda actuar rápidamente en caso de actividad sospechosa.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">US037</td>
-    <td colspan="1">
-    Poder revisar el historial de inicios de sesión recientes
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual.</td>
-    <td colspan="5">
-    <strong>E01: Visualización del historial de inicios de sesión</strong>
-    <br><br><strong>Dado que</strong> un usuario accede a la sección de historial de seguridad en su perfil, <strong>cuando</strong> el usuario solicita ver los inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada de las fechas, horas, dispositivos y ubicaciones de los inicios de sesión recientes, permitiendo al usuario revisar la actividad de su cuenta.
-    <br><br>
-    <strong>E02: Filtrado y búsqueda en el historial</strong>
-    <br><br><strong>Dado que</strong> un usuario desea encontrar información específica en su historial de inicios de sesión, <strong>cuando</strong> el usuario utiliza opciones de filtrado o búsqueda, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por fecha, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.
-    </td>
-    <td colspan="1">EP007</td>
-</tr>
-		<tr>
-    <td colspan="1">US038</td>
-    <td colspan="1">
-    Leer y aceptar Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
-    <td colspan="5">
-    <strong>E01: Visualización de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario está en la página de registro, <strong>cuando</strong> el usuario hace clic en el enlace para leer los Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar un documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario revisar el contenido antes de aceptar.
-    <br><br>
-    <strong>E02: Aceptación de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> un usuario ha leído los Términos y condiciones, <strong>cuando</strong> el usuario marca la casilla de aceptación y completa el registro, <strong>entonces</strong> el sistema debe registrar la aceptación de los Términos y condiciones en la cuenta del usuario y permitir el acceso completo a la plataforma, garantizando que la aceptación es obligatoria antes de usar la aplicación.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US039</td>
-    <td colspan="1">
-    Revisar Términos y condiciones actualizados
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
-    <td colspan="5">
-    <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
-    <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
-    <br><br>
-    <strong>E02: Confirmación de aceptación de actualizaciones</strong>
-    <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
-    </td>
-    <td colspan="1">EP008</td>
-</tr>
-		<tr>
-    <td colspan="1">US040</td>
-    <td colspan="1">
-    Accesibilidad a Términos y condiciones
-    </td>
-    <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
-    <td colspan="5">
-    <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
-    <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
-    <br><br>
-    <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
-    <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
-    </td>
-    <td colspan="1">EP008</td>
-		</tr>
-		<tr>
-    <td colspan="1">US041</td>
-    <td colspan="1">
-    Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
-    </td>
-    <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
-    <td colspan="5">
-    <strong>E01: Diseño visualmente atractivo y funcional</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
-    <br><br>
-    <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US042</td>
-    <td colspan="1">
-    Visualizar contenido de Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
-    <td colspan="5">
-    <strong>E01: Visualización completa del contenido de la landing page</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
-    <br><br>
-    <strong>E02: Acceso a información adicional y detalles</strong>
-    <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US043</td>
-    <td colspan="1">
-    Formulario de contacto
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
-    <td colspan="5">
-    <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
-    <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
-    <br><br>
-    <strong>E02: Confirmación de envío y respuesta</strong>
-    <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US044</td>
-    <td colspan="1">
-    Implementación de footer
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
-    <td colspan="5">
-    <strong>E01: Inclusión de enlaces importantes en el footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
-    <br><br>
-    <strong>E02: Diseño consistente y funcional del footer</strong>
-    <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
-		<tr>
-    <td colspan="1">US045</td>
-    <td colspan="1">
-    Responsive Landing Page
-    </td>
-    <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
-    <td colspan="5">
-    <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
-    <br><br>
-    <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
-    <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
-    </td>
-    <td colspan="1">EP009</td>
-</tr>
+      <td colspan="1">US036</td>
+      <td colspan="1">
+      Recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario de la plataforma de Roademics, <strong>quiero</strong> recibir una notificación por correo electrónico o SMS si se detecta un inicio de sesión desde un dispositivo no reconocido, <strong>para</strong> estar al tanto de cualquier actividad sospechosa en mi cuenta y tomar medidas preventivas en caso de que mi cuenta sea comprometida.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Notificación por correo electrónico</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por correo electrónico al usuario, informándole sobre el inicio de sesión, incluyendo detalles como la ubicación aproximada, tipo de dispositivo y la hora del acceso. El sistema debe enviar el correo en un plazo de 1 minuto tras el inicio de sesión.<br><br>
+      <strong>Escenario 2: Notificación por SMS</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> se confirma el acceso desde el dispositivo nuevo y no reconocido, <strong>entonces</strong> el sistema debe enviar una notificación por SMS al número de teléfono registrado del usuario, informándole sobre el acceso y proporcionando detalles básicos como el tipo de dispositivo y la ubicación aproximada, para que el usuario pueda actuar rápidamente en caso de actividad sospechosa. El sistema debe enviar el SMS en un plazo de 1 minuto tras el inicio de sesión.<br><br>
+      <strong>Escenario 3: Solicitud de verificación adicional</strong>
+      <br><br><strong>Dado que</strong> un inicio de sesión desde un dispositivo no reconocido es detectado en la cuenta de un usuario, <strong>cuando</strong> el sistema identifica que el acceso proviene de una ubicación inusual o un dispositivo nuevo y no reconocido, <strong>entonces</strong> debe solicitar al usuario una verificación adicional a través de un código de seguridad enviado por correo electrónico o SMS, antes de permitir el acceso completo a la cuenta. Este mensaje debe ser enviado en un plazo no mayor a 10 segundos y la propia advertencia y bloqueo a la entrada debe presentarse de forma inmediata.<br><br>
+      <strong>Escenario 4: Opciones de dispositivos confiables</strong>
+      <br><br><strong>Dado que</strong> un usuario desea evitar recibir notificaciones continuas de inicio de sesión desde un dispositivo de confianza, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una opción para marcar dispositivos específicos como "confiables", evitando notificaciones futuras sobre inicios de sesión desde esos dispositivos, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.<br><br>
+      <strong>Escenario 5: Visualización de dispositivos registrados</strong>
+      <br><br><strong>Dado que</strong> un usuario desea gestionar cada uno de los dispositivos que en algún momento fueron asociados a su cuenta de Roademics, <strong>cuando</strong> accede a la configuración de seguridad desde su pantalla de perfil e ingresa a la sección de dispositivos vinculados, <strong>entonces</strong> el sistema debe proporcionar una lista de información sobre todos los dispositivos vinculados, además de mostrar sus nombres, el tipo de dispositivo, marca y, si es posible, la etiqueta de su dirección IP.
+      </td>
+      <td colspan="1">EP007</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US037</td>
+      <td colspan="1">
+      Poder revisar el historial de inicios de sesión recientes
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario autenticado en la plataforma de Roademics, <strong>quiero</strong> poder revisar el historial de inicios de sesión recientes realizados en mi cuenta de usuario, <strong>para</strong> monitorear la actividad en mi cuenta y detectar cualquier acceso no autorizado o inusual que pueda afectar mi seguridad personal.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Visualización del historial de inicios de sesión</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado accede a su página de perfil con el fin de identificar cuales fueron los inicios de sesión más recientes en su cuenta, <strong>cuando</strong> accede a la sección de historial de ingreso y presiona el botón de revisar inicios de sesión recientes, <strong>entonces</strong> el sistema debe mostrar una lista detallada que incluya fechas, horas, dispositivos, direcciones IP y ubicaciones de cada inicio de sesión, permitiendo al usuario revisar la actividad de su cuenta. El historial debe estar disponible en un plazo de 2 segundos tras la solicitud.
+      <br><br>
+      <strong>Escenario 2: Filtrado y búsqueda en el historial</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado desea encontrar información específica en su historial de inicios de sesión dentro de la página de su perfil, <strong>cuando</strong> utiliza opciones de filtrado o búsqueda en la propia sección mediante una barra de texto, <strong>entonces</strong> el sistema debe permitir al usuario filtrar por rango de fechas, dispositivo o ubicación, y buscar entradas específicas dentro del historial, facilitando una revisión más precisa y eficiente.<br><br>
+      <strong>Escenario 3: Exportación del historial de inicios de sesión</strong>
+      <br><br><strong>Dado que</strong> un usuario autenticado desea tener una copia de su historial de inicios de sesión en la aplicación de Roademics, <strong>cuando</strong> accede a página de perfil, luego a la sección de ajustes, accede a la página de historial y presiona la opción de exportación en el historial, <strong>entonces</strong> el sistema debe permitir la descarga del historial en formato PDF o CSV, garantizando que los datos exportados incluyan toda la información disponible sobre cada inicio de sesión, en un plazo no mayor a 1 minuto.
+      </td>
+      <td colspan="1">EP007</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US038</td>
+      <td colspan="1">
+      Leer y aceptar Términos y condiciones
+      </td>
+      <td colspan="1"><strong>Como</strong> un nuevo usuario de la plataforma de Roademics, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro de mi cuenta, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma en todo momento.</td>
+      <td colspan="5">
+      <strong>Escenario 1: Visualización de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario está en la página de registro de la aplicación de Roademics, <strong>cuando</strong> hace clic en el enlace para leer los Términos y condiciones en la parte inferior del formulario, <strong>entonces</strong> el sistema debe mostrar el documento completo en una ventana emergente o en una nueva página. El documento debe ser fácilmente navegable y estar estructurado de manera que facilite su lectura, permitiendo al usuario revisar el contenido antes de aceptar. El sistema debe cargar los Términos y condiciones en un plazo máximo de 2 segundos.<br><br>
+      <strong>Escenario 2: Aceptación de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario nuevo en la aplicación ha accedido a la pestaña de términos y condiciones y los ha leído completamente, <strong>cuando</strong> marca la casilla de aceptación y completa el registro de su cuenta, <strong>entonces</strong> el sistema debe registrar la aceptación en la base de datos del usuario y permitir el acceso completo a la plataforma. El sistema debe asegurarse de que la aceptación sea obligatoria y que el registro no pueda completarse sin la acción explícita de marcar la casilla de aceptación.<br><br>
+      <strong>Escenario 3: Descarga de los términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> un usuario desea conservar una copia de los Términos y condiciones que está aceptando durante el proceso de creación de su cuenta, <strong>cuando</strong> ingresa a la pantalla de revisión de términos y condiciones, ya sea desde el formulario de registro o alguna otra pantalla superior, baja hasta el final del documento y presiona el botón de descargar, <strong>entonces</strong> el usuario debe poder descargar una versión PDF del documento directamente, para garantizar que tenga acceso continuo a la versión aceptada.<br><br>
+      </td>
+      <td colspan="1">EP008</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US039</td>
+      <td colspan="1">
+      Revisar Términos y condiciones actualizados
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+      <td colspan="5">
+      <strong>E01: Notificación de actualizaciones de Términos y condiciones</strong>
+      <br><br><strong>Dado que</strong> los Términos y condiciones han sido actualizados, <strong>cuando</strong> un usuario inicia sesión en la plataforma, <strong>entonces</strong> el sistema debe notificar al usuario sobre las actualizaciones y proporcionar un enlace para revisar los Términos y condiciones actualizados, asegurando que el usuario esté informado de los cambios.
+      <br><br>
+      <strong>E02: Confirmación de aceptación de actualizaciones</strong>
+      <br><br><strong>Dado que</strong> un usuario ha revisado los Términos y condiciones actualizados, <strong>cuando</strong> el usuario confirma la aceptación de las actualizaciones, <strong>entonces</strong> el sistema debe registrar la aceptación de los nuevos Términos y condiciones y permitir al usuario continuar usando la plataforma sin interrupciones, garantizando que la aceptación de los cambios es obligatoria para seguir utilizando los servicios.
+      </td>
+      <td colspan="1">EP008</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US040</td>
+      <td colspan="1">
+      Accesibilidad a Términos y condiciones
+      </td>
+      <td colspan="1"><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
+      <td colspan="5">
+      <strong>E01: Acceso a Términos y condiciones desde el menú principal</strong>
+      <br><br><strong>Dado que</strong> un usuario está navegando en el menú principal de la aplicación, <strong>cuando</strong> el usuario selecciona la opción de Términos y condiciones, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, permitiendo al usuario consultar el contenido fácilmente.
+      <br><br>
+      <strong>E02: Acceso a Términos y condiciones desde el pie de página</strong>
+      <br><br><strong>Dado que</strong> un usuario está en cualquier sección de la aplicación, <strong>cuando</strong> el usuario hace clic en el enlace de Términos y condiciones en el pie de página, <strong>entonces</strong> el sistema debe mostrar el documento completo de los Términos y condiciones en una ventana emergente o en una nueva página, asegurando que el acceso a la información sea consistente y accesible desde todas las páginas de la aplicación.
+      </td>
+      <td colspan="1">EP008</td>
+                  </tr>
+                  <tr>
+      <td colspan="1">US041</td>
+      <td colspan="1">
+      Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)
+      </td>
+      <td colspan="1"><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+      <td colspan="5">
+      <strong>E01: Diseño visualmente atractivo y funcional</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ser visualmente atractivo, con una estructura clara que dirija la atención hacia el llamado a la acción (CTA), usando elementos gráficos, tipografía y colores que resalten el mensaje y fomenten la acción deseada.
+      <br><br>
+      <strong>E02: Llamado a la acción (CTA) claro y accesible</strong>
+      <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante interactúa con la página, <strong>entonces</strong> el llamado a la acción (CTA) debe ser claramente visible y fácilmente accesible, con un botón o enlace prominente que invite a realizar la acción deseada, como registrarse, suscribirse o hacer una compra, asegurando que el CTA sea intuitivo y atractivo.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US042</td>
+      <td colspan="1">
+      Visualizar contenido de Landing Page
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+      <td colspan="5">
+      <strong>E01: Visualización completa del contenido de la landing page</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page, <strong>cuando</strong> el visitante carga la página, <strong>entonces</strong> el contenido debe ser completamente visible, incluyendo texto, imágenes, videos y otros elementos multimedia, sin problemas de carga o visualización, asegurando que toda la información se presenta de manera clara y completa.
+      <br><br>
+      <strong>E02: Acceso a información adicional y detalles</strong>
+      <br><br><strong>Dado que</strong> un visitante está en la landing page, <strong>cuando</strong> el visitante desea obtener más información, <strong>entonces</strong> el sistema debe proporcionar enlaces o botones que permitan acceder a detalles adicionales, como descripciones extensas, especificaciones del producto o testimonios, garantizando que la información relevante esté fácilmente accesible y bien organizada.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US043</td>
+      <td colspan="1">
+      Formulario de contacto
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
+      <td colspan="5">
+      <strong>E01: Acceso y funcionalidad del formulario de contacto</strong>
+      <br><br><strong>Dado que</strong> un visitante quiere contactar a la empresa, <strong>cuando</strong> el visitante accede al formulario de contacto, <strong>entonces</strong> el formulario debe ser accesible desde la landing page, permitiendo al visitante ingresar su nombre, dirección de correo electrónico, asunto y mensaje, y debe enviar la información de manera efectiva al equipo de soporte sin errores.
+      <br><br>
+      <strong>E02: Confirmación de envío y respuesta</strong>
+      <br><br><strong>Dado que</strong> un visitante ha enviado una consulta a través del formulario de contacto, <strong>cuando</strong> el formulario es enviado, <strong>entonces</strong> el sistema debe mostrar una confirmación de envío exitosa y proporcionar un mensaje indicando que la consulta será revisada, además de enviar un correo electrónico de confirmación al visitante con la información proporcionada y un número de referencia si es aplicable.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US044</td>
+      <td colspan="1">
+      Implementación de footer
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
+      <td colspan="5">
+      <strong>E01: Inclusión de enlaces importantes en el footer</strong>
+      <br><br><strong>Dado que</strong> un visitante está en cualquier página de la plataforma, <strong>cuando</strong> el visitante desplaza hacia abajo, <strong>entonces</strong> el footer debe incluir enlaces visibles y accesibles a secciones importantes como "Sobre nosotros", "Contacto", "Términos y condiciones", "Política de privacidad" y enlaces a redes sociales, garantizando que el visitante pueda acceder a la información relevante fácilmente.
+      <br><br>
+      <strong>E02: Diseño consistente y funcional del footer</strong>
+      <br><br><strong>Dado que</strong> un visitante está navegando en diferentes dispositivos, <strong>cuando</strong> el visitante visualiza el footer en dispositivos móviles y de escritorio, <strong>entonces</strong> el diseño del footer debe ser consistente y funcional en todos los tamaños de pantalla, asegurando que los elementos sean legibles y accesibles, y que el footer se adapte correctamente a diferentes resoluciones sin pérdida de funcionalidad.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
+                  <tr>
+      <td colspan="1">US045</td>
+      <td colspan="1">
+      Responsive Landing Page
+      </td>
+      <td colspan="1"><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
+      <td colspan="5">
+      <strong>E01: Adaptación de diseño en dispositivos móviles</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo móvil, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe adaptarse para que todos los elementos sean legibles y accesibles, con una navegación intuitiva y botones de llamada a la acción (CTA) claramente visibles y fáciles de usar en pantallas pequeñas.
+      <br><br>
+      <strong>E02: Adaptación de diseño en pantallas de escritorio</strong>
+      <br><br><strong>Dado que</strong> un visitante accede a la landing page desde un dispositivo de escritorio, <strong>cuando</strong> el visitante visualiza la página, <strong>entonces</strong> el diseño debe ajustarse para aprovechar el espacio adicional en pantallas más grandes, manteniendo una disposición clara y organizada de los elementos, y asegurando que la experiencia de usuario sea coherente y atractiva en una variedad de resoluciones de pantalla.
+      </td>
+      <td colspan="1">EP009</td>
+      </tr>
 </table>
 
-###### Tabla 4.
-*Tabla de las historias técnicas establecidas.*
+Terminando con las historias de usuario funcionales, pasamos a las historias de usuario técnicas de Roademics, las cuales se presentan en la sección a continuación. <br><br> Estas historias técnicas se encuentran diseñadas específicamente para el proyecto Roademics, con el propósito de optimizar el funcionamiento interno de la plataforma y asegurar una infraestructura robusta, escalable y adaptable a las necesidades futuras de la aplicación. Estas historias abordan componentes técnicos fundamentales que, aunque no son directamente visibles para el usuario final, inciden significativamente en la estabilidad, seguridad, rendimiento y eficiencia global del sistema. <br><br> Además, cada historia técnica ha sido desarrollada para alinearse con los requisitos de calidad y soporte establecidos, con el fin de garantizar que la experiencia del usuario sea intuitiva, fluida y fiable. De este modo, se busca que cada funcionalidad de la aplicación esté respaldada por una arquitectura sólida y de alta calidad, capaz de soportar el crecimiento y evolución continuos de Roademics.
+
+###### Tabla 9
+*Tabla de las historias técnicas establecidas para el proyecto de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
@@ -2018,27 +2049,32 @@ cuando el sistema recibe las actualizaciones, <strong>cuando</strong> el sistema
 </tr>
 </table>
 
-### 2.4.3. Impact Mapping.
+### 2.4.3. Impact Mapping
 
-*Impact Mapping del primer User Persona.*
+En esta sección vamos a presentar los diagramas desarrollados para el modelo de Impact Mapping que seguimos para cada uno de nuestros User Persona. Según Patnaik (2017), los diagramas de impacto nos ayudan a visualizar y entender cómo las decisiones de diseño y desarrollo pueden influir en los resultados deseados para los usuarios y el negocio Esta metodología nos permite alinear nuestros esfuerzos con las necesidades y objetivos de los usuarios, facilitando una mejor comprensión de las interacciones entre las características del producto y la experiencia.
 
-###### Figura 18.
+Los diagramas de impacto se dividen en cuatro componentes principales: los actores, los objetivos, los impactos y las entregas. Cada uno de estos elementos juega un papel crucial en la planificación y desarrollo del producto, ya que nos ayuda a centrar nuestras prioridades y a asegurar que estamos abordando los problemas más relevantes para nuestros usuarios.
 
-<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento1.png">
+###### Figura 24
+*Impact Mapping desarrollado con respecto a las necesidades del primer User Persona*
 
-*Impact Mapping del primer User Persona.*
+<img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento1.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del primer User Persona de Roademics.">
 
-###### Figura 19.
+###### Figura 25
+*Impact Mapping desarrollado con respecto a las necesidades del segundo User Persona*
 
-<img src="/assets/img/capitulo-2/needfinding/ImpactMapping-Segmento2.png">
+<img src="/assets/img/capitulo-2/requirements-specification/impact-maps/impact-map-segmento2.png" alt="Modelo de Impact Mapping desarrollado para las necesidades del segundo User Persona de Roademics.">
 
-### 2.4.4. Product Backlog.
+### 2.4.4. Product Backlog
 
 En esta sección del proyecto, procederemos a esquematizar y completar el Product Backlog, un componente esencial en la gestión ágil de proyectos de desarrollo de software. El Product Backlog se constituye como una lista dinámica y priorizada que engloba todas las funcionalidades, mejoras, y requisitos necesarios para el desarrollo del producto. Esta lista se organiza en función del valor que cada elemento aporta al negocio, convirtiéndose así en una herramienta clave para guiar el trabajo del equipo de desarrollo a lo largo de las diferentes fases del proyecto.
 
 El Product Backlog no solo se limita a historias de usuario, sino que también incluye tareas técnicas y otras actividades críticas para el desarrollo del producto. La estructuración de este backlog sigue una lógica clara y meticulosa: en primer lugar, se priorizan las historias relacionadas con la experiencia del usuario en la Landing Page, seguidas de las funcionalidades esenciales de la aplicación móvil, y finalmente, se abordan las historias técnicas necesarias para el desarrollo del sistema en su totalidad. Este enfoque garantiza que cada acción realizada por el equipo esté alineada con las prioridades del proyecto y las expectativas de los usuarios (Sommerville, 2020).
 
 En la siguiente sección, se presenta el Product Backlog finalizado del proyecto SportEase. Cada elemento ha sido cuidadosamente elaborado y priorizado en función de su valor para el negocio y su relevancia para los usuarios finales. Este enfoque metodológico asegura que el equipo de desarrollo se concentre en las características más importantes y valiosas, optimizando así los resultados y garantizando el éxito general del proyecto.
+
+###### Tabla 10
+*Product Backlog diseñado para el desarrollo de Roademics*
 
 <table  style="text-align: left;">
 	<tbody>
