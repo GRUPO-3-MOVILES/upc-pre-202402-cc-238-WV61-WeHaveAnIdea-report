@@ -115,17 +115,21 @@ En esta sección, se definirá la estrategia para utilizar GitHub como plataform
 
 Se establecerán ramas específicas para diferentes etapas del desarrollo, tales como la integración continua, las pruebas y la producción. Además, se implementarán políticas de pull requests y revisiones de código para asegurar la calidad y coherencia del frontend. Esta metodología permitirá un control riguroso del ciclo de vida del desarrollo, facilitando la colaboración y asegurando que todos los cambios se registren de forma clara y ordenada.
 
-A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del frontend dentro de esta organización:
-
 **Repositorios en GitHub:**
 
-- Organización: https://github.com/GRUPO-3-MOVILES 
+A continuación, se proporciona una lista con los enlaces a la organización de GitHub de WHAI y a los repositorios específicos relacionados con el desarrollo del frontend dentro de esta organización:
 
-- Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
+- Repositorio principal de la organización de Roademics: https://github.com/GRUPO-3-MOVILES 
 
-- Aplicación Móvil: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication
+- Repositorio del reporte y documentación: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
-- Landing Page: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
+- Repositorio con todo el código correspondiente a la Aplicación Móvil de Roademics: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-MobileApplication
+
+- Repositorio con todo el código correspondiente a la Landing Page de Roademics: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage 
+
+Asimismo, se brinda un enlace a todos los puntos desplegados de la aplicación por el lado del BackEnd:
+
+Enlace del punto de visualización de Swagger del BackEnd de Roademics: https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
@@ -136,10 +140,10 @@ En esta sección, se presentarán todos los usuarios que forman parte de la orga
 
 |**Nombre de Usuario**|**Imagen de Perfil**|**Nombre del Integrante del Equipo**|
 | ----- | ------ | ----- |
-| JuanPescoran | <img src="/assets/img/capitulo-4/profiles/Juan-github.PNG" alt="Pescorán Angulo, Juan Fabritzzio">| Pescorán Angulo, Juan Fabritzzio - U20221C936 |
-| FlavioTrigueros | <img src="/assets/img/capitulo-4/profiles/Flavio-github.PNG" alt="Trigueros Chumacero, Flavio Eduardo"> | Trigueros Chumacero, Flavio Eduardo - U202210190 |
-| AldhaValenzuelaH | <img src="/assets/img/capitulo-4/profiles/Aldhair-github.PNG" alt="Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
-| LucioY250 | <img src="/assets/img/capitulo-4/profiles/Lucio-github.PNG" alt="Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
+| JuanPescoran | <img src="/assets/img/capitulo-5/github-profiles/juan-pescoran-angulo-github-profile.png" alt="Imagen de perfil de Github del integrante Pescorán Angulo, Juan Fabritzzio">| Pescorán Angulo, Juan Fabritzzio - U20221C936 |
+| FlavioTrigueros | <img src="/assets/img/capitulo-5/github-profiles/flavio-trigueros-chumacero-github-profile.png" alt="Imagen de perfil de Github del integrante Trigueros Chumacero, Flavio Eduardo"> | Trigueros Chumacero, Flavio Eduardo - U202210190 |
+| AldhaValenzuelaH | <img src="/assets/img/capitulo-5/github-profiles/aldhair-valenzuela-huillcaya-github-profile.png" alt="Imagen de perfil de Github del integrante Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
+| LucioY250 | <img src="/assets/img/capitulo-5/github-profiles/lucio-yen-cerna-github-profile.png" alt="Imagen de perfil de Github del integrante Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
 
 **GitFlow Workflow**:
 
@@ -222,7 +226,7 @@ Asimismo, también investigaremos y presentaremos las directrices para la intera
 - Guía de Estilos de Google para HTML Y CSS: https://google.github.io/styleguide/htmlcssguide.html 
 - Convenciones de Gherkin para especificaciones legibles: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ 
 - Guía de Google para el Estilo de JavaScript: https://google.github.io/styleguide/jsguide.html
-- Guía de Pautas de Javascript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript}
+- Guía de Pautas de Javascript de MDN (Mozilla): https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript
 - Guía de Estilos de Javascript del consorcio W3: https://www.w3schools.com/js/js_conventions.asp
 - Guía Oficial del Framework de Flutter: https://docs.flutter.dev/get-started/learn-flutter
 - Conjunto de Datos con Recursos de Aprendizaje de Flutter: https://github.com/rafathefull/flutterverso
@@ -355,32 +359,35 @@ A continuación, proporcionaremos una descripción detallada de los pasos necesa
 
 1. El primer paso en nuestro proceso de despliegue es la creación de un repositorio público en GitHub. Para ello, asignaremos un nombre adecuado al repositorio que refleje el propósito y contenido de nuestra página de destino. Una vez creado el repositorio, procederemos a añadir los archivos necesarios para la construcción y funcionamiento del Landing Page. Es fundamental seleccionar un nombre significativo que identifique claramente el propósito del repositorio y la naturaleza de los archivos que contendrá. Esto facilitará la gestión y colaboración en el desarrollo del proyecto, asegurando que todos los miembros del equipo puedan identificar y acceder al repositorio de manera eficiente. Una vez completada esta tarea, estaremos listos para iniciar el proceso de desarrollo y construcción de nuestro Landing Page, utilizando el repositorio recién creado como punto de partida. Este enfoque nos proporcionará una base sólida y organizada desde la cual avanzar en el desarrollo de nuestra solución.
 
-###### Figura 60
-*Imagenes de muestra y presentación sobre la construcción del repositorio designado para la Landing Page de Roademics.*
-<img src="/assets/img/set-repository-name.png" alt="Set Repository Name">
-<img src="/assets/img/repository.png" alt="Repository">
+    ###### Figura ##
+    *Imagen de presentación del nuevo repositorio creado y designado en Github para la Landing Page de Roademics*
+    <img src="/assets/img/capitulo-5/deployments/deployment-landing-page-image1-repository.png" alt="Nuevo repositorio creado y designado en Github para la Landing Page.">
 
 2. El segundo paso implica dirigirse a la sección de ajustes en GitHub y seleccionar la pestaña Pages. Una vez allí, podremos acceder a las configuraciones relacionadas con la publicación de páginas web directamente desde nuestro repositorio. Esta acción nos permitirá habilitar la funcionalidad de GitHub Pages para nuestro repositorio, lo que nos permitirá alojar y publicar nuestro Landing Page de forma rápida y sencilla. La pestaña Pages ofrece una interfaz intuitiva que nos guiará a través del proceso de configuración, permitiéndonos personalizar diversos aspectos de nuestra página web, como la rama a utilizar para el despliegue y el dominio personalizado, si así lo deseamos. Al acceder a esta sección y realizar las configuraciones necesarias, estaremos un paso más cerca de hacer que nuestro Landing Page esté disponible públicamente para su visualización y acceso por parte de los usuarios finales
 
+    ###### Figura ##
+    *Imagen de presentación de la sección de ajustes del nuevo repositorio designado para la Landing Page de Roademics*
+    <img src="/assets/img/capitulo-5/deployments/deployment-landing-page-image2-settings-section.png" alt="Sección de ajustes del nuevo repositorio designado para la Landing Page.">
+
+    ###### Figura ##
+    *Imagen de presentación de la pestaña Pages en la sección de ajustes del nuevo repositorio designado para la Landing Page de Roademics*
+    <img src="/assets/img/capitulo-5/deployments/deployment-landing-page-image3-pages-section.png" alt="Pestaña Pages en la sección de ajustes del nuevo repositorio designado para la Landing Page.">
+
 3. El tercer paso implica dirigirnos al apartado de configuración específico para GitHub Pages en nuestro repositorio. Una vez en esta sección, podremos ajustar diferentes aspectos relacionados con la publicación de nuestro sitio web, como la rama a utilizar, el directorio desde el que se servirán los archivos, y otras opciones de configuración avanzadas. Esta parte del proceso nos brinda la oportunidad de personalizar aún más la forma en que nuestra página web será desplegada y accesible para los usuarios finales. Por ejemplo, podemos seleccionar la rama específica que contiene los archivos de nuestro Landing Page y especificar el directorio raíz desde el cual se servirán los archivos HTML, CSS y JavaScript.
+
+    ###### Figura ##
+    *Imagen de presentación del apartado de configuración específico para Github Pages en la sección de ajustes del nuevo repositorio designado para la Landing Page de Roademics.*
+    <img src="/assets/img/capitulo-5/deployments/deployment-landing-page-image4-github-pages.png" alt="Apartado de configuración específico para Github Pages en la sección de ajustes del nuevo repositorio designado para la Landing Page.">
 
 4. El cuarto paso implica dirigirse al apartado de "branch" dentro de la configuración de GitHub Pages y seleccionar el branch "main" donde se realizará el despliegue del Landing Page. Es importante asegurarse de elegir el branch correcto donde se encuentran los archivos actualizados de nuestra página web para garantizar que la versión más reciente se despliegue correctamente. Durante este proceso, es recomendable dejar las demás configuraciones con sus valores predeterminados, a menos que tengamos necesidades específicas que requieran ajustes adicionales. Mantener estas configuraciones en sus valores predeterminados ayuda a simplificar el proceso y reduce la posibilidad de errores durante el despliegue.
 
-###### Figura 61
-*Imagen de muestra y presentación sobre el despliegue de la Landing Page y el ajuste de las ramas integradas.*
-<img src="/assets/img/pagedeployed.png" alt="github page">
-
 5. Una vez seleccionada la rama correspondiente, se generará un enlace que permitirá acceder al Landing Page desplegado. Este enlace proporciona una forma rápida y sencilla para que los usuarios accedan a nuestra página web y puedan interactuar con su contenido. Es importante tener en cuenta que cualquier modificación realizada en el branch "main" se actualizará automáticamente en el Landing Page desplegado. Esto significa que cualquier cambio que realicemos en nuestros archivos HTML, CSS o JavaScript se reflejará de inmediato en la versión en vivo de nuestra página web. Este proceso de actualización automática garantiza que nuestro Landing Page esté siempre sincronizado con las últimas modificaciones realizadas en el código fuente, lo que proporciona una experiencia consistente y actualizada para los usuarios que acceden a nuestra página web."
 
-###### Figura 62
-*Imagen de muestra y presentación sobre la obtención del enlace de ingreso a la Landing Page de Roademics.*
-<img src="/assets/img/github-link.png" alt="github link">
+    ###### Figura ##
+    *Imagen de presentación del enlace generado en Github Pages en la sección de ajustes para la Landing Page de Roademics.*
+    <img src="/assets/img/capitulo-5/deployments/deployment-landing-page-image5-link.png" alt="Enlace generado en Github Pages en la sección de ajustes para la Landing Page.">
 
-6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/ 
-
-###### Figura 63
-*Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
-<img src="/assets/img/landing_deployed.png" alt="Landing deployed">
+6. Una vez completados los pasos anteriores, el Landing Page estará desplegado y listo para ser visualizado y utilizado. Los usuarios podrán acceder al enlace generado y explorar el contenido de nuestra página web. Es importante realizar pruebas adicionales después del despliegue para asegurarse de que la página web se vea y funcione correctamente en diferentes dispositivos y navegadores. Esto garantizará una experiencia de usuario óptima para todos los visitantes de nuestro sitio. En caso los lectores quieran revisar el link desplegado de la Landing Page de Roademics de forma directa y rápida, pueden usar el siguiente enlace: https://grupo-3-moviles.github.io/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-landingPage/   
 
 ## 5.2. Software Development & Implementation.
 
@@ -651,7 +658,6 @@ A continuación, proporcionaremos una descripción detallada de los pasos necesa
 ###### Figura 63
 *Imagen de muestra y presentación sobre la Landing Page de Roademics ya desplegada.*
 <img src="/assets/img/landing_deployed.png" alt="Landing deployed">
-
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint.
 
@@ -1046,3 +1052,532 @@ Además, programamos sesiones regulares de brainstorming y resolución de proble
 
 ---
 
+### 5.2.2. Sprint 3
+
+En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 2 de la Implementación del FrontEnd. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo de la interfaz de usuario en su página de perfil, las principales funcionalidades de Roadmaps e Inteligencia Artificial, todas las secciones referentes al networking, y el avance colectivo aportado por cada integrante del equipo de trabajo en relación con los componentes del FrontEnd y sus respectivas interacciones entre Bounded Context. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint, destacando cómo cada aportación individual contribuye al éxito colectivo del proyecto.
+
+Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto, asegurando que la interfaz cumpla con los estándares de calidad y usabilidad deseados.
+
+#### 5.2.2.1 Sprint Planning 3.
+
+Aqui se detallarán los puntos discutidos y analizados durante la reunión de Sprint Planning para el segundo sprint enfocado en la implementación del FrontEnd. El objetivo principal de dicha reunión fue establecer un plan estratégico y alcanzable que guíe el desarrollo de la interfaz de usuario, garantizando la incorporación de todas las funcionalidades esenciales para los usuarios. Durante el encuentro, se identificaron las tareas específicas a ejecutar, comprometiéndose a entregar un conjunto de resultados tangibles que contribuyan al progreso del proyecto, particularmente en las funcionalidades clave como la generación y edición de roadmaps, las funciones relacionadas con la gestión del perfil y datos de usuario, así como las características principales de la sección de networking.
+
+Este enfoque asegura que todos los miembros del equipo compartan una visión común respecto a los objetivos y expectativas del sprint, lo cual es fundamental para mantener una adecuada coordinación y efectividad en el trabajo colaborativo. A lo largo de la reunión, se establecieron las características que serán desarrolladas, se definieron los plazos para cada tarea y se acordaron los criterios de aceptación correspondientes. Además, se promovió un diálogo abierto entre los integrantes del equipo, con el fin de identificar posibles desafíos y áreas de mejora, asegurando que todos los aspectos del desarrollo del FrontEnd estén alineados con las metas generales del proyecto. Esta metodología contribuye a una planificación estructurada y a una ejecución eficiente de las tareas, reforzando el compromiso del equipo con los objetivos del sprint.
+
+###### Tabla 
+*Tabla del planeamiento a profundidad del Sprint 3*
+<table>
+        <tr>
+            <td colspan="1">Sprint #</td>
+            <td colspan="1">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2024-10-12</td>
+        </tr>
+          <tr>
+            <td>Time</td>
+            <td>17:16</td>
+        </tr>
+            <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+            <tr>
+            <td>Prepared by</td>
+            <td>Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
+        </tr>
+            <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>Al finalizar el Sprint 2, se concretó la reunión del Sprint Review para evaluar el avance en el desarrollo del FrontEnd de nuestra aplicación. En este sprint, el objetivo principal fue el desarrollo de funciones clave en la aplicación, tales como la generación y edición de roadmaps mediante el asesor que funciona a base de inteligencia artificial, y la implementación de secciones como el perfil de usuario y mejoras en el diseño de las pantallas de networking. <br><br>La reunión fue exitosa, tanto por los avances logrados en los productos de software como por la efectiva colaboración del equipo. Se expusieron las nuevas funcionalidades, se realizaron demostraciones de la interfaz de usuario, y se recibieron comentarios útiles de los miembros del equipo y otros interesados. Este valioso intercambio de ideas permitió identificar oportunidades de mejora y ajustar las prioridades para el siguiente sprint. La colaboración y comunicación fluida durante esta revisión contribuyeron significativamente a la cohesión del equipo y aseguraron que el desarrollo del FrontEnd siguiera en línea con los objetivos generales del proyecto.</td> 
+        </tr>
+            <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>Durante la Sprint Retrospective del Sprint 2, el equipo se enfocó en analizar en detalle toda la retroalimentación obtenida tras la finalización de este ciclo de proyecto. Esta evaluación profunda, tanto del desempeño colectivo como del individual, nos permitió identificar áreas críticas de mejora que resultarán esenciales para perfeccionar nuestra aplicación móvil desde la perspectiva del FrontEnd.<br><br> En este ejercicio de reflexión, surgieron diversas propuestas enfocadas en elevar la calidad del trabajo entregado y asegurar que el producto final cumpla con las expectativas de nuestros usuarios. Se abordaron temas como la mejora en el rendimiento de la aplicación y su balance con el diseño de interfaz, el uso de APIs y mejores opciones de librerías, y mejoras en el alcance y la portabilidad que presentara nuestra aplicación. Este intercambio de ideas no solo reforzó la colaboración del equipo, sino que también estableció un camino claro para los próximos sprints, asegurando que el producto final no solo presente un diseño atrayente, intuitivo y atractivo para los clientes, sino también que las funcionalidades sean accesibles, se encuentren adecuadamente organizadas, y presenten un buen rendimiento. </td>
+        </tr>
+            <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+              <tr>
+            <td>Sprint 2 Goal</td>
+            <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 2 con todas las historias de usuario y otros materiales necesarios.</td>
+        </tr>
+              <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>Con el equipo para este sprint 2 decidimos aceptar 8 Story Points</td>
+        </tr>
+              <tr>
+            <td>Sum of Story Points</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 2 es 101</td>
+        </tr>
+    </table>
+
+#### 5.2.2.2 Sprint Backlog 3.
+
+En esta sección se analizará en detalle el proceso del Sprint Backlog 2, en el cual nuestro equipo concentró sus esfuerzos principalmente en el diseño de los bounded contexts de Roadmaps, Gestión de Usuarios, y en avanzar en aspectos clave de Networking. Este enfoque abarcó de manera integral la definición de cada una de las funcionalidades planteadas en las historias de usuario, además del diseño de cada actividad ya asignada y la propia interfaz.
+
+A lo largo de este sprint, se dio prioridad a la usabilidad y a la experiencia del usuario, asegurando que cada elemento de la interfaz no solo cumpliera con los requisitos funcionales, sino que también proporcionara una navegación fluida y atractiva. Además, se realizaron sesiones de revisión y pruebas exhaustivas para verificar que las funcionalidades desarrolladas estuvieran alineadas con las expectativas del Product Backlog. Este enfoque colaborativo, centrado en el usuario, es crucial para garantizar que la solución no solo sea efectiva, sino también capaz de satisfacer las necesidades de nuestros clientes de manera óptima.
+
+###### Tabla 59
+*Tabla principal del planeamiento del Sprint Backlog 3*
+<table>
+        <tr>
+            <td colspan="2">Sprint #</td>
+            <td colspan="6">Sprint 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Descripcion</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status (To-do / In / Process / ToReview / Done)</td>
+        </tr>
+        <tr>
+            <td>US007</td>
+            <td>Agregar una foto o imagen en el perfil de usuario</td>
+            <td>T08</td>
+            <td>Agregar imagen de perfil de usuario</td>
+            <td><strong>Como</strong> un usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de agregar una imagen o foto a mi perfil de usuario en la plataforma, siguiendo todos los formatos más adecuados, <strong>para</strong> personalizar mi cuenta y que otros usuarios puedan reconocerme fácilmente al interactuar conmigo.</td>
+            <td>1 hora</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+          <tr>
+            <td>US008</td>
+            <td>Gestión de sección de biografía</td>
+            <td>T09</td>
+            <td>Agregar y gestionar biografía de usuario</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder agregar, editar y eliminar mi biografía en la plataforma, <strong>para</strong> proporcionar información adicional sobre mí y personalizar mi perfil, reflejando datos relevantes para mi red de contactos.</td>
+            <td>1 hora</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+            <tr>
+            <td>US011</td>
+            <td>Actualización de información personal</td>
+            <td>T10</td>
+            <td>Actualización de información de perfil</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder actualizar mi información personal como nombres, apellidos, país y nacionalidad, y detalles de contacto en la plataforma, <strong>para</strong> mantener mi perfil actualizado y asegurarme de que otros usuarios puedan contactar conmigo de manera adecuada.</td>
+            <td>2 horas y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+              <tr>
+            <td>US012</td>
+            <td>Eliminación de una cuenta de usuario</td>
+            <td>T11</td>
+            <td>Eliminación de cuenta de usuario</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> ser capaz de eliminar mi cuenta de la plataforma una vez me encuentre autenticado en mi perfil, <strong>para</strong> eliminar todos los datos personales asociados si ya no deseo utilizar el servicio de manera segura y permanente.</td>
+            <td>1 hora</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>US013</td>
+            <td>Sección de cambio de contraseña</td>
+            <td>T12</td>
+            <td>Página con sección de cambio de contraseña</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder cambiar mi contraseña desde una sección específica en mi perfil, <strong>para</strong> actualizar mi contraseña de manera segura y mantener la integridad de mi cuenta a corto y largo plazo.</td>
+            <td>1 hora</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                  <tr>
+            <td>US016</td>
+            <td>Creación de roadmap académico básico</td>
+            <td>T13</td>
+            <td>Creación de un roadmap básico</td>
+            <td><strong>Como</strong> usuario de la aplicación de Roademics interesado en planificar mi trayectoria profesional con las funciones ofrecidas, <strong>quiero</strong> crear un roadmap académico básico en la plataforma, <strong>para</strong> visualizar y gestionar mi progreso académico, planificar mis cursos y establecer metas profesionales de manera eficiente y estructurada.</td>
+            <td>3 horas y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                    <tr>
+            <td>US017</td>
+            <td>Generación automática de roadmap con el uso de Inteligencia Artificial</td>
+            <td>T14</td>
+            <td>Creación de un roadmap básico con Inteligencia Artificial</td>
+            <td><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma sea capaz de generar un roadmap profesional utilizando las herramientas de inteligencia artificial que dispone, <strong>para</strong> recibir una recomendación personalizada y optimizada de cursos y objetivos que se alineen con mis metas profesionales y educativas.</td>
+            <td>3 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                      <tr>
+            <td>US018</td>
+            <td>Menú de almacenamiento de Roadmaps de un usuario</td>
+            <td>T15</td>
+            <td>Implementar menú de almacenamiento de roadmaps personales</td>
+            <td><strong>Como</strong> usuario que busca optimizar su trayectoria profesional con la aplicación de Roademics, <strong>quiero</strong> que la plataforma tenga un pequeño menú o dashboard donde se muestren todos los roadmaps u hojas de ruta que he generado en la aplicación, <strong>para</strong> tener un acceso directo a cada uno de mis roadmaps y poder almacenarlos de forma más sencilla, cómoda y organizada.</td>
+            <td>2 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                        <tr>
+            <td>US019</td>
+            <td>Acceso a plantillas básicas y avanzadas para la creación de Roadmaps</td>
+            <td>T16</td>
+            <td>Diseño de plantillas básicas y avanzadas para la creación de Roadmaps</td>
+            <td><strong>Como</strong> usuario que desea mejorar su planificación profesional con el uso de la aplicación de Roademics, <strong>quiero</strong> tener acceso a plantillas predeterminadas y avanzadas para mis hojas de rutas y roadmaps, <strong>para</strong> facilitar el desarrollo y diseño de los roadmaps de forma profesional, detallada y personalizada, que se ajuste a mis necesidades y objetivos específicos.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                          <tr>
+            <td>US020</td>
+            <td>Edición de roadmaps básicos</td>
+            <td>T17</td>
+            <td>Edición de un roadmap básico</td>
+            <td><strong>Como</strong> usuario que ha creado un roadmap básico en la plataforma de Roademics, <strong>quiero</strong> poder editar el roadmap existente con el uso de herramientas variadas de edición y modificación, <strong>para</strong> actualizar la información relevante, ajustar mis objetivos profesionales o académicos, y modificar mis planes según mis necesidades actuales.</td>
+            <td>4 horas y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                            <tr>
+            <td>US021</td>
+            <td>Acceso a herramientas de edición avanzada de roadmaps para usuarios premium</td>
+            <td>T18</td>
+            <td>Desarrollo de herramientas de edición avanzada de roadmaps (Para usuarios premium)</td>
+            <td><strong>Como</strong> usuario con suscripción Premium en la plataforma Roademics, <strong>quiero</strong> tener acceso a herramientas de edición avanzada para la modificación de mis roadmaps profesionales, <strong>para</strong> aprovechar funcionalidades adicionales que me permitan optimizar la planificación y gestión de mis metas, brindándome mayor flexibilidad y precisión en la creación y ajuste de mis objetivos.</td>
+            <td>2 horas y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                              <tr>
+            <td>US022</td>
+            <td>Eliminación de Roadmaps</td>
+            <td>T19</td>
+            <td>Eliminación de Roadmaps</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder eliminar roadmaps que ya no necesito, <strong>para</strong> mantener mi perfil organizado, optimizar el uso de la plataforma y evitar la acumulación de información obsoleta o irrelevante.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                <tr>
+            <td>US023</td>
+            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
+            <td>T20</td>
+            <td>Visualización de limitaciones de la cantidad de roadmaps que cada usuario puede gestionar</td>
+            <td><strong>Como</strong> usuario registrado de Roademics, <strong>quiero</strong> visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar dentro de la sección de organización de roadmaps, <strong>para</strong> tener un control claro y transparente sobre el número de roadmaps que puedo crear y editar, asegurándome de no sobrepasar los límites establecidos por mi plan de suscripción o la configuración de la misma plataforma.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                  <tr>
+            <td>US024</td>
+            <td>Recibir análisis avanzados sobre un Roadmap en específico para los usuarios premium</td>
+            <td>T21</td>
+            <td>Análisis avanzado sobre un Roadmap en específico para los usuarios premium</td>
+            <td><strong>Como</strong> usuario Premium de la plataforma Roademics, <strong>quiero</strong> recibir análisis avanzados y detallados sobre el progreso y la estructura de mi roadmap profesional, <strong>para</strong> obtener información valiosa que me permita identificar áreas de mejora, optimizar mi planificación, y tomar decisiones informadas que me ayuden a alcanzar mis objetivos profesionales de manera más efectiva y eficiente.</td>
+            <td>3 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                    <tr>
+            <td>US025</td>
+            <td>Poder exportar mi roadmaps en formato como PDF o PNG</td>
+            <td>T22</td>
+            <td>Exportar roadmaps en formato PDF o PNG</td>
+            <td><strong>Como</strong> usuario premium de la plataforma Roademics, <strong>quiero</strong> poder exportar mis roadmaps generados y editados mediante formatos de archivo como PDF o PNG, <strong>para</strong> disponer de una copia accesible, portable y presentable de mis planes profesionales, que pueda ser utilizada para compartir, almacenar o imprimir con facilidad y conservar la integridad del diseño visual y la información estructurada en la plataforma.</td>
+            <td>2 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                    <tr>
+            <td>US026</td>
+            <td>Poder crear los nodos de mi roadmap</td>
+            <td>T23</td>
+            <td>Creación de nodos de un roadmap</td>
+            <td><strong>Como</strong> usuario registrado de la plataforma Roademics, <strong>quiero</strong> poder crear los nodos de mi roadmap de forma manual, <strong>para</strong> estructurar y definir claramente las etapas, actividades y acciones necesarias para alcanzar mis objetivos profesionales de manera organizada y efectiva.</td>
+            <td>3 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                      <tr>
+            <td>US027</td>
+            <td>Recibir notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible</td>
+            <td>T24</td>
+            <td>Notificar si un nodo en un grafo se vuelve obsoleto o ya no se encuentra disponible</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir una notificación si un nodo en mi grafo se vuelve obsoleto o ya no está disponible, <strong>para</strong> estar al tanto de cualquier cambio que pueda afectar la estructura y el progreso de mi roadmap, y tomar las medidas necesarias para actualizar o ajustar mi plan según sea necesario.</td>
+            <td>2 horas</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+                                        <tr>
+            <td>US028</td>
+            <td>Guardar versiones de mi roadmap</td>
+            <td>T25</td>
+            <td>Historial de versiones de un roadmap</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> ser capaz de guardar distintas versiones de mi roadmap, <strong>para</strong> tener un historial de cambios y poder revertir a versiones anteriores si es necesario, asegurando así que pueda realizar ajustes sin perder progresos importantes.</td>
+            <td>2 horas y 30 minutos</td>
+            <td>###</td>
+            <td>Done</td>
+        </tr>
+    </table>
+
+#### 5.2.2.3 Development Evidence for Sprint Review.
+
+En esta sección se explicarán y presentarán los avances obtenidos en la implementación, relacionados con los productos de la solución según el alcance definido para el Sprint 2 de la sección de Product Implementation. El enfoque de este apartado será documentar cada uno de los commits ya implementados dentro del repositorio de GitHub, proporcionando detalles técnicos de los cambios realizados y su impacto en el desarrollo de la aplicación móvil junto a todas sus funcionalidades por parte de la interfaz.
+
+###### Tabla XX
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
+| Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
+|------------|-------|----------|---------------|--------------------|-------------------|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fcd14b9127bccf8dce545dfaff8e439c2dde91c7|chore: create clean architecture folder structure and add app_constants|committed :)| 25/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|11e89700dd38ae8f9b45e8f598a3278a1e746222|chore: add placeholder for team collaboration|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|f3e95111ef5f8264cb4c28fbbc2ee7adb46545a0|chore: add more placeholders |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|5d323f549767b421e31f61af7bddf5f281371054|feat: add profile page, edit profile, settings page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|fbb9f26790c7ee08a44aae50b4e9de868ab08fba|feat: add update email settings page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|65bf6314c46c88c58692c652b8e5e4d69078278d|feat: add update phone number page |committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|1dd12af8610363edb885b11be93bf78585066d2f|feat: add change password page|committed :)| 26/10/24|
+|upc-pre-202402-cc-238-WV61-WeHaveAnIdea-Roademics|profile-feature|d4dc95c6b813259b32fba6ab146dbc2a8aaa7f21|feat: add delete account function|committed :)| 26/10/24|
+
+#### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
+
+En esta sección presentaremos una evidencia detallada de las rigurosas pruebas realizadas durante el sprint, con el fin de garantizar la calidad y la funcionalidad del producto en desarrollo. Hemos implementado la metodología Gherkin, que permite definir escenarios de prueba de manera clara y concisa, facilitando la comprensión tanto para los desarrolladores como para los interesados no técnicos.
+
+Cada uno de estos escenarios de prueba ha sido meticulosamente registrado en commits específicos dentro de nuestro repositorio de código, lo que asegura un historial completo, detallado y transparente del proceso de prueba. Este enfoque no solo permite rastrear fácilmente los cambios y correcciones asociados a las pruebas, sino que también garantiza que las funcionalidades clave del sistema cumplan con los criterios de aceptación definidos. La metodología adoptada refuerza la integridad del código y la entrega de un producto final robusto y confiable.
+
+###### Tabla 26
+*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+| Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
+|-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 5198ddb8114acf692f93d46e0224c8652529b5dc | feat: add US_Sprint1.feature | En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | 7990a48a9b476d87cdcd98de0535f2b07b2644d1 | feat: add TS013-TS017 y TS27-TS040 |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del backend de Roademics | 28/09/24 |
+| upc-pre-202402-cc-238-WV61-WeHaveAnIdea-AcceptanceTests | Sprint-1 | e7e7f030e2b31007d0f9daf82fecc1889569c491 | feat: add US_Sprint1_Frontend |En esta sección se implementaron todos los Acceptance Test para el Sprint 1 del Frontend de Roademics | 28/09/24 |
+
+#### 5.2.2.5 Execution Evidence for Sprint Review. 
+
+Durante el desarrollo de este Sprint 2, en el área de Product Implementation y FrontEnd, nuestro equipo se enfocó en implementar las funcionalidades centrales de los bounded contexts de IAM (Identity and Access Management), Profiles y Roadmaps. Este esfuerzo fue fundamental para asegurar que la aplicación cumpla con los principales requisitos funcionales, siguiendo prácticas avanzadas de desarrollo y una estructura sólida que facilite el crecimiento y la escalabilidad del proyecto en sprints futuros. La implementación de estas funcionalidades no solo marca un hito en la creación de una base estable para la aplicación, sino que también nos permite seguir avanzando con las características adicionales que enriquecerán la experiencia del usuario.
+
+En términos de arquitectura de desarrollo, optamos por un modelo Bloc para gestionar el estado en cada bounded context de manera independiente, permitiendo un control más efectivo del flujo de datos y la reactividad en cada componente de la aplicación. Además, adoptamos un patrón de repositorio, lo que facilita la conexión fluida con el Backend de Roademics y asegura que las solicitudes a los Endpoints se manejen de forma eficiente y segura. Al mismo tiempo, logramos implementar un modelo de Clean Architecture, lo cual asegura una organización óptima y una clara separación de archivos, funcionalidades, modelos, servicios, constantes y widgets. Esta estructura modular es esencial para un mantenimiento más ágil, permitiendo que los desarrolladores trabajen en diferentes áreas sin interferir en otras, mejorando así la productividad y reduciendo posibles conflictos en el código.
+
+Dentro del contexto de Profiles, diseñamos una página de perfil que permite a los usuarios visualizar y gestionar sus atributos y datos personales. Los usuarios pueden acceder a un botón de edición de perfil que les otorga la capacidad de modificar sus datos de manera dinámica, facilitando la actualización de su información en cualquier momento según sus necesidades. Además, se añadió un menú de ajustes completo que permite al usuario personalizar su experiencia, incluyendo opciones para editar datos personales importantes, como correos electrónicos y números de teléfono. También se incluyen ajustes avanzados de privacidad y preferencias de visualización, ofreciendo al usuario un control detallado sobre cómo se muestra y maneja su información. Para brindar una experiencia completa, esta sección también cuenta con opciones que permiten cerrar sesión o, si el usuario así lo desea, eliminar su cuenta de forma segura y definitiva.
+
+En cuanto a IAM, se realizaron optimizaciones significativas en el rendimiento de las funciones de autenticación y autorización, lo cual es esencial para una experiencia de usuario fluida y segura. Además, se añadieron estados específicos que gestionan cada etapa del proceso de inicio de sesión, registro y recuperación de cuenta, garantizando que las interacciones del usuario sean rápidas y seguras. Se incluyó una pantalla de términos y condiciones, y se habilitó la opción de inicio de sesión mediante cuentas externas, permitiendo una integración con servicios de autenticación populares que facilitan el acceso y reducen la fricción en el proceso de registro. Estas mejoras no solo fortalecen la seguridad del sistema, sino que también amplían la accesibilidad para usuarios que prefieren utilizar sus cuentas existentes.
+
+En el contexto de Roadmaps, se añadió la funcionalidad para que el usuario pueda crear y personalizar manualmente un roadmap. Esta creación es facilitada mediante prompts que guían al usuario a lo largo del proceso, permitiéndole estructurar sus metas y pasos a seguir de manera clara y precisa. Adicionalmente, se integró un asesor de inteligencia artificial que proporciona recomendaciones inteligentes para la planificación de los roadmaps, ofreciendo sugerencias adaptativas que ayudan al usuario a optimizar su plan de acuerdo con sus necesidades y objetivos específicos. Otras mejoras incluyeron la posibilidad de modificar nodos individuales en un roadmap, lo cual brinda flexibilidad al usuario para realizar cambios específicos sin necesidad de reconstruir el roadmap completo. Asimismo, se habilitó la opción de eliminar roadmaps y se implementó una pantalla donde el usuario puede acceder a todos los roadmaps generados, permitiéndole seleccionar y gestionar fácilmente aquellos que están almacenados en su cuenta.
+
+Este conjunto de desarrollos en el Sprint 2 proporciona una base sólida, versátil y escalable para los siguientes sprints, asegurando que la aplicación no solo cumpla con los requisitos actuales, sino que esté preparada para incorporar nuevas funcionalidades y adaptarse a las necesidades cambiantes de los usuarios. Cada uno de estos avances contribuye a mejorar la cohesión del sistema, maximizar la eficiencia del código y garantizar una experiencia de usuario enriquecedora, intuitiva y confiable.
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
+
+En esta sección se detalla la relación de los Endpoints documentados mediante la especificación OpenAPI, los cuales están directamente relacionados con el alcance del Sprint y su implementación en el proyecto Roademics, específicamente por las áreas del BackEnd. Estos Endpoints son fundamentales para el funcionamiento de las funcionalidades desarrolladas durante el Sprint 2 del FrontEnd y describen la interacción entre el BackEnd y la aplicación móvil.
+
+Se incluirán aquellos Endpoints que están directamente conectados con las funcionalidades incorporadas en la aplicación móvil durante este Sprint 2.
+
+A continuación, se presenta una tabla exhaustiva que especifica las acciones soportadas por cada Endpoint, destacando el verbo HTTP correspondiente (GET, POST, PUT, DELETE, PATCH) y proporcionando la sintaxis exacta para realizar las llamadas. También se detallan los parámetros que pueden ser incluidos, junto con ejemplos prácticos de cada solicitud. Además, se ofrece una explicación clara y precisa del response asociado, asegurando que el equipo de desarrollo y los interesados comprendan el procesamiento de las peticiones y respuestas dentro del sistema. Esta documentación es esencial para garantizar una integración fluida y efectiva entre los distintos componentes del sistema, facilitando la comunicación entre el BackEnd y el FrontEnd.
+
+###### Tabla 27
+*Tabla del modelo de escritura para el Bounded Context de ####*
+| Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
+|---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
+| PUT     | Actualizar la información de un usuario      | PUT /usuarios/{id}          | `username`, `email`, `password`                | Usuario actualizado con los nuevos datos proporcionados.                                  |
+| DELETE  | Eliminar un usuario                          | DELETE /usuarios/{id}       | `id` del usuario                               | Mensaje de confirmación de eliminación del usuario.                                        |
+| GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
+| GET     | Obtener detalles de un usuario específico    | GET /usuarios/{id}          | `id` del usuario                               | Detalles del usuario solicitado, incluyendo roles, fecha de registro, y demás datos.       |
+| POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
+
+###### Tabla 28
+Tabla del modelo de escritura para el Bounded Context de Roadmaps:
+| Método  | Descripción                                            | Ejemplo de llamada               | Parámetros                                                      | Respuesta                                                                                 |
+|---------|--------------------------------------------------------|----------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| GET     | Obtener todos los roadmaps disponibles                 | GET /roadmaps                    | Ninguno                                                         | Lista de roadmaps en formato JSON con detalles como título, descripción, nodos, edges, etc.|
+| POST    | Crear un nuevo roadmap                                 | POST /roadmaps                   | `title`, `description`, `nodes[]`, `edges[]`                    | Detalles del nuevo roadmap creado, incluyendo ID y fecha de creación.                     |
+| PUT     | Modificar un roadmap existente                         | PUT /roadmaps/{id}               | `title`, `description`, `nodes[]`, `edges[]`                    | Roadmap actualizado con la nueva información proporcionada.                               |
+| DELETE  | Eliminar un roadmap                                    | DELETE /roadmaps/{id}            | `id` del roadmap                                                | Mensaje de confirmación de eliminación del roadmap.                                        |
+| GET     | Obtener detalles de un roadmap específico              | GET /roadmaps/{id}               | `id` del roadmap                                                | Detalles del roadmap solicitado, con nodos y edges.                                       |
+| POST    | Generar recomendaciones mediante IA para un roadmap    | POST /roadmaps/{id}/recommendations | `id`, `userPrompt`, `aiToken`                                   | Respuesta de la IA con sugerencias personalizadas para el roadmap.                        |
+| GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
+| POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+
+En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
+
+Sin embargo, durante este Sprint 2, no se llegó a realizar ningún modelo de despliegue dentro de la aplicación móvil o dentro de algunos de sus componentes. Esto es debido a que la aplicación aún no presenta un estado que este lo suficientemente completado como para considerar presentarlo en un ambiente de producción. Ante la carencia de funcionalidades clave, como las secciones de networking y mejoras en la seguridad e inicio de sesión,  decidimos no realizar ningún despliegue hasta otro sprint próximo.
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2 de la sección Product Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del FrontEnd de la aplicación móvil de Roademics, principalmente en los bounded context de Roadmaps y Gestión de Usuarios, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
+
+Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas y discutir la estrategia de desarrollo del proyecto. Estas reuniones fueron cruciales para clarificar nuestras responsabilidades individuales y asegurar un desempeño óptimo. Para maximizar la eficiencia, decidimos asignar a cada miembro del equipo una sección específica del FrontEnd para desarrollar, lo que nos permitió avanzar rápidamente y cumplir con los plazos establecidos.
+
+Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd de la Web Application.
+
+###### Figura 88
+*Reporte completo de contribuciones para el desarrollo del FrontEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
+
+<img src="/assets/Pulse-frontend-for-main-sprint2.png" alt="Pulse for the Main Branch in Software Development and Implementation">
+<img src="/assets/img/Contributions-frontend-for-main-sprint2.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
+<img src="/assets/img/Individual-contributions-frontend-for-main-sprint2.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
+
+---
+
+## 5.3. Validation Interviews
+
+En esta sección, nuestro equipo documentará y describirá las actividades vinculadas a las entrevistas de validación realizadas durante el proyecto. Las entrevistas de validación son esenciales, ya que permiten a los usuarios de los segmentos objetivo interactuar tanto con la página web de presentación de la aplicación, así como con la propia aplicación móvil. Estas interacciones brindan información valiosa sobre la experiencia del usuario y la eficacia del diseño. Para asegurar un proceso de validación eficiente, es importante emplear el formato de evaluación heurística desarrollado específicamente para este proyecto. Este formato establece una estructura para analizar la usabilidad y la experiencia del usuario, garantizando que se aborden los aspectos clave para mejorar el diseño y funcionamiento de las aplicaciones (Papalia, 2024).
+
+### 5.3.1. Diseño de Entrevistas
+
+El equipo se encarga de definir, para cada segmento de público identificado, los elementos que deben incluirse en la sesión de validación. Esto incluye tanto el análisis de la página de destino como de las aplicaciones móviles asociadas. Además, se describe el diseño de los flujos de usuario de las aplicaciones, que jugarán un papel fundamental en el proceso de validación. Estos flujos de usuario, que representan la secuencia de acciones que los usuarios realizarán dentro de las aplicaciones, son esenciales para asegurar una experiencia de usuario óptima. De esta forma, se garantiza que cada paso que da el usuario en las aplicaciones sea coherente, intuitivo y esté alineado con los objetivos de diseño establecidos.
+
+Preguntas generales iniciales:
+
+1. ¿Podría indicarnos su nombre completo, por favor?
+2. ¿Podría compartir su edad?
+3. ¿Había tenido algún contacto previo con nuestra startup antes de esta entrevista?
+
+Preguntas generales sobre la aplicación:
+
+1. ¿Cuál fue su primera impresión al utilizar la aplicación? ¿La encontró intuitiva y fácil de usar?
+2. ¿Experimentó algún inconveniente durante su uso? En caso afirmativo, ¿podría describirlo?
+3. ¿Recomendaría la aplicación a otros usuarios? ¿Por qué?
+
+Segmento 1: Profesionales formados y en desarrollo que deseen potenciarse planificando su futuro.
+
+1. ¿Considera adecuado el nivel de asesoría proporcionado por la inteligencia artificial de la aplicación?
+2. ¿Le parece útil organizar logros, habilidades y metas a través de hojas de ruta? ¿Tiene alguna sugerencia para mejorar esta presentación?
+3. ¿Qué tan sencillo fue crear su primer roadmap dentro de la aplicación?
+4. ¿Cuáles herramientas del aplicativo fueron las más útiles para sus necesidades profesionales? ¿Por qué?
+5. ¿Opina que los modelos de perfiles profesionales ofrecidos en la aplicación reflejan el mercado laboral actual?
+6. ¿Cree que la presentación de hojas de ruta es atractiva para las empresas actuales? ¿Consideraría agregar un roadmap adecuado a su curriculum vitae?
+7. ¿Piensa que podría lograr una oportunidad laboral estable utilizando solo las funcionalidades de la plataforma?
+8. ¿Le parecen efectivas las funciones de networking que ofrece la aplicación? Si estuviera postulando a un empleo, ¿preferiría los medios de comunicación de la aplicación o utilizaría otro canal? ¿Por qué?
+9. ¿Cómo compara nuestra plataforma con otras en términos de usabilidad, innovación y calidad en la presentación de información?
+10. ¿Qué mejoras o nuevas funcionalidades le gustaría ver en la plataforma y por qué considera que serían relevantes?
+
+Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
+
+1. ¿Considera que el perfil empresarial en la aplicación facilita la búsqueda de candidatos adecuados para sus necesidades de contratación?
+2. ¿Cómo evalúa la utilidad de los mapas de ruta profesionales para comunicar los requisitos de habilidades y competencias a los candidatos?
+3. ¿Qué tan efectiva considera que es la plataforma para identificar talento que esté alineado con las demandas de su empresa?
+4. ¿Encuentra que las herramientas de filtrado de candidatos en la aplicación son precisas y adecuadas? ¿Qué aspectos mejoraría?
+5. ¿Le parece útil la visualización de perfiles de candidatos que siguen rutas similares a las requeridas por su organización?
+6. ¿Considera que el modelo de networking dentro de la aplicación facilita las conexiones con candidatos relevantes y de alto potencial?
+7. ¿La función de creación de perfiles profesionales en Roademics ayuda a su empresa a identificar habilidades y experiencias clave en los candidatos?
+8. ¿Qué tan adecuado encuentra el modelo Freemium para su empresa en términos de funcionalidad y acceso a opciones avanzadas de reclutamiento?
+9. ¿De qué manera considera que la aplicación podría optimizar el proceso de selección de candidatos en relación con otras herramientas de reclutamiento que haya utilizado?
+10. ¿Qué funcionalidades adicionales le gustaría ver en la plataforma para hacer más eficiente la contratación de personal capacitado?
+
+### 5.3.2. Registro de Entrevistas de Validación
+
+#### Segmento 1: Profesionales en Desarrollo y Futuros Profesionales que quieran visualizar su propio roadmap
+
+**Entrevista N°1:**
+
+###### Figura #
+*Imagen de presentación de la primera entrevista realizada*
+
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento1.png" alt="Primera entrevista de validación de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: Fernando Lizano Coll Cardenas
+- Edad: 19 años
+- Distrito: Punta Hermosa
+- Link: [Entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
+- Duración: 7 minutos y 3 segundos
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
+
+**Entrevista N°2:**
+
+###### Figura 7
+*Imagen de presentación de la segunda entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-2/interviews/records/entrevista2-segmento1.png" alt="Segunda entrevista de validación de nuestro segmento objetivo 1 a Jeremías Evangelista Pescorán." width="550" height="300">
+
+**Datos principales:**
+- Nombre completo del entrevistado: Jeremías Evangelista Pescorán
+- Edad: 24 años
+- Distrito: San Juan de Miraflores
+- Link: [Entrevista a Jeremías Pescorán](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYBJFH9E50qUI9ggXCdqQ34BA?e=wqC7a7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: [0:36](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EeXCuqUCgQdLopDzDo2lLDYB2eeMYRKCr-PIywsgNbn1_w?e=pWvjTx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzUuNjl9fQ%3D%3D)
+- Duración: 7 minutos y 33 segundos
+- Entrevistador: Pescorán Angulo, Juan Fabritzzio
+- Resumen de Entrevista: Jeremías Evangelista, un ingeniero de software de 24 años, trabaja como analista programador junior especializado en desarrollo backend. Está satisfecho con su formación académica y busca continuamente mejorar aprendiendo nuevas tecnologías como AWS y Azure, utilizando recursos en línea como YouTube y Udemy. Valora mucho las herramientas digitales en su desarrollo profesional y utiliza LinkedIn para compartir logros académicos. Al evaluar vacantes laborales, se enfoca en el salario y los lenguajes de programación requeridos, prefiriendo empresas que sean transparentes sobre sus expectativas para evitar cargas de trabajo inesperadas.
+
+---
+
+#### Segmento 2: Empresas y Reclutadores en busca de personal capacitado
+
+**Entrevista N°3:**
+
+###### Figura #
+*Imagen de presentación de la tercera entrevista de validación realizada*
+
+<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento2.png" alt="Primera entrevista de nuestro segmento objetivo 2 a Rosa Castro." width="400" height="200">
+
+**Datos principales:**
+- Nombre completo del entrevistado: Rosa Castro
+- Edad: 32
+- Distrito: Ate
+- Link: [Entrevista a Rosa Castro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/Ef9SImimiAlJlFlY3Ok3KX8Bfc6B1rQUYzOfsc8gjdv3yA?e=kFSeXY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:01 
+- Duración: 10:56
+- Entrevistador: Lucio Yen
+- Resumen de Entrevista: Rosa Castro es administradora y coordinadora de Mastercol. Ella da mayor importancia a las habilidades blandas, como la comunicación y la adaptabilidad, en lugar de enfocarse en las habilidades técnicas y la actitud. Para este proceso, Rosa utiliza plataformas como LinkedIn, Facebook, y WhatsApp para obtener información, aunque principalmente confía en referencias laborales obtenidas a través de llamadas telefónicas. En Mastercol, se fomenta el desarrollo continuo de los empleados mediante capacitaciones e incentivos. Cuando un empleado solicita un aumento de sueldo, el impacto que ha tenido en la empresa es un factor determinante en la decisión y también el aprendizaje. Jennifer considera que, si se cuenta con los recursos, es esencial seguir aprendiendo. En su empresa, los despidos son raros y generalmente se deben a bajo rendimiento o al incumplimiento de las normas. 
+
+**Entrevista N°5:**
+
+###### Figura 10
+*Imagen de presentación de la quinta entrevista realizada.*
+
+<img src="/assets/img/capitulo-2//interviews/records/entrevista2-segmento2.png" alt="Segunda entrevista de nuestro segmento objetivo 2 a Jennifer Villanueva." width="400" height="200">
+
+
+**Datos principales:**
+- Nombre completo del entrevistado: Jennifer Villanueva
+- Edad: 40
+- Distrito: Ate
+- Link: [Entrevista a Jennifer Villanueva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213143_upc_edu_pe/EZTB2EPF2GNNotCvw7IUgUUBly041VIbMyI-vXRE0jOn6g?e=bz4A3v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:02
+- Duración: 10:42
+- Entrevistador: Lucio Yen
+- Resumen de Entrevista: Jennifer Villanueva, gerenta de recursos humanos en Mastercol, es imprescindible en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas y la actitud. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp para informarse, pero sobre todo, utiliza referencias laborales llamando por teléfono. Por otro lado, la empresa donde trabaja Jennifer fomenta el desarrollo continuo de los empleados a través de capacitaciones e incentivos. Cuando un empleado solicita un aumento, el impacto dentro de la empresa en un factor crucial para decidir. Por último, considera que los profesionales no deberían de dejar de aprender nunca y que los despidos de la empresa van por mal rendimiento y incumplimiento de normas.
+
+**Entrevista N°6:**
+
+###### Figura 11
+*Imagen de presentación de la sexta entrevista realizada.*
+
+<img src="/assets/img/capitulo-2/interviews/records/entrevista3-segmento2.png" alt="Tercera entrevista de nuestro segmento objetivo 2 a Ximena Vilchez Paredes." width="400" height="200">
+
+**Datos principales:**
+- Nombre completo del entrevistado: Ximena Vilchez Paredes
+- Edad: 22
+- Distrito: Chorrillos
+- Link: [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EWm0xNl3QBVHvJNcCJPjZjsBQdiu3tylQ7EwoyLJcHZ9Kg?e=ey6qll&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Inicio de la entrevista: 0:01
+- Duración: 11:19
+- Entrevistador: Aldhair Valenzuela
+- Resumen de Entrevista: Ximena Vilchez, abogada en un estudio jurídico privado, juega un rol clave en la selección de personal, donde prioriza las habilidades blandas como la comunicación y adaptabilidad sobre las técnicas. Para este proceso, utiliza plataformas como LinkedIn, Facebook y WhatsApp, destacando su adaptación a las herramientas digitales. Además, la empresa donde trabaja Ximena fomenta el desarrollo continuo de los empleados a través de una biblioteca interna y organiza exposiciones sobre cambios legales importantes, promoviendo el aprendizaje colectivo. Cuando un empleado solicita un aumento, la eficiencia en sus labores es un factor crucial en la decisión.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+En esta sección se detalla el proceso minucioso de evaluación de las sesiones de validación, fundamentado en un conjunto de heurísticas diseñadas para cubrir los aspectos más relevantes de la experiencia del usuario. Estas heurísticas se organizan en categorías clave que incluyen criterios de usabilidad, arquitectura de la información y elementos del diseño de experiencia. Cada categoría ha sido cuidadosamente definida para proporcionar un análisis riguroso y profundo de las interacciones y percepciones del usuario.
+
+La evaluación integral tiene como objetivo asegurar que todos los componentes de la interfaz y la experiencia general respondan a altos estándares de calidad, permitiendo identificar no solo las fortalezas en el diseño y la implementación, sino también las áreas que requieren ajustes o mejoras. Este enfoque garantiza una revisión exhaustiva de cada elemento de la aplicación, facilitando el reconocimiento de oportunidades que mejoren la funcionalidad, accesibilidad y satisfacción general del usuario. A través de este proceso continuo de optimización, se busca refinar el producto hasta lograr una plataforma que ofrezca una experiencia de usuario completa, confiable y alineada con los más altos estándares de calidad y eficacia.
+
+## 5.4. Video About-the-Product
+
+En esta sección, se expone y describe en detalle el contenido del video titulado "About-the-Product," diseñado para informar tanto a los visitantes de la Landing Page como a los usuarios de la aplicación móvil. Este recurso audiovisual tiene como propósito brindar una presentación clara y exhaustiva sobre el modelo de negocio y las características distintivas de la aplicación de Roademics, asegurando que tanto los nuevos usuarios como aquellos registrados comprendan el valor que la plataforma ofrece.
+
+Con el fin de alcanzar una comunicación efectiva y alineada con la identidad del producto, se ha adoptado un tono narrativo coherente y uniforme, que refleja tanto la seriedad como la innovación de la solución tecnológica. Este enfoque proyecta una imagen profesional y confiable, facilitando una experiencia de usuario que fomenta el interés y el compromiso con las herramientas y beneficios que el producto proporciona en ámbitos tanto profesionales como personales.
+
+El video "About-the-Product" se ha integrado en la Landing Page y puede visualizarse fácilmente en esta página. Además, para fines de documentación, el video también se incluye en este informe, accesible en el siguiente enlace: (Enlace)
