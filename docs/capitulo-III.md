@@ -467,7 +467,6 @@ Para Roademics, estos componentes de búsqueda son esenciales para proporcionar 
 3. **Navegación Táctil Jerárquica**:
    El diseño táctil debe seguir principios de usabilidad móviles, como el uso de zonas táctiles de fácil acceso, priorizando las funciones esenciales, como la creación de mapas de carrera y la visualización de oportunidades destacadas en áreas superiores o accesibles rápidamente mediante gestos intuitivos. Las funciones secundarias estarán ubicadas en menús colapsables o accesibles mediante deslizamientos laterales, garantizando una experiencia fluida y organizada.
 
-
 #### 3.1.2.5. Navigation Systems.
 
 Los Navigation Systems son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Eltabbal (2023), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
@@ -515,7 +514,7 @@ Este enfoque asegura que, independientemente del dispositivo o la plataforma uti
 
 En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page, cada característica principal está representada de forma visual y detallada. El objetivo es proporcionar a los lectores una visión integral y profunda, permitiéndoles realizar un análisis exhaustivo de cada elemento. Para facilitar este proceso, se ha incluido un enlace al desarrollo de los wireframes en la plataforma de diseño Figma. Este enlace brinda a los lectores la oportunidad de explorar interactivamente cada aspecto del diseño y acceder a información adicional en caso de ser necesario, enriqueciendo la comprensión de las decisiones de diseño tomadas:
 
-**[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
+**[Enlace del Modelo de Wireframes de la Landing Page de Roademics en Figma](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
 #### 3.1.3.2. Landing Page Mock-up
 
@@ -530,7 +529,7 @@ En el caso específico de la landing page de Roademics, se ha optado por la util
 
 En este conjunto de Mock-Ups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
 
-**[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
+**[Enlace del Modelo de Mock-Ups de la Landing Page de Roademics en Figma](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -553,7 +552,7 @@ Además, la aplicación incluye diversas secciones complementarias que enriquece
 
 En este conjunto de Wireframes de la aplicación móvil de Roademics, cada una de las funcionalidades clave se representa de manera esquemática y detallada. El objetivo es proporcionar a los usuarios una visión clara y comprensiva del diseño, facilitando un análisis profundo de cada componente de la interfaz. Para una mejor comprensión, se ha incluido un enlace directo a los wireframes en Figma, donde se puede interactuar con el diseño y obtener información adicional cuando sea necesario:
 
-**[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
+**[Enlace del Modelo de Wireframes de la aplicación móvil de Roademics en Figma](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -577,7 +576,7 @@ Al representar visualmente no solo los objetivos del usuario, sino también las 
 
 Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes con diagramas de flujo, mostrando no solo el diseño estructural de cada pantalla, sino también el recorrido y las interacciones del usuario dentro de la aplicación. Al ser una herramienta clave para planificar la experiencia de usuario, los Wireflow Diagrams permiten identificar posibles mejoras en la navegación y asegurar que los flujos sean coherentes y eficientes. Se brindara el enlace de los Wireflow diseñados para los lectores:
 
-**[(Enlace)](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-718%2C274%2C3118%2C1266%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
+**[Enlace del Modelo de Diagramas Userflow de la aplicación móvil de Roademics en LucidChart](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-718%2C274%2C3118%2C1266%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
@@ -594,7 +593,7 @@ Otras secciones importantes de la aplicación incluyen la sección de ajustes y 
 
 Los mockups de la aplicación móvil de Roademics proporcionan una representación visual detallada de la interfaz final. Cada pantalla está diseñada con el objetivo de ofrecer una experiencia de usuario intuitiva y atractiva, enfocándose en la claridad y el acceso rápido a las principales funcionalidades. Se incluye un enlace a los mockups en Figma para que los interesados puedan explorar cada pantalla y realizar ajustes o sugerencias interactivamente:
 
-**[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
+**[Enlace del Modelo de Mock-Ups de la aplicación móvil de Roademics en Figma](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -614,7 +613,7 @@ Cada User Flow incluye una descripción clara del objetivo del usuario correspon
 
 Los User Flow Diagrams de la aplicación Roademics describen de manera detallada los caminos que los usuarios seguirán al interactuar con la aplicación. Estos diagramas destacan los puntos de decisión y las rutas posibles, proporcionando una visión clara de cómo los usuarios logran sus objetivos dentro de la plataforma. Proporcionaremos en enlace para todos los interesados en el modelo en el que se enfocó Roademics durante todo el proceso:
 
-**[(Enlace](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-9429%2C19%2C14749%2C6198%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
+**[Enlace del Modelo de Diagramas Userflow de la aplicación móvil de Roademics en LucidChart](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-9429%2C19%2C14749%2C6198%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
@@ -672,22 +671,22 @@ En el contexto de Roademics, el diagrama de componentes destaca los elementos cl
 La utilidad del diagrama de componentes se extiende más allá del simple entendimiento de la arquitectura. Al proporcionar una visualización clara de cómo se gestionan los datos dentro de la aplicación móvil, este diagrama resulta invaluable no solo para los desarrolladores, sino también para los equipos de mantenimiento y actualización del sistema. Al descomponer cada elemento en sus componentes individuales y mapear sus interacciones, el diagrama optimiza el proceso de diseño y desarrollo, facilitando un mantenimiento efectivo y minimizando la complejidad durante el ciclo de vida del software.
 
 ###### Figura 54
-*Diagrama de componentes de la Landing Page de la aplicación de Roademics.*
+*Diagrama de componentes de la Landing Page de la aplicación de Roademics*
 
 <img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-landing-page.png" alt="Diagrama de componentes de la Landing Page de la aplicación de Roademics.">
 
 ###### Figura 55
-*Diagrama de componentes de la Gestión de Perfiles de Usuario de la aplicación de Roademics.*
+*Diagrama de componentes de la Gestión de Perfiles de Usuario de la aplicación de Roademics*
 
 <img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-user-profile-management.png" alt="Diagrama de componentes de la Sección de Gestión de Perfiles de Usuario de la aplicación de Roademics.">
 
 ###### Figura 56
-*Diagrama de componentes del Desarrollo de Roadmaps de la aplicación de Roademics.*
+*Diagrama de componentes del Desarrollo de Roadmaps de la aplicación de Roademics*
 
 <img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-roadmap-development.png" alt="Diagrama de componentes de la Sección de Desarrollo de Roadmaps de la aplicación de Roademics.">
 
 ###### Figura 57
-*Diagrama de componentes del Desarrollo y Modelo del Networking de la aplicación de Roademics.*
+*Diagrama de componentes del Desarrollo y Modelo del Networking de la aplicación de Roademics*
 
 <img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-networking-model-development.png" alt="Diagrama de componentes de la Sección del Modelo de Networking de la aplicación de Roademics.">
 
@@ -737,7 +736,7 @@ Antes de proceder con el diseño de la base de datos, es crucial determinar cuá
 En este sentido, hemos preparado la siguiente tabla comparativa, la cual detalla los aspectos clave de ambos modelos, destacando sus características principales, ventajas y desventajas. El objetivo es proporcionar una base sólida para seleccionar el modelo que ofrezca un equilibrio óptimo entre el manejo eficiente de los datos y la capacidad de adaptarse a las necesidades futuras de la aplicación.
 
 ###### Tabla 14
-*Comparación entre un modelo de base de datos relacional y uno no relacional para la persistencia de la aplicación móvil de Roademics.*
+*Comparación entre un modelo de base de datos relacional y uno no relacional para la persistencia de la aplicación móvil de Roademics*
 
 | **Aspecto** | **Base de Datos Relacional** | **Base de Datos No Relacional** |
 |-------------|------------------------------|---------------------------------|
