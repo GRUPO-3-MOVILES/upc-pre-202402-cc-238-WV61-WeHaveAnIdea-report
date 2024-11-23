@@ -627,6 +627,7 @@ En este contexto, el prototipado de aplicaciones móviles puede abarcar diversas
 <img src="/assets/img/capitulo-3/ui-ux-design/mobile/prototyping/roademics-prototype.png" alt="Modelo de Prototipo de la Aplicación Móvil de Roademics.">
 
 En el siguiente enlace se encuentra el vídeo principal del prototipado realizado para nuestra aplicación de Roademics con los bocetos mostrados en secciones anteriores, junto a un sistema de navegación completo y dinámico: 
+[Link de prototyping Landing Page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EU_AGvPj5OFEm_ycgm88XiIB5nTGFNxv37appt57bijhVA?e=2oqBBp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## 3.2. Architecture Overview
 
