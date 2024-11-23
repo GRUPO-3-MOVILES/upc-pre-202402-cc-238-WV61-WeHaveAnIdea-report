@@ -200,22 +200,213 @@ Como señalan Rosenfeld et al. (2015), los sistemas de organización proporciona
 
 El objetivo principal del modelo de los *Organization Systems* en *Roademics* es construir una estructura visual coherente y eficiente para el contenido, facilitando una navegación intuitiva y un acceso fluido a la información. En *Roademics*, se implementará un sistema de organización que se basa en la segmentación del contenido en módulos y en el uso de jerarquías claras y funcionales. Esto permitirá que los usuarios naveguen de manera eficiente a través de la aplicación, encontrando rápidamente la información sobre sus habilidades y certificados. Al desarrollar estos elementos, aseguraremos una experiencia de usuario optimizada y fluida.
 
-**Inicio**: En la página de inicio de Roademics, priorizaremos la exposición de las funciones clave de la plataforma de forma inmediata, asegurándonos de que los usuarios puedan verlas al primer vistazo. Las principales funcionalidades, como la creación de mapas de ruta profesional y la visualización de habilidades, estarán visibles en la parte superior. Otras características menos frecuentes, como configuraciones adicionales o estadísticas avanzadas, estarán en un apartado accesible mediante un botón específico. Este enfoque sigue un diseño estructurado que permite a los usuarios identificar rápidamente sus áreas de interés, facilitando su experiencia en la plataforma. Además, se destacarán ejemplos de mapas de ruta populares y perfiles corporativos destacados en la página de inicio, para inspirar a los usuarios y brindarles acceso directo a los contenidos más relevantes.
+**Sección Inicio de Networking**: 
 
-**Generador de Mapas de Ruta**: Esta sección será el núcleo de Roademics, donde los usuarios podrán crear, visualizar y editar sus mapas de ruta profesional. El diseño mostrará un esquema visual de fácil comprensión, en formato de gráfico, con las habilidades, certificaciones y experiencias laborales agregadas por el usuario. El usuario podrá ordenar la visualización de los elementos en el mapa según criterios como fecha, tipo de habilidad o relevancia para sus objetivos. Para una experiencia más personalizada, el generador permitirá al usuario recibir recomendaciones automáticas de habilidades o certificaciones basadas en su progreso y tendencias del mercado. También se integrará un botón destacado de "Sugerir nuevas habilidades", donde el usuario podrá recibir sugerencias basadas en inteligencia artificial para mejorar su trayectoria profesional.
+La página de inicio en Roademics está diseñada para proporcionar a los usuarios una experiencia clara, intuitiva y enfocada en su desarrollo profesional. Asimismo, está combinada directamente con la pestaña de networking, la cual sigue los esquemas propios de una página de red social laboral. Su estructura organiza los elementos clave de manera que se priorice la funcionalidad y la accesibilidad:
 
-**Perfil de Usuario**: La sección de perfil proporcionará al usuario acceso a toda la información personal y profesional almacenada en la aplicación. Aquí se podrán visualizar los mapas de ruta creados, la información de contacto, las habilidades destacadas, así como certificaciones obtenidas. Además, se implementará la funcionalidad de edición de perfil, con un botón claramente identificado como “Editar”, que permitirá al usuario actualizar su información en cualquier momento. En esta área, también se incluirán opciones para compartir su perfil y roadmap con empresas o reclutadores interesados, lo que permitirá una conexión directa con oportunidades laborales.
+* Sección superior: Modelo de búsqueda
 
-**Perfil de Empresa**: El perfil de empresa en Roademics será una sección clave para las organizaciones que buscan talento. Las empresas podrán visualizar los mapas de ruta de los candidatos potenciales y acceder a sus perfiles, lo que les permitirá evaluar sus habilidades y certificaciones. En esta sección, se destacarán las vacantes abiertas y los criterios específicos que las empresas buscan en un empleado. También se mostrarán las métricas relacionadas con el perfil de la empresa, como cuántos usuarios han interactuado con sus vacantes o qué tan populares son sus publicaciones dentro de la plataforma. Para fomentar una relación de confianza y transparencia, el perfil corporativo incluirá detalles como la antigüedad de la empresa en la plataforma, sus logros y los principales contactos de recursos humanos.
+    Motor de búsqueda: Una barra de búsqueda que le permite al usuario buscar distintos usuarios o empresas dentro de la plataforma en su sección de networking.
+
+    Nuevas conexiones: Un acceso rápido a la vista de los nuevos usuarios que buscan conectarse con el usuario principal, mostrando su solicitud de conexión en una lista sencilla.
+
+    Notificaciones: Una sección pequeña con las últimas notificaciones de la aplicación para el usuario en específico. Estas notificaciones son para funcionalidades generales en toda la plataforma.
+
+* Sección inferior: Funcionalidades clave
+    
+    Creación de mapas de ruta profesional: Acceso rápido mediante un botón a las herramientas de creación de mapas de ruta para planificar el desarrollo profesional del usuario.
+    
+    Visualización de habilidades: Un acceso rápido junto a un pequeño resumen de la información sobre las competencias adquiridas y las que están en proceso de desarrollo por parte del usuario.
+
+    Resumen de progreso: Una pequeña sección junto a un pequeño resumen de métricas visuales analizadas sobre el usuario, como “Habilidades adquiridas” y “Avance en rutas completadas”.
+
+* Sección central: Networking:
+
+    Vista de posteos: La sección central de la página donde se muestra los últimos posts que hicieron usuarios en la plataforma, y quienes también son de interés o están conectados con el usuario principal.
+
+    Interacciones y recomendaciones: Resumen de actividades recientes, como interacciones con empresas y usuarios, favoreciendo el networking de la plataforma con el usuario principal.
+
+* Funcionalidades adicionales:
+  
+    Configuraciones avanzadas y estadísticas específicas disponibles a través de un botón secundario en una sección a la derecha de la página.
+
+    Acceso a análisis detallados, como patrones de interacción y metas proyectadas, a través de una lista sencilla en una sección a la izquierda de la página.
+
+Esta estructura, inspirada en plataformas como LinkedIn, no solo organiza el contenido de forma efectiva, sino que también promueve el networking y el desarrollo personal, haciendo de Roademics una herramienta integral para planificar carreras profesionales.
+
+**Generador de Mapas de Ruta**: 
+
+La sección de creación y gestión de mapas de ruta profesional será el núcleo funcional de la plataforma, diseñada para facilitar el desarrollo y la planificación de la carrera de los usuarios de manera visual e interactiva. Esta herramienta estará organizada en las siguientes áreas clave:
+
+* Creación y edición de mapas de ruta:
+  
+    Esquema visual: Presentado en formato gráfico, el mapa mostrará habilidades, certificaciones y experiencias laborales agregadas por el usuario, organizadas de manera clara y comprensible.
+
+    Personalización de criterios de visualización: Los usuarios podrán reorganizar los elementos del mapa según filtros como:
+
+        Fecha de adquisición o vencimiento.
+
+        Tipo de habilidad o certificación.
+
+        Relevancia según objetivos personales.
+
+* Recomendaciones personalizadas:
+
+    Basadas en progreso: El generador de mapas ofrecerá sugerencias automáticas basadas en el avance del usuario, destacando áreas de mejora o próximos pasos ideales para alcanzar sus metas.
+
+    Impulsadas por tendencias del mercado: Se integrará información actualizada sobre habilidades y certificaciones en demanda para mantener al usuario alineado con las necesidades del sector profesional.
+
+* Funcionalidades avanzadas:
+  
+    Sugerir nuevas habilidades: Un botón destacado permitirá al usuario recibir recomendaciones generadas por inteligencia artificial, enfocadas en mejorar su perfil profesional. Estas sugerencias se adaptarán a su historial, intereses y tendencias emergentes.
+    
+    Edición avanzada: Opciones para ajustar detalles específicos, como niveles de competencia o fechas de inicio y finalización de actividades.
+
+Este diseño no solo busca ser intuitivo y visualmente atractivo, sino también una herramienta integral que combine planificación personalizada con el poder de la inteligencia artificial, asegurando que los usuarios estén mejor preparados para alcanzar sus metas profesionales.
+
+**Almacen de Mapas de Ruta**: 
+
+La sección de Almacén de Mapas de Ruta actúa como un punto centralizado para gestionar todos los mapas de ruta creados por el usuario en Roademics. Está diseñada para ser intuitiva y funcional, permitiendo a los usuarios organizar y administrar sus roadmaps de manera eficiente. Su estructura incluye las siguientes características principales:
+
+* Visualización y gestión de roadmaps:
+
+    Listado de mapas generados: Se presentará una lista completa de todos los mapas de ruta creados por el usuario, acompañados de información resumida como el título, fecha de creación, estado de progreso y número de habilidades incluidas.
+
+    Opciones rápidas de acción: Cada roadmap tendrá botones de acción directa para:
+
+        Descargar: Permitir la exportación de mapas en formatos como PDF, imagen o documento editable.
+
+        Eliminar: Funcionalidad para eliminar mapas de manera rápida y segura, con una confirmación previa para evitar errores.
+    
+* Control de suscripción:
+
+    Límite de roadmaps por nivel de suscripción: Esta sección mostrará de manera clara cuántos mapas de ruta puede crear el usuario según su nivel actual de suscripción (freemium o premium). Además, se incluirán mensajes promocionales para motivar la actualización a un plan superior si el usuario alcanza el límite de mapas permitidos.
+
+    Limitación de herramientas: Hay ciertas herramientas en la aplicación que están integradas solo con usuarios de ciertos niveles de suscripción. El modelado completo de diagramas, el uso de herramientas de inteligencia artificial de forma continua, y el uso de mapas complejos para distintas carreras laborales, son algunos ejemplos de herramientas avanzadas para este caso.
+
+  * Organización y búsqueda:
+  
+    Categorización de mapas: Posibilidad de agrupar los mapas por criterios como áreas de conocimiento, fechas o nivel de completitud.
+
+    Barra de búsqueda: Para localizar rápidamente un roadmap específico mediante palabras clave relacionadas con su contenido.
+
+  * Enlace al Generador de Mapas de Ruta
+  
+    Desde esta sección, los usuarios podrán acceder directamente al Generador de Mapas de Ruta para editar o crear nuevos mapas, garantizando una experiencia fluida y sin interrupciones.
+
+El Almacén de Mapas de Ruta complementa el ecosistema de Roademics al ofrecer una interfaz eficiente para gestionar el contenido creado, fomentando la organización y facilitando el acceso a herramientas adicionales.
+
+**Perfil de Usuario**: 
+
+La sección de perfil será un espacio centralizado donde los usuarios podrán gestionar y visualizar toda su información personal y profesional dentro de Roademics. Este área está diseñada para ser intuitiva y funcional, asegurando que la información más relevante sea fácilmente accesible. Sus características principales incluyen:
+
+* Información profesional y personal:
+  
+    Mapas de ruta creados: Resumen visual y listado de los roadmaps generados por el usuario, con enlaces directos para su revisión o edición.
+
+    Habilidades destacadas: Muestra las competencias principales adquiridas por el usuario, ordenadas según su nivel de dominio o relevancia profesional.
+
+    Certificaciones obtenidas: Registro de logros y certificados, con opciones para descargar o compartir.
+
+    nformación de contacto: Datos básicos como nombre, correo electrónico y otros medios de comunicación configurados por el usuario.
+
+* Funcionalidades clave:
+  
+    Edición de perfil: Un botón claramente identificado como “Editar” permitirá a los usuarios modificar su información personal y profesional, asegurando que su perfil esté siempre actualizado.
+
+    Opciones de compartir: Herramientas para compartir el perfil completo o mapas de ruta específicos con empresas, reclutadores u otras plataformas mediante enlaces personalizados o en formato descargable.
+
+* Conexión con oportunidades laborales:
+  
+    Visibilidad para reclutadores: Permite a las empresas interesadas acceder al perfil y los roadmaps compartidos, facilitando el descubrimiento de talento.
+
+    Enlace con plataformas externas: Opciones para sincronizar información del perfil con LinkedIn u otras redes profesionales, ampliando el alcance del usuario.
+
+* Diseño y accesibilidad
+
+    La estructura de esta sección seguirá principios de diseño limpio y organizado, con accesos rápidos a las funciones principales, garantizando una experiencia de usuario eficiente.
+
+El Perfil de Usuario no solo será una herramienta para administrar la información, sino también un puente directo hacia oportunidades laborales, posicionando a Roademics como una plataforma integral para el desarrollo profesional.
+
+**Perfil de Empresa**: 
+
+El perfil de empresa será una herramienta esencial dentro de Roademics para las organizaciones que buscan talento alineado con sus necesidades. Diseñado para maximizar la visibilidad y la interacción, este espacio está estructurado en las siguientes áreas clave:
+
+* Visualización de talento:
+
+    Acceso a perfiles de candidatos: Las empresas podrán revisar los mapas de ruta creados por los usuarios, así como sus perfiles detallados, incluyendo habilidades y certificaciones relevantes.
+
+    Criterios de búsqueda: Las organizaciones podrán identificar candidatos mediante filtros avanzados que incluyan áreas de especialización, nivel de experiencia y competencias específicas.
+* Vacantes destacadas
+
+    Publicación de ofertas laborales: Las empresas podrán mostrar vacantes abiertas directamente en su perfil, con una descripción detallada de los requisitos y beneficios.
+
+    Criterios específicos: Resumen claro de las habilidades y certificaciones prioritarias que buscan en un candidato, permitiendo a los usuarios evaluar su adecuación antes de postularse.
+
+* Métricas de interacción
+
+    Seguimiento de popularidad: Datos sobre la interacción del perfil de la empresa, incluyendo el número de usuarios que han visualizado sus vacantes o interactuado con sus publicaciones.
+
+    Reportes de efectividad: Métricas relacionadas con la atracción de talento, como cuántos usuarios han aplicado a las ofertas o marcado interés.
+
+* Construcción de confianza y transparencia
+
+    Información corporativa: Incluye detalles como la antigüedad de la empresa en la plataforma, sus logros destacados y certificaciones de confianza.
+
+    Contactos principales: Listado de representantes de recursos humanos disponibles para consultas o interacciones directas.
+
+* Diseño y navegación
+  
+    El perfil corporativo estará diseñado para ser atractivo, con secciones visualmente destacadas que permitan a los usuarios y empresas interactuar fácilmente.
+
+Con estas funcionalidades, el Perfil de Empresa se convierte en un espacio dinámico que no solo facilita la búsqueda de talento, sino que también fomenta la confianza y la colaboración entre las organizaciones y los profesionales dentro de Roademics.
+
+**Ajustes**: 
+
+La sección de Ajustes de Roademics está diseñada como un espacio funcional y accesible que permite a los usuarios personalizar su experiencia en la plataforma según sus preferencias y necesidades. Su estructura incluye las siguientes características:
+
+* Gestión de datos personales:
+
+    Información personal: Acceso y edición de datos como nombre, correo electrónico, número de contacto y configuración de privacidad.
+
+    Seguridad: Opciones para actualizar contraseñas, habilitar autenticación en dos pasos y gestionar accesos recientes a la cuenta.
+
+* Configuración de la cuenta:
+
+    Ajustes generales: Control sobre el idioma de la aplicación, zona horaria y opciones de sincronización con otras plataformas (como LinkedIn o Google).
+
+    Suscripción: Información sobre el nivel actual del usuario (freemium o premium), con opciones para actualizar o cancelar el plan.
+
+* Personalización de la experiencia:
+
+    Modo de visualización: Configuración del modo claro u oscuro, ajustes de tamaño de fuente y opciones de diseño accesible.
+
+    Visualización de posts: Personalización de cómo se muestran las publicaciones en la plataforma, incluyendo filtros de relevancia y contenido destacado.
+
+* Gestión de interacciones y contactos:
+
+    Modelo de contactos: Opciones para añadir, eliminar o bloquear contactos, así como configurar la privacidad de las conexiones.
+
+    Notificaciones: Configuración detallada sobre qué tipo de notificaciones se desean recibir, ya sea por correo electrónico, push o dentro de la aplicación.
+
+* Herramientas avanzadas
+
+    Reportes y bloqueos: Espacio para reportar contenido inapropiado, gestionar bloqueos y acceder al historial de acciones relacionadas.
+
+    Estructuración de logros: Configuración sobre cómo se visualizan y estructuran los logros y certificaciones en el perfil.
+
+La sección de Ajustes combina simplicidad y profundidad, garantizando que los usuarios puedan modificar aspectos clave de su experiencia en Roademics de manera eficiente y sin complicaciones.
 
 #### 3.1.2.2. Labelling Systems.
 
 Un Labelling Systems en el contexto de Roademics se refiere a la metodología empleada para asignar etiquetas o nombres a los elementos clave dentro de la aplicación, con el fin de mejorar la navegación y la claridad del contenido. Estas etiquetas son esenciales para identificar y categorizar componentes, como habilidades, certificaciones, mapas de ruta y perfiles de usuarios o empresas.
 
-Al igual que lo expresado por Rosenfeld et al. (2015), el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
+Al igual que lo expresado por Eltabbal (2023), el etiquetado dentro de un sistema debe ser descriptivo y coherente, permitiendo a los usuarios y desarrolladores comprender rápidamente la función y el contexto de los elementos dentro del sistema. Esto no solo facilita la navegación, sino también el mantenimiento y la escalabilidad de la plataforma. Los nombres asignados a cada etiqueta deben ser representativos de la acción o el contenido que describen, siguiendo el principio de claridad para evitar confusiones.
 
 ###### Tabla 11
+
 *Seguimiento de Labelling Systems integrados dentro del proyecto de Roadmecis*
+
 | **Etiqueta** | **Descripción** |
 |--------------|-----------------|
 | **Agregar habilidad**   | Permite al usuario incluir una nueva habilidad a su mapa de ruta profesional. Esta opción es esencial para el crecimiento continuo del usuario en la plataforma. |
@@ -227,7 +418,7 @@ Al igual que lo expresado por Rosenfeld et al. (2015), el etiquetado dentro de u
 
 #### 3.1.2.3. SEO Tags and Meta Tags.
 
-Según Martin (2017), los "SEO tags" y las "meta tags" son elementos cruciales en la optimización de motores de búsqueda (SEO) para cualquier sitio web. Estas etiquetas, integradas en el código HTML, proporcionan información valiosa sobre el contenido de cada página a los motores de búsqueda y otros servicios en línea, ayudando así a mejorar la visibilidad y el posicionamiento en los resultados de búsqueda.
+Según Patel (2021), los "SEO tags" y las "meta tags" son elementos cruciales en la optimización de motores de búsqueda (SEO) para cualquier sitio web. Estas etiquetas, integradas en el código HTML, proporcionan información valiosa sobre el contenido de cada página a los motores de búsqueda y otros servicios en línea, ayudando así a mejorar la visibilidad y el posicionamiento en los resultados de búsqueda.
 
 Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las diferentes páginas del sitio, cada una con un propósito específico. A continuación, se detallan las etiquetas recomendadas para varias secciones clave de Roademics:
 
@@ -263,9 +454,9 @@ Para Roademics, la implementación de SEO tags y meta tags debe adaptarse a las 
 
 #### 3.1.2.4. Searching Systems.
 
-Un **Searching System** en una aplicación móvil sigue los mismos principios de eficiencia y precisión que en una app web, pero con énfasis en la accesibilidad y la facilidad de uso en pantallas más pequeñas. Según Fowler (2018), el sistema debe procesar consultas rápidamente, optimizado para gestos y entradas táctiles, recuperando resultados relevantes. Las técnicas como la búsqueda semántica, la clasificación y la sugerencia de resultados son clave en este entorno.
+Un Searching System en una aplicación móvil sigue los mismos principios de eficiencia y precisión que en una app web, pero con énfasis en la accesibilidad y la facilidad de uso en pantallas más pequeñas. Según Fowler (2018), el sistema debe procesar consultas rápidamente, optimizado para gestos y entradas táctiles, recuperando resultados relevantes. Las técnicas como la búsqueda semántica, la clasificación y la sugerencia de resultados son clave en este entorno.
 
-Para **Roademics**, estos componentes de búsqueda son esenciales para proporcionar una experiencia fluida en la app móvil:
+Para Roademics, estos componentes de búsqueda son esenciales para proporcionar una experiencia fluida en la app móvil:
 
 1. **Barra de Navegación Adaptada**:
    En la versión móvil, la barra de navegación será accesible desde un menú desplegable o un ícono tipo "hamburguesa", optimizando el espacio en pantalla. Los enlaces principales como "Perfil de Usuario", "Generador de Mapas", "Empresas", y "Suscripción" se mostrarán en la parte superior o inferior, dependiendo del diseño de la aplicación. Esto asegura que los usuarios puedan moverse fácilmente por la app sin sobrecargar la interfaz.
@@ -279,11 +470,11 @@ Para **Roademics**, estos componentes de búsqueda son esenciales para proporcio
 
 #### 3.1.2.5. Navigation Systems.
 
-Los **Navigation Systems** son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Martin (2017), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
+Los Navigation Systems son estructuras y herramientas diseñadas para guiar a los usuarios a través de una aplicación o sistema, asegurando una experiencia de usuario eficiente y efectiva. Según Eltabbal (2023), un sistema de navegación bien diseñado proporciona una estructura organizada que permite a los usuarios moverse intuitivamente dentro del software, encontrando fácilmente la información o funciones que necesitan.
 
 Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
 
-###### Tabla 13. 
+###### Tabla 12 
 **Seguimiento de Navigation Systems integrados dentro del proyecto de Roademics**
 
 | **Etiqueta**  | **Descripción** |
@@ -294,11 +485,11 @@ Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una e
 | **Oportunidades** | Aquí, los usuarios encontrarán una lista curada de oportunidades laborales y de desarrollo profesional. Estas estarán filtradas según las habilidades y experiencia del usuario, lo que permitirá que vean las mejores opciones para continuar su progreso en su carrera. Se incluirán oportunidades de empleo, cursos de formación y certificaciones recomendadas. |
 | **Notificaciones** | En esta pestaña, los usuarios podrán recibir alertas personalizadas sobre nuevas oportunidades, comentarios en sus mapas de ruta, conexiones profesionales y más. Esto permitirá a los usuarios mantenerse actualizados con la actividad relevante dentro de la plataforma. |
 
-### 3.1.3. Landing Page UI Design.
+### 3.1.3. Landing Page UI Design
 
 En esta sección, nuestro equipo presentará y explicará en detalle la propuesta y el modelo de la interfaz de usuario (UI) diseñado para la Landing Page de Roademics. Se abordarán los aspectos clave del diseño, justificando las decisiones tomadas en términos de estética, funcionalidad y experiencia del usuario.
 
-#### 3.1.3.1. Landing Page Wireframe.
+#### 3.1.3.1. Landing Page Wireframe
 
 Según Tidwell et al. (2020), los wireframes, como representaciones visuales simplificadas, desempeñan un papel crucial en el proceso de diseño y planificación de interfaces de usuario para sitios web y aplicaciones. Estos esquemas ofrecen una visión estructurada de los elementos clave, enfocándose en la disposición de la información, la funcionalidad y la experiencia del usuario. Al proporcionar una vista preliminar de la interfaz, permiten a los diseñadores y desarrolladores visualizar y comunicar eficazmente la estructura y el flujo de la aplicación o sitio web.
 
@@ -306,10 +497,21 @@ En el caso de la Landing Page de Roademics, se ha optado por un diseño intuitiv
 
 Además, el diseño incorpora opciones de suscripción para usuarios interesados en recibir mejoras en las funcionalidades básicas de Roademics. Asimismo, para generar confianza y credibilidad, se han integrado testimonios de clientes satisfechos, y se ha añadido un formulario de contacto que facilita la comunicación directa con el equipo de Roademics. Este enfoque garantiza una navegación clara y una interacción efectiva con los usuarios, mejorando tanto la funcionalidad como la usabilidad de la página.
 
-**<img src="/assets/img/capitulo-3/UI-UX design/landing page/wireframe/Wireframe.png">**
-___ 
+###### Figura 42
+*Modelo de Wireframe para la Landing Page de Roademics en su diseño base*
 
-**<img src="/assets/img/capitulo-3/UI-UX design/landing page/wireframe/Responsive_Landing_Page_Wireframe.png">**
+<img src="/assets/img/capitulo-3/ui-ux-design/landing-page/wireframe/modelo-wireframe-completo.png" alt="Modelo de Wireframe de la Landing Page de Roademics.">
+
+En conjunto con el modelo de diseño implementado, hemos incorporado una serie de características adicionales en el código para asegurar que la interfaz de usuario sea completamente responsiva, adaptándose de manera óptima a una variedad de dispositivos, tamaños de pantalla y resoluciones. Este enfoque garantiza que la experiencia visual y funcional sea coherente, sin importar si el usuario accede a la plataforma desde un escritorio, una tableta o un teléfono móvil.
+
+Mediante el uso de tecnologías como el diseño web adaptativo (responsive design) y las consultas de medios (media queries), la página se ajusta dinámicamente a las variaciones de tamaño de pantalla, densidad de píxeles y las capacidades operativas del dispositivo. Además, el código está optimizado para detectar y reaccionar a las características específicas del dispositivo, como la orientación de la pantalla (horizontal o vertical), lo que permite que los elementos se reorganicen y se presenten de forma eficiente, maximizando la usabilidad y la accesibilidad (Kuleszo, 2024).
+
+Este enfoque asegura que, independientemente del dispositivo o la plataforma utilizada, el diseño mantenga un rendimiento óptimo y una interfaz intuitiva, permitiendo a los usuarios interactuar con la página de manera fluida y cómoda. Por lo tanto, no solo mejoramos la accesibilidad en dispositivos de escritorio, sino que también optimizamos la página para su correcta visualización y funcionalidad en celulares y tabletas, brindando una experiencia consistente y de alta calidad para todos los usuarios, sin importar el contexto de acceso.
+
+###### Figura 43
+*Modelo de Wireframe Responsivo para la Landing Page de Roademics*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/landing-page/wireframe/modelo-wireframe-completo-responsivo.png" alt="Modelo de Wireframe de la Landing Page Responsiva de Roademics.">
 
 En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page, cada característica principal está representada de forma visual y detallada. El objetivo es proporcionar a los lectores una visión integral y profunda, permitiéndoles realizar un análisis exhaustivo de cada elemento. Para facilitar este proceso, se ha incluido un enlace al desarrollo de los wireframes en la plataforma de diseño Figma. Este enlace brinda a los lectores la oportunidad de explorar interactivamente cada aspecto del diseño y acceder a información adicional en caso de ser necesario, enriqueciendo la comprensión de las decisiones de diseño tomadas:
 
@@ -317,13 +519,16 @@ En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page
 
 #### 3.1.3.2. Landing Page Mock-up.
 
-Según Tidwell et al. (2020), los mock-ups, al igual que los wireframes, desempeñan un papel crucial en la planificación y diseño de interfaces de usuario para páginas web y aplicaciones. Sin embargo, a diferencia de los wireframes, que se centran en la estructura y funcionalidad, los mock-ups ofrecen una representación más detallada y visualmente elaborada, incorporando colores, tipografía, imágenes y otros aspectos visuales esenciales. Estos modelos permiten a los diseñadores y desarrolladores visualizar no solo la disposición de los elementos clave, sino también experimentar con el diseño estético y los detalles gráficos.
+Según Dannaway (2020), los mock-ups, al igual que los wireframes, desempeñan un papel crucial en la planificación y diseño de interfaces de usuario para páginas web y aplicaciones. Sin embargo, a diferencia de los wireframes, que se centran en la estructura y funcionalidad, los mock-ups ofrecen una representación más detallada y visualmente elaborada, incorporando colores, tipografía, imágenes y otros aspectos visuales esenciales. Estos modelos permiten a los diseñadores y desarrolladores visualizar no solo la disposición de los elementos clave, sino también experimentar con el diseño estético y los detalles gráficos.
 
-En el caso específico de la landing page de Roademics, se ha optado por la utilización de mock-ups para crear un entorno visualmente atractivo y coherente. Estos mock-ups incluyen diversas secciones diseñadas para captar la atención del usuario y proporcionar una experiencia estética y funcionalmente refinada. Entre las características destacadas se encuentra la página de inicio, que actúa como la puerta principal de acceso, ofreciendo una visión general de las funcionalidades y servicios de Roademics con un enfoque más elaborado en los elementos visuales.
+En el caso específico de la landing page de Roademics, se ha optado por la utilización de mock-ups para crear un entorno visualmente atractivo y coherente. Estos Mock-Ups incluyen diversas secciones diseñadas para captar la atención del usuario y proporcionar una experiencia estética y funcionalmente refinada. Entre las características destacadas se encuentra la página de inicio, que actúa como la puerta principal de acceso, ofreciendo una visión general de las funcionalidades y servicios de Roademics con un enfoque más elaborado en los elementos visuales.
 
-**<img src="/assets/img/capitulo-3/UI-UX design/landing page/mockup/Landing_Page_Mockup.png">**
+###### Figura 44
+*Modelo de Mock-up para la Landing Page de Roademics en su diseño base*
 
-En este conjunto de mockups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
+**<img src="/assets/img/capitulo-3/ui-ux-design/landing-page/mockup/modelo-mock-up-completo.png" alt="Modelo de Mock-Up de la Landing Page de Roademics.">**
+
+En este conjunto de Mock-Ups de nuestra Landing Page, cada una de las principales características se presenta de manera visual y detallada. El objetivo es ofrecer una visión completa que permita a los lectores analizar exhaustivamente cada elemento del diseño. Para facilitar esta exploración, hemos proporcionado un enlace directo a los mockups en Figma, donde los usuarios pueden interactuar con el diseño y acceder a información adicional según sea necesario:
 
 **[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
@@ -333,29 +538,42 @@ En esta sección, nos adentraremos en los aspectos más detallados de la propues
 
 #### 3.1.4.1. Mobile Applications Wireframes.
 
-En esta sección, presentaremos los wireframes esquematizados de la Aplicación Móvil principal de Roademics, detallando todas las características clave, así como la organización y división de las distintas pestañas. En el contexto específico de esta aplicación móvil, nuestro equipo ha optado por un diseño intuitivo que se distingue por su interfaz atractiva y funcional, diseñada para captar la atención de los usuarios y brindarles una sensación constante de seguridad y confianza.
+A continuación, se presentarán los wireframes esquematizados correspondientes a la aplicación móvil principal de Roademics, detallando meticulosamente las características clave, así como la organización, jerarquía y división de las diferentes pestañas. Este trabajo tiene como objetivo ofrecer una representación gráfica clara y precisa de la estructura de la aplicación, asegurando una visión integral del flujo de navegación y la disposición de las funcionalidades esenciales. En el diseño de esta aplicación móvil, nuestro equipo ha optado por un enfoque centrado en la simplicidad y la usabilidad, incorporando elementos visuales y funcionales que garanticen tanto una experiencia atractiva como eficiente (Kuleszo, 2024).
 
-Hemos adoptado un enfoque basado en la estructuración clara de las páginas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...) . Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para garantizar una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
+El diseño adoptado se distingue por su interfaz moderna y amigable, cuidadosamente elaborada para captar de inmediato la atención del usuario y transmitir una sensación constante de confianza y profesionalismo. Cada pantalla ha sido diseñada con un enfoque en la funcionalidad intuitiva, logrando que las acciones se puedan realizar con el mínimo esfuerzo cognitivo. Esto es especialmente importante en una plataforma como Roademics, que prioriza la planificación profesional y el desarrollo de habilidades. La organización de las páginas y pestañas responde a un análisis detallado del comportamiento del usuario, garantizando una estructura jerárquica clara que facilita la navegación y permite un acceso rápido a las áreas más utilizadas.
 
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/mobile_wireframes.png">**
+Entre las secciones más destacadas se encuentra la página de perfil de usuario, que centraliza la información personal y profesional del usuario, permitiéndole administrar su experiencia dentro de la aplicación. Otra área clave son las páginas de gestión de mapas de ruta, que ofrecen herramientas visuales y funcionales para la creación, edición y seguimiento de trayectorias profesionales. Asimismo, se ha dedicado un apartado especial para la sección de networking, que facilita la interacción entre los usuarios y el establecimiento de conexiones estratégicas.
 
-En este conjunto de wireframes de la aplicación móvil de Roademics, cada una de las funcionalidades clave se representa de manera esquemática y detallada. El objetivo es proporcionar a los usuarios una visión clara y comprensiva del diseño, facilitando un análisis profundo de cada componente de la interfaz. Para una mejor comprensión, se ha incluido un enlace directo a los wireframes en Figma, donde se puede interactuar con el diseño y obtener información adicional cuando sea necesario:
+Además, la aplicación incluye diversas secciones complementarias que enriquecen la experiencia del usuario. Estas incluyen la sección de ajustes, que permite personalizar configuraciones relacionadas con la cuenta y la visualización; la página de métricas y análisis, donde los usuarios pueden monitorear su progreso y rendimiento; y elementos adicionales, como las notificaciones y la página de solicitudes de conexión, que optimizan la interacción y comunicación en tiempo real. Cada uno de estos apartados ha sido diseñado para integrarse de forma armónica en el ecosistema de la aplicación, contribuyendo a una experiencia de usuario integral y consistente.
 
-**(Enlace)**
+###### Figura 45
+*Modelo de Wireframe para la Aplicación Móvil de Roademics en su diseño base*
+
+**<img src="/assets/img/capitulo-3/ui-ux-design/mobile/wireframe/mobile-wireframes.png">**
+
+En este conjunto de Wireframes de la aplicación móvil de Roademics, cada una de las funcionalidades clave se representa de manera esquemática y detallada. El objetivo es proporcionar a los usuarios una visión clara y comprensiva del diseño, facilitando un análisis profundo de cada componente de la interfaz. Para una mejor comprensión, se ha incluido un enlace directo a los wireframes en Figma, donde se puede interactuar con el diseño y obtener información adicional cuando sea necesario:
+
+**[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams.
 
-Esta sección presenta la propuesta de Wireflows seleccionada y determinada por nuestro equipo de trabajo. Para cada objetivo del usuario, se ha diseñado un Wireflow específico, teniendo en cuenta los User Persona asociados a la aplicación incluida en el alcance del proyecto. Es fundamental recordar que cualquier cambio reflejado en una pantalla (Wireframe) como resultado de la interacción dentro de un flujo, requiere la inclusión de un paso adicional que represente el nuevo estado mediante un Wireframe actualizado.
+Esta sección presenta la propuesta de Wireflows elaborada y seleccionada por nuestro equipo de trabajo, diseñados específicamente para abordar los objetivos clave del usuario en la aplicación. Cada Wireflow refleja un flujo detallado de interacción, creado con base en un análisis exhaustivo de los User Personas asociados al alcance del proyecto. Esto garantiza que los flujos respondan de manera efectiva a las necesidades y expectativas de los usuarios, ofreciendo una experiencia coherente y centrada en su contexto de uso.
 
-Cada diagrama de Wireflow incluye una descripción clara del objetivo del usuario (User Goal) correspondiente, acompañado de una explicación detallada del flujo. Esto proporciona una visión completa y precisa de cómo los usuarios interactúan con la aplicación y cómo se desarrollan las distintas etapas del proceso, mejorando la comprensión del diseño y su funcionalidad. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre estados, lo cual facilita la comprensión del flujo completo de interacción (Katz & Singh, 2019).
+Es importante resaltar que cada interacción significativa dentro del flujo puede generar un cambio en el estado de una pantalla (Wireframe). Estos cambios son representados en los Wireflows mediante la inclusión de pasos adicionales que muestran de forma clara y precisa el nuevo estado resultante de la interacción. Esta metodología asegura que cada transición sea documentada visualmente, proporcionando un modelo exhaustivo y fácilmente comprensible de los flujos de usuario.
 
-##### Registro y autenticación de usuario 
+Cada diagrama de Wireflow incluye una descripción explícita del User Goal correspondiente, que identifica la meta específica que busca alcanzar el usuario en ese flujo particular. Adicionalmente, se acompaña de una explicación detallada del recorrido, destacando las interacciones clave, las transiciones entre pantallas y las decisiones tomadas durante el diseño. Esta combinación de elementos descriptivos y visuales no solo mejora la comprensión del diseño, sino que también permite identificar oportunidades de optimización y posibles puntos de fricción dentro del proceso.
 
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/Wireflow_1.png">**
+Al representar visualmente no solo los objetivos del usuario, sino también las transiciones entre estados, los Wireflows proporcionan una visión integral del flujo completo de interacción. Esto no solo facilita la comprensión del diseño por parte del equipo técnico y las partes interesadas, sino que también asegura que cada flujo esté alineado con los principios de usabilidad y accesibilidad, elementos fundamentales para el éxito de la aplicación (Katz & Singh, 2019). Esta aproximación estructurada garantiza un diseño intuitivo, eficiente y centrado en las necesidades del usuario.
 
-##### Navegación de interfaz
+###### Figura 46
+*Modelo de Diagramas Wireflow para la Aplicación Móvil de Roademics en la sección de registro y autenticación de usuario*
 
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/Wireflow_2.png">**
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/wireflow/wireflow-autenticacion-registro.png" alt="Diagramas Wireflow para la Aplicación Móvil de Roademics en la sección de registro y autenticación de usuario.">
+
+###### Figura 47
+*Modelo de Diagramas Wireflow para la Aplicación Móvil de Roademics en la sección de navegación e interfaz*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/wireflow/wireflow-navegacion-interfaz.png" alt="Diagramas Wireflow para la Aplicación Móvil de Roademics en la sección de navegación e interfaz.">
 
 Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes con diagramas de flujo, mostrando no solo el diseño estructural de cada pantalla, sino también el recorrido y las interacciones del usuario dentro de la aplicación. Al ser una herramienta clave para planificar la experiencia de usuario, los Wireflow Diagrams permiten identificar posibles mejoras en la navegación y asegurar que los flujos sean coherentes y eficientes. Se brindara el enlace de los Wireflow diseñados para los lectores:
 
@@ -363,15 +581,20 @@ Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes 
 
 #### 3.1.4.3. Mobile Applications Mock-ups.
 
-En esta sección, presentaremos los Mock-Ups detallados de la Aplicación Móvil principal de Roademics, destacando todas las características clave, así como la disposición y organización de las diversas pestañas. En el contexto específico de esta aplicación móvil, nuestro equipo ha optado por un diseño visualmente intuitivo, caracterizado por una interfaz atractiva y funcional, pensada para captar la atención de los usuarios y proporcionarles una sensación continua de seguridad y confianza.
+En esta sección, presentamos los Mock-Ups detallados de la Aplicación Móvil principal de Roademics, con el fin de resaltar todas las características clave de la plataforma y la disposición organizada de las diversas pestañas. En el diseño de esta aplicación móvil, hemos seguido un enfoque basado en la creación de una interfaz visualmente intuitiva, con un diseño atractivo y altamente funcional. El objetivo de este enfoque es captar la atención de los usuarios de manera inmediata, proporcionándoles una sensación de seguridad, confiabilidad y accesibilidad a lo largo de toda su experiencia en la aplicación (Budarina, 2023).
 
-Hemos seguido un enfoque basado en la estructuración clara de las pantallas, lo que facilita el acceso a diferentes secciones según las necesidades y acciones del usuario. Entre las áreas destacadas se incluye (...). Otras secciones importantes abarcan (...). Estas áreas han sido diseñadas para ofrecer una experiencia de usuario integral, asegurando una navegación fluida y una interacción intuitiva con la aplicación.
+La estructuración de las pantallas ha sido pensada cuidadosamente para facilitar el acceso a las secciones relevantes en función de las necesidades y acciones del usuario, garantizando que la experiencia de navegación sea fluida y eficiente. Entre las áreas destacadas de la aplicación, se incluye la sección de perfil de usuario, donde el usuario podrá gestionar su información personal y profesional, así como la de gestión de mapas de ruta profesional, donde se podrán visualizar y editar los mapas de carrera que el usuario haya creado. Además, se integra la página principal de networking, diseñada para mostrar las publicaciones y actividades de los demás usuarios de la plataforma, fomentando la interacción y el intercambio de conocimientos.
 
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/mobile_mockups.png">**
+Otras secciones importantes de la aplicación incluyen la sección de ajustes y configuración, donde el usuario podrá personalizar su experiencia, y la sección de notificaciones y conversaciones de chat, que proporcionará un espacio para que los usuarios interactúen y se mantengan informados sobre actualizaciones importantes o nuevas conexiones. Estas áreas están diseñadas para ofrecer una experiencia integral y completamente funcional, asegurando que los usuarios puedan navegar por la aplicación de manera intuitiva mientras realizan sus tareas cotidianas, todo con un enfoque en la facilidad de uso y la accesibilidad.
+
+###### Figura 48
+*Modelo de Mock-Ups para la Aplicación Móvil de Roademics en su diseño base*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/mockup/mobile-mockups.png" alt="Mock-Ups para la Aplicación Móvil de Roademics en la sección de navegación e interfaz.">
 
 Los mockups de la aplicación móvil de Roademics proporcionan una representación visual detallada de la interfaz final. Cada pantalla está diseñada con el objetivo de ofrecer una experiencia de usuario intuitiva y atractiva, enfocándose en la claridad y el acceso rápido a las principales funcionalidades. Se incluye un enlace a los mockups en Figma para que los interesados puedan explorar cada pantalla y realizar ajustes o sugerencias interactivamente:
 
-**(Enlace)**
+**[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams.
 
@@ -379,8 +602,15 @@ Esta sección presenta la propuesta de User Flows seleccionada y definida por nu
 
 Cada User Flow incluye una descripción clara del objetivo del usuario correspondiente, junto con una explicación detallada de los pasos involucrados en el flujo. Esto proporciona una visión integral y precisa de cómo los usuarios navegan por la aplicación y de cómo avanzan a lo largo de las diferentes etapas del proceso, facilitando la comprensión tanto del diseño como de su funcionamiento. Es esencial representar visualmente no solo los objetivos del usuario, sino también las transiciones entre las distintas fases del flujo, lo que simplifica la comprensión del proceso completo de interacción (Katz & Singh, 2019).
 
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/userflow_1.png">**
-**<img src="/assets/img/capitulo-3/UI-UX design/mobile/userflow_2.png">**
+###### Figura 49
+*Modelo de Diagramas Userflow para la Aplicación Móvil de Roademics en la sección de registro y autenticación de usuario*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/userflow/userflow-autenticacion-registro.png" alt="Diagramas Userflow para la Aplicación Móvil de Roademics en la sección de registro y autenticación de usuario.">
+
+###### Figura 50
+*Modelo de Diagramas Userflow para la Aplicación Móvil de Roademics en la sección de navegación e interfaz*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/userflow/userflow-navegacion-interfaz.png" alt="Diagramas Userflow para la Aplicación Móvil de Roademics en la sección de navegación e interfaz.">
 
 Los User Flow Diagrams de la aplicación Roademics describen de manera detallada los caminos que los usuarios seguirán al interactuar con la aplicación. Estos diagramas destacan los puntos de decisión y las rutas posibles, proporcionando una visión clara de cómo los usuarios logran sus objetivos dentro de la plataforma. Proporcionaremos en enlace para todos los interesados en el modelo en el que se enfocó Roademics durante todo el proceso:
 
@@ -388,7 +618,24 @@ Los User Flow Diagrams de la aplicación Roademics describen de manera detallada
 
 #### 3.1.4.5. Mobile Applications Prototyping.
 
+El prototipado de aplicaciones móviles es una fase crucial en el proceso de desarrollo de software, donde se crean representaciones interactivas de las interfaces y funcionalidades de la aplicación antes de su desarrollo completo. Este proceso permite a los diseñadores, desarrolladores y usuarios finales interactuar con una versión preliminar de la aplicación para validar conceptos, probar la usabilidad y ajustar características según los comentarios obtenidos. A través del prototipado, se facilita una comprensión clara de la experiencia del usuario, lo que reduce riesgos y mejora la toma de decisiones durante las etapas posteriores del proyecto (Dannaway, 2020).
+
+En este contexto, el prototipado de aplicaciones móviles puede abarcar diversas herramientas y enfoques, desde los prototipos de baja fidelidad (bocetos y wireframes) hasta los prototipos de alta fidelidad (modelos interactivos que simulan el producto final). Los avances tecnológicos, junto con la creciente demanda de aplicaciones intuitivas y fáciles de usar, han llevado a que el prototipado móvil se convierta en un componente esencial en el diseño centrado en el usuario. Este proceso no solo permite la prueba de flujos y funciones, sino también la identificación temprana de posibles problemas en la interacción, garantizando que el producto final cumpla con las expectativas del usuario y sea adecuado para el mercado.
+
+###### Figura 51
+*Evidencia de la fase de Prototipo de la Aplicación Móvil de Roademics*
+
+<img src="/assets/img/capitulo-3/ui-ux-design/mobile/prototyping/roademics-prototype.png" alt="Modelo de Prototipo de la Aplicación Móvil de Roademics.">
+
+En el siguiente enlace se encuentra el vídeo principal del prototipado realizado para nuestra aplicación de Roademics con los bocetos mostrados en secciones anteriores, junto a un sistema de navegación completo y dinámico: 
+
 ## 3.2. Architecture Overview.
+
+La visión general de la arquitectura describe la estructura fundamental de un sistema, abarcando sus componentes principales y la interacción entre ellos. En el contexto de desarrollo de aplicaciones móviles, una arquitectura sólida es esencial para garantizar que la aplicación sea escalable, segura y eficiente. Este enfoque permite una implementación ordenada, donde cada parte del sistema tiene una responsabilidad clara, y facilita la integración de nuevas funcionalidades o la modificación de las existentes sin afectar la estabilidad general de la plataforma (Richards & Ford, 2021).
+
+El diseño arquitectónico de la aplicación móvil Roademics se basa en una arquitectura modular, donde cada componente del sistema está desacoplado, permitiendo un desarrollo y mantenimiento más flexible. Este enfoque se apoya en patrones de diseño como el Modelo-Vista-Controlador (MVC) y el Modelo-Vista-ViewModel (MVVM), que promueven una clara separación de preocupaciones y mejoran la mantenibilidad del código. Además, se integra con servicios externos de autenticación, bases de datos en la nube, y plataformas de análisis, asegurando que la aplicación pueda manejar grandes volúmenes de datos de manera eficiente y con una alta disponibilidad.
+
+La arquitectura también contempla la seguridad como un aspecto central, con la implementación de técnicas de cifrado para proteger los datos sensibles del usuario y garantizar que las comunicaciones dentro de la aplicación sean seguras. Además, se diseña para ser compatible con diversas plataformas móviles, adaptándose a las especificaciones de iOS y Android, lo que facilita una experiencia de usuario consistente y de alta calidad en ambos entornos.
 
 ### 3.2.1. Domain-Driven Software Architecture.
 
@@ -400,10 +647,10 @@ El diagrama de contexto, el nivel más alto de abstracción en el modelo C4, pro
 
 En el caso de una aplicación web inmobiliaria, el diagrama de contexto muestra de manera detallada las interacciones entre los usuarios finales, los agentes inmobiliarios y la plataforma. Además, destaca las conexiones críticas entre la aplicación y diversas API y servicios externos, esenciales para habilitar las funcionalidades clave que la plataforma debe ofrecer a los usuarios. Estas integraciones son fundamentales para garantizar una experiencia fluida y robusta, respondiendo a las necesidades dinámicas del mercado inmobiliario.
 
-###### Figura 35.
+###### Figura 52
 *Presentación del diagrama de contexto de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Context.png">
+<img src="/assets/img/capitulo-3/
 
 #### 3.2.1.2. Software Architecture Container Level Diagram.
 
