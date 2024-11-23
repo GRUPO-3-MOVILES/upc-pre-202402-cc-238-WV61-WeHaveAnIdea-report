@@ -1288,7 +1288,7 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 
 En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
 
-Sin embargo, durante este Sprint 2, no se llegó a realizar ningún modelo de despliegue dentro de la aplicación móvil o dentro de algunos de sus componentes. Esto es debido a que la aplicación aún no presenta un estado que este lo suficientemente completado como para considerar presentarlo en un ambiente de producción. Ante la carencia de funcionalidades clave, como las secciones de networking y mejoras en la seguridad e inicio de sesión,  decidimos no realizar ningún despliegue hasta otro sprint próximo.
+Sin embargo, durante este Sprint 3, no se llegó a realizar ningún modelo de despliegue dentro de la aplicación móvil o dentro de algunos de sus componentes. Esto es debido a que la aplicación aún no presenta un estado que este lo suficientemente completado como para considerar presentarlo en un ambiente de producción. Ante la carencia de funcionalidades clave, como las secciones de networking y mejoras en la seguridad e inicio de sesión,  decidimos no realizar ningún despliegue hasta otro sprint próximo.
 
 #### 5.2.3.8 Team Collaboration Insights during FrontEnd Product Sprint
 
@@ -1368,7 +1368,7 @@ Durante esta reunión, se abordarán las características a desarrollar, los pla
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 4 es 29</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 4 es 33</td>
         </tr>
     </table>
 
@@ -1400,91 +1400,100 @@ Durante este sprint, se priorizó la usabilidad y la experiencia del usuario, as
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US041</td>
-            <td>Diseñar una landing page persuasiva con un claro llamado a la acción (CTA)</td>
-            <td>T001</td>
-            <td>Diseño de Landing Page con un Call To Action</td>
-            <td><strong>Como</strong> diseñador web, <strong>quiero</strong> diseñar una landing page persuasiva con un claro llamado a la acción (CTA), <strong>para</strong> maximizar la conversión de visitantes en usuarios activos y asegurar que el mensaje principal y las acciones deseadas sean destacadas y fácilmente accesibles.</td>
+            <td>US029</td>
+            <td>Compartir un roadmap con otros usuarios.</td>
+            <td>T035</td>
+            <td>Compartir roadmaps con otros usuarios.</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder compartir mi roadmap con otros usuarios de la plataforma, <strong>para</strong> recibir retroalimentación o colaborar en la planificación de mi carrera profesional, fomentando el intercambio de ideas y la mejora mutua, o para que pueda ser revisado directamente por otras empresas que podrían ofrecerme trabajos por mis habilidades.</td>
             <td>3 horas</td>
             <td>Yen Cerna, Lucio Heli</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US042</td>
-            <td>Visualizar contenido de Landing Page</td>
-            <td>T02</td>
-            <td>Visualización de contenido completo de la Landing Page</td>
-            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> poder visualizar el contenido de la landing page, <strong>para</strong> obtener toda la información relevante sobre los productos o servicios ofrecidos y tomar una decisión informada sobre la acción a seguir.</td>
+            <td>US030</td>
+            <td>Recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap profesional</td>
+            <td>T036</td>
+            <td>Notificaciones cuando alguien visualiza mi perfil o mi roadmap profesional</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> recibir notificaciones cuando alguien visualiza mi perfil o mi roadmap académico, <strong>para</strong> estar al tanto de quién está interesado en mi información y poder gestionar mejor la privacidad y visibilidad de mis datos, tomando decisiones informadas sobre la exposición de mi contenido.</td>
             <td>2 horas</td>
-            <td>Yen Cerna, Lucio Heli</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US043</td>
-            <td>Formulario de contacto</td>
-            <td>T03</td>
-            <td>Desarrollo y presentación de formulario de contacto</td>
-            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> tener acceso a un formulario de contacto, <strong>para</strong> poder enviar consultas, comentarios o solicitudes a la empresa de manera rápida y sencilla.</td>
-            <td>1 hora con 30 minutos</td>
+            <td>US031</td>
+            <td>Poder chatear directamente con otros usuarios y empresas</td>
+            <td>T037</td>
+            <td>Chatear directamente con otros usuarios y empresas</td>
+            <td><strong>Como</strong> usuario registrado en la plataforma Roademics, <strong>quiero</strong> poder chatear directamente con otros usuarios y cuentas de empresas, <strong>para</strong> facilitar la comunicación, resolver dudas y establecer conexiones relevantes sin tener que salir de la aplicación, mejorando así la eficiencia y comodidad en las interacciones.</td>
+            <td>2 horas con 30 minutos</td>
             <td>Trigueros Chumacero, Flavio Eduardo</td> 
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US044</td>
-            <td>Implementación de footer</td>
-            <td>T04</td>
-            <td>Implementación de la sección de footer</td>
-            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el footer esté implementado en todas las páginas, <strong>para</strong> tener acceso a información adicional, enlaces importantes y recursos útiles sin importar en qué sección me encuentre.</td>
-            <td>1 hora con 30 minutos</td>
+            <td>US032</td>
+            <td>Gestión de privacidad en el chat</td>
+            <td>T038</td>
+            <td>Gestión de privacidad en el chat</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder gestionar la privacidad de todas mis conversaciones en el chat, <strong>para</strong> asegurar que mi información y comunicaciones estén protegidas y se respeten mis preferencias de privacidad en todo momento.</td>
+            <td>2 horas con 30 minutos</td>
             <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US045</td>
-            <td>Responsive Landing Page</td>
-            <td>T05</td>
-            <td>Implementación de propiedades Responsive en la Landing Page</td>
-            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que la landing page se adapte de manera responsiva a diferentes dispositivos y tamaños de pantalla, <strong>para</strong> tener una experiencia de usuario óptima sin importar el dispositivo que utilice para acceder a la página.</td>
-            <td>1 hora</td>
+            <td>US033</td>
+            <td>Tener la opción de reportar perfiles que consideren inapropiados o que violen las políticas de la plataforma.</td>
+            <td>T039</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> tener la opción de reportar perfiles que considere inapropiados o que violen las políticas de la plataforma, <strong>para</strong> contribuir a la seguridad y el cumplimiento de las normas, asegurando un entorno respetuoso y libre de contenido no permitido.</td>
+            <td>2 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td> 
             <td>Done</td>
         </tr>
         <tr>
-            <td>US001</td>
-            <td>Registro de cuenta en la plataforma</td>
-            <td>T06</td>
-            <td>Registro de una cuenta en la aplicación</td>
-            <td><strong>Como</strong> un nuevo usuario en la aplicación de Roademics, <strong>quiero</strong> registrarme en la plataforma creando una cuenta personal con el uso de datos pertinentes y adecuadamente informados por la aplicación, <strong>para</strong> obtener acceso completo a todas las funcionalidades de la aplicación, permitiéndome gestionar mi perfil, interactuar con el contenido y beneficiarme de las características ofrecidas.</td>
+            <td>US034</td>
+            <td>Poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado.</td>
+            <td>T40</td>
+            <td>Revisar aceptación de solicitud de conexión y quién la ha ignorado o rechazado.</td>
+            <td><strong>Como</strong> usuario registrado en la aplicación de Roademics, <strong>quiero</strong> poder ver quién ha aceptado mi solicitud de conexión y quién la ha ignorado o rechazado, <strong>para</strong> tener una visión clara de las interacciones y decisiones de otros usuarios respecto a mis solicitudes de conexión, y gestionar mis conexiones de manera más efectiva.</td>
             <td>2 horas con 30 minutos</td>
-            <td>Trigueros Chumacero, Flavio Eduardo</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US003</td>
-            <td>Verificación de Correo Electrónico durante el registro</td>
-            <td>T07</td>
-            <td>Verificación del Correo Electrónico al registrar un usuario</td>
-            <td><strong>Como</strong> un nuevo usuario dentro de la aplicación de Roademics, <strong>quiero</strong> recibir un correo electrónico de verificación de parte de la plataforma tras registrarme de forma adecuada de manera manual, <strong>para</strong> poder confirmar mi identidad y activar mi cuenta de forma segura, evitando posibles problemas de seguridad en un futuro.</td>
-            <td>1 hora con 30 minutos</td>
-            <td>Trigueros Chumacero, Flavio Eduardo</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US004</td>
-            <td>Inicio de sesión con cuenta de la aplicación</td>
-            <td>T08</td>
-            <td>Verificación de un Correo Electrónico durante el proceso de registro</td>
-            <td><strong>Como</strong> usuario ya registrado de forma adecuada en la aplicación de Roademics, <strong>quiero</strong> poder iniciar sesión en la plataforma utilizando datos pertinentes como mi correo electrónico y contraseña, <strong>para</strong> acceder a mi cuenta de manera rápida y directa, lo que me permitirá gestionar todas las funcionalidades y datos asociados a la misma de forma eficiente.</td>
-            <td>3 horas con 30 minutos</td>
             <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US005</td>
-            <td>Recuperación de contraseña de cuenta.</td>
-            <td>T09</td>
-            <td>Recuperación de contraseña de un usuario.</td>
-            <td><strong>Como</strong> usuario registrado en Roademics, <strong>quiero</strong> tener la opción de recuperar mi contraseña, <strong>para</strong> poder restablecer mi acceso a la plataforma en caso de haberla olvidado o garantizar mi seguridad, y permitir la continuidad del uso de todas las funcionalidades asociadas a mi cuenta.</td>
+            <td>US035</td>
+            <td>Poder recibir informes avanzados sobre la actividad de mi perfil.</td>
+            <td>T041</td>
+            <td>Informes avanzados sobre la actividad de mi perfil.</td>
+            <td><strong>Como</strong> usuario Premium <strong>quiero</strong> recibir informes avanzados sobre la actividad de mi perfil, <strong>para</strong> analizar en detalle la interacción y el rendimiento de mi perfil, y tomar decisiones informadas para mejorar mi presencia y estrategias en la plataforma.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US038</td>
+            <td>Leer y aceptar Términos y condiciones.</td>
+            <td>T042</td>
+            <td>Leer y aceptar Términos y condiciones.</td>
+            <td><strong>Como</strong> usuario nuevo de la plataforma, <strong>quiero</strong> leer y aceptar los Términos y condiciones antes de completar el registro, <strong>para</strong> asegurarme de que comprendo y acepto las políticas y reglas de uso de la plataforma.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US039</td>
+            <td>Revisar Términos y condiciones actualizados.</td>
+            <td>T043</td>
+            <td>Revisar Términos y condiciones actualizados.</td>
+            <td><strong>Como</strong> usuario activo de la plataforma, <strong>quiero</strong> revisar los Términos y condiciones actualizados, <strong>para</strong> asegurarme de que estoy al tanto de los cambios y de que continúo cumpliendo con las políticas y reglas vigentes.</td>
+            <td>1 hora con 30 minutos</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US040</td>
+            <td>Accesibilidad a Términos y condiciones.</td>
+            <td>T044</td>
+            <td>Accesibilidad a Términos y condicione.</td>
+            <td><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> tener acceso fácil a los Términos y condiciones desde cualquier sección de la aplicación, <strong>para</strong> poder consultarlos en cualquier momento y asegurarme de que estoy siempre informado sobre las políticas y reglas de uso.</td>
             <td>1 hora con 30 minutos</td>
             <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
@@ -1544,7 +1553,9 @@ A continuación, se incluye una tabla exhaustiva donde se especifican las accion
 
 #### 5.2.1.7 Software Deployment Evidence for FrontEnd Product Sprint Review
 
+En esta sección detallaremos exhaustivamente el proceso de despliegue de los sistemas planificados para este Sprint, abarcando tanto la aplicación móvil como otras plataformas web asociadas. Presentaremos el proceso paso a paso, proporcionando evidencia clara en cada fase del despliegue, y explicando las características técnicas de cada plataforma utilizada para asegurar un despliegue exitoso.
 
+Sin embargo, durante este Sprint 3, no se llegó a realizar ningún modelo de despliegue dentro de la aplicación móvil o dentro de algunos de sus componentes. Esto es debido a que la aplicación aún no presenta un estado que este lo suficientemente completado como para considerar presentarlo en un ambiente de producción. Ante la carencia de funcionalidades clave, como las secciones de networking y mejoras en la seguridad e inicio de sesión,  decidimos no realizar ningún despliegue hasta otro sprint próximo.
 
 #### 5.2.4.8 Team Collaboration Insights during FrontEnd Product Sprint
 
@@ -1689,6 +1700,52 @@ Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
 En esta sección se detalla el proceso minucioso de evaluación de las sesiones de validación, fundamentado en un conjunto de heurísticas diseñadas para cubrir los aspectos más relevantes de la experiencia del usuario. Estas heurísticas se organizan en categorías clave que incluyen criterios de usabilidad, arquitectura de la información y elementos del diseño de experiencia. Cada categoría ha sido cuidadosamente definida para proporcionar un análisis riguroso y profundo de las interacciones y percepciones del usuario.
 
 La evaluación integral tiene como objetivo asegurar que todos los componentes de la interfaz y la experiencia general respondan a altos estándares de calidad, permitiendo identificar no solo las fortalezas en el diseño y la implementación, sino también las áreas que requieren ajustes o mejoras. Este enfoque garantiza una revisión exhaustiva de cada elemento de la aplicación, facilitando el reconocimiento de oportunidades que mejoren la funcionalidad, accesibilidad y satisfacción general del usuario. A través de este proceso continuo de optimización, se busca refinar el producto hasta lograr una plataforma que ofrezca una experiencia de usuario completa, confiable y alineada con los más altos estándares de calidad y eficacia.
+
+1. Pantalla de Bienvenida ("Welcome to Roademics")
+Problema: Falta de retroalimentación al usuario. No hay indicadores de carga al presionar "Log In" o "Create Account".
+Heurística violada: Visibilidad del estado del sistema.
+Severidad: 2 (Problema menor, puede causar confusión leve).
+Recomendación: Implementar indicadores visuales (como un spinner) al iniciar sesión o crear una cuenta.
+2. Pantalla de Inicio de Sesión
+Problema: El enlace "Forgot my password" no parece diferenciado visualmente del resto del contenido.
+Heurística violada: Diseño estético y minimalista.
+Severidad: 1 (Problema superficial).
+Recomendación: Resaltar el enlace con un color o estilo diferente para indicar que es interactivo.
+3. Pantalla de Información de Cuenta
+Problema: No hay validaciones visibles para campos vacíos o contraseñas no coincidentes.
+Heurística violada: Prevención de errores.
+Severidad: 3 (Problema mayor, puede frustrar al usuario).
+Recomendación: Mostrar mensajes claros en tiempo real para validar que las contraseñas coincidan o que los campos no estén vacíos.
+4. Selección de Perfil
+Problema: El texto "Selecciona tu tipo de perfil" está en español, mientras que otras pantallas están en inglés.
+Heurística violada: Consistencia y estándares.
+Severidad: 2 (Problema menor).
+Recomendación: Unificar el idioma de toda la interfaz.
+5. Pantalla de Configuración de Perfil
+Problema: La sección de términos y condiciones no tiene un enlace para ver el documento.
+Heurística violada: Control y libertad del usuario.
+Severidad: 3 (Problema mayor, falta de funcionalidad importante).
+Recomendación: Añadir un enlace clicable para revisar los términos antes de aceptarlos.
+6. Pantalla de Oportunidades
+Problema: No hay filtros para buscar entre las oportunidades listadas.
+Heurística violada: Flexibilidad y eficiencia de uso.
+Severidad: 3 (Problema mayor, afecta la funcionalidad para usuarios con muchas opciones).
+Recomendación: Implementar filtros por ubicación, empresa o fecha.
+7. Pantalla de Notificaciones
+Problema: Las notificaciones no muestran acciones rápidas como "Marcar como leído" o "Eliminar".
+Heurística violada: Flexibilidad y eficiencia de uso.
+Severidad: 2 (Problema menor).
+Recomendación: Añadir botones de acción rápida para mejorar la experiencia.
+8. Pantalla de Roadmaps
+Problema: No hay opción para reorganizar pasos dentro del roadmap.
+Heurística violada: Control y libertad del usuario.
+Severidad: 3 (Problema mayor, afecta la funcionalidad principal).
+Recomendación: Permitir arrastrar y soltar pasos para reorganizarlos.
+9. Pantalla Principal (Home)
+Problema: La navegación no es intuitiva, no hay un botón claro para volver al inicio desde otras pantallas.
+Heurística violada: Navegación intuitiva y visibilidad del estado del sistema.
+Severidad: 3 (Problema mayor).
+Recomendación: Añadir un botón fijo para regresar al inicio en cualquier momento.
 
 ## 5.4. Video About-the-Product
 
