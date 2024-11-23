@@ -1665,7 +1665,7 @@ Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
 ###### Figura #
 *Imagen de presentación de la primera entrevista de validación realizada*
 
-<img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento1.png" alt="Primera entrevista de validación de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
+<img src="/assets/img/capitulo-5/deployments/Validation-interview-1.jpg" alt="Primera entrevista de validación de nuestro segmento objetivo 1 a Max Sabino Arostegui." width="550" height="300">
 
 **Datos principales:**
 - Nombre completo del entrevistado: Max Sabino Arostegui
