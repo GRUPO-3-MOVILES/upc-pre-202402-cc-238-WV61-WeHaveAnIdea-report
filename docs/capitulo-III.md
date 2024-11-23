@@ -475,7 +475,7 @@ Los Navigation Systems son estructuras y herramientas diseñadas para guiar a lo
 Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una experiencia fluida y satisfactoria. A continuación, se detalla la tabla de seguimiento de los sistemas de navegación integrados en el proyecto:
 
 ###### Tabla 12 
-**Seguimiento de Navigation Systems integrados dentro del proyecto de Roademics**
+*Seguimiento de Navigation Systems integrados dentro del proyecto de Roademics*
 
 | **Etiqueta**  | **Descripción** |
 |---------------|------------------|
@@ -487,7 +487,7 @@ Para Roademics, un navigation system móvil eficaz es crucial para ofrecer una e
 
 ### 3.1.3. Landing Page UI Design
 
-En esta sección, nuestro equipo presentará y explicará en detalle la propuesta y el modelo de la interfaz de usuario (UI) diseñado para la Landing Page de Roademics. Se abordarán los aspectos clave del diseño, justificando las decisiones tomadas en términos de estética, funcionalidad y experiencia del usuario.
+En esta sección, se presentará una descripción detallada del diseño propuesto para la Landing Page de Roademics, enfocándonos en los elementos visuales y funcionales que optimizan la experiencia del usuario (UX). La propuesta considera aspectos como estética, navegabilidad y accesibilidad, justificando cada decisión en términos de diseño con base en principios de usabilidad e interacción centrada en el usuario. Asimismo, se explicarán los objetivos principales que guiaron la estructura, incluyendo la atracción de nuevos usuarios y la comunicación clara de los beneficios del producto, asegurando que el diseño cumpla con las expectativas del público objetivo.
 
 #### 3.1.3.1. Landing Page Wireframe
 
@@ -517,7 +517,7 @@ En este conjunto de modelos de seguimiento relacionados con nuestra Landing Page
 
 **[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
-#### 3.1.3.2. Landing Page Mock-up.
+#### 3.1.3.2. Landing Page Mock-up
 
 Según Dannaway (2020), los mock-ups, al igual que los wireframes, desempeñan un papel crucial en la planificación y diseño de interfaces de usuario para páginas web y aplicaciones. Sin embargo, a diferencia de los wireframes, que se centran en la estructura y funcionalidad, los mock-ups ofrecen una representación más detallada y visualmente elaborada, incorporando colores, tipografía, imágenes y otros aspectos visuales esenciales. Estos modelos permiten a los diseñadores y desarrolladores visualizar no solo la disposición de los elementos clave, sino también experimentar con el diseño estético y los detalles gráficos.
 
@@ -532,11 +532,11 @@ En este conjunto de Mock-Ups de nuestra Landing Page, cada una de las principale
 
 **[(Enlace)](https://www.figma.com/design/IGvDfRu5MPtRHB28m3vTXR/WIreframes-%26-MockUps-Roademics?node-id=38-870&t=NMkMdJxvBbmrnUUI-1)**
 
-### 3.1.4. Mobile Applications UX/UI Design.
+### 3.1.4. Mobile Applications UX/UI Design
 
 En esta sección, nos adentraremos en los aspectos más detallados de la propuesta visual y de interacción para la aplicación móvil que forma parte integral de la experiencia del usuario en nuestros productos digitales. Analizaremos a fondo las distintas secciones internas de esta aplicación junto a cada una de sus actividades, desglosando tanto su diseño como sus funcionalidades clave. A través de esta exploración detallada, buscamos proporcionar una comprensión más profunda y exhaustiva de cómo los usuarios interactúan con nuestro producto en el entorno móvil, destacando la fluidez, la intuitividad y la eficiencia de cada una de las interfaces que ofrecemos.
 
-#### 3.1.4.1. Mobile Applications Wireframes.
+#### 3.1.4.1. Mobile Applications Wireframes
 
 A continuación, se presentarán los wireframes esquematizados correspondientes a la aplicación móvil principal de Roademics, detallando meticulosamente las características clave, así como la organización, jerarquía y división de las diferentes pestañas. Este trabajo tiene como objetivo ofrecer una representación gráfica clara y precisa de la estructura de la aplicación, asegurando una visión integral del flujo de navegación y la disposición de las funcionalidades esenciales. En el diseño de esta aplicación móvil, nuestro equipo ha optado por un enfoque centrado en la simplicidad y la usabilidad, incorporando elementos visuales y funcionales que garanticen tanto una experiencia atractiva como eficiente (Kuleszo, 2024).
 
@@ -555,7 +555,7 @@ En este conjunto de Wireframes de la aplicación móvil de Roademics, cada una d
 
 **[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams.
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 Esta sección presenta la propuesta de Wireflows elaborada y seleccionada por nuestro equipo de trabajo, diseñados específicamente para abordar los objetivos clave del usuario en la aplicación. Cada Wireflow refleja un flujo detallado de interacción, creado con base en un análisis exhaustivo de los User Personas asociados al alcance del proyecto. Esto garantiza que los flujos respondan de manera efectiva a las necesidades y expectativas de los usuarios, ofreciendo una experiencia coherente y centrada en su contexto de uso.
 
@@ -579,7 +579,7 @@ Los Wireflow Diagrams de la aplicación móvil de Roademics combinan wireframes 
 
 **[(Enlace)](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-718%2C274%2C3118%2C1266%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
-#### 3.1.4.3. Mobile Applications Mock-ups.
+#### 3.1.4.3. Mobile Applications Mock-ups
 
 En esta sección, presentamos los Mock-Ups detallados de la Aplicación Móvil principal de Roademics, con el fin de resaltar todas las características clave de la plataforma y la disposición organizada de las diversas pestañas. En el diseño de esta aplicación móvil, hemos seguido un enfoque basado en la creación de una interfaz visualmente intuitiva, con un diseño atractivo y altamente funcional. El objetivo de este enfoque es captar la atención de los usuarios de manera inmediata, proporcionándoles una sensación de seguridad, confiabilidad y accesibilidad a lo largo de toda su experiencia en la aplicación (Budarina, 2023).
 
@@ -596,7 +596,7 @@ Los mockups de la aplicación móvil de Roademics proporcionan una representaci�
 
 **[(Enlace)](https://www.figma.com/design/KHLRj7wHZikBp0seUZnfe4/Roademics-Mobile?node-id=0-1&t=TpEBticAc8sqlN1d-1)**
 
-#### 3.1.4.4. Mobile Applications User Flow Diagrams.
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 Esta sección presenta la propuesta de User Flows seleccionada y definida por nuestro equipo de desarrollo. Para cada objetivo específico del usuario, se ha creado un User Flow detallado, teniendo en cuenta los perfiles de usuario (User Persona) asociados a la aplicación abarcada por el proyecto. Es crucial destacar que cualquier cambio que se produzca en la navegación o en las pantallas como consecuencia de la interacción del usuario dentro de un flujo, debe representarse mediante un paso adicional que refleje el nuevo estado de la interfaz.
 
@@ -616,7 +616,7 @@ Los User Flow Diagrams de la aplicación Roademics describen de manera detallada
 
 **[(Enlace](https://lucid.app/lucidchart/27d5e68a-1784-4211-9975-efe571a65b41/edit?viewport_loc=-9429%2C19%2C14749%2C6198%2C0_0&invitationId=inv_c091bcf8-694e-44a9-aece-fc97373bf070)**
 
-#### 3.1.4.5. Mobile Applications Prototyping.
+#### 3.1.4.5. Mobile Applications Prototyping
 
 El prototipado de aplicaciones móviles es una fase crucial en el proceso de desarrollo de software, donde se crean representaciones interactivas de las interfaces y funcionalidades de la aplicación antes de su desarrollo completo. Este proceso permite a los diseñadores, desarrolladores y usuarios finales interactuar con una versión preliminar de la aplicación para validar conceptos, probar la usabilidad y ajustar características según los comentarios obtenidos. A través del prototipado, se facilita una comprensión clara de la experiencia del usuario, lo que reduce riesgos y mejora la toma de decisiones durante las etapas posteriores del proyecto (Dannaway, 2020).
 
@@ -629,7 +629,7 @@ En este contexto, el prototipado de aplicaciones móviles puede abarcar diversas
 
 En el siguiente enlace se encuentra el vídeo principal del prototipado realizado para nuestra aplicación de Roademics con los bocetos mostrados en secciones anteriores, junto a un sistema de navegación completo y dinámico: 
 
-## 3.2. Architecture Overview.
+## 3.2. Architecture Overview
 
 La visión general de la arquitectura describe la estructura fundamental de un sistema, abarcando sus componentes principales y la interacción entre ellos. En el contexto de desarrollo de aplicaciones móviles, una arquitectura sólida es esencial para garantizar que la aplicación sea escalable, segura y eficiente. Este enfoque permite una implementación ordenada, donde cada parte del sistema tiene una responsabilidad clara, y facilita la integración de nuevas funcionalidades o la modificación de las existentes sin afectar la estabilidad general de la plataforma (Richards & Ford, 2021).
 
@@ -637,20 +637,20 @@ El diseño arquitectónico de la aplicación móvil Roademics se basa en una arq
 
 La arquitectura también contempla la seguridad como un aspecto central, con la implementación de técnicas de cifrado para proteger los datos sensibles del usuario y garantizar que las comunicaciones dentro de la aplicación sean seguras. Además, se diseña para ser compatible con diversas plataformas móviles, adaptándose a las especificaciones de iOS y Android, lo que facilita una experiencia de usuario consistente y de alta calidad en ambos entornos.
 
-### 3.2.1. Domain-Driven Software Architecture.
+### 3.2.1. Domain-Driven Software Architecture
 
 De acuerdo con Brown (2023), el modelo C4 para la diagramación y esquematización de la arquitectura de software ofrece un enfoque estructurado y escalable que facilita la descripción clara de sus secciones y componentes. Al dividir la arquitectura en cuatro niveles —Contexto, Contenedores, Componentes y Código—, permite una comprensión más accesible tanto para técnicos como para partes interesadas sin experiencia técnica. Esta estructura promueve una comunicación más fluida y efectiva entre los equipos de desarrollo y las partes involucradas, optimizando el proceso colaborativo y resultando en un desarrollo más eficiente y en una arquitectura de software más robusta y mantenible.
 
-#### 3.2.1.1. Software Architecture Context Level Diagram.
+#### 3.2.1.1. Software Architecture Context Level Diagram
 
 El diagrama de contexto, el nivel más alto de abstracción en el modelo C4, proporciona una vista general del sistema y su entorno externo, ilustrando las interacciones de alto nivel entre el sistema y los actores externos. Este diagrama ofrece una representación clara de cómo el sistema se relaciona con sus usuarios, agentes externos y otros componentes ajenos al sistema.
 
 En el caso de una aplicación web inmobiliaria, el diagrama de contexto muestra de manera detallada las interacciones entre los usuarios finales, los agentes inmobiliarios y la plataforma. Además, destaca las conexiones críticas entre la aplicación y diversas API y servicios externos, esenciales para habilitar las funcionalidades clave que la plataforma debe ofrecer a los usuarios. Estas integraciones son fundamentales para garantizar una experiencia fluida y robusta, respondiendo a las necesidades dinámicas del mercado inmobiliario.
 
 ###### Figura 52
-*Presentación del diagrama de contexto de la aplicación de Roademics.*
+*Diagrama de contexto de la aplicación de Roademics*
 
-<img src="/assets/img/capitulo-3/
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/context-diagram/context.png" alt="Diagrama de contexto de la aplicación de Roademics.">
 
 #### 3.2.1.2. Software Architecture Container Level Diagram.
 
@@ -658,12 +658,12 @@ El diagrama de contenedores ofrece una representación visual detallada de la ar
 
 En el caso del sistema integrado de Roademics, este diagrama desglosa la arquitectura, revelando las conexiones entre los distintos puntos de desarrollo, así como las interacciones con sistemas externos adyacentes. A través del BackEnd, se establecen conexiones directas con la base de datos, la cual gestiona y almacena la información crítica para el funcionamiento eficiente del sistema. Este enfoque detallado permite una visión clara de cómo cada componente colabora para brindar una experiencia fluida y coherente, asegurando que todas las partes del sistema trabajen en conjunto de manera efectiva.
 
-###### Figura 36.
-*Presentación del diagrama de contenedores de la aplicación de Roademics.*
+###### Figura 53
+*Diagrama de contenedores de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Containers.png">
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/containers-diagram/containers.png" alt="Diagrama de contenedores de la aplicación de Roademics">
 
-#### 3.2.1.3. Software Architecture Components Diagram.
+#### 3.2.1.3. Software Architecture Components Diagram
 
 El diagrama de componentes profundiza aún más en la arquitectura de un sistema, desglosando cada contenedor en sus componentes individuales. Este nivel de análisis permite una representación clara y detallada de la organización interna, así como de la comunicación entre estos componentes dentro de cada contenedor, facilitando una comprensión precisa de cómo interactúan y se interrelacionan para cumplir las funciones del sistema.
 
@@ -671,765 +671,231 @@ En el contexto de Roademics, el diagrama de componentes destaca los elementos cl
 
 La utilidad del diagrama de componentes se extiende más allá del simple entendimiento de la arquitectura. Al proporcionar una visualización clara de cómo se gestionan los datos dentro de la aplicación móvil, este diagrama resulta invaluable no solo para los desarrolladores, sino también para los equipos de mantenimiento y actualización del sistema. Al descomponer cada elemento en sus componentes individuales y mapear sus interacciones, el diagrama optimiza el proceso de diseño y desarrollo, facilitando un mantenimiento efectivo y minimizando la complejidad durante el ciclo de vida del software.
 
-###### Figura 37.
-*Presentación del diagrama de componentes de la Landing Page de la aplicación de Roademics.*
+###### Figura 54
+*Diagrama de componentes de la Landing Page de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Landing-Page.png">
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-landing-page.png" alt="Diagrama de componentes de la Landing Page de la aplicación de Roademics.">
 
-###### Figura 38.
-*Presentación del diagrama de componentes de la Gestión de Perfiles de Usuario de la aplicación de Roademics.*
+###### Figura 55
+*Diagrama de componentes de la Gestión de Perfiles de Usuario de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-User-Profile-Management.png">
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-user-profile-management.png" alt="Diagrama de componentes de la Sección de Gestión de Perfiles de Usuario de la aplicación de Roademics.">
 
-###### Figura 39.
-*Presentación del diagrama de componentes del Desarrollo de Roadmaps de la aplicación de Roademics.*
+###### Figura 56
+*Diagrama de componentes del Desarrollo de Roadmaps de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Roadmap-Development.png">
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-roadmap-development.png" alt="Diagrama de componentes de la Sección de Desarrollo de Roadmaps de la aplicación de Roademics.">
 
-###### Figura 40.
-*Presentación del diagrama de componentes del Desarrollo y Modelo del Networking de la aplicación de Roademics.*
+###### Figura 57
+*Diagrama de componentes del Desarrollo y Modelo del Networking de la aplicación de Roademics.*
 
-<img src="/assets/img/capitulo-3/Domain-Driven-Software/Components-Networking-Model-Development.png">
+<img src="/assets/img/capitulo-3/domain-drive-software-architecture/components-diagram/components-networking-model-development.png" alt="Diagrama de componentes de la Sección del Modelo de Networking de la aplicación de Roademics.">
 
-#### 3.2.2.1. Class Diagrams.
+#### 3.2.2.1. Class Diagrams
 
 El diagrama de clases es una representación visual esencial en el modelado de sistemas orientados a objetos, desempeñando un papel fundamental en la comprensión de la estructura estática del software. Este diagrama permite a los desarrolladores y a las partes interesadas visualizar las clases del sistema, sus atributos, métodos y las relaciones que existen entre ellas, facilitando la comunicación y planificación en el proceso de diseño y desarrollo de software.
 
 Este diagrama es ampliamente utilizado en múltiples fases del ciclo de vida del software, incluyendo la visualización de la arquitectura del sistema, la documentación técnica y la comunicación entre los miembros del equipo de desarrollo. Al emplear notaciones estándar de UML (Unified Modeling Language) y herramientas de modelado, el diagrama de clases proporciona una representación clara, precisa y coherente de la estructura del sistema, mejorando tanto el diseño como la implementación del software (Freeman & Robson, 2021).
 
-<img src="/assets/img/capitulo-3/Software-Object-Oriented-Design/Diagram_Class_Roademics.jpg">
+###### Figura 58
+*Diagrama de clases de la aplicación de Roademics*
 
-#### 3.2.2.2. Class Dictionary.
+<img src="/assets/img/capitulo-3/software-object-oriented-design/class-diagram.png" alt="Diagrama de clases de Roademics.">
 
-Un diccionario de clases es una herramienta fundamental en el desarrollo de software, utilizada para documentar y organizar de manera sistemática la información sobre las clases que componen un sistema. Este diccionario actúa como un repositorio central de detalles, proporcionando una descripción exhaustiva de cada clase, sus atributos, métodos, relaciones con otras clases, y cualquier otro aspecto relevante que facilite la comprensión y mantenimiento del sistema.
+#### 3.2.2.2. Class Dictionary
 
-## Comment
+Un diccionario de clases es una herramienta crucial en la ingeniería de software, ya que ofrece una descripción detallada y organizada de las clases dentro de un sistema. Funciona como un repositorio que facilita la comprensión y mantenimiento del código, permitiendo que los desarrolladores y otros stakeholders tengan acceso a la información necesaria para trabajar de manera eficiente en el sistema. En él se incluyen detalles clave como los atributos, métodos, relaciones con otras clases y cualquier otro elemento relevante que describa el comportamiento y la estructura de las clases.
 
-Descripción: Representa un comentario que puede estar asociado a un post. 
-Incluye información del usuario y contenido del comentario.
+La importancia de esta herramienta radica en que mejora la comunicación entre los miembros del equipo, ya que ofrece una visión clara de cómo se estructura el código y cómo las distintas partes del sistema interactúan. Además, un diccionario de clases bien organizado permite realizar modificaciones de manera controlada y reducir la probabilidad de introducir errores, dado que proporciona un punto de referencia sobre la funcionalidad de cada clase. Esto también facilita las tareas de mantenimiento y ampliación del sistema, especialmente cuando se trabajan en proyectos grandes y complejos.
 
-Atributos:
+###### Tabla 13
+*Diccionario de Clases del Diagrama de Clases presentado por Roademics*
 
-userId: Identificador del usuario que realiza el comentario.
+| Nombre | Descripción | Atributos | Métodos |
+|--------|-------------|-----------|---------|
+| Comment| Representa un comentario que puede estar asociado a un post. Incluye información del usuario y contenido del comentario. | * userId: Identificador del usuario que realiza el comentario. <br><br> * postId: Identificador del post al cual el comentario está asociado. <br><br> * body: Contenido textual.  | * deleteComment(): Permite eliminar el comentario. <br><br> * addCommentToPost(): Asocia el comentario a un post específico. |
+| Reaction | Captura la reacción de un usuario a un post o comentario, como un "me gusta". | * userId: Identificador del usuario que reacciona. <br><br> * postId: Identificador del post al que se reacciona. <br><br> * reactionType: Tipo de reacción realizada. | * addReactionToPost(UUID): Agrega una reacción a un post. <br><br> * addReactionToComment(UUID): Agrega una reacción a un comentario. <br><br> * setReactionTypeByString(String). |
+| Post | Representa un post en la plataforma, el cual puede contener texto, reacciones y estar asociado a diferentes comentarios. | * profileId: Identificador del perfil que publica el post. <br><br> * title: Título del post. <br><br> * body: Cuerpo del post. <br><br> * reactions: Lista de reacciones.| * updatePost(): Actualiza el post. <br><br> * deletePost(): Elimina el post. <br><br> * addComment(): Añade un comentario. <br><br> * addReaction(): Añade una reacción. <br><br> reactPost(UUID). |
+| Connection | Representa una conexión entre dos usuarios en la plataforma. | * connectedUserId: Identificador del usuario conectado. <br><br> * status: Estado de la conexión ('pending', 'accepted', 'rejected'). | * sendInvitation(UUID): Envía una invitación de conexión.|
+| Membership | Detalla la membresía de un usuario en la plataforma, incluyendo características como fecha de expiración y beneficios. | * profileId: Identificador del perfil asociado. <br><br> * expirationDate: Fecha de expiración. <br><br> * price: Precio. <br><br> * featuresList: Lista de beneficios. | * addMembershipToUser(): Añade una membresía. <br><br> * renewMembership(): Renueva la membresía. <br><br> * endMembership(): Finaliza la membresía.|
+| User  | Representa un usuario en la plataforma, incluyendo información básica como nombre de usuario y contraseña. | * id: Identificador único. <br><br> * username: Nombre de usuario. <br><br> * password: Contraseña. <br><br> * email: Correo electrónico.| * updateUsername(String): Actualiza el nombre de usuario. <br><br> * updatePassword(String): Actualiza la contraseña. |
+| Profile | Perfil del usuario en la plataforma, conteniendo información personal como número de teléfono y dirección.  | * phoneNumber: Número de teléfono. <br><br> * name: Nombre personal. <br><br> * address: Dirección física. <br><br> * userType: Tipo de usuario. <br><br> * connections: Conexiones. | * updateName(String): Actualiza el nombre. <br><br> * updateEmail(String): Actualiza el correo. <br><br> * updateAddress(String): Actualiza la dirección.  |
+| Node  | Representa un nodo en un roadmap, como un curso o una habilidad. | * nodeId: ID único. <br><br> * title: Título del nodo. <br><br> * description: Descripción del nodo. <br><br> * isStartNode: Si es el inicial. <br><br> * isEndNode: Si es final. | No presenta métodos |
+| Edge | Representa una arista que conecta dos nodos en un roadmap, definiendo su relación. | * fromNodeId: ID de origen. <br><br> * toNodeId: ID de destino. <br><br> * label: Etiqueta de relación. <br><br> * description: Descripción de la relación. <br><br> * relationshipType: Tipo de relación. | No presenta métodos |
+| AIInteraction | Representa una interacción entre el usuario y la IA, incluyendo el prompt enviado y la respuesta recibida. | * interactionId: ID único. <br><br> * roadmapId: ID del roadmap asociado. <br><br> * userPrompt: Prompt enviado. <br><br> * aiResponse: Respuesta generada. | No presenta métodos |
+| AIRecommendation | Representa una recomendación generada por la IA, que sugiere modificaciones en los nodos y aristas de un roadmap. | * recommendationId: ID único. <br><br> * roadmapId: ID del roadmap asociado. <br><br> * nodes: Lista de nodos. <br><br> * edges: Lista de aristas. <br><br> * promptResponse: Respuesta generada. | No presenta métodos |
+| Roadmap          | Representa el roadmap principal que contiene nodos y aristas. | * Node: Representa los nodos dentro del roadmap. <br><br> * Edge: Representa las relaciones entre nodos.  | No presenta métodos |
+| PromptResponse   | Representa la respuesta generada por la IA en base a un prompt. | * response: Texto generado en respuesta al prompt. | No presenta métodos |
+| UserPrompt       | Representa el prompt enviado por el usuario a la IA. | * prompt: Texto del prompt enviado a la IA. | No presenta métodos |
 
-postId: Identificador del post al cual el comentario está asociado.
+#### 3.2.2.3. Database Design
 
-body: Contenido textual del comentario.
+El diseño de una base de datos constituye una etapa crítica en el desarrollo de sistemas de software, ya que permite definir la estructura lógica y física mediante la cual los datos serán almacenados, gestionados y accesados para cumplir con los requisitos funcionales y no funcionales establecidos. Este proceso no solo aborda la organización de la información en términos de entidades, atributos y relaciones, sino también la implementación de estrategias que garanticen la eficiencia operativa, la integridad de los datos y la seguridad del sistema en su conjunto.
 
-Métodos:
+Antes de proceder con el diseño de la base de datos, es crucial determinar cuál modelo de base de datos se adapta mejor a las necesidades específicas de Roademics. Para ello, resulta indispensable realizar un análisis detallado que compare los modelos de bases de datos relacionales y no relacionales, considerando sus beneficios y limitaciones en el contexto particular de esta plataforma. Este análisis busca identificar cuál de los dos modelos proporciona mayor flexibilidad, rendimiento y escalabilidad para satisfacer las demandas funcionales de Roademics.
 
-deleteComment(): Permite eliminar el comentario.
+En este sentido, hemos preparado la siguiente tabla comparativa, la cual detalla los aspectos clave de ambos modelos, destacando sus características principales, ventajas y desventajas. El objetivo es proporcionar una base sólida para seleccionar el modelo que ofrezca un equilibrio óptimo entre el manejo eficiente de los datos y la capacidad de adaptarse a las necesidades futuras de la aplicación.
 
-addCommentToPost(): Asocia el comentario a un post específico.
+###### Tabla 14
+*Comparación entre un modelo de base de datos relacional y uno no relacional para la persistencia de la aplicación móvil de Roademics.*
 
+| **Aspecto** | **Base de Datos Relacional** | **Base de Datos No Relacional** |
+|-------------|------------------------------|---------------------------------|
+| **Modelo de datos**               | Las bases de datos relacionales utilizan un modelo tabular que organiza la información en tablas con filas y columnas, las cuales deben cumplir con un esquema estrictamente definido. Aunque este enfoque permite mantener relaciones complejas entre los datos, puede resultar limitado cuando los datos evolucionan rápidamente o tienen estructuras heterogéneas. En Roademics, esto podría significar complicaciones al manejar la variedad de información dinámica, como interacciones de usuarios, recomendaciones de IA y estructuras de roadmap. | Las bases de datos no relacionales emplean modelos más flexibles, como documentos (JSON), grafos o pares clave-valor. Esta flexibilidad permite manejar datos con estructuras cambiantes y relaciones no rígidas, lo cual es ideal para Roademics, donde las necesidades de datos pueden variar constantemente según las interacciones del usuario y los ajustes de funcionalidades. |
+| **Estructura**                    | La estructura de una base de datos relacional es rígida y requiere la definición previa de tablas y sus relaciones. Cualquier cambio en el modelo de datos, como agregar un nuevo atributo o modificar una relación, puede generar migraciones complejas y riesgosas. En Roademics, esto podría ralentizar la incorporación de nuevas características o ajustes en la funcionalidad. | Las bases no relacionales permiten una estructura mucho más flexible, en la que los datos pueden cambiar y evolucionar sin necesidad de modificar un esquema predefinido. Esto permite a Roademics adaptarse rápidamente a nuevas necesidades, como cambios en la estructura de los nodos o la adición de nuevos tipos de reacciones. |
+| **Consulta**                      | Utilizan SQL, un lenguaje robusto y estandarizado que ofrece operaciones avanzadas para la manipulación de datos. Sin embargo, realizar consultas sobre datos altamente interrelacionados o distribuidos puede volverse complejo y menos eficiente. Esto podría ser una limitación en Roademics, donde los usuarios requieren respuestas rápidas en tiempo real. | Las bases no relacionales emplean lenguajes más específicos y optimizados para cada caso, como el lenguaje de consultas de MongoDB. Este enfoque permite consultas rápidas y simples sobre grandes volúmenes de datos no estructurados, lo cual es clave para la velocidad de Roademics en funciones como la búsqueda de roadmaps y las recomendaciones de IA. |
+| **Escalabilidad**                 | Las bases relacionales escalan principalmente de manera vertical, lo que implica mejorar la capacidad del servidor existente, una opción costosa y limitada en términos de rendimiento. En Roademics, esto podría generar problemas si la cantidad de usuarios crece exponencialmente. | Las bases no relacionales están diseñadas para escalar horizontalmente, lo que significa que pueden distribuir los datos entre múltiples servidores con facilidad. Esto es ideal para Roademics, donde se espera un crecimiento continuo en el número de usuarios y datos generados por las interacciones. |
+| **Relaciones**                    | Las bases relacionales son excelentes para modelar relaciones complejas entre entidades. Por ejemplo, las conexiones entre usuarios o nodos en un roadmap pueden representarse claramente con claves foráneas. Sin embargo, este modelo puede volverse lento y difícil de mantener cuando las relaciones son numerosas o los datos cambian frecuentemente. | Aunque menos adecuadas para relaciones muy complejas, las bases no relacionales permiten almacenar datos de forma desnormalizada, lo que agiliza las lecturas. Esto beneficia a Roademics en casos como la visualización de roadmaps completos o las interacciones de los usuarios con recomendaciones de IA, donde se prioriza la velocidad sobre la estructura. |
+| **Transacciones**                 | Ofrecen soporte completo para propiedades ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad), garantizando que las operaciones críticas sean seguras y consistentes. En Roademics, esto sería importante para funciones como la gestión de pagos de membresías. | Aunque algunas bases no relacionales soportan ACID, muchas priorizan la alta disponibilidad y la velocidad, utilizando modelos de consistencia eventual. Para Roademics, esto es ideal en funciones como la entrega de notificaciones o la actualización en tiempo real de datos de interacción. |
+| **Rendimiento**                   | Las bases relacionales son eficientes para volúmenes moderados de datos, pero su rendimiento puede degradarse significativamente cuando se enfrentan a grandes cantidades de datos distribuidos. En Roademics, esto podría ser un cuello de botella si la plataforma alcanza millones de usuarios activos. | Las bases no relacionales están diseñadas para manejar grandes volúmenes de datos distribuidos de manera eficiente, ofreciendo un rendimiento óptimo incluso bajo altas cargas de trabajo. Esto las convierte en la opción ideal para Roademics, especialmente en funcionalidades como el seguimiento de interacciones masivas y el análisis de datos. |
+| **Compatibilidad**                | Son altamente compatibles con sistemas y herramientas tradicionales, como aplicaciones analíticas basadas en SQL. Sin embargo, pueden tener dificultades para integrarse con arquitecturas modernas basadas en microservicios. | Las bases no relacionales se integran perfectamente con aplicaciones modernas y arquitecturas distribuidas, lo que es clave para Roademics al implementar microservicios para funcionalidades como IA, notificaciones y analítica. |
+| **Costo de implementación**       | Los costos suelen ser más altos debido a la necesidad de hardware más potente y a la complejidad en la configuración inicial y el mantenimiento. | Generalmente, son más económicas de implementar y operar, especialmente en infraestructuras en la nube, lo cual es beneficioso para Roademics en términos de escalabilidad y optimización de recursos. |
+| **Facilidad de mantenimiento**    | El mantenimiento puede ser más complicado debido a los esquemas rígidos y las dependencias entre tablas, lo que aumenta el tiempo necesario para realizar cambios. | Las bases no relacionales son más fáciles de mantener, ya que permiten realizar cambios en los datos sin afectar la estructura existente. Esto facilita la rápida adaptación de Roademics a nuevas características y necesidades. |
 
-## Reaction
+Ante esta tabla comparativa, hemos concluido que la mejor opción para Roademics es implementar un modelo de base de datos no relacional. Esta decisión no se basa únicamente en factores económicos como los costos de implementación y mantenimiento, aunque estos suelen ser prioritarios para muchas empresas. La elección se fundamenta principalmente en las capacidades técnicas y la alineación de este modelo con las necesidades específicas de la plataforma.
 
-Descripción: Captura la reacción de un usuario a un post o comentario, como por ejemplo, un "me gusta".
+Un modelo no relacional destaca por su excepcional rendimiento al manejar esquemas flexibles, como los mapas de rutas profesionales que constituyen una de las características centrales de Roademics. Además, la capacidad de almacenar documentos de manera eficiente facilita la estructura de networking de la aplicación, mejorando la experiencia del usuario. Otro factor crucial es la escalabilidad horizontal inherente a este tipo de bases de datos, que permite manejar eficientemente el crecimiento en usuarios y datos sin comprometer el rendimiento.
 
-Atributos:
+Asimismo, las bases de datos no relacionales ofrecen una alta compatibilidad con diferentes modelos y sistemas, lo cual es esencial para una plataforma innovadora y en constante evolución como Roademics. Por último, la velocidad de las consultas, optimizada por la estructura flexible y adaptativa del modelo no relacional, asegura un tiempo de respuesta rápido y eficiente para todas las secciones y funcionalidades de la aplicación. Esta combinación de beneficios hace que el modelo no relacional sea una solución robusta y sostenible para el proyecto.
 
-userId: Identificador del usuario que reacciona.
+Ya con el modelo de base de datos a seguir completamente definido, podemos pasar con la propia fase de diseño. La fase de diseño implica decisiones complejas que determinan cómo los datos se representarán y se interconectarán, considerando las necesidades específicas de la aplicación. Entre estas decisiones se incluye la identificación de los tipos de datos que se deben almacenar, la definición de relaciones entre entidades o tablas, y la aplicación de restricciones de integridad. Estas últimas son fundamentales para mantener la coherencia, exactitud y validez de los datos, previniendo inconsistencias y errores que puedan comprometer el funcionamiento del sistema.
 
-postId: Identificador del post al que se reacciona.
+Además, el diseño de la base de datos requiere un análisis exhaustivo de factores clave como el rendimiento, la escalabilidad y la resiliencia. El rendimiento se refiere a la capacidad de la base de datos para manejar de manera eficiente grandes volúmenes de transacciones y consultas simultáneas, optimizando el tiempo de respuesta. La escalabilidad, por su parte, garantiza que la base de datos pueda adaptarse a un aumento en la cantidad de datos o usuarios sin una degradación significativa en el rendimiento. Por último, la capacidad de recuperación asegura que la base de datos pueda restaurarse rápidamente en caso de fallos, minimizando el impacto sobre la operación del sistema.
 
-reactionType: Tipo de reacción realizada, puede ser un enum que incluye tipos como 'like', 'dislike', etc.
+Un diseño bien ejecutado no solo satisface las necesidades actuales del sistema, sino que también anticipa futuras ampliaciones y adaptaciones, proporcionando una base sólida para el crecimiento y la evolución tecnológica. Este enfoque holístico, que combina aspectos técnicos y estratégicos, convierte al diseño de bases de datos en un componente central del desarrollo de software moderno (Freeman & Robson, 2021).
 
-Métodos:
-
-addReactionToPost(UUID): Agrega una reacción a un post.
-
-addReactionToComment(UUID): Agrega una reacción a un comentario.
-
-setReactionTypeByString(String): Establece el tipo de reacción basado en una cadena de texto.
-
-
-## Post
-Descripción: Representa un post en la plataforma, el cual puede contener texto, reacciones y estar asociado a diferentes comentarios.
-
-Atributos:
-
-profileId: Identificador del perfil que publica el post.
-
-title: Título del post.
-
-body: Cuerpo o contenido principal del post.
-
-reactions: Lista de reacciones asociadas al post.
-
-Métodos:
-
-updatePost(): Actualiza la información del post.
-
-deletePost(): Elimina el post.
-
-addComment(): Añade un comentario al post.
-
-addReaction(): Añade una reacción al post.
-
-reactPost(UUID): Permite reaccionar a un post específico.
-
-
-## Connection
-
-Descripción: Representa una conexión o relación entre dos usuarios en la plataforma, facilitando la interacción social.
-
-Atributos:
-
-connectedUserId: Identificador del usuario con el que se establece la conexión.
-
-status: Estado de la conexión, que puede ser un enum con valores como 'pending', 'accepted', 'rejected'.
-
-Métodos:
-
-sendInvitation(UUID): Envía una invitación de conexión a otro usuario.
-
-
-## Membership
-
-Descripción: Detalla la membresía de un usuario en la plataforma, incluyendo características como fecha de expiración y lista de características.
-
-Atributos:
-
-profileId: Identificador del perfil asociado a la membresía.
-
-expirationDate: Fecha de expiración de la membresía.
-
-price: Precio de la membresía.
-
-featuresList: Lista de características o beneficios incluidos en la membresía.
-
-membershipType: Tipo de membresía, que puede ser un enum con valores como 'basic', 'premium'.
-
-Métodos:
-
-addMembershipToUser(): Añade una membresía a un usuario.
-
-renewMembership(): Renueva la membresía de un usuario.
-
-endMembership(): Finaliza la membresía de un usuario.
-
-
-## User
-
-Descripción: Representa un usuario en la plataforma, incluyendo información básica como nombre de usuario y contraseña.
-
-Atributos:
-
-id: Identificador único del usuario.
-
-username: Nombre de usuario para el acceso a la plataforma.
-
-password: Contraseña del usuario.
-
-email: Dirección de correo electrónico del usuario.
-Métodos:
-
-updateUsername(String): Actualiza el nombre de usuario.
-
-updatePassword(String): Actualiza la contraseña del usuario.
-
-
-## Profile
-
-Descripción: Perfil del usuario en la plataforma, conteniendo información personal como número de teléfono y dirección.
-
-Atributos:
-
-phoneNumber: Número de teléfono del usuario.
-
-name: Nombre personal del usuario.
-
-address: Dirección física del usuario.
-
-userType: Tipo de usuario, que puede ser un enum con valores como 'individual', 'business'.
-
-connections: Lista de conexiones del usuario.
-
-Métodos:
-
-updateName(String): Actualiza el nombre del usuario.
-
-updateEmail(String): Actualiza el correo electrónico del usuario.
-
-updateAddress(String, String, String, String): Actualiza la dirección del usuario.
-
-## Node:
-
-Descripción: Representa un nodo en un roadmap, como por ejemplo un curso o una habilidad. Es una entidad porque tiene identidad única y sus atributos pueden cambiar a lo largo del tiempo.
-
-Atributos:
-
-nodeId: ID único del nodo.
-
-title: Título del nodo (ejemplo: "Java", "Front-End").
-
-description: Descripción del nodo (modificada por AIRecommendation).
-
-isStartNode: Indica si es el nodo inicial.
-
-isEndNode: Indica si es el nodo final.
-
-
-## Edge
-
-Descripción: Representa una arista que conecta dos nodos en el roadmap. Define la relación entre los nodos, como "Prerequisite" o "Optional". Es una entidad porque tiene un identificador único y su estado puede cambiar.
-Atributos:
-
-fromNodeId: ID del nodo de origen.
-
-toNodeId: ID del nodo de destino.
-
-label: Etiqueta que describe la relación entre los nodos.
-
-description: Descripción de la relación entre los nodos (modificada por AIRecommendation).
-
-relationshipType: Tipo de relación entre los nodos (ejemplo: "Prerequisite", "Optional").
-
-
-## AIInteraction
-
-Descripción: Representa una interacción entre el usuario y la IA. Captura tanto el prompt enviado por el usuario como la respuesta de la IA. Es una entidad porque cada interacción es única y tiene identidad.
-
-Atributos:
-
-interactionId: ID único de la interacción.
-
-roadmapId: ID del roadmap al que pertenece la interacción.
-
-userPrompt: Prompt que el usuario envió a la IA.
-
-aiResponse: Respuesta generada por la IA.
-
-
-## AIRecommendation
-
-Descripción: Representa una recomendación generada por la IA que sugiere modificaciones en los nodos y las aristas de un roadmap. Es una entidad porque tiene identidad única y modifica el estado del roadmap.
-
-Atributos:
-
-recommendationId: ID único de la recomendación.
-
-roadmapId: ID del roadmap asociado.
-
-nodes: Lista de nodos a modificar (entidad Node).
-
-edges: Lista de aristas a modificar (entidad Edge).
-
-promptResponse: Respuesta generada por la IA que contiene las recomendaciones.
-
-
-## Roadmap
-Descripción: El agregado principal que representa un roadmap. Contiene nodos (Node) y aristas (Edge) que son parte del roadmap. Las modificaciones al roadmap (como las recomendaciones de IA) se aplican a través de este agregado.
-
-Entidades asociadas:
-
-Node: Representa los nodos dentro del roadmap.
-
-Edge: Representa las relaciones entre los nodos dentro del roadmap.
-
-
-## PromptResponse
-
-Descripción: Representa la respuesta generada por la IA en base a un prompt. Es un Value Object porque su valor es lo que importa, no su identidad.
-
-Atributos:
-
-response: Texto generado por la IA en respuesta al prompt del usuario.
-
-
-## UserPrompt
-
-Descripción: Representa el prompt enviado por el usuario a la IA. Es un Value Object porque solo interesa su valor y no su identidad.
-
-Atributos:
-
-prompt: Texto del prompt enviado a la IA.
-
-#### 3.2.2.3. Database Design.
-
-El diseño de base de datos es un proceso esencial para la estructuración y organización de los datos en un sistema de software, con el objetivo de satisfacer los requisitos funcionales y no funcionales de dicho sistema. Este proceso implica la toma de decisiones cruciales sobre cómo se almacenarán, gestionarán y accederán los datos, para asegurar que la base de datos sea eficiente, íntegra y segura.
-
-Durante la fase de diseño, se especifican los tipos de datos a almacenar y las relaciones entre las diferentes entidades o tablas, garantizando la correcta representación de los datos y su interconexión. Además, se implementan restricciones de integridad que aseguran la coherencia y precisión de los datos almacenados, evitando inconsistencias. Asimismo, se toman en cuenta factores como el rendimiento, la escalabilidad y la capacidad de recuperación de la base de datos para asegurar su funcionamiento óptimo a largo plazo. En resumen, el proceso de diseño de bases de datos no solo establece la base estructural del sistema, sino que también optimiza su operatividad y capacidad de expansión, convirtiéndose en un componente crítico en el desarrollo de software eficiente y robusto (Freeman & Robson, 2021).
-
-
-#### 3.2.2.4. Database Diagram.
+#### 3.2.2.4. Database Diagram
 
 Los diagramas de bases de datos son representaciones visuales que permiten ilustrar la estructura y las relaciones entre los elementos de una base de datos dentro de un sistema de software. A través de ellos, se muestra de manera gráfica cómo se organizan las tablas, las columnas y las relaciones entre las entidades, facilitando así una comprensión clara de la arquitectura subyacente.
 
-Estas representaciones son herramientas valiosas tanto para el diseño inicial como para la documentación y el mantenimiento continuo del sistema. Permiten que los equipos de desarrollo y las partes interesadas visualicen la estructura de los datos, asegurando una mejor comunicación y coordinación durante todo el ciclo de vida del proyecto. Los diagramas de bases de datos son especialmente útiles para identificar interdependencias y garantizar que el diseño cumpla con los requisitos de integridad y rendimiento, lo que contribuye a la optimización y escalabilidad del sistema.
+Estas representaciones son herramientas valiosas tanto para el diseño inicial como para la documentación y el mantenimiento continuo del sistema. Permiten que los equipos de desarrollo y las partes interesadas visualicen la estructura de los datos, asegurando una mejor comunicación y coordinación durante todo el ciclo de vida del proyecto. Los diagramas de bases de datos son especialmente útiles para identificar interdependencias y garantizar que el diseño cumpla con los requisitos de integridad y rendimiento, lo que contribuye a la optimización y escalabilidad del sistema. 
 
-Para el desarrollo del diseño del software orientado a objetos, decidimos utilizar una base de datos no relacional. Por ende, se utilizó colecciones y se relacionó según fue conveniente en el siguiente diagrama: 
+###### Figura 59
+*Diagrama de base de datos no relacional de la aplicación de Roademics*
 
-<img src="/assets/img/capitulo-3/Software-Object-Oriented-Design/NoSQL_Database_Roademics.png">
+<img src="/assets/img/capitulo-3/software-object-oriented-design/nosql-database-diagram.png" alt="Diagrama de base de datos no relacional de Roademics.">
 
-##### Users
+En la siguiente sección se presenta el diccionario de tablas correspondiente al diseño de la base de datos implementado para Roademics. Este diccionario constituye una descripción detallada de las tablas que componen la estructura de datos, proporcionando una visión técnica y organizada de cada entidad que respalda el sistema.
 
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de un usuario</td>
-        </tr>
-         <tr>
-            <td>username</td>
-            <td>string</td>
-            <td>nombre de usuario</td>
-        </tr>
-         <tr>
-            <td>password</td>
-            <td>string</td>
-            <td>contrasenia de usuario</td>
-        </tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación del usuario</td>
-        </tr>
-         <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de datos del usuario</td>
-        </tr>
- </table>
+Al detallar la funcionalidad de cada tabla en el contexto del sistema, este diccionario permite identificar cómo se almacenan y gestionan los datos críticos que alimentan las funcionalidades de la aplicación, como la creación de mapas de rutas, la interacción entre usuarios en la red de networking y la gestión de perfiles y suscripciones. Asimismo, este recurso es esencial para asegurar la integridad, escalabilidad y eficiencia de la base de datos, al tiempo que sienta las bases para futuras extensiones o integraciones del sistema.
 
-##### Profiles
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de un usuario</td>
-        </tr>
-        <tr>
-            <td>email</td>
-            <td>string</td>
-            <td>correo de usuario</td>
-        </tr>
-         <tr>
-            <td>userType</td>
-            <td>enum</td>
-            <td>tipos de usuario disponibles</td>
-        </tr>
-         <tr>
-            <td>personalInfo</td>
-            <td>object</td>
-            <td>conjunto de datos de información personal</td>
-        </tr>
-        <tr>
-            <td>biography</td>
-            <td>string</td>
-            <td>biografía del usuario</td>
-        </tr>
-         <tr>
-            <td>connections</td>
-            <td>object array</td>
-            <td>lista de conexiones de usuario</td>
-        </tr>
-         <tr>
-            <td>conversations</td>
-            <td>objectid array</td>
-            <td>lista de IDs de conversaciones del usuario</td>
-        </tr>
-         <tr>
-            <td>membership</td>
-            <td>objectId</td>
-            <td>TIpo de membresía del usuario</td>
-        </tr>
-         <tr>
-            <td>notifications</td>
-            <td>Object array</td>
-            <td>arreglo de notificaciones</td>
-        </tr>
-         <tr>
-            <td>preferencias</td>
-            <td>Object array</td>
-            <td>arreglo de preferencias</td>
-        </tr>
-         <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación del usuario</td>
-        </tr>
-         <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de datos del usuario</td>
-        </tr>
-</table>
+###### Tabla 15
+*Diccionario de las tablas presentadas dentro del diagrama de base de datos no relacional de Roademics*
 
-  ##### Memberships
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de una membresía</td>
-        </tr>
-        <tr>
-            <td>type</td>
-            <td>enum</td>
-            <td>Lista de membresías disponibles</td>
-        </tr>
-        <tr>
-            <td>price</td>
-            <td>double</td>
-            <td>Precio de la membresía</td>
-        </tr>
-        <tr>
-            <td>feature</td>
-            <td>string array</td>
-            <td>Arreglo de funcionalidades según membresía</td>
-        </tr>
- </table>
+### Users
+| Atributo    | Tipo       | Descripción                                   |
+|-------------|------------|-----------------------------------------------|
+| _id         | objectId   | Identificador único de un usuario            |
+| username    | string     | Nombre de usuario                            |
+| password    | string     | Contraseña de usuario                        |
+| createdAt   | date       | Fecha de creación del usuario                |
+| updatedAt   | date       | Fecha de actualización de datos del usuario  |
 
- ##### Roadmaps
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>ownerId</td>
-            <td>objectId</td>
-            <td>Identificador único del autor del mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>title</td>
-            <td>string</td>
-            <td>Titulo/nombre del mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>isAiRecommended</td>
-            <td>bool</td>
-            <td>Booleano que determina si el mapa de ruta es generado con IA o no</td>
-        </tr>
-        <tr>
-            <td>description</td>
-            <td>string</td>
-            <td>Descripción opcional del mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>nodes</td>
-            <td>object array</td>
-            <td>Arreglo de objetos que contiene la información de cada nodo</td>
-        </tr>
-        <tr>
-            <td>edges</td>
-            <td>object array</td>
-            <td>Arreglo de objetos que contiene la información de conexiónes de cada nodo</td>
-        </tr>
-        <tr>
-            <td>visibility</td>
-            <td>enum</td>
-            <td>Enumerador tipos de visibilidad disponible (público / privado)</td>
-        </tr>
-        <tr>
-            <td>AI_recommendations</td>
-            <td>objectId</td>
-            <td>Identificador único de recomendaciones de IA para el mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>AI_interactions</td>
-            <td>objectId</td>
-            <td>Identificador único de las interacciones de IA para generar el mapa de ruta</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de mapa de ruta</td>
-        </tr>
-                <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de mapa de ruta</td>
-        </tr>
- </table>
+### Profiles
+| Atributo        | Tipo            | Descripción                                        |
+|-----------------|-----------------|--------------------------------------------------|
+| _id             | objectId        | Identificador único de un usuario                |
+| email           | string          | Correo de usuario                                |
+| userType        | enum            | Tipos de usuario disponibles                     |
+| personalInfo    | object          | Conjunto de datos de información personal        |
+| biography       | string          | Biografía del usuario                            |
+| connections     | object array    | Lista de conexiones de usuario                   |
+| conversations   | objectId array  | Lista de IDs de conversaciones del usuario       |
+| membership      | objectId        | Tipo de membresía del usuario                    |
+| notifications   | object array    | Arreglo de notificaciones                        |
+| preferencias    | object array    | Arreglo de preferencias                          |
+| createdAt       | date            | Fecha de creación del usuario                    |
+| updatedAt       | date            | Fecha de actualización de datos del usuario      |
 
- ##### AI interactions
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identficador único de interacciones generadas en chat con IA</td>
-        </tr>
-        <tr>
-            <td>userId</td>
-            <td>objectId</td>
-            <td>Identficador único de usuario que interactua con IA</td>
-        </tr>
-        <tr>
-            <td>messages</td>
-            <td>object array</td>
-            <td>Arreglo de objetos de mensajes que generaran el roadmap con IA</td>
-        </tr>
-        <tr>
-            <td>suggestedRoadmap</td>
-            <td>objectId</td>
-            <td>Identificador único de Mapas generados con IA</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de interacciones con IA</td>
-        </tr>
-                <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de interacción con IA</td>
-        </tr>
- </table>
+### Memberships
+| Atributo | Tipo         | Descripción                               |
+|----------|--------------|------------------------------------------|
+| _id      | objectId     | Identificador único de una membresía     |
+| type     | enum         | Lista de membresías disponibles          |
+| price    | double       | Precio de la membresía                   |
+| feature  | string array | Arreglo de funcionalidades según membresía|
 
- ##### AI recommendations
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identficador único de recomendaciones generadas por IA</td>
-        </tr>
-        <tr>
-            <td>userId</td>
-            <td>objectId</td>
-            <td>Identficador único de usuario que utliza las recomendaciones con IA</td>
-        </tr>
-        <tr>
-            <td>generatedFor</td>
-            <td>objectId</td>
-            <td>Identficador único del roadmap donde se genera la recomendación</td>
-        </tr>
-        <tr>
-            <td>suggestions</td>
-            <td>object array</td>
-            <td>Arreglo de objetos del contenido de recomendaciones</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de recomendación</td>
-        </tr>
- </table>
+### Roadmaps
+| Atributo         | Tipo            | Descripción                                        |
+|------------------|-----------------|--------------------------------------------------|
+| _id              | objectId        | Identificador único de mapa de ruta              |
+| ownerId          | objectId        | Identificador único del autor del mapa de ruta   |
+| title            | string          | Título/nombre del mapa de ruta                   |
+| isAiRecommended  | bool            | Booleano que determina si el mapa es de IA o no  |
+| description      | string          | Descripción opcional del mapa de ruta            |
+| nodes            | object array    | Arreglo de nodos del mapa                        |
+| edges            | object array    | Conexiones entre nodos del mapa                  |
+| visibility       | enum            | Tipos de visibilidad (público / privado)         |
+| AI_recommendations| objectId        | Recomendaciones de IA asociadas                  |
+| AI_interactions  | objectId        | Interacciones de IA para generar el mapa         |
+| createdAt        | date            | Fecha de creación del mapa                       |
+| updatedAt        | date            | Fecha de actualización del mapa                  |
 
-  ##### Posts
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_Id</td>
-            <td>objectId</td>
-            <td>Identificador único de publicación</td>
-        </tr>
-         <tr>
-            <td>usedId</td>
-            <td>objectId</td>
-            <td>Identificador único de creador de publicación</td>
-        </tr>
-        <tr>
-            <td>body</td>
-            <td>string</td>
-            <td>Contenido de la publicación</td>
-        </tr>
-        <tr>
-            <td>media</td>
-            <td>object array</td>
-            <td>Inserción de contenido muntimedia</td>
-        </tr>
-        <tr>
-            <td>visibility</td>
-            <td>enum</td>
-            <td>Condición de visiblidad (público / privado)</td>
-        </tr>
-        <tr>
-            <td>reactions</td>
-            <td>object array</td>
-            <td>arreglo de objetos de reacciones de la publicacion</td>
-        </tr>
-        <tr>
-            <td>comments</td>
-            <td>object array</td>
-            <td>arreglo de objetos de comentarios de la publicacion</td>
-        </tr>
-        <tr>
-            <td>tags</td>
-            <td>string array</td>
-            <td>categoría / etiquetas de la publicación</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de la publicación</td>
-        </tr>
-        <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de la publicación</td>
-        </tr>
- </table>
+### AI Interactions
+| Atributo         | Tipo            | Descripción                                      |
+|------------------|-----------------|------------------------------------------------|
+| _id             | objectId        | Identificador único de interacciones con IA    |
+| userId          | objectId        | Usuario que interactúa con IA                  |
+| messages        | object array    | Mensajes que generan el roadmap                |
+| suggestedRoadmap| objectId        | Mapas generados con IA                         |
+| createdAt       | date            | Fecha de creación de la interacción            |
+| updatedAt       | date            | Fecha de actualización de la interacción       |
 
- ##### Connections
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de conexiones</td>
-        </tr>
-        <tr>
-            <td>userId</td>
-            <td>objectId</td>
-            <td>Identificador único de usuarios que mandan conexión</td>
-        </tr>
-        <tr>
-            <td>connectedUserId</td>
-            <td>objectId</td>
-            <td>Identificador único de usuarios que reciben conexión</td>
-        </tr>
-        <tr>
-            <td>status</td>
-            <td>enum</td>
-            <td>Lista de estados disponibles (pending / accepted / dismissed) </td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de la conexión</td>
-        </tr>
-        <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de la contexión</td>
-        </tr>
- </table>
+### AI Recommendations
+| Atributo      | Tipo         | Descripción                                       |
+|---------------|--------------|-------------------------------------------------|
+| _id           | objectId     | Identificador único de recomendaciones de IA    |
+| userId        | objectId     | Usuario que utiliza las recomendaciones de IA   |
+| generatedFor  | objectId     | Roadmap asociado a la recomendación             |
+| suggestions   | object array | Contenido de las recomendaciones                |
+| createdAt     | date         | Fecha de creación de la recomendación           |
 
-  ##### Conversations
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de una conversación</td>
-        </tr>
-        <tr>
-            <td>participants</td>
-            <td>objectId array</td>
-            <td>Arreglo de participantes de la conversación</td>
-        </tr>
-        <tr>
-            <td>lastMessage</td>
-            <td>string</td>
-            <td>Último mensaje registrado</td>
-        </tr>
-        <tr>
-            <td>unreadCount</td>
-            <td>object</td>
-            <td>Objeto que cuenta los mensajes sin leer por conversación</td>
-        </tr>
-        <tr>
-            <td>messages</td>
-            <td>objectId array</td>
-            <td>Arreglo de mensajes por conversación</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de conversación</td>
-        </tr>
-        <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de conversación</td>
-        </tr>
- </table>
+### Posts
+| Atributo   | Tipo            | Descripción                                       |
+|------------|-----------------|-------------------------------------------------|
+| _id        | objectId        | Identificador único de la publicación           |
+| userId     | objectId        | Creador de la publicación                       |
+| body       | string          | Contenido de la publicación                     |
+| media      | object array    | Contenido multimedia                            |
+| visibility | enum            | Condición de visibilidad (público / privado)    |
+| reactions  | object array    | Reacciones de la publicación                    |
+| comments   | object array    | Comentarios de la publicación                   |
+| tags       | string array    | Categorías o etiquetas de la publicación        |
+| createdAt  | date            | Fecha de creación de la publicación             |
+| updatedAt  | date            | Fecha de actualización de la publicación        |
 
-  ##### Messages
-<table>
-        <tr>
-            <td>Atributo</td>
-            <td>Tipo</td>
-            <td>Descripcion</td>
-        </tr>
-        <tr>
-            <td>_id</td>
-            <td>objectId</td>
-            <td>Identificador único de mensajes</td>
-        </tr>
-                <tr>
-            <td>senderId</td>
-            <td>objectId</td>
-            <td>Identificador único de usuario que manda el mensaje</td>
-        </tr>
-        <tr>
-            <td>receiverId</td>
-            <td>objectId</td>
-            <td>Identificador único de usuario que recibe el mensaje</td>
-        </tr>
-        <tr>
-            <td>content</td>
-            <td>string</td>
-            <td>Contenido de mensaje</td>
-        </tr>
-        <tr>
-            <td>media</td>
-            <td>object array</td>
-            <td>Inserción de contenido multimedia</td>
-        </tr>
-        <tr>
-            <td>status</td>
-            <td>enum</td>
-            <td>Lista de estados disponibles</td>
-        </tr>
-        <tr>
-            <td>conversationId</td>
-            <td>objectId</td>
-            <td>Identificador único de la conversación donde pertenecen los mensajes</td>
-        </tr>
-        <tr>
-            <td>createdAt</td>
-            <td>date</td>
-            <td>Fecha de creación de mensaje</td>
-        </tr>
-        <tr>
-            <td>updatedAt</td>
-            <td>date</td>
-            <td>Fecha de actualización de mensaje</td>
-        </tr>
- </table>
+### Connections
+| Atributo         | Tipo         | Descripción                                     |
+|------------------|--------------|-----------------------------------------------|
+| _id              | objectId     | Identificador único de la conexión            |
+| userId           | objectId     | Usuario que envía la conexión                 |
+| connectedUserId  | objectId     | Usuario que recibe la conexión                |
+| status           | enum         | Estado de la conexión (pending/accepted/dismissed) |
+| createdAt        | date         | Fecha de creación de la conexión              |
+| updatedAt        | date         | Fecha de actualización de la conexión         |
+
+### Conversations
+| Atributo      | Tipo            | Descripción                                     |
+|---------------|-----------------|-----------------------------------------------|
+| _id           | objectId        | Identificador único de la conversación        |
+| participants  | objectId array  | Participantes de la conversación              |
+| lastMessage   | string          | Último mensaje registrado                     |
+| unreadCount   | object          | Cuenta de mensajes sin leer                  |
+| messages      | objectId array  | Mensajes asociados a la conversación          |
+| createdAt     | date            | Fecha de creación de la conversación          |
+| updatedAt     | date            | Fecha de actualización de la conversación     |
+
+### Messages
+| Atributo         | Tipo            | Descripción                                    |
+|------------------|-----------------|----------------------------------------------|
+| _id             | objectId        | Identificador único del mensaje              |
+| senderId        | objectId        | Usuario que envía el mensaje                 |
+| receiverId      | objectId        | Usuario que recibe el mensaje                |
+| content         | string          | Contenido del mensaje                        |
+| media           | object array    | Contenido multimedia                         |
+| status          | enum            | Estado del mensaje                           |
+| conversationId  | objectId        | Conversación a la que pertenece el mensaje   |
+| createdAt       | date            | Fecha de creación del mensaje                |
+| updatedAt       | date            | Fecha de actualización del mensaje           |
+
+---
