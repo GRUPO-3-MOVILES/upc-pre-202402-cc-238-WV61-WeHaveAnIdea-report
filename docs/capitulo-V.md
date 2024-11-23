@@ -1668,14 +1668,14 @@ Segmento 2: Empresas y Reclutadores en busca de personal capacitado.
 <img src="/assets/img/capitulo-2/interviews/records/entrevista1-segmento1.png" alt="Primera entrevista de validación de nuestro segmento objetivo 1 a Fernando Lizano Coll Cardenas." width="550" height="300">
 
 **Datos principales:**
-- Nombre completo del entrevistado: Fernando Lizano Coll Cardenas
-- Edad: 19 años
-- Distrito: Punta Hermosa
-- Link: [Entrevista a Fernando Lizano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- Inicio de la entrevista: [0:50](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D)
-- Duración: 7 minutos y 3 segundos
-- Entrevistador: Pescorán Angulo, Juan Fabritzzio
-- Resumen de Entrevista: Fernando Lizano, un estudiante de 19 años de ingeniería, aún no trabaja pero está en búsqueda de mejorar su perfil académico, el cual considera insuficiente. Aspira a aprender más y planea su ruta de aprendizaje identificando áreas a mejorar y buscando cursos, certificados y proyectos relevantes. Reconoce la importancia de las herramientas digitales y plataformas de aprendizaje para acceder a conocimientos especializados y mantenerse actualizado. Utiliza LinkedIn para compartir logros académicos y construir una red de contactos, y emplea tanto LinkedIn como Computrabajo para informarse sobre vacantes laborales. A la hora de evaluar una vacante, prioriza que sus habilidades coincidan con los requisitos del puesto y valora mucho la claridad de las empresas sobre las aptitudes y características que buscan en los candidatos, lo que le permite prepararse mejor y evaluar su idoneidad para el puesto.
+- Nombre completo del entrevistado: Max Sabino Arostegui
+- Edad: 23 años
+- Distrito: Chorrillos
+- Link: [Entrevista a Max Sabino]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBT8bMiopqemAQs5_TLl4_eg?e=p6B8JK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/Ee7QFIO_sbpOmzJwdus8f68Bqu8dzgzU8Xl65Yh9TobRjA?e=swxuI8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+- Inicio de la entrevista: [0:50]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c936_upc_edu_pe/EQ3et4X8YHZNhSyy5eJO0UEBPj6r0v3Cyv0xSaHuJNK4Wg?e=5uuGOI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTAuNDd9fQ%3D%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/Ee7QFIO_sbpOmzJwdus8f68Bqu8dzgzU8Xl65Yh9TobRjA?e=swxuI8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+- Duración: 11 minutos y 6 segundos
+- Entrevistador: Valenzuela Huillacaya, Aldhair Johan Juan
+- Resumen de Entrevista: Max Sabino, un estudiante de 23 años de ingeniería, expresó su experiencia con la aplicación, resaltando tanto aspectos positivos como áreas de mejora. Destacó que la interfaz de usuario es intuitiva y visualmente agradable, lo que facilita su uso y genera una experiencia satisfactoria. No obstante, señaló que hay aspectos que podrían perfeccionarse, como la corrección de bugs que afectan la fluidez de la navegación y el mejoramiento del diseño en la creación de roadmaps, el cual considera que podría ser más claro y flexible para adaptarse a las diversas necesidades de los usuarios.
 
 **Entrevista N°2:**
 
