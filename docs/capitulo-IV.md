@@ -24,7 +24,7 @@ Página oficial de Github: https://github.com/
 
 ---
 
-**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, h
+**Requirements Management**: Para asegurar una organización efectiva del trabajo en nuestro equipo, en esta sección hemos implementado una metodología que utiliza herramientas diseñadas para la asignación y seguimiento de tareas, así como para la gestión de los requisitos del proyecto. En particular, hemos empleado una serie de programas que presenten listas organizadas junto a tableros con los objetivos y metas que necesitamos completar, ademas de todos los puntos que falten completar.
 
 - Organización de tareas: Hemos adoptado ClickUp como nuestra herramienta principal para la gestión de tareas del backend. La plataforma ofrece una interfaz amigable que facilita la división de las actividades relacionadas con la infraestructura y el desarrollo del backend entre los miembros del equipo. Al crear tableros personalizados y asignar tareas específicas del backend, podemos establecer plazos, asignar responsables y monitorear el progreso de cada tarea técnica de manera eficiente. Esta configuración nos permite evaluar el avance en la implementación de la API, servicios externos y despliegues, así como analizar el desempeño general del equipo de backend. ClickUp también permite revisar las contribuciones individuales y el trabajo realizado en la parte del servidor, promoviendo la transparencia y la colaboración efectiva dentro del equipo técnico.
 
@@ -143,6 +143,7 @@ Para el despliegue de la Landing Page, se utilizará GitHub Pages, que proporcio
 Página oficial de GitHub Pages: https://pages.github.com/
 
 - Despliegue del Backend: Se optará por utilizar servicios en la nube como AWS o Heroku, que proporcionan un entorno robusto y confiable para alojar aplicaciones. Estas plataformas ofrecen escalabilidad y monitorización en tiempo real, lo que asegura que el backend pueda manejar las demandas del sistema de manera eficiente. Además, su facilidad de configuración y despliegue automatizado contribuye a un proceso de implementación fluido y seguro.
+  
 ---
 
 **Software Document**: Esta sección detalla las herramientas y aplicaciones seleccionadas para la documentación exhaustiva del código y del software a lo largo del ciclo de vida del proyecto. Las herramientas deben ser intuitivas para todos los miembros del equipo y capaces de gestionar documentación extensa, con soporte para imágenes y una estructura de secciones clara y organizada.
@@ -165,27 +166,29 @@ A continuación, se proporciona una lista con los enlaces a la organización de 
 
 Repositorios en GitHub:
 
-- Organización: https://github.com/GRUPO-3-MOVILES 
+- Repositorio principal de la organización de Roademics: https://github.com/GRUPO-3-MOVILES 
 
-- Reporte: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
+- Repositorio del reporte y documentación de Roademics: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-report 
 
-- BackEnd: https://github.com/GRUPO-3-MOVILES/upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd 
+- Repositorio con todo el código correspondiente al BackEnd de Roademics: https://github.com/GRUPO-3-MOVILES/WeHaveIdea
 
+Asimismo, se brinda un enlace a todos los puntos desplegados de la aplicación por el lado del BackEnd:
+
+- Enlace del punto de visualización de Swagger del BackEnd de Roademics: https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/
 
 **Integrantes de la organización**:
 En esta sección, se presentarán todos los usuarios que forman parte de la organización de GitHub del proyecto WHAI, junto con sus nombres de usuario correspondientes. El objetivo es evitar confusiones sobre los autores de los commits en GitHub y facilitar la identificación de los colaboradores al revisar y analizar el reporte y el código desarrollado por nuestro equipo.
 
+###### Tabla 16
 
-###### Tabla 23.
-
-*Modelo de integrantes del equipo dentro de la página de organización de Github*
+*Modelo de integrantes del equipo para la programación de los servicios BackEnd de la aplicación móvil de Roademics dentro de la página de organización de Github*
 
 |**Nombre de Usuario**|**Imagen de Perfil**|**Nombre del Integrante del Equipo**|
 | ----- | ------ | ----- |
-| JuanPescoran | <img src="/assets/img/capitulo-4/profiles/Juan-github.PNG" alt="Pescorán Angulo, Juan Fabritzzio">| Pescorán Angulo, Juan Fabritzzio - U20221C936 |
-| FlavioTrigueros | <img src="/assets/img/capitulo-4/profiles/Flavio-github.PNG" alt="Trigueros Chumacero, Flavio Eduardo"> | Trigueros Chumacero, Flavio Eduardo - U202210190 |
-| AldhaValenzuelaH | <img src="/assets/img/capitulo-4/profiles/Aldhair-github.PNG" alt="Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
-| LucioY250 | <img src="/assets/img/capitulo-4/profiles/Lucio-github.PNG" alt="Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
+| JuanPescoran | <img src="/assets/img/capitulo-4/github-profiles/juan.png" alt="Imagen de perfil de Github del integrante Pescorán Angulo, Juan Fabritzzio">| Pescorán Angulo, Juan Fabritzzio - U20221C936 |
+| FlavioTrigueros | <img src="/assets/img/capitulo-4/github-profiles/flavio.png" alt="Imagen de perfil de Github del integrante Trigueros Chumacero, Flavio Eduardo"> | Trigueros Chumacero, Flavio Eduardo - U202210190 |
+| AldhaValenzuelaH | <img src="/assets/img/capitulo-4/github-profiles/aldhair.png" alt="Imagen de perfil de Github del integrante Valenzuela Huillcaya, Aldhair Johan Juan"> | Valenzuela Huillcaya, Aldhair Johan Juan - U20201F572 |
+| LucioY250 | <img src="/assets/img/capitulo-4/github-profiles/lucio.png" alt="Imagen de perfil de Github del integrante Yen Cerna, Lucio Heli"> | Yen Cerna, Lucio Heli - U202213143 |
 
 **GitFlow Workflow**:
 
@@ -203,14 +206,15 @@ Esta metodología garantiza una organización efectiva del flujo de trabajo, fac
 
 **Ramas de Funcionalidades (Feature Branches)**:
 
-###### Tabla 24.
+###### Tabla 17
 
-*Modelo de todas las ramas implementadas dentro de la organización del proyecto en Github.*
+*Modelo de todas las ramas implementadas en el repositorio del BackEnd de la aplicación de Roademics dentro de la organización del proyecto en Github.*
 
 | Nombre | Descripción |
 |--------|-------------|
 | feat/iam | Gestiona los cambios relacionados con la implementación del sistema de gestión de identidades y accesos (IAM) en el backend. Esta implementación asegura la autenticación, autorización y control de permisos de usuarios, garantizando la seguridad del sistema y un acceso adecuado a los recursos según los roles asignados. |
 | feat/roadmaps | Agrupa los cambios correspondientes a la gestión de los roadmaps en el backend, incluyendo la lógica para la creación, almacenamiento y procesamiento de los datos relacionados con los roadmaps de los usuarios. Esto abarca la implementación de endpoints para la manipulación de datos, así como la optimización de consultas y almacenamiento en la base de datos para asegurar un rendimiento eficiente. |
+| feat/profiles | Agrupa los cambios relacionados con la gestión de perfiles de usuario en el backend. Esta implementación abarca la creación, almacenamiento y manipulación de la información personal, profesional y preferencias de los usuarios dentro del sistema. Incluye la implementación de endpoints para permitir la creación y edición de perfiles, la validación de datos y la protección de la privacidad de los usuarios. |
 
 **Ramas Individuales**: Estas ramas se utilizan para desarrollos individuales realizados por los miembros del equipo en el backend. Los cambios se integran a las ramas principales mediante pull requests, que deben ser aprobados por el líder del equipo. Una vez que los cambios han sido completados y fusionados, estas ramas se eliminan para evitar la acumulación innecesaria de ramas y mantener un repositorio limpio y organizado.
 
@@ -218,18 +222,17 @@ Esta metodología garantiza una organización efectiva del flujo de trabajo, fac
 
 Para asegurar una convención clara y coherente en el nombramiento de ramas, así como en los modelos de pull requests y commits realizados por los miembros del equipo de backend, hemos establecido el siguiente formato estándar:
 
-Formato de Commit:
+**Formato de Commit:**
 
 |feat(branch): verb + brief description in English|
 |-------------------------------------------------|
 En este formato, "branch" debe indicar la rama en la que se han realizado los cambios propuestos para una nueva funcionalidad del backend. La descripción debe estar escrita en inglés y comenzar con un verbo que refleje claramente la naturaleza del cambio implementado. A continuación, se presenta una tabla con verbos recomendados para los mensajes de commit:
 
-###### Tabla 25
+###### Tabla 18
 *Modelo de escritura de verbos para todos los commits realizados en el proyecto de Github*
 
 | Verbo | Traducción | Uso en el proyecto de programación |
 |-------|------------|------------------------------------|
-
 |Add  |Añadir  | Utilizado para añadir nuevas funcionalidades, clases o módulos al backend. Ideal para commits en los que se implementan nuevas APIs, controladores, o servicios, incrementando la capacidad del sistema sin afectar las funcionalidades existentes.  |
 |Create  |Crear  | Empleado para la creación de nuevos esquemas de bases de datos, endpoints o controladores en el backend. Este verbo se usa cuando se inicia el desarrollo de una nueva característica o arquitectura dentro del sistema, estableciendo la base técnica sobre la cual se expandirá la funcionalidad.  |
 |Update  |Actualizar  | Usado para realizar modificaciones menores en las funcionalidades existentes del backend, como la actualización de dependencias, optimización de consultas o ajustes en la lógica del controlador. Se aplica en casos donde los cambios no alteran significativamente la estructura, pero mejoran el rendimiento o corrigen comportamientos. |
@@ -258,7 +261,7 @@ Donde:
 - El segundo dígito (Minor) aumenta cuando se añaden nuevas funcionalidades que son compatibles con versiones anteriores.
 - El primer dígito (Major) se incrementa para cambios importantes que podrían no ser compatibles con versiones anteriores.
 
-### 4.1.3. Source Code Style Guide & Conventions.
+### 4.1.3. Source Code Style Guide & Conventions
 
 En esta sección, nuestro equipo explicará y establecerá las referencias que adoptaremos para nombrar, estructurar, organizar y programar en los lenguajes de programación que se utilizarán en el desarrollo de nuestra solución de software, con un enfoque exclusivo en la implementación del Backend. Se detallarán las convenciones y mejores prácticas que se seguirán para asegurar un código coherente y eficiente en el uso de Java y SpringBoot, los principales lenguajes y herramientas del proyecto. Estas convenciones de codificación garantizarán la claridad, mantenibilidad y escalabilidad del código, facilitando la colaboración entre los diferentes miembros del equipo de desarrollo backend.
 
@@ -343,30 +346,115 @@ Asimismo, también investigaremos y presentaremos las directrices para la intera
 
 ### 4.1.4. Software Deployment Configuration.
 
-En esta sección, se detallará la configuración necesaria para implementar la solución, enfocándose exclusivamente en el despliegue del Backend del proyecto. El backend se desarrollará utilizando Java junto con el framework SpringBoot, lo que proporcionará una arquitectura robusta, escalable y fácil de mantener. Comenzaremos por crear un repositorio en GitHub destinado a almacenar todo el código relacionado con la lógica del servidor, controladores, servicios, y los modelos de datos que interactuarán con la base de datos MongoDB. 
+ continuación, se presenta una descripción detallada del enfoque técnico que adoptaremos para la implementación y despliegue de nuestra infraestructura backend en el proyecto de Roademics. Este enfoque se centra en la creación y gestión de servicios web, además de la integración con la base de datos y el manejo eficiente de las APIs necesarias para garantizar el correcto funcionamiento de la aplicación.
 
-Este repositorio permitirá a los desarrolladores gestionar de manera eficiente la colaboración y el control de versiones, asegurando que cada miembro del equipo trabaje en su propia rama "feature" para desarrollar nuevas funcionalidades del backend, tales como la autenticación de usuarios, el manejo de solicitudes, o la gestión de sesiones. Posteriormente, se llevará a cabo el proceso de merge con la rama principal "develop", lo que asegura que la lógica del backend esté siempre actualizada y optimizada con las últimas mejoras y correcciones.
+El proceso contempla varias etapas fundamentales. En primer lugar, se procederá al desarrollo de servicios backend escalables, diseñados para manejar un volumen creciente de solicitudes y datos, lo que asegurará la disponibilidad y el rendimiento óptimo de la aplicación en diferentes escenarios de carga. Además, se llevará a cabo una validación exhaustiva mediante pruebas unitarias y de integración. Estas pruebas son esenciales para identificar y corregir errores en fases tempranas del desarrollo, garantizando que cada componente funcione correctamente tanto de forma aislada como en conjunto.
+
+Finalmente, antes de cada ciclo de despliegue en el entorno de producción, se implementarán estrategias de optimización del rendimiento. Esto incluirá la revisión y ajuste de consultas a la base de datos, la implementación de cachés y el análisis del tiempo de respuesta de las APIs. Este enfoque proactivo no solo mejorará la eficiencia del sistema, sino que también contribuirá a una experiencia de usuario fluida y satisfactoria.
+
+**Despliegue de la arquitectura BackEnd de Roademics:**
+
+Comenzaremos el proceso estableciendo un repositorio en GitHub, el cual funcionará como el repositorio central para todo el código y los recursos que componen nuestra aplicación de Backend, desarrollada en Java, con el framework de SpringBoot y organizada bajo Clean Architecture. Este repositorio servirá como base para gestionar la estructura del proyecto y contener los módulos esenciales de la aplicación, incluyendo el manejo de la API principal, la lógica de negocio establecida junto a los endpoints adecuados, y la integración con servicios externos como Firebase Authentication, Twilio y Stripe. Una vez que el repositorio esté configurado, cada desarrollador trabajará en su propia rama "feature" para implementar y mejorar funcionalidades específicas, permitiendo que cada contribución sea independiente y esté organizada. Una vez cada desarrollador termine su sección de feature, esas ramas serán eliminadas y se pasaran a las ramas principales.
+
+Al completar el desarrollo de una funcionalidad, el siguiente paso será integrar el código en la rama "develop". Este proceso de fusión (merge) es fundamental, ya que asegura que la rama principal de desarrollo esté siempre actualizada con las implementaciones más recientes y con el trabajo colaborativo del equipo. Para garantizar una integración fluida, vamos a realizar revisiones de código a profundidad antes de realizar el merge. Estas revisiones y pruebas ayudarán a mantener la calidad del código y a detectar posibles conflictos o errores en una etapa temprana, evitando problemas en el entorno de producción.
+
+Una vez que la rama "develop" esté lista y el código esté validado, configuraremos Railway para desplegar automáticamente nuestra aplicación de Servicios. Railway es una plataforma de infraestructura como servicio (IaaS) que facilita el despliegue, administración y escalabilidad de aplicaciones de backend, APIs y bases de datos. Esta plataforma facilitará el despliegue continuo al habilitar la actualización de la aplicación cada vez que se realice un merge en la rama "develop", permitiendo que la aplicación esté accesible de manera pública o en un entorno de pruebas, según las necesidades del proyecto. Esta configuración en Railway no solo optimiza el proceso de despliegue, sino que también proporciona un enlace que puede compartirse con los miembros del equipo y las partes interesadas, permitiendo una retroalimentación rápida y eficaz sobre el rendimiento y las funcionalidades del Backend.
+
+A continuación, detallaremos los pasos necesarios para realizar este despliegue en Railway, con un enfoque en las mejores prácticas y consideraciones técnicas que asegurarán una implementación robusta y libre de contratiempos. Esta guía tiene como objetivo alinear al equipo y asegurar una implementación exitosa y eficiente de nuestra aplicación de Backend.
+
+1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics.
+
+    ###### Figura 60
+    *Página inicial de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-pagina-inicial.png" alt="Página inicial de la plataforma de Railway.">
+
+    ###### Figura 61
+    *Página de registro de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-registro.png" alt="Página de registro de la plataforma de Railway.">
+
+2. Después de completar los pasos de autenticación requeridos por Railway para acceder a la plataforma, seremos dirigidos a la página de inicio, donde encontraremos la sección principal para la creación de un nuevo proyecto mediante el panel de control. En esta sección, seleccionaremos la opción "Deploy from GitHub repository", que permite conectar directamente un repositorio de GitHub para configurar el despliegue de manera continua. Esta opción es ideal para proyectos como Roademics, ya que simplifica la integración con el repositorio y facilita la implementación automática de cambios realizados en la rama principal (main), asegurando que la aplicación esté siempre actualizada en el entorno de producción o pruebas, según corresponda.
+
+    ###### Figura 62
+    *Página de la sección de selección de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-seccion-repositorio.png" alt="Página de selección de repositorios de la plataforma de Railway.">
+
+3. Al haber vinculado nuestra cuenta de Railway con la de GitHub, la plataforma mostrará automáticamente todos los repositorios en los que tenemos permisos de administrador. Esto nos permitirá seleccionar el repositorio específico de Roademics para proceder con su despliegue. Railway detectará las ramas disponibles en el repositorio, como la rama principal (main) y cualquier otra rama de desarrollo que deseemos utilizar, ofreciendo así un control total sobre el entorno de despliegue y las versiones de código que se publicarán.
+
+    ###### Figura 63
+    *Página de la sección de vinculación de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-vinculacion-repositorio.png" alt="Página de vinculación de repositorios de la plataforma de Railway.">
+
+4. A continuación, se nos presentará una sección para la configuración de variables de entorno, las cuales son esenciales para el correcto funcionamiento de nuestra aplicación. En este caso, dado que estamos utilizando Java con Spring Boot, deberemos definir las variables que normalmente se encuentran en el archivo "application.properties" de nuestro proyecto. Estas variables pueden incluir credenciales de acceso a bases de datos, claves API de servicios externos, o configuraciones específicas del entorno de producción. Configurar correctamente estas variables en Railway garantiza que la aplicación se ejecute con los valores apropiados en cada despliegue, manteniendo la seguridad y permitiendo una adaptación flexible entre distintos entornos (desarrollo, pruebas, producción).
+
+    ###### Figura 64
+    *Página de la sección de agregado de variables de repositorios de la plataforma de Railway*
+
+     <img src="/assets/img/capitulo-4/deployment/railway-variables.png" alt="Página de agregado de variables de repositorios de la plataforma de Railway.">
+
+1. Una vez que hayamos definido todas las variables de entorno necesarias, procederemos a hacer clic en el botón "*Deploy Now*", lo cual iniciará el proceso de build y deploy de nuestra aplicación en Railway. Durante esta fase, Railway compilará el proyecto y gestionará la implementación, verificando que todas las configuraciones, dependencias y servicios externos estén correctamente conectados y configurados. Es importante monitorear el progreso en esta etapa para asegurarnos de que no haya errores en la compilación o despliegue, lo cual puede tardar unos minutos dependiendo de la complejidad del proyecto.
+
+    ###### Figura 65
+    *Página de la sección de estructuración y despliegue de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-construccion-despliegue.png" alt="Página de construcción y despliegue de repositorios de la plataforma de Railway.">
+
+2. Para acceder a la interfaz gráfica de Swagger para nuestro backend, utilizaremos el dominio proporcionado por Railway y añadiremos la ruta "/swagger-ui/index.html#/" al final de la URL. Esto le indica a Swagger que queremos usar su interfaz para interactuar con los métodos HTTP de nuestra API, evitando hacer peticiones directas a los endpoints. Así, obtendremos una URL similar a la siguiente:
+  
+   "https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/"
+
+   Este enlace nos permitirá visualizar y probar todos los endpoints de nuestra API en un entorno controlado, facilitando la documentación y verificación de los servicios expuestos por el backend.
+
+    ###### Figura 66
+    *Página de la sección dedicada a la obtención del servicio Swagger del repositorio desplegado en la plataforma Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-obtener-swagger.png" alt="Página dedicada a la obtención del servicio de Swagger del repositorio desplegado en la plataforma de Railway.">  
+
+3. Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+
+    ###### Figura 67
+    *Presentación de evidencia del Servicio Swagger implementado para los servicios de la aplicación móvil de Roademics*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-mostrar-swagger.png" alt="Presentación del Servicio Swagger implementado para los servicios de la aplicación móvil de Roademics.">  
+  
+1. Al probar nuestro enlace en Postman para contactar un endpoint específico, recibimos un response con el código de estado 200, lo que indica que la solicitud fue procesada exitosamente.
+
+    ###### Figura 68
+    *Presentación de evidencia de la plataforma de Postman implementada para los servicios de la aplicación móvil de Roademics*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-mostrar-postman.png" alt="Presentación de la plataforma de Postman implementada para los servicios de la aplicación móvil de Roademics.">  
 
 ## 4.2. Software Development & Implementation.
 
-A continuación, describimos en detalle el enfoque técnico que adoptaremos para la implementación, pruebas y despliegue de nuestra infraestructura backend, centrado en la creación y gestión de los servicios web, así como en la integración con la base de datos y el manejo eficiente de las API necesarias para el correcto funcionamiento de la aplicación. Este proceso abarca el desarrollo de servicios backend escalables, la validación exhaustiva mediante pruebas unitarias y de integración, y la optimización del rendimiento antes de cada ciclo de despliegue en el entorno de producción. 
+En esta sección se describirá la configuración esencial para llevar a cabo la implementación del backend del proyecto, centrándose exclusivamente en su despliegue. El desarrollo del backend se llevará a cabo utilizando Java junto con el framework Spring Boot, una elección que garantiza una arquitectura modular, escalable y de fácil mantenimiento.
 
-### 4.2.1. Sprint 1
+El proceso iniciará con la creación de un repositorio en GitHub, diseñado para alojar todo el código fuente relacionado con la lógica del servidor. Este incluirá los controladores, servicios y modelos de datos necesarios para la interacción con la base de datos MongoDB. Dicho repositorio facilitará la colaboración entre los desarrolladores y el control de versiones, promoviendo buenas prácticas de desarrollo y asegurando un flujo de trabajo eficiente.
 
-En esta sección, se registrará y explicará el avance en términos de producto y trabajo colaborativo correspondiente al Sprint número 1 de la Implementación del Backend. Este registro detallado documentará cada aspecto del progreso logrado, incluyendo el desarrollo, el historial de cambios, y el avance colectivo aportado por cada integrante del equipo de trabajo sobre el propio Backend y sus Endpoints. Se hará hincapié en la importancia de la colaboración y la comunicación efectiva entre los miembros del equipo para alcanzar los objetivos del sprint.
+Cada desarrollador trabajará en su propia rama de tipo feature, donde implementará funcionalidades específicas del backend, tales como autenticación de usuarios, gestión de solicitudes y administración de sesiones. Una vez completadas las tareas, se integrarán las ramas de feature en la rama principal develop mediante un proceso de merge. Este flujo garantiza que el código en la rama principal esté continuamente actualizado y optimizado, incorporando las últimas mejoras y correcciones de forma ordenada.
 
-Todas las especificaciones y resultados presentados en esta sección se derivan del Product Backlog establecido en el Capítulo 2, en la sección de requerimientos. Este alineamiento garantiza que los desarrollos realizados durante el sprint sean consistentes con las expectativas del proyecto y contribuyan a la visión general del producto.
+### 4.2.1. Backend Product Sprint 1
 
-#### 4.2.2.1 Sprint Planning 1.
+En esta sección se documentará de manera detallada el progreso alcanzado durante el Sprint 1 de la implementación del Backend, abordando tanto los avances técnicos en el producto como el trabajo colaborativo realizado por el equipo. Este registro incluirá un análisis pormenorizado de los aspectos clave del desarrollo, el historial de modificaciones realizadas y las contribuciones individuales y grupales en las áreas relacionadas con la integración de la autenticación y autorización de usuarios, y la gestión de roadmaps dentro de la lógica del backend. Asimismo, se abordará la persistencia de datos y el diseño e implementación de los endpoints correspondientes.
 
-En esta sección se explicarán los detalles presentados y analizados durante la reunión del Sprint Planning para el Sprint número 1 de la implementación del Backend. El objetivo principal de esta reunión es establecer un plan claro y realista que guíe el desarrollo del backend, identificando las tareas específicas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. Este enfoque permite asegurar que todos los miembros del equipo tengan una comprensión compartida de los objetivos y las expectativas del sprint, lo que resulta esencial para la coordinación y efectividad en el trabajo colaborativo.
+Se destacará la relevancia de la cooperación y la comunicación efectiva entre los miembros del equipo para lograr los objetivos definidos para este sprint, asegurando un alineamiento con la planificación y visión general del proyecto.
 
-###### Tabla 23
-*Tabla del planeamiento a profundidad del Sprint 1*
+Todos los resultados y especificaciones expuestos se fundamentan en el Product Backlog presentado en el Capítulo 2, sección de requerimientos. Este enfoque asegura que las entregas realizadas durante el sprint estén plenamente alineadas con los objetivos funcionales y estratégicos del proyecto, contribuyendo directamente al cumplimiento de la visión del producto.
+
+#### 4.2.1.1 Backend Product Sprint Planning 1
+
+En esta sección se describirán los aspectos tratados y evaluados durante la reunión de Sprint Planning correspondiente al Sprint 1 de la implementación del Backend. La discusión se centró en las actividades relacionadas con la integración de la lógica para los roadmaps y el manejo de datos de los usuarios, además del diseño y la planificación de los endpoints correspondientes.
+
+El propósito principal de esta reunión fue definir un plan estructurado y alcanzable que oriente el desarrollo del backend durante el sprint. Para ello, se identificaron tareas específicas y se estableció un compromiso en torno a entregables claros, los cuales son fundamentales para el progreso del proyecto. Este proceso asegura que cada miembro del equipo cuente con una comprensión compartida de los objetivos y expectativas establecidos, fomentando una alineación estratégica y promoviendo la efectividad en la colaboración.
+
+###### Tabla 19
+*Tabla del planeamiento a profundidad del Backend Product Sprint 1*
 <table>
         <tr>
             <td colspan="1">Sprint #</td>
-            <td colspan="1">Sprint 1</td>
+            <td colspan="1">Backend Product Sprint 1</td>
         </tr>
         <tr>
             <td colspan="2">Sprint Planning Background</td>
@@ -385,49 +473,49 @@ En esta sección se explicarán los detalles presentados y analizados durante la
         </tr>
             <tr>
             <td>Prepared by</td>
-            <td>Yen Cerna, Lucio Heli</td>
+            <td>Pescorán Angulo, Juan Fabritzzio</td>
         </tr>
             <tr>
             <td>Attendees (to planning meeting)</td>
             <td>Pescorán Angulo, Juan Fabritzzio; Trigueros Chumacero, Flavio Eduardo; Valenzuela Huillcaya, Aldhair Johan Juan; Yen Cerna, Lucio Heli</td>
         </tr>
             <tr>
-            <td>Sprint 1 Review Summary</td>
-            <td>Al concluir el Sprint 1, se llevó a cabo la reunión de Sprint Review en la que se evaluó el progreso realizado en el desarrollo del Backend de nuestra aplicación. Durante este sprint, el enfoque principal se centró en la creación de los Endpoints para el proceso de autenticación y autorización (IAM), así como en la implementación de la funcionalidad de Roadmaps. <br><br> La reunión fue exitosa en términos de avance en los productos de software y en la colaboración del equipo. Tras realizar un análisis exhaustivo de los objetivos establecidos y recopilar valiosa retroalimentación, se identificaron áreas de mejora que contribuyeron significativamente a la calidad del desarrollo. La integración de las recomendaciones recibidas permitió optimizar varios aspectos del código y mejorar la eficiencia de los nuevos Endpoints, lo que a su vez facilitó una experiencia de usuario más fluida y segura. </td> 
+            <td>Backend Product Sprint 1 Review Summary</td>
+            <td>Al finalizar el Sprint 1, se realizó la reunión de Sprint Review para evaluar los logros alcanzados en el desarrollo del Backend de nuestra aplicación. Este sprint se centró en el diseño y creación de Endpoints esenciales para los procesos de autenticación y autorización (IAM), así como en la implementación de funcionalidades críticas relacionadas con la gestión de Roadmaps y los propios perfiles de usuario. A lo largo de esta fase, el equipo dedicó sus esfuerzos a asegurar la seguridad y eficiencia de estos componentes, priorizando una estructura robusta y escalable. <br><br> La reunión fue altamente productiva tanto en términos de avance en los productos de software como en la cohesión del equipo. Tras un análisis detallado de los objetivos iniciales y la recopilación de retroalimentación constructiva, se identificaron varias oportunidades de mejora que, al ser implementadas, contribuyeron notablemente a optimizar la calidad del desarrollo. La integración de estas recomendaciones permitió refinar aspectos clave del código, logrando así una mayor eficiencia en los Endpoints y mejorando la experiencia del usuario en cuanto a seguridad y fluidez en la navegación. Estos ajustes se traducen en un Backend más sólido y preparado para los siguientes retos del proyecto. </td> 
         </tr>
             <tr>
-            <td>Sprint 1 Retrospective Summary</td>
-            <td>En el proceso de Sprint Retrospective para el Sprint 1, nuestro equipo se dedicó a revisar detenidamente toda la retroalimentación recibida tras la finalización del primer sprint. Este análisis exhaustivo del desempeño general e individual de cada miembro del equipo nos permitió identificar áreas clave de mejora que son fundamentales para optimizar nuestra aplicación móvil. <br><br> A través de este proceso reflexivo, se plantearon varias estrategias para garantizar la entrega de un trabajo de mayor calidad y un producto que cumpla con las expectativas de nuestros clientes. <br><br> Para este sprint en particular, hemos acordado implementar mejoras en la esquematización de los reportes, junto con la creación de diagramas que faciliten la comprensión y el seguimiento del progreso del desarrollo. Además, se propone una revisión integral del diseño del Backend, buscando optimizar su rendimiento y escalabilidad para garantizar una experiencia de usuario fluida en la aplicación móvil.</td>
+            <td>Backend Product Sprint 1 Retrospective Summary</td>
+            <td>Durante la Sprint Retrospective del Sprint 1, nuestro equipo realizó un análisis detallado de la retroalimentación recibida al finalizar esta primera fase de desarrollo por el lado del BackEnd y otras implementaciones técnicas. Este proceso minucioso incluyó una evaluación profunda tanto del desempeño colectivo como del individual de cada miembro del equipo, permitiéndonos identificar áreas clave de mejora necesarias para optimizar la funcionalidad y calidad de nuestra aplicación móvil. <br><br> Como parte de esta reflexión, se propusieron varias estrategias que buscan asegurar un estándar de trabajo superior y alineado con las expectativas de nuestros clientes. En particular, se acordó implementar mejoras en la organización y claridad de los reportes, incluyendo la creación de diagramas visuales que faciliten el seguimiento y comprensión del progreso del desarrollo. Asimismo, se promovio la integración de documentación en los endpoints para un mejor uso por parte de los desarrolladores. También se identificó la necesidad de realizar una revisión exhaustiva de la arquitectura del Backend y el Clean Architecture que sigue de forma ideal, con el objetivo de optimizar su rendimiento y escalabilidad. Estas acciones no solo contribuyen a un diseño más robusto y ágil, sino que también son cruciales para brindar una experiencia de usuario más fluida y confiable en nuestra aplicación móvil.</td>
         </tr>
             <tr>
             <td colspan="2">Sprint Goal & User Stories</td>
         </tr>
               <tr>
-            <td>Sprint 1 Goal</td>
+            <td>Backend Product Sprint 1 Goal</td>
             <td>Alcanzar una métrica de cumplimiento del 100%, lo que indicará que se ha logrado todos los objetivos del sprint 1 con todas las historias de usuario y otros materiales necesarios.</td>
         </tr>
               <tr>
-            <td>Sprint 1 Velocity</td>
-            <td>Con el equipo para este sprint 1 decidimos aceptar 5 Story Points</td>
+            <td>BackEnd Product Sprint 1 Velocity</td>
+            <td>Con el equipo para este sprint 1 decidimos aceptar 8 Story Points</td>
         </tr>
               <tr>
             <td>Sum of Story Points</td>
-            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Sprint 1 es XX</td>
+            <td>La suma de los Story Points para los User Stories que se están incluyendo en este Backend Product Sprint 1 es 99</td>
         </tr>
     </table>
 
-#### 4.2.2.2 Sprint Backlog 1.
+#### 4.2.1.2 Backend Product Sprint Backlog 1
 
-En esta sección se revisará todo el proceso relacionado con el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño del Backend y en la preparación de ciertas características correspondientes a la lógica de negocio y a los modelos de datos que interactúan con la base de datos mediante el uso de Endpoints documentados. Este enfoque abarcó la definición de las rutas de la API, la implementación de controladores, y la creación de servicios que soportan las funcionalidades requeridas por el sistema.
+En esta sección se examina detalladamente el proceso relacionado con el Sprint Backlog número 1, donde nuestro equipo se enfocó principalmente en la estructuración y diseño del Backend, así como en la preparación de funcionalidades clave de la lógica de negocio, particularmente en las áreas de autenticación y autorización (IAM) y en el diseño y desarrollo de los Roadmaps. Este enfoque abarcó desde la definición de rutas para la API hasta la implementación de controladores y la creación de servicios fundamentales para soportar las funcionalidades solicitadas por el sistema.
 
-Además, se abordaron los modelos de datos que estructuran la información en la base de datos MongoDB, asegurando que cada componente del backend esté alineado con los requisitos funcionales y no funcionales establecidos en la fase de planificación. También se discutieron las interacciones necesarias entre los distintos módulos del backend y la integración con MongoDB Atlas para garantizar un rendimiento óptimo y una alta disponibilidad de los datos. Este proceso de diseño y preparación fue crucial para sentar las bases del desarrollo efectivo en los siguientes sprints, asegurando que cada elemento del backend esté bien definido y listo para su implementación.
+También se trabajó en la creación de modelos de datos estructurados para la base de datos MongoDB, asegurando que cada componente del Backend esté perfectamente alineado con los requisitos funcionales y no funcionales definidos en la etapa de planificación. Asimismo, se analizaron y definieron las interacciones esenciales entre los distintos módulos del Backend y se abordó la integración con MongoDB Atlas para asegurar un rendimiento óptimo y una alta disponibilidad de datos. Este proceso de diseño y preparación fue fundamental para establecer las bases de un desarrollo eficiente en los sprints posteriores, asegurando que cada elemento del Backend esté bien estructurado y listo para su implementación, contribuyendo así a una mayor cohesión y claridad en el desarrollo del proyecto.
 
-###### Tabla 59
-*Tabla principal del planeamiento del Sprint Backlog 1*
+###### Tabla 20
+*Tabla principal del planeamiento del Backend Product Sprint Backlog 1*
 <table>
         <tr>
             <td colspan="2">Sprint #</td>
-            <td colspan="6">Sprint 1</td>
+            <td colspan="6">Backend Product Sprint 1</td>
         </tr>
         <tr>
             <td colspan="2">User Story</td>
@@ -444,91 +532,184 @@ Además, se abordaron los modelos de datos que estructuran la información en la
             <td>Status (To-do / In / Process / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US21</td>
-            <td>Creación de roadmap académico básico</td>
-            <td>T01</td>
-            <td>Creación de roadmap básico</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
+            <td>TS001</td>
+            <td>Integrar un sistema de registro con Firebase Authentication</td>
+            <td>T001</td>
+            <td>Integración de un modelo de registro externo con Firebase Authentication</td>
+            <td><strong><strong>Como</strong> desarrollador de Roademics <strong>quiero</strong> integrar un sistema de registro utilizando Firebase Authentication, <strong>para</strong> garantizar un proceso de autenticación seguro para los usuarios.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS002</td>
+            <td>Implementación de validaciones de credenciales.</td>
+            <td>T002</td>
+            <td>Implementar validación de credenciales</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar validaciones de credenciales durante el proceso de registro <strong>para</strong> asegurar que los usuarios ingresen información válida.</td>
             <td>3 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
-                <tr>
-            <td>US24</td>
-            <td>Edición de roadmap académico básico</td>
-            <td>T02</td>
-            <td>Edición de roadmap básico</td>
-            <td>Como usuario que ha creado un roadmap básico, quiero poder editar el roadmap, para actualizar la información, ajustar mis objetivos y modificar mis planes según mis necesidades.</td>
-            <td>4 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+        <tr>
+            <td>TS003</td>
+            <td>Encriptación de datos del usuario cuando estén tanto en tránsito como en reposo.</td>
+            <td>T003</td>
+            <td>Encriptación de datos del usuario en tránsito y en reposo.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> encriptar los datos del usuario tanto cuando estén en tránsito como en reposo, <strong>para</strong> garantizar la seguridad y privacidad de la información.</td>
+            <td>2 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
             <td>Done</td>
         </tr>
-                <tr>
-            <td>US25</td>
-            <td>Acceso a herramienta de edición avanzada para usuarios Premium</td>
-            <td>T03</td>
-            <td>Acceso a herramientas de edición avanzada</td>
-            <td>Como usuario Premium, quiero tener acceso a una herramienta de edición avanzada, para aprovechar funcionalidades adicionales y más detalladas al modificar mis roadmaps profesionales, optimizando mi planificación y gestión de objetivos.</td>
+        <tr>
+            <td>TS004</td>
+            <td>Integración de sistema de autenticación con Firebase Authentication.</td>
+            <td>T004</td>
+            <td>Integración de sistema de autenticación mediante Firebase Authentication.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> integrar Firebase Authentication para el proceso de inicio de sesión, <strong>para</strong> asegurar que los usuarios puedan autenticarse de manera segura y rápida utilizando los servicios de Firebase.</td>
+            <td>2 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS005</td>
+            <td>Implementar un sistema de autenticación segura en el backend.</td>
+            <td>T005</td>
+            <td>Implementación de un sistema de autenticación seguro en los servicios de la aplicación.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> implementar un sistema de autenticación segura, <strong>para</strong> proteger las credenciales de los usuarios y asegurar el acceso a la plataforma.</td>
             <td>2 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
-                <tr>
-            <td>US26</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>T04</td>
-            <td>Eliminación de roadmaps que no se requieren</td>
-            <td>Como usuario registrado, quiero poder eliminar roadmaps que ya no necesito, para mantener mi perfil organizado y libre de información obsoleta o innecesaria.</td>
-            <td>3 horas</td>
-            <td>Pescoran Angulo, Juan Fabrizzio</td>
+        <tr>
+            <td>TS007</td>
+            <td>Almacenamiento de contraseñas utilizando técnicas de hash y salting.</td>
+            <td>T006</td>
+            <td>Almacenamiento de contraseñas utilizando hashing y salting.</td>
+            <td><strong>Como</strong> desarrollador de la plataforma, <strong>quiero</strong> almacenar las contraseñas de los usuarios utilizando técnicas de hash y salting, <strong>para</strong> asegurar que las contraseñas se mantengan seguras y sean resistentes a ataques.</td>
+            <td>2 horas</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
             <td>Done</td>
         </tr>
-                <tr>
-            <td>US27</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps que el usuario podrá gestionar</td>
-            <td>T05</td>
-            <td>Visualizar limitaciones respecto a la cantidad de roadmaps</td>
-            <td>Como usuario registrado, quiero visualizar las limitaciones respecto a la cantidad de roadmaps que puedo gestionar, para asegurarme de no gastar espacio.</td>
+        <tr>
+            <td>TS008</td>
+            <td>Implementación de autenticación de dos factores (2FA).</td>
+            <td>T007</td>
+            <td>Modelo de autenticación de dos factores en la aplicación.</td>
+            <td><strong>Dado que</strong> que un usuario ha habilitado la autenticación de dos factores en su cuenta, <strong>cuando</strong> el usuario intente iniciar sesión con su correo electrónico y contraseña válidos, <strong>entonces</strong> el sistema debe solicitar un segundo factor de autenticación antes de permitir el acceso a la cuenta.</td>
+            <td>2 horas</td>
+            <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS013</td>
+            <td>Creación de una estructura de datos en grafo para representar los roadmaps</td>
+            <td>T008</td>
+            <td>Estructura de datos en grafo para representar los roadmaps</td>
+            <td><strong>Como</strong> desarrollador, <strong>quiero</strong> crear una estructura de datos en grafo para representar los roadmaps, <strong>para</strong> tener una representación eficiente y flexible de los pasos, relaciones y dependencias dentro del roadmap, facilitando la visualización, manipulación y análisis de la información.</td>
             <td>4 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
                 <tr>
-            <td>US28</td>
-            <td>Creación de roadmaps personalizados ilimitados y compartirlos con los demás usuarios de la aplicación</td>
-            <td>T06</td>
-            <td>Creación de roadmaps y compartirlos con los demás usuarios de la aplicación</td>
-            <td>Como usuario interesado en planificar su trayectoria profesional, quiero crear un roadmap académico básico en la plataforma,para visualizar y gestionar mi progreso académico y planificar mis cursos y metas profesionales.</td>
-            <td>4 horas</td>
+            <td>TS014</td>
+            <td>Optimización de la creación, edición de nodos y conexiones en el grafo</td>
+            <td>T009</td>
+            <td>Optimización de la creación y edición de nodos y aristas</td>
+            <td><strong>Como</strong> usuario en la aplicación, <strong>quiero</strong> que la creación y edición de nodos y conexiones en el grafo sean optimizadas, <strong>para</strong> mejorar la eficiencia y la experiencia al manipular el roadmap, facilitando la gestión rápida y precisa de la estructura del grafo.</td>
+            <td>5 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
         </tr>
+                <tr>
+            <td>TS015</td>
+            <td>Implementación de una interfaz visual interactiva para la manipulación del grafo</td>
+            <td>T010</td>
+            <td>Interfaz visual interactiva para la manipulación del grafo</td>
+            <td><strong>Como</strong> usuario registrado, <strong>quiero</strong> una interfaz visual interactiva para la manipulación del grafo, <strong>para</strong> poder gestionar y ajustar los nodos y conexiones de manera intuitiva y eficiente, mejorando la experiencia al trabajar con el roadmap y facilitando la edición y visualización de la estructura del grafo.</td>
+            <td>2 horas y 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+        </tr>
+                <tr>
+            <td>TS016</td>
+            <td>Asegurar que los algoritmos de recomendaciones de IA puedan sugerir de manera automática los nuevos nodos y conexiones.</td>
+            <td>T011</td>
+            <td>Integración de algoritmos de recomendaciones de Inteligencia Artificial para la sugerencia automática de nuevos nodos y conexiones</td>
+            <td><strong>Como</strong> usuario registrado, <strong>quiero</strong> que los algoritmos de recomendaciones de IA sugieran automáticamente nuevos nodos y conexiones en mi grafo, <strong>para</strong> recibir recomendaciones inteligentes que mejoren la estructura de mi roadmap, sugiriendo pasos y relaciones relevantes basados en mis objetivos y datos actuales.</td>
+            <td>3 horas y 30 minutos</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
+                </tr>
+                 <tr>
+            <td>TS017</td>
+            <td>Implementación de un sistema de detección de ciclos o dependencias erróneas en el grafo.</td>
+            <td>T012</td>
+            <td>Sistema de detección automática de ciclos o dependencias erróneas en el grafo del usuario</td>
+            <td><strong>Como</strong> usuario registrado, <strong>quiero</strong> implementar un sistema de detección de ciclos o dependencias erróneas en el grafo, <strong>para</strong> identificar y corregir automáticamente cualquier ciclo o dependencia incorrecta que pueda afectar la integridad y funcionalidad del roadmap.</td>
+            <td>2 horas</td>
+            <td>Pescoran Angulo, Juan Fabrizzio</td>
+            <td>Done</td>
                 </tr>
                 <tr>
-            <td>US29</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
-            <td>T07</td>
-            <td>Recibir análisis avanzados sobre mi propio roadmap</td>
-            <td>Como usuario Premium, quiero recibir análisis avanzados sobre mi propio roadmap, para obtener información detallada y perspicaz que me ayude a optimizar mi planificación y alcanzar mis objetivos profesionales más eficientemente..</td>
-            <td>4 horas</td>
+            <td>TS028</td>
+            <td>Implementación de un sistema de control de acceso basado en roles.</td>
+            <td>T013</td>
+            <td>Sistema de control de acceso basados en distintos niveles y roles de usuarios.</td>
+            <td><strong>Como</strong> administrador del sistema, <strong>quiero</strong> implementar un sistema de control de acceso basado en roles, <strong>para</strong> gestionar y restringir el acceso a diferentes funcionalidades y datos de la plataforma según el rol de cada usuario, garantizando la seguridad y el manejo adecuado de los permisos.</td>
+            <td>2 horas</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+                </tr>
+                <tr>
+            <td>TS033</td>
+            <td>Implementación de detección de inicios de sesión sospechosos basados en la ubicación o el dispositivo.</td>
+            <td>T014</td>
+            <td>Modelo de detección de inicios de sesión sospechosos basados en métricas como la ubicación o el dispositivo.</td>
+            <td><strong>Como</strong> usuario de la plataforma, <strong>quiero</strong> que el sistema implemente una detección de inicios de sesión sospechosos basada en la ubicación o el dispositivo, <strong>para</strong> ser alertado de accesos potencialmente fraudulentos o no autorizados y poder tomar acciones preventivas.</td>
+            <td>2 horas</td>
             <td>Pescoran Angulo, Juan Fabrizzio</td>
             <td>Done</td>
-        </tr>
+                </tr>
+                <tr>
+            <td>TS038</td>
+            <td>Fácil navegación en el diseño de la Landing Page.</td>
+            <td>T015</td>
+            <td>Interfaz de fácil navegación en la Landing Page.</td>
+            <td><strong>Como</strong> visitante de la plataforma, <strong>quiero</strong> que el diseño de la landing page facilite la navegación, <strong>para</strong> poder encontrar fácilmente la información que busco y realizar las acciones deseadas sin confusión o dificultad.</td>
+            <td>1 hora y 30 minutos</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+                </tr>
+                <tr>
+            <td>TS039</td>
+            <td>Deploy a GitHub Pages.</td>
+            <td>T016</td>
+            <td>Despliegue en la plataforma de Github Pages.</td>
+            <td><strong>Como</strong> desarrollador, <strong>quiero</strong> desplegar mi landing page en GitHub Pages, <strong>para</strong> que la página sea accesible públicamente a través de un dominio fácil de recordar y gestionar directamente desde mi repositorio de GitHub.</td>
+            <td>1 hora</td>
+            <td>Yen Cerna, Lucio Heli</td>
+            <td>Done</td>
+                </tr>
+                <tr>
+            <td>TS040</td>
+            <td>Integración de un sistema de seguimiento de métricas.</td>
+            <td>T017</td>
+            <td>Sistema de seguimiento de métricas en la Landing Page.</td>
+            <td><strong>Como</strong> desarrollador, <strong>quiero</strong> integrar un sistema de seguimiento de métricas en la landing page, <strong>para</strong> poder monitorear el rendimiento del sitio, analizar el comportamiento de los visitantes y obtener datos valiosos para la mejora continua.</td>
+            <td>2 horas</td>
+            <td>Trigueros Chumacero, Flavio Eduardo</td>
+            <td>Done</td>
                 </tr>
     </table>
 
-Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
-
-###### Figura 58
-*Presentación de la tabla de actividades designada para el Sprint 1 en ClickUp.*
-<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
-
-#### 5.2.2.3 Development Evidence for Sprint Review.
+#### 4.2.1.3 Development Evidence for Backend Product Sprint Review
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
 
-###### Tabla XX
-*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 1*
+###### Tabla 21
+*Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Backend Product Sprint Backlog 1*
+
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
 |upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|2085a4451325f1d0668047d8cb6b2ea986d11b59|Initial commit| 15/09/24|
@@ -563,32 +744,52 @@ En esta sección se explica y presenta los avances en implementación con relaci
 |upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|e33627bc8c10b32d81bbb8b2eab5cb07344e59da|feat(roadmap) | add service implementation for roadmap aggregate and both, ai interaction and ai recommendations|15/09/24|
 |upc-pre-202402-cc-238-WV61-WeHaveAnIdea-backEnd|develop|90d29b3a2d8224de3d92f3fad82b9ba3e1d49cdd|feat(roadmap) | add repository for roadmap aggregate and ai recommendations|15/09/24|
 
-#### 5.2.2.4 Testing Suite Evidence for Sprint Review. 
+#### 4.2.1.4 Testing Suite Evidence for Backend Product Sprint Review
 
 En esta sección presentaremos la evidencia detallada de las pruebas rigurosas realizadas durante el sprint. Para garantizar la calidad y funcionalidad del producto, hemos empleado la metodología Gherkin para definir escenarios de prueba claros y concisos. Cada uno de estos escenarios se ha registrado meticulosamente en commits específicos en nuestro repositorio de código, lo que proporciona un registro completo y transparente de nuestro proceso de prueba.
 
-###### Tabla 26
-*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
-| Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
-|-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
-| upc-pre-202401--si730-WS52-SmarTech-AcceptanceTests | feat(.features): added More User Stories - Ruben - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 2 de Propertunity | 30/04/24 |
+###### Tabla 22
+*Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Backend Product Sprint Backlog 1*
+| Repository  | Branch | Commit Id | Commit Message | Commit Message Body |Commited on (Date) |
+|-------------|--------|-----------|----------------|---------------------|-------------------|
 
-#### 5.2.2.5 Execution Evidence for Sprint Review. 
+| upc-pre-202401--si730-WS52-Roademics-AcceptanceTests | feat(.features): added More User Stories - Aldhair - 1 | ff860b5 | feat(.features): added More User Stories | En esta sección se implementaron todos los Acceptance Test para el Sprint 1 de Roademics | 24-09-08 |
 
-#### 5.2.2.6 Services Documentation Evidence for Sprint Review. 
+#### 4.2.1.5 Execution Evidence for Backend Product Sprint Review
+
+Durante el desarrollo del Backend Product Sprint 1, el equipo logró avances significativos en la organización, lógica, implementación y desarrollo de los módulos de Gestión de Autenticación y Autorización de Usuarios, así como en la Gestión y Desarrollo de Roadmaps. Estos progresos establecen una base sólida para el proyecto y garantizan la integración efectiva de funcionalidades clave con el soporte de APIs externas, como Firebase de Google y Gemini API.
+
+En esta sección, se implementaron los componentes principales para garantizar la seguridad y el acceso adecuado a los recursos del sistema. El módulo de autenticación utiliza la API de Firebase para gestionar el registro, inicio de sesión y recuperación de contraseñas, proporcionando soporte para múltiples métodos de autenticación, incluyendo correo electrónico y autenticación de terceros como Google y Facebook. Este enfoque asegura una integración confiable y escalable que se adapta a las necesidades del sistema.
+
+Además, se diseñaron y aplicaron políticas avanzadas de autorización, vinculadas a roles y permisos definidos previamente en la base de datos. Estas políticas controlan el acceso a funcionalidades específicas del backend, permitiendo una administración granular de los usuarios y sus privilegios. Los endpoints asociados a este módulo fueron probados exhaustivamente mediante herramientas como Postman y Swagger, validando su funcionalidad y alineación con las especificaciones del proyecto.
+
+###### Figura 69
+
+*Evidencia en la plataforma de Swagger de los endpoints del módulo de Autenticación y Autorización*
+<img src="/assets/img/capitulo-4/sprints/backend-sprint-1/evidence/evidencia-autorizacion-autenticacion-endpoints.png" alt="Evidencia de los endpoints del módulo de Autenticación y Autorización en la plataforma de Swagger."> 
+
+En paralelo, se desarrolló el módulo de gestión de roadmaps, el cual integra la lógica de creación, edición, y visualización de mapas de ruta personalizados para los usuarios. Este módulo incluye funcionalidades para almacenar datos jerárquicos en la base de datos, optimizando las consultas y garantizando un rendimiento eficiente.
+
+Como valor agregado, se incorporó la Gemini API, un asesor de inteligencia artificial que proporciona recomendaciones personalizadas para enriquecer los mapas de ruta. Este sistema analiza datos relevantes, como objetivos profesionales y habilidades deseadas, para sugerir pasos concretos que los usuarios pueden seguir para alcanzar sus metas. Los endpoints desarrollados para este módulo facilitan la interacción entre el backend y el cliente, asegurando una experiencia fluida y enriquecedora para el usuario final.
+
+###### Figura 70
+
+*Evidencia en la plataforma de Swagger de los endpoints del módulo de Roadmaps*
+<img src="/assets/img/capitulo-4/sprints/backend-sprint-1/evidence/evidencia-roadmaps-endpoints.png" alt="Evidencia de los endpoints del módulo de Roadmaps en la plataforma de Swagger."> 
+
+El equipo adoptó un enfoque organizado para el desarrollo, estructurando el código en capas bien definidas (controladores, servicios y repositorios) y asegurando una separación clara de responsabilidades. La documentación asociada a este sprint incluye detalles sobre los endpoints implementados, flujos de autenticación y autorización, y la lógica detrás de las recomendaciones de roadmaps. Esto garantiza que los desarrolladores futuros puedan comprender y extender fácilmente las funcionalidades existentes.
+
+#### 4.2.1.6 Services Documentation Evidence for Backend Product Sprint Review
 
 En esta sección, presentamos la relación de Endpoints documentados con OpenAPI, que están directamente vinculados con el alcance del Sprint. Iniciamos con una breve introducción que resume los logros alcanzados en relación con la Documentación de Web Services durante este período de desarrollo. A continuación, proporcionamos una tabla detallada que enumera cada Endpoint, junto con las acciones implementadas y los enlaces correspondientes a la documentación desplegada o la URL local en Sprints anteriores al despliegue de Web Services.
 
-El siguiente enlace proporcionará acceso al modelo de DBJson utilizado como una representación simulada de API antes de la integración y construcción de una API completa y final para Propertunity. Este enlace está ubicado dentro de nuestra plataforma FrontEnd y sirve como punto de referencia crucial durante el proceso de desarrollo y prueba.
-
-Al hacer clic en este enlace, los desarrolladores y miembros del equipo pueden acceder al modelo de datos completo en formato JSON, que representa de manera precisa la estructura y la organización de los datos utilizados en nuestra aplicación. Este modelo de DBJson sirve como un punto de partida fundamental para comprender la lógica subyacente de nuestra aplicación y cómo interactúa con la base de datos: https://github.com/SmarTech-Propertunity/upc-pre-202401--si730-WS52-SmarTech-FrontEnd/blob/main/server/db.json
-
 En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo el verbo HTTP (GET, POST, PUT, DELETE, PATCH), la sintaxis de llamada, la especificación de posibles parámetros y se incluye un ejemplo junto con una explicación del response correspondiente. Además de la tabla, se presentan capturas de pantalla que ilustran la interacción con la documentación elaborada, utilizando datos de muestra para demostrar cómo se utiliza cada Endpoint. En este caso, vamos a dar una explicación completa de 3 clases con respecto a todo el modelo del DBJson para poder dar una idea completa y, a la vez, no abrumar al lector con grandes cúmulos de información base en un modelo CRUD:
 
-###### Tabla 27
-*Tabla del modelo de escritura para el Bounded Context de IAM*
-| Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
-|---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
+###### Tabla 23
+*Tabla del modelo de endpoints con su documentación para el Bounded Context de Autorización y Autenticación para el Backend Product Sprint 1*
+
+| Método  | Descripción | Ejemplo de llamada | Parámetros | Respuesta |
+|---------|-------------|--------------------|------------|-----------|
 | GET     | Obtener todos los usuarios                   | GET /usuarios               | Ninguno                                        | Lista de usuarios en formato JSON con detalles como nombre, correo, fecha de registro, etc.|
 | POST    | Crear un nuevo usuario                       | POST /usuarios              | `username`, `email`, `password`                | Detalles del nuevo usuario creado en formato JSON, incluyendo ID y fecha de creación.      |
 | PUT     | Actualizar la información de un usuario      | PUT /usuarios/{id}          | `username`, `email`, `password`                | Usuario actualizado con los nuevos datos proporcionados.                                  |
@@ -597,11 +798,11 @@ En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo e
 | POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
 | POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
 
+###### Tabla 24
+*Tabla del modelo de endpoints con su documentación para el Bounded Context de Roadmaps para el Backend Product Sprint 1*
 
-###### Tabla 28
-Tabla del modelo de escritura para el Bounded Context de Roadmaps:
-| Método  | Descripción                                            | Ejemplo de llamada               | Parámetros                                                      | Respuesta                                                                                 |
-|---------|--------------------------------------------------------|----------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Método  | Descripción | Ejemplo de llamada | Parámetros | Respuesta |
+|---------|-------------|--------------------|------------|-----------|
 | GET     | Obtener todos los roadmaps disponibles                 | GET /roadmaps                    | Ninguno                                                         | Lista de roadmaps en formato JSON con detalles como título, descripción, nodos, edges, etc.|
 | POST    | Crear un nuevo roadmap                                 | POST /roadmaps                   | `title`, `description`, `nodes[]`, `edges[]`                    | Detalles del nuevo roadmap creado, incluyendo ID y fecha de creación.                     |
 | PUT     | Modificar un roadmap existente                         | PUT /roadmaps/{id}               | `title`, `description`, `nodes[]`, `edges[]`                    | Roadmap actualizado con la nueva información proporcionada.                               |
@@ -611,11 +812,11 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
 | POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
 
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+#### 5.2.2.7 Software Deployment Evidence for Backend Product Sprint Review
 
-Dentro del Sprint 1, no se realizo ningún despliegue.
+Durante el transcurso del Sprint 1 correspondiente al desarrollo del Backend Product, no se llevó a cabo ningún proceso de despliegue. Esto implica que, a lo largo de dicho período, no se promovieron cambios o funcionalidades desarrolladas hacia un entorno de producción o de preproducción. La ausencia de despliegues se debe a diversas razones técnicas o estratégicas, como la necesidad de realizar ajustes adicionales, la priorización de tareas internas y la evaluación de la estabilidad del código. Debido a estos problemas que no garantizan una implementación segura y eficiente en etapas posteriores, hemos decidido postergar el despliegue.
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+#### 5.2.2.8 Team Collaboration Insights during Backend Product Sprint
 
 Durante el Sprint 1 de la sección Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del propio BackEnd de la aplicación móvil de Roademics, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
 
@@ -623,14 +824,12 @@ Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas
 
 Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd del Web Application.
 
-###### Figura 88
-*Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 1 de Software Development & Implementation.*
+###### Figura 71
+*Reporte completo de contribuciones para el desarrollo del Backend Product de la Aplicación Móvil de Roademics durante el Backend Product Sprint 1 de Software Development & Implementation.*
 
-<img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
-<img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
-<img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
-
----
+<img src="/assets/img/capitulo-4/sprints/backend-sprint-1/insights/insights-placeholder-for-backend-product-sprint-1.png" alt="La métrica Pulse para la Rama Principal del Repositorio de los Servicios BackEnd de la aplicación móvil de Roademics.">
+<img src="/assets/img/capitulo-4/sprints/backend-sprint-1/insights/insights-placeholder-for-backend-product-sprint-1.png" alt="La métrica de Contribuciones Grupales para la Rama Principal del Repositorio de los Servicios BackEnd de la aplicación móvil de Roademics.">
+<img src="/assets/img/capitulo-4/sprints/backend-sprint-1/insights/insights-placeholder-for-backend-product-sprint-1.png" alt="La métrica de Contribuciones Individuales para la Rama Principal del Repositorio de los Servicios BackEnd de la aplicación móvil de Roademics.">
 
 ### 4.2.2. Sprint 2
 
@@ -642,7 +841,7 @@ Todas las especificaciones y resultados presentados en esta sección se derivan 
 
 En esta sección se explicaran los detalles presentados y analizados durante la reunión del Sprint Planning para el número 2. El objetivo principal de esta reunión es establecer un plan claro y realista para el sprint, identificando las tareas a realizar y comprometiéndose con un conjunto de entregables concretos que contribuyan al avance del proyecto. A continuación, se presenta el resumen del Sprint Planning Meeting, que proporcionará una visión general de los temas discutidos y las decisiones tomadas durante la reunión.
 
-###### Tabla XX
+###### Tabla 25
 *Tabla del planeamiento a profundidad del Sprint 2.*
 <table>
         <tr>
@@ -701,7 +900,7 @@ En esta sección se explicaran los detalles presentados y analizados durante la 
 
 En esta sección se revisara todo el proceso dado para el Sprint Backlog número 1, en el cual nuestro equipo de trabajo se centró principalmente en el diseño de , junto a la preparación de ciertas caracteristicas correspondientes a la interfaz y a los modelos de navegación y componentes. 
 
-###### Tabla 59
+###### Tabla 26
 *Tabla principal del planeamiento del Sprint Backlog 1*
 <table>
         <tr>
@@ -796,17 +995,11 @@ En esta sección se revisara todo el proceso dado para el Sprint Backlog número
                 </tr>
     </table>
 
-Con el fin de que la lista de tareas en el sprint pueda ser visualizada a más profundidad, se mostrara un enlace directo a la sección de trabajo designada por el equipo junto a todas las actividades planificadas de forma completa: 
-
-###### Figura 58
-*Presentación de la tabla de actividades designada para el Sprint 2 en ClickUp.*
-<img src="/assets/img/Lista de Tareas-Sprint2.png" alt="Lista de Tareas del Sprint 1 En ClickUp">
-
 #### 5.2.2.3 Development Evidence for Sprint Review.
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Web Application. Aquí se dejara cada uno de los commits ya implementados dentro del repositorio de Github, junto a toda la información referente y a los cambios concluidos.
 
-###### Tabla XX
+###### Tabla 27
 *Tabla de los commits realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
 | Repository | Branch| Commit Id| Commit Message| Commit Message Body|Commited on (Date) |
 |------------|-------|----------|---------------|--------------------|-------------------|
@@ -846,7 +1039,7 @@ En esta sección se explica y presenta los avances en implementación con relaci
 
 En esta sección presentaremos la evidencia detallada de las pruebas rigurosas realizadas durante el sprint. Para garantizar la calidad y funcionalidad del producto, hemos empleado la metodología Gherkin para definir escenarios de prueba claros y concisos. Cada uno de estos escenarios se ha registrado meticulosamente en commits específicos en nuestro repositorio de código, lo que proporciona un registro completo y transparente de nuestro proceso de prueba.
 
-###### Tabla 26
+###### Tabla 28
 *Tabla de los modelos de pruebas realizados y relacionados con el desarrollo de todas las secciones del Sprint Backlog 2*
 | Repository                        | Branch              | Commit Id                          | Commit Message                   | Commit Message Body           |Commited on (Date) |
 |-----------------------------------|---------------------|------------------------------------|----------------------------------|-------------------------------|-------------------|
@@ -864,7 +1057,7 @@ Al hacer clic en este enlace, los desarrolladores y miembros del equipo pueden a
 
 En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo el verbo HTTP (GET, POST, PUT, DELETE, PATCH), la sintaxis de llamada, la especificación de posibles parámetros y se incluye un ejemplo junto con una explicación del response correspondiente. Además de la tabla, se presentan capturas de pantalla que ilustran la interacción con la documentación elaborada, utilizando datos de muestra para demostrar cómo se utiliza cada Endpoint. En este caso, vamos a dar una explicación completa de 3 clases con respecto a todo el modelo del DBJson para poder dar una idea completa y, a la vez, no abrumar al lector con grandes cúmulos de información base en un modelo CRUD:
 
-###### Tabla 27
+###### Tabla 29
 *Tabla del modelo de escritura para el Bounded Context de IAM*
 | Método  | Descripción                                  | Ejemplo de llamada         | Parámetros                                     | Respuesta                                                                                 |
 |---------|----------------------------------------------|----------------------------|------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -876,8 +1069,7 @@ En la tabla, se indican las acciones soportadas para cada Endpoint, incluyendo e
 | POST    | Autenticación de usuario                     | POST /usuarios/authenticate | `username`, `password`                         | Token JWT válido para autenticar las siguientes peticiones del usuario.                    |
 | POST    | Actualizar la contraseña de un usuario       | POST /usuarios/{id}/password| `id`, `newPassword`, `oldPassword`             | Confirmación de la actualización de la contraseña.                                         |
 
-
-###### Tabla 28
+###### Tabla 30
 Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | Método  | Descripción                                            | Ejemplo de llamada               | Parámetros                                                      | Respuesta                                                                                 |
 |---------|--------------------------------------------------------|----------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -890,10 +1082,82 @@ Tabla del modelo de escritura para el Bounded Context de Roadmaps:
 | GET     | Obtener todas las interacciones con IA relacionadas    | GET /roadmaps/{id}/ai-interactions | `id` del roadmap                                                | Lista de interacciones y respuestas de la IA relacionadas con el roadmap.                 |
 | POST    | Finalizar el roadmap                                   | POST /roadmaps/{id}/finish       | `id`, `feedback`                                                | Confirmación de finalización del roadmap y detalles de la retroalimentación proporcionada. |
 
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+Comenzaremos el proceso estableciendo un repositorio en GitHub, el cual funcionará como el repositorio central para todo el código y los recursos que componen nuestra aplicación de Backend, desarrollada en Java, con el framework de SpringBoot y organizada bajo Clean Architecture. Este repositorio servirá como base para gestionar la estructura del proyecto y contener los módulos esenciales de la aplicación, incluyendo el manejo de la API principal, la lógica de negocio establecida junto a los endpoints adecuados, y la integración con servicios externos como Firebase Authentication, Twilio y Stripe. Una vez que el repositorio esté configurado, cada desarrollador trabajará en su propia rama "feature" para implementar y mejorar funcionalidades específicas, permitiendo que cada contribución sea independiente y esté organizada. Una vez cada desarrollador termine su sección de feature, esas ramas serán eliminadas y se pasaran a las ramas principales.
+
+Al completar el desarrollo de una funcionalidad, el siguiente paso será integrar el código en la rama "develop". Este proceso de fusión (merge) es fundamental, ya que asegura que la rama principal de desarrollo esté siempre actualizada con las implementaciones más recientes y con el trabajo colaborativo del equipo. Para garantizar una integración fluida, vamos a realizar revisiones de código a profundidad antes de realizar el merge. Estas revisiones y pruebas ayudarán a mantener la calidad del código y a detectar posibles conflictos o errores en una etapa temprana, evitando problemas en el entorno de producción.
+
+Una vez que la rama "develop" esté lista y el código esté validado, configuraremos Railway para desplegar automáticamente nuestra aplicación de Servicios. Railway es una plataforma de infraestructura como servicio (IaaS) que facilita el despliegue, administración y escalabilidad de aplicaciones de backend, APIs y bases de datos. Esta plataforma facilitará el despliegue continuo al habilitar la actualización de la aplicación cada vez que se realice un merge en la rama "develop", permitiendo que la aplicación esté accesible de manera pública o en un entorno de pruebas, según las necesidades del proyecto. Esta configuración en Railway no solo optimiza el proceso de despliegue, sino que también proporciona un enlace que puede compartirse con los miembros del equipo y las partes interesadas, permitiendo una retroalimentación rápida y eficaz sobre el rendimiento y las funcionalidades del Backend.
+
+A continuación, detallaremos los pasos necesarios para realizar este despliegue en Railway, con un enfoque en las mejores prácticas y consideraciones técnicas que asegurarán una implementación robusta y libre de contratiempos. Esta guía tiene como objetivo alinear al equipo y asegurar una implementación exitosa y eficiente de nuestra aplicación de Backend.
+
+1. El primer paso para utilizar plenamente las funcionalidades de Railway es registrarse en su plataforma principal, lo que habilita el acceso a sus herramientas de despliegue continuo y administración de aplicaciones. Este registro puede realizarse de manera sencilla, pero se recomienda vincular la cuenta de Railway directamente con GitHub, ya que esto no solo facilita el acceso, sino que permite una integración continua con nuestros repositorios de código, como el de nuestro proyecto Roademics. De esta forma, Railway podrá monitorear y sincronizar automáticamente el branch "main" en GitHub, agilizando el proceso de despliegue sin necesidad de configuración manual en cada actualización. Una vez completado el registro y vinculadas ambas cuentas, iniciaremos sesión en Railway para acceder a nuestro panel de control, donde podremos gestionar el entorno de despliegue de Roademics.
+
+    ###### Figura 72
+    *Página inicial de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-pagina-inicial.png" alt="Página inicial de la plataforma de Railway.">
+
+    ###### Figura 73
+    *Página de registro de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-registro.png" alt="Página de registro de la plataforma de Railway.">
+
+2. Después de completar los pasos de autenticación requeridos por Railway para acceder a la plataforma, seremos dirigidos a la página de inicio, donde encontraremos la sección principal para la creación de un nuevo proyecto mediante el panel de control. En esta sección, seleccionaremos la opción "Deploy from GitHub repository", que permite conectar directamente un repositorio de GitHub para configurar el despliegue de manera continua. Esta opción es ideal para proyectos como Roademics, ya que simplifica la integración con el repositorio y facilita la implementación automática de cambios realizados en la rama principal (main), asegurando que la aplicación esté siempre actualizada en el entorno de producción o pruebas, según corresponda.
+
+    ###### Figura 74
+    *Página de la sección de selección de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-seccion-repositorio.png" alt="Página de selección de repositorios de la plataforma de Railway.">
+
+3. Al haber vinculado nuestra cuenta de Railway con la de GitHub, la plataforma mostrará automáticamente todos los repositorios en los que tenemos permisos de administrador. Esto nos permitirá seleccionar el repositorio específico de Roademics para proceder con su despliegue. Railway detectará las ramas disponibles en el repositorio, como la rama principal (main) y cualquier otra rama de desarrollo que deseemos utilizar, ofreciendo así un control total sobre el entorno de despliegue y las versiones de código que se publicarán.
+
+    ###### Figura 75
+    *Página de la sección de vinculación de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-vinculacion-repositorio.png" alt="Página de vinculación de repositorios de la plataforma de Railway.">
+
+4. A continuación, se nos presentará una sección para la configuración de variables de entorno, las cuales son esenciales para el correcto funcionamiento de nuestra aplicación. En este caso, dado que estamos utilizando Java con Spring Boot, deberemos definir las variables que normalmente se encuentran en el archivo "application.properties" de nuestro proyecto. Estas variables pueden incluir credenciales de acceso a bases de datos, claves API de servicios externos, o configuraciones específicas del entorno de producción. Configurar correctamente estas variables en Railway garantiza que la aplicación se ejecute con los valores apropiados en cada despliegue, manteniendo la seguridad y permitiendo una adaptación flexible entre distintos entornos (desarrollo, pruebas, producción).
+
+    ###### Figura 76
+    *Página de la sección de agregado de variables de repositorios de la plataforma de Railway*
+
+     <img src="/assets/img/capitulo-4/deployment/railway-variables.png" alt="Página de agregado de variables de repositorios de la plataforma de Railway.">
+
+1. Una vez que hayamos definido todas las variables de entorno necesarias, procederemos a hacer clic en el botón "*Deploy Now*", lo cual iniciará el proceso de build y deploy de nuestra aplicación en Railway. Durante esta fase, Railway compilará el proyecto y gestionará la implementación, verificando que todas las configuraciones, dependencias y servicios externos estén correctamente conectados y configurados. Es importante monitorear el progreso en esta etapa para asegurarnos de que no haya errores en la compilación o despliegue, lo cual puede tardar unos minutos dependiendo de la complejidad del proyecto.
+
+    ###### Figura 77
+    *Página de la sección de estructuración y despliegue de repositorios de la plataforma de Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-construccion-despliegue.png" alt="Página de construcción y despliegue de repositorios de la plataforma de Railway.">
+
+2. Para acceder a la interfaz gráfica de Swagger para nuestro backend, utilizaremos el dominio proporcionado por Railway y añadiremos la ruta "/swagger-ui/index.html#/" al final de la URL. Esto le indica a Swagger que queremos usar su interfaz para interactuar con los métodos HTTP de nuestra API, evitando hacer peticiones directas a los endpoints. Así, obtendremos una URL similar a la siguiente:
+  
+   "https://wehaveidea-production.up.railway.app/swagger-ui/index.html#/"
+
+   Este enlace nos permitirá visualizar y probar todos los endpoints de nuestra API en un entorno controlado, facilitando la documentación y verificación de los servicios expuestos por el backend.
+
+    ###### Figura 78
+    *Página de la sección dedicada a la obtención del servicio Swagger del repositorio desplegado en la plataforma Railway*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-obtener-swagger.png" alt="Página dedicada a la obtención del servicio de Swagger del repositorio desplegado en la plataforma de Railway.">  
+
+3. Como podemos observar, nuestro backend ha sido desplegado exitosamente y está listo para ser utilizado. La plataforma de Railway confirma que el proceso de build y deploy se ha completado sin errores, permitiéndonos ahora acceder a todos los servicios y funcionalidades de la API. Esto nos asegura que la aplicación está disponible en el entorno de producción y lista para recibir solicitudes y responder a los endpoints configurados, cumpliendo así con los requerimientos del proyecto y facilitando el acceso a los desarrolladores y usuarios autorizados.
+
+    ###### Figura 79
+    *Presentación de evidencia del Servicio Swagger implementado para los servicios de la aplicación móvil de Roademics*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-mostrar-swagger.png" alt="Presentación del Servicio Swagger implementado para los servicios de la aplicación móvil de Roademics.">  
+  
+1. Al probar nuestro enlace en Postman para contactar un endpoint específico, recibimos un response con el código de estado 200, lo que indica que la solicitud fue procesada exitosamente.
+
+    ###### Figura 80
+    *Presentación de evidencia de la plataforma de Postman implementada para los servicios de la aplicación móvil de Roademics*
+
+    <img src="/assets/img/capitulo-4/deployment/railway-mostrar-postman.png" alt="Presentación de la plataforma de Postman implementada para los servicios de la aplicación móvil de Roademics."> 
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint
 
 Durante el Sprint 1 de la sección Software Development & Implementation, nos enfocamos en el desarrollo colaborativo del propio BackEnd de la aplicación móvil de Roademics, donde cada miembro del equipo contribuyó con sus habilidades y conocimientos. Esta colaboración se refleja en los numerosos commits realizados en nuestro repositorio de código, los cuales están respaldados por capturas de pantalla adjuntas para una documentación detallada.
 
@@ -901,10 +1165,9 @@ Nuestro equipo se reunió tanto en persona como virtualmente para asignar tareas
 
 Además, programamos sesiones regulares de brainstorming y resolución de problemas, donde compartimos ideas y abordamos cualquier duda o dificultad que surgiera durante el proceso de desarrollo. Estas reuniones fueron fundamentales para resolver obstáculos de manera efectiva y garantizar un progreso constante en la elaboración del FrontEnd del Web Application.
 
-###### Figura 88
+###### Figura 81
 *Reporte completo de contribuciones para el desarrollo del BackEnd de la Aplicación Móvil de Roademics durante el Sprint 2 de Software Development & Implementation.*
 
 <img src="/assets/img/Pulse-backend-for-main-sprint1.png" alt="Pulse for the Main Branch in Software Development and Implementation">
 <img src="/assets/img/Contributions-backend-for-main-sprint1.png" alt=Contributions for the Main Branch in Software Development and Implementation ">
 <img src="/assets/img/Individual-contributions-for-main-sprint1.png" alt="Individual Contributions for the Main Branch in Software Development and Implementation">
-
